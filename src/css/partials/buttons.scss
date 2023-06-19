@@ -1,0 +1,12 @@
+.button-wrapper {
+    padding: 1.4rem 2rem;
+
+    &.large {
+        padding: 2rem 4rem;
+        font-size: 1.5rem;
+    }
+
+    &.white {
+        background-color: white;
+    }
+}

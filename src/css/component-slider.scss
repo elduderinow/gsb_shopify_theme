@@ -1,0 +1,57 @@
+@import "./shopify/component-slider.scss", "../config/config.scss";
+
+.featured-collection--component {
+    .collection__title {
+        .title {
+            font-family: $font-primary;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 1.8rem;
+            margin-bottom: 0;
+            font-weight: 500;
+        }
+    }
+
+    .collection__description {
+        .description {
+            font-family: $font-primary;
+            text-align: center;
+            font-size: 1.3rem;
+            text-transform: uppercase;
+            color: rgb(165, 165, 165);
+        }
+    }
+    .slider--component {
+        ul.product-grid {
+            li.grid__item {
+                max-width: 100%;
+                width: calc(100% - var(--grid-mobile-horizontal-spacing) - 3rem);
+
+                @media screen and (min-width: 490px) {
+                    width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
+                }
+
+                @media screen and (min-width: $breakpoint-md) {
+                    width: calc(33.33% - var(--grid-mobile-horizontal-spacing) / 2);
+                }
+
+                @media screen and (min-width: $breakpoint-lg) {
+                    width: calc(25% - var(--grid-mobile-horizontal-spacing) - 3rem);
+                }
+            }
+        }
+    }
+
+    .collection--boxed {
+        max-width: var(--page-width);
+        margin: 0 auto;
+        padding-left: 50px;
+        padding-right: 50px;
+
+        .grid__item {
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+}

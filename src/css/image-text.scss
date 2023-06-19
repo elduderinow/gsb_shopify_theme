@@ -1,0 +1,73 @@
+@import "../config/config.scss";
+
+.image-text {
+    padding: 1.5rem 5rem;
+    max-width: $max-width;
+    margin: 0 auto;
+
+    .image-block {
+        position: relative;
+        overflow: hidden;
+
+        &:hover {
+            img {
+                transform: scale(1.1);
+            }
+        }
+        img {
+            position: absolute;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+            transition: transform 5s;
+        }
+    }
+
+    @media (max-width: $breakpoint-md) {
+        .image-block {
+            img {
+                position: relative;
+                aspect-ratio: 4/5;
+            }
+        }
+    }
+
+    .text-block {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 4rem;
+        gap: 4rem;
+
+        .button-wrapper {
+            padding: 0.5rem 1rem;
+        }
+
+        p + p {
+            margin-top: 1rem;
+        }
+
+        &.bg-green {
+            background-color: #a3decc;
+            color: white;
+
+            .image-with-text__heading {
+                color: white;
+            }
+
+            .button-wrapper {
+                background-color: white;
+                color: black;
+            }
+        }
+
+        &.bg-taupe {
+            background-color: #fcfaf7;
+            .button-wrapper {
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+}

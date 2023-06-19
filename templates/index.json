@@ -1,0 +1,217 @@
+{
+  "sections": {
+    "ae21b1cf-e274-41c2-9eee-47640c17a254": {
+      "type": "hero--main",
+      "blocks": {
+        "template--16887399645398__ae21b1cf-e274-41c2-9eee-47640c17a254-16821743124ba58cf6-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "New"
+          }
+        },
+        "template--16887399645398__ae21b1cf-e274-41c2-9eee-47640c17a254-16821743124ba58cf6-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Daybreak is a shopify theme extend from dawn, developed by yarrut franken."
+          }
+        },
+        "template--16887399645398__ae21b1cf-e274-41c2-9eee-47640c17a254-16821743124ba58cf6-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Discover",
+            "button_link_1": "shopify:\/\/products\/black-leather-bag",
+            "button_label_2": "Connect",
+            "button_link_2": "shopify:\/\/products\/longsleeve-cotton-top"
+          }
+        }
+      },
+      "block_order": [
+        "template--16887399645398__ae21b1cf-e274-41c2-9eee-47640c17a254-16821743124ba58cf6-0",
+        "template--16887399645398__ae21b1cf-e274-41c2-9eee-47640c17a254-16821743124ba58cf6-1",
+        "template--16887399645398__ae21b1cf-e274-41c2-9eee-47640c17a254-16821743124ba58cf6-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/header-girls_2700x_9d247d94-dd72-4c47-98c9-7b0bf56c2bc5.webp"
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Onze Collectie",
+        "description": "Premium Make-up en Gezichtsverzorging",
+        "show_description": false,
+        "collection": "featured",
+        "products_to_show": 3,
+        "columns_desktop": 4,
+        "select_width": "boxed",
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "fc30e4f2-fa6a-4517-9de2-ff100db05e32": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16887399645398__fc30e4f2-fa6a-4517-9de2-ff100db05e32-1682353569d1606559-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--16887399645398__fc30e4f2-fa6a-4517-9de2-ff100db05e32-1682353569d1606559-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16887399645398__fc30e4f2-fa6a-4517-9de2-ff100db05e32-1682353569d1606559-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16887399645398__fc30e4f2-fa6a-4517-9de2-ff100db05e32-1682353569d1606559-0",
+        "template--16887399645398__fc30e4f2-fa6a-4517-9de2-ff100db05e32-1682353569d1606559-1",
+        "template--16887399645398__fc30e4f2-fa6a-4517-9de2-ff100db05e32-1682353569d1606559-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/fashion-model-in-pink.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0157b5d5-761c-49e2-bf72-4f73ac826e4f": {
+      "type": "image-image",
+      "blocks": {
+        "template--16887399645398__0157b5d5-761c-49e2-bf72-4f73ac826e4f-168235362666a9130a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--16887399645398__0157b5d5-761c-49e2-bf72-4f73ac826e4f-168235362666a9130a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16887399645398__0157b5d5-761c-49e2-bf72-4f73ac826e4f-168235362666a9130a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16887399645398__0157b5d5-761c-49e2-bf72-4f73ac826e4f-168235362666a9130a-0",
+        "template--16887399645398__0157b5d5-761c-49e2-bf72-4f73ac826e4f-168235362666a9130a-1",
+        "template--16887399645398__0157b5d5-761c-49e2-bf72-4f73ac826e4f-168235362666a9130a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/woman-portrait-on-pink-brick.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "ae21b1cf-e274-41c2-9eee-47640c17a254",
+    "multicolumn",
+    "featured_collection",
+    "fc30e4f2-fa6a-4517-9de2-ff100db05e32",
+    "0157b5d5-761c-49e2-bf72-4f73ac826e4f"
+  ]
+}

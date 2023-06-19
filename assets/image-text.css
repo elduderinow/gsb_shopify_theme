@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+.image-text {
+  padding: 1.5rem 5rem;
+  max-width: 1536px;
+  margin: 0 auto;
+}
+.image-text .image-block {
+  position: relative;
+  overflow: hidden;
+}
+.image-text .image-block:hover img {
+  transform: scale(1.1);
+}
+.image-text .image-block img {
+  position: absolute;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  transition: transform 5s;
+}
+@media (max-width: 768px) {
+  .image-text .image-block img {
+    position: relative;
+    aspect-ratio: 4/5;
+  }
+}
+.image-text .text-block {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4rem;
+  gap: 4rem;
+}
+.image-text .text-block .button-wrapper {
+  padding: 0.5rem 1rem;
+}
+.image-text .text-block p + p {
+  margin-top: 1rem;
+}
+.image-text .text-block.bg-green {
+  background-color: #a3decc;
+  color: white;
+}
+.image-text .text-block.bg-green .image-with-text__heading {
+  color: white;
+}
+.image-text .text-block.bg-green .button-wrapper {
+  background-color: white;
+  color: black;
+}
+.image-text .text-block.bg-taupe {
+  background-color: #fcfaf7;
+}
+.image-text .text-block.bg-taupe .button-wrapper {
+  background-color: black;
+  color: white;
+}

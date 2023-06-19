@@ -1,0 +1,56 @@
+{
+  "name": "shopify_theme_daybreak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss build src/css/application.css -o assets/application.css",
+    "tailwind": "npx tailwindcss -i src/css/application.css -o assets/application.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elduderinow/shopify_theme_daybreak.git"
+  },
+  "keywords": [
+
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elduderinow/shopify_theme_daybreak/issues"
+  },
+  "homepage": "https://github.com/elduderinow/shopify_theme_daybreak#readme",
+  "dependencies": {
+    "@shopify/themekit": "^1.1.9",
+    "autoprefixer": "^10.4.13",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.27.10",
+    "browserify": "^17.0.0",
+    "del": "^7.0.0",
+    "gsap": "^3.11.3",
+    "gulp-add-src": "^1.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^8.0.0",
+    "postcss": "^8.4.19",
+    "precss": "^4.0.0",
+    "require": "^2.4.20",
+    "require-dir": "^1.2.0",
+    "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.18.9",
+    "gulp": "^4.0.2",
+    "gulp-purgecss": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.56.2"
+  }
+}

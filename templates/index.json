@@ -147,7 +147,8 @@
         "template--16887399645398__fc30e4f2-fa6a-4517-9de2-ff100db05e32-1682353569d1606559-2"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/young-woman-doing-yoga-outside.jpg",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -191,6 +192,7 @@
         "template--16887399645398__0157b5d5-761c-49e2-bf72-4f73ac826e4f-168235362666a9130a-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/makeup-and-jewelry.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

@@ -6,7 +6,7 @@
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/squatting-exercise.jpg",
+            "image": "shopify:\/\/shop_images\/23Jun-HP-Automat-Quiz-Big-Banner.jpg",
             "heading": "JUST IN: New Kits!",
             "heading_size": "h1",
             "subheading": "Curated kits for glowing, summer skin.",
@@ -15,7 +15,7 @@
             "link": "shopify:\/\/collections\/beauty-pro-skincare-pro-testers",
             "box_align": "middle-left",
             "text_alignment": "left",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 10,
             "text_alignment_mobile": "center"
           }
         },

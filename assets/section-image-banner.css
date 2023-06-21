@@ -396,9 +396,10 @@ body {
 }
 .banner__box .banner__heading.h1 {
   font-size: 5rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 .banner__box .banner__text {
   color: white;
   font-weight: 300;
+  font-size: 2rem;
 }

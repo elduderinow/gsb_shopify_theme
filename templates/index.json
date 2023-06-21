@@ -6,18 +6,16 @@
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/squatting-exercise.jpg",
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/23Jun-HP-Automat-Quiz-Big-Banner.jpg",
+            "heading": "JUST IN: New Kits!",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
+            "subheading": "Curated kits for glowing, summer skin.",
+            "subheading_size": "h5",
+            "button_label": "SHOP VALUE KITS",
+            "link": "shopify:\/\/collections\/beauty-pro-skincare-pro-testers",
             "box_align": "middle-left",
-            "show_text_box": false,
             "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "image_overlay_opacity": 10,
             "text_alignment_mobile": "center"
           }
         },
@@ -27,14 +25,12 @@
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
+            "subheading_size": "h5",
             "button_label": "Button label",
             "link": "",
-            "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
         }

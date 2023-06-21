@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 .card-wrapper {
   color: inherit;
   height: 100%;
@@ -426,6 +425,10 @@
     clip-path: polygon(var(--shape--blob-5));
   }
 }
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
 .card-product--component {
   overflow: hidden;
 }
@@ -442,7 +445,7 @@
 .card-product--component .card__content .card__information .full-unstyled-link {
   text-align: center;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   text-decoration: none;
 }
@@ -451,11 +454,11 @@
   text-align: center;
 }
 .card-product--component .card__content .card__information .price .price__container {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
   color: gray;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 990px) {
   .card-product--component .card__content {
     position: absolute;
     bottom: 0;
@@ -481,7 +484,7 @@
   transition: opacity 0.3s;
   opacity: 0.65;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 990px) {
   .card-product--component:hover .card__content {
     opacity: 1;
     transform: translateY(0);

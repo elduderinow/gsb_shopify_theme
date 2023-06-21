@@ -189,5 +189,5 @@ slideshow-component:not(.page-width) .slider-buttons {
 }
 
 .slideshow__text-wrapper.banner__content {
-  padding: 0;
+  padding: 0 3.2rem;
 }

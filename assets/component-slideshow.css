@@ -188,6 +188,6 @@ slideshow-component:not(.page-width) .slider-buttons {
   transform: scale(0.8);
 }
 
-.slideshow__text .slideshow__text--left {
+.slideshow__text .banner__box {
   padding: 0;
 }

@@ -396,6 +396,7 @@ body {
 }
 .banner__box .banner__heading.h1 {
   font-size: 5rem;
+  font-weight: 400;
 }
 .banner__box .banner__text {
   color: white;

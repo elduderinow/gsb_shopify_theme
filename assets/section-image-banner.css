@@ -394,6 +394,6 @@ body {
 .banner__box {
   padding: 0;
 }
-.banner__box .banner__heading .h1 {
+.banner__box .banner__heading.h1 {
   font-size: 10rem;
 }

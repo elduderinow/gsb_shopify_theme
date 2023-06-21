@@ -19,7 +19,7 @@
   object-position: top;
   transition: transform 5s;
 }
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   .image-text .image-block img {
     position: relative;
     aspect-ratio: 4/5;

@@ -379,12 +379,12 @@ slider-component.slider-component-full-width {
     width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 750px) {
   .featured-collection--component .slider--component ul.product-grid li.grid__item {
     width: calc(33.33% - var(--grid-mobile-horizontal-spacing) / 2);
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 990px) {
   .featured-collection--component .slider--component ul.product-grid li.grid__item {
     width: calc(25% - var(--grid-mobile-horizontal-spacing) - 3rem);
   }

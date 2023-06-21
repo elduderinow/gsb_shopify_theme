@@ -2,10 +2,11 @@
   background-color: rgba(0, 0, 0, 0);
   width: 100%;
   border-bottom: 0;
+  color: black;
 }
 .header-wrapper .header__menu-item {
-  color: white;
+  color: black;
 }
 .header-wrapper .header__menu-item .header__active-menu-item {
-  color: white;
+  color: black;
 }

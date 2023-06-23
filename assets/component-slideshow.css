@@ -196,6 +196,6 @@ body {
 }
 @media (min-width: 990px) {
   .slideshow__text-wrapper.banner__content {
-    padding: 0 5rem;
+    padding: 5rem 5rem;
   }
 }

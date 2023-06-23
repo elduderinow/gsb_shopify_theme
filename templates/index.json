@@ -13,7 +13,7 @@
             "subheading_size": "h5",
             "button_label": "SHOP VALUE KITS",
             "link": "shopify:\/\/collections\/beauty-pro-skincare-pro-testers",
-            "box_align": "middle-left",
+            "box_align": "bottom-left",
             "text_alignment": "left",
             "image_overlay_opacity": 10,
             "text_alignment_mobile": "center"

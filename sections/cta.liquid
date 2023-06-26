@@ -1,7 +1,7 @@
 {{ 'component-call-to-action.css' | asset_url | stylesheet_tag }}
 
 <div class="section-call-to-action global-section-x-padding scroll-trigger animate--slide-in">
-  <div class="flex bg-red-200 gap-x-2">
+  <div class="flex bg-red-200 gap-x-2 items-center">
     {%- for block in section.blocks -%}
       {%- if block.type == 'link' -%}
         <a class="px-8 py-4 bg-gray-300" href="{{ block.settings.linkurl }}"> {{ block.settings.linktext }} </a>

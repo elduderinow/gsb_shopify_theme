@@ -1,4 +1,4 @@
-@import 'shopify_base.css';
+@import 'shopify_base.css', '../config/config.scss';
 
 .shop-flex {
     display: flex;
@@ -8,4 +8,20 @@
     list-style: none;
     column-gap: var(--grid-mobile-horizontal-spacing);
     row-gap: var(--grid-mobile-vertical-spacing);
+}
+
+.global-section-x-padding {
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+
+    @media (min-width:$breakpoint-md){
+        padding-left: 3.2rem;
+        padding-right: 3.2rem;
+    }
+
+    @media (min-width:$breakpoint-lg){
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+  
 }

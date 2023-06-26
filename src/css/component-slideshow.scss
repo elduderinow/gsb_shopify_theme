@@ -5,9 +5,49 @@
         padding: 3.2rem;
     }
 
+    .slideshow__text {
+        .banner__text {
+            color: rgb(53, 53, 53);
+            margin-top: 0;
+        }
+    }
+
+ 
+    @media (min-width: $breakpoint-md) {
+        &.banner__content {
+            padding-bottom: 6rem;
+        }
+
+        .slideshow__text {
+            .banner__text {
+                color: white;
+            }
+        }
+    }
+
     @media (min-width: $breakpoint-lg) {
         &.banner__content {
             padding: 5rem;
+        }
+    }
+
+}
+
+.slideshow__controls {
+    border: none;
+    
+
+    @media (min-width: $breakpoint-md) {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        z-index: 2;
+
+        .slider-counter__link  {
+            .dot {
+                background-color: white;
+                border: none;
+            }
         }
     }
 }

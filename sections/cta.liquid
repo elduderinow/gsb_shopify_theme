@@ -1,3 +1,5 @@
+{{ 'call-to-action.css' | asset_url | stylesheet_tag }}
+
 <div class="call-to-action scroll-trigger animate--slide-in">
   {%- for block in section.blocks -%}
     {%- if block.type == 'link' -%}

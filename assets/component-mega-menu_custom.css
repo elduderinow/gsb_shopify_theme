@@ -2,3 +2,6 @@
   width: 100%;
   border-bottom: 0;
 }
+.header-wrapper .list-menu li {
+  border-right: 1px solid gray;
+}

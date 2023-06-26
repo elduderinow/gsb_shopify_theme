@@ -1496,6 +1496,11 @@
         "name": "Image with text"
       }
     },
+    "call_to_action": {
+      "presets": {
+        "name": "call to action"
+      }
+    },
     "image-image": {
       "name": "Image Image",
       "settings": {

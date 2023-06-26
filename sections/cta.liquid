@@ -3,8 +3,7 @@
 <div class="section-call-to-action global-section-x-padding scroll-trigger animate--slide-in">
   {%- for block in section.blocks -%}
     {%- if block.type == 'link' -%}
-      <p class="">Label: {{ block.settings.linktext }}</p>
-      <p class="">URL: {{ block.settings.linkurl }}</p>
+      <a href="{{ block.settings.linkurl }}"> {{ block.settings.linktext }} </a>
     {%- endif -%}
   {%- endfor -%}
 </div>

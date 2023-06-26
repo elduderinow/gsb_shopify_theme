@@ -1,6 +1,5 @@
 {%- for block in section.blocks -%}
-  {{ block | type }}
-  <p class="bg-green-200">test {{ block.link.label }}</p>
+  <p class="bg-green-200">test {{ block.linkurl }}</p>
 {%- endfor -%}
 
 {% schema %}

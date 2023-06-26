@@ -537,6 +537,11 @@
         "name": "Apps"
       }
     },
+    "call-to-action":{
+      "presents": {
+        "name":"call to action"
+      }
+    },
     "collage": {
       "name": "Collage",
       "settings": {
@@ -1494,11 +1499,6 @@
       },
       "presets": {
         "name": "Image with text"
-      }
-    },
-    "call_to_action": {
-      "presets": {
-        "name": "call to action"
       }
     },
     "image-image": {

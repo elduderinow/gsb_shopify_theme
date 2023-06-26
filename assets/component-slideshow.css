@@ -206,3 +206,6 @@ slideshow-component .slideshow__controls {
   bottom: 0;
   z-index: 2;
 }
+slideshow-component .slideshow__controls .slider-counter__link .dot {
+  background-color: red;
+}

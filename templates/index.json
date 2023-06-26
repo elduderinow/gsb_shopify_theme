@@ -91,10 +91,10 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "<strong>Title<\/strong>",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "shop nu",
+            "link": "shopify:\/\/products\/1-start-to-glo-online"
           }
         },
         "column2": {

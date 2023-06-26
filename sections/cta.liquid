@@ -4,7 +4,7 @@
   <div class="flex bg-red-200 gap-x-2 justify-center">
     {%- for block in section.blocks -%}
       {%- if block.type == 'link' -%}
-        <a class="px-8 py-4 bg-[#727272]" href="{{ block.settings.linkurl }}"> {{ block.settings.linktext }} </a>
+        <a class="button button--primary" href="{{ block.settings.linkurl }}"> {{ block.settings.linktext }} </a>
       {%- endif -%}
     {%- endfor -%}
   </div>

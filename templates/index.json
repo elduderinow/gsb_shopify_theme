@@ -135,7 +135,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 80,
-        "padding_bottom": 0
+        "padding_bottom": 80
       }
     },
     "featured_collection": {

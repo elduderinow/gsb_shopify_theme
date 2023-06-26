@@ -33,10 +33,64 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "3b2eec19-5ff2-44d5-a5d6-0d3b30e301d5": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "HIGHLIGHTS INGREDIËNTEN",
+        "description": "",
+        "show_description": false,
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "select_width": "full_width",
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "71a460a1-c5db-4f10-8a12-2e509b22039c": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "HIGHLIGHT PRODUCTEN",
+        "description": "",
+        "show_description": false,
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "select_width": "full_width",
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "7c0455ea-3137-469f-b11a-5c75459d11c7"
+    "7c0455ea-3137-469f-b11a-5c75459d11c7",
+    "3b2eec19-5ff2-44d5-a5d6-0d3b30e301d5",
+    "71a460a1-c5db-4f10-8a12-2e509b22039c"
   ]
 }

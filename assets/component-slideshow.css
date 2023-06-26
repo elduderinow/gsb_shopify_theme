@@ -207,3 +207,10 @@ body {
 .slideshow__controls {
   border: none;
 }
+@media (min-width: 990px) {
+  .slideshow__controls {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}

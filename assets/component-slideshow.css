@@ -205,6 +205,7 @@ slideshow-component .slideshow__controls {
   width: 100%;
   bottom: 0;
   z-index: 2;
+  border: none;
 }
 slideshow-component .slideshow__controls .slider-counter__link .dot {
   background-color: white;

@@ -1,6 +1,9 @@
 {{ section | json }}
 {%- for block in section.blocks -%}
-  <p class="bg-green-200">test {{ block.linkurl }}</p>
+  {%- if block.type == 'link' -%}
+    <p class="bg-green-200">Label: {{ block.settings.linktext }}</p>
+    <p class="bg-green-200">URL: {{ block.settings.linkurl }}</p>
+  {%- endif -%}
 {%- endfor -%}
 
 {% schema %}

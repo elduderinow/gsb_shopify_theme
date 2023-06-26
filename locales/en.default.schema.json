@@ -537,6 +537,11 @@
         "name": "Apps"
       }
     },
+    "call-to-action": {
+      "presents": {
+        "name": "call to action"
+      }
+    },
     "collage": {
       "name": "Collage",
       "settings": {

@@ -219,4 +219,8 @@ body {
     width: 100%;
     z-index: 2;
   }
+  .slideshow__controls .slider-counter__link .dot {
+    background-color: white;
+    border: none;
+  }
 }

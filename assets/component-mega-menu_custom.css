@@ -5,3 +5,7 @@
 .header-wrapper .list-menu li {
   border-right: 1px solid gray;
 }
+.header-wrapper .list-menu li .header__menu-item {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}

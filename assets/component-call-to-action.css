@@ -4,5 +4,6 @@ body {
 }
 
 .section-call-to-action {
-  background-color: green;
+  background-color: rgb(218, 218, 218);
+  padding: 5rem;
 }

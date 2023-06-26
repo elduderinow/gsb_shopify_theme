@@ -1,6 +1,20 @@
 {{ 'component-call-to-action.css' | asset_url | stylesheet_tag }}
 
-<div class="section-call-to-action global-section-x-padding scroll-trigger animate--slide-in">
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="section-call-to-action global-section-x-padding section-{{ section.id }}-padding scroll-trigger animate--slide-in">
   <div class="flex gap-x-8 justify-center">
     {%- for block in section.blocks -%}
       {%- if block.type == 'link' -%}

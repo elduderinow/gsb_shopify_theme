@@ -10,6 +10,9 @@ body {
 .header-wrapper .list-menu li {
   border-right: 1px solid rgba(146, 146, 146, 0.5);
 }
+.header-wrapper .list-menu li:last-child {
+  border-right: none;
+}
 .header-wrapper .list-menu li .header__menu-item {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;

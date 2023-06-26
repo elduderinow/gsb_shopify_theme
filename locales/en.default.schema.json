@@ -1496,7 +1496,7 @@
         "name": "Image with text"
       }
     },
-    "call-to-action": {
+    "call_to_action": {
       "presets": {
         "name": "call-to-action"
       }

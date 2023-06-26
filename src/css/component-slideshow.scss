@@ -3,6 +3,7 @@
 .slideshow__text-wrapper {
     &.banner__content {
         padding: 3.2rem;
+        background-color: pink;
     }
 
     @media (min-width: $breakpoint-lg) {

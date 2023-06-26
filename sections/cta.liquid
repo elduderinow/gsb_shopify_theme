@@ -1,0 +1,47 @@
+{{ 'component-call-to-action.css' | asset_url | stylesheet_tag }}
+
+<div class="section-call-to-action scroll-trigger animate--slide-in">
+  {%- for block in section.blocks -%}
+    {%- if block.type == 'link' -%}
+      <p class="">Label: {{ block.settings.linktext }}</p>
+      <p class="">URL: {{ block.settings.linkurl }}</p>
+    {%- endif -%}
+  {%- endfor -%}
+</div>
+{% schema %}
+{
+  "name": "call to action",
+  "class": "call-to-action",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "blocks": [
+    {
+      "type": "link",
+      "name": "Link",
+      "settings": [
+        {
+          "id": "linkurl",
+          "type": "url",
+          "label": "URL link"
+        },
+        {
+          "id": "linktext",
+          "type": "text",
+          "label": "Link text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "call to action",
+      "blocks": [
+        {
+          "type": "link"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

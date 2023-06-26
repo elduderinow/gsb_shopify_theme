@@ -210,3 +210,6 @@ slideshow-component .slideshow__controls .slider-counter__link .dot {
   background-color: white;
   border: none;
 }
+slideshow-component .slideshow__controls .slider-counter__link.slider-counter__link--active .dot {
+  background-color: black;
+}

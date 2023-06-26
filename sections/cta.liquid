@@ -1,11 +1,11 @@
-{{ section | json }}
-{%- for block in section.blocks -%}
-  {%- if block.type == 'link' -%}
-    <p class="bg-green-200">Label: {{ block.settings.linktext }}</p>
-    <p class="bg-green-200">URL: {{ block.settings.linkurl }}</p>
-  {%- endif -%}
-{%- endfor -%}
-
+<div class="call-to-action scroll-trigger animate--slide-in">
+  {%- for block in section.blocks -%}
+    {%- if block.type == 'link' -%}
+      <p class="bg-green-200">Label: {{ block.settings.linktext }}</p>
+      <p class="bg-green-200">URL: {{ block.settings.linkurl }}</p>
+    {%- endif -%}
+  {%- endfor -%}
+</div>
 {% schema %}
 {
   "name": "call to action",

@@ -125,7 +125,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 80,
-        "padding_bottom": 80
+        "padding_bottom": 0
       }
     },
     "d18454d1-50ca-4d40-8572-5d8cac19ed30": {
@@ -151,6 +151,8 @@
         "eaec8551-86f0-4c49-8f65-898e6c8e69f9"
       ],
       "settings": {
+        "padding_top": 24,
+        "padding_bottom": 80
       }
     },
     "featured_collection": {

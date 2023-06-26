@@ -195,7 +195,7 @@ body {
   padding: 3.2rem;
 }
 .slideshow__text-wrapper .slideshow__text .banner__text {
-  color: black;
+  color: rgb(53, 53, 53);
 }
 @media (min-width: 990px) {
   .slideshow__text-wrapper.banner__content {

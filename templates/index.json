@@ -135,14 +135,14 @@
           "type": "link",
           "settings": {
             "linkurl": "http:\/\/test.be",
-            "linktext": "link 1"
+            "linktext": "Ontmoet onze glo Skin Beauty Experts"
           }
         },
         "eaec8551-86f0-4c49-8f65-898e6c8e69f9": {
           "type": "link",
           "settings": {
             "linkurl": "shopify:\/\/products\/0000-7-leaflet-glo-skin-beauty",
-            "linktext": "meer weten"
+            "linktext": "Meer weten"
           }
         }
       },

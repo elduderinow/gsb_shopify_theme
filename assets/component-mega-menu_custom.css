@@ -3,9 +3,11 @@
   border-bottom: 0;
 }
 .header-wrapper .list-menu li {
-  border-right: 1px solid gray;
+  border-right: 1px solid rgb(176, 176, 176);
 }
 .header-wrapper .list-menu li .header__menu-item {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
 }

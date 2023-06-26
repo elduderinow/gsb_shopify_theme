@@ -199,3 +199,7 @@ body {
     padding: 5rem;
   }
 }
+
+.slideshow__controls {
+  position: absolute;
+}

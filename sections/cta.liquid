@@ -1,5 +1,5 @@
 {%- for block in section.blocks -%}
-  {{ block | json }}
+  {{ block | type }}
   <p class="bg-green-200">test {{ block.link.label }}</p>
 {%- endfor -%}
 

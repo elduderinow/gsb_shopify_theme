@@ -200,6 +200,6 @@ body {
   }
 }
 
-.slideshow__controls {
+slideshow-component .slideshow__controls {
   position: absolute;
 }

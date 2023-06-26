@@ -8,4 +8,5 @@
 .header-wrapper .list-menu li .header__menu-item {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  text-transform: uppercase;
 }

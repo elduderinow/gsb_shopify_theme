@@ -1,0 +1,21 @@
+@import "./shopify/section-image-banner.scss", "../config/config.scss";
+
+.banner__box {
+    padding: 0;
+    .banner__heading {
+
+        &.h1 {
+            font-size: 5rem;
+            font-weight: 500;
+        }
+    }
+
+    .banner__text {
+        color: white;
+        font-weight: 300;
+        font-size: 2.5rem;
+    }
+    // @media (min-width:$breakpoint--md) {
+    //     padding: 0;
+    // }
+}

@@ -446,6 +446,21 @@
           "label": "Extra large"
         }
       },
+      "subheading_size": {
+        "label": "Subheading size",
+        "options__1": {
+          "label": "Small"
+        },
+        "options__2": {
+          "label": "Medium"
+        },
+        "options__3": {
+          "label": "Large"
+        },
+        "options__4": {
+          "label": "Extra large"
+        }
+      },
       "image_shape": {
         "options__1": {
           "label": "Default"
@@ -520,6 +535,12 @@
       },
       "presets": {
         "name": "Apps"
+      }
+    },
+    "call-to-action": {
+      "name": "call to action",
+      "presents": {
+        "name": "call to action"
       }
     },
     "collage": {

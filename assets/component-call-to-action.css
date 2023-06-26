@@ -3,13 +3,6 @@ body {
   font-family: "Roboto", sans-serif !important;
 }
 
-.text-text {
-  max-width: 1536px;
-  margin: 0 auto;
-  padding: 5rem;
-}
-.text-text .text-block .text-text__heading {
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
+.section-call-to-action {
+  background-color: red;
 }

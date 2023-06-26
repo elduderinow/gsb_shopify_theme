@@ -1,15 +1,15 @@
 .header-wrapper {
-    background-color: rgba(0, 0, 0, 0);
-    position: absolute;
+    background-color:white;
+    // position: absolute;
     width: 100%;
     border-bottom: 0;
-    color: white;
+    color: black;
 
     .header__menu-item {
-        color: white;
+        color: black;
         
         .header__active-menu-item {
-            color: white;
+            color: black;
         }
     }
 }

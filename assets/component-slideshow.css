@@ -196,6 +196,7 @@ body {
 }
 .slideshow__text-wrapper .slideshow__text .banner__text {
   color: rgb(53, 53, 53);
+  margin-top: 0;
 }
 @media (min-width: 990px) {
   .slideshow__text-wrapper.banner__content {

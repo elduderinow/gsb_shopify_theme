@@ -106,7 +106,10 @@
                 width="{{ block.settings.image.width }}"
                 height="{{ block.settings.image.height }}"
               >
-              <div class="flex w-full bg-gray-200"></div>
+              <div class="flex w-full text-center bg-gray-200">
+                <h2>{{ block.settings.image_title }}</h2>
+                <p>{{ block.settings.image_subtitle }}</p>
+              </div>
             </li>
           {%- endif -%}
         {%- else -%}

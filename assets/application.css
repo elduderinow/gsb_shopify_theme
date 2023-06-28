@@ -667,6 +667,10 @@ video {
   text-align: center;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .uppercase {
   text-transform: uppercase;
 }

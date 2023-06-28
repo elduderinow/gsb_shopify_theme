@@ -34,16 +34,18 @@
               sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
               alt="{{ block.settings.image.alt | escape }}"
               class="motion-reduce"
-              {% unless lazy_load == false %}
-                loading="lazy"
-              {% endunless %}
+              {% comment %}
+                {% unless lazy_load == false %}
+                  loading="lazy"
+                {% endunless %}
+              {% endcomment %}
               width="{{ block.settings.image.width }}"
               height="{{ block.settings.image.height }}"
             >
           </a>
           <div class="">
             <h2>{{ block.settings.image_title }}</h2>
-            <p></p>
+            <p>{{ block.settings.image_subtitle }}</p>
           </div>
         </div>
       {%- endif -%}

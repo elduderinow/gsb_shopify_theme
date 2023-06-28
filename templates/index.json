@@ -128,41 +128,15 @@
         "padding_bottom": 0
       }
     },
-    "d18454d1-50ca-4d40-8572-5d8cac19ed30": {
-      "type": "cta",
-      "blocks": {
-        "template--19143340065115__d18454d1-50ca-4d40-8572-5d8cac19ed30-16878069929d0eacbc-0": {
-          "type": "link",
-          "settings": {
-            "linkurl": "http:\/\/test.be",
-            "linktext": "Ontmoet onze glo Skin Beauty Experts"
-          }
-        },
-        "eaec8551-86f0-4c49-8f65-898e6c8e69f9": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/products\/0000-7-leaflet-glo-skin-beauty",
-            "linktext": "Meer weten"
-          }
-        }
-      },
-      "block_order": [
-        "template--19143340065115__d18454d1-50ca-4d40-8572-5d8cac19ed30-16878069929d0eacbc-0",
-        "eaec8551-86f0-4c49-8f65-898e6c8e69f9"
-      ],
-      "settings": {
-        "padding_top": 24,
-        "padding_bottom": 80
-      }
-    },
     "d505918e-6980-4bce-bf30-44f0ad46b8c3": {
       "type": "highlight",
       "blocks": {
         "template--19143340065115__d505918e-6980-4bce-bf30-44f0ad46b8c3-1687975731e5796a2d-0": {
           "type": "highlight",
           "settings": {
-            "linkurl": "",
-            "linktext": ""
+            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_peels.jpg",
+            "image-title": "Treatments + Peels",
+            "image-subtitle": "better face"
           }
         }
       },
@@ -321,7 +295,6 @@
     "a9132cbf-2ea9-4bb0-96e9-1e58e1371a27",
     "ae21b1cf-e274-41c2-9eee-47640c17a254",
     "multicolumn",
-    "d18454d1-50ca-4d40-8572-5d8cac19ed30",
     "d505918e-6980-4bce-bf30-44f0ad46b8c3",
     "featured_collection",
     "fc30e4f2-fa6a-4517-9de2-ff100db05e32",

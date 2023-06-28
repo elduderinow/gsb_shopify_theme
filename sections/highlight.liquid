@@ -29,7 +29,7 @@
 {%- endstyle -%}
 
 {%- liquid
-  assign products_to_display = section.settings.collection.all_products_count
+  assign products_to_display = 4
 
   if section.settings.collection.all_products_count > section.settings.products_to_show
     assign products_to_display = section.settings.products_to_show

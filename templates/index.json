@@ -173,6 +173,7 @@
       "settings": {
         "title": "Featured collection",
         "description": "dzaadzdd",
+        "collection": "alles-zonder-tools-displays-1",
         "select_width": "boxed",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",

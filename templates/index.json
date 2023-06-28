@@ -190,6 +190,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Wat maakt glo skin beauty uniek?",
         "description": "Premium Make-up en Gezichtsverzorging",

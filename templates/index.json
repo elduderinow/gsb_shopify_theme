@@ -138,10 +138,19 @@
             "image-title": "Treatments + Peels",
             "image-subtitle": "better face"
           }
+        },
+        "83e4fc1d-b68e-4194-9d39-fd375c930bf1": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Serums_Desktop.webp",
+            "image-title": "serums",
+            "image-subtitle": "the way to go"
+          }
         }
       },
       "block_order": [
-        "template--19143340065115__d505918e-6980-4bce-bf30-44f0ad46b8c3-1687975731e5796a2d-0"
+        "template--19143340065115__d505918e-6980-4bce-bf30-44f0ad46b8c3-1687975731e5796a2d-0",
+        "83e4fc1d-b68e-4194-9d39-fd375c930bf1"
       ],
       "settings": {
         "padding_top": 36,

@@ -635,6 +635,11 @@ video {
   white-space: nowrap;
 }
 
+.bg-pink-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 114 182 / var(--tw-bg-opacity));
+}
+
 .text-left {
   text-align: left;
 }

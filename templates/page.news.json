@@ -1,20 +1,4 @@
 {
-<<<<<<< HEAD
-    "sections": {
-      "main": {
-        "type": "main-page",
-        "settings": {
-          "padding_top": 28,
-          "padding_bottom": 28
-        }
-      }
-    },
-    "order": [
-      "main"
-    ]
-  }
-  
-=======
   "sections": {
     "main": {
       "type": "main-page",
@@ -181,4 +165,3 @@
     "b3474c28-c7ba-4937-8cb6-1b2400c687dc"
   ]
 }
->>>>>>> 18b412948cce5c358c044092ac74195a6dbc1260

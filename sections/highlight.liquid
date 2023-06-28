@@ -42,9 +42,12 @@
         {% endcomment %}
       </a>
     </div>
-    <div class="bg-pink-400 w-full block">col1</div>
-    <div class="bg-pink-400 w-full block">col1</div>
-    <div class="bg-pink-400 w-full block">col1</div>
+
+    {%- for block in section.blocks -%}
+      {%- if block.type == 'highlight' -%}
+        <div class="bg-pink-400 w-full block">col1</div>
+      {%- endif -%}
+    {%- endfor -%}
   </div>
 </div>
 

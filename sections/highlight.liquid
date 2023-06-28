@@ -19,7 +19,7 @@
 -%}
 
 <div class="section-highlight global-section-x-padding section-{{ section.id }}-padding scroll-trigger animate--slide-in">
-  <div class="flex gap-x-8 justify-center">
+  <div class="flex gap-x-16 justify-center">
     {%- for block in section.blocks -%}
       {%- if block.type == 'highlight' -%}
         <div style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;" class="w-full block">

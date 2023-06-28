@@ -629,6 +629,11 @@ video {
        column-gap: 2rem;
 }
 
+.gap-x-16 {
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
+}
+
 .truncate {
   overflow: hidden;
   text-overflow: ellipsis;

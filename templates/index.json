@@ -172,7 +172,9 @@
       ],
       "settings": {
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "image_ratio": "adapt",
+        "swipe_on_mobile": true
       }
     },
     "featured_collection": {

@@ -173,7 +173,7 @@
       "settings": {
         "title": "Glo Skin Beauty Mineral Makeup & Skincare Products",
         "description": "Browse Our Best Selling Categories",
-        "select_width": "full_width",
+        "select_width": "boxed",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",

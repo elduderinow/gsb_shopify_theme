@@ -22,7 +22,7 @@
   <div class="flex gap-x-8 justify-center">
     {%- for block in section.blocks -%}
       {%- if block.type == 'highlight' -%}
-        <div class="w-full block">
+        <div style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;" class="w-full block">
           <a href="">
             <img
               srcset="

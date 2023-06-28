@@ -146,11 +146,20 @@
             "image-title": "serums",
             "image-subtitle": "the way to go"
           }
+        },
+        "e09cb283-8830-4cf1-9a4d-cba67bbe3e28": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Foundation_Desktop_1.jpg",
+            "image-title": "Foundations",
+            "image-subtitle": ""
+          }
         }
       },
       "block_order": [
         "template--19143340065115__d505918e-6980-4bce-bf30-44f0ad46b8c3-1687975731e5796a2d-0",
-        "83e4fc1d-b68e-4194-9d39-fd375c930bf1"
+        "83e4fc1d-b68e-4194-9d39-fd375c930bf1",
+        "e09cb283-8830-4cf1-9a4d-cba67bbe3e28"
       ],
       "settings": {
         "padding_top": 36,

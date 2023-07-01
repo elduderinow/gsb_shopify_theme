@@ -21,8 +21,7 @@
     <div class="highlight--title">
       {%- if section.settings.title != blank -%}
         <h2
-          class="rich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          {{ block.shopify_attributes }}
+          class="rich-text__heading rte inline-richtext h1 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {% if settings.animations_reveal_on_scroll %}
             data-cascade
           {% endif %}

@@ -208,6 +208,9 @@ body {
   font-family: "Roboto", sans-serif !important;
 }
 
+.multicolumn-list {
+  column-gap: 0;
+}
 .multicolumn-list.grid--1-col-desktop .grid__item {
   width: 100%;
 }

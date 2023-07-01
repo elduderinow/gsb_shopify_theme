@@ -1,3 +1,90 @@
+@import "../config/config.scss";
+
 .section-highlight {
-    // background-color: red;
+    max-width: $max-width;
+    .highlight--title {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 4rem;
+    }
+    .swiper {
+        position: relative;
+        .swiper-wrapper {
+            margin-bottom: 2rem;
+            margin-left: 12%;
+            @media (min-width: $breakpoint-sm) {
+                margin-left: 0;
+            }
+
+            .link-wrapper {
+                // padding: 0 5rem;
+                .image-wrapper {
+                    aspect-ratio: 4/5;
+                    overflow: hidden;
+                    img {
+                        object-fit: cover;
+                        height: 100%;
+                        width: 100%;
+                        transition: transform 0.3s ease-in-out;
+                    }
+                }
+
+                @media (min-width: $breakpoint-lg) {
+                    .image-wrapper {
+                        aspect-ratio: 4/6;
+                    }
+                }
+
+                &:hover {
+                    .image-wrapper img {
+                        transform: scale(1.08);
+                    }
+                }
+            }
+        }
+        .swiper--controls {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            .swiper-pagination {
+                width: auto;
+                position: relative;
+                top: 0;
+
+                .swiper-pagination-bullet {
+                    background-color: white;
+                    border: 1px solid black;
+                    width: 10px;
+                    height: 10px;
+
+                    &.swiper-pagination-bullet-active {
+                        background-color: black;
+                    }
+                }
+            }
+
+            .swiper-button {
+                .slider-button {
+                    color: black;
+                    background: transparent;
+                    border: none;
+                    cursor: pointer;
+                    width: 44px;
+                    height: 44px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                @media (min-width: $breakpoint-lg) {
+                    display: none;
+                }
+            }
+        }
+    }
 }

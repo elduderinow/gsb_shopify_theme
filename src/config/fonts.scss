@@ -3,6 +3,91 @@
 $font-primary: "Roboto", sans-serif;
 $body-font: "Roboto", sans-serif;
 
+@function strip-unit($value) {
+    @return $value / ($value * 0 + 1);
+}
+
+@mixin fluid-type($min-font-size, $max-font-size) {
+    $u1: unit(640px);
+    $u2: unit(1024px);
+    $u3: unit($min-font-size);
+    $u4: unit($max-font-size);
+
+    @if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 {
+        & {
+            font-size: $min-font-size;
+            line-height: calc($min-font-size * 1.15);
+            @media screen and (min-width: 640px) {
+                font-size: calc(
+                    #{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} *
+                        ((100vw - #{640px}) / #{strip-unit(1024px - 640px)})
+                );
+                line-height: calc(
+                    #{$min-font-size} * 1.15 + #{strip-unit($max-font-size - $min-font-size)} *
+                        ((100vw - #{640px}) / #{strip-unit(1024px - 640px)})
+                );
+            }
+            @media screen and (min-width: 1024px) {
+                font-size: $max-font-size;
+                line-height: calc($max-font-size * 1.15);
+            }
+        }
+    }
+}
+
+@mixin header-style {
+    font-family: $font-primary;
+    color: black;
+    font-weight: 700;
+}
+
+@mixin body-style {
+    font-family: $body-font;
+    font-weight: 400;
+    color: black;
+
+    &.text-bold {
+        font-weight: 700;
+    }
+}
+
+@mixin h1-text {
+    @include header-style;
+    @include fluid-type(38px, 60px);
+}
+
+@mixin h2-text {
+    @include header-style;
+    @include fluid-type(32px, 50px);
+}
+
+@mixin h3-text {
+    @include header-style;
+    @include fluid-type(26px, 40px);
+}
+
+@mixin h4-text {
+    @include header-style;
+    @include fluid-type(22px, 34px);
+}
+
+@mixin h5-text {
+    @include header-style;
+    @include fluid-type(20px, 26px);
+}
+
+@mixin h6-text {
+    @include header-style;
+    @include fluid-type(12px, 16px);
+}
+
+@mixin p-text {
+    @include body-style;
+    font-size: 16px;
+    line-height: 26px;
+    color: get-gray-color(base);
+}
+
 @mixin font-body-400 {
     font-family: $font-primary;
     font-size: 1.3rem;
@@ -11,3 +96,33 @@ $body-font: "Roboto", sans-serif;
 body {
     font-family: $font-primary !important;
 }
+
+// h1,
+// .h1-text {
+//     @include h1-text;
+// }
+
+// h2,
+// .h2-text {
+//     @include h2-text;
+// }
+
+// h3,
+// .h3-text {
+//     @include h3-text;
+// }
+
+// h4,
+// .h4-text {
+//     @include h4-text;
+// }
+
+// h5,
+// .h5-text {
+//     @include h5-text;
+// }
+
+// h6,
+// .h6-text {
+//     @include h6-text;
+// }

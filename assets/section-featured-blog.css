@@ -86,12 +86,10 @@ body {
 }
 
 .section-featured-blog .blog__posts.articles-wrapper {
-  background-color: pink;
-  display: grid !important;
+  display: grid;
   grid-template-columns: auto auto auto;
 }
 .section-featured-blog .blog__posts.articles-wrapper .grid__item {
   width: 100%;
-  background-color: green;
   max-width: 100%;
 }

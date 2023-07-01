@@ -298,116 +298,6 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "3e1a80f7-36c5-4228-8e9a-16aee21344cf": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
-            "title": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "c501e261-626f-42e9-aac4-c8e3672c63df": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
-            "title": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "724a231c-676e-40f7-b0ef-cd7a3c15a067": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
-            "title": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "62b3a289-8521-4326-87ed-9b153af8d85c": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
-            "title": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "3d269c08-b184-4e5e-88e4-5af403392c5a": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
-            "title": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "045a03a5-c21d-45be-aa0e-9346b27cb348": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
-            "title": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "4424d7f1-abc0-4289-90de-42f9bed68e61": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
-            "title": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "ca9f61ad-a9ca-41f8-92f5-775133616181": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
-            "title": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "64d7a726-f303-4a51-9cbf-5f299d136146": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
-            "title": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "2ecce99a-7b34-467e-ba44-5b8e635a0bc4": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
-            "title": "Column",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -415,17 +305,7 @@
         "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-1",
         "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-2",
         "ed105618-3561-462f-9054-6edf1052805c",
-        "22505426-65eb-4e2b-bca7-5a01518024f0",
-        "3e1a80f7-36c5-4228-8e9a-16aee21344cf",
-        "c501e261-626f-42e9-aac4-c8e3672c63df",
-        "724a231c-676e-40f7-b0ef-cd7a3c15a067",
-        "62b3a289-8521-4326-87ed-9b153af8d85c",
-        "3d269c08-b184-4e5e-88e4-5af403392c5a",
-        "045a03a5-c21d-45be-aa0e-9346b27cb348",
-        "4424d7f1-abc0-4289-90de-42f9bed68e61",
-        "ca9f61ad-a9ca-41f8-92f5-775133616181",
-        "64d7a726-f303-4a51-9cbf-5f299d136146",
-        "2ecce99a-7b34-467e-ba44-5b8e635a0bc4"
+        "22505426-65eb-4e2b-bca7-5a01518024f0"
       ],
       "settings": {
         "title": "",
@@ -445,6 +325,62 @@
         "padding_top": 36,
         "padding_bottom": 80
       }
+    },
+    "1ecd70ec-550e-4ee0-9b19-cbdc86548b9c": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19143340065115__1ecd70ec-550e-4ee0-9b19-cbdc86548b9c-1688229291c922cd03-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Bij Glo Skin Beauty geloven we dat huidverzorging zelfverzorging is en dat de producten die je elke dag gebruikt een aanzienlijk verschil moeten maken voor je gezondheid en welzijn. We doen grondig onderzoek naar onze formules om bewust schone, klinisch bewezen huidverzorging en cosmetica samen te stellen, ontwikkeld om echte verandering te brengen in jou en je huid. Onze grondstoffen en eindproducten worden nooit op dieren getest, en we zijn trots lid van PETA's Beauty Without Bunnies. We zijn vastbesloten om tegen 2023 volledig veganistisch te worden.<br\/><br\/>Omdat we begrijpen dat wat er niet in onze producten zit net zo belangrijk is als wat er wel in zit, gebruiken we alleen de hoogste kwaliteit, vertrouwde ingrediënten in effectieve concentraties om baanbrekende resultaten te behalen zonder concessies te doen aan de veiligheid van de huid.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19143340065115__1ecd70ec-550e-4ee0-9b19-cbdc86548b9c-1688229291c922cd03-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>We hanteren een 'less is more'-benadering, waarbij we minimale ingrediënten gebruiken voor maximale effectiviteit. Onze toewijding aan schoonheid betekent dat we nooit formuleren met parabenen, talk, kunstmatige geurstoffen, irriterende sulfaten, ftalaten, agressieve kleurstoffen, polyethyleenkorrels of minerale olie.<\/p><p>We blijven formuleren, evalueren en innoveren om ervoor te zorgen dat onze producten compromisloos schoon blijven.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19143340065115__1ecd70ec-550e-4ee0-9b19-cbdc86548b9c-1688229291c922cd03-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19143340065115__1ecd70ec-550e-4ee0-9b19-cbdc86548b9c-1688229291c922cd03-0",
+        "template--19143340065115__1ecd70ec-550e-4ee0-9b19-cbdc86548b9c-1688229291c922cd03-1",
+        "template--19143340065115__1ecd70ec-550e-4ee0-9b19-cbdc86548b9c-1688229291c922cd03-2"
+      ],
+      "settings": {
+        "title": "Onze Toewijding aan Schoonheid",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "icon__grid": false,
+        "column_alignment": "left",
+        "item_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -454,6 +390,7 @@
     "fae5378e-1912-4d51-916f-e1f0c1a488a0",
     "d505918e-6980-4bce-bf30-44f0ad46b8c3",
     "36581f1d-ed42-44a4-ba6e-322786b4adbc",
-    "0544e851-a779-4248-a67e-cbec20d2a40e"
+    "0544e851-a779-4248-a67e-cbec20d2a40e",
+    "1ecd70ec-550e-4ee0-9b19-cbdc86548b9c"
   ]
 }

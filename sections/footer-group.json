@@ -5,18 +5,18 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Menu",
+            "menu": "develop-menu"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
             "heading": "Quick links",
-            "menu": "develop-menu"
-          }
-        },
-        "footer-1": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Info",
-            "menu": "footer"
+            "menu": "main-menu"
           }
         },
         "footer-2": {
@@ -28,8 +28,8 @@
         }
       },
       "block_order": [
-        "footer-0",
         "footer-1",
+        "footer-0",
         "footer-2"
       ],
       "settings": {

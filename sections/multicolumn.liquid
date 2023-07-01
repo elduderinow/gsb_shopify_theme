@@ -22,7 +22,7 @@
     assign show_mobile_slider = true
   endif
 
-  if request.user_agent contains 'Mobile'
+  if window_width < 640
     assign item_limit = section.settings.limit_items_mobile
   else
     assign item_limit = 999

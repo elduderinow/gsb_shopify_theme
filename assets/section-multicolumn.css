@@ -970,10 +970,41 @@ swiper-container .swiper-notification {
 }
 
 .multicolumn-list {
-  background-color: red;
+  background-color: green;
 }
-
-.grid__item {
-  background-color: red;
-  width: 12.5%;
+.multicolumn-list .grid--col-col-desktop {
+  width: calc(100% / col);
+}
+.multicolumn-list .grid--col-col-desktop {
+  width: calc(100% / col);
+}
+.multicolumn-list .grid--col-col-desktop {
+  width: calc(100% / col);
+}
+.multicolumn-list .grid--col-col-desktop {
+  width: calc(100% / col);
+}
+.multicolumn-list .grid--col-col-desktop {
+  width: calc(100% / col);
+}
+.multicolumn-list .grid--col-col-desktop {
+  width: calc(100% / col);
+}
+.multicolumn-list .grid--col-col-desktop {
+  width: calc(100% / col);
+}
+.multicolumn-list .grid--col-col-desktop {
+  width: calc(100% / col);
+}
+.multicolumn-list .grid--col-col-desktop {
+  width: calc(100% / col);
+}
+.multicolumn-list .grid--col-col-desktop {
+  width: calc(100% / col);
+}
+.multicolumn-list .grid--col-col-desktop {
+  width: calc(100% / col);
+}
+.multicolumn-list .grid--col-col-desktop {
+  width: calc(100% / col);
 }

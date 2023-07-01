@@ -698,3 +698,8 @@ body {
     display: none;
   }
 }
+@media (max-width: 750px) {
+  .multicolumn-list .grid__item:nth-child(n+7) {
+    display: none;
+  }
+}

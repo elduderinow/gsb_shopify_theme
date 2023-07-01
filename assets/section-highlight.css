@@ -802,5 +802,5 @@ swiper-container .swiper-notification {
   z-index: 100;
   top: 50%;
   left: 0;
-  transform: translateY(-50%);
+  transform: translateY(-60%);
 }

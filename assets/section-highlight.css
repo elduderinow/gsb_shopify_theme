@@ -767,6 +767,9 @@ swiper-container .swiper-notification {
 .section-highlight {
   max-width: 1536px;
 }
+.section-highlight .swiper {
+  position: relative;
+}
 .section-highlight .swiper .swiper-wrapper {
   margin-bottom: 5rem;
 }
@@ -790,4 +793,8 @@ swiper-container .swiper-notification {
 }
 .section-highlight .swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: black;
+}
+.section-highlight .swiper .swiper--navigation {
+  position: absolute;
+  width: 100%;
 }

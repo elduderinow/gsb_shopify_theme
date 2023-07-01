@@ -806,15 +806,32 @@ swiper-container .swiper-notification {
 }
 .section-highlight .highlight--title .description {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   color: black;
-  font-size: 16px;
-  line-height: 26px;
-  color: get-gray-color(base);
+  font-weight: 700;
+  font-weight: 300;
   text-align: center;
 }
-.section-highlight .highlight--title .description.text-bold {
-  font-weight: 700;
+.section-highlight .highlight--title .description {
+  font-size: 20px;
+  line-height: 23px;
+}
+@media screen and (min-width: 640px) {
+  .section-highlight .highlight--title .description {
+    font-size: calc(
+                    20px + 6 *
+                        ((100vw - 640px) / 384)
+                );
+    line-height: calc(
+                    20px * 1.15 + 6 *
+                        ((100vw - 640px) / 384)
+                );
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section-highlight .highlight--title .description {
+    font-size: 26px;
+    line-height: 29.9px;
+  }
 }
 @media (min-width: 990px) {
   .section-highlight .highlight--title .title {

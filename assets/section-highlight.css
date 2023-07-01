@@ -797,6 +797,7 @@ swiper-container .swiper-notification {
 .section-highlight .swiper .swiper--controls .swiper-pagination {
   width: auto;
   position: relative;
+  top: auto;
 }
 .section-highlight .swiper .swiper--controls .swiper-pagination .swiper-pagination-bullet {
   background-color: white;

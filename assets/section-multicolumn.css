@@ -213,7 +213,7 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn-list.grid--1-col-desktop .grid__item {
-    width: 300%;
+    width: 200%;
   }
 }
 @media (min-width: 990px) {
@@ -226,7 +226,7 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn-list.grid--2-col-desktop .grid__item {
-    width: 150%;
+    width: 100%;
   }
 }
 @media (min-width: 990px) {
@@ -239,7 +239,7 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn-list.grid--3-col-desktop .grid__item {
-    width: 100%;
+    width: 66.6666666667%;
   }
 }
 @media (min-width: 990px) {
@@ -252,7 +252,7 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn-list.grid--4-col-desktop .grid__item {
-    width: 75%;
+    width: 50%;
   }
 }
 @media (min-width: 990px) {
@@ -265,7 +265,7 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn-list.grid--5-col-desktop .grid__item {
-    width: 60%;
+    width: 40%;
   }
 }
 @media (min-width: 990px) {
@@ -278,7 +278,7 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn-list.grid--6-col-desktop .grid__item {
-    width: 50%;
+    width: 33.3333333333%;
   }
 }
 @media (min-width: 990px) {
@@ -291,7 +291,7 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn-list.grid--7-col-desktop .grid__item {
-    width: 42.8571428571%;
+    width: 28.5714285714%;
   }
 }
 @media (min-width: 990px) {
@@ -304,7 +304,7 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn-list.grid--8-col-desktop .grid__item {
-    width: 37.5%;
+    width: 25%;
   }
 }
 @media (min-width: 990px) {
@@ -317,7 +317,7 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn-list.grid--9-col-desktop .grid__item {
-    width: 33.3333333333%;
+    width: 22.2222222222%;
   }
 }
 @media (min-width: 990px) {
@@ -330,7 +330,7 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn-list.grid--10-col-desktop .grid__item {
-    width: 30%;
+    width: 20%;
   }
 }
 @media (min-width: 990px) {
@@ -343,7 +343,7 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn-list.grid--11-col-desktop .grid__item {
-    width: 27.2727272727%;
+    width: 18.1818181818%;
   }
 }
 @media (min-width: 990px) {
@@ -356,7 +356,7 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn-list.grid--12-col-desktop .grid__item {
-    width: 25%;
+    width: 16.6666666667%;
   }
 }
 @media (min-width: 990px) {

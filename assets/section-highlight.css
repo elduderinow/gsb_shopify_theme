@@ -767,6 +767,10 @@ swiper-container .swiper-notification {
 .section-highlight {
   max-width: 1536px;
 }
+.section-highlight .highlight--title {
+  width: 100%;
+  display: flex;
+}
 .section-highlight .swiper {
   position: relative;
 }

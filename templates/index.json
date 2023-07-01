@@ -196,7 +196,7 @@
         "74907083-3b1c-49a3-9f95-8be170dcbe40"
       ],
       "settings": {
-        "title": "Wat makt glo Skin Beauty uniek?",
+        "title": "Wat maakt glo Skin Beauty uniek?",
         "description": "",
         "color_scheme": "background-1",
         "padding_top": 36,
@@ -337,6 +337,9 @@
       },
       "block_order": [
         "6495e1a3-005d-4246-aff4-ee1f5971d028"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "include_margins": true
@@ -636,6 +639,16 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "acea9539-93ce-4ca5-b6ee-b25bd4ef6376": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -653,6 +666,7 @@
     "0f90b165-b5d3-4c04-9d0a-74dd2faa080b",
     "038e2eda-d74b-4a35-b975-29a27fd16f5e",
     "ff6ee5b8-b485-4b55-91b1-e1f1c14944b3",
-    "f3357b1d-b45a-4d9f-83b1-0baa936bc255"
+    "f3357b1d-b45a-4d9f-83b1-0baa936bc255",
+    "acea9539-93ce-4ca5-b6ee-b25bd4ef6376"
   ]
 }

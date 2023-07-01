@@ -37,8 +37,8 @@
   }
 {%- endstyle -%}
 {%- for block in section.blocks -%}
-  {%- if block.type == 'text' -%}
-    {{ block.settings.text | json }}
+  {%- if block.type == 'subtext' -%}
+    {{ block.settings.subtext | json }}
   {% endif %}
 {% endfor %}
 <footer class="footer">

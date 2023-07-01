@@ -1124,6 +1124,7 @@ swiper-container .swiper-notification {
   color: black;
   font-weight: 700;
   text-transform: uppercase;
+  text-align: center;
 }
 .featured-collection--component .collection__title .title {
   font-size: 12px;
@@ -1153,6 +1154,7 @@ swiper-container .swiper-notification {
   font-weight: 700;
   text-transform: uppercase;
   font-weight: 300;
+  text-align: center;
 }
 .featured-collection--component .collection__description .description {
   font-size: 12px;

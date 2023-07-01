@@ -23,7 +23,7 @@
         {%- for block in section.blocks limit: 4 -%}
           {%- if block.type == 'highlight' -%}
             <div
-              class="swiper-slide border {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              class="swiper-slide {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
               {% if settings.animations_reveal_on_scroll %}
                 data-cascade
               {% endif %}

@@ -37,8 +37,7 @@
   }
 {%- endstyle -%}
 {%- for block in section.blocks -%}
-  {{ block.type | json }}
-  {%- if block.type == 'text' -%}
+  {%- if block.type == 'link_list' -%}
     {{ block.settings | json }}
   {% endif %}
 {% endfor %}

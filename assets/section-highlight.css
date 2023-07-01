@@ -794,18 +794,3 @@ swiper-container .swiper-notification {
 .section-highlight .swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: black;
 }
-.section-highlight .swiper .swiper--navigation {
-  position: absolute;
-  width: 100%;
-  height: 200px;
-  background-color: red;
-  z-index: 100;
-  top: 50%;
-  left: 0;
-  transform: translateY(-80%);
-}
-.section-highlight .swiper .swiper--navigation .swiper-button {
-  width: 20px;
-  height: 20px;
-  background-color: black;
-}

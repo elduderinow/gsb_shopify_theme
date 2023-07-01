@@ -774,6 +774,33 @@ swiper-container .swiper-notification {
   align-items: center;
   padding-bottom: 4rem;
 }
+.section-highlight .highlight--title .title {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: 700;
+}
+.section-highlight .highlight--title .title {
+  font-size: 32px;
+  line-height: 36.8px;
+}
+@media screen and (min-width: 640px) {
+  .section-highlight .highlight--title .title {
+    font-size: calc(
+                    32px + 18 *
+                        ((100vw - 640px) / 384)
+                );
+    line-height: calc(
+                    32px * 1.15 + 18 *
+                        ((100vw - 640px) / 384)
+                );
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section-highlight .highlight--title .title {
+    font-size: 50px;
+    line-height: 57.5px;
+  }
+}
 .section-highlight .swiper {
   position: relative;
 }

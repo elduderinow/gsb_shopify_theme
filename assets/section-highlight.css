@@ -768,7 +768,8 @@ swiper-container .swiper-notification {
   max-width: 1536px;
 }
 .section-highlight .swiper .image-wrapper {
-  aspect-ratio: 9/16;
+  aspect-ratio: 4/5;
+  background-color: pink;
 }
 .section-highlight .swiper .image-wrapper img {
   object-fit: cover;

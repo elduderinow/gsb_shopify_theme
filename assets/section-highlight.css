@@ -789,6 +789,7 @@ swiper-container .swiper-notification {
 }
 .section-highlight .swiper .swiper-controls {
   width: 100%;
+  display: flex;
 }
 .section-highlight .swiper .swiper-controls .swiper-pagination {
   width: auto;

@@ -1,13 +1,16 @@
 const onInit = () => {
-    const breakPoints = {
-        sm: 640,
-        md: 750,
-        lg: 990,
-    }
+    const breakPoints = { sm: 640, md: 750, lg: 990 }
+    // const swiperContainers = [...document.querySelectorAll('.swiper')]
+    // swiperContainers.forEach((swiper)=> {
+    //     console.log()
+    // })
     const swiper = new Swiper('.swiper', {
         loop: true,
         slidesPerView: 1.3,
         spaceBetween: 10,
+        autoplay: {
+            delay: 2000,
+        },
         breakpoints: {
             [breakPoints.sm]: {
                 slidesPerView: 2,
@@ -25,9 +28,7 @@ const onInit = () => {
             nextEl: '.slider-button--next',
             prevEl: '.slider-button--prev',
         },
-
     });
-
 }
 
 document.addEventListener('DOMContentLoaded', onInit)

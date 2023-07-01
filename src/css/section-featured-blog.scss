@@ -1,0 +1,22 @@
+@import "./shopify/section-featured-blog.scss", "../config/config.scss";
+
+.section-featured-blog {
+    .blog__posts.articles-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        @media (min-width: $breakpoint-sm) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media (min-width: $breakpoint-md) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .grid__item {
+            width: 100%;
+            max-width: 100%;
+            margin: 0;
+        }
+    }
+}

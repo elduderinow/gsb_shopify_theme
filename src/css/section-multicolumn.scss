@@ -1,0 +1,102 @@
+@import "./shopify/section-multicolumn.scss", "../config/config.scss";
+
+$cols: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
+
+.multicolumn-list {
+    column-gap: 0;
+    justify-content: space-between;
+    gap: 5px;
+
+    @each $col in $cols {
+        &.grid--#{$col}-col-desktop {
+            .grid__item {
+                width: 100%;
+
+                &.icon__grid {
+                    flex-grow: initial;
+                }
+            }
+
+            @media (min-width: $breakpoint-md) {
+                .grid__item {
+                    width: calc((100% / ($col / 2)) - 5px);
+                }
+            }
+
+            @media (min-width: $breakpoint-lg) {
+                .grid__item {
+                    width: calc((100% / $col) - 5px);
+                }
+            }
+        }
+    }
+
+    &.icon__grid-container {
+        $gap: 20px;
+        gap: $gap;
+        @each $col in $cols {
+            &.grid--#{$col}-col-desktop {
+                .grid__item {
+                    width: calc((100% / 2) - $gap);
+                }
+
+                @media (min-width: $breakpoint-xs) {
+                    .grid__item {
+                        width: calc((100% / 3) - $gap);
+                    }
+                }
+
+                @media (min-width: $breakpoint-sm) {
+                    .grid__item {
+                        width: calc((100% / 5) - $gap);
+                    }
+                }
+
+                @media (min-width: $breakpoint-md) {
+                    .grid__item {
+                        width: calc((100% / 5) - $gap);
+                    }
+                }
+
+                @media (min-width: $breakpoint-lg) {
+                    .grid__item {
+                        width: calc((100% / $col) - $gap);
+                    }
+                }
+            }
+        }
+    }
+
+    &.justify-left {
+        justify-content: left;
+    }
+    &.justify-center {
+        justify-content: center;
+    }
+    &.justify-right {
+        justify-content: right;
+    }
+
+    .grid__item {
+        @media (max-width: $breakpoint-xs) {
+            &:nth-child(n + 5) {
+                display: none;
+            }
+        }
+        @media (max-width: $breakpoint-sm) {
+            &:nth-child(n + 7) {
+                display: none;
+            }
+        }
+        @media (max-width: $breakpoint-md) {
+            &:nth-child(n + 9) {
+                display: none;
+            }
+        }
+        @media (max-width: $breakpoint-lg) {
+            &:nth-child(n + 11) {
+                display: none;
+            }
+        }
+    }
+}

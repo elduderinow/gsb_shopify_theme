@@ -1,4 +1,4 @@
-@import "../config/config.scss";
+@import "../config/config.scss", "../config/swiper.scss";
 
 .section-highlight {
     max-width: $max-width;
@@ -11,14 +11,15 @@
         gap: 0.2rem;
 
         .title {
-            @include h4-text;
-            text-align: center;
-            width: 80%;
+            // @include h5-text;
+            // text-align: center;
+            // width: 80%;
         }
         .description {
-            @include h5-text;
+            // @include h6-text;
             font-weight: 300;
-            text-align: center;
+            color: gray;
+            // text-align: center;
         }
 
         @media (min-width: $breakpoint-lg) {
@@ -99,9 +100,9 @@
                     justify-content: center;
                 }
 
-                @media (min-width: $breakpoint-lg) {
-                    display: none;
-                }
+                // @media (min-width: $breakpoint-lg) {
+                //     display: none;
+                // }
             }
         }
     }

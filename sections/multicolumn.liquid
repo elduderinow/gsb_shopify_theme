@@ -21,12 +21,6 @@
   if section.settings.swipe_on_mobile and section.blocks.size > columns_mobile_int
     assign show_mobile_slider = true
   endif
-
-  if window_width < 640
-    assign item_limit = section.settings.limit_items_mobile
-  else
-    assign item_limit = 999
-  endif
 -%}
 
 {{ item_limit | json }}
@@ -65,7 +59,7 @@
             endif
           endfor
         -%}
-        {%- for block in section.blocks limit: item_limit -%}
+        {%- for block in section.blocks -%}
           {%- assign empty_column = '' -%}
           {%- if block.settings.image == blank
             and block.settings.title == blank

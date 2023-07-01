@@ -1155,7 +1155,6 @@ swiper-container .swiper-notification {
   font-weight: 300;
   text-align: center;
   color: rgb(165, 165, 165);
-  text-transform: uppercase;
 }
 .featured-collection--component .collection__description .description {
   font-size: 16px;

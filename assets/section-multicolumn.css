@@ -684,26 +684,6 @@ body {
     width: calc(8.3333333333% - 20px);
   }
 }
-@media (max-width: 420px) {
-  .multicolumn-list.icon__grid-container .grid__item:nth-child(n+5) {
-    display: none;
-  }
-}
-@media (max-width: 640px) {
-  .multicolumn-list.icon__grid-container .grid__item:nth-child(n+7) {
-    display: none;
-  }
-}
-@media (max-width: 750px) {
-  .multicolumn-list.icon__grid-container .grid__item:nth-child(n+9) {
-    display: none;
-  }
-}
-@media (max-width: 990px) {
-  .multicolumn-list.icon__grid-container .grid__item:nth-child(n+11) {
-    display: none;
-  }
-}
 .multicolumn-list.justify-left {
   justify-content: left;
 }
@@ -712,4 +692,24 @@ body {
 }
 .multicolumn-list.justify-right {
   justify-content: right;
+}
+@media (max-width: 420px) {
+  .multicolumn-list .grid__item:nth-child(n+5) {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  .multicolumn-list .grid__item:nth-child(n+7) {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  .multicolumn-list .grid__item:nth-child(n+9) {
+    display: none;
+  }
+}
+@media (max-width: 990px) {
+  .multicolumn-list .grid__item:nth-child(n+11) {
+    display: none;
+  }
 }

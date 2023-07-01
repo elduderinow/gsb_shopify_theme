@@ -14,10 +14,10 @@
   }
 {%- endstyle -%}
 
-<div class="section-highlight color-{{ section.settings.color_scheme }}">
+<div class="section-highlight bg-gray-400 color-{{ section.settings.color_scheme }} global-section-x-padding">
   <div class="highlight-inner section-{{ section.id }}-padding{% if section.settings.select_width == 'full_width' or section.settings.select_width == 'boxed' %} collection--full-width{% endif %} {% if section.settings.select_width == 'boxed' %} collection--boxed {% endif %}">
     <!-- Slider main container -->
-    <div class="swiper global-section-x-padding">
+    <div class="swiper">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         {%- for block in section.blocks limit: 4 -%}

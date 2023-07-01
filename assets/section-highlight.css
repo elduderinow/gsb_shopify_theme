@@ -787,13 +787,16 @@ swiper-container .swiper-notification {
 .section-highlight .swiper .swiper-wrapper .link-wrapper:hover .image-wrapper img {
   transform: scale(1.08);
 }
-.section-highlight .swiper .swiper-pagination {
+.section-highlight .swiper .swiper-controls {
+  width: 100%;
+}
+.section-highlight .swiper .swiper-controls .swiper-pagination {
   width: auto;
 }
-.section-highlight .swiper .swiper-pagination .swiper-pagination-bullet {
+.section-highlight .swiper .swiper-controls .swiper-pagination .swiper-pagination-bullet {
   background-color: white;
   border: 1px solid black;
 }
-.section-highlight .swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.section-highlight .swiper .swiper-controls .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: black;
 }

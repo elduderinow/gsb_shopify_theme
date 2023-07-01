@@ -777,6 +777,7 @@ swiper-container .swiper-notification {
 }
 .section-highlight .highlight--title .description {
   font-weight: 300;
+  color: gray;
 }
 @media (min-width: 990px) {
   .section-highlight .highlight--title .title {

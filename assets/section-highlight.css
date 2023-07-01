@@ -809,5 +809,6 @@ swiper-container .swiper-notification {
   background-color: black;
 }
 .section-highlight .swiper .swiper--controls .swiper-button svg {
-  height: 0.6rem;
+  height: 44px;
+  width: 44px;
 }

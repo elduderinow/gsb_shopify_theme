@@ -201,6 +201,16 @@
         "padding_bottom": 76
       }
     },
+    "1ce33342-222c-42ba-9f20-632f64c51f28": {
+      "type": "highlight",
+      "settings": {
+        "title": "Glo Skin Beauty",
+        "description": "Clean without compromise",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "disabled": true,
@@ -416,6 +426,7 @@
     "multicolumn",
     "fae5378e-1912-4d51-916f-e1f0c1a488a0",
     "d505918e-6980-4bce-bf30-44f0ad46b8c3",
+    "1ce33342-222c-42ba-9f20-632f64c51f28",
     "featured_collection",
     "fc30e4f2-fa6a-4517-9de2-ff100db05e32",
     "0157b5d5-761c-49e2-bf72-4f73ac826e4f",

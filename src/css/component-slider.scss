@@ -3,22 +3,16 @@
 .featured-collection--component {
     .collection__title {
         .title {
-            font-family: $font-primary;
-            text-align: center;
-            text-transform: uppercase;
-            font-size: 1.8rem;
-            margin-bottom: 0;
-            font-weight: 500;
+           @include h5-text;
+           text-align: center
         }
     }
 
     .collection__description {
         .description {
-            font-family: $font-primary;
-            text-align: center;
-            font-size: 1.3rem;
-            text-transform: uppercase;
-            color: rgb(165, 165, 165);
+            @include h5-text;
+            font-weight: 300;
+            text-align: center
         }
     }
     .slider--component {

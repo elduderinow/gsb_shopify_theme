@@ -73,7 +73,7 @@ $body-font: "Roboto", sans-serif;
 
 @mixin h5-text {
     @include header-style;
-    @include fluid-type(20px, 26px);
+    @include fluid-type(16px, 24px);
 }
 
 @mixin h6-text {

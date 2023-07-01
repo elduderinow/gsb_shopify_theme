@@ -20,7 +20,7 @@
     <div class="swiper">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
-        {%- for block in section.blocks limit: 4 -%}
+        {%- for block in section.blocks -%}
           {%- if block.type == 'highlight' -%}
             <div
               class="swiper-slide {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"

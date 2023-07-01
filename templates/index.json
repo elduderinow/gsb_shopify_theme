@@ -466,8 +466,9 @@
         "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
+            "title": "<strong>cruelty free<\/strong>",
+            "text": "",
             "link_label": "",
             "link": ""
           }

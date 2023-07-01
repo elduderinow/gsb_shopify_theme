@@ -382,7 +382,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 8,
         "icon__grid": true,
-        "limit_item_mobile": "4",
+        "limit_item_mobile": "",
         "column_alignment": "center",
         "item_alignment": "center",
         "background_style": "none",

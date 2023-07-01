@@ -213,7 +213,7 @@ body {
   justify-content: space-between;
   gap: 5px;
 }
-.multicolumn-list .multicolumn-card__info.padding--none {
+.multicolumn-list.padding--none .multicolumn-card__info {
   padding-left: 0;
   padding-right: 0;
 }

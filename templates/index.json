@@ -500,8 +500,8 @@
     "038e2eda-d74b-4a35-b975-29a27fd16f5e": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
-        "description": "",
+        "title": "FEATURED COLLECTION",
+        "description": "Shop our best selling Skincare and MakeUp",
         "show_description": false,
         "collection": "alles-zonder-tools-displays",
         "products_to_show": 9,

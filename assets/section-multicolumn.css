@@ -694,7 +694,12 @@ body {
   justify-content: right;
 }
 @media (max-width: 420px) {
-  .multicolumn-list .grid__item:nth-child(n+5) {
+  .multicolumn-list .grid__item:nth-child(n+7) {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  .multicolumn-list .grid__item:nth-child(n+7) {
     display: none;
   }
 }

@@ -772,7 +772,7 @@ swiper-container .swiper-notification {
 }
 .section-highlight .swiper .swiper-wrapper {
   margin-bottom: 2rem;
-  margin-left: 10px;
+  margin-left: 25%;
 }
 @media (min-width: 640px) {
   .section-highlight .swiper .swiper-wrapper {

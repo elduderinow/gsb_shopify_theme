@@ -111,8 +111,8 @@
           "type": "highlight",
           "settings": {
             "image": "shopify:\/\/shop_images\/makeup-brush-jewelry.jpg",
-            "image_title": "dazd",
-            "image_subtitle": "azdadzad",
+            "image_title": "pompoen",
+            "image_subtitle": "",
             "highlight_url": ""
           }
         },
@@ -120,7 +120,7 @@
           "type": "highlight",
           "settings": {
             "image": "shopify:\/\/shop_images\/young-woman-doing-yoga-outside.jpg",
-            "image_title": "dzadzda",
+            "image_title": "Apple",
             "image_subtitle": "azdadz",
             "highlight_url": ""
           }
@@ -129,7 +129,7 @@
           "type": "highlight",
           "settings": {
             "image": "shopify:\/\/shop_images\/young-woman-in-comfortable-combo.jpg",
-            "image_title": "azdzad",
+            "image_title": "Peer",
             "image_subtitle": "zadazdz",
             "highlight_url": ""
           }
@@ -141,8 +141,8 @@
         "ec49510a-7a93-4d6e-adbe-bc68ccc35e22"
       ],
       "settings": {
-        "title": "Featured collection",
-        "description": "",
+        "title": "Ingredienten",
+        "description": "subtitle for ingredients",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36

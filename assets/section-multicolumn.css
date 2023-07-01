@@ -970,41 +970,53 @@ swiper-container .swiper-notification {
 }
 
 .multicolumn-list {
-  background-color: pink;
+  background-color: brown;
 }
 .multicolumn-list.grid--col-col-desktop .grid__item {
+  border: 1px solid red;
   width: 100%;
 }
 .multicolumn-list.grid--col-col-desktop .grid__item {
+  border: 1px solid red;
   width: 50%;
 }
 .multicolumn-list.grid--col-col-desktop .grid__item {
+  border: 1px solid red;
   width: 33.3333333333%;
 }
 .multicolumn-list.grid--col-col-desktop .grid__item {
+  border: 1px solid red;
   width: 25%;
 }
 .multicolumn-list.grid--col-col-desktop .grid__item {
+  border: 1px solid red;
   width: 20%;
 }
 .multicolumn-list.grid--col-col-desktop .grid__item {
+  border: 1px solid red;
   width: 16.6666666667%;
 }
 .multicolumn-list.grid--col-col-desktop .grid__item {
+  border: 1px solid red;
   width: 14.2857142857%;
 }
 .multicolumn-list.grid--col-col-desktop .grid__item {
+  border: 1px solid red;
   width: 12.5%;
 }
 .multicolumn-list.grid--col-col-desktop .grid__item {
+  border: 1px solid red;
   width: 11.1111111111%;
 }
 .multicolumn-list.grid--col-col-desktop .grid__item {
+  border: 1px solid red;
   width: 10%;
 }
 .multicolumn-list.grid--col-col-desktop .grid__item {
+  border: 1px solid red;
   width: 9.0909090909%;
 }
 .multicolumn-list.grid--col-col-desktop .grid__item {
+  border: 1px solid red;
   width: 8.3333333333%;
 }

@@ -774,9 +774,9 @@ swiper-container .swiper-notification {
   margin-bottom: 2rem;
   margin-left: 3.8rem;
 }
-@media (min-width: 990px) {
+@media (min-width: 640px) {
   .section-highlight .swiper .swiper-wrapper {
-    margin-left: 3.8rem;
+    margin-left: 0;
   }
 }
 .section-highlight .swiper .swiper-wrapper .link-wrapper .image-wrapper {

@@ -1121,18 +1121,57 @@ swiper-container .swiper-notification {
 
 .featured-collection--component .collection__title .title {
   font-family: "Roboto", sans-serif;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 1.8rem;
-  margin-bottom: 0;
-  font-weight: 500;
+  color: black;
+  font-weight: 700;
+}
+.featured-collection--component .collection__title .title {
+  font-size: 12px;
+  line-height: 13.8px;
+}
+@media screen and (min-width: 640px) {
+  .featured-collection--component .collection__title .title {
+    font-size: calc(
+                    12px + 4 *
+                        ((100vw - 640px) / 384)
+                );
+    line-height: calc(
+                    12px * 1.15 + 4 *
+                        ((100vw - 640px) / 384)
+                );
+  }
+}
+@media screen and (min-width: 1024px) {
+  .featured-collection--component .collection__title .title {
+    font-size: 16px;
+    line-height: 18.4px;
+  }
 }
 .featured-collection--component .collection__description .description {
   font-family: "Roboto", sans-serif;
-  text-align: center;
-  font-size: 1.3rem;
-  text-transform: uppercase;
-  color: rgb(165, 165, 165);
+  color: black;
+  font-weight: 700;
+}
+.featured-collection--component .collection__description .description {
+  font-size: 12px;
+  line-height: 13.8px;
+}
+@media screen and (min-width: 640px) {
+  .featured-collection--component .collection__description .description {
+    font-size: calc(
+                    12px + 4 *
+                        ((100vw - 640px) / 384)
+                );
+    line-height: calc(
+                    12px * 1.15 + 4 *
+                        ((100vw - 640px) / 384)
+                );
+  }
+}
+@media screen and (min-width: 1024px) {
+  .featured-collection--component .collection__description .description {
+    font-size: 16px;
+    line-height: 18.4px;
+  }
 }
 .featured-collection--component .slider--component ul.product-grid li.grid__item {
   max-width: 100%;

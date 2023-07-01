@@ -709,7 +709,7 @@ body {
   }
 }
 @media (max-width: 990px) {
-  .multicolumn-list .grid__item:nth-child(n+11) {
+  .multicolumn-list .grid__item:nth-child(n+9) {
     display: none;
   }
 }

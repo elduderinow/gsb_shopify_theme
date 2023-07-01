@@ -792,6 +792,7 @@ swiper-container .swiper-notification {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .section-highlight .swiper .swiper--controls .swiper-pagination {
   width: auto;

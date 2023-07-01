@@ -482,6 +482,49 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e4c713b5-f3e0-4c55-a907-41e75876dd11": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19143340065115__e4c713b5-f3e0-4c55-a907-41e75876dd11-16882290004a28d1c4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Learn More About Our Clean Beauty",
+            "heading_size": "h1"
+          }
+        },
+        "template--19143340065115__e4c713b5-f3e0-4c55-a907-41e75876dd11-16882290004a28d1c4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Consciously clean, vegan, and cruelty-free, Glo uses only the safest, most ethical, and efficacious ingredients in all our formulations. Learn all about our commitment to the health and wellbeing of your skin and the environment here.<\/p>"
+          }
+        },
+        "template--19143340065115__e4c713b5-f3e0-4c55-a907-41e75876dd11-16882290004a28d1c4-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19143340065115__e4c713b5-f3e0-4c55-a907-41e75876dd11-16882290004a28d1c4-0",
+        "template--19143340065115__e4c713b5-f3e0-4c55-a907-41e75876dd11-16882290004a28d1c4-1",
+        "template--19143340065115__e4c713b5-f3e0-4c55-a907-41e75876dd11-16882290004a28d1c4-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -494,6 +537,7 @@
     "0544e851-a779-4248-a67e-cbec20d2a40e",
     "1ecd70ec-550e-4ee0-9b19-cbdc86548b9c",
     "b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721",
-    "1ba8cebd-6775-4fab-8887-39c7ee3af478"
+    "1ba8cebd-6775-4fab-8887-39c7ee3af478",
+    "e4c713b5-f3e0-4c55-a907-41e75876dd11"
   ]
 }

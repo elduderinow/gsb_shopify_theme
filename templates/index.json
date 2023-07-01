@@ -155,7 +155,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/featured_header_Desktop-_peels.jpg",
             "image_title": "Treatment + peels",
-            "image_subtitle": "make face glow"
+            "image_subtitle": "make face glow",
+            "highlight_url": "shopify:\/\/pages\/nieuw"
           }
         },
         "83e4fc1d-b68e-4194-9d39-fd375c930bf1": {
@@ -163,7 +164,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Serums_Desktop.webp",
             "image_title": "Serums",
-            "image_subtitle": ""
+            "image_subtitle": "",
+            "highlight_url": ""
           }
         },
         "e09cb283-8830-4cf1-9a4d-cba67bbe3e28": {
@@ -171,7 +173,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Foundation_Desktop_1.jpg",
             "image_title": "Foundations",
-            "image_subtitle": "face"
+            "image_subtitle": "face",
+            "highlight_url": ""
           }
         },
         "74907083-3b1c-49a3-9f95-8be170dcbe40": {
@@ -179,7 +182,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Moisturizer_Desktop_1.jpg",
             "image_title": "Moisturizers",
-            "image_subtitle": "get it now"
+            "image_subtitle": "get it now",
+            "highlight_url": ""
           }
         }
       },

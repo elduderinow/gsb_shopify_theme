@@ -42,7 +42,10 @@
         {%- for block in section.blocks -%}
           {%- if block.type == 'highlight' -%}
             <div
-              class="swiper-slide {% if settings.animations_reveal_on_scroll %} scroll-trigger{% endif %}"
+              class="swiper-slide {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              {% if settings.animations_reveal_on_scroll %}
+                data-cascade
+              {% endif %}
             >
               <a class="block link-wrapper" href="{{ block.settings.highlight_url }}">
                 <div class="image-wrapper">

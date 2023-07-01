@@ -210,7 +210,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
-            "title": "<strong>cruelty free<\/strong>",
+            "title": "<strong>Paraben Free<\/strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -229,8 +229,8 @@
         "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/hp-icon-sulfate-free_9cd09dc6-fa43-4303-9bcc-e35750b4830a.svg",
+            "title": "<strong>Sulfate free<\/strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -239,8 +239,8 @@
         "ed105618-3561-462f-9054-6edf1052805c": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/hp-icon-mineral-oil-free_0e85347b-9923-4aff-ac08-86df4214acde.svg",
+            "title": "<strong>Mineral Oil Free<\/strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -249,8 +249,8 @@
         "22505426-65eb-4e2b-bca7-5a01518024f0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/hp-icon-talc-free_8c4a49a2-a14a-4dd8-94cf-488fc551986c.svg",
+            "title": "<strong>Talk Free<\/strong>",
             "text": "",
             "link_label": "",
             "link": ""

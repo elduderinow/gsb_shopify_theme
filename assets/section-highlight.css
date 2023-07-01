@@ -773,6 +773,7 @@ swiper-container .swiper-notification {
   flex-direction: column;
   align-items: center;
   padding-bottom: 4rem;
+  gap: 0.5rem;
 }
 .section-highlight .highlight--title .title {
   font-family: "Roboto", sans-serif;
@@ -781,7 +782,6 @@ swiper-container .swiper-notification {
   text-align: center;
   background-color: red;
   width: 80%;
-  margin: 0;
 }
 .section-highlight .highlight--title .title {
   font-size: 22px;

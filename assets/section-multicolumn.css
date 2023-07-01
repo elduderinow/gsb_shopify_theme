@@ -210,15 +210,15 @@ body {
 
 .multicolumn-list.grid--col-col-desktop .grid__item {
   border: 1px solid red;
-  width: 100%;
+  width: 10px;
 }
 
 .multicolumn-list.grid--col-col-desktop .grid__item {
   border: 1px solid red;
-  width: 50%;
+  width: 20px;
 }
 
 .multicolumn-list.grid--col-col-desktop .grid__item {
   border: 1px solid red;
-  width: 33.3333333333%;
+  width: 30px;
 }

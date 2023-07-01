@@ -972,39 +972,39 @@ swiper-container .swiper-notification {
 .multicolumn-list {
   background-color: green;
 }
-.multicolumn-list .grid--col-col-desktop {
+.multicolumn-list .grid--col-col-desktop .grid__item {
   width: 100%;
 }
-.multicolumn-list .grid--col-col-desktop {
+.multicolumn-list .grid--col-col-desktop .grid__item {
   width: 50%;
 }
-.multicolumn-list .grid--col-col-desktop {
+.multicolumn-list .grid--col-col-desktop .grid__item {
   width: 33.3333333333%;
 }
-.multicolumn-list .grid--col-col-desktop {
+.multicolumn-list .grid--col-col-desktop .grid__item {
   width: 25%;
 }
-.multicolumn-list .grid--col-col-desktop {
+.multicolumn-list .grid--col-col-desktop .grid__item {
   width: 20%;
 }
-.multicolumn-list .grid--col-col-desktop {
+.multicolumn-list .grid--col-col-desktop .grid__item {
   width: 16.6666666667%;
 }
-.multicolumn-list .grid--col-col-desktop {
+.multicolumn-list .grid--col-col-desktop .grid__item {
   width: 14.2857142857%;
 }
-.multicolumn-list .grid--col-col-desktop {
+.multicolumn-list .grid--col-col-desktop .grid__item {
   width: 12.5%;
 }
-.multicolumn-list .grid--col-col-desktop {
+.multicolumn-list .grid--col-col-desktop .grid__item {
   width: 11.1111111111%;
 }
-.multicolumn-list .grid--col-col-desktop {
+.multicolumn-list .grid--col-col-desktop .grid__item {
   width: 10%;
 }
-.multicolumn-list .grid--col-col-desktop {
+.multicolumn-list .grid--col-col-desktop .grid__item {
   width: 9.0909090909%;
 }
-.multicolumn-list .grid--col-col-desktop {
+.multicolumn-list .grid--col-col-desktop .grid__item {
   width: 8.3333333333%;
 }

@@ -358,6 +358,198 @@ body {
   font-family: "Roboto", sans-serif !important;
 }
 
+h1,
+.h1-text {
+  font-family: "futura-pt", sans-serif;
+  color: get-brand-color(primary, "900");
+  font-weight: 700;
+}
+h1,
+.h1-text {
+  font-size: 38px;
+  line-height: 43.7px;
+}
+@media screen and (min-width: 640px) {
+  h1,
+  .h1-text {
+    font-size: calc(
+                    38px + 22 *
+                        ((100vw - 640px) / 384)
+                );
+    line-height: calc(
+                    38px * 1.15 + 22 *
+                        ((100vw - 640px) / 384)
+                );
+  }
+}
+@media screen and (min-width: 1024px) {
+  h1,
+  .h1-text {
+    font-size: 60px;
+    line-height: 69px;
+  }
+}
+
+h2,
+.h2-text {
+  font-family: "futura-pt", sans-serif;
+  color: get-brand-color(primary, "900");
+  font-weight: 700;
+}
+h2,
+.h2-text {
+  font-size: 32px;
+  line-height: 36.8px;
+}
+@media screen and (min-width: 640px) {
+  h2,
+  .h2-text {
+    font-size: calc(
+                    32px + 18 *
+                        ((100vw - 640px) / 384)
+                );
+    line-height: calc(
+                    32px * 1.15 + 18 *
+                        ((100vw - 640px) / 384)
+                );
+  }
+}
+@media screen and (min-width: 1024px) {
+  h2,
+  .h2-text {
+    font-size: 50px;
+    line-height: 57.5px;
+  }
+}
+
+h3,
+.h3-text {
+  font-family: "futura-pt", sans-serif;
+  color: get-brand-color(primary, "900");
+  font-weight: 700;
+}
+h3,
+.h3-text {
+  font-size: 26px;
+  line-height: 29.9px;
+}
+@media screen and (min-width: 640px) {
+  h3,
+  .h3-text {
+    font-size: calc(
+                    26px + 14 *
+                        ((100vw - 640px) / 384)
+                );
+    line-height: calc(
+                    26px * 1.15 + 14 *
+                        ((100vw - 640px) / 384)
+                );
+  }
+}
+@media screen and (min-width: 1024px) {
+  h3,
+  .h3-text {
+    font-size: 40px;
+    line-height: 46px;
+  }
+}
+
+h4,
+.h4-text {
+  font-family: "futura-pt", sans-serif;
+  color: get-brand-color(primary, "900");
+  font-weight: 700;
+}
+h4,
+.h4-text {
+  font-size: 22px;
+  line-height: 25.3px;
+}
+@media screen and (min-width: 640px) {
+  h4,
+  .h4-text {
+    font-size: calc(
+                    22px + 12 *
+                        ((100vw - 640px) / 384)
+                );
+    line-height: calc(
+                    22px * 1.15 + 12 *
+                        ((100vw - 640px) / 384)
+                );
+  }
+}
+@media screen and (min-width: 1024px) {
+  h4,
+  .h4-text {
+    font-size: 34px;
+    line-height: 39.1px;
+  }
+}
+
+h5,
+.h5-text {
+  font-family: "futura-pt", sans-serif;
+  color: get-brand-color(primary, "900");
+  font-weight: 700;
+}
+h5,
+.h5-text {
+  font-size: 20px;
+  line-height: 23px;
+}
+@media screen and (min-width: 640px) {
+  h5,
+  .h5-text {
+    font-size: calc(
+                    20px + 6 *
+                        ((100vw - 640px) / 384)
+                );
+    line-height: calc(
+                    20px * 1.15 + 6 *
+                        ((100vw - 640px) / 384)
+                );
+  }
+}
+@media screen and (min-width: 1024px) {
+  h5,
+  .h5-text {
+    font-size: 26px;
+    line-height: 29.9px;
+  }
+}
+
+h6,
+.h6-text {
+  font-family: "futura-pt", sans-serif;
+  color: get-brand-color(primary, "900");
+  font-weight: 700;
+}
+h6,
+.h6-text {
+  font-size: 16px;
+  line-height: 18.4px;
+}
+@media screen and (min-width: 640px) {
+  h6,
+  .h6-text {
+    font-size: calc(
+                    16px + 4 *
+                        ((100vw - 640px) / 384)
+                );
+    line-height: calc(
+                    16px * 1.15 + 4 *
+                        ((100vw - 640px) / 384)
+                );
+  }
+}
+@media screen and (min-width: 1024px) {
+  h6,
+  .h6-text {
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+
 /**
  * Swiper 9.4.1
  * Most modern mobile touch slider and framework with hardware accelerated transitions

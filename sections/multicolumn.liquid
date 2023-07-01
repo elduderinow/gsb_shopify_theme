@@ -22,8 +22,9 @@
     assign show_mobile_slider = true
   endif
 
-  if section.settings.limit_item_mobile
-    assign limit_items = section.settings.limit_item_mobile | plus: 0
+  assign limit_on_mobile_number = section.settings.limit_item_mobile | plus: 0
+  if section.settings.limit_item_mobile and limit_on_mobile_number > 0
+    assign limit_items = limit_on_mobile_number
   else
     assign limit_items = 999
   endif

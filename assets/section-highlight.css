@@ -768,5 +768,6 @@ swiper-container .swiper-notification {
   max-width: 1536px;
 }
 .section-highlight .swiper {
+  padding: 0 5rem;
   background-color: red;
 }

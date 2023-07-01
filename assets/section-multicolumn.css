@@ -696,3 +696,6 @@ body {
 .multicolumn-list .grid__item {
   display: none;
 }
+.multicolumn-list .grid__item:nth-child(n+5) {
+  display: flex;
+}

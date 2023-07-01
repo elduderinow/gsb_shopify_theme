@@ -808,6 +808,6 @@ swiper-container .swiper-notification {
 .section-highlight .swiper .swiper--controls .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: black;
 }
-.section-highlight .swiper .swiper--controls .swiper-button {
-  width: 0.6rem;
+.section-highlight .swiper .swiper--controls .swiper-button svg {
+  height: 0.6rem;
 }

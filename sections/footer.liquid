@@ -149,17 +149,15 @@
     <div class="right col-span-4">
       <div class="image-wrapper">
         {% comment %} <img width="200" height="200" src="{{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}/"> {% endcomment %}
-        {% comment %}
-          {%- if section.settings.footer_image != blank -%}
-            {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
-            <img
-              src="{{ section.settings.footer_image | image_url: width: 800 }}"
-              alt="{{ section.settings.footer_image.alt | escape }}"
-            >
-          {%- else -%}
-            {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
-          {%- endif -%}
-        {% endcomment %}
+        {%- if section.settings.footer_image != blank -%}
+          {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
+          <img
+            src="{{ section.settings.footer_image | image_url: width: 800 }}"
+            alt="{{ section.settings.footer_image.alt | escape }}"
+          >
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+        {%- endif -%}
       </div>
       <div class="footer__newsletter-container">
         {%- if section.settings.newsletter_enable -%}

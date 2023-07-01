@@ -1127,25 +1127,25 @@ swiper-container .swiper-notification {
   text-align: center;
 }
 .featured-collection--component .collection__title .title {
-  font-size: 12px;
-  line-height: 13.8px;
+  font-size: 16px;
+  line-height: 18.4px;
 }
 @media screen and (min-width: 640px) {
   .featured-collection--component .collection__title .title {
     font-size: calc(
-                    12px + 4 *
+                    16px + 8 *
                         ((100vw - 640px) / 384)
                 );
     line-height: calc(
-                    12px * 1.15 + 4 *
+                    16px * 1.15 + 8 *
                         ((100vw - 640px) / 384)
                 );
   }
 }
 @media screen and (min-width: 1024px) {
   .featured-collection--component .collection__title .title {
-    font-size: 16px;
-    line-height: 18.4px;
+    font-size: 24px;
+    line-height: 27.6px;
   }
 }
 .featured-collection--component .collection__description .description {
@@ -1157,25 +1157,25 @@ swiper-container .swiper-notification {
   text-align: center;
 }
 .featured-collection--component .collection__description .description {
-  font-size: 12px;
-  line-height: 13.8px;
+  font-size: 16px;
+  line-height: 18.4px;
 }
 @media screen and (min-width: 640px) {
   .featured-collection--component .collection__description .description {
     font-size: calc(
-                    12px + 4 *
+                    16px + 8 *
                         ((100vw - 640px) / 384)
                 );
     line-height: calc(
-                    12px * 1.15 + 4 *
+                    16px * 1.15 + 8 *
                         ((100vw - 640px) / 384)
                 );
   }
 }
 @media screen and (min-width: 1024px) {
   .featured-collection--component .collection__description .description {
-    font-size: 16px;
-    line-height: 18.4px;
+    font-size: 24px;
+    line-height: 27.6px;
   }
 }
 .featured-collection--component .slider--component ul.product-grid li.grid__item {

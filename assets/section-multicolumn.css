@@ -364,3 +364,12 @@ body {
     width: 8.3333333333%;
   }
 }
+.multicolumn-list.justify-left {
+  justify-content: left;
+}
+.multicolumn-list.justify-center {
+  justify-content: center;
+}
+.multicolumn-list.justify-right {
+  justify-content: right;
+}

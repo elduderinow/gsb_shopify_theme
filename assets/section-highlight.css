@@ -780,25 +780,52 @@ swiper-container .swiper-notification {
   font-weight: 700;
 }
 .section-highlight .highlight--title .title {
-  font-size: 32px;
-  line-height: 36.8px;
+  font-size: 22px;
+  line-height: 25.3px;
 }
 @media screen and (min-width: 640px) {
   .section-highlight .highlight--title .title {
     font-size: calc(
-                    32px + 18 *
+                    22px + 12 *
                         ((100vw - 640px) / 384)
                 );
     line-height: calc(
-                    32px * 1.15 + 18 *
+                    22px * 1.15 + 12 *
                         ((100vw - 640px) / 384)
                 );
   }
 }
 @media screen and (min-width: 1024px) {
   .section-highlight .highlight--title .title {
-    font-size: 50px;
-    line-height: 57.5px;
+    font-size: 34px;
+    line-height: 39.1px;
+  }
+}
+.section-highlight .highlight--title .description {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: 700;
+}
+.section-highlight .highlight--title .description {
+  font-size: 12px;
+  line-height: 13.8px;
+}
+@media screen and (min-width: 640px) {
+  .section-highlight .highlight--title .description {
+    font-size: calc(
+                    12px + 4 *
+                        ((100vw - 640px) / 384)
+                );
+    line-height: calc(
+                    12px * 1.15 + 4 *
+                        ((100vw - 640px) / 384)
+                );
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section-highlight .highlight--title .description {
+    font-size: 16px;
+    line-height: 18.4px;
   }
 }
 .section-highlight .swiper {

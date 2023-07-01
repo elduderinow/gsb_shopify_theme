@@ -50,7 +50,6 @@
           {%- if block.type == 'link_list' -%}
             <div class="footer__links">
               <h6 class="title">{{ block.settings.heading }}</h6>
-              {{ block.settings.menu | json }}
               {%- for link in block.settings.menu.links -%}
                 <a href="{{ link.url }}">{{ link.title }}</a>
               {% endfor %}

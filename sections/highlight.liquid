@@ -20,22 +20,49 @@
   <div class="highlight-inner section-{{ section.id }}-padding">
     <div class="highlight--title">
       {%- if section.settings.title != blank -%}
-        <h2 class="title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-          {{ section.settings.title }}
+        <h2
+          class="rich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          {{ block.shopify_attributes }}
+          {% if settings.animations_reveal_on_scroll %}
+            data-cascade
+          {% endif %}
+        >
+          {{ block.settings.heading }}
         </h2>
       {%- endif -%}
       {%- if section.settings.description != blank
         or section.settings.show_description
         and section.settings.collection.description != empty
       -%}
-        <div class="collection__description {{ section.settings.description_style }} rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-          {%- if section.settings.show_description -%}
-            <p class="description">{{ section.settings.collection.description }}</p>
-          {%- else -%}
-            <p class="description">{{ section.settings.description -}}</p>
-          {%- endif %}
-        </div>
+        <p
+          class="rich-text__caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          {{ block.shopify_attributes }}
+          {% if settings.animations_reveal_on_scroll %}
+            data-cascade
+          {% endif %}
+        >
+          {{ block.settings.caption | escape }}
+        </p>
       {%- endif -%}
+      {% comment %}
+        {%- if section.settings.title != blank -%}
+          <h2 class="title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            {{ section.settings.title }}
+          </h2>
+        {%- endif -%}
+        {%- if section.settings.description != blank
+          or section.settings.show_description
+          and section.settings.collection.description != empty
+        -%}
+          <div class="collection__description {{ section.settings.description_style }} rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            {%- if section.settings.show_description -%}
+              <p class="description">{{ section.settings.collection.description }}</p>
+            {%- else -%}
+              <p class="description">{{ section.settings.description -}}</p>
+            {%- endif %}
+          </div>
+        {%- endif -%}
+      {% endcomment %}
     </div>
     <!-- Slider main container -->
     <div data-swiper-size="{{ section.blocks | size }}" class="swiper">

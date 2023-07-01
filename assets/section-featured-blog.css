@@ -88,7 +88,7 @@ body {
 .section-featured-blog .blog__posts.articles-wrapper {
   background-color: pink;
   display: grid !important;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: auto auto auto;
 }
 .section-featured-blog .blog__posts.articles-wrapper .grid__item {
   width: 100%;

@@ -23,7 +23,7 @@
   endif
 
   if section.settings.limit_item_mobile
-    assign limit_items = section.settings.limit_item_mobile
+    assign limit_items = section.settings.limit_item_mobile | plus: 0
   else
     assign limit_items = 999
   endif

@@ -648,6 +648,31 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "96b8ac41-2eaa-4dbf-a534-1c03dd97f357": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "template--19143340065115__96b8ac41-2eaa-4dbf-a534-1c03dd97f357-168824571432868b92-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/womens-fall-fashion-in-autumn-landscape.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--19143340065115__96b8ac41-2eaa-4dbf-a534-1c03dd97f357-168824571432868b92-0"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -666,6 +691,7 @@
     "038e2eda-d74b-4a35-b975-29a27fd16f5e",
     "ff6ee5b8-b485-4b55-91b1-e1f1c14944b3",
     "f3357b1d-b45a-4d9f-83b1-0baa936bc255",
-    "acea9539-93ce-4ca5-b6ee-b25bd4ef6376"
+    "acea9539-93ce-4ca5-b6ee-b25bd4ef6376",
+    "96b8ac41-2eaa-4dbf-a534-1c03dd97f357"
   ]
 }

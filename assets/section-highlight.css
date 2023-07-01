@@ -766,6 +766,7 @@ swiper-container .swiper-notification {
 
 .section-highlight {
   max-width: 1536px;
+  margin: 0 auto;
 }
 .section-highlight .highlight--title {
   width: 100%;

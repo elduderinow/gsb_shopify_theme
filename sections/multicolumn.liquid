@@ -119,7 +119,7 @@
                   </div>
                 </div>
               {%- endif -%}
-              <div class="multicolumn-card__info  {%- if section.settings.background_style == 'none' -%}  px-0 {%- endif -%}">
+              <div class="multicolumn-card__info padding--{{ section.settings.background_style }}">
                 {%- if block.settings.title != blank -%}
                   <h3 class="inline-richtext">{{ block.settings.title }}</h3>
                 {%- endif -%}

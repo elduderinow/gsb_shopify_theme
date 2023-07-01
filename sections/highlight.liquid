@@ -35,12 +35,11 @@
       -%}
         <p
           class="rich-text__caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          {{ block.shopify_attributes }}
           {% if settings.animations_reveal_on_scroll %}
             data-cascade
           {% endif %}
         >
-          {{ block.settings.caption | escape }}
+          {{ section.settings.description -}}
         </p>
       {%- endif -%}
       {% comment %}

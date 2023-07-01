@@ -638,7 +638,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 10,
+        "columns_desktop": 8,
         "items_same_width": true,
         "column_alignment": "center",
         "item_alignment": "center",

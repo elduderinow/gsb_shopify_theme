@@ -1056,3 +1056,6 @@ swiper-container .swiper-notification {
 .multicolumn-list.grid--col-col-desktop .grid__item {
   width: 12.5%;
 }
+.multicolumn-list.grid--8-col-desktop .grid__item {
+  width: 12.5%;
+}

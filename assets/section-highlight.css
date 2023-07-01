@@ -783,40 +783,11 @@ swiper-container .swiper-notification {
   width: 80%;
 }
 .section-highlight .highlight--title .title {
-  font-size: 22px;
-  line-height: 25.3px;
-}
-@media screen and (min-width: 640px) {
-  .section-highlight .highlight--title .title {
-    font-size: calc(
-                    22px + 12 *
-                        ((100vw - 640px) / 384)
-                );
-    line-height: calc(
-                    22px * 1.15 + 12 *
-                        ((100vw - 640px) / 384)
-                );
-  }
-}
-@media screen and (min-width: 1024px) {
-  .section-highlight .highlight--title .title {
-    font-size: 34px;
-    line-height: 39.1px;
-  }
-}
-.section-highlight .highlight--title .description {
-  font-family: "Roboto", sans-serif;
-  color: black;
-  font-weight: 700;
-  font-weight: 300;
-  text-align: center;
-}
-.section-highlight .highlight--title .description {
   font-size: 16px;
   line-height: 18.4px;
 }
 @media screen and (min-width: 640px) {
-  .section-highlight .highlight--title .description {
+  .section-highlight .highlight--title .title {
     font-size: calc(
                     16px + 8 *
                         ((100vw - 640px) / 384)
@@ -828,9 +799,38 @@ swiper-container .swiper-notification {
   }
 }
 @media screen and (min-width: 1024px) {
-  .section-highlight .highlight--title .description {
+  .section-highlight .highlight--title .title {
     font-size: 24px;
     line-height: 27.6px;
+  }
+}
+.section-highlight .highlight--title .description {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: 700;
+  font-weight: 300;
+  text-align: center;
+}
+.section-highlight .highlight--title .description {
+  font-size: 12px;
+  line-height: 13.8px;
+}
+@media screen and (min-width: 640px) {
+  .section-highlight .highlight--title .description {
+    font-size: calc(
+                    12px + 4 *
+                        ((100vw - 640px) / 384)
+                );
+    line-height: calc(
+                    12px * 1.15 + 4 *
+                        ((100vw - 640px) / 384)
+                );
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section-highlight .highlight--title .description {
+    font-size: 16px;
+    line-height: 18.4px;
   }
 }
 @media (min-width: 990px) {

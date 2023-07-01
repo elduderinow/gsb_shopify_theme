@@ -532,7 +532,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 8,
+        "columns_desktop": 7,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Button label",

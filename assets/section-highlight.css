@@ -819,3 +819,8 @@ swiper-container .swiper-notification {
   align-items: center;
   justify-content: center;
 }
+@media (min-width: 990px) {
+  .section-highlight .swiper .swiper--controls .swiper-button {
+    display: none;
+  }
+}

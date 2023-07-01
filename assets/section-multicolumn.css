@@ -208,45 +208,17 @@ body {
   font-family: "Roboto", sans-serif !important;
 }
 
-.multicolumn-list {
-  background-color: pink;
-}
 .multicolumn-list.grid--col-col-desktop .grid__item {
   border: 1px solid red;
-  width: 12.5%;
+  width: 100%;
 }
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  width: 12.5%;
-}
+
 .multicolumn-list.grid--col-col-desktop .grid__item {
   border: 1px solid red;
-  width: 12.5%;
+  width: 50%;
 }
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  width: 12.5%;
-}
+
 .multicolumn-list.grid--col-col-desktop .grid__item {
   border: 1px solid red;
-  width: 12.5%;
-}
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  width: 12.5%;
-}
-.multicolumn-list.grid--8-col-desktop .grid__item {
-  width: 12.5%;
-}
-.multicolumn-list .icon-40px {
-  font-size: 40px;
-  height: 40px;
-  width: 40px;
-}
-.multicolumn-list .icon-50px {
-  font-size: 50px;
-  height: 50px;
-  width: 50px;
-}
-.multicolumn-list .icon-80px {
-  font-size: 80px;
-  height: 80px;
-  width: 80px;
+  width: 33.3333333333%;
 }

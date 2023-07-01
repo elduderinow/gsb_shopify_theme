@@ -376,6 +376,7 @@
       "blocks": {
         "template--19143340065115__b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721-1688229291c922cd03-0": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "<strong>WHATS IN?<\/strong>",
             "text": "",
@@ -386,7 +387,7 @@
         "template--19143340065115__b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721-1688229291c922cd03-1": {
           "type": "column",
           "settings": {
-            "title": "",
+            "title": "<strong>WHATS IN? <\/strong>",
             "text": "<ul><li>NEXT-GENERATION ACTIVES<\/li><li>NATURAL NOURISHERS<\/li><li>LUXURIOUS HYDRATORS<\/li><li>ETHICALLY-SOURCED MINERALS<\/li><li>SOOTHING BOTANICALS<\/li><li>ANTIOXIDANTS<\/li><li>INNOVATIVE TECHNOLOGY<\/li><\/ul>",
             "link_label": "",
             "link": ""
@@ -394,6 +395,7 @@
         },
         "template--19143340065115__b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721-1688229291c922cd03-2": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "<strong>WHATS OUT?<\/strong>",
             "text": "",
@@ -404,7 +406,7 @@
         "1ac2151e-ff2a-44eb-b1b1-730bf6875312": {
           "type": "column",
           "settings": {
-            "title": "",
+            "title": "<strong>WHATS OUT?<\/strong>",
             "text": "<ul><li>PARABENS<\/li><li>TALC<\/li><li>ARTIFICIAL FRAGRANCE<\/li><li>IRRITATING SULFATES<\/li><li>PHTHALATES<\/li><li>HARSH COLORANTS<\/li><li>POLYETHYLENE BEADS<\/li><li>MINERAL OIL<\/li><\/ul>",
             "link_label": "",
             "link": ""

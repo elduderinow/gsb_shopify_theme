@@ -22,7 +22,12 @@
       <div class="swiper-wrapper">
         {%- for block in section.blocks limit: 4 -%}
           {%- if block.type == 'highlight' -%}
-            <div class="swiper-slide border-blue-200 border">
+            <div
+              class="swiper-slide border-blue-200 border {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              {% if settings.animations_reveal_on_scroll %}
+                data-cascade
+              {% endif %}
+            >
               <img
                 srcset="
                   {%- if block.settings.image.width >= 165 -%}{{ block.settings.image | image_url: width: 165 }} 165w,{%- endif -%}

@@ -793,7 +793,6 @@ swiper-container .swiper-notification {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: pink;
 }
 .section-highlight .swiper .swiper--controls .swiper-pagination {
   width: auto;

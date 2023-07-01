@@ -370,6 +370,71 @@
         "padding_top": 80,
         "padding_bottom": 80
       }
+    },
+    "b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19143340065115__b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721-1688229291c922cd03-0": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>WHATS IN?<\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19143340065115__b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721-1688229291c922cd03-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<ul><li>NEXT-GENERATION ACTIVES<\/li><li>NATURAL NOURISHERS<\/li><li>LUXURIOUS HYDRATORS<\/li><li>ETHICALLY-SOURCED MINERALS<\/li><li>SOOTHING BOTANICALS<\/li><li>ANTIOXIDANTS<\/li><li>INNOVATIVE TECHNOLOGY<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19143340065115__b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721-1688229291c922cd03-2": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>WHATS OUT?<\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1ac2151e-ff2a-44eb-b1b1-730bf6875312": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<ul><li>PARABENS<\/li><li>TALC<\/li><li>ARTIFICIAL FRAGRANCE<\/li><li>IRRITATING SULFATES<\/li><li>PHTHALATES<\/li><li>HARSH COLORANTS<\/li><li>POLYETHYLENE BEADS<\/li><li>MINERAL OIL<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19143340065115__b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721-1688229291c922cd03-0",
+        "template--19143340065115__b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721-1688229291c922cd03-1",
+        "template--19143340065115__b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721-1688229291c922cd03-2",
+        "1ac2151e-ff2a-44eb-b1b1-730bf6875312"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "icon__grid": false,
+        "column_alignment": "left",
+        "item_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -380,6 +445,7 @@
     "d505918e-6980-4bce-bf30-44f0ad46b8c3",
     "36581f1d-ed42-44a4-ba6e-322786b4adbc",
     "0544e851-a779-4248-a67e-cbec20d2a40e",
-    "1ecd70ec-550e-4ee0-9b19-cbdc86548b9c"
+    "1ecd70ec-550e-4ee0-9b19-cbdc86548b9c",
+    "b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721"
   ]
 }

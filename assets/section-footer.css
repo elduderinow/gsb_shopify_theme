@@ -102,5 +102,5 @@ body {
   box-shadow: none !important;
 }
 .footer .right .footer__newsletter-container .footer-block__newsletter .footer__newsletter .newsletter-form__field-wrapper .field svg path {
-  fill: white;
+  fill: white !important;
 }

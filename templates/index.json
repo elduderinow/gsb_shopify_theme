@@ -266,6 +266,32 @@
             "image_subtitle": "",
             "highlight_url": ""
           }
+        },
+        "18512356-6e02-49a1-bce9-7a2c3843c997": {
+          "type": "highlight",
+          "disabled": true,
+          "settings": {
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "3c6b2028-ec60-478e-974a-7676467d4ff6": {
+          "type": "highlight",
+          "settings": {
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "6acefa71-0343-4f43-b6ad-a4b2ceeb3390": {
+          "type": "highlight",
+          "disabled": true,
+          "settings": {
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
         }
       },
       "block_order": [
@@ -275,7 +301,10 @@
         "eca1cca8-5c27-4d82-a451-1f1ee6f0ab14",
         "8888a8f7-a74e-4ae5-9294-7133a1b26430",
         "895834e3-b917-49aa-b9c5-a435285a0449",
-        "f69a4149-5750-48e5-8459-b9dffff7d8b1"
+        "f69a4149-5750-48e5-8459-b9dffff7d8b1",
+        "18512356-6e02-49a1-bce9-7a2c3843c997",
+        "3c6b2028-ec60-478e-974a-7676467d4ff6",
+        "6acefa71-0343-4f43-b6ad-a4b2ceeb3390"
       ],
       "settings": {
         "title": "Glo Skin Beauty",
@@ -514,6 +543,33 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "3d269c08-b184-4e5e-88e4-5af403392c5a": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "045a03a5-c21d-45be-aa0e-9346b27cb348": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "4424d7f1-abc0-4289-90de-42f9bed68e61": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -525,7 +581,10 @@
         "3e1a80f7-36c5-4228-8e9a-16aee21344cf",
         "c501e261-626f-42e9-aac4-c8e3672c63df",
         "724a231c-676e-40f7-b0ef-cd7a3c15a067",
-        "62b3a289-8521-4326-87ed-9b153af8d85c"
+        "62b3a289-8521-4326-87ed-9b153af8d85c",
+        "3d269c08-b184-4e5e-88e4-5af403392c5a",
+        "045a03a5-c21d-45be-aa0e-9346b27cb348",
+        "4424d7f1-abc0-4289-90de-42f9bed68e61"
       ],
       "settings": {
         "title": "Multicolumn",

@@ -771,7 +771,7 @@ swiper-container .swiper-notification {
   position: relative;
 }
 .section-highlight .swiper .swiper-wrapper {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 .section-highlight .swiper .swiper-wrapper .link-wrapper .image-wrapper {
   aspect-ratio: 4/6;

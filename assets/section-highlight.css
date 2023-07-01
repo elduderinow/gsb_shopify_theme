@@ -804,3 +804,8 @@ swiper-container .swiper-notification {
   left: 0;
   transform: translateY(-80%);
 }
+.section-highlight .swiper .swiper--navigation .swiper-button {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+}

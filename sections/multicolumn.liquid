@@ -57,7 +57,7 @@
             endif
           endfor
         -%}
-        {%- for block in section.blocks limit: 4 -%}
+        {%- for block in section.blocks -%}
           {%- assign empty_column = '' -%}
           {%- if block.settings.image == blank
             and block.settings.title == blank

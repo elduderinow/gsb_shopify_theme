@@ -808,7 +808,14 @@ swiper-container .swiper-notification {
 .section-highlight .swiper .swiper--controls .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: black;
 }
-.section-highlight .swiper .swiper--controls .swiper-button svg {
-  height: 44px;
+.section-highlight .swiper .swiper--controls .swiper-button .slider-button {
+  color: black;
+  background: transparent;
+  border: none;
+  cursor: pointer;
   width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

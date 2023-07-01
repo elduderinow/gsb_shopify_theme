@@ -42,27 +42,24 @@
     <div class="left col-span-8">
       <h1>{{ shop.name }}</h1>
       <div class="footer__menu">
-        <div class="footer__links">
-          <h6 class="title">main menu</h6>
-          <a href="">link</a>
-          <a href="">link</a>
-          <a href="">link</a>
-          <a href="">link</a>
-        </div>
-        <div class="footer__collections">
-          <h6 class="title">collections</h6>
-          <a href="">collection</a>
-          <a href="">collection</a>
-          <a href="">collection</a>
-        </div>
-        <div class="footer__about">
-          <h6 class="title">about us</h6>
-          <p>
-            Our skin care products are made with all natural ingredients but none of the products on this store are
-            real. This store and the Darma brand were created to demonstrate the capabilities of the Pipeline theme for
-            Shopify.
-          </p>
-        </div>
+        {%- for block in section.blocks -%}
+          {%- if block.type == 'link_list' -%}
+            <div class="footer__links">
+              <h6 class="title">{{ block.settings.heading }}</h6>
+              {%- for link in block.settings.menu.links -%}
+                <a href="{{ link.url }}">{{ link.title }}</a>
+              {% endfor %}
+            </div>
+          {% endif %}
+          {%- if block.type == 'text' -%}
+            <div class="footer__about">
+              <h6 class="title">{{ block.settings.heading }}</h6>
+              <p>
+                {{ block.settings.subtext }}
+              </p>
+            </div>
+          {% endif %}
+        {% endfor %}
       </div>
       <div class="footer__social">
         <h2>Blijf op de hoogte</h2>
@@ -149,17 +146,15 @@
     <div class="right col-span-4">
       <div class="image-wrapper">
         {% comment %} <img width="200" height="200" src="{{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}/"> {% endcomment %}
-        {% comment %}
-          {%- if section.settings.footer_image != blank -%}
-            {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
-            <img
-              src="{{ section.settings.footer_image | image_url: width: 800 }}"
-              alt="{{ section.settings.footer_image.alt | escape }}"
-            >
-          {%- else -%}
-            {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
-          {%- endif -%}
-        {% endcomment %}
+        {%- if section.settings.footer_image != blank -%}
+          {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
+          <img
+            src="{{ section.settings.footer_image | image_url: width: 800 }}"
+            alt="{{ section.settings.footer_image.alt | escape }}"
+          >
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+        {%- endif -%}
       </div>
       <div class="footer__newsletter-container">
         {%- if section.settings.newsletter_enable -%}

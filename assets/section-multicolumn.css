@@ -693,6 +693,8 @@ body {
 .multicolumn-list.justify-right {
   justify-content: right;
 }
-.multicolumn-list .grid__item:nth-child(n+5) {
-  display: none;
+@media (max-width: 420px) {
+  .multicolumn-list .grid__item:nth-child(n+5) {
+    display: none;
+  }
 }

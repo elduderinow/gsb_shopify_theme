@@ -232,86 +232,20 @@ body {
 .multicolumn-list.grid--col-col-desktop .grid__item {
   width: 12.5%;
 }
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  border: 1px solid red;
-  width: 12.5%;
-}
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  width: 12.5%;
-}
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  border: 1px solid red;
-  width: 12.5%;
-}
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  width: 12.5%;
-}
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  border: 1px solid red;
-  width: 12.5%;
-}
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  width: 12.5%;
-}
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  border: 1px solid red;
-  width: 12.5%;
-}
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  width: 12.5%;
-}
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  border: 1px solid red;
-  width: 12.5%;
-}
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  width: 12.5%;
-}
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  border: 1px solid red;
-  width: 12.5%;
-}
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  width: 12.5%;
-}
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  border: 1px solid red;
-  width: 12.5%;
-}
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  width: 12.5%;
-}
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  border: 1px solid red;
-  width: 12.5%;
-}
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  width: 12.5%;
-}
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  border: 1px solid red;
-  width: 12.5%;
-}
-.multicolumn-list.grid--col-col-desktop .grid__item {
-  width: 12.5%;
-}
 .multicolumn-list.grid--8-col-desktop .grid__item {
   width: 12.5%;
 }
-
-.icon-40px {
+.multicolumn-list .icon-40px {
   font-size: 40px;
   height: 40px;
   width: 40px;
 }
-
-.icon-50px {
+.multicolumn-list .icon-50px {
   font-size: 50px;
   height: 50px;
   width: 50px;
 }
-
-.icon-80px {
+.multicolumn-list .icon-80px {
   font-size: 80px;
   height: 80px;
   width: 80px;

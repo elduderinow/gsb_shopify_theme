@@ -411,7 +411,7 @@ body {
 .multicolumn-list.icon__grid-container.grid--1-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
-.multicolumn-list.icon__grid-container.grid--1-col-desktop .grid__item > *:not(:nth-child(-n+4)) {
+.multicolumn-list.icon__grid-container.grid--1-col-desktop > *:not(:nth-child(-n+4)) {
   display: none;
 }
 @media (min-width: 420px) {
@@ -437,7 +437,7 @@ body {
 .multicolumn-list.icon__grid-container.grid--2-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
-.multicolumn-list.icon__grid-container.grid--2-col-desktop .grid__item > *:not(:nth-child(-n+4)) {
+.multicolumn-list.icon__grid-container.grid--2-col-desktop > *:not(:nth-child(-n+4)) {
   display: none;
 }
 @media (min-width: 420px) {
@@ -463,7 +463,7 @@ body {
 .multicolumn-list.icon__grid-container.grid--3-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
-.multicolumn-list.icon__grid-container.grid--3-col-desktop .grid__item > *:not(:nth-child(-n+4)) {
+.multicolumn-list.icon__grid-container.grid--3-col-desktop > *:not(:nth-child(-n+4)) {
   display: none;
 }
 @media (min-width: 420px) {
@@ -489,7 +489,7 @@ body {
 .multicolumn-list.icon__grid-container.grid--4-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
-.multicolumn-list.icon__grid-container.grid--4-col-desktop .grid__item > *:not(:nth-child(-n+4)) {
+.multicolumn-list.icon__grid-container.grid--4-col-desktop > *:not(:nth-child(-n+4)) {
   display: none;
 }
 @media (min-width: 420px) {
@@ -515,7 +515,7 @@ body {
 .multicolumn-list.icon__grid-container.grid--5-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
-.multicolumn-list.icon__grid-container.grid--5-col-desktop .grid__item > *:not(:nth-child(-n+4)) {
+.multicolumn-list.icon__grid-container.grid--5-col-desktop > *:not(:nth-child(-n+4)) {
   display: none;
 }
 @media (min-width: 420px) {
@@ -541,7 +541,7 @@ body {
 .multicolumn-list.icon__grid-container.grid--6-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
-.multicolumn-list.icon__grid-container.grid--6-col-desktop .grid__item > *:not(:nth-child(-n+4)) {
+.multicolumn-list.icon__grid-container.grid--6-col-desktop > *:not(:nth-child(-n+4)) {
   display: none;
 }
 @media (min-width: 420px) {
@@ -567,7 +567,7 @@ body {
 .multicolumn-list.icon__grid-container.grid--7-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
-.multicolumn-list.icon__grid-container.grid--7-col-desktop .grid__item > *:not(:nth-child(-n+4)) {
+.multicolumn-list.icon__grid-container.grid--7-col-desktop > *:not(:nth-child(-n+4)) {
   display: none;
 }
 @media (min-width: 420px) {
@@ -593,7 +593,7 @@ body {
 .multicolumn-list.icon__grid-container.grid--8-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
-.multicolumn-list.icon__grid-container.grid--8-col-desktop .grid__item > *:not(:nth-child(-n+4)) {
+.multicolumn-list.icon__grid-container.grid--8-col-desktop > *:not(:nth-child(-n+4)) {
   display: none;
 }
 @media (min-width: 420px) {
@@ -619,7 +619,7 @@ body {
 .multicolumn-list.icon__grid-container.grid--9-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
-.multicolumn-list.icon__grid-container.grid--9-col-desktop .grid__item > *:not(:nth-child(-n+4)) {
+.multicolumn-list.icon__grid-container.grid--9-col-desktop > *:not(:nth-child(-n+4)) {
   display: none;
 }
 @media (min-width: 420px) {
@@ -645,7 +645,7 @@ body {
 .multicolumn-list.icon__grid-container.grid--10-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
-.multicolumn-list.icon__grid-container.grid--10-col-desktop .grid__item > *:not(:nth-child(-n+4)) {
+.multicolumn-list.icon__grid-container.grid--10-col-desktop > *:not(:nth-child(-n+4)) {
   display: none;
 }
 @media (min-width: 420px) {
@@ -671,7 +671,7 @@ body {
 .multicolumn-list.icon__grid-container.grid--11-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
-.multicolumn-list.icon__grid-container.grid--11-col-desktop .grid__item > *:not(:nth-child(-n+4)) {
+.multicolumn-list.icon__grid-container.grid--11-col-desktop > *:not(:nth-child(-n+4)) {
   display: none;
 }
 @media (min-width: 420px) {
@@ -697,7 +697,7 @@ body {
 .multicolumn-list.icon__grid-container.grid--12-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
-.multicolumn-list.icon__grid-container.grid--12-col-desktop .grid__item > *:not(:nth-child(-n+4)) {
+.multicolumn-list.icon__grid-container.grid--12-col-desktop > *:not(:nth-child(-n+4)) {
   display: none;
 }
 @media (min-width: 420px) {

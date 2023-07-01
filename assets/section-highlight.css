@@ -788,3 +788,6 @@ swiper-container .swiper-notification {
   background-color: white;
   border: 1px solid black;
 }
+.section-highlight .swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: black;
+}

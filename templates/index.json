@@ -118,7 +118,6 @@
         "image_ratio": "adapt",
         "columns_desktop": 2,
         "icon__grid": false,
-        "limit_item_mobile": "",
         "column_alignment": "left",
         "item_alignment": "center",
         "background_style": "none",
@@ -220,8 +219,8 @@
         "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/hp-icon-cruelty-free_e646452e-75d8-49fb-9002-900b9ab4c00d.svg",
+            "title": "<strong>Cruelty Free<\/strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -382,7 +381,6 @@
         "image_ratio": "adapt",
         "columns_desktop": 8,
         "icon__grid": true,
-        "limit_item_mobile": "4",
         "column_alignment": "center",
         "item_alignment": "center",
         "background_style": "none",

@@ -694,17 +694,17 @@ body {
   justify-content: right;
 }
 @media (max-width: 420px) {
-  .multicolumn-list .grid__item:nth-child(n+5) {
-    display: none;
-  }
-}
-@media (max-width: 750px) {
   .multicolumn-list .grid__item:nth-child(n+7) {
     display: none;
   }
 }
-@media (max-width: 990px) {
+@media (max-width: 750px) {
   .multicolumn-list .grid__item:nth-child(n+9) {
+    display: none;
+  }
+}
+@media (max-width: 990px) {
+  .multicolumn-list .grid__item:nth-child(n+11) {
     display: none;
   }
 }

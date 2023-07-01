@@ -87,7 +87,7 @@ body {
 
 .section-featured-blog .blog__posts.articles-wrapper {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(auto, 1fr);
 }
 .section-featured-blog .blog__posts.articles-wrapper .grid__item {
   width: 100%;

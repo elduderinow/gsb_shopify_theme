@@ -85,6 +85,6 @@ body {
   font-family: "Roboto", sans-serif !important;
 }
 
-.section-featured-blog {
-  background-color: red;
+.section-featured-blog .blog__posts.articles-wrapper {
+  background-color: pink;
 }

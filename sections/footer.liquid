@@ -59,14 +59,16 @@
           <a href="">collection</a>
           <a href="">collection</a>
         </div>
-        <div class="footer__about">
-          <h6 class="title">about us</h6>
-          <p>
-            Our skin care products are made with all natural ingredients but none of the products on this store are
-            real. This store and the Darma brand were created to demonstrate the capabilities of the Pipeline theme for
-            Shopify.
-          </p>
-        </div>
+        {%- for block in section.blocks -%}
+          {%- if block.type == 'text' -%}
+            <div class="footer__about">
+              <h6 class="title">{{ block.settings.heading }}</h6>
+              <p>
+                {{ block.settings.subtext }}
+              </p>
+            </div>
+          {% endif %}
+        {% endfor %}
       </div>
       <div class="footer__social">
         <h2>Blijf op de hoogte</h2>

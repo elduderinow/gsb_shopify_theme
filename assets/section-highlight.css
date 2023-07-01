@@ -802,6 +802,8 @@ swiper-container .swiper-notification {
 .section-highlight .swiper .swiper--controls .swiper-pagination .swiper-pagination-bullet {
   background-color: white;
   border: 1px solid black;
+  width: 10px;
+  height: 10px;
 }
 .section-highlight .swiper .swiper--controls .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: black;

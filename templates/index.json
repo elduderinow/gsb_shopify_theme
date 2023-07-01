@@ -569,6 +569,15 @@
             "highlight_url": "shopify:\/\/pages\/makeup"
           }
         },
+        "d4d124fb-2485-4a15-89aa-7e3decf34e1d": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/woman-portrait-on-pink-brick.jpg",
+            "image_title": "\"Verliefd op Glo Skin Beauty\"",
+            "image_subtitle": "\"Glo Skin Beauty heeft mijn hart gestolen met hun fantastische producten.\"",
+            "highlight_url": ""
+          }
+        },
         "4d2547f1-75fd-471d-b659-2a09ef55fae9": {
           "type": "highlight",
           "settings": {
@@ -587,15 +596,6 @@
             "highlight_url": ""
           }
         },
-        "d4d124fb-2485-4a15-89aa-7e3decf34e1d": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/woman-portrait-on-pink-brick.jpg",
-            "image_title": "\"Verliefd op Glo Skin Beauty\"",
-            "image_subtitle": "\"Glo Skin Beauty heeft mijn hart gestolen met hun fantastische producten.\"",
-            "highlight_url": ""
-          }
-        },
         "1d9f9f1a-bd06-4c2a-bb9e-881e2a6a70b9": {
           "type": "highlight",
           "settings": {
@@ -608,9 +608,9 @@
       },
       "block_order": [
         "2fef5121-9c94-4ca1-a0bf-405e708e898f",
+        "d4d124fb-2485-4a15-89aa-7e3decf34e1d",
         "4d2547f1-75fd-471d-b659-2a09ef55fae9",
         "9f9706b1-cf0c-4841-9232-f4dd6fe4e74c",
-        "d4d124fb-2485-4a15-89aa-7e3decf34e1d",
         "1d9f9f1a-bd06-4c2a-bb9e-881e2a6a70b9"
       ],
       "settings": {

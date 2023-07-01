@@ -970,7 +970,7 @@ swiper-container .swiper-notification {
 }
 
 .multicolumn-list {
-  background-color: brown;
+  background-color: pink;
 }
 .multicolumn-list.grid--col-col-desktop .grid__item {
   border: 1px solid red;
@@ -1054,8 +1054,5 @@ swiper-container .swiper-notification {
   width: 8.3333333333%;
 }
 .multicolumn-list.grid--col-col-desktop .grid__item {
-  width: 12.5%;
-}
-.multicolumn-list.grid--8-col-desktop .grid__item {
   width: 12.5%;
 }

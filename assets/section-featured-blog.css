@@ -93,4 +93,5 @@ body {
 .section-featured-blog .blog__posts.articles-wrapper .grid__item {
   width: 100%;
   background-color: green;
+  display: block;
 }

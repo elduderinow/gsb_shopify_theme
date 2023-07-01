@@ -437,6 +437,51 @@
         "padding_top": 0,
         "padding_bottom": 80
       }
+    },
+    "1ba8cebd-6775-4fab-8887-39c7ee3af478": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19143340065115__1ba8cebd-6775-4fab-8887-39c7ee3af478-1688229975bb17185e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Whats in?",
+            "heading_size": "h2"
+          }
+        },
+        "template--19143340065115__1ba8cebd-6775-4fab-8887-39c7ee3af478-1688229975bb17185e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>PARABENS<\/li><li>TALC<\/li><li>ARTIFICIAL FRAGRANCE<\/li><li>IRRITATING SULFATES<\/li><li>PHTHALATES<\/li><li>HARSH COLORANTS<\/li><li>POLYETHYLENE BEADS<\/li><li>MINERAL OIL<\/li><\/ul>",
+            "text_style": "body"
+          }
+        },
+        "template--19143340065115__1ba8cebd-6775-4fab-8887-39c7ee3af478-1688229975bb17185e-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19143340065115__1ba8cebd-6775-4fab-8887-39c7ee3af478-1688229975bb17185e-0",
+        "template--19143340065115__1ba8cebd-6775-4fab-8887-39c7ee3af478-1688229975bb17185e-1",
+        "template--19143340065115__1ba8cebd-6775-4fab-8887-39c7ee3af478-1688229975bb17185e-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -448,6 +493,7 @@
     "36581f1d-ed42-44a4-ba6e-322786b4adbc",
     "0544e851-a779-4248-a67e-cbec20d2a40e",
     "1ecd70ec-550e-4ee0-9b19-cbdc86548b9c",
-    "b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721"
+    "b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721",
+    "1ba8cebd-6775-4fab-8887-39c7ee3af478"
   ]
 }

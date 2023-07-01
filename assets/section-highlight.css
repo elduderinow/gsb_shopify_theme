@@ -767,7 +767,7 @@ swiper-container .swiper-notification {
 .section-highlight {
   max-width: 1536px;
 }
-.section-highlight .swiper .swiper-wrapper {
+.section-highlight .swiper {
   margin-bottom: 5rem;
 }
 .section-highlight .swiper .swiper-wrapper .link-wrapper .image-wrapper {

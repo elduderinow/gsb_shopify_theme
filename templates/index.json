@@ -203,6 +203,49 @@
         "padding_bottom": 76
       }
     },
+    "36581f1d-ed42-44a4-ba6e-322786b4adbc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19143340065115__36581f1d-ed42-44a4-ba6e-322786b4adbc-16882290004a28d1c4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clean Without Compromise",
+            "heading_size": "h1"
+          }
+        },
+        "template--19143340065115__36581f1d-ed42-44a4-ba6e-322786b4adbc-16882290004a28d1c4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Glo, we understand that what’s not in our skincare and makeup formulas is as important as what is. That’s why our consciously clean formulations are crafted with care to deliver real results using only safe, ethical, and sustainably sourced ingredients, that are kind to your skin and the environment.<\/p>"
+          }
+        },
+        "template--19143340065115__36581f1d-ed42-44a4-ba6e-322786b4adbc-16882290004a28d1c4-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19143340065115__36581f1d-ed42-44a4-ba6e-322786b4adbc-16882290004a28d1c4-0",
+        "template--19143340065115__36581f1d-ed42-44a4-ba6e-322786b4adbc-16882290004a28d1c4-1",
+        "template--19143340065115__36581f1d-ed42-44a4-ba6e-322786b4adbc-16882290004a28d1c4-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 12
+      }
+    },
     "0544e851-a779-4248-a67e-cbec20d2a40e": {
       "type": "multicolumn",
       "blocks": {
@@ -410,6 +453,7 @@
     "multicolumn",
     "fae5378e-1912-4d51-916f-e1f0c1a488a0",
     "d505918e-6980-4bce-bf30-44f0ad46b8c3",
+    "36581f1d-ed42-44a4-ba6e-322786b4adbc",
     "0544e851-a779-4248-a67e-cbec20d2a40e"
   ]
 }

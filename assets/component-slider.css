@@ -1123,7 +1123,6 @@ swiper-container .swiper-notification {
   font-family: "Roboto", sans-serif;
   color: black;
   font-weight: 700;
-  text-transform: uppercase;
   text-align: center;
 }
 .featured-collection--component .collection__title .title {
@@ -1152,7 +1151,6 @@ swiper-container .swiper-notification {
   font-family: "Roboto", sans-serif;
   color: black;
   font-weight: 700;
-  text-transform: uppercase;
   font-weight: 300;
   text-align: center;
 }

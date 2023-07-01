@@ -46,20 +46,22 @@
     <div class="left col-span-8">
       <h1>{{ shop.name }}</h1>
       <div class="footer__menu">
-        <div class="footer__links">
-          <h6 class="title">main menu</h6>
-          <a href="">link</a>
-          <a href="">link</a>
-          <a href="">link</a>
-          <a href="">link</a>
-        </div>
-        <div class="footer__collections">
-          <h6 class="title">collections</h6>
-          <a href="">collection</a>
-          <a href="">collection</a>
-          <a href="">collection</a>
-        </div>
         {%- for block in section.blocks -%}
+          {%- if block.type == 'link_list' -%}
+            <div class="footer__links">
+              <h6 class="title">main menu</h6>
+              <a href="">link</a>
+              <a href="">link</a>
+              <a href="">link</a>
+              <a href="">link</a>
+            </div>
+            <div class="footer__collections">
+              <h6 class="title">collections</h6>
+              <a href="">collection</a>
+              <a href="">collection</a>
+              <a href="">collection</a>
+            </div>
+          {% endif %}
           {%- if block.type == 'text' -%}
             <div class="footer__about">
               <h6 class="title">{{ block.settings.heading }}</h6>

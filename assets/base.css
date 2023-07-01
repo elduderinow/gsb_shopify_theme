@@ -30,3 +30,7 @@ body {
     padding-right: 5rem;
   }
 }
+
+.instagram-feed-box .glide__slides .glide__slide {
+  box-shadow: none !important;
+}

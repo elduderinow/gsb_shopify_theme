@@ -973,38 +973,38 @@ swiper-container .swiper-notification {
   background-color: green;
 }
 .multicolumn-list .grid--col-col-desktop {
-  width: calc(100% / col);
+  width: 100%;
 }
 .multicolumn-list .grid--col-col-desktop {
-  width: calc(100% / col);
+  width: 50%;
 }
 .multicolumn-list .grid--col-col-desktop {
-  width: calc(100% / col);
+  width: 33.3333333333%;
 }
 .multicolumn-list .grid--col-col-desktop {
-  width: calc(100% / col);
+  width: 25%;
 }
 .multicolumn-list .grid--col-col-desktop {
-  width: calc(100% / col);
+  width: 20%;
 }
 .multicolumn-list .grid--col-col-desktop {
-  width: calc(100% / col);
+  width: 16.6666666667%;
 }
 .multicolumn-list .grid--col-col-desktop {
-  width: calc(100% / col);
+  width: 14.2857142857%;
 }
 .multicolumn-list .grid--col-col-desktop {
-  width: calc(100% / col);
+  width: 12.5%;
 }
 .multicolumn-list .grid--col-col-desktop {
-  width: calc(100% / col);
+  width: 11.1111111111%;
 }
 .multicolumn-list .grid--col-col-desktop {
-  width: calc(100% / col);
+  width: 10%;
 }
 .multicolumn-list .grid--col-col-desktop {
-  width: calc(100% / col);
+  width: 9.0909090909%;
 }
 .multicolumn-list .grid--col-col-desktop {
-  width: calc(100% / col);
+  width: 8.3333333333%;
 }

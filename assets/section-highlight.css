@@ -789,11 +789,6 @@ swiper-container .swiper-notification {
   width: 100%;
   transition: transform 0.3s ease-in-out;
 }
-@media (min-width: 640px) {
-  .section-highlight .swiper .swiper-wrapper .link-wrapper .image-wrapper {
-    aspect-ratio: 4/5;
-  }
-}
 @media (min-width: 990px) {
   .section-highlight .swiper .swiper-wrapper .link-wrapper .image-wrapper {
     aspect-ratio: 4/6;

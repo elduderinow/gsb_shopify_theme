@@ -779,5 +779,5 @@ swiper-container .swiper-notification {
   transition: transform 0.2s ease-in-out;
 }
 .section-highlight .swiper .link-wrapper:hover .image-wrapper img {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }

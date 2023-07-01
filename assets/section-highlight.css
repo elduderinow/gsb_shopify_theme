@@ -794,7 +794,6 @@ swiper-container .swiper-notification {
   align-items: center;
   justify-content: center;
   background-color: pink;
-  gap: 2rem;
 }
 .section-highlight .swiper .swiper--controls .swiper-pagination {
   width: auto;

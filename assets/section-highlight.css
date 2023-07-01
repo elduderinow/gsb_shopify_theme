@@ -773,9 +773,6 @@ swiper-container .swiper-notification {
 .section-highlight .swiper .swiper-wrapper {
   margin-bottom: 2rem;
 }
-.section-highlight .swiper .swiper-wrapper .link-wrapper {
-  padding: 0 5rem;
-}
 .section-highlight .swiper .swiper-wrapper .link-wrapper .image-wrapper {
   aspect-ratio: 4/5;
   overflow: hidden;

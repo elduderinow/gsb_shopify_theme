@@ -298,6 +298,36 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "f68a5006-641d-46e3-9651-98901efa5a52": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "01df6425-b6d7-4bfa-ae78-702487d59974": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e5a2d624-510e-4da4-9c27-ef5123a7ca5e": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -305,7 +335,10 @@
         "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-1",
         "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-2",
         "ed105618-3561-462f-9054-6edf1052805c",
-        "22505426-65eb-4e2b-bca7-5a01518024f0"
+        "22505426-65eb-4e2b-bca7-5a01518024f0",
+        "f68a5006-641d-46e3-9651-98901efa5a52",
+        "01df6425-b6d7-4bfa-ae78-702487d59974",
+        "e5a2d624-510e-4da4-9c27-ef5123a7ca5e"
       ],
       "settings": {
         "title": "",

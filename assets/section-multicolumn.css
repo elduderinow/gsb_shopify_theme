@@ -968,3 +968,7 @@ swiper-container .swiper-notification {
   backface-visibility: hidden;
   overflow: hidden;
 }
+
+.grid__item {
+  background-color: red;
+}

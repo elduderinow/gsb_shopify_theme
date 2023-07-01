@@ -770,6 +770,8 @@ swiper-container .swiper-notification {
 .section-highlight .highlight--title {
   width: 100%;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .section-highlight .swiper {
   position: relative;

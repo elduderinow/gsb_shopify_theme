@@ -767,3 +767,9 @@ swiper-container .swiper-notification {
 .section-highlight {
   max-width: 1536px;
 }
+.section-highlight .swiper .image-wrapper {
+  aspect-ratio: 9/16;
+}
+.section-highlight .swiper .image-wrapper img {
+  object-fit: cover;
+}

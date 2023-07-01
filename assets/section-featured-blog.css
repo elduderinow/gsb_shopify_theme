@@ -89,6 +89,11 @@ body {
   display: grid;
   grid-template-columns: repeat(auto, 1fr);
 }
+@media (min-width: 990px) {
+  .section-featured-blog .blog__posts.articles-wrapper {
+    grid-template-columns: repeat(auto, 3fr);
+  }
+}
 .section-featured-blog .blog__posts.articles-wrapper .grid__item {
   width: 100%;
   max-width: 100%;

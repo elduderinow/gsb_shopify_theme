@@ -778,6 +778,7 @@ swiper-container .swiper-notification {
   font-family: "Roboto", sans-serif;
   color: black;
   font-weight: 700;
+  text-align: center;
 }
 .section-highlight .highlight--title .title {
   font-size: 22px;
@@ -808,6 +809,7 @@ swiper-container .swiper-notification {
   font-size: 16px;
   line-height: 26px;
   color: get-gray-color(base);
+  text-align: center;
 }
 .section-highlight .highlight--title .description.text-bold {
   font-weight: 700;

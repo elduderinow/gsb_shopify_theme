@@ -208,508 +208,508 @@ body {
   font-family: "Roboto", sans-serif !important;
 }
 
-.multicolumn-list___ {
+.multicolumn-list {
   column-gap: 0;
   justify-content: space-between;
   gap: 5px;
 }
-.multicolumn-list___.grid--1-col-desktop .grid__item {
+.multicolumn-list.grid--1-col-desktop .grid__item {
   width: 100%;
 }
-.multicolumn-list___.grid--1-col-desktop .grid__item.icon__grid {
+.multicolumn-list.grid--1-col-desktop .grid__item.icon__grid {
   flex-grow: initial;
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.grid--1-col-desktop .grid__item {
+  .multicolumn-list.grid--1-col-desktop .grid__item {
     width: calc(200% - 5px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.grid--1-col-desktop .grid__item {
+  .multicolumn-list.grid--1-col-desktop .grid__item {
     width: calc(100% - 5px);
   }
 }
-.multicolumn-list___.grid--2-col-desktop .grid__item {
+.multicolumn-list.grid--2-col-desktop .grid__item {
   width: 100%;
 }
-.multicolumn-list___.grid--2-col-desktop .grid__item.icon__grid {
+.multicolumn-list.grid--2-col-desktop .grid__item.icon__grid {
   flex-grow: initial;
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.grid--2-col-desktop .grid__item {
+  .multicolumn-list.grid--2-col-desktop .grid__item {
     width: calc(100% - 5px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.grid--2-col-desktop .grid__item {
+  .multicolumn-list.grid--2-col-desktop .grid__item {
     width: calc(50% - 5px);
   }
 }
-.multicolumn-list___.grid--3-col-desktop .grid__item {
+.multicolumn-list.grid--3-col-desktop .grid__item {
   width: 100%;
 }
-.multicolumn-list___.grid--3-col-desktop .grid__item.icon__grid {
+.multicolumn-list.grid--3-col-desktop .grid__item.icon__grid {
   flex-grow: initial;
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.grid--3-col-desktop .grid__item {
+  .multicolumn-list.grid--3-col-desktop .grid__item {
     width: calc(66.6666666667% - 5px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.grid--3-col-desktop .grid__item {
+  .multicolumn-list.grid--3-col-desktop .grid__item {
     width: calc(33.3333333333% - 5px);
   }
 }
-.multicolumn-list___.grid--4-col-desktop .grid__item {
+.multicolumn-list.grid--4-col-desktop .grid__item {
   width: 100%;
 }
-.multicolumn-list___.grid--4-col-desktop .grid__item.icon__grid {
+.multicolumn-list.grid--4-col-desktop .grid__item.icon__grid {
   flex-grow: initial;
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.grid--4-col-desktop .grid__item {
+  .multicolumn-list.grid--4-col-desktop .grid__item {
     width: calc(50% - 5px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.grid--4-col-desktop .grid__item {
+  .multicolumn-list.grid--4-col-desktop .grid__item {
     width: calc(25% - 5px);
   }
 }
-.multicolumn-list___.grid--5-col-desktop .grid__item {
+.multicolumn-list.grid--5-col-desktop .grid__item {
   width: 100%;
 }
-.multicolumn-list___.grid--5-col-desktop .grid__item.icon__grid {
+.multicolumn-list.grid--5-col-desktop .grid__item.icon__grid {
   flex-grow: initial;
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.grid--5-col-desktop .grid__item {
+  .multicolumn-list.grid--5-col-desktop .grid__item {
     width: calc(40% - 5px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.grid--5-col-desktop .grid__item {
+  .multicolumn-list.grid--5-col-desktop .grid__item {
     width: calc(20% - 5px);
   }
 }
-.multicolumn-list___.grid--6-col-desktop .grid__item {
+.multicolumn-list.grid--6-col-desktop .grid__item {
   width: 100%;
 }
-.multicolumn-list___.grid--6-col-desktop .grid__item.icon__grid {
+.multicolumn-list.grid--6-col-desktop .grid__item.icon__grid {
   flex-grow: initial;
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.grid--6-col-desktop .grid__item {
+  .multicolumn-list.grid--6-col-desktop .grid__item {
     width: calc(33.3333333333% - 5px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.grid--6-col-desktop .grid__item {
+  .multicolumn-list.grid--6-col-desktop .grid__item {
     width: calc(16.6666666667% - 5px);
   }
 }
-.multicolumn-list___.grid--7-col-desktop .grid__item {
+.multicolumn-list.grid--7-col-desktop .grid__item {
   width: 100%;
 }
-.multicolumn-list___.grid--7-col-desktop .grid__item.icon__grid {
+.multicolumn-list.grid--7-col-desktop .grid__item.icon__grid {
   flex-grow: initial;
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.grid--7-col-desktop .grid__item {
+  .multicolumn-list.grid--7-col-desktop .grid__item {
     width: calc(28.5714285714% - 5px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.grid--7-col-desktop .grid__item {
+  .multicolumn-list.grid--7-col-desktop .grid__item {
     width: calc(14.2857142857% - 5px);
   }
 }
-.multicolumn-list___.grid--8-col-desktop .grid__item {
+.multicolumn-list.grid--8-col-desktop .grid__item {
   width: 100%;
 }
-.multicolumn-list___.grid--8-col-desktop .grid__item.icon__grid {
+.multicolumn-list.grid--8-col-desktop .grid__item.icon__grid {
   flex-grow: initial;
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.grid--8-col-desktop .grid__item {
+  .multicolumn-list.grid--8-col-desktop .grid__item {
     width: calc(25% - 5px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.grid--8-col-desktop .grid__item {
+  .multicolumn-list.grid--8-col-desktop .grid__item {
     width: calc(12.5% - 5px);
   }
 }
-.multicolumn-list___.grid--9-col-desktop .grid__item {
+.multicolumn-list.grid--9-col-desktop .grid__item {
   width: 100%;
 }
-.multicolumn-list___.grid--9-col-desktop .grid__item.icon__grid {
+.multicolumn-list.grid--9-col-desktop .grid__item.icon__grid {
   flex-grow: initial;
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.grid--9-col-desktop .grid__item {
+  .multicolumn-list.grid--9-col-desktop .grid__item {
     width: calc(22.2222222222% - 5px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.grid--9-col-desktop .grid__item {
+  .multicolumn-list.grid--9-col-desktop .grid__item {
     width: calc(11.1111111111% - 5px);
   }
 }
-.multicolumn-list___.grid--10-col-desktop .grid__item {
+.multicolumn-list.grid--10-col-desktop .grid__item {
   width: 100%;
 }
-.multicolumn-list___.grid--10-col-desktop .grid__item.icon__grid {
+.multicolumn-list.grid--10-col-desktop .grid__item.icon__grid {
   flex-grow: initial;
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.grid--10-col-desktop .grid__item {
+  .multicolumn-list.grid--10-col-desktop .grid__item {
     width: calc(20% - 5px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.grid--10-col-desktop .grid__item {
+  .multicolumn-list.grid--10-col-desktop .grid__item {
     width: calc(10% - 5px);
   }
 }
-.multicolumn-list___.grid--11-col-desktop .grid__item {
+.multicolumn-list.grid--11-col-desktop .grid__item {
   width: 100%;
 }
-.multicolumn-list___.grid--11-col-desktop .grid__item.icon__grid {
+.multicolumn-list.grid--11-col-desktop .grid__item.icon__grid {
   flex-grow: initial;
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.grid--11-col-desktop .grid__item {
+  .multicolumn-list.grid--11-col-desktop .grid__item {
     width: calc(18.1818181818% - 5px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.grid--11-col-desktop .grid__item {
+  .multicolumn-list.grid--11-col-desktop .grid__item {
     width: calc(9.0909090909% - 5px);
   }
 }
-.multicolumn-list___.grid--12-col-desktop .grid__item {
+.multicolumn-list.grid--12-col-desktop .grid__item {
   width: 100%;
 }
-.multicolumn-list___.grid--12-col-desktop .grid__item.icon__grid {
+.multicolumn-list.grid--12-col-desktop .grid__item.icon__grid {
   flex-grow: initial;
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.grid--12-col-desktop .grid__item {
+  .multicolumn-list.grid--12-col-desktop .grid__item {
     width: calc(16.6666666667% - 5px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.grid--12-col-desktop .grid__item {
+  .multicolumn-list.grid--12-col-desktop .grid__item {
     width: calc(8.3333333333% - 5px);
   }
 }
-.multicolumn-list___.icon__grid-container {
+.multicolumn-list.icon__grid-container {
   gap: 20px;
 }
-.multicolumn-list___.icon__grid-container.grid--1-col-desktop .grid__item {
+.multicolumn-list.icon__grid-container.grid--1-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
 @media (min-width: 420px) {
-  .multicolumn-list___.icon__grid-container.grid--1-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--1-col-desktop .grid__item {
     width: calc(33.3333333333% - 20px);
   }
 }
 @media (min-width: 640px) {
-  .multicolumn-list___.icon__grid-container.grid--1-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--1-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.icon__grid-container.grid--1-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--1-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.icon__grid-container.grid--1-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--1-col-desktop .grid__item {
     width: calc(100% - 20px);
   }
 }
-.multicolumn-list___.icon__grid-container.grid--2-col-desktop .grid__item {
+.multicolumn-list.icon__grid-container.grid--2-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
 @media (min-width: 420px) {
-  .multicolumn-list___.icon__grid-container.grid--2-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--2-col-desktop .grid__item {
     width: calc(33.3333333333% - 20px);
   }
 }
 @media (min-width: 640px) {
-  .multicolumn-list___.icon__grid-container.grid--2-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--2-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.icon__grid-container.grid--2-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--2-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.icon__grid-container.grid--2-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--2-col-desktop .grid__item {
     width: calc(50% - 20px);
   }
 }
-.multicolumn-list___.icon__grid-container.grid--3-col-desktop .grid__item {
+.multicolumn-list.icon__grid-container.grid--3-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
 @media (min-width: 420px) {
-  .multicolumn-list___.icon__grid-container.grid--3-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--3-col-desktop .grid__item {
     width: calc(33.3333333333% - 20px);
   }
 }
 @media (min-width: 640px) {
-  .multicolumn-list___.icon__grid-container.grid--3-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--3-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.icon__grid-container.grid--3-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--3-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.icon__grid-container.grid--3-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--3-col-desktop .grid__item {
     width: calc(33.3333333333% - 20px);
   }
 }
-.multicolumn-list___.icon__grid-container.grid--4-col-desktop .grid__item {
+.multicolumn-list.icon__grid-container.grid--4-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
 @media (min-width: 420px) {
-  .multicolumn-list___.icon__grid-container.grid--4-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--4-col-desktop .grid__item {
     width: calc(33.3333333333% - 20px);
   }
 }
 @media (min-width: 640px) {
-  .multicolumn-list___.icon__grid-container.grid--4-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--4-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.icon__grid-container.grid--4-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--4-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.icon__grid-container.grid--4-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--4-col-desktop .grid__item {
     width: calc(25% - 20px);
   }
 }
-.multicolumn-list___.icon__grid-container.grid--5-col-desktop .grid__item {
+.multicolumn-list.icon__grid-container.grid--5-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
 @media (min-width: 420px) {
-  .multicolumn-list___.icon__grid-container.grid--5-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--5-col-desktop .grid__item {
     width: calc(33.3333333333% - 20px);
   }
 }
 @media (min-width: 640px) {
-  .multicolumn-list___.icon__grid-container.grid--5-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--5-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.icon__grid-container.grid--5-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--5-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.icon__grid-container.grid--5-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--5-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
-.multicolumn-list___.icon__grid-container.grid--6-col-desktop .grid__item {
+.multicolumn-list.icon__grid-container.grid--6-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
 @media (min-width: 420px) {
-  .multicolumn-list___.icon__grid-container.grid--6-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--6-col-desktop .grid__item {
     width: calc(33.3333333333% - 20px);
   }
 }
 @media (min-width: 640px) {
-  .multicolumn-list___.icon__grid-container.grid--6-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--6-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.icon__grid-container.grid--6-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--6-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.icon__grid-container.grid--6-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--6-col-desktop .grid__item {
     width: calc(16.6666666667% - 20px);
   }
 }
-.multicolumn-list___.icon__grid-container.grid--7-col-desktop .grid__item {
+.multicolumn-list.icon__grid-container.grid--7-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
 @media (min-width: 420px) {
-  .multicolumn-list___.icon__grid-container.grid--7-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--7-col-desktop .grid__item {
     width: calc(33.3333333333% - 20px);
   }
 }
 @media (min-width: 640px) {
-  .multicolumn-list___.icon__grid-container.grid--7-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--7-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.icon__grid-container.grid--7-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--7-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.icon__grid-container.grid--7-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--7-col-desktop .grid__item {
     width: calc(14.2857142857% - 20px);
   }
 }
-.multicolumn-list___.icon__grid-container.grid--8-col-desktop .grid__item {
+.multicolumn-list.icon__grid-container.grid--8-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
 @media (min-width: 420px) {
-  .multicolumn-list___.icon__grid-container.grid--8-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--8-col-desktop .grid__item {
     width: calc(33.3333333333% - 20px);
   }
 }
 @media (min-width: 640px) {
-  .multicolumn-list___.icon__grid-container.grid--8-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--8-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.icon__grid-container.grid--8-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--8-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.icon__grid-container.grid--8-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--8-col-desktop .grid__item {
     width: calc(12.5% - 20px);
   }
 }
-.multicolumn-list___.icon__grid-container.grid--9-col-desktop .grid__item {
+.multicolumn-list.icon__grid-container.grid--9-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
 @media (min-width: 420px) {
-  .multicolumn-list___.icon__grid-container.grid--9-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--9-col-desktop .grid__item {
     width: calc(33.3333333333% - 20px);
   }
 }
 @media (min-width: 640px) {
-  .multicolumn-list___.icon__grid-container.grid--9-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--9-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.icon__grid-container.grid--9-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--9-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.icon__grid-container.grid--9-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--9-col-desktop .grid__item {
     width: calc(11.1111111111% - 20px);
   }
 }
-.multicolumn-list___.icon__grid-container.grid--10-col-desktop .grid__item {
+.multicolumn-list.icon__grid-container.grid--10-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
 @media (min-width: 420px) {
-  .multicolumn-list___.icon__grid-container.grid--10-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--10-col-desktop .grid__item {
     width: calc(33.3333333333% - 20px);
   }
 }
 @media (min-width: 640px) {
-  .multicolumn-list___.icon__grid-container.grid--10-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--10-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.icon__grid-container.grid--10-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--10-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.icon__grid-container.grid--10-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--10-col-desktop .grid__item {
     width: calc(10% - 20px);
   }
 }
-.multicolumn-list___.icon__grid-container.grid--11-col-desktop .grid__item {
+.multicolumn-list.icon__grid-container.grid--11-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
 @media (min-width: 420px) {
-  .multicolumn-list___.icon__grid-container.grid--11-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--11-col-desktop .grid__item {
     width: calc(33.3333333333% - 20px);
   }
 }
 @media (min-width: 640px) {
-  .multicolumn-list___.icon__grid-container.grid--11-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--11-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.icon__grid-container.grid--11-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--11-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.icon__grid-container.grid--11-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--11-col-desktop .grid__item {
     width: calc(9.0909090909% - 20px);
   }
 }
-.multicolumn-list___.icon__grid-container.grid--12-col-desktop .grid__item {
+.multicolumn-list.icon__grid-container.grid--12-col-desktop .grid__item {
   width: calc(50% - 20px);
 }
 @media (min-width: 420px) {
-  .multicolumn-list___.icon__grid-container.grid--12-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--12-col-desktop .grid__item {
     width: calc(33.3333333333% - 20px);
   }
 }
 @media (min-width: 640px) {
-  .multicolumn-list___.icon__grid-container.grid--12-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--12-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 750px) {
-  .multicolumn-list___.icon__grid-container.grid--12-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--12-col-desktop .grid__item {
     width: calc(20% - 20px);
   }
 }
 @media (min-width: 990px) {
-  .multicolumn-list___.icon__grid-container.grid--12-col-desktop .grid__item {
+  .multicolumn-list.icon__grid-container.grid--12-col-desktop .grid__item {
     width: calc(8.3333333333% - 20px);
   }
 }
-.multicolumn-list___.justify-left {
+.multicolumn-list.justify-left {
   justify-content: left;
 }
-.multicolumn-list___.justify-center {
+.multicolumn-list.justify-center {
   justify-content: center;
 }
-.multicolumn-list___.justify-right {
+.multicolumn-list.justify-right {
   justify-content: right;
 }
 @media (max-width: 420px) {
-  .multicolumn-list___ .grid__item:nth-child(n+5) {
+  .multicolumn-list .grid__item:nth-child(n+5) {
     display: none;
   }
 }
 @media (max-width: 640px) {
-  .multicolumn-list___ .grid__item:nth-child(n+7) {
+  .multicolumn-list .grid__item:nth-child(n+7) {
     display: none;
   }
 }
 @media (max-width: 750px) {
-  .multicolumn-list___ .grid__item:nth-child(n+9) {
+  .multicolumn-list .grid__item:nth-child(n+9) {
     display: none;
   }
 }
 @media (max-width: 990px) {
-  .multicolumn-list___ .grid__item:nth-child(n+11) {
+  .multicolumn-list .grid__item:nth-child(n+11) {
     display: none;
   }
 }

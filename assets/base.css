@@ -34,6 +34,6 @@ body {
 .instagram-feed-box .glide__slides .glide__slide {
   box-shadow: none !important;
 }
-.instagram-feed-box .glide__slides .glide__slide a img {
+.instagram-feed-box .glide__slides .glide__slide .splide-img {
   box-shadow: none !important;
 }

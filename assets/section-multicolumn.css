@@ -208,17 +208,17 @@ body {
   font-family: "Roboto", sans-serif !important;
 }
 
-.multicolumn-list.grid--col-col-desktop .grid__item {
+.multicolumn-list.grid--10px-col-desktop .grid__item {
   border: 1px solid red;
   width: 10px;
 }
 
-.multicolumn-list.grid--col-col-desktop .grid__item {
+.multicolumn-list.grid--20px-col-desktop .grid__item {
   border: 1px solid red;
   width: 20px;
 }
 
-.multicolumn-list.grid--col-col-desktop .grid__item {
+.multicolumn-list.grid--30px-col-desktop .grid__item {
   border: 1px solid red;
   width: 30px;
 }

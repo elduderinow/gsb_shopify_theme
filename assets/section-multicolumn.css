@@ -969,6 +969,10 @@ swiper-container .swiper-notification {
   overflow: hidden;
 }
 
+.multicolumn-list {
+  background-color: red;
+}
+
 .grid__item {
   background-color: red;
   width: 12.5%;

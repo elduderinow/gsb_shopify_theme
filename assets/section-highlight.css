@@ -779,6 +779,7 @@ swiper-container .swiper-notification {
   color: black;
   font-weight: 700;
   text-align: center;
+  padding: 0 2rem;
 }
 .section-highlight .highlight--title .title {
   font-size: 22px;

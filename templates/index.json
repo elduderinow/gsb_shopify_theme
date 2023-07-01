@@ -203,6 +203,80 @@
     },
     "1ce33342-222c-42ba-9f20-632f64c51f28": {
       "type": "highlight",
+      "blocks": {
+        "a2fbecd4-d253-49c7-854f-1df489446132": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/glo.svg",
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "1449e904-2557-4343-88fa-82626ddc6805": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/glo.svg",
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "2e0c32b3-b949-4b4d-af28-4ab55940442c": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/glo.svg",
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "eca1cca8-5c27-4d82-a451-1f1ee6f0ab14": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/glo.svg",
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "8888a8f7-a74e-4ae5-9294-7133a1b26430": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/glo.svg",
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "895834e3-b917-49aa-b9c5-a435285a0449": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/glo.svg",
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "f69a4149-5750-48e5-8459-b9dffff7d8b1": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/glo.svg",
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "a2fbecd4-d253-49c7-854f-1df489446132",
+        "1449e904-2557-4343-88fa-82626ddc6805",
+        "2e0c32b3-b949-4b4d-af28-4ab55940442c",
+        "eca1cca8-5c27-4d82-a451-1f1ee6f0ab14",
+        "8888a8f7-a74e-4ae5-9294-7133a1b26430",
+        "895834e3-b917-49aa-b9c5-a435285a0449",
+        "f69a4149-5750-48e5-8459-b9dffff7d8b1"
+      ],
       "settings": {
         "title": "Glo Skin Beauty",
         "description": "Clean without compromise",

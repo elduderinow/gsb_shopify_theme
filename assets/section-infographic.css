@@ -8,6 +8,8 @@ body {
 }
 .section-infographic .image-with-text__content {
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 .section-infographic .image-with-text__content .infoblock_wrapper {
   width: 66.6666666667%;

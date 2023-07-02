@@ -691,61 +691,6 @@
         "padding_bottom": 36
       }
     },
-    "9d274436-be7c-4a8a-9690-db696e8488df": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--19143340065115__9d274436-be7c-4a8a-9690-db696e8488df-168832010294c9797b-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Clinically Proven Results",
-            "heading_size": "h2"
-          }
-        },
-        "template--19143340065115__9d274436-be7c-4a8a-9690-db696e8488df-168832010294c9797b-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Clean + Clinical Results At HomeClinically proven to reduce fine lines and wrinkles, improve skin’s brightness, balance skin tone, hydrate skin, and increase firmness<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--19143340065115__9d274436-be7c-4a8a-9690-db696e8488df-168832010294c9797b-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "da56e558-8541-47f2-8bb0-e15f082e28c4": {
-          "type": "caption",
-          "settings": {
-            "caption": "Add a tagline",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "template--19143340065115__9d274436-be7c-4a8a-9690-db696e8488df-168832010294c9797b-0",
-        "template--19143340065115__9d274436-be7c-4a8a-9690-db696e8488df-168832010294c9797b-1",
-        "template--19143340065115__9d274436-be7c-4a8a-9690-db696e8488df-168832010294c9797b-2",
-        "da56e558-8541-47f2-8bb0-e15f082e28c4"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Bestsellers_Desktop_5.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "026b5618-c968-47fa-bbde-1591c846979b": {
       "type": "multicolumn",
       "disabled": true,
@@ -808,41 +753,41 @@
     "05e744ef-064c-4b8e-b58f-ecdc85761a84": {
       "type": "infographic",
       "blocks": {
-        "22b605ad-5c39-4bf3-aff8-5cadc64af708": {
-          "type": "highlight",
+        "72090706-2f72-44fa-9e25-3c107c5da84f": {
+          "type": "infoblock",
           "settings": {
-            "heading": "Info 1",
+            "heading": "<strong>Clean + Clinical Results At Home<\/strong>",
             "heading_size": "h1",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Clinically proven to reduce fine lines and wrinkles, improve skin’s brightness, balance skin tone, hydrate skin, and increase firmness<\/p>",
+            "button_label": "Button label",
+            "button_link": "shopify:\/\/pages\/nieuw"
+          }
+        },
+        "58db41d8-e092-47a9-90e5-365d8620d585": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "<strong>92% saw healthier skin<\/strong>",
+            "heading_size": "h1",
+            "text": "<p>92% said skin looks healthy, plumped, and replenished after 1 month of use<\/p>",
             "button_label": "Button label",
             "button_link": ""
           }
         },
-        "c2d01b87-ffea-4eea-800d-53baf61b7093": {
-          "type": "highlight",
+        "05a5f790-9b64-480a-91b5-b3ddf7a6f745": {
+          "type": "infoblock",
           "settings": {
-            "heading": "Info 2",
+            "heading": "<strong>92% saw smoother skin<\/strong>",
             "heading_size": "h1",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "fe5881dc-e97b-40c6-b471-691eb250eafc": {
-          "type": "highlight",
-          "settings": {
-            "heading": "Info 3",
-            "heading_size": "h1",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>92% said there was improved appearance of texture and smoothness after 1 month of use<\/p>",
             "button_label": "Button label",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "22b605ad-5c39-4bf3-aff8-5cadc64af708",
-        "c2d01b87-ffea-4eea-800d-53baf61b7093",
-        "fe5881dc-e97b-40c6-b471-691eb250eafc"
+        "72090706-2f72-44fa-9e25-3c107c5da84f",
+        "58db41d8-e092-47a9-90e5-365d8620d585",
+        "05a5f790-9b64-480a-91b5-b3ddf7a6f745"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Bestsellers_Desktop_5.jpg",
@@ -853,6 +798,12 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
+        "number_highlight_1": "",
+        "text_highlight_1": "",
+        "number_highlight_2": "",
+        "text_highlight_2": "",
+        "number_highlight_3": "",
+        "text_highlight_3": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -878,7 +829,6 @@
     "f3357b1d-b45a-4d9f-83b1-0baa936bc255",
     "acea9539-93ce-4ca5-b6ee-b25bd4ef6376",
     "96b8ac41-2eaa-4dbf-a534-1c03dd97f357",
-    "9d274436-be7c-4a8a-9690-db696e8488df",
     "026b5618-c968-47fa-bbde-1591c846979b",
     "05e744ef-064c-4b8e-b58f-ecdc85761a84"
   ]

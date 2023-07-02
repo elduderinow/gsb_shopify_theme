@@ -31,13 +31,18 @@ body {
   }
 }
 
-.instagram-feed-box .glide__slides .glide__slide {
-  box-shadow: none !important;
-}
-.instagram-feed-box .glide__slides .glide__slide .splide-img {
-  box-shadow: none !important;
+.page-width--boxed {
+  margin: 0 auto;
+  max-width: 1280px;
 }
 
-#instafeed li.glide__slide .splide-img {
+#instagram-feed-box {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+#instagram-feed-box .glide__slides .glide__slide {
+  box-shadow: none !important;
+}
+#instagram-feed-box .glide__slides .glide__slide .splide-img {
   box-shadow: none !important;
 }

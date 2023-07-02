@@ -2,100 +2,135 @@
 
 $cols: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
 
-.multicolumn-list {
-    column-gap: 0;
-    justify-content: space-between;
-    gap: 5px;
+.multicolumn {
+    padding-left: 2rem;
+    padding-right: 2rem;
 
-    @each $col in $cols {
-        &.grid--#{$col}-col-desktop {
-            .grid__item {
-                width: 100%;
+    .multicolumn-list {
+        column-gap: 0;
+        justify-content: space-between;
+        gap: 5px;
 
-                &.icon__grid {
-                    flex-grow: initial;
-                }
-            }
-
-            @media (min-width: $breakpoint-md) {
-                .grid__item {
-                    width: calc((100% / ($col / 2)) - 5px);
-                }
-            }
-
-            @media (min-width: $breakpoint-lg) {
-                .grid__item {
-                    width: calc((100% / $col) - 5px);
+        &.padding--none {
+            .multicolumn-list__item {
+                // .multicolumn-card__info {
+                //     padding-left: 2rem;
+                //     padding-right: 2rem;
+                // }
+                @media (min-width: $breakpoint-lg) {
+                    &:first-child {
+                        .multicolumn-card__info {
+                            padding-left: 0;
+                        }
+                    }
+                    &:last-child {
+                        .multicolumn-card__info {
+                            padding-right: 0;
+                        }
+                    }
                 }
             }
         }
-    }
 
-    &.icon__grid-container {
-        $gap: 20px;
-        gap: $gap;
         @each $col in $cols {
             &.grid--#{$col}-col-desktop {
                 .grid__item {
-                    width: calc((100% / 2) - $gap);
-                }
+                    width: 100%;
 
-                @media (min-width: $breakpoint-xs) {
-                    .grid__item {
-                        width: calc((100% / 3) - $gap);
-                    }
-                }
-
-                @media (min-width: $breakpoint-sm) {
-                    .grid__item {
-                        width: calc((100% / 5) - $gap);
+                    &.icon__grid {
+                        flex-grow: initial;
                     }
                 }
 
                 @media (min-width: $breakpoint-md) {
                     .grid__item {
-                        width: calc((100% / 5) - $gap);
+                        width: calc((100% / ($col / 2)) - 5px);
                     }
                 }
 
                 @media (min-width: $breakpoint-lg) {
                     .grid__item {
-                        width: calc((100% / $col) - $gap);
+                        width: calc((100% / $col) - 5px);
                     }
                 }
             }
         }
-    }
 
-    &.justify-left {
-        justify-content: left;
-    }
-    &.justify-center {
-        justify-content: center;
-    }
-    &.justify-right {
-        justify-content: right;
-    }
+        &.icon__grid-container {
+            $gap: 20px;
+            gap: $gap;
+            @each $col in $cols {
+                &.grid--#{$col}-col-desktop {
+                    .grid__item {
+                        width: calc((100% / 2) - $gap);
+                        .multicolumn-card__image-wrapper {
+                            padding: 2rem 2rem 0 2rem;
+                        }
+                    }
 
-    .grid__item {
-        @media (max-width: $breakpoint-xs) {
-            &:nth-child(n + 5) {
-                display: none;
+                    @media (min-width: $breakpoint-xs) {
+                        .grid__item {
+                            width: calc((100% / 3) - $gap);
+                        }
+                    }
+
+                    @media (min-width: $breakpoint-sm) {
+                        .grid__item {
+                            width: calc((100% / 5) - $gap);
+                            .multicolumn-card__image-wrapper {
+                                padding: 0.5rem 0.5rem 0 0.5rem;
+                            }
+                        }
+                    }
+
+                    @media (min-width: $breakpoint-md) {
+                        .grid__item {
+                            width: calc((100% / 5) - $gap);
+                            .multicolumn-card__image-wrapper {
+                                padding: 0;
+                            }
+                        }
+                    }
+
+                    @media (min-width: $breakpoint-lg) {
+                        .grid__item {
+                            width: calc((100% / $col) - $gap);
+                        }
+                    }
+                }
             }
         }
-        @media (max-width: $breakpoint-sm) {
-            &:nth-child(n + 7) {
-                display: none;
-            }
+
+        &.justify-left {
+            justify-content: left;
         }
-        @media (max-width: $breakpoint-md) {
-            &:nth-child(n + 9) {
-                display: none;
-            }
+        &.justify-center {
+            justify-content: center;
         }
-        @media (max-width: $breakpoint-lg) {
-            &:nth-child(n + 11) {
-                display: none;
+        &.justify-right {
+            justify-content: right;
+        }
+
+        .grid__item {
+            @media (max-width: $breakpoint-xs) {
+                &:nth-child(n + 5) {
+                    display: none;
+                }
+            }
+            @media (max-width: $breakpoint-sm) {
+                &:nth-child(n + 7) {
+                    display: none;
+                }
+            }
+            @media (max-width: $breakpoint-md) {
+                &:nth-child(n + 9) {
+                    display: none;
+                }
+            }
+            @media (max-width: $breakpoint-lg) {
+                &:nth-child(n + 11) {
+                    display: none;
+                }
             }
         }
     }

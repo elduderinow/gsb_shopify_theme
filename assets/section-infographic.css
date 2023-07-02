@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.section-infographic {
+  max-width: 1280px;
+}
+.section-infographic .image-with-text__media-item .highlight-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 29%, rgba(67, 27, 105, 0.4920561975) 100%);
+  position: absolute;
+  z-index: 1;
+}
+.section-infographic .image-with-text__media-item .highlight-overlay .overlay--inner {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+.section-infographic .image-with-text__media-item .highlight-overlay .overlay--inner .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 5rem;
+}
+.section-infographic .image-with-text__media-item .highlight-overlay .overlay--inner .item .number {
+  width: 90px;
+  height: 90px;
+  border: 3px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  font-weight: 300;
+  border-radius: 5rem;
+}
+.section-infographic .image-with-text__media-item .highlight-overlay .overlay--inner .item .text {
+  color: white;
+  width: 170px;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+.section-infographic .image-with-text__content {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.section-infographic .image-with-text__content .infoblock_wrapper {
+  width: 100%;
+  margin-left: 0;
+}
+@media (min-width: 750px) {
+  .section-infographic .image-with-text__content .infoblock_wrapper {
+    width: 66.6666666667%;
+    margin-left: 33.3333333333%;
+  }
+}
+@media (min-width: 750px) {
+  .section-infographic .image-with-text__grid--reverse .image-with-text__content .infoblock_wrapper {
+    width: 66.6666666667%;
+    margin-left: 0;
+  }
+}

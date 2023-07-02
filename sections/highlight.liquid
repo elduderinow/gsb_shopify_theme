@@ -17,7 +17,7 @@
 {% assign lazy_load = true %}
 
 <div class="section-highlight color-{{ section.settings.color_scheme }} global-section-x-padding">
-  <div class="highlight-inner section-{{ section.id }}-padding">
+  <div class="highlight-inner page-width--{{ section.settings.section_width }} section-{{ section.id }}-padding">
     <div class="highlight--title">
       {%- if section.settings.title != blank -%}
         <h2
@@ -42,25 +42,6 @@
           {{ section.settings.description -}}
         </p>
       {%- endif -%}
-      {% comment %}
-        {%- if section.settings.title != blank -%}
-          <h2 class="title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-            {{ section.settings.title }}
-          </h2>
-        {%- endif -%}
-        {%- if section.settings.description != blank
-          or section.settings.show_description
-          and section.settings.collection.description != empty
-        -%}
-          <div class="collection__description {{ section.settings.description_style }} rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-            {%- if section.settings.show_description -%}
-              <p class="description">{{ section.settings.collection.description }}</p>
-            {%- else -%}
-              <p class="description">{{ section.settings.description -}}</p>
-            {%- endif %}
-          </div>
-        {%- endif -%}
-      {% endcomment %}
     </div>
     <!-- Slider main container -->
     <div data-swiper-size="{{ section.blocks | size }}" class="swiper">
@@ -98,8 +79,8 @@
                   >
                 </div>
                 <div class="flex flex-col w-full text-center pt-6">
-                  <h6 class="font-bold uppercase">{{ block.settings.image_title }}</h6>
-                  <p class="uppercase">{{ block.settings.image_subtitle }}</p>
+                  <h6 class="font-bold uppercase mb-1">{{ block.settings.image_title }}</h6>
+                  <p>{{ block.settings.image_subtitle }}</p>
                 </div>
               </a>
             </div>
@@ -210,6 +191,22 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+    {
+      "type": "select",
+      "id": "section_width",
+      "options": [
+        {
+          "value": "full_width",
+          "label": "Full Width"
+        },
+        {
+          "value": "boxed",
+          "label": "Boxed In"
+        }
+      ],
+      "default": "boxed",
+      "label": "Section Width"
     }
   ],
   "blocks": [

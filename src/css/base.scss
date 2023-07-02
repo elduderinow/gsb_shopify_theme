@@ -25,7 +25,14 @@
     }
 }
 
-.instagram-feed-box {
+.page-width--boxed {
+    margin: 0 auto;
+    max-width: $max-width--boxed;
+}
+
+#instagram-feed-box {
+    margin: 0 auto;
+    max-width: $max-width--boxed;
     .glide__slides {
         .glide__slide {
             box-shadow: none !important;
@@ -36,6 +43,6 @@
     }
 }
 
-#instafeed li.glide__slide .splide-img {
-    box-shadow: none !important;
-}
+// #instafeed li.glide__slide .splide-img {
+//     box-shadow: none !important;
+// }

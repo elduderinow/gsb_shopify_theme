@@ -6,6 +6,11 @@ body {
 .section-infographic {
   max-width: 1280px;
 }
+.section-infographic .image-with-text__media-item .highlight-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
 .section-infographic .image-with-text__content {
   padding: 0;
   display: flex;

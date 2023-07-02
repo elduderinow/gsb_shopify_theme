@@ -144,7 +144,7 @@
       </div>
     </div>
     <div class="right col-span-12 lg:col-span-4">
-      <div class="image-wrapper">
+      <div class="image-wrapper w-full md:w-1/2">
         {% comment %} <img width="200" height="200" src="{{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}/"> {% endcomment %}
         {%- if section.settings.footer_image != blank -%}
           {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
@@ -156,7 +156,7 @@
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
         {%- endif -%}
       </div>
-      <div class="footer__newsletter-container">
+      <div class="footer__newsletter-container w-full md:w-1/2">
         {%- if section.settings.newsletter_enable -%}
           <div class="footer-block__newsletter">
             {%- if section.settings.newsletter_heading != blank -%}

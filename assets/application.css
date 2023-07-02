@@ -733,6 +733,10 @@ video {
   .md\:col-span-6 {
     grid-column: span 6 / span 6;
   }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
 }
 
 @media (min-width: 1024px) {

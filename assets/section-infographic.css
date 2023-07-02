@@ -12,6 +12,12 @@ body {
   justify-content: center;
 }
 .section-infographic .image-with-text__content .infoblock_wrapper {
-  width: 66.6666666667%;
-  margin-left: 33.3333333333%;
+  width: 100%;
+  margin-left: 0;
+}
+@media (min-width: 990px) {
+  .section-infographic .image-with-text__content .infoblock_wrapper {
+    width: 66.6666666667%;
+    margin-left: 33.3333333333%;
+  }
 }

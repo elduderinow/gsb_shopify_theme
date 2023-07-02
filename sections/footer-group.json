@@ -19,6 +19,13 @@
             "menu": "main-menu"
           }
         },
+        "1eb74a45-7700-4958-bd00-dadeeaeecf14": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Customer Service",
+            "menu": "footer"
+          }
+        },
         "footer-2": {
           "type": "text",
           "settings": {
@@ -30,6 +37,7 @@
       "block_order": [
         "footer-1",
         "footer-0",
+        "1eb74a45-7700-4958-bd00-dadeeaeecf14",
         "footer-2"
       ],
       "settings": {

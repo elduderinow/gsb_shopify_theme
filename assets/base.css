@@ -31,6 +31,10 @@ body {
   }
 }
 
+.page-width--boxed {
+  max-width: 1220px;
+}
+
 .instagram-feed-box .glide__slides .glide__slide {
   box-shadow: none !important;
 }

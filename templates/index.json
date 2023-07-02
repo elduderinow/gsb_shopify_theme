@@ -791,7 +791,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Bestsellers_Desktop_5.jpg",
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
@@ -851,7 +851,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/man-in-white-and-light-tan-outfit.jpg",
-        "height": "adapt",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",

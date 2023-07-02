@@ -436,7 +436,7 @@ body {
     width: calc(20% - 20px);
   }
   .multicolumn .multicolumn-list.icon__grid-container.grid--1-col-desktop .grid__item .multicolumn-card__image-wrapper {
-    padding: 1rem 1rem 0 1rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
   }
 }
 @media (min-width: 750px) {
@@ -465,7 +465,7 @@ body {
     width: calc(20% - 20px);
   }
   .multicolumn .multicolumn-list.icon__grid-container.grid--2-col-desktop .grid__item .multicolumn-card__image-wrapper {
-    padding: 1rem 1rem 0 1rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
   }
 }
 @media (min-width: 750px) {
@@ -494,7 +494,7 @@ body {
     width: calc(20% - 20px);
   }
   .multicolumn .multicolumn-list.icon__grid-container.grid--3-col-desktop .grid__item .multicolumn-card__image-wrapper {
-    padding: 1rem 1rem 0 1rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
   }
 }
 @media (min-width: 750px) {
@@ -523,7 +523,7 @@ body {
     width: calc(20% - 20px);
   }
   .multicolumn .multicolumn-list.icon__grid-container.grid--4-col-desktop .grid__item .multicolumn-card__image-wrapper {
-    padding: 1rem 1rem 0 1rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
   }
 }
 @media (min-width: 750px) {
@@ -552,7 +552,7 @@ body {
     width: calc(20% - 20px);
   }
   .multicolumn .multicolumn-list.icon__grid-container.grid--5-col-desktop .grid__item .multicolumn-card__image-wrapper {
-    padding: 1rem 1rem 0 1rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
   }
 }
 @media (min-width: 750px) {
@@ -581,7 +581,7 @@ body {
     width: calc(20% - 20px);
   }
   .multicolumn .multicolumn-list.icon__grid-container.grid--6-col-desktop .grid__item .multicolumn-card__image-wrapper {
-    padding: 1rem 1rem 0 1rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
   }
 }
 @media (min-width: 750px) {
@@ -610,7 +610,7 @@ body {
     width: calc(20% - 20px);
   }
   .multicolumn .multicolumn-list.icon__grid-container.grid--7-col-desktop .grid__item .multicolumn-card__image-wrapper {
-    padding: 1rem 1rem 0 1rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
   }
 }
 @media (min-width: 750px) {
@@ -639,7 +639,7 @@ body {
     width: calc(20% - 20px);
   }
   .multicolumn .multicolumn-list.icon__grid-container.grid--8-col-desktop .grid__item .multicolumn-card__image-wrapper {
-    padding: 1rem 1rem 0 1rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
   }
 }
 @media (min-width: 750px) {
@@ -668,7 +668,7 @@ body {
     width: calc(20% - 20px);
   }
   .multicolumn .multicolumn-list.icon__grid-container.grid--9-col-desktop .grid__item .multicolumn-card__image-wrapper {
-    padding: 1rem 1rem 0 1rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
   }
 }
 @media (min-width: 750px) {
@@ -697,7 +697,7 @@ body {
     width: calc(20% - 20px);
   }
   .multicolumn .multicolumn-list.icon__grid-container.grid--10-col-desktop .grid__item .multicolumn-card__image-wrapper {
-    padding: 1rem 1rem 0 1rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
   }
 }
 @media (min-width: 750px) {
@@ -726,7 +726,7 @@ body {
     width: calc(20% - 20px);
   }
   .multicolumn .multicolumn-list.icon__grid-container.grid--11-col-desktop .grid__item .multicolumn-card__image-wrapper {
-    padding: 1rem 1rem 0 1rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
   }
 }
 @media (min-width: 750px) {
@@ -755,7 +755,7 @@ body {
     width: calc(20% - 20px);
   }
   .multicolumn .multicolumn-list.icon__grid-container.grid--12-col-desktop .grid__item .multicolumn-card__image-wrapper {
-    padding: 1rem 1rem 0 1rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
   }
 }
 @media (min-width: 750px) {

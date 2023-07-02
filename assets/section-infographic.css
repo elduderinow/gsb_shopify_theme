@@ -20,7 +20,7 @@ body {
   align-items: end;
   justify-content: center;
 }
-.section-infographic .image-with-text__media-item .highlight-overlay .overlay--inner .item {
+.section-infographic .image-with-text__media-item .highlight-overlay .overlay--inner .item .number {
   width: 150px;
   height: 150px;
   border: 2px solid white;

@@ -20,8 +20,7 @@
     <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
       <div class="highlight-overlay">
         <div class="overlay--inner relative w-full h-full space-y-16">
-          {{ section.settings.number_highlight_1 | json }}
-          {%- if section.settings.number_highlight_1 -%}
+          {%- if section.settings.number_highlight_1 != blank -%}
             <div class="item">
               <span class="number">{{ section.settings.number_highlight_1 }}</span>
               <p class="text">{{ section.settings.text_highlight_1 }}</p>

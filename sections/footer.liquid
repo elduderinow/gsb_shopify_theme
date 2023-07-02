@@ -145,7 +145,7 @@
     </div>
     <div class="right col-span-12 lg:col-span-4">
       <div class="grid grid-cols-12">
-        <div class="col-span-12 md:col-span-6">
+        <div class="col-span-12 md:col-span-6 lg:col-span-12">
           <div class="image-wrapper">
             {% comment %} <img width="200" height="200" src="{{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}/"> {% endcomment %}
             {%- if section.settings.footer_image != blank -%}
@@ -159,7 +159,7 @@
             {%- endif -%}
           </div>
         </div>
-        <div class="col-span-12 md:col-span-6">
+        <div class="col-span-12 md:col-span-6 lg:col-span-12">
           <div class="footer__newsletter-container">
             {%- if section.settings.newsletter_enable -%}
               <div class="footer-block__newsletter">

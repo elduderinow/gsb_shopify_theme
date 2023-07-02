@@ -53,7 +53,7 @@
         id="ImageWithText--{{ section.id }}"
         class="image-with-text__content p-0 image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} content-container"
       >
-        <div class="infoblock_wrapper space-y-10">
+        <div class="infoblock_wrapper space-y-12">
           {%- for block in section.blocks -%}
             {% case block.type %}
               {%- when 'infoblock' -%}

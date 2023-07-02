@@ -36,6 +36,10 @@ body {
   max-width: 1280px;
 }
 
+.instagram-feed-box {
+  margin: 0 auto;
+  max-width: 1280px;
+}
 .instagram-feed-box .glide__slides .glide__slide {
   box-shadow: none !important;
 }

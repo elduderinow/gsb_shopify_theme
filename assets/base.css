@@ -36,14 +36,14 @@ body {
   max-width: 1280px;
 }
 
-.instagram-feed-box {
+#instagram-feed-box {
   margin: 0 auto;
   max-width: 1280px;
 }
-.instagram-feed-box .glide__slides .glide__slide {
+#instagram-feed-box .glide__slides .glide__slide {
   box-shadow: none !important;
 }
-.instagram-feed-box .glide__slides .glide__slide .splide-img {
+#instagram-feed-box .glide__slides .glide__slide .splide-img {
   box-shadow: none !important;
 }
 

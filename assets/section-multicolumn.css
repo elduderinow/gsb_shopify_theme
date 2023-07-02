@@ -213,11 +213,13 @@ body {
   justify-content: space-between;
   gap: 5px;
 }
-.multicolumn-list.padding--none .multicolumn-list__item:first-child .multicolumn-card__info {
-  padding-left: 0;
-}
-.multicolumn-list.padding--none .multicolumn-list__item:last-child .multicolumn-card__info {
-  padding-right: 0;
+@media (min-width: 990px) {
+  .multicolumn-list.padding--none .multicolumn-list__item:first-child .multicolumn-card__info {
+    padding-left: 0;
+  }
+  .multicolumn-list.padding--none .multicolumn-list__item:last-child .multicolumn-card__info {
+    padding-right: 0;
+  }
 }
 .multicolumn-list.grid--1-col-desktop .grid__item {
   width: 100%;

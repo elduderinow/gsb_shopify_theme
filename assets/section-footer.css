@@ -110,9 +110,11 @@ body {
   }
   .footer .right .image-wrapper {
     width: 50%;
+    height: 100%;
   }
   .footer .right .footer__newsletter-container {
     width: 50%;
+    height: 100%;
   }
 }
 @media (min-width: 990px) {

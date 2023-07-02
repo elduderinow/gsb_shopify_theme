@@ -15,8 +15,9 @@ body {
 }
 .section-infographic .image-with-text__media-item .highlight-overlay .overlay--inner {
   display: flex;
-  justify-content: end;
   flex-direction: column;
+  align-items: end;
+  justify-content: center;
 }
 .section-infographic .image-with-text__content {
   padding: 0;

@@ -21,6 +21,7 @@ body {
   justify-content: center;
 }
 .section-infographic .image-with-text__media-item .highlight-overlay .overlay--inner .item .number {
+  display: block;
   width: 150px;
   height: 150px;
   border: 2px solid white;

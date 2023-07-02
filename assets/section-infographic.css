@@ -21,8 +21,8 @@ body {
   justify-content: center;
 }
 .section-infographic .image-with-text__media-item .highlight-overlay .overlay--inner .item {
-  width: 20px;
-  height: 20px;
+  width: 200px;
+  height: 200px;
   border: 2px solid white;
 }
 .section-infographic .image-with-text__content {

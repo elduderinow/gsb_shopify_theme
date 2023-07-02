@@ -20,10 +20,12 @@
     <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
       <div class="highlight-overlay">
         <div class="overlay--inner relative w-full h-full space-y-16">
-          <div class="item">
-            <span class="number">96%</span>
-            <p class="text">saw healthier skin</p>
-          </div>
+          {%- if section.settings.number_highlight_1 -%}
+            <div class="item">
+              <span class="number">96%</span>
+              <p class="text">saw healthier skin</p>
+            </div>
+          {% endif %}
           <div class="item">
             <span class="number">96%</span>
             <p class="text">saw healthier skin</p>

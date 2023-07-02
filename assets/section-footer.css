@@ -116,6 +116,9 @@ body {
   }
 }
 @media (min-width: 990px) {
+  .footer .right {
+    display: initial;
+  }
   .footer .right .image-wrapper {
     width: 100%;
   }

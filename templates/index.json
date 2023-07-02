@@ -757,7 +757,7 @@
           "type": "infoblock",
           "settings": {
             "heading": "<strong>Clean + Clinical Results At Home<\/strong>",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "text": "<p>Clinically proven to reduce fine lines and wrinkles, improve skin’s brightness, balance skin tone, hydrate skin, and increase firmness<\/p>",
             "button_label": "Button label",
             "button_link": "shopify:\/\/pages\/nieuw"
@@ -767,7 +767,7 @@
           "type": "infoblock",
           "settings": {
             "heading": "<strong>92% saw healthier skin<\/strong>",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "text": "<p>92% said skin looks healthy, plumped, and replenished after 1 month of use<\/p>",
             "button_label": "Button label",
             "button_link": ""
@@ -777,7 +777,7 @@
           "type": "infoblock",
           "settings": {
             "heading": "<strong>92% saw smoother skin<\/strong>",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "text": "<p>92% said there was improved appearance of texture and smoothness after 1 month of use<\/p>",
             "button_label": "Button label",
             "button_link": ""

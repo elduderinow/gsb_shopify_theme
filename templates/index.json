@@ -531,6 +531,126 @@
         "padding_bottom": 36
       }
     },
+    "5c3199d7-11a1-45b3-9035-c6dce8f38ac2": {
+      "type": "infographic",
+      "blocks": {
+        "ddf6e1bb-fb8c-4eba-a30b-a792b1ab63c9": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "<strong>Title 1<\/strong>",
+            "heading_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "b69ad00d-7478-45b9-8869-c06c6974d85f": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "<strong>some title<\/strong>",
+            "heading_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "fc1a0376-ae40-44fb-836a-e08c17da5beb": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "<strong>more titles<\/strong>",
+            "heading_size": "h2",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "ddf6e1bb-fb8c-4eba-a30b-a792b1ab63c9",
+        "b69ad00d-7478-45b9-8869-c06c6974d85f",
+        "fc1a0376-ae40-44fb-836a-e08c17da5beb"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/man-in-white-and-light-tan-outfit.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "number_highlight_1": "25%",
+        "text_highlight_1": "cool",
+        "number_highlight_2": "25%",
+        "text_highlight_2": "Pair text with an image.",
+        "number_highlight_3": "",
+        "text_highlight_3": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "05e744ef-064c-4b8e-b58f-ecdc85761a84": {
+      "type": "infographic",
+      "blocks": {
+        "72090706-2f72-44fa-9e25-3c107c5da84f": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "<strong>Clean + Clinical Results At Home<\/strong>",
+            "heading_size": "h2",
+            "text": "<p>Clinically proven to reduce fine lines and wrinkles, improve skin’s brightness, balance skin tone, hydrate skin, and increase firmness<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "58db41d8-e092-47a9-90e5-365d8620d585": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "<strong>92% saw healthier skin<\/strong>",
+            "heading_size": "h2",
+            "text": "<p>92% said skin looks healthy, plumped, and replenished after 1 month of use<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "05a5f790-9b64-480a-91b5-b3ddf7a6f745": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "<strong>92% saw smoother skin<\/strong>",
+            "heading_size": "h2",
+            "text": "<p>92% said there was improved appearance of texture and smoothness after 1 month of use<\/p>",
+            "button_label": "Lees meer",
+            "button_link": "shopify:\/\/pages\/algemene-voorwaarden"
+          }
+        }
+      },
+      "block_order": [
+        "72090706-2f72-44fa-9e25-3c107c5da84f",
+        "58db41d8-e092-47a9-90e5-365d8620d585",
+        "05a5f790-9b64-480a-91b5-b3ddf7a6f745"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bestsellers_Desktop_5.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "number_highlight_1": "92%",
+        "text_highlight_1": "Saw smoother skin",
+        "number_highlight_2": "86%",
+        "text_highlight_2": "Is healthier",
+        "number_highlight_3": "100%",
+        "text_highlight_3": "is dope",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "038e2eda-d74b-4a35-b975-29a27fd16f5e": {
       "type": "featured-collection",
       "settings": {
@@ -749,126 +869,6 @@
         "padding_bottom": 36,
         "section_width": "boxed"
       }
-    },
-    "05e744ef-064c-4b8e-b58f-ecdc85761a84": {
-      "type": "infographic",
-      "blocks": {
-        "72090706-2f72-44fa-9e25-3c107c5da84f": {
-          "type": "infoblock",
-          "settings": {
-            "heading": "<strong>Clean + Clinical Results At Home<\/strong>",
-            "heading_size": "h2",
-            "text": "<p>Clinically proven to reduce fine lines and wrinkles, improve skin’s brightness, balance skin tone, hydrate skin, and increase firmness<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "58db41d8-e092-47a9-90e5-365d8620d585": {
-          "type": "infoblock",
-          "settings": {
-            "heading": "<strong>92% saw healthier skin<\/strong>",
-            "heading_size": "h2",
-            "text": "<p>92% said skin looks healthy, plumped, and replenished after 1 month of use<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "05a5f790-9b64-480a-91b5-b3ddf7a6f745": {
-          "type": "infoblock",
-          "settings": {
-            "heading": "<strong>92% saw smoother skin<\/strong>",
-            "heading_size": "h2",
-            "text": "<p>92% said there was improved appearance of texture and smoothness after 1 month of use<\/p>",
-            "button_label": "Lees meer",
-            "button_link": "shopify:\/\/pages\/algemene-voorwaarden"
-          }
-        }
-      },
-      "block_order": [
-        "72090706-2f72-44fa-9e25-3c107c5da84f",
-        "58db41d8-e092-47a9-90e5-365d8620d585",
-        "05a5f790-9b64-480a-91b5-b3ddf7a6f745"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Bestsellers_Desktop_5.jpg",
-        "height": "large",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "number_highlight_1": "92%",
-        "text_highlight_1": "Saw smoother skin",
-        "number_highlight_2": "86%",
-        "text_highlight_2": "Is healthier",
-        "number_highlight_3": "100%",
-        "text_highlight_3": "is dope",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "5c3199d7-11a1-45b3-9035-c6dce8f38ac2": {
-      "type": "infographic",
-      "blocks": {
-        "ddf6e1bb-fb8c-4eba-a30b-a792b1ab63c9": {
-          "type": "infoblock",
-          "settings": {
-            "heading": "<strong>Title 1<\/strong>",
-            "heading_size": "h2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "b69ad00d-7478-45b9-8869-c06c6974d85f": {
-          "type": "infoblock",
-          "settings": {
-            "heading": "<strong>some title<\/strong>",
-            "heading_size": "h2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "fc1a0376-ae40-44fb-836a-e08c17da5beb": {
-          "type": "infoblock",
-          "settings": {
-            "heading": "<strong>more titles<\/strong>",
-            "heading_size": "h2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "ddf6e1bb-fb8c-4eba-a30b-a792b1ab63c9",
-        "b69ad00d-7478-45b9-8869-c06c6974d85f",
-        "fc1a0376-ae40-44fb-836a-e08c17da5beb"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/man-in-white-and-light-tan-outfit.jpg",
-        "height": "large",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "number_highlight_1": "25%",
-        "text_highlight_1": "cool",
-        "number_highlight_2": "25%",
-        "text_highlight_2": "Pair text with an image.",
-        "number_highlight_3": "",
-        "text_highlight_3": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -884,13 +884,13 @@
     "b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721",
     "e4c713b5-f3e0-4c55-a907-41e75876dd11",
     "0f90b165-b5d3-4c04-9d0a-74dd2faa080b",
+    "5c3199d7-11a1-45b3-9035-c6dce8f38ac2",
+    "05e744ef-064c-4b8e-b58f-ecdc85761a84",
     "038e2eda-d74b-4a35-b975-29a27fd16f5e",
     "ff6ee5b8-b485-4b55-91b1-e1f1c14944b3",
     "f3357b1d-b45a-4d9f-83b1-0baa936bc255",
     "acea9539-93ce-4ca5-b6ee-b25bd4ef6376",
     "96b8ac41-2eaa-4dbf-a534-1c03dd97f357",
-    "026b5618-c968-47fa-bbde-1591c846979b",
-    "05e744ef-064c-4b8e-b58f-ecdc85761a84",
-    "5c3199d7-11a1-45b3-9035-c6dce8f38ac2"
+    "026b5618-c968-47fa-bbde-1591c846979b"
   ]
 }

@@ -28,6 +28,7 @@
         },
         "footer-2": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "Onze missie",
             "subtext": "<p>Share contact information, store details, and brand content with your customer<\/p>"

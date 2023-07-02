@@ -19,8 +19,16 @@
             "menu": "main-menu"
           }
         },
+        "1eb74a45-7700-4958-bd00-dadeeaeecf14": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Customer Service",
+            "menu": "footer"
+          }
+        },
         "footer-2": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "Onze missie",
             "subtext": "<p>Share contact information, store details, and brand content with your customer<\/p>"
@@ -30,6 +38,7 @@
       "block_order": [
         "footer-1",
         "footer-0",
+        "1eb74a45-7700-4958-bd00-dadeeaeecf14",
         "footer-2"
       ],
       "settings": {
@@ -41,7 +50,7 @@
         "enable_country_selector": false,
         "enable_language_selector": false,
         "payment_enable": true,
-        "margin_top": 48,
+        "margin_top": 0,
         "padding_top": 36,
         "padding_bottom": 36
       }

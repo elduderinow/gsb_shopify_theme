@@ -18,24 +18,33 @@
 <div class="image-with-text section-infographic image-with-text--{{ section.settings.content_layout }} page-width isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == 'background-1' and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %} section-{{ section.id }}-padding{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
   <div class="image-with-text__grid shop-flex grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
     <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
-      <div class="highlight-overlay">
-        <div class="overlay--inner relative w-full h-full space-y-16">
-          {%- if section.settings.number_highlight_1 != blank -%}
-            <div class="item">
-              <span class="number">{{ section.settings.number_highlight_1 }}</span>
-              <p class="text">{{ section.settings.text_highlight_1 }}</p>
-            </div>
-          {% endif %}
-          <div class="item">
-            <span class="number">96%</span>
-            <p class="text">saw healthier skin</p>
-          </div>
-          <div class="item">
-            <span class="number">96%</span>
-            <p class="text">saw healthier skin</p>
+      {%- if section.settings.number_highlight_1 != blank
+        or section.settings.number_highlight_2 != blank
+        or section.settings.number_highlight_3 != blank
+      -%}
+        <div class="highlight-overlay">
+          <div class="overlay--inner relative w-full h-full space-y-16">
+            {%- if section.settings.number_highlight_1 != blank -%}
+              <div class="item">
+                <span class="number">{{ section.settings.number_highlight_1 }}</span>
+                <p class="text">{{ section.settings.text_highlight_1 }}</p>
+              </div>
+            {% endif %}
+            {%- if section.settings.number_highlight_2 != blank -%}
+              <div class="item">
+                <span class="number">{{ section.settings.number_highlight_2 }}</span>
+                <p class="text">{{ section.settings.text_highlight_2 }}</p>
+              </div>
+            {% endif %}
+            {%- if section.settings.number_highlight_3 != blank -%}
+              <div class="item">
+                <span class="number">{{ section.settings.number_highlight_3 }}</span>
+                <p class="text">{{ section.settings.text_highlight_3 }}</p>
+              </div>
+            {% endif %}
           </div>
         </div>
-      </div>
+      {% endif %}
       <div
         class="image-with-text__media image-with-text__media--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} global-media-settings {% if section.settings.image != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}"
         {% if section.settings.height == 'adapt' and section.settings.image != blank %}

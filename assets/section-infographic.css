@@ -20,16 +20,29 @@ body {
   align-items: end;
   justify-content: center;
 }
+.section-infographic .image-with-text__media-item .highlight-overlay .overlay--inner .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 5rem;
+}
 .section-infographic .image-with-text__media-item .highlight-overlay .overlay--inner .item .number {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border: 2px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
   color: white;
-  font-weight: 700;
+  font-weight: 300;
+  border-radius: 5rem;
+}
+.section-infographic .image-with-text__media-item .highlight-overlay .overlay--inner .item .text {
+  color: white;
+  max-width: 200px;
+  font-size: 2rem;
+  text-align: center;
 }
 .section-infographic .image-with-text__content {
   padding: 0;

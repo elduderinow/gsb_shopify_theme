@@ -60,7 +60,6 @@ body {
   background-color: rgb(36, 36, 36);
 }
 .footer .right .image-wrapper {
-  width: 100%;
   height: 50%;
 }
 .footer .right .image-wrapper img {
@@ -78,7 +77,6 @@ body {
   padding: 0 5rem;
 }
 .footer .right .footer__newsletter-container .footer-block__newsletter {
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

@@ -1,3 +1,6 @@
 .section-infographic .image-with-text__content {
   padding: 0;
 }
+.section-infographic .image-with-text__content .infoblock_wrapper {
+  width: 83.3333333333%;
+}

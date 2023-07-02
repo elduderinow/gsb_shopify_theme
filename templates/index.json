@@ -791,7 +791,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Bestsellers_Desktop_5.jpg",
-        "height": "medium",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",

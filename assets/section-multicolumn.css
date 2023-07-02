@@ -214,8 +214,8 @@ body {
   gap: 5px;
 }
 .multicolumn-list.padding--none .multicolumn-list__item .multicolumn-card__info {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 @media (min-width: 990px) {
   .multicolumn-list.padding--none .multicolumn-list__item:first-child .multicolumn-card__info {

@@ -14,7 +14,7 @@ body {
   position: absolute;
   z-index: 1;
 }
-@media (max-width: 750px) {
+@media (max-width: 640px) {
   .section-infographic .image-with-text__media-item .highlight-overlay {
     display: none;
   }

@@ -62,8 +62,14 @@ body {
   padding: 3rem 2rem 0 2rem;
 }
 .section-infographic .image-with-text__content .infoblock_wrapper .button--text {
-  font-weight: 700;
-  margin: 1rem 0;
+  padding-top: 1rem;
+  display: block;
+  font-weight: 400;
+  text-decoration: underline;
+  transition: text-decoration 0.2s ease-in-out;
+}
+.section-infographic .image-with-text__content .infoblock_wrapper .button--text:hover {
+  text-decoration: none;
 }
 @media (min-width: 750px) {
   .section-infographic .image-with-text__content .infoblock_wrapper {

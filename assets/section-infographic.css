@@ -59,11 +59,11 @@ body {
 .section-infographic .image-with-text__content .infoblock_wrapper {
   width: 100%;
   margin-left: 0;
-  padding-top: 3rem;
+  padding: 3rem 2rem 0 2rem;
 }
 @media (min-width: 750px) {
   .section-infographic .image-with-text__content .infoblock_wrapper {
-    padding-top: 0;
+    padding: 0;
     width: 66.6666666667%;
     margin-left: 33.3333333333%;
   }

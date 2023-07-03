@@ -14,6 +14,11 @@ body {
   position: absolute;
   z-index: 1;
 }
+@media (max-width: 750px) {
+  .section-infographic .image-with-text__media-item .highlight-overlay {
+    display: none;
+  }
+}
 .section-infographic .image-with-text__media-item .highlight-overlay .overlay--inner {
   display: flex;
   flex-direction: column;

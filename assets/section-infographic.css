@@ -61,6 +61,10 @@ body {
   margin-left: 0;
   padding: 3rem 2rem 0 2rem;
 }
+.section-infographic .image-with-text__content .infoblock_wrapper .button--text {
+  font-weight: 700;
+  margin: 1rem 0;
+}
 @media (min-width: 750px) {
   .section-infographic .image-with-text__content .infoblock_wrapper {
     padding: 0;
@@ -72,9 +76,5 @@ body {
   .section-infographic .image-with-text__grid--reverse .image-with-text__content .infoblock_wrapper {
     width: 66.6666666667%;
     margin-left: 0;
-  }
-  .section-infographic .image-with-text__grid--reverse .image-with-text__content .infoblock_wrapper .button--text {
-    font-weight: 700;
-    margin: 1rem 0;
   }
 }

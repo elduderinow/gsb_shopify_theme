@@ -73,4 +73,8 @@ body {
     width: 66.6666666667%;
     margin-left: 0;
   }
+  .section-infographic .image-with-text__grid--reverse .image-with-text__content .infoblock_wrapper .button--text {
+    font-weight: 700;
+    margin: 1rem 0;
+  }
 }

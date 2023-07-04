@@ -50,3 +50,7 @@ body {
 #product-grid .grid__item {
   max-width: none;
 }
+
+.collection-list .collection-list__item {
+  max-width: none;
+}

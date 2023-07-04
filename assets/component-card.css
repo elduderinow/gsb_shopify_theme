@@ -433,7 +433,7 @@ body {
   overflow: hidden;
 }
 .card-product--component .card__inner {
-  background-color: #e8e8e8;
+  background-color: #f1f1f1;
 }
 .card-product--component .card__inner .href-wrapper {
   display: block;

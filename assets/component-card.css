@@ -447,15 +447,16 @@ body {
 }
 .card-product--component .card__content .card__information .full-unstyled-link {
   font-family: "Roboto", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-decoration: none;
 }
 .card-product--component .card__content .card__information .price {
   margin-top: 0;
 }
 .card-product--component .card__content .card__information .price .price__container {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: gray;
+  margin-top: 0.5rem;
 }
 .card-product--component:hover .card__media {
   transition: opacity 0.3s;

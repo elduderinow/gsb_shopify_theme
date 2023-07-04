@@ -458,28 +458,6 @@ body {
   font-size: 1.3rem;
   color: gray;
 }
-@media screen and (min-width: 990px) {
-  .card-product--component .card__content {
-    position: absolute;
-    bottom: 0;
-    transform: translateY(4rem);
-    opacity: 0;
-    transition: transform 0.3s, opacity 0.3s;
-  }
-  .card-product--component .card__content .card__information {
-    padding-left: 1rem;
-  }
-  .card-product--component .card__content .card__information .full-unstyled-link {
-    text-align: left;
-    color: white;
-  }
-  .card-product--component .card__content .card__information .price {
-    text-align: left;
-  }
-  .card-product--component .card__content .card__information .price .price__container {
-    color: rgb(179, 179, 179);
-  }
-}
 .card-product--component:hover .card__media {
   transition: opacity 0.3s;
   opacity: 0.65;

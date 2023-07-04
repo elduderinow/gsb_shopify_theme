@@ -433,52 +433,31 @@ body {
   overflow: hidden;
 }
 .card-product--component .card__inner {
-  background-color: black;
+  background-color: #f1f1f1;
 }
 .card-product--component .card__inner .href-wrapper {
   display: block;
+}
+.card-product--component .card__media {
+  mix-blend-mode: darken;
 }
 .card-product--component .card__content {
   overflow: hidden;
   padding: 1rem 0;
 }
 .card-product--component .card__content .card__information .full-unstyled-link {
-  text-align: center;
-  text-transform: uppercase;
   font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-decoration: none;
 }
 .card-product--component .card__content .card__information .price {
   margin-top: 0;
-  text-align: center;
 }
 .card-product--component .card__content .card__information .price .price__container {
-  font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
-  color: gray;
-}
-@media screen and (min-width: 990px) {
-  .card-product--component .card__content {
-    position: absolute;
-    bottom: 0;
-    transform: translateY(4rem);
-    opacity: 0;
-    transition: transform 0.3s, opacity 0.3s;
-  }
-  .card-product--component .card__content .card__information {
-    padding-left: 1rem;
-  }
-  .card-product--component .card__content .card__information .full-unstyled-link {
-    text-align: left;
-    color: white;
-  }
-  .card-product--component .card__content .card__information .price {
-    text-align: left;
-  }
-  .card-product--component .card__content .card__information .price .price__container {
-    color: rgb(179, 179, 179);
-  }
+  color: rgb(100, 100, 100);
+  font-weight: 400;
+  margin-top: 0.5rem;
 }
 .card-product--component:hover .card__media {
   transition: opacity 0.3s;

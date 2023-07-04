@@ -54,3 +54,7 @@ body {
 .collection-list .collection-list__item {
   max-width: none;
 }
+
+.related-products .product-grid .grid__item {
+  max-width: none;
+}

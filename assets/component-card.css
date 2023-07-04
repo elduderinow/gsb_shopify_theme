@@ -455,8 +455,6 @@ body {
   margin-top: 0;
 }
 .card-product--component .card__content .card__information .price .price__container {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.3rem;
   color: gray;
 }
 .card-product--component:hover .card__media {

@@ -455,7 +455,7 @@ body {
 }
 .card-product--component .card__content .card__information .price .price__container {
   font-size: 1.3rem;
-  color: gray;
+  color: green;
   margin-top: 0.5rem;
 }
 .card-product--component:hover .card__media {

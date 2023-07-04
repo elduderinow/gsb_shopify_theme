@@ -46,3 +46,7 @@ body {
 #instagram-feed-box .glide__slides .glide__slide .splide-img {
   box-shadow: none !important;
 }
+
+#product-grid .grid__item {
+  max-width: none;
+}

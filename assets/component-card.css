@@ -433,10 +433,13 @@ body {
   overflow: hidden;
 }
 .card-product--component .card__inner {
-  background-color: black;
+  background-color: #e8e8e8;
 }
 .card-product--component .card__inner .href-wrapper {
   display: block;
+}
+.card-product--component .card__media {
+  mix-blend-mode: darken;
 }
 .card-product--component .card__content {
   overflow: hidden;

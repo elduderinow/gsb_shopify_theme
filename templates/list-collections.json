@@ -5,7 +5,7 @@
       "settings": {
         "title": "Collections",
         "sort": "alphabetical",
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "columns_desktop": 4,
         "columns_mobile": "2"
       }

@@ -448,7 +448,7 @@ body {
 .card-product--component .card__content .card__information .full-unstyled-link {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-decoration: none;
 }
 .card-product--component .card__content .card__information .price {

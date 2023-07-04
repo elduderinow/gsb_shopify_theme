@@ -443,7 +443,7 @@ body {
   padding: 1rem 0;
 }
 .card-product--component .card__content .card__information .full-unstyled-link {
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
@@ -451,7 +451,7 @@ body {
 }
 .card-product--component .card__content .card__information .price {
   margin-top: 0;
-  text-align: center;
+  text-align: left;
 }
 .card-product--component .card__content .card__information .price .price__container {
   font-family: "Roboto", sans-serif;

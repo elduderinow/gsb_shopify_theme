@@ -101,8 +101,7 @@
                       {% else %}
                         href="{{ block.settings.button_link }}"
                       {% endif %}
-                      class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
-                      {{ block.shopify_attributes }}
+                      class="button--text"
                     >
                       {{ block.settings.button_label | escape }}
                     </a>

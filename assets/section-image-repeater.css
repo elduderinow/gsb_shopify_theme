@@ -67,8 +67,14 @@ body {
   .section--image-repeater .image-repeater-grid .image-block {
     width: 100%;
   }
-  .section--image-repeater .image-repeater-grid .image-block.image--odd:last-child .image-repeater--image-wrapper {
-    aspect-ratio: initial;
+  .section--image-repeater .image-repeater-grid .image-block.image--odd:last-child .image-repeater--image-wrapper.image--square {
+    aspect-ratio: 1/1;
+  }
+  .section--image-repeater .image-repeater-grid .image-block.image--odd:last-child .image-repeater--image-wrapper.image--portrait {
+    aspect-ratio: 4/5;
+  }
+  .section--image-repeater .image-repeater-grid .image-block.image--odd:last-child .image-repeater--image-wrapper.image--landscape {
+    aspect-ratio: 6/4;
   }
 }
 .section--image-repeater .image-repeater-grid.grid--dynamic {

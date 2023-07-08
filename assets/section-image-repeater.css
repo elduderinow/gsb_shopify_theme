@@ -11,6 +11,9 @@ body {
 .section--image-repeater .image-repeater-grid .image-block {
   width: 100%;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .section--image-repeater .image-repeater-grid .image-block .image-repeater--image-wrapper {
   overflow: hidden;
@@ -47,7 +50,6 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 6rem 2rem;
-    background-color: red;
   }
   .section--image-repeater .image-repeater-grid .image-block {
     width: calc(50% - 1rem);
@@ -59,9 +61,8 @@ body {
     aspect-ratio: 6/4;
   }
 }
-@media (min-width: 750px) {
+@media (min-width: 990px) {
   .section--image-repeater .image-repeater-grid {
-    background-color: pink;
     flex-wrap: nowrap;
     gap: 3rem;
   }

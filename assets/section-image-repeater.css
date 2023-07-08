@@ -112,16 +112,10 @@ body {
   .section--image-repeater .image-repeater-grid.grid--dynamic {
     gap: 3rem;
   }
+  .section--image-repeater .image-repeater-grid.grid--dynamic .image-block {
+    width: calc(50% - 1.5rem);
+  }
   .section--image-repeater .image-repeater-grid.grid--dynamic .image-block:first-child {
     width: 100%;
-    background-color: pink;
-  }
-  .section--image-repeater .image-repeater-grid.grid--dynamic .image-block:nth-child(2) {
-    width: calc(50% - 1.5rem);
-    background-color: green;
-  }
-  .section--image-repeater .image-repeater-grid.grid--dynamic .image-block:nth-child(3) {
-    width: calc(50% - 1.5rem);
-    background-color: pink;
   }
 }

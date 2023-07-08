@@ -8,7 +8,7 @@
 .section--image-repeater .image-repeater-grid .image-block {
   width: 100%;
 }
-.section--image-repeater .image-repeater-grid .image-block .image-repeater--image-wrapper.media--square {
+.section--image-repeater .image-repeater-grid .image-block .image-repeater--image-wrapper.image--square {
   aspect-ratio: 1/1;
 }
 .section--image-repeater .image-repeater-grid.grid--dynamic {

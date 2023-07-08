@@ -64,6 +64,49 @@
         "padding_bottom": 80
       }
     },
+    "af6545f9-d0ea-4fd4-9f69-a5cbe594cc72": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19180605735259__af6545f9-d0ea-4fd4-9f69-a5cbe594cc72-168880562433f67f4d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lanceringen",
+            "heading_size": "h1"
+          }
+        },
+        "template--19180605735259__af6545f9-d0ea-4fd4-9f69-a5cbe594cc72-168880562433f67f4d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--19180605735259__af6545f9-d0ea-4fd4-9f69-a5cbe594cc72-168880562433f67f4d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19180605735259__af6545f9-d0ea-4fd4-9f69-a5cbe594cc72-168880562433f67f4d-0",
+        "template--19180605735259__af6545f9-d0ea-4fd4-9f69-a5cbe594cc72-168880562433f67f4d-1",
+        "template--19180605735259__af6545f9-d0ea-4fd4-9f69-a5cbe594cc72-168880562433f67f4d-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "6e0fddcd-3de4-4142-a3ff-87b9ded853b8": {
       "type": "image-image",
       "blocks": {
@@ -108,7 +151,7 @@
         "image_ratio": "portrait",
         "background_style": "none",
         "color_scheme": "background-2",
-        "padding_top": 80,
+        "padding_top": 0,
         "padding_bottom": 80,
         "section_width": "boxed"
       }
@@ -205,6 +248,7 @@
     "main",
     "e3f70a7f-4853-41c5-9869-efb4ab501e10",
     "6591e4de-892f-4baa-a1a0-5f68527cd179",
+    "af6545f9-d0ea-4fd4-9f69-a5cbe594cc72",
     "6e0fddcd-3de4-4142-a3ff-87b9ded853b8",
     "c929ea08-2d08-4edd-a4f0-561aeaf81117",
     "cdf192b2-5dc0-4456-b461-9f46c59e1f48"

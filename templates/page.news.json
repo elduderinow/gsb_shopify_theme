@@ -114,8 +114,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/23Jun-HP-Automat-Quiz-Big-Banner.jpg",
-            "title": "<strong>BEST SELLERSd<\/strong>",
-            "text": "<p>subtitled<\/p>",
+            "title": "Dry Skin? Get Hydrated",
+            "text": "",
             "link_label": "take the quiz",
             "link": "shopify:\/\/collections\/all"
           }

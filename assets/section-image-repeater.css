@@ -5,6 +5,7 @@ body {
 
 .section--image-repeater .image-repeater-grid {
   flex-wrap: nowrap;
+  flex-direction: row;
   gap: 6rem;
 }
 .section--image-repeater .image-repeater-grid .image-block {
@@ -44,7 +45,6 @@ body {
 @media (min-width: 640px) {
   .section--image-repeater .image-repeater-grid {
     flex-wrap: wrap;
-    flex-direction: row;
     gap: 6rem 2rem;
     background-color: red;
   }

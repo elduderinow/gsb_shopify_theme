@@ -67,6 +67,9 @@ body {
   .section--image-repeater .image-repeater-grid .image-block {
     width: 100%;
   }
+  .section--image-repeater .image-repeater-grid .image-block.image--odd:last-child .image-repeater--image-wrapper {
+    aspect-ratio: inherit;
+  }
 }
 .section--image-repeater .image-repeater-grid.grid--dynamic {
   flex-wrap: wrap;

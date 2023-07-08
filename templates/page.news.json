@@ -8,125 +8,6 @@
         "padding_bottom": 28
       }
     },
-    "924592ae-b10a-4dcb-8f30-6ffa218aee17": {
-      "type": "image-image",
-      "blocks": {
-        "e672028c-645d-450d-beb3-ad9e636f0876": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/23Jun-HP-Automat-Quiz-Big-Banner.jpg",
-            "title": "Get personalized recccomendations to unlock your glow.",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "take the quiz",
-            "link": "shopify:\/\/pages\/blog"
-          }
-        },
-        "template--19180605735259__924592ae-b10a-4dcb-8f30-6ffa218aee17-16887995372202891d-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/woman-applying-lipstick.jpg",
-            "title": "Dry Skin? Get Hydrated.",
-            "text": "<p>Some description<\/p>",
-            "link_label": "shop hydration",
-            "link": "shopify:\/\/pages\/blog"
-          }
-        },
-        "template--19180605735259__924592ae-b10a-4dcb-8f30-6ffa218aee17-16887995372202891d-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/womens-fall-fashion-in-autumn-landscape.jpg",
-            "title": "Melt Proof make-up",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "shop make up",
-            "link": "shopify:\/\/pages\/blog"
-          }
-        }
-      },
-      "block_order": [
-        "e672028c-645d-450d-beb3-ad9e636f0876",
-        "template--19180605735259__924592ae-b10a-4dcb-8f30-6ffa218aee17-16887995372202891d-0",
-        "template--19180605735259__924592ae-b10a-4dcb-8f30-6ffa218aee17-16887995372202891d-1"
-      ],
-      "settings": {
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "background_style": "primary",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section_width": "boxed"
-      }
-    },
-    "65b3c1a7-8302-46d9-b085-8f37670ee16d": {
-      "type": "featured-product",
-      "disabled": true,
-      "blocks": {
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-1": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-2": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-3": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-4": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-5": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-6": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-0",
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-1",
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-2",
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-3",
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-4",
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-5",
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-6"
-      ],
-      "settings": {
-        "product": "",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "e3f70a7f-4853-41c5-9869-efb4ab501e10": {
       "type": "rich-text",
       "blocks": {
@@ -155,55 +36,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "afa5e56e-c4c7-42e6-9299-b9528f11db01": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "template--19180605735259__afa5e56e-c4c7-42e6-9299-b9528f11db01-16885007096716d014-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--19180605735259__afa5e56e-c4c7-42e6-9299-b9528f11db01-16885007096716d014-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--19180605735259__afa5e56e-c4c7-42e6-9299-b9528f11db01-16885007096716d014-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19180605735259__afa5e56e-c4c7-42e6-9299-b9528f11db01-16885007096716d014-0",
-        "template--19180605735259__afa5e56e-c4c7-42e6-9299-b9528f11db01-16885007096716d014-1",
-        "template--19180605735259__afa5e56e-c4c7-42e6-9299-b9528f11db01-16885007096716d014-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/woman-applying-lipstick.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "6591e4de-892f-4baa-a1a0-5f68527cd179": {
@@ -322,10 +154,7 @@
   },
   "order": [
     "main",
-    "924592ae-b10a-4dcb-8f30-6ffa218aee17",
-    "65b3c1a7-8302-46d9-b085-8f37670ee16d",
     "e3f70a7f-4853-41c5-9869-efb4ab501e10",
-    "afa5e56e-c4c7-42e6-9299-b9528f11db01",
     "6591e4de-892f-4baa-a1a0-5f68527cd179",
     "c929ea08-2d08-4edd-a4f0-561aeaf81117",
     "cdf192b2-5dc0-4456-b461-9f46c59e1f48"

@@ -34,6 +34,10 @@ body {
   text-align: center;
   padding-top: 1rem;
 }
+.section--image-repeater .image-repeater-grid .image-block .image-block--content .content--inner .title {
+  font-weight: 500;
+  margin: 0;
+}
 .section--image-repeater .image-repeater-grid .image-block:hover .image-repeater--image-wrapper img {
   transform: scale(1.06);
 }

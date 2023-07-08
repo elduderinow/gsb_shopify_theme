@@ -47,6 +47,9 @@ body {
 .section--image-repeater .image-repeater-grid .image-block.image--odd:last-child {
   width: 100%;
 }
+.section--image-repeater .image-repeater-grid .image-block.image--odd:last-child .image-repeater--image-wrapper {
+  aspect-ratio: 6/4;
+}
 @media (min-width: 750px) {
   .section--image-repeater .image-repeater-grid {
     flex-wrap: wrap;

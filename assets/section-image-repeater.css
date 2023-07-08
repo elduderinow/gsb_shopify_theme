@@ -30,18 +30,12 @@ body {
   height: 100%;
   object-fit: cover;
 }
-.section--image-repeater .image-repeater-grid .image-block .image-block--content {
-  transition: background-color 0.5s ease-in-out;
-}
 .section--image-repeater .image-repeater-grid .image-block .image-block--content .content--inner {
   text-align: center;
   padding-top: 1rem;
 }
 .section--image-repeater .image-repeater-grid .image-block:hover .image-repeater--image-wrapper img {
   transform: scale(1.06);
-}
-.section--image-repeater .image-repeater-grid .image-block:hover .image-block--content {
-  background-color: rgba(255, 255, 255, 0.3);
 }
 @media (min-width: 750px) {
   .section--image-repeater .image-repeater-grid {

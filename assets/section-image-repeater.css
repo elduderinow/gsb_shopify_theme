@@ -9,6 +9,7 @@ body {
 }
 .section--image-repeater .image-repeater-grid .image-block {
   width: 100%;
+  position: relative;
 }
 .section--image-repeater .image-repeater-grid .image-block .image-repeater--image-wrapper.image--square {
   aspect-ratio: 1/1;
@@ -22,6 +23,13 @@ body {
 .section--image-repeater .image-repeater-grid .image-block .image-repeater--image-wrapper img {
   height: 100%;
   object-fit: cover;
+}
+.section--image-repeater .image-repeater-grid .image-block .image-block--content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .section--image-repeater .image-repeater-grid.grid--dynamic {
   flex-wrap: wrap;

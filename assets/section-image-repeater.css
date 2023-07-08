@@ -1,6 +1,13 @@
 .section--image-repeater {
   background-color: red;
 }
+.section--image-repeater .image-repeater-grid {
+  flex-wrap: nowrap;
+  gap: 1rem;
+}
+.section--image-repeater .image-repeater-grid .image-block {
+  width: 100%;
+}
 .section--image-repeater .image-repeater-grid.grid--dynamic {
   flex-wrap: wrap;
   gap: 1rem;

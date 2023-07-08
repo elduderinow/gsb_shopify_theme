@@ -321,8 +321,8 @@
         },
         "template--19180605735259__12d22b8c-0cc5-4562-a20f-e5574ed34f5f-16888111658c0e779d-1": {
           "type": "column",
-          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/23Jul-HP-Hyaluronic-Acid-Block.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",

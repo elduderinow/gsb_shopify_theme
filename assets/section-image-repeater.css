@@ -38,6 +38,10 @@ body {
   }
 }
 @media (min-width: 990px) {
+  .section--image-repeater .image-repeater-grid {
+    flex-wrap: nowrap;
+    gap: 3rem;
+  }
   .section--image-repeater .image-repeater-grid .image-block {
     width: 100%;
   }

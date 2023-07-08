@@ -305,6 +305,44 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "12d22b8c-0cc5-4562-a20f-e5574ed34f5f": {
+      "type": "image-image",
+      "blocks": {
+        "template--19180605735259__12d22b8c-0cc5-4562-a20f-e5574ed34f5f-16888111658c0e779d-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23Jul-HP-Meltproof-Block.jpg",
+            "title": "Some cta text",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19180605735259__12d22b8c-0cc5-4562-a20f-e5574ed34f5f-16888111658c0e779d-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19180605735259__12d22b8c-0cc5-4562-a20f-e5574ed34f5f-16888111658c0e779d-0",
+        "template--19180605735259__12d22b8c-0cc5-4562-a20f-e5574ed34f5f-16888111658c0e779d-1"
+      ],
+      "settings": {
+        "image_grid": "dynamic",
+        "image_ratio": "landscape",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
     }
   },
   "order": [
@@ -315,6 +353,7 @@
     "6591e4de-892f-4baa-a1a0-5f68527cd179",
     "c929ea08-2d08-4edd-a4f0-561aeaf81117",
     "cdf192b2-5dc0-4456-b461-9f46c59e1f48",
-    "4c71a26b-e630-4818-a220-9fc357569c77"
+    "4c71a26b-e630-4818-a220-9fc357569c77",
+    "12d22b8c-0cc5-4562-a20f-e5574ed34f5f"
   ]
 }

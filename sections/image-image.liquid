@@ -45,7 +45,12 @@
                 <p>{{ block.settings.text }}</p>
               {%- endif -%}
               {%- if block.settings.link != blank and block.settings.link_label != blank -%}
-                <p>{{ block.settings.text }}</p>
+                <a
+                  href="{{ block.settings.button_link_2 }}"
+                  class="button button--secondary"
+                >
+                  {{- block.settings.link_label | escape -}}
+                </a>
               {%- endif -%}
             </div>
           </div>

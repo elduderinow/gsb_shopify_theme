@@ -105,12 +105,13 @@
       ],
       "settings": {
         "image_width": "full",
+        "image_grid": "dynamic",
         "image_ratio": "adapt",
         "background_style": "primary",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36,
-        "section_width": "full_width"
+        "section_width": "boxed"
       }
     },
     "c929ea08-2d08-4edd-a4f0-561aeaf81117": {

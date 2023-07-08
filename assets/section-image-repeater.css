@@ -12,7 +12,10 @@
   aspect-ratio: 1/1;
 }
 .section--image-repeater .image-repeater-grid .image-block .image-repeater--image-wrapper.image--portrait {
-  aspect-ratio: 5/4;
+  aspect-ratio: 4/5;
+}
+.section--image-repeater .image-repeater-grid .image-block .image-repeater--image-wrapper.image--landscape {
+  aspect-ratio: 5/3;
 }
 .section--image-repeater .image-repeater-grid .image-block .image-repeater--image-wrapper img {
   height: 100%;

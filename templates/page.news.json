@@ -268,6 +268,48 @@
         "padding_bottom": 80
       }
     },
+    "c929ea08-2d08-4edd-a4f0-561aeaf81117": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19180605735259__c929ea08-2d08-4edd-a4f0-561aeaf81117-16887983463aad5749-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "New Arrivals Pro Tips",
+            "heading_size": "h1"
+          }
+        },
+        "template--19180605735259__c929ea08-2d08-4edd-a4f0-561aeaf81117-16887983463aad5749-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get the most from your new Glo skincare and mineral makeup products with our pro tips and techniques. Discover how to layer your skincare and all the benefits and features of specific ingredients, plus get the latest makeup artistry tips and trends.<\/p>"
+          }
+        },
+        "template--19180605735259__c929ea08-2d08-4edd-a4f0-561aeaf81117-16887983463aad5749-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19180605735259__c929ea08-2d08-4edd-a4f0-561aeaf81117-16887983463aad5749-0",
+        "template--19180605735259__c929ea08-2d08-4edd-a4f0-561aeaf81117-16887983463aad5749-1",
+        "template--19180605735259__c929ea08-2d08-4edd-a4f0-561aeaf81117-16887983463aad5749-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "cdf192b2-5dc0-4456-b461-9f46c59e1f48": {
       "type": "highlight",
       "blocks": {
@@ -305,10 +347,10 @@
         "ec49510a-7a93-4d6e-adbe-bc68ccc35e22"
       ],
       "settings": {
-        "title": "Ingredienten",
-        "description": "subtitle for ingredients",
+        "title": "",
+        "description": "",
         "color_scheme": "background-1",
-        "padding_top": 80,
+        "padding_top": 12,
         "padding_bottom": 80,
         "section_width": "boxed"
       }
@@ -322,6 +364,7 @@
     "38e32951-def6-4fac-9078-20a8b2d42c5a",
     "afa5e56e-c4c7-42e6-9299-b9528f11db01",
     "6591e4de-892f-4baa-a1a0-5f68527cd179",
+    "c929ea08-2d08-4edd-a4f0-561aeaf81117",
     "cdf192b2-5dc0-4456-b461-9f46c59e1f48"
   ]
 }

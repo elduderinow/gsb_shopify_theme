@@ -77,25 +77,25 @@ body {
   font-weight: 700;
 }
 .section--image-repeater .image-repeater-grid.grid--dynamic .image-block .image-block--content .content--inner .title {
-  font-size: 26px;
-  line-height: 29.9px;
+  font-size: 22px;
+  line-height: 25.3px;
 }
 @media screen and (min-width: 640px) {
   .section--image-repeater .image-repeater-grid.grid--dynamic .image-block .image-block--content .content--inner .title {
     font-size: calc(
-                    26px + 14 *
+                    22px + 12 *
                         ((100vw - 640px) / 384)
                 );
     line-height: calc(
-                    26px * 1.15 + 14 *
+                    22px * 1.15 + 12 *
                         ((100vw - 640px) / 384)
                 );
   }
 }
 @media screen and (min-width: 1024px) {
   .section--image-repeater .image-repeater-grid.grid--dynamic .image-block .image-block--content .content--inner .title {
-    font-size: 40px;
-    line-height: 46px;
+    font-size: 34px;
+    line-height: 39.1px;
   }
 }
 @media (min-width: 990px) {

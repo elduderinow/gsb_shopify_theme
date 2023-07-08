@@ -63,7 +63,7 @@ body {
   .section--image-repeater .image-repeater-grid {
     background-color: pink;
     flex-wrap: nowrap;
-    flex-direction: column;
+    flex-direction: row;
     gap: 3rem;
   }
   .section--image-repeater .image-repeater-grid .image-block {

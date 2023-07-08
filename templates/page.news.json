@@ -8,6 +8,55 @@
         "padding_bottom": 28
       }
     },
+    "924592ae-b10a-4dcb-8f30-6ffa218aee17": {
+      "type": "image-image",
+      "blocks": {
+        "e672028c-645d-450d-beb3-ad9e636f0876": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23Jun-HP-Automat-Quiz-Big-Banner.jpg",
+            "title": "Get personalized recccomendations to unlock your glow.",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "take the quiz",
+            "link": "shopify:\/\/pages\/blog"
+          }
+        },
+        "template--19180605735259__924592ae-b10a-4dcb-8f30-6ffa218aee17-16887995372202891d-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/woman-applying-lipstick.jpg",
+            "title": "Dry Skin? Get Hydrated.",
+            "text": "<p>Some description<\/p>",
+            "link_label": "shop hydration",
+            "link": "shopify:\/\/pages\/blog"
+          }
+        },
+        "template--19180605735259__924592ae-b10a-4dcb-8f30-6ffa218aee17-16887995372202891d-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/womens-fall-fashion-in-autumn-landscape.jpg",
+            "title": "Melt Proof make-up",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "shop make up",
+            "link": "shopify:\/\/pages\/blog"
+          }
+        }
+      },
+      "block_order": [
+        "e672028c-645d-450d-beb3-ad9e636f0876",
+        "template--19180605735259__924592ae-b10a-4dcb-8f30-6ffa218aee17-16887995372202891d-0",
+        "template--19180605735259__924592ae-b10a-4dcb-8f30-6ffa218aee17-16887995372202891d-1"
+      ],
+      "settings": {
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "65b3c1a7-8302-46d9-b085-8f37670ee16d": {
       "type": "featured-product",
       "disabled": true,
@@ -106,91 +155,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "8920b26e-c982-4deb-b3de-9a9b48ffc321": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--19180605735259__8920b26e-c982-4deb-b3de-9a9b48ffc321-168849939282b24294-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/man-in-white-and-light-tan-outfit.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--19180605735259__8920b26e-c982-4deb-b3de-9a9b48ffc321-168849939282b24294-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/woman-applying-lipstick.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19180605735259__8920b26e-c982-4deb-b3de-9a9b48ffc321-168849939282b24294-0",
-        "template--19180605735259__8920b26e-c982-4deb-b3de-9a9b48ffc321-168849939282b24294-1"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 2,
-        "icon__grid": false,
-        "column_alignment": "left",
-        "item_alignment": "center",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section_width": "boxed"
-      }
-    },
-    "38e32951-def6-4fac-9078-20a8b2d42c5a": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--19180605735259__38e32951-def6-4fac-9078-20a8b2d42c5a-168849939282b24294-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/womens-fall-fashion-in-autumn-landscape.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19180605735259__38e32951-def6-4fac-9078-20a8b2d42c5a-168849939282b24294-0"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 1,
-        "icon__grid": false,
-        "column_alignment": "left",
-        "item_alignment": "center",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section_width": "boxed"
       }
     },
     "afa5e56e-c4c7-42e6-9299-b9528f11db01": {
@@ -354,67 +318,16 @@
         "padding_bottom": 80,
         "section_width": "boxed"
       }
-    },
-    "924592ae-b10a-4dcb-8f30-6ffa218aee17": {
-      "type": "image-image",
-      "blocks": {
-        "e672028c-645d-450d-beb3-ad9e636f0876": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/23Jun-HP-Automat-Quiz-Big-Banner.jpg",
-            "title": "Get personalized recccomendations to unlock your glow.",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "take the quiz",
-            "link": "shopify:\/\/pages\/blog"
-          }
-        },
-        "template--19180605735259__924592ae-b10a-4dcb-8f30-6ffa218aee17-16887995372202891d-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/woman-applying-lipstick.jpg",
-            "title": "Dry Skin? Get Hydrated.",
-            "text": "<p>Some description<\/p>",
-            "link_label": "shop hydration",
-            "link": "shopify:\/\/pages\/blog"
-          }
-        },
-        "template--19180605735259__924592ae-b10a-4dcb-8f30-6ffa218aee17-16887995372202891d-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/womens-fall-fashion-in-autumn-landscape.jpg",
-            "title": "Melt Proof make-up",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "shop make up",
-            "link": "shopify:\/\/pages\/blog"
-          }
-        }
-      },
-      "block_order": [
-        "e672028c-645d-450d-beb3-ad9e636f0876",
-        "template--19180605735259__924592ae-b10a-4dcb-8f30-6ffa218aee17-16887995372202891d-0",
-        "template--19180605735259__924592ae-b10a-4dcb-8f30-6ffa218aee17-16887995372202891d-1"
-      ],
-      "settings": {
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "background_style": "primary",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section_width": "boxed"
-      }
     }
   },
   "order": [
     "main",
+    "924592ae-b10a-4dcb-8f30-6ffa218aee17",
     "65b3c1a7-8302-46d9-b085-8f37670ee16d",
     "e3f70a7f-4853-41c5-9869-efb4ab501e10",
-    "8920b26e-c982-4deb-b3de-9a9b48ffc321",
-    "38e32951-def6-4fac-9078-20a8b2d42c5a",
     "afa5e56e-c4c7-42e6-9299-b9528f11db01",
     "6591e4de-892f-4baa-a1a0-5f68527cd179",
     "c929ea08-2d08-4edd-a4f0-561aeaf81117",
-    "cdf192b2-5dc0-4456-b461-9f46c59e1f48",
-    "924592ae-b10a-4dcb-8f30-6ffa218aee17"
+    "cdf192b2-5dc0-4456-b461-9f46c59e1f48"
   ]
 }

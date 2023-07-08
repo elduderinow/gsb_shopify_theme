@@ -328,11 +328,22 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "2c29b055-3a3e-4bb6-8478-39910e82b287": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/woman-applying-lipstick.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "template--19180605735259__12d22b8c-0cc5-4562-a20f-e5574ed34f5f-16888111658c0e779d-0",
-        "template--19180605735259__12d22b8c-0cc5-4562-a20f-e5574ed34f5f-16888111658c0e779d-1"
+        "template--19180605735259__12d22b8c-0cc5-4562-a20f-e5574ed34f5f-16888111658c0e779d-1",
+        "2c29b055-3a3e-4bb6-8478-39910e82b287"
       ],
       "settings": {
         "image_grid": "dynamic",

@@ -56,15 +56,6 @@ body {
     aspect-ratio: 6/4;
   }
 }
-@media (min-width: 990px) {
-  .section--image-repeater .image-repeater-grid {
-    flex-wrap: nowrap;
-    gap: 3rem;
-  }
-  .section--image-repeater .image-repeater-grid .image-block {
-    width: 100%;
-  }
-}
 .section--image-repeater .image-repeater-grid.grid--dynamic {
   flex-wrap: wrap;
   gap: 2rem;

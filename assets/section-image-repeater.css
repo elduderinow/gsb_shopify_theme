@@ -28,6 +28,15 @@ body {
   text-align: center;
   padding-top: 1rem;
 }
+@media (min-width: 990px) {
+  .section--image-repeater .image-repeater-grid {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .section--image-repeater .image-repeater-grid .image-block {
+    width: calc(50% - 1rem);
+  }
+}
 .section--image-repeater .image-repeater-grid.grid--dynamic {
   flex-wrap: wrap;
   gap: 2rem;

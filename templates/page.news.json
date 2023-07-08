@@ -104,9 +104,8 @@
         "template--19180605735259__6e0fddcd-3de4-4142-a3ff-87b9ded853b8-16888003220192ca10-1"
       ],
       "settings": {
-        "image_width": "full",
         "image_grid": "dynamic",
-        "image_ratio": "portrait",
+        "image_ratio": "landscape",
         "background_style": "primary",
         "color_scheme": "background-1",
         "padding_top": 36,

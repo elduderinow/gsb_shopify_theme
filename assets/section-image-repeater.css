@@ -25,6 +25,7 @@ body {
   object-fit: cover;
 }
 .section--image-repeater .image-repeater-grid .image-block .image-block--content .content--inner {
+  text-align: center;
   padding-top: 1rem;
 }
 .section--image-repeater .image-repeater-grid.grid--dynamic {

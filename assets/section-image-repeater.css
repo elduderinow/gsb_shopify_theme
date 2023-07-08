@@ -18,7 +18,7 @@ body {
   aspect-ratio: 4/5;
 }
 .section--image-repeater .image-repeater-grid .image-block .image-repeater--image-wrapper.image--landscape {
-  aspect-ratio: 5/3;
+  aspect-ratio: 6/4;
 }
 .section--image-repeater .image-repeater-grid .image-block .image-repeater--image-wrapper img {
   height: 100%;

@@ -25,7 +25,7 @@ body {
 }
 .section--image-repeater .image-repeater-grid.grid--dynamic {
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
 }
 .section--image-repeater .image-repeater-grid.grid--dynamic .image-block {
   width: 100%;

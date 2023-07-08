@@ -39,10 +39,10 @@
           <div class="image-block--content">
             <div class="content--inner mt-5">
               {%- if block.settings.title != blank -%}
-                <h3>{{ block.settings.title }}</h3>
+                <h3 class="h3-text title">{{ block.settings.title }}</h3>
               {%- endif -%}
               {%- if block.settings.text != blank -%}
-                <p>{{ block.settings.text }}</p>
+                <p class="">{{ block.settings.text }}</p>
               {%- endif -%}
               {%- if block.settings.link != blank and block.settings.link_label != blank -%}
                 <button class="button button--primary mt-5">

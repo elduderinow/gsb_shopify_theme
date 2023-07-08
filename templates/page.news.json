@@ -138,6 +138,7 @@
     },
     "e3f70a7f-4853-41c5-9869-efb4ab501e10": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--19180605735259__e3f70a7f-4853-41c5-9869-efb4ab501e10-16885006336dd517ad-0": {
           "type": "heading",
@@ -169,12 +170,12 @@
     "6591e4de-892f-4baa-a1a0-5f68527cd179": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
-        "description": "",
+        "title": "LIMITED EDITIONS",
+        "description": "Shop limited editions now",
         "show_description": false,
         "collection": "gloss",
-        "products_to_show": 12,
-        "columns_desktop": 3,
+        "products_to_show": 4,
+        "columns_desktop": 1,
         "select_width": "boxed",
         "show_view_all": true,
         "view_all_style": "solid",

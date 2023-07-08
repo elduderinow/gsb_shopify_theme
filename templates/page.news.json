@@ -142,9 +142,28 @@
         },
         "cf17e858-5f15-4a86-85a7-946128863354": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/makeup-beauty-flatlay.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "28c12923-bd08-4681-997c-d42f58e2d50a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23Jul-HP-Meltproof-Block.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "56599648-bef1-4a0f-ba0c-9f249d1c1961": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23Jul-HP-Hyaluronic-Acid-Block.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -156,7 +175,9 @@
         "c44e5653-3c0d-40a5-9504-1ca104c89f64",
         "template--19180605735259__6e0fddcd-3de4-4142-a3ff-87b9ded853b8-16888003220192ca10-0",
         "template--19180605735259__6e0fddcd-3de4-4142-a3ff-87b9ded853b8-16888003220192ca10-1",
-        "cf17e858-5f15-4a86-85a7-946128863354"
+        "cf17e858-5f15-4a86-85a7-946128863354",
+        "28c12923-bd08-4681-997c-d42f58e2d50a",
+        "56599648-bef1-4a0f-ba0c-9f249d1c1961"
       ],
       "settings": {
         "image_grid": "dynamic",

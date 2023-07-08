@@ -10,10 +10,10 @@
   background-color: pink;
 }
 .section--image-repeater .image-repeater-grid.grid--dynamic .image-block:nth-child(2) {
-  width: 50%;
+  width: calc(50% - 0.5rem);
   background-color: green;
 }
 .section--image-repeater .image-repeater-grid.grid--dynamic .image-block:nth-child(3) {
-  width: 50%;
+  width: calc(50% - 0.5rem);
   background-color: pink;
 }

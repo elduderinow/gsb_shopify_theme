@@ -38,7 +38,7 @@ body {
   font-weight: 500;
   margin: 0;
 }
-.section--image-repeater .image-repeater-grid .image-block .image-block--content .content--inner .body {
+.section--image-repeater .image-repeater-grid .image-block .image-block--content .content--inner .button {
   display: none;
 }
 .section--image-repeater .image-repeater-grid .image-block:hover .image-repeater--image-wrapper img {

@@ -8,3 +8,11 @@
   width: 100%;
   background-color: pink;
 }
+.section--image-repeater .image-repeater-grid.grid--dynamic:nth-child(2) {
+  width: 50%;
+  background-color: pink;
+}
+.section--image-repeater .image-repeater-grid.grid--dynamic:nth-child(3) {
+  width: 50%;
+  background-color: pink;
+}

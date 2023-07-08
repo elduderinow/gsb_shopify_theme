@@ -29,7 +29,7 @@
       data-cascade
     {% endif %}
   >
-    <div class="image-repeater-grid grid--dynamic flex flex-col md:flex-row">
+    <div class="image-repeater-grid grid--{{ section.settings.image_grid }} flex flex-col md:flex-row">
       {%- for block in section.blocks -%}
         <div class="image-block bg-gray-300">image block 1</div>
       {%- endfor -%}

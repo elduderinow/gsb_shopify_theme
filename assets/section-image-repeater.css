@@ -15,7 +15,7 @@ body {
   overflow: hidden;
 }
 .section--image-repeater .image-repeater-grid .image-block .image-repeater--image-wrapper img {
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 .section--image-repeater .image-repeater-grid .image-block .image-repeater--image-wrapper.image--square {
   aspect-ratio: 1/1;
@@ -35,7 +35,7 @@ body {
   padding-top: 1rem;
 }
 .section--image-repeater .image-repeater-grid .image-block:hover .image-repeater--image-wrapper img {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 @media (min-width: 750px) {
   .section--image-repeater .image-repeater-grid {

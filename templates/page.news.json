@@ -104,7 +104,7 @@
         "template--19180605735259__6e0fddcd-3de4-4142-a3ff-87b9ded853b8-16888003220192ca10-1"
       ],
       "settings": {
-        "image_grid": "dynamic",
+        "image_grid": "grid",
         "image_ratio": "landscape",
         "background_style": "none",
         "color_scheme": "background-2",

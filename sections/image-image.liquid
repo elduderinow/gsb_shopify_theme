@@ -41,6 +41,12 @@
               {%- if block.settings.title != blank -%}
                 <h3>{{ block.settings.title }}</h3>
               {%- endif -%}
+              {%- if block.settings.text != blank -%}
+                <p>{{ block.settings.text }}</p>
+              {%- endif -%}
+              {%- if block.settings.link != blank and block.settings.link_label != blank -%}
+                <p>{{ block.settings.text }}</p>
+              {%- endif -%}
             </div>
           </div>
         </div>

@@ -289,7 +289,7 @@
         "collection": "beauty-pro-zonder-testers",
         "products_to_show": 8,
         "columns_desktop": 1,
-        "select_width": "full_width",
+        "select_width": "boxed",
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,

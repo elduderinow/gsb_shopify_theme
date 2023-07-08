@@ -13,6 +13,8 @@ body {
 }
 .section--image-repeater .image-repeater-grid .image-block .image-repeater--image-wrapper {
   overflow: hidden;
+}
+.section--image-repeater .image-repeater-grid .image-block .image-repeater--image-wrapper img {
   transition: transform 0.5s ease-in-out;
 }
 .section--image-repeater .image-repeater-grid .image-block .image-repeater--image-wrapper.image--square {

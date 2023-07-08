@@ -106,7 +106,7 @@
       "settings": {
         "image_width": "full",
         "image_grid": "dynamic",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "background_style": "primary",
         "color_scheme": "background-1",
         "padding_top": 36,

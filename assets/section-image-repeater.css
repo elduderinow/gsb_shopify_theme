@@ -8,7 +8,7 @@ body {
   gap: 3rem;
 }
 .section--image-repeater .image-repeater-grid .image-block {
-  width: 100%;
+  width: calc(50% - 1rem);
   position: relative;
 }
 .section--image-repeater .image-repeater-grid .image-block .image-repeater--image-wrapper.image--square {
@@ -34,7 +34,7 @@ body {
     gap: 2rem;
   }
   .section--image-repeater .image-repeater-grid .image-block {
-    width: calc(50% - 1rem);
+    width: 100%;
   }
 }
 .section--image-repeater .image-repeater-grid.grid--dynamic {

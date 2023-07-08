@@ -3,4 +3,5 @@
 }
 .section--image-repeater .image-repeater-grid.grid--dynamic:first-child {
   width: 100%;
+  background-color: pink;
 }

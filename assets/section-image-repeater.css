@@ -146,4 +146,7 @@ body {
   .section--image-repeater .image-repeater-grid.grid--dynamic .image-block.image--even:last-child {
     width: 100%;
   }
+  .section--image-repeater .image-repeater-grid.grid--dynamic .image-block.image--odd:last-child {
+    width: calc(50% - 1.5rem);
+  }
 }

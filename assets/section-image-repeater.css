@@ -44,6 +44,7 @@ body {
 @media (min-width: 640px) {
   .section--image-repeater .image-repeater-grid {
     flex-wrap: wrap;
+    flex-direction: row;
     gap: 6rem 2rem;
     background-color: red;
   }

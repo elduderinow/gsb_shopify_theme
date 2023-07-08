@@ -8,78 +8,137 @@
         "padding_bottom": 28
       }
     },
-    "65b3c1a7-8302-46d9-b085-8f37670ee16d": {
-      "type": "featured-product",
-      "disabled": true,
+    "af6545f9-d0ea-4fd4-9f69-a5cbe594cc72": {
+      "type": "rich-text",
       "blocks": {
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-0": {
-          "type": "text",
+        "template--19180605735259__af6545f9-d0ea-4fd4-9f69-a5cbe594cc72-168880562433f67f4d-0": {
+          "type": "heading",
           "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-1": {
-          "type": "title",
-          "settings": {
+            "heading": "Lanceringen",
             "heading_size": "h1"
           }
         },
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-2": {
-          "type": "price",
+        "template--19180605735259__af6545f9-d0ea-4fd4-9f69-a5cbe594cc72-168880562433f67f4d-1": {
+          "type": "text",
           "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         },
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-3": {
-          "type": "variant_picker",
+        "template--19180605735259__af6545f9-d0ea-4fd4-9f69-a5cbe594cc72-168880562433f67f4d-2": {
+          "type": "button",
+          "disabled": true,
           "settings": {
-            "picker_type": "button"
-          }
-        },
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-4": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-5": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-6": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-0",
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-1",
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-2",
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-3",
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-4",
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-5",
-        "template--19180605735259__65b3c1a7-8302-46d9-b085-8f37670ee16d-168781472038f4ce8a-6"
+        "template--19180605735259__af6545f9-d0ea-4fd4-9f69-a5cbe594cc72-168880562433f67f4d-0",
+        "template--19180605735259__af6545f9-d0ea-4fd4-9f69-a5cbe594cc72-168880562433f67f4d-1",
+        "template--19180605735259__af6545f9-d0ea-4fd4-9f69-a5cbe594cc72-168880562433f67f4d-2"
       ],
       "settings": {
-        "product": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "6e0fddcd-3de4-4142-a3ff-87b9ded853b8": {
+      "type": "image-image",
+      "blocks": {
+        "c44e5653-3c0d-40a5-9504-1ca104c89f64": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23Jun-HP-Automat-Quiz-Big-Banner.jpg",
+            "title": "Dry Skin? Get Hydrated",
+            "text": "",
+            "link_label": "take the quiz",
+            "link": "shopify:\/\/collections\/all"
+          }
+        },
+        "template--19180605735259__6e0fddcd-3de4-4142-a3ff-87b9ded853b8-16888003220192ca10-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23Jul-HP-Hyaluronic-Acid-Block.jpg",
+            "title": "Dry Skin? Get Hydrated",
+            "text": "",
+            "link_label": "shop hydrate",
+            "link": "shopify:\/\/pages\/blog"
+          }
+        },
+        "template--19180605735259__6e0fddcd-3de4-4142-a3ff-87b9ded853b8-16888003220192ca10-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23Jul-HP-Meltproof-Block.jpg",
+            "title": "Melt-proof Make-up",
+            "text": "",
+            "link_label": "must haves",
+            "link": "shopify:\/\/pages\/blog"
+          }
+        },
+        "cf17e858-5f15-4a86-85a7-946128863354": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/makeup-beauty-flatlay.jpg",
+            "title": "Column",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "28c12923-bd08-4681-997c-d42f58e2d50a": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23Jul-HP-Meltproof-Block.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "56599648-bef1-4a0f-ba0c-9f249d1c1961": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23Jul-HP-Hyaluronic-Acid-Block.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "c44e5653-3c0d-40a5-9504-1ca104c89f64",
+        "template--19180605735259__6e0fddcd-3de4-4142-a3ff-87b9ded853b8-16888003220192ca10-0",
+        "template--19180605735259__6e0fddcd-3de4-4142-a3ff-87b9ded853b8-16888003220192ca10-1",
+        "cf17e858-5f15-4a86-85a7-946128863354",
+        "28c12923-bd08-4681-997c-d42f58e2d50a",
+        "56599648-bef1-4a0f-ba0c-9f249d1c1961"
+      ],
+      "settings": {
+        "image_grid": "grid",
+        "image_ratio": "portrait",
+        "background_style": "none",
+        "color_scheme": "background-2",
+        "padding_top": 0,
+        "padding_bottom": 80,
+        "section_width": "boxed"
       }
     },
     "e3f70a7f-4853-41c5-9869-efb4ab501e10": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--19180605735259__e3f70a7f-4853-41c5-9869-efb4ab501e10-16885006336dd517ad-0": {
           "type": "heading",
@@ -108,149 +167,15 @@
         "padding_bottom": 52
       }
     },
-    "8920b26e-c982-4deb-b3de-9a9b48ffc321": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--19180605735259__8920b26e-c982-4deb-b3de-9a9b48ffc321-168849939282b24294-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/man-in-white-and-light-tan-outfit.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--19180605735259__8920b26e-c982-4deb-b3de-9a9b48ffc321-168849939282b24294-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/woman-applying-lipstick.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19180605735259__8920b26e-c982-4deb-b3de-9a9b48ffc321-168849939282b24294-0",
-        "template--19180605735259__8920b26e-c982-4deb-b3de-9a9b48ffc321-168849939282b24294-1"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 2,
-        "icon__grid": false,
-        "column_alignment": "left",
-        "item_alignment": "center",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section_width": "boxed"
-      }
-    },
-    "38e32951-def6-4fac-9078-20a8b2d42c5a": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--19180605735259__38e32951-def6-4fac-9078-20a8b2d42c5a-168849939282b24294-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/womens-fall-fashion-in-autumn-landscape.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19180605735259__38e32951-def6-4fac-9078-20a8b2d42c5a-168849939282b24294-0"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 1,
-        "icon__grid": false,
-        "column_alignment": "left",
-        "item_alignment": "center",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section_width": "boxed"
-      }
-    },
-    "afa5e56e-c4c7-42e6-9299-b9528f11db01": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "template--19180605735259__afa5e56e-c4c7-42e6-9299-b9528f11db01-16885007096716d014-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--19180605735259__afa5e56e-c4c7-42e6-9299-b9528f11db01-16885007096716d014-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--19180605735259__afa5e56e-c4c7-42e6-9299-b9528f11db01-16885007096716d014-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19180605735259__afa5e56e-c4c7-42e6-9299-b9528f11db01-16885007096716d014-0",
-        "template--19180605735259__afa5e56e-c4c7-42e6-9299-b9528f11db01-16885007096716d014-1",
-        "template--19180605735259__afa5e56e-c4c7-42e6-9299-b9528f11db01-16885007096716d014-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/woman-applying-lipstick.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "6591e4de-892f-4baa-a1a0-5f68527cd179": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
-        "description": "",
+        "title": "LIMITED EDITIONS",
+        "description": "Shop limited editions now",
         "show_description": false,
         "collection": "gloss",
         "products_to_show": 4,
-        "columns_desktop": 4,
+        "columns_desktop": 1,
         "select_width": "boxed",
         "show_view_all": true,
         "view_all_style": "solid",
@@ -263,9 +188,51 @@
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 80,
         "padding_bottom": 80
+      }
+    },
+    "c929ea08-2d08-4edd-a4f0-561aeaf81117": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19180605735259__c929ea08-2d08-4edd-a4f0-561aeaf81117-16887983463aad5749-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "New Arrivals Pro Tips",
+            "heading_size": "h1"
+          }
+        },
+        "template--19180605735259__c929ea08-2d08-4edd-a4f0-561aeaf81117-16887983463aad5749-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get the most from your new Glo skincare and mineral makeup products with our pro tips and techniques. Discover how to layer your skincare and all the benefits and features of specific ingredients, plus get the latest makeup artistry tips and trends.<\/p>"
+          }
+        },
+        "template--19180605735259__c929ea08-2d08-4edd-a4f0-561aeaf81117-16887983463aad5749-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19180605735259__c929ea08-2d08-4edd-a4f0-561aeaf81117-16887983463aad5749-0",
+        "template--19180605735259__c929ea08-2d08-4edd-a4f0-561aeaf81117-16887983463aad5749-1",
+        "template--19180605735259__c929ea08-2d08-4edd-a4f0-561aeaf81117-16887983463aad5749-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
       }
     },
     "cdf192b2-5dc0-4456-b461-9f46c59e1f48": {
@@ -305,23 +272,99 @@
         "ec49510a-7a93-4d6e-adbe-bc68ccc35e22"
       ],
       "settings": {
-        "title": "Ingredienten",
-        "description": "subtitle for ingredients",
+        "title": "",
+        "description": "",
         "color_scheme": "background-1",
-        "padding_top": 80,
+        "padding_top": 12,
         "padding_bottom": 80,
+        "section_width": "boxed"
+      }
+    },
+    "4c71a26b-e630-4818-a220-9fc357569c77": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "description": "",
+        "show_description": false,
+        "collection": "beauty-pro-zonder-testers",
+        "products_to_show": 8,
+        "columns_desktop": 1,
+        "select_width": "boxed",
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "12d22b8c-0cc5-4562-a20f-e5574ed34f5f": {
+      "type": "image-image",
+      "blocks": {
+        "template--19180605735259__12d22b8c-0cc5-4562-a20f-e5574ed34f5f-16888111658c0e779d-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23Jul-HP-Meltproof-Block.jpg",
+            "title": "Some cta text",
+            "text": "",
+            "link_label": "button",
+            "link": "shopify:\/\/pages\/must-have-kits"
+          }
+        },
+        "template--19180605735259__12d22b8c-0cc5-4562-a20f-e5574ed34f5f-16888111658c0e779d-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23Jul-HP-Hyaluronic-Acid-Block.jpg",
+            "title": "Column",
+            "text": "",
+            "link_label": "label",
+            "link": "shopify:\/\/pages\/dit-gedeelte-is-enkel-voor-gloskincare-klanten"
+          }
+        },
+        "2c29b055-3a3e-4bb6-8478-39910e82b287": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/woman-applying-lipstick.jpg",
+            "title": "Column",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19180605735259__12d22b8c-0cc5-4562-a20f-e5574ed34f5f-16888111658c0e779d-0",
+        "template--19180605735259__12d22b8c-0cc5-4562-a20f-e5574ed34f5f-16888111658c0e779d-1",
+        "2c29b055-3a3e-4bb6-8478-39910e82b287"
+      ],
+      "settings": {
+        "image_grid": "dynamic",
+        "image_ratio": "landscape",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
         "section_width": "boxed"
       }
     }
   },
   "order": [
     "main",
-    "65b3c1a7-8302-46d9-b085-8f37670ee16d",
+    "af6545f9-d0ea-4fd4-9f69-a5cbe594cc72",
+    "6e0fddcd-3de4-4142-a3ff-87b9ded853b8",
     "e3f70a7f-4853-41c5-9869-efb4ab501e10",
-    "8920b26e-c982-4deb-b3de-9a9b48ffc321",
-    "38e32951-def6-4fac-9078-20a8b2d42c5a",
-    "afa5e56e-c4c7-42e6-9299-b9528f11db01",
     "6591e4de-892f-4baa-a1a0-5f68527cd179",
-    "cdf192b2-5dc0-4456-b461-9f46c59e1f48"
+    "c929ea08-2d08-4edd-a4f0-561aeaf81117",
+    "cdf192b2-5dc0-4456-b461-9f46c59e1f48",
+    "4c71a26b-e630-4818-a220-9fc357569c77",
+    "12d22b8c-0cc5-4562-a20f-e5574ed34f5f"
   ]
 }

@@ -142,7 +142,6 @@
         },
         "cf17e858-5f15-4a86-85a7-946128863354": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/makeup-beauty-flatlay.jpg",
             "title": "Column",
@@ -183,8 +182,8 @@
         "56599648-bef1-4a0f-ba0c-9f249d1c1961"
       ],
       "settings": {
-        "image_grid": "dynamic",
-        "image_ratio": "landscape",
+        "image_grid": "grid",
+        "image_ratio": "portrait",
         "background_style": "none",
         "color_scheme": "background-2",
         "padding_top": 0,

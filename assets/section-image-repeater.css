@@ -71,6 +71,33 @@ body {
   align-items: flex-start;
   justify-content: flex-end;
 }
+.section--image-repeater .image-repeater-grid.grid--dynamic .image-block .image-block--content .content--inner .title {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: 700;
+}
+.section--image-repeater .image-repeater-grid.grid--dynamic .image-block .image-block--content .content--inner .title {
+  font-size: 26px;
+  line-height: 29.9px;
+}
+@media screen and (min-width: 640px) {
+  .section--image-repeater .image-repeater-grid.grid--dynamic .image-block .image-block--content .content--inner .title {
+    font-size: calc(
+                    26px + 14 *
+                        ((100vw - 640px) / 384)
+                );
+    line-height: calc(
+                    26px * 1.15 + 14 *
+                        ((100vw - 640px) / 384)
+                );
+  }
+}
+@media screen and (min-width: 1024px) {
+  .section--image-repeater .image-repeater-grid.grid--dynamic .image-block .image-block--content .content--inner .title {
+    font-size: 40px;
+    line-height: 46px;
+  }
+}
 @media (min-width: 990px) {
   .section--image-repeater .image-repeater-grid.grid--dynamic {
     gap: 3rem;

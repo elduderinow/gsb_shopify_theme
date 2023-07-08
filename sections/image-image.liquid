@@ -38,7 +38,9 @@
           {%- endif -%}
           <div class="image-block--content">
             <div class="content--inner">
-              <h3>fefefe</h3>
+              {%- if block.settings.title != blank -%}
+                <h3>{{ block.settings.title }}</h3>
+              {%- endif -%}
             </div>
           </div>
         </div>

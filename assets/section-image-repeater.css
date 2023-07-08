@@ -24,6 +24,9 @@ body {
   height: 100%;
   object-fit: cover;
 }
+.section--image-repeater .image-repeater-grid .image-block .image-block--content .content--inner {
+  padding-top: 1rem;
+}
 .section--image-repeater .image-repeater-grid.grid--dynamic {
   flex-wrap: wrap;
   gap: 2rem;

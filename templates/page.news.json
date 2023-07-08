@@ -125,7 +125,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/23Jul-HP-Hyaluronic-Acid-Block.jpg",
             "title": "Dry Skin? Get Hydrated",
-            "text": "<p>Some subtitle text on one line.<\/p>",
+            "text": "",
             "link_label": "shop hydrate",
             "link": "shopify:\/\/pages\/blog"
           }

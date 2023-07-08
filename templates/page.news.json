@@ -158,8 +158,8 @@
         "cf17e858-5f15-4a86-85a7-946128863354"
       ],
       "settings": {
-        "image_grid": "grid",
-        "image_ratio": "portrait",
+        "image_grid": "dynamic",
+        "image_ratio": "landscape",
         "background_style": "none",
         "color_scheme": "background-2",
         "padding_top": 0,

@@ -8,6 +8,9 @@
 .section--image-repeater .image-repeater-grid .image-block {
   width: 100%;
 }
+.section--image-repeater .image-repeater-grid .image-block .image-repeater--image-wrapper {
+  height: 200px;
+}
 .section--image-repeater .image-repeater-grid.grid--dynamic {
   flex-wrap: wrap;
   gap: 1rem;

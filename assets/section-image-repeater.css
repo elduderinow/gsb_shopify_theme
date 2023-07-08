@@ -81,6 +81,7 @@ body {
 }
 .section--image-repeater .image-repeater-grid.grid--dynamic {
   flex-wrap: wrap;
+  flex-direction: row;
   gap: 2rem;
 }
 .section--image-repeater .image-repeater-grid.grid--dynamic .image-block {

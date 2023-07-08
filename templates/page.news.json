@@ -8,62 +8,6 @@
         "padding_bottom": 28
       }
     },
-    "e3f70a7f-4853-41c5-9869-efb4ab501e10": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19180605735259__e3f70a7f-4853-41c5-9869-efb4ab501e10-16885006336dd517ad-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Specials",
-            "heading_size": "h1"
-          }
-        },
-        "template--19180605735259__e3f70a7f-4853-41c5-9869-efb4ab501e10-16885006336dd517ad-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Ontdek hier onze specials<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--19180605735259__e3f70a7f-4853-41c5-9869-efb4ab501e10-16885006336dd517ad-0",
-        "template--19180605735259__e3f70a7f-4853-41c5-9869-efb4ab501e10-16885006336dd517ad-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "6591e4de-892f-4baa-a1a0-5f68527cd179": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "",
-        "description": "",
-        "show_description": false,
-        "collection": "gloss",
-        "products_to_show": 12,
-        "columns_desktop": 3,
-        "select_width": "boxed",
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "portrait",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 80,
-        "padding_bottom": 80
-      }
-    },
     "af6545f9-d0ea-4fd4-9f69-a5cbe594cc72": {
       "type": "rich-text",
       "blocks": {
@@ -142,11 +86,10 @@
         },
         "cf17e858-5f15-4a86-85a7-946128863354": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/makeup-beauty-flatlay.jpg",
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -190,6 +133,62 @@
         "padding_top": 0,
         "padding_bottom": 80,
         "section_width": "boxed"
+      }
+    },
+    "e3f70a7f-4853-41c5-9869-efb4ab501e10": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19180605735259__e3f70a7f-4853-41c5-9869-efb4ab501e10-16885006336dd517ad-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Specials",
+            "heading_size": "h1"
+          }
+        },
+        "template--19180605735259__e3f70a7f-4853-41c5-9869-efb4ab501e10-16885006336dd517ad-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ontdek hier onze specials<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19180605735259__e3f70a7f-4853-41c5-9869-efb4ab501e10-16885006336dd517ad-0",
+        "template--19180605735259__e3f70a7f-4853-41c5-9869-efb4ab501e10-16885006336dd517ad-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "6591e4de-892f-4baa-a1a0-5f68527cd179": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "description": "",
+        "show_description": false,
+        "collection": "gloss",
+        "products_to_show": 12,
+        "columns_desktop": 3,
+        "select_width": "boxed",
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "c929ea08-2d08-4edd-a4f0-561aeaf81117": {
@@ -282,10 +281,10 @@
   },
   "order": [
     "main",
-    "e3f70a7f-4853-41c5-9869-efb4ab501e10",
-    "6591e4de-892f-4baa-a1a0-5f68527cd179",
     "af6545f9-d0ea-4fd4-9f69-a5cbe594cc72",
     "6e0fddcd-3de4-4142-a3ff-87b9ded853b8",
+    "e3f70a7f-4853-41c5-9869-efb4ab501e10",
+    "6591e4de-892f-4baa-a1a0-5f68527cd179",
     "c929ea08-2d08-4edd-a4f0-561aeaf81117",
     "cdf192b2-5dc0-4456-b461-9f46c59e1f48"
   ]

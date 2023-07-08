@@ -37,7 +37,7 @@
             </div>
           {%- endif -%}
           <div class="image-block--content">
-            <div class="content--inner mt-10">
+            <div class="content--inner mt-5">
               {%- if block.settings.title != blank -%}
                 <h3>{{ block.settings.title }}</h3>
               {%- endif -%}
@@ -45,7 +45,7 @@
                 <p>{{ block.settings.text }}</p>
               {%- endif -%}
               {%- if block.settings.link != blank and block.settings.link_label != blank -%}
-                <button class="button button--primary">
+                <button class="button button--primary mt-5">
                   {{- block.settings.link_label | escape -}}
                 </button>
               {%- endif -%}

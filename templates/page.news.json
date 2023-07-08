@@ -132,7 +132,6 @@
         },
         "template--19180605735259__6e0fddcd-3de4-4142-a3ff-87b9ded853b8-16888003220192ca10-1": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/23Jul-HP-Meltproof-Block.jpg",
             "title": "Melt-proof Make-up",
@@ -143,6 +142,7 @@
         },
         "cf17e858-5f15-4a86-85a7-946128863354": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/makeup-beauty-flatlay.jpg",
             "title": "Column",

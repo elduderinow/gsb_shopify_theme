@@ -88,12 +88,56 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "3c35e5fe-c1c5-40f8-ae7b-c3beb1413d8a": {
+      "type": "highlight",
+      "blocks": {
+        "66d38502-6c80-4e2b-ad19-7d5f3d31c110": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23Jul-HP-Meltproof-Block.jpg",
+            "image_title": "title",
+            "image_subtitle": "subtitle",
+            "highlight_url": "shopify:\/\/pages\/contact-workshop"
+          }
+        },
+        "80187276-ae62-430c-b008-1042e50743c0": {
+          "type": "highlight",
+          "settings": {
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "f77cd07d-5094-4283-a768-d136dc11ece7": {
+          "type": "highlight",
+          "settings": {
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "66d38502-6c80-4e2b-ad19-7d5f3d31c110",
+        "80187276-ae62-430c-b008-1042e50743c0",
+        "f77cd07d-5094-4283-a768-d136dc11ece7"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "description": "",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
     }
   },
   "order": [
     "main",
     "7c0455ea-3137-469f-b11a-5c75459d11c7",
     "3b2eec19-5ff2-44d5-a5d6-0d3b30e301d5",
-    "71a460a1-c5db-4f10-8a12-2e509b22039c"
+    "71a460a1-c5db-4f10-8a12-2e509b22039c",
+    "3c35e5fe-c1c5-40f8-ae7b-c3beb1413d8a"
   ]
 }

@@ -105,8 +105,9 @@
         "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/womens-fall-fashion-in-autumn-landscape.jpg",
+            "title": "heading",
+            "text": "<p>sample description text<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -118,7 +119,7 @@
       ],
       "settings": {
         "image_grid": "dynamic",
-        "image_ratio": "portrait",
+        "image_ratio": "landscape",
         "background_style": "primary",
         "color_scheme": "background-1",
         "padding_top": 36,

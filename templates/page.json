@@ -10,7 +10,6 @@
     },
     "7c0455ea-3137-469f-b11a-5c75459d11c7": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Featured collection",
         "description": "",
@@ -37,7 +36,6 @@
     },
     "3b2eec19-5ff2-44d5-a5d6-0d3b30e301d5": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "HIGHLIGHTS INGREDIËNTEN",
         "description": "",
@@ -64,7 +62,6 @@
     },
     "71a460a1-c5db-4f10-8a12-2e509b22039c": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "HIGHLIGHT PRODUCTEN",
         "description": "",

@@ -111,11 +111,22 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "2fc92817-1265-4478-8cf7-5f7170c36be2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bestsellers_Desktop_5.jpg",
+            "title": "Heading",
+            "text": "<p>sample description<\/p>",
+            "link_label": "shop",
+            "link": "shopify:\/\/pages\/algemene-voorwaarden"
+          }
         }
       },
       "block_order": [
         "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-0",
-        "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-1"
+        "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-1",
+        "2fc92817-1265-4478-8cf7-5f7170c36be2"
       ],
       "settings": {
         "image_grid": "dynamic",

@@ -29,7 +29,7 @@ body {
 .header-wrapper .mega-menu__list > li {
   border-right: 1px solid rgb(176, 176, 176);
 }
-.header-wrapper .mega-menu__list li > a.mega-menu__link {
+.header-wrapper .mega-menu__list li > a.mega-menu__link--level-2 {
   text-transform: uppercase;
   pointer-events: none;
   color: black;

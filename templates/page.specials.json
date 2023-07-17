@@ -62,10 +62,37 @@
         "padding_bottom": 36,
         "section_width": "boxed"
       }
+    },
+    "149559a5-2285-4000-883b-657a48e24031": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best Sellers",
+        "description": "Shop Our best selling products",
+        "show_description": false,
+        "collection": "chemical-peeling",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "select_width": "full_width",
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "f6b56644-2574-4e00-8752-bd14ce7b7e25"
+    "f6b56644-2574-4e00-8752-bd14ce7b7e25",
+    "149559a5-2285-4000-883b-657a48e24031"
   ]
 }

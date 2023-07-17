@@ -8,54 +8,60 @@
         "padding_bottom": 28
       }
     },
-    "5760dc10-179d-470c-9176-d4dba02a77f5": {
-      "type": "image-with-text",
+    "f6b56644-2574-4e00-8752-bd14ce7b7e25": {
+      "type": "highlight",
       "blocks": {
-        "template--19180612190555__5760dc10-179d-470c-9176-d4dba02a77f5-1687815057b17ed64a-0": {
-          "type": "heading",
+        "19d36a42-b3ad-400c-a700-19a089c1648f": {
+          "type": "highlight",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
           }
         },
-        "template--19180612190555__5760dc10-179d-470c-9176-d4dba02a77f5-1687815057b17ed64a-1": {
-          "type": "text",
+        "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7": {
+          "type": "highlight",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
           }
         },
-        "template--19180612190555__5760dc10-179d-470c-9176-d4dba02a77f5-1687815057b17ed64a-2": {
-          "type": "button",
+        "caafd9d2-7a97-44ba-bff8-b9e226b70128": {
+          "type": "highlight",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "0bf05740-800b-4b9b-894b-61d5ce06cc68": {
+          "type": "highlight",
+          "settings": {
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
           }
         }
       },
       "block_order": [
-        "template--19180612190555__5760dc10-179d-470c-9176-d4dba02a77f5-1687815057b17ed64a-0",
-        "template--19180612190555__5760dc10-179d-470c-9176-d4dba02a77f5-1687815057b17ed64a-1",
-        "template--19180612190555__5760dc10-179d-470c-9176-d4dba02a77f5-1687815057b17ed64a-2"
+        "19d36a42-b3ad-400c-a700-19a089c1648f",
+        "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7",
+        "caafd9d2-7a97-44ba-bff8-b9e226b70128",
+        "0bf05740-800b-4b9b-894b-61d5ce06cc68"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/23Jun-HP-Automat-Quiz-Big-Banner.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "title": "Featured collection",
+        "description": "",
         "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "section_width": "boxed"
       }
     }
   },
   "order": [
     "main",
-    "5760dc10-179d-470c-9176-d4dba02a77f5"
+    "f6b56644-2574-4e00-8752-bd14ce7b7e25"
   ]
 }

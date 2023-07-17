@@ -7,9 +7,6 @@ body {
   width: 100%;
   border-bottom: 0;
 }
-.header-wrapper .list-menu li {
-  border-right: 1px solid rgb(176, 176, 176);
-}
 .header-wrapper .list-menu li:last-child {
   border-right: none;
 }
@@ -28,4 +25,7 @@ body {
   .header-wrapper .list-menu li .header__menu-item {
     font-size: 1.6rem;
   }
+}
+.header-wrapper .list-menu > li {
+  border-right: 1px solid rgb(176, 176, 176);
 }

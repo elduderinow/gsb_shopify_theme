@@ -14,6 +14,7 @@
         "19d36a42-b3ad-400c-a700-19a089c1648f": {
           "type": "highlight",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Serums_Desktop.webp",
             "image_title": "",
             "image_subtitle": "",
             "highlight_url": ""
@@ -22,6 +23,7 @@
         "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7": {
           "type": "highlight",
           "settings": {
+            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_peels.jpg",
             "image_title": "",
             "image_subtitle": "",
             "highlight_url": ""
@@ -30,6 +32,7 @@
         "caafd9d2-7a97-44ba-bff8-b9e226b70128": {
           "type": "highlight",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Foundation_Desktop_1.jpg",
             "image_title": "",
             "image_subtitle": "",
             "highlight_url": ""
@@ -38,6 +41,7 @@
         "0bf05740-800b-4b9b-894b-61d5ce06cc68": {
           "type": "highlight",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Moisturizer_Desktop_1.jpg",
             "image_title": "",
             "image_subtitle": "",
             "highlight_url": ""
@@ -51,7 +55,7 @@
         "0bf05740-800b-4b9b-894b-61d5ce06cc68"
       ],
       "settings": {
-        "title": "Featured collection",
+        "title": "Lanceringen",
         "description": "",
         "color_scheme": "background-1",
         "padding_top": 36,

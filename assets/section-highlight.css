@@ -765,9 +765,13 @@ swiper-container .swiper-notification {
 }
 
 @media (max-width: 640px) {
-  .section-highlight .global-section-x-padding {
+  .section-highlight .highlight-inner {
     padding-left: 0;
     padding-right: 0;
+  }
+  .section-highlight .highlight-inner .highlight--title {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 }
 .section-highlight .highlight--title {

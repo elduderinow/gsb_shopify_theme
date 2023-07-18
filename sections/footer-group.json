@@ -4,6 +4,7 @@
   "sections": {
     "2b7861bb-50c2-435e-9d64-c74fa9fb2972": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "sections--19143339934043__2b7861bb-50c2-435e-9d64-c74fa9fb2972-1689686591c89e0cee-0": {
           "type": "heading",

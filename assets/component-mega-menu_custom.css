@@ -27,10 +27,16 @@ body {
   }
 }
 .header-wrapper .mega-menu__list {
-  gap: 1rem 1rem;
+  gap: 0;
 }
 .header-wrapper .mega-menu__list > li {
   border-right: 1px solid rgb(176, 176, 176);
+  padding: 0 1rem;
+}
+@media (min-width: 1280px) {
+  .header-wrapper .mega-menu__list > li {
+    padding: 0 2rem;
+  }
 }
 .header-wrapper .mega-menu__list li > a.mega-menu__link--level-2.mega-menu__has-grandchild {
   text-transform: uppercase;

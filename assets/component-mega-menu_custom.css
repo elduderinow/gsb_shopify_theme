@@ -34,4 +34,5 @@ body {
   pointer-events: none;
   color: black;
   font-weight: bold;
+  text-decoration: none;
 }

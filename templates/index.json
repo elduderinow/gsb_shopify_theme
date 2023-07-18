@@ -151,7 +151,7 @@
         "swipe_on_mobile": false,
         "padding_top": 32,
         "padding_bottom": 0,
-        "section_width": "full_width"
+        "section_width": "boxed"
       }
     },
     "fae5378e-1912-4d51-916f-e1f0c1a488a0": {

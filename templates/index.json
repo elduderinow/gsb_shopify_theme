@@ -22,11 +22,12 @@
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/23jul-hp-protect_prevent-slider-desktop.webp",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
+            "subheading": "",
             "subheading_size": "h5",
-            "button_label": "Button label",
+            "button_label": "",
             "link": "",
             "box_align": "middle-center",
             "text_alignment": "center",

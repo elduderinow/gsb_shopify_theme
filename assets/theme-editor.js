@@ -15,7 +15,7 @@ document.addEventListener('shopify:block:select', function (event) {
     parentSlideshowComponent.slider.scrollTo({
       left: event.target.offsetLeft,
     });
-  }, 50);
+  }, 200);
 });
 
 document.addEventListener('shopify:block:deselect', function (event) {

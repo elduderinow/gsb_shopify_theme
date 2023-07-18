@@ -159,7 +159,11 @@
               </h2>
             {%- endif -%}
             {%- if block.settings.subheading != blank -%}
-              <div class="banner__text rte {{ block.settings.subheading_size }}" {{ block.shopify_attributes }}>
+              <div
+                style="color:{{ block.settings.color_option_id }};"
+                class="banner__text rte {{ block.settings.subheading_size }}"
+                {{ block.shopify_attributes }}
+              >
                 <p>{{ block.settings.subheading }}</p>
               </div>
             {%- endif -%}

@@ -34,8 +34,51 @@
         "padding_bottom": 36
       }
     },
+    "c1d297d2-db9a-4610-9ccf-35b6730ac70c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19192938070363__c1d297d2-db9a-4610-9ccf-35b6730ac70c-16896743378e5d5e84-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meer informatie over behandelingen en peelings",
+            "heading_size": "h2"
+          }
+        },
+        "template--19192938070363__c1d297d2-db9a-4610-9ccf-35b6730ac70c-16896743378e5d5e84-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Heb je je dagelijkse huidverzorgingsritueel al onder de knie, maar heb je behoefte aan extra versteviging, verfijning of verhelderingsboost?<\/p>"
+          }
+        },
+        "template--19192938070363__c1d297d2-db9a-4610-9ccf-35b6730ac70c-16896743378e5d5e84-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19192938070363__c1d297d2-db9a-4610-9ccf-35b6730ac70c-16896743378e5d5e84-0",
+        "template--19192938070363__c1d297d2-db9a-4610-9ccf-35b6730ac70c-16896743378e5d5e84-1",
+        "template--19192938070363__c1d297d2-db9a-4610-9ccf-35b6730ac70c-16896743378e5d5e84-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "5760dc10-179d-470c-9176-d4dba02a77f5": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--19180612190555__5760dc10-179d-470c-9176-d4dba02a77f5-1687815057b17ed64a-0": {
           "type": "heading",
@@ -83,6 +126,7 @@
   "order": [
     "main",
     "585c0e35-f257-45c9-a7a1-9ce9e2399f9e",
+    "c1d297d2-db9a-4610-9ccf-35b6730ac70c",
     "5760dc10-179d-470c-9176-d4dba02a77f5"
   ]
 }

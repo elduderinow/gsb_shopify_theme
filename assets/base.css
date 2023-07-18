@@ -58,3 +58,7 @@ body {
 .related-products .product-grid .grid__item {
   max-width: none;
 }
+
+.header__icon .icon.icon-location {
+  fill: black;
+}

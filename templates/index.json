@@ -73,41 +73,6 @@
         "padding_bottom": 0
       }
     },
-    "ae21b1cf-e274-41c2-9eee-47640c17a254": {
-      "type": "hero--main",
-      "disabled": true,
-      "blocks": {
-        "template--16887399645398__ae21b1cf-e274-41c2-9eee-47640c17a254-16821743124ba58cf6-0": {
-          "type": "heading",
-          "settings": {
-            "heading": ""
-          }
-        },
-        "template--16887399645398__ae21b1cf-e274-41c2-9eee-47640c17a254-16821743124ba58cf6-1": {
-          "type": "text",
-          "settings": {
-            "text": "Zonbescherming volgens glo Skin Beauty"
-          }
-        },
-        "template--16887399645398__ae21b1cf-e274-41c2-9eee-47640c17a254-16821743124ba58cf6-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Discover",
-            "button_link_1": "shopify:\/\/products\/black-leather-bag",
-            "button_label_2": "Connect",
-            "button_link_2": "shopify:\/\/products\/longsleeve-cotton-top"
-          }
-        }
-      },
-      "block_order": [
-        "template--16887399645398__ae21b1cf-e274-41c2-9eee-47640c17a254-16821743124ba58cf6-0",
-        "template--16887399645398__ae21b1cf-e274-41c2-9eee-47640c17a254-16821743124ba58cf6-1",
-        "template--16887399645398__ae21b1cf-e274-41c2-9eee-47640c17a254-16821743124ba58cf6-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/fashion-model-poses.jpg"
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -152,26 +117,6 @@
         "padding_top": 32,
         "padding_bottom": 52,
         "section_width": "boxed"
-      }
-    },
-    "fae5378e-1912-4d51-916f-e1f0c1a488a0": {
-      "type": "call-to-action",
-      "disabled": true,
-      "blocks": {
-        "template--19143340065115__fae5378e-1912-4d51-916f-e1f0c1a488a0-168798283358e5197c-0": {
-          "type": "link",
-          "settings": {
-            "linkurl": "shopify:\/\/pages\/nieuw",
-            "linktext": "Ontdek Meer"
-          }
-        }
-      },
-      "block_order": [
-        "template--19143340065115__fae5378e-1912-4d51-916f-e1f0c1a488a0-168798283358e5197c-0"
-      ],
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "d505918e-6980-4bce-bf30-44f0ad46b8c3": {
@@ -387,29 +332,52 @@
         "section_width": "boxed"
       }
     },
-    "1688232952d328895e": {
-      "type": "apps",
-      "disabled": true,
+    "59fb9ddd-d55c-49a7-ac87-c5d37744075d": {
+      "type": "rich-text",
       "blocks": {
-        "6495e1a3-005d-4246-aff4-ee1f5971d028": {
-          "type": "shopify:\/\/apps\/instafeed-story\/blocks\/app-block-feeds\/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
+        "template--19143340065115__59fb9ddd-d55c-49a7-ac87-c5d37744075d-1689686290bacfce76-0": {
+          "type": "heading",
           "settings": {
+            "heading": "Onze belofte voor clean",
+            "heading_size": "h2"
+          }
+        },
+        "template--19143340065115__59fb9ddd-d55c-49a7-ac87-c5d37744075d-1689686290bacfce76-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--19143340065115__59fb9ddd-d55c-49a7-ac87-c5d37744075d-1689686290bacfce76-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "6495e1a3-005d-4246-aff4-ee1f5971d028"
-      ],
-      "custom_css": [
-
+        "template--19143340065115__59fb9ddd-d55c-49a7-ac87-c5d37744075d-1689686290bacfce76-0",
+        "template--19143340065115__59fb9ddd-d55c-49a7-ac87-c5d37744075d-1689686290bacfce76-1",
+        "template--19143340065115__59fb9ddd-d55c-49a7-ac87-c5d37744075d-1689686290bacfce76-2"
       ],
       "settings": {
-        "include_margins": true
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 0
       }
     },
     "1ecd70ec-550e-4ee0-9b19-cbdc86548b9c": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--19143340065115__1ecd70ec-550e-4ee0-9b19-cbdc86548b9c-1688229291c922cd03-0": {
           "type": "column",
@@ -422,7 +390,6 @@
         },
         "template--19143340065115__1ecd70ec-550e-4ee0-9b19-cbdc86548b9c-1688229291c922cd03-1": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "title": "",
             "text": "<p>Omdat we begrijpen dat wat er niet in onze producten zit net zo belangrijk is als wat er wel in zit, gebruiken we alleen vertrouwde ingrediënten van de hoogste kwaliteit in effectieve concentraties om baanbrekende resultaten te leveren zonder afbreuk te doen aan de veiligheid van de huid.<br\/><br\/>We hanteren een less is more-aanpak, met minimale ingrediënten voor een maximaal effect. Onze belofte voor clean betekent dat we nooit formuleren met parabenen, talk, kunstmatige geurstoffen, irriterende sulfaten, ftalaten, agressieve kleurstoffen, polyethyleenparels of minerale olie.<br\/>We blijven formuleren, herzien en innoveren om ervoor te zorgen dat onze producten onvoorwaardelijk clean blijven.<br\/><\/p>",
@@ -432,6 +399,7 @@
         },
         "3f2326b7-3059-405f-b2fa-075d96d0b6fc": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "",
             "text": "<p><strong>Whats in?<br\/><br\/><\/strong><\/p><ul><li>NEXT-GENERATION ACTIVES<\/li><li>NATURAL NOURISHERS<\/li><li>LUXURIOUS HYDRATORS<\/li><li>ETHICALLY-SOURCED MINERALS<\/li><li>SOOTHING BOTANICALS<\/li><li>ANTIOXIDANTS<\/li><li>INNOVATIVE TECHNOLOGY<\/li><\/ul>",
@@ -446,8 +414,8 @@
         "3f2326b7-3059-405f-b2fa-075d96d0b6fc"
       ],
       "settings": {
-        "title": "Onze Toewijding aan Schoonheid",
-        "heading_size": "h1",
+        "title": "",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
@@ -460,7 +428,7 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 80,
+        "padding_top": 40,
         "padding_bottom": 40,
         "section_width": "full_width"
       }
@@ -545,7 +513,6 @@
     },
     "e4c713b5-f3e0-4c55-a907-41e75876dd11": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--19143340065115__e4c713b5-f3e0-4c55-a907-41e75876dd11-16882290004a28d1c4-0": {
           "type": "heading",
@@ -948,13 +915,11 @@
   "order": [
     "a9132cbf-2ea9-4bb0-96e9-1e58e1371a27",
     "1e36ea4f-fdc0-4163-884f-2a13bed36801",
-    "ae21b1cf-e274-41c2-9eee-47640c17a254",
     "multicolumn",
-    "fae5378e-1912-4d51-916f-e1f0c1a488a0",
     "d505918e-6980-4bce-bf30-44f0ad46b8c3",
     "36581f1d-ed42-44a4-ba6e-322786b4adbc",
     "0544e851-a779-4248-a67e-cbec20d2a40e",
-    "1688232952d328895e",
+    "59fb9ddd-d55c-49a7-ac87-c5d37744075d",
     "1ecd70ec-550e-4ee0-9b19-cbdc86548b9c",
     "b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721",
     "e4c713b5-f3e0-4c55-a907-41e75876dd11",

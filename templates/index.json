@@ -430,7 +430,7 @@
         "swipe_on_mobile": false,
         "padding_top": 40,
         "padding_bottom": 40,
-        "section_width": "full_width"
+        "section_width": "boxed"
       }
     },
     "b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721": {

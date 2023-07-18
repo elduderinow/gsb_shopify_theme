@@ -808,7 +808,7 @@ body {
   justify-content: left;
 }
 .multicolumn .multicolumn-list.justify-center {
-  justify-content: center;
+  justify-content: space-between;
 }
 .multicolumn .multicolumn-list.justify-right {
   justify-content: right;

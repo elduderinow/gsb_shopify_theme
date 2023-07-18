@@ -26,6 +26,9 @@ body {
     font-size: 1.6rem;
   }
 }
+.header-wrapper .mega-menu__list {
+  gap: 1rem;
+}
 .header-wrapper .mega-menu__list > li {
   border-right: 1px solid rgb(176, 176, 176);
 }

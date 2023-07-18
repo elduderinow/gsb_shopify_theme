@@ -552,7 +552,7 @@
         "fc1a0376-ae40-44fb-836a-e08c17da5beb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/man-in-white-and-light-tan-outfit.jpg",
+        "image": "shopify:\/\/shop_images\/Foundation_Desktop_1.jpg",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -560,10 +560,10 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "number_highlight_1": "25%",
-        "text_highlight_1": "cool",
-        "number_highlight_2": "25%",
-        "text_highlight_2": "Pair text with an image.",
+        "number_highlight_1": "",
+        "text_highlight_1": "",
+        "number_highlight_2": "",
+        "text_highlight_2": "",
         "number_highlight_3": "",
         "text_highlight_3": "",
         "image_behavior": "none",

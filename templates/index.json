@@ -22,15 +22,15 @@
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/23jul-hp-protect_prevent-slider-desktop.webp",
-            "heading": "",
+            "image": "shopify:\/\/shop_images\/23jul-hp-protect_prevent-slider-desktop.png",
+            "heading": "protect skin + prevents signs of aging",
             "heading_size": "h1",
-            "subheading": "",
-            "subheading_size": "h5",
-            "button_label": "",
-            "link": "",
-            "box_align": "middle-center",
-            "text_alignment": "center",
+            "subheading": "Shield skin from environmental stressors, blue light damage and polutions with skin defending solutions.",
+            "subheading_size": "h6",
+            "button_label": "Shop Environmental Protection",
+            "link": "shopify:\/\/pages\/blog",
+            "box_align": "middle-right",
+            "text_alignment": "right",
             "image_overlay_opacity": 0,
             "text_alignment_mobile": "center"
           }

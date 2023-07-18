@@ -764,7 +764,7 @@ swiper-container .swiper-notification {
   overflow: hidden;
 }
 
-.section-highlight .highlight-inner {
+.section-highlight {
   padding: 0;
 }
 .section-highlight .highlight--title {

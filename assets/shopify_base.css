@@ -2472,7 +2472,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   vertical-align: middle;
 }
 .header__icon .icon.icon-location {
-  fill: black;
+  fill: black !important;
 }
 
 .header__icon,

@@ -373,7 +373,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 8,
-        "icon__grid": true,
+        "icon__grid": false,
         "column_alignment": "center",
         "item_alignment": "center",
         "background_style": "none",
@@ -384,7 +384,7 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 80,
-        "section_width": "boxed"
+        "section_width": "small"
       }
     },
     "1688232952d328895e": {

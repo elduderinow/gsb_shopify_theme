@@ -62,3 +62,8 @@ body {
 .header__icon .icon.icon-location {
   fill: black;
 }
+
+.header__icon--account {
+  text-decoration: none;
+  text-transform: uppercase;
+}

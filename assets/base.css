@@ -34,6 +34,8 @@ body {
 .page-width--boxed {
   margin: 0 auto;
   max-width: 1280px;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .page-width--small {

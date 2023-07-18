@@ -20,13 +20,24 @@
   <div class="highlight-inner global-section-x-padding page-width--{{ section.settings.section_width }} section-{{ section.id }}-padding">
     <div class="highlight--title">
       {%- if section.settings.title != blank -%}
+        {% comment %}
+          <h2
+            class="rich-text__heading rte inline-richtext h1 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {% if settings.animations_reveal_on_scroll %}
+              data-cascade
+            {% endif %}
+          >
+            {{ section.settings.title }}
+          </h2>
+        {% endcomment %}
         <h2
-          class="rich-text__heading rte inline-richtext h1 {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          class="rich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          {{ block.shopify_attributes }}
           {% if settings.animations_reveal_on_scroll %}
             data-cascade
           {% endif %}
         >
-          {{ section.settings.title }}
+          {{ block.settings.title }}
         </h2>
       {%- endif -%}
       {%- if section.settings.description != blank

@@ -41,13 +41,14 @@
           "type": "heading",
           "settings": {
             "heading": "Meer informatie over behandelingen en peelings",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "template--19192938070363__c1d297d2-db9a-4610-9ccf-35b6730ac70c-16896743378e5d5e84-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>Heb je je dagelijkse huidverzorgingsritueel al onder de knie, maar heb je behoefte aan extra versteviging, verfijning of verhelderingsboost?<\/p>"
+            "text": ""
           }
         }
       },
@@ -71,7 +72,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Gerichte behandelingen en peelings voor thuisgebruik zijn de perfecte manier om je huidverzorging te verrijken en transformerende resultaten te behalen. Ontdek hét behandelplan dat geschikt is voor jouw huidtype met onze professionele tips en technieken.<br\/><br\/>glo Skin Beauty is dé referentie op het gebied van peelings voor het gelaat. Zij brengen de behandelkamer naar je badkamer en hebben onze professionele ervaring en expertise op het gebied van gelaatpeelings verwerkt in een collectie veilige, moeiteloze peelkits voor thuisgebruik, met transformerende resultaten op professioneel niveau in slechts 20 minuten. <br\/><br\/>Hun bekroonde collectie chemische peelings voor thuisgebruik bevat exfoliëringsniveaus 1 en 2, waarbij elke peeling een gerichte boost aan extra huidverzorgingsvoordelen biedt. Als je je huid direct wilt laten stralen, kies dan voor de huidvriendelijke peeling zonder downtime - de perfecte behandeling als je nog nooit eerder een peeling hebt gehad of als je op zoek bent naar een flinke boost voor je glow. <\/p>",
+            "text": "<p>Heb je je dagelijkse huidverzorgingsritueel al onder de knie, maar heb je behoefte aan extra versteviging, verfijning of verhelderingsboost? <br\/><br\/>Gerichte behandelingen en peelings voor thuisgebruik zijn de perfecte manier om je huidverzorging te verrijken en transformerende resultaten te behalen. Ontdek hét behandelplan dat geschikt is voor jouw huidtype met onze professionele tips en technieken.<br\/><br\/>glo Skin Beauty is dé referentie op het gebied van peelings voor het gelaat. Zij brengen de behandelkamer naar je badkamer en hebben onze professionele ervaring en expertise op het gebied van gelaatpeelings verwerkt in een collectie veilige, moeiteloze peelkits voor thuisgebruik, met transformerende resultaten op professioneel niveau in slechts 20 minuten. <br\/><br\/>Hun bekroonde collectie chemische peelings voor thuisgebruik bevat exfoliëringsniveaus 1 en 2, waarbij elke peeling een gerichte boost aan extra huidverzorgingsvoordelen biedt.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -80,7 +81,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Als je anti-aging wilt, zorgt de retinol- en vitamine C-peeling 's nachts voor helderheid, een egalere teint en textuur, voor blijvende helderheid. Én voor de meer ervaren peelingliefhebbers is er de level 2 resurfacing peeling met glycolzuur voor een krachtige egalisatie en een ultieme verfijnde uitstraling.<br\/><br\/>Elke peelingkit voor thuisgebruik bevat alle producten en accessoires die je nodig hebt voor een volledige at home peeling en naverzorging.  Voor een voedende, anti-aging behandeling is er ook een alternatief voor thuis in de vorm van een at home facial box! Onze clean en klinische huidverzorgingskits zijn perfect voor zelfverzorging en om cadeau te geven. Ze worden aanbevolen door dermatologen en zijn veganistisch, dierproef, parabeen- en ftalaatvrij.<\/p>",
+            "text": "<p>Als je je huid direct wilt laten stralen, kies dan voor de huidvriendelijke peeling zonder downtime - de perfecte behandeling als je nog nooit eerder een peeling hebt gehad of als je op zoek bent naar een flinke boost voor je glow. <br\/><br\/>Als je anti-aging wilt, zorgt de retinol- en vitamine C-peeling 's nachts voor helderheid, een egalere teint en textuur, voor blijvende helderheid. Én voor de meer ervaren peelingliefhebbers is er de level 2 resurfacing peeling met glycolzuur voor een krachtige egalisatie en een ultieme verfijnde uitstraling.<br\/><br\/>Elke peelingkit voor thuisgebruik bevat alle producten en accessoires die je nodig hebt voor een volledige at home peeling en naverzorging.  Voor een voedende, anti-aging behandeling is er ook een alternatief voor thuis in de vorm van een at home facial box! Onze clean en klinische huidverzorgingskits zijn perfect voor zelfverzorging en om cadeau te geven. Ze worden aanbevolen door dermatologen en zijn veganistisch, dierproef, parabeen- en ftalaatvrij.<\/p>",
             "link_label": "",
             "link": ""
           }

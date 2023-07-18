@@ -764,11 +764,6 @@ swiper-container .swiper-notification {
   overflow: hidden;
 }
 
-@media (min-width: 990px) {
-  .section-highlight {
-    padding: 0 5rem;
-  }
-}
 .section-highlight .highlight--title {
   width: 100%;
   display: flex;

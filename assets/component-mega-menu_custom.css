@@ -29,14 +29,9 @@ body {
 .header-wrapper .mega-menu__list {
   gap: 1rem 4rem;
 }
-@media (min-width: 990px) {
-  .header-wrapper .mega-menu__list {
-    gap: 1.5rem 4rem;
-  }
-}
 @media (min-width: 1280px) {
   .header-wrapper .mega-menu__list {
-    gap: 2.4rem 4rem;
+    gap: 1.5rem 4rem;
   }
 }
 .header-wrapper .mega-menu__list > li {

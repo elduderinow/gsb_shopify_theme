@@ -156,6 +156,15 @@
         "section_width": "boxed"
       }
     },
+    "fe0ab6ac-31d7-4360-813c-b9e11d1aa500": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"bestsellers\"\/>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "149559a5-2285-4000-883b-657a48e24031": {
       "type": "featured-collection",
       "settings": {
@@ -188,6 +197,7 @@
     "f6b56644-2574-4e00-8752-bd14ce7b7e25",
     "fc6a038b-7432-4952-80f1-067d9e34c140",
     "876ee66f-439e-4c6b-8c88-9f3c2de14e44",
+    "fe0ab6ac-31d7-4360-813c-b9e11d1aa500",
     "149559a5-2285-4000-883b-657a48e24031"
   ]
 }

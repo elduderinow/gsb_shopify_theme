@@ -31,6 +31,11 @@ body {
   }
 }
 
+.page-width--full_width {
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
 .page-width--boxed {
   margin: 0 auto;
   max-width: 1280px;

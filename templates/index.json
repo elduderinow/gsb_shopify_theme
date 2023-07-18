@@ -734,7 +734,7 @@
         "collection": "alles-zonder-tools-displays",
         "products_to_show": 9,
         "columns_desktop": 1,
-        "select_width": "full_width",
+        "select_width": "half_width",
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,

@@ -194,8 +194,13 @@ body {
 .slideshow__text-wrapper.banner__content {
   padding: 3.2rem;
 }
+@media (max-width: 990px) {
+  .slideshow__text-wrapper .slideshow__text .banner__heading,
+  .slideshow__text-wrapper .slideshow__text .banner__text {
+    color: rgb(53, 53, 53) !important;
+  }
+}
 .slideshow__text-wrapper .slideshow__text .banner__text {
-  color: rgb(53, 53, 53) !important;
   margin-top: 0;
 }
 .slideshow__text-wrapper .slideshow__text .banner__buttons .button {

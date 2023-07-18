@@ -222,6 +222,7 @@
       ],
       "settings": {
         "title": "Wat maakt glo Skin Beauty uniek",
+        "heading_size": "h2",
         "description": "",
         "color_scheme": "background-1",
         "padding_top": 80,
@@ -843,6 +844,7 @@
       ],
       "settings": {
         "title": "Succesverhalen die Stralen",
+        "heading_size": "h1",
         "description": "",
         "color_scheme": "background-1",
         "padding_top": 80,

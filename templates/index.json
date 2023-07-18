@@ -156,6 +156,7 @@
     },
     "fae5378e-1912-4d51-916f-e1f0c1a488a0": {
       "type": "call-to-action",
+      "disabled": true,
       "blocks": {
         "template--19143340065115__fae5378e-1912-4d51-916f-e1f0c1a488a0-168798283358e5197c-0": {
           "type": "link",

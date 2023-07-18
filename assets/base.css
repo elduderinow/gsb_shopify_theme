@@ -67,3 +67,6 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
+.header__icon--account:hover {
+  text-decoration: underline;
+}

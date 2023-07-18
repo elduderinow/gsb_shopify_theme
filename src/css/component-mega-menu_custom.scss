@@ -5,8 +5,6 @@
 
     .list-menu {
         li {
-            border-right: 1px solid rgb(176, 176, 176);
-
             &:last-child {
                 border-right: none;
             }
@@ -22,6 +20,29 @@
                 @media (min-width: $breakpoint-xl) {
                     font-size: 1.6rem;
                 }
+            }
+        }
+    }
+
+    .mega-menu__list {
+        gap: 0;
+
+        & > li {
+            border-right: 1px solid rgb(176, 176, 176);
+            padding: 0 1rem;
+
+            @media (min-width: $breakpoint-xl) {
+                padding: 0 2rem;
+            }
+        }
+
+        li {
+            & > a.mega-menu__link--level-2.mega-menu__has-grandchild {
+                text-transform: uppercase;
+                pointer-events: none;
+                color: black;
+                font-weight: bold;
+                text-decoration: none;
             }
         }
     }

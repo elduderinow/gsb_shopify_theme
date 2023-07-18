@@ -8,3 +8,7 @@
 .button-wrapper.white {
   background-color: white;
 }
+
+.button--text {
+  background-color: red;
+}

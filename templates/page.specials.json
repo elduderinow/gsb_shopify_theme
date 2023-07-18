@@ -1,0 +1,203 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "f6b56644-2574-4e00-8752-bd14ce7b7e25": {
+      "type": "highlight",
+      "blocks": {
+        "19d36a42-b3ad-400c-a700-19a089c1648f": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Serums_Desktop.webp",
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_peels.jpg",
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "caafd9d2-7a97-44ba-bff8-b9e226b70128": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Foundation_Desktop_1.jpg",
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "0bf05740-800b-4b9b-894b-61d5ce06cc68": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Moisturizer_Desktop_1.jpg",
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "19d36a42-b3ad-400c-a700-19a089c1648f",
+        "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7",
+        "caafd9d2-7a97-44ba-bff8-b9e226b70128",
+        "0bf05740-800b-4b9b-894b-61d5ce06cc68"
+      ],
+      "settings": {
+        "title": "Lanceringen",
+        "description": "",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
+    "fc6a038b-7432-4952-80f1-067d9e34c140": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19294323310939__fc6a038b-7432-4952-80f1-067d9e34c140-168960152308ac3ee0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Limited Editions",
+            "heading_size": "h1"
+          }
+        },
+        "template--19294323310939__fc6a038b-7432-4952-80f1-067d9e34c140-168960152308ac3ee0-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--19294323310939__fc6a038b-7432-4952-80f1-067d9e34c140-168960152308ac3ee0-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19294323310939__fc6a038b-7432-4952-80f1-067d9e34c140-168960152308ac3ee0-0",
+        "template--19294323310939__fc6a038b-7432-4952-80f1-067d9e34c140-168960152308ac3ee0-1",
+        "template--19294323310939__fc6a038b-7432-4952-80f1-067d9e34c140-168960152308ac3ee0-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "876ee66f-439e-4c6b-8c88-9f3c2de14e44": {
+      "type": "image-image",
+      "blocks": {
+        "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23Jul-HP-Meltproof-Block.jpg",
+            "title": "heading",
+            "text": "<p>Sample description text<\/p>",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/pages\/blog"
+          }
+        },
+        "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/womens-fall-fashion-in-autumn-landscape.jpg",
+            "title": "heading",
+            "text": "<p>sample description text<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "2fc92817-1265-4478-8cf7-5f7170c36be2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bestsellers_Desktop_5.jpg",
+            "title": "Heading",
+            "text": "<p>sample description<\/p>",
+            "link_label": "shop",
+            "link": "shopify:\/\/pages\/algemene-voorwaarden"
+          }
+        }
+      },
+      "block_order": [
+        "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-0",
+        "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-1",
+        "2fc92817-1265-4478-8cf7-5f7170c36be2"
+      ],
+      "settings": {
+        "image_grid": "dynamic",
+        "image_ratio": "landscape",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
+    "fe0ab6ac-31d7-4360-813c-b9e11d1aa500": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"bestsellers\"\/>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "149559a5-2285-4000-883b-657a48e24031": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best Sellers",
+        "description": "Shop Our best selling products",
+        "show_description": false,
+        "collection": "chemical-peeling",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "select_width": "boxed",
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f6b56644-2574-4e00-8752-bd14ce7b7e25",
+    "fc6a038b-7432-4952-80f1-067d9e34c140",
+    "876ee66f-439e-4c6b-8c88-9f3c2de14e44",
+    "fe0ab6ac-31d7-4360-813c-b9e11d1aa500",
+    "149559a5-2285-4000-883b-657a48e24031"
+  ]
+}

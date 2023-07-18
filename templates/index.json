@@ -408,21 +408,32 @@
     },
     "1ecd70ec-550e-4ee0-9b19-cbdc86548b9c": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--19143340065115__1ecd70ec-550e-4ee0-9b19-cbdc86548b9c-1688229291c922cd03-0": {
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Bij Glo Skin Beauty geloven we dat huidverzorging zelfzorg is en dat de producten die je elke dag gebruikt een significant verschil moeten maken voor je gezondheid en welzijn. We doen intensief onderzoek naar onze formuleringen om bewust clean, klinisch bewezen huidverzorging en cosmetica te creëren, gemaakt om echte verandering teweeg te brengen in jou en je huid. <br\/><br\/>Onze grondstoffen en eindproducten worden nooit op dieren getest en we zijn er trots op dat we lid zijn van PETA's Beauty Without Bunnies. We beloven dat we in 2023 volledig veganistisch zullen zijn.<\/p>",
+            "text": "<p>Bij Glo Skin Beauty geloven we dat huidverzorging zelfzorg is en dat de producten die je elke dag gebruikt een significant verschil moeten maken voor je gezondheid en welzijn. We doen intensief onderzoek naar onze formuleringen om bewust clean, klinisch bewezen huidverzorging en cosmetica te creëren, gemaakt om echte verandering teweeg te brengen in jou en je huid. <br\/><br\/>Onze grondstoffen en eindproducten worden nooit op dieren getest en we zijn er trots op dat we lid zijn van PETA's Beauty Without Bunnies. We beloven dat we in 2023 volledig veganistisch zullen zijn.<br\/><br\/>Omdat we begrijpen dat wat er niet in onze producten zit net zo belangrijk is als wat er wel in zit, gebruiken we alleen vertrouwde ingrediënten van de hoogste kwaliteit in effectieve concentraties om baanbrekende resultaten te leveren zonder afbreuk te doen aan de veiligheid van de huid.<br\/><br\/>We hanteren een less is more-aanpak, met minimale ingrediënten voor een maximaal effect. Onze belofte voor clean betekent dat we nooit formuleren met parabenen, talk, kunstmatige geurstoffen, irriterende sulfaten, ftalaten, agressieve kleurstoffen, polyethyleenparels of minerale olie.<br\/>We blijven formuleren, herzien en innoveren om ervoor te zorgen dat onze producten onvoorwaardelijk clean blijven.<br\/><\/p><p><\/p><p><\/p>",
             "link_label": "",
             "link": ""
           }
         },
         "template--19143340065115__1ecd70ec-550e-4ee0-9b19-cbdc86548b9c-1688229291c922cd03-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "",
             "text": "<p>Omdat we begrijpen dat wat er niet in onze producten zit net zo belangrijk is als wat er wel in zit, gebruiken we alleen vertrouwde ingrediënten van de hoogste kwaliteit in effectieve concentraties om baanbrekende resultaten te leveren zonder afbreuk te doen aan de veiligheid van de huid.<br\/><br\/>We hanteren een less is more-aanpak, met minimale ingrediënten voor een maximaal effect. Onze belofte voor clean betekent dat we nooit formuleren met parabenen, talk, kunstmatige geurstoffen, irriterende sulfaten, ftalaten, agressieve kleurstoffen, polyethyleenparels of minerale olie.<br\/>We blijven formuleren, herzien en innoveren om ervoor te zorgen dat onze producten onvoorwaardelijk clean blijven.<br\/><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "3f2326b7-3059-405f-b2fa-075d96d0b6fc": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Whats in?<br\/><br\/><\/strong><\/p><ul><li>NEXT-GENERATION ACTIVES<\/li><li>NATURAL NOURISHERS<\/li><li>LUXURIOUS HYDRATORS<\/li><li>ETHICALLY-SOURCED MINERALS<\/li><li>SOOTHING BOTANICALS<\/li><li>ANTIOXIDANTS<\/li><li>INNOVATIVE TECHNOLOGY<\/li><\/ul>",
             "link_label": "",
             "link": ""
           }
@@ -430,7 +441,8 @@
       },
       "block_order": [
         "template--19143340065115__1ecd70ec-550e-4ee0-9b19-cbdc86548b9c-1688229291c922cd03-0",
-        "template--19143340065115__1ecd70ec-550e-4ee0-9b19-cbdc86548b9c-1688229291c922cd03-1"
+        "template--19143340065115__1ecd70ec-550e-4ee0-9b19-cbdc86548b9c-1688229291c922cd03-1",
+        "3f2326b7-3059-405f-b2fa-075d96d0b6fc"
       ],
       "settings": {
         "title": "Onze Toewijding aan Schoonheid",
@@ -454,6 +466,7 @@
     },
     "b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--19143340065115__b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721-1688229291c922cd03-0": {
           "type": "column",

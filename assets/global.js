@@ -720,7 +720,7 @@ class SlideshowComponent extends SliderComponent {
   }
 
   setAutoPlay() {
-    this.autoplaySpeed = this.slider.dataset.speed * 1000;
+    this.autoplaySpeed = this.slider.dataset.speed * 500;
     this.addEventListener('mouseover', this.focusInHandling.bind(this));
     this.addEventListener('mouseleave', this.focusOutHandling.bind(this));
     this.addEventListener('focusin', this.focusInHandling.bind(this));

@@ -275,16 +275,6 @@
     "0544e851-a779-4248-a67e-cbec20d2a40e": {
       "type": "multicolumn",
       "blocks": {
-        "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
-            "title": "<strong>Paraben Free<\/strong>",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-1": {
           "type": "column",
           "settings": {
@@ -295,21 +285,11 @@
             "link": ""
           }
         },
-        "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-2": {
+        "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-sulfate-free_9cd09dc6-fa43-4303-9bcc-e35750b4830a.svg",
-            "title": "<strong>Sulfate free<\/strong>",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "ed105618-3561-462f-9054-6edf1052805c": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-mineral-oil-free_0e85347b-9923-4aff-ac08-86df4214acde.svg",
-            "title": "<strong>Mineral Oil Free<\/strong>",
+            "image": "shopify:\/\/shop_images\/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
+            "title": "<strong>Paraben Free<\/strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -325,11 +305,31 @@
             "link": ""
           }
         },
+        "ed105618-3561-462f-9054-6edf1052805c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hp-icon-mineral-oil-free_0e85347b-9923-4aff-ac08-86df4214acde.svg",
+            "title": "<strong>Mineral Oil Free<\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hp-icon-sulfate-free_9cd09dc6-fa43-4303-9bcc-e35750b4830a.svg",
+            "title": "<strong>Sulfate free<\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "f68a5006-641d-46e3-9651-98901efa5a52": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/hp-icon-phthalate-free_9fbf6799-839f-4638-8db5-ede7e59036de.svg",
+            "title": "<strong>Ftalaat Vrij<\/strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -357,11 +357,11 @@
         }
       },
       "block_order": [
-        "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-0",
         "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-1",
-        "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-2",
-        "ed105618-3561-462f-9054-6edf1052805c",
+        "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-0",
         "22505426-65eb-4e2b-bca7-5a01518024f0",
+        "ed105618-3561-462f-9054-6edf1052805c",
+        "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-2",
         "f68a5006-641d-46e3-9651-98901efa5a52",
         "01df6425-b6d7-4bfa-ae78-702487d59974",
         "e5a2d624-510e-4da4-9c27-ef5123a7ca5e"

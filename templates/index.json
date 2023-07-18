@@ -329,7 +329,7 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 80,
-        "section_width": "full_width"
+        "section_width": "boxed"
       }
     },
     "59fb9ddd-d55c-49a7-ac87-c5d37744075d": {
@@ -339,7 +339,7 @@
           "type": "heading",
           "settings": {
             "heading": "Onze belofte voor clean",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "template--19143340065115__59fb9ddd-d55c-49a7-ac87-c5d37744075d-1689686290bacfce76-1": {
@@ -372,7 +372,7 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 44,
+        "padding_top": 80,
         "padding_bottom": 0
       }
     },
@@ -518,7 +518,7 @@
           "type": "heading",
           "settings": {
             "heading": "Meer informatie over onze clean beauty",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "template--19143340065115__e4c713b5-f3e0-4c55-a907-41e75876dd11-16882290004a28d1c4-1": {

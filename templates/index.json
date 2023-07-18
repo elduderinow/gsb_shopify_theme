@@ -573,6 +573,7 @@
     },
     "5c3199d7-11a1-45b3-9035-c6dce8f38ac2": {
       "type": "infographic",
+      "disabled": true,
       "blocks": {
         "ddf6e1bb-fb8c-4eba-a30b-a792b1ab63c9": {
           "type": "infoblock",
@@ -633,6 +634,7 @@
     },
     "05e744ef-064c-4b8e-b58f-ecdc85761a84": {
       "type": "infographic",
+      "disabled": true,
       "blocks": {
         "72090706-2f72-44fa-9e25-3c107c5da84f": {
           "type": "infoblock",
@@ -753,6 +755,7 @@
     },
     "f3357b1d-b45a-4d9f-83b1-0baa936bc255": {
       "type": "highlight",
+      "disabled": true,
       "blocks": {
         "2fef5121-9c94-4ca1-a0bf-405e708e898f": {
           "type": "highlight",
@@ -913,6 +916,7 @@
     },
     "1689685903c1366c04": {
       "type": "apps",
+      "disabled": true,
       "blocks": {
         "62704630-e4fc-454a-b766-ff2c983c71dc": {
           "type": "shopify:\/\/apps\/instafeed-story\/blocks\/app-block-feeds\/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",

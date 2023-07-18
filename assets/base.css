@@ -41,6 +41,7 @@ body {
 }
 
 #instagram-feed-box {
+  display: none;
   margin: 0 auto;
   max-width: 1280px;
 }

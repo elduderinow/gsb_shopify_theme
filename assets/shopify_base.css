@@ -2471,6 +2471,9 @@ product-info .loading-overlay:not(.hidden) ~ *,
   fill: none;
   vertical-align: middle;
 }
+.header__icon .icon.icon-location {
+  fill: black;
+}
 
 .header__icon,
 .header__icon--cart .icon {

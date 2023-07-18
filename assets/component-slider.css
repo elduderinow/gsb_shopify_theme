@@ -434,6 +434,7 @@ body {
     width: calc(25% - var(--grid-mobile-horizontal-spacing) - 3rem);
   }
 }
-.featured-collection--component .page-width--full_width .grid__item:first-child {
+.featured-collection--component .page-width--full_width .grid__item:first-child,
+.featured-collection--component .page-width--boxed .grid__item:first-child {
   margin-left: 0;
 }

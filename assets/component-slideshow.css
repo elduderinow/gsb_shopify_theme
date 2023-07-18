@@ -198,6 +198,9 @@ body {
   color: rgb(53, 53, 53);
   margin-top: 0;
 }
+.slideshow__text-wrapper .slideshow__text .banner__buttons .button {
+  background-color: gray;
+}
 @media (min-width: 750px) {
   .slideshow__text-wrapper.banner__content {
     padding-bottom: 6rem;

@@ -38,8 +38,7 @@ body {
 
 .page-width--small {
   margin: 0 auto;
-  max-width: 1280px;
-  padding: 0 10rem;
+  max-width: 990px;
 }
 
 #instagram-feed-box {

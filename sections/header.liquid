@@ -325,15 +325,6 @@
 
       <a href="" class="header__icon header__icon--account link focus-inset small-hide">
         {% render 'icon-location' %}
-        <span class="visually-hidden">
-          {%- liquid
-            if customer
-              echo 'customer.account_fallback' | t
-            else
-              echo 'customer.log_in' | t
-            endif
-          -%}
-        </span>
       </a>
 
       {%- for block in section.blocks -%}

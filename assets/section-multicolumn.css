@@ -209,15 +209,15 @@ body {
 }
 
 .multicolumn {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0;
+  padding-right: 0;
   max-width: 1536px;
   margin: 0 auto;
 }
-@media (max-width: 990px) {
+@media (min-width: 1280px) {
   .multicolumn {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 .multicolumn .multicolumn-list {

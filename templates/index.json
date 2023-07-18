@@ -554,10 +554,10 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Foundation_Desktop_1.jpg",
         "height": "small",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "right",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "number_highlight_1": "",

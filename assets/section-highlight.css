@@ -775,7 +775,8 @@ swiper-container .swiper-notification {
     padding: inherit;
   }
   .section-highlight .highlight-inner {
-    padding: initial;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 }
 .section-highlight .highlight--title {

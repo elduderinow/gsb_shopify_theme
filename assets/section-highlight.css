@@ -774,6 +774,18 @@ swiper-container .swiper-notification {
     padding-right: 1.5rem;
   }
 }
+@media (max-width: 640px) and (min-width: 750px) {
+  .section-highlight .highlight-inner .highlight--title {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+  }
+}
+@media (max-width: 640px) and (min-width: 990px) {
+  .section-highlight .highlight-inner .highlight--title {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
 .section-highlight .highlight--title {
   width: 100%;
   display: flex;

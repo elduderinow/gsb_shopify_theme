@@ -58,3 +58,19 @@ body {
 .related-products .product-grid .grid__item {
   max-width: none;
 }
+
+.header__icon .icon.icon-location {
+  fill: black;
+}
+
+.header__icon--account {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.header__icon--account:hover {
+  text-decoration: underline;
+}
+
+.announcement-bar__link {
+  padding: 2rem 0;
+}

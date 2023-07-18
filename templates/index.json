@@ -388,6 +388,7 @@
     },
     "1688232952d328895e": {
       "type": "apps",
+      "disabled": true,
       "blocks": {
         "6495e1a3-005d-4246-aff4-ee1f5971d028": {
           "type": "shopify:\/\/apps\/instafeed-story\/blocks\/app-block-feeds\/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
@@ -412,7 +413,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Bij Glo Skin Beauty geloven we dat huidverzorging zelfverzorging is en dat de producten die je elke dag gebruikt een aanzienlijk verschil moeten maken voor je gezondheid en welzijn. We doen grondig onderzoek naar onze formules om bewust schone, klinisch bewezen huidverzorging en cosmetica samen te stellen, ontwikkeld om echte verandering te brengen in jou en je huid. Onze grondstoffen en eindproducten worden nooit op dieren getest, en we zijn trots lid van PETA's Beauty Without Bunnies. We zijn vastbesloten om tegen 2023 volledig veganistisch te worden.<br\/><br\/>Omdat we begrijpen dat wat er niet in onze producten zit net zo belangrijk is als wat er wel in zit, gebruiken we alleen de hoogste kwaliteit, vertrouwde ingrediënten in effectieve concentraties om baanbrekende resultaten te behalen zonder concessies te doen aan de veiligheid van de huid.<\/p>",
+            "text": "<p>Bij Glo Skin Beauty geloven we dat huidverzorging zelfzorg is en dat de producten die je elke dag gebruikt een significant verschil moeten maken voor je gezondheid en welzijn. We doen intensief onderzoek naar onze formuleringen om bewust clean, klinisch bewezen huidverzorging en cosmetica te creëren, gemaakt om echte verandering teweeg te brengen in jou en je huid. <br\/><br\/>Onze grondstoffen en eindproducten worden nooit op dieren getest en we zijn er trots op dat we lid zijn van PETA's Beauty Without Bunnies. We beloven dat we in 2023 volledig veganistisch zullen zijn.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -421,7 +422,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>We hanteren een 'less is more'-benadering, waarbij we minimale ingrediënten gebruiken voor maximale effectiviteit. Onze toewijding aan schoonheid betekent dat we nooit formuleren met parabenen, talk, kunstmatige geurstoffen, irriterende sulfaten, ftalaten, agressieve kleurstoffen, polyethyleenkorrels of minerale olie.<\/p><p>We blijven formuleren, evalueren en innoveren om ervoor te zorgen dat onze producten compromisloos schoon blijven.<\/p>",
+            "text": "<p>Omdat we begrijpen dat wat er niet in onze producten zit net zo belangrijk is als wat er wel in zit, gebruiken we alleen vertrouwde ingrediënten van de hoogste kwaliteit in effectieve concentraties om baanbrekende resultaten te leveren zonder afbreuk te doen aan de veiligheid van de huid.<br\/><br\/>We hanteren een less is more-aanpak, met minimale ingrediënten voor een maximaal effect. Onze belofte voor clean betekent dat we nooit formuleren met parabenen, talk, kunstmatige geurstoffen, irriterende sulfaten, ftalaten, agressieve kleurstoffen, polyethyleenparels of minerale olie.<br\/>We blijven formuleren, herzien en innoveren om ervoor te zorgen dat onze producten onvoorwaardelijk clean blijven.<br\/><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -433,7 +434,7 @@
       ],
       "settings": {
         "title": "Onze Toewijding aan Schoonheid",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,

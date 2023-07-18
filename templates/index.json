@@ -329,7 +329,7 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 80,
-        "section_width": "boxed"
+        "section_width": "full_width"
       }
     },
     "59fb9ddd-d55c-49a7-ac87-c5d37744075d": {

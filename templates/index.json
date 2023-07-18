@@ -279,7 +279,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/hp-icon-cruelty-free_e646452e-75d8-49fb-9002-900b9ab4c00d.svg",
-            "title": "<strong>Cruelty Free<\/strong>",
+            "title": "<strong>Gecertificeerd dierproefvrij<\/strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -289,7 +289,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
-            "title": "<strong>Paraben Free<\/strong>",
+            "title": "<strong>Parabeenvrij<\/strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -299,7 +299,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/hp-icon-talc-free_8c4a49a2-a14a-4dd8-94cf-488fc551986c.svg",
-            "title": "<strong>Talk Free<\/strong>",
+            "title": "<strong>Talkvrij<\/strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -309,7 +309,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/hp-icon-mineral-oil-free_0e85347b-9923-4aff-ac08-86df4214acde.svg",
-            "title": "<strong>Mineral Oil Free<\/strong>",
+            "title": "<strong>Minerale olie vrij<\/strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -319,7 +319,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/hp-icon-sulfate-free_9cd09dc6-fa43-4303-9bcc-e35750b4830a.svg",
-            "title": "<strong>Sulfate free<\/strong>",
+            "title": "<strong>Sulfaatvrij<\/strong>",
             "text": "",
             "link_label": "",
             "link": ""

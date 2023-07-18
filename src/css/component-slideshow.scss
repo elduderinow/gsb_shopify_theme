@@ -7,12 +7,27 @@
 
     .slideshow__text {
         .banner__text {
-            color: rgb(53, 53, 53);
             margin-top: 0;
+        }
+
+        .banner__buttons {
+            .button {
+                background-color: rgb(114, 114, 114);
+                color: white;
+                &::after {
+                    box-shadow: none;
+                }
+            }
+        }
+
+        @media (max-width: $breakpoint-md) {
+            .banner__heading,
+            .banner__text {
+                color: rgb(53, 53, 53) !important;
+            }
         }
     }
 
- 
     @media (min-width: $breakpoint-md) {
         &.banner__content {
             padding-bottom: 6rem;
@@ -30,12 +45,10 @@
             padding: 5rem;
         }
     }
-
 }
 
 .slideshow__controls {
     border: none;
-    
 
     @media (min-width: $breakpoint-md) {
         position: absolute;
@@ -43,7 +56,7 @@
         width: 100%;
         z-index: 2;
 
-        .slider-counter__link  {
+        .slider-counter__link {
             .dot {
                 background-color: white;
                 border: none;

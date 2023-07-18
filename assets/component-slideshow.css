@@ -195,8 +195,20 @@ body {
   padding: 3.2rem;
 }
 .slideshow__text-wrapper .slideshow__text .banner__text {
-  color: rgb(53, 53, 53);
   margin-top: 0;
+}
+.slideshow__text-wrapper .slideshow__text .banner__buttons .button {
+  background-color: rgb(114, 114, 114);
+  color: white;
+}
+.slideshow__text-wrapper .slideshow__text .banner__buttons .button::after {
+  box-shadow: none;
+}
+@media (max-width: 750px) {
+  .slideshow__text-wrapper .slideshow__text .banner__heading,
+  .slideshow__text-wrapper .slideshow__text .banner__text {
+    color: rgb(53, 53, 53) !important;
+  }
 }
 @media (min-width: 750px) {
   .slideshow__text-wrapper.banner__content {

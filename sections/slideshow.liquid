@@ -151,12 +151,19 @@
         <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width banner--desktop-transparent {% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
           <div class="slideshow__text banner__box content-container content-container--full-width-mobile gradient slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
             {%- if block.settings.heading != blank -%}
-              <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}">
+              <h2
+                style="color:{{ block.settings.color_option_id }};"
+                class="banner__heading inline-richtext {{ block.settings.heading_size }}"
+              >
                 {{ block.settings.heading }}
               </h2>
             {%- endif -%}
             {%- if block.settings.subheading != blank -%}
-              <div class="banner__text rte" {{ block.shopify_attributes }}>
+              <div
+                style="color:{{ block.settings.color_option_id }};"
+                class="banner__text rte {{ block.settings.subheading_size }}"
+                {{ block.shopify_attributes }}
+              >
                 <p>{{ block.settings.subheading }}</p>
               </div>
             {%- endif -%}
@@ -421,6 +428,12 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "text",
+          "label": "Select a color",
+          "id": "color_option_id",
+          "default": "#FFFFFF"
         },
         {
           "type": "inline_richtext",

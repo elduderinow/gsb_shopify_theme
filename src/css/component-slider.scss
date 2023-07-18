@@ -3,8 +3,8 @@
 .featured-collection--component {
     .collection__title {
         .title {
-           @include h5-text;
-           text-align: center
+            @include h5-text;
+            text-align: center;
         }
     }
 
@@ -12,7 +12,7 @@
         .description {
             @include h5-text;
             font-weight: 300;
-            text-align: center
+            text-align: center;
         }
     }
     .slider--component {
@@ -35,13 +35,8 @@
             }
         }
     }
-
-    .collection--boxed {
-        max-width: var(--page-width);
-        margin: 0 auto;
-        padding-left: 50px;
-        padding-right: 50px;
-
+    .page-width--full_width,
+    .page-width--boxed {
         .grid__item {
             &:first-child {
                 margin-left: 0;

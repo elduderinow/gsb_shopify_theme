@@ -225,6 +225,10 @@ body {
   justify-content: space-between;
   gap: 5px;
 }
+.multicolumn .multicolumn-list.padding--none {
+  padding-left: 0;
+  padding-right: 0;
+}
 @media (min-width: 990px) {
   .multicolumn .multicolumn-list.padding--none .multicolumn-list__item:first-child .multicolumn-card__info {
     padding-left: 0;

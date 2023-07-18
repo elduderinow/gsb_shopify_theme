@@ -57,7 +57,7 @@
           "type": "heading",
           "settings": {
             "heading": "Ons Verhaal",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         }
       },

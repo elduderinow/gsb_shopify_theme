@@ -383,7 +383,7 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 80,
-        "section_width": "boxed"
+        "section_width": "small"
       }
     },
     "1688232952d328895e": {

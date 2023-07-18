@@ -34,6 +34,7 @@ body {
 .page-width--boxed {
   margin: 0 auto;
   max-width: 1280px;
+  padding: 0 5rem;
 }
 
 #instagram-feed-box {

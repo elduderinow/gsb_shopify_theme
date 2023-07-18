@@ -70,3 +70,7 @@ body {
 .header__icon--account:hover {
   text-decoration: underline;
 }
+
+.announcement-bar__link {
+  padding: 2rem 0;
+}

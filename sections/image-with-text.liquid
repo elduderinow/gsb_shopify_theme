@@ -93,6 +93,60 @@
   </div>
 </div>
 
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Product",
+    "name": "{{ product.title }}",
+    "offers": {
+      "@type": "AggregateOffer",
+      "availability": "http://schema.org/InStock",
+      "priceCurrency": "{{ shop.currency }}",
+      "price": "{{ product.price }}",
+      "itemCondition": "http://schema.org/NewCondition",
+      "seller": {
+        "@type": "Organization",
+        "name": "{{ shop.name }}"
+      }
+    },
+    "description": "{{ product.description }}",
+    "sku": "{{ product.sku }}",
+    "mpn": "{{ product.sku }}",
+    "image": "{{ product.featured_image | img_url: 'master' }}",
+    "url": "{{ product.url }}",
+    "brand": {
+      "@type": "Thing",
+      "name": "{{ product.vendor }}"
+    },
+    "productID": "{{ product.id }}",
+    "color": "{{ product.metafields.global.product_color }}"
+    "size": {
+      "@type": "PropertyValue",
+      "name": "Size",
+      "value": "{{ product.options[0].name }}"
+    },
+    "material": "{{ product.metafields.global.material }}",
+    "productSelector": {
+      "@type": "ProductModel",
+      "image": "{{ product.featured_image | img_url: 'master' }}",
+      "name": "{{ product.title }}",
+      "sku": "{{ product.sku }}",
+      "url": "{{ product.url }}",
+      "offers": {
+        "@type": "AggregateOffer",
+        "availability": "http://schema.org/InStock",
+        "priceCurrency": "{{ shop.currency }}",
+        "price": "{{ product.price }}",
+        "itemCondition": "http://schema.org/NewCondition",
+        "seller": {
+          "@type": "Organization",
+          "name": "{{ shop.name }}"
+        }
+      }
+    }
+  }
+</script>
+
 {% schema %}
 {
   "name": "t:sections.image-with-text.name",

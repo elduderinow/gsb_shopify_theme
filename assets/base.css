@@ -91,7 +91,7 @@ body {
   flex-direction: initial !important;
 }
 .product-view--list .collection .card__inner {
-  width: 15%;
+  width: 100px;
 }
 .product-view--list .collection .card__content {
   width: 85% !important;

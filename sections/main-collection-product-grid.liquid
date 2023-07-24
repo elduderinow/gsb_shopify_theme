@@ -27,7 +27,7 @@
   }
 {%- endstyle -%}
 
-<div class="section-{{ section.id }}-padding global-x-padding product-view--{{ section.settings.product_view }}">
+<div class="section-{{ section.id }}-padding global-section-x-padding page-width--{{ section.settings.section_width }} product-view--{{ section.settings.product_view }}">
   {%- paginate collection.products by section.settings.products_per_page -%}
     {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
     {%- if section.settings.enable_sorting and section.settings.filter_type == 'vertical' -%}

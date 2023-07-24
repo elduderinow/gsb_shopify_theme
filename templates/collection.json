@@ -178,7 +178,7 @@
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Blog posts",
+        "heading": "",
         "heading_size": "h1",
         "blog": "at-home-peelings",
         "post_limit": 3,

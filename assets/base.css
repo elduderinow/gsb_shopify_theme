@@ -79,3 +79,32 @@ body {
 .announcement-bar__link {
   padding: 2rem 0;
 }
+
+.product-view--list .collection .grid__item {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+.product-view--list .collection .card {
+  justify-content: space-between !important;
+  align-items: center !important;
+  gap: 2rem;
+  flex-direction: initial !important;
+}
+.product-view--list .collection .card__inner {
+  width: 15%;
+}
+.product-view--list .collection .card__content {
+  width: 85% !important;
+}
+.product-view--list .collection .card__information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-view--list .collection .card__heading {
+  width: 50%;
+}
+.product-view--list .collection .card-information {
+  width: 50%;
+  text-align: right;
+}

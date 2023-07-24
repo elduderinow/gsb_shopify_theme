@@ -115,7 +115,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Meer informatie over onze drops &serums",
+            "heading": "Anti Aging Skincare 101: Tips from the Experts at Glo Skin Beauty",
             "heading_size": "h2"
           }
         },
@@ -212,6 +212,7 @@
     },
     "e9b112d8-2840-40aa-9cca-6d577d1ee07b": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--19336567095643__e9b112d8-2840-40aa-9cca-6d577d1ee07b-heading-1": {
           "type": "heading",

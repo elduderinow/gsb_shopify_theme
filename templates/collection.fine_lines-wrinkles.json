@@ -15,14 +15,14 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "REINIGERS",
+            "heading": "Anti-Aging Skincare Products",
             "heading_size": "h2"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Kick-start your cleansing with our lineup of face cleansers powered by active botanicals to clarify, refine, balance, brighten, and hydrate.<\/p>",
+            "text": "<p>To firm and lift, our lineup of professional anti-aging skincare products promote cell renewal, boost hydration levels, and offer preventative aging solutions.<\/p>",
             "text_style": "body"
           }
         },
@@ -115,7 +115,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Meer informatie over onze drops &serums<\/strong>",
+            "heading": "Meer informatie over onze drops &serums",
             "heading_size": "h2"
           }
         },
@@ -160,7 +160,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
+            "text": "<p>Anti-aging skincare is all about cell renewal, boosting collagen and elastin production, smoothing skin’s <a href=\"https:\/\/www.gloskinbeauty.com\/skincare\/skin-concern\/texture\" title=\"Texture\"><strong>texture<\/strong><\/a>, and reducing the appearance of fine lines and wrinkles. It’s also concerned with improving suppleness, strength, plumpness, and overall vitality with reparative ingredients. Prevention is the best anti-aging method, so practicing good, daily suncare will keep your skin protected from the sun’s damaging rays which cause premature aging such as fine lines, <a href=\"https:\/\/www.gloskinbeauty.com\/skincare\/skin-concern\/hyperpigmentation-1\" title=\"Hyperpigmentation\"><strong>hyperpigmentation<\/strong><\/a>, and other free radical damage which can have lasting impact on your skin’s youthfulness. Other preventative anti-aging solutions include <a href=\"https:\/\/www.gloskinbeauty.com\/skincare\/product-type\/vitamin-c\" title=\"Vitamin C\"><strong>Vitamin C<\/strong><\/a>, and other antioxidants which shield skin from environmental stressors like pollution and blue light damage.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -169,7 +169,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Er is een reden waarom serums ons favoriete huidverzorgingsproduct zijn! Lees in de onderstaande artikelen hoe onze drops & serums een weldaad zijn voor jouw huid en jou die jeugdige gloed bezorgen.<\/p>",
+            "text": "<p>To boost your age-defying regimen, you’ll want to add an anti-aging <a href=\"https:\/\/www.gloskinbeauty.com\/skincare\/product-type\/serum\" title=\"Serum\"><strong>serum<\/strong><\/a> that contains regenerative and restorative ingredients such as vegan epidermal growth factor (EGF), clinically proven to repair skin’s texture and improve smoothness, reducing the appearance of fine lines and wrinkles, while boosting collagen production. Eye lifting serums make great anti aging <a href=\"https:\/\/www.gloskinbeauty.com\/skincare\/product-type\/lip-and-eyecare\" title=\"Eye Creams\"><strong>eye creams<\/strong><\/a>, helping reduce the appearance of crow's feet and fine lines around the eyes, while depuffing and banishing aging dark circles. Investing in a good anti-aging <a href=\"https:\/\/www.gloskinbeauty.com\/skincare\/product-type\/moisturizer\" title=\"Moisturizer\"><strong>moisturizer<\/strong><\/a> is key too in delivering skin vital hydration.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -210,6 +210,50 @@
         "section_width": "boxed"
       }
     },
+    "e9b112d8-2840-40aa-9cca-6d577d1ee07b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19336567095643__e9b112d8-2840-40aa-9cca-6d577d1ee07b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Anti Aging Skincare 101: Tips from the Experts at Glo Skin Beauty",
+            "heading_size": "h2"
+          }
+        },
+        "template--19336567095643__e9b112d8-2840-40aa-9cca-6d577d1ee07b-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--19336567095643__e9b112d8-2840-40aa-9cca-6d577d1ee07b-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19336567095643__e9b112d8-2840-40aa-9cca-6d577d1ee07b-heading-1",
+        "template--19336567095643__e9b112d8-2840-40aa-9cca-6d577d1ee07b-text-1",
+        "template--19336567095643__e9b112d8-2840-40aa-9cca-6d577d1ee07b-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
       "settings": {
@@ -235,6 +279,7 @@
     "product-grid",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
+    "e9b112d8-2840-40aa-9cca-6d577d1ee07b",
     "60dc76e2-2d04-464c-a9e0-5d186807e785"
   ]
 }

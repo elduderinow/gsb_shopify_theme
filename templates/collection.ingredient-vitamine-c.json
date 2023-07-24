@@ -15,14 +15,14 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Reinigers<\/strong>",
+            "heading": "Vitamin C for Face",
             "heading_size": "h1"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Kick-start your cleansing with our lineup of face cleansers powered by active botanicals to clarify, refine, balance, brighten, and hydrate.<\/p>",
+            "text": "<p>Give your face a daily brightening dose of vitamin C, antioxidant protection against damaging, aging environmental stressors.<\/p>",
             "text_style": "body"
           }
         },
@@ -40,7 +40,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Cleanser_Desktop.jpg",
+        "image": "shopify:\/\/shop_images\/featured_header_Desktop-_vitamin-c_2.jpg",
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",

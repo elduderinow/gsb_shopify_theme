@@ -63,7 +63,7 @@
         "product_view": "list",
         "products_per_page": 20,
         "columns_desktop": 4,
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,

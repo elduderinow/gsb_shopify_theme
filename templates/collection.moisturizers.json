@@ -172,6 +172,153 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "4bf35aec-9845-4b07-9ae8-d3ff5b7d0b6c": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19336098513243__4bf35aec-9845-4b07-9ae8-d3ff5b7d0b6c-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Gezichtsmoisturizers zijn een essentiële stap in uw dagelijkse en avondelijke huidverzorgingsritueel. Onze gezichtscrèmes voeden, versterken en hydrateren de teint met de essentiële voedingsstoffen die onze huid nodig heeft. Ze zitten boordevol de nieuwste botanische, schone technologieën en innovatieve actieve ingrediënten voor het meest comfortabele huidbeeld ooit. Aangedreven door vochtvasthoudende stoffen zoals hyaluronzuur, die vocht aan de huid binden, tot shea butter en jojoba-olie voor voeding van het volgende niveau, en antioxidanten om te helpen bij het voorkomen van verouderingsschade door vrije radicalen, richten en behandelen onze gezichtsmoisturizers uw zorgen voor elk huidtype.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19336098513243__4bf35aec-9845-4b07-9ae8-d3ff5b7d0b6c-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Als u op zoek bent naar gezichtsmoisturizers voor een gecombineerde of vette huid, zullen olievrije formuleringen uw favoriet zijn omdat ze diepe hydratatie bieden, balanceren en zuiveren zonder de poriën te verstoppen. Voor een droge huid zal een hydraterende gezichtsmoisturizer een game-changer zijn, omdat deze een met vocht doordrenkte laag biedt met kalmerende en vochtminnende ingrediënten in rijkere, vollere formuleringen. En voor anti-aging zijn de moisturizers verrijkt met plantaardige stamceltechnologie, liftend, verstevigend en opvullend voor een verfrissende gloed. Wat betreft uw nachtcrèmes, geef uw slaap een boost met retinolcrèmes voor een helderdere huid gedurende de nacht, een gladdere huid, anti-aging en acne-bestrijdende eigenschappen. En als u extra voordelen aan uw gezichtsmoisturizer wilt toevoegen, voeg dan een paar druppels van uw favoriete serum toe.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19336098513243__4bf35aec-9845-4b07-9ae8-d3ff5b7d0b6c-column-1",
+        "template--19336098513243__4bf35aec-9845-4b07-9ae8-d3ff5b7d0b6c-column-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "icon__grid": false,
+        "column_alignment": "left",
+        "item_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "section_width": "boxed"
+      }
+    },
+    "6dae6324-31c4-4533-aaf2-10762107bc30": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--19336098513243__6dae6324-31c4-4533-aaf2-10762107bc30-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "HOE KAN IK VOCHT IN MIJN GEZICHT HERSTELLEN?",
+            "icon": "check_mark",
+            "row_content": "<p>\"De vochtgehaltes van de huid kunnen fluctueren, dus zorg ervoor dat u een goede gezichtsmoisturizer heeft voor een gecombineerde huid, droge huid of vette huidtypes. Dit is een uitstekende manier om het vochtgehalte te herstellen. Als u meer hydratatie nodig heeft, probeer dan een gezichtsspray en een hyaluronzuur serum, plus een dagelijkse zonnebrandcrème,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
+            "page": ""
+          }
+        },
+        "template--19336098513243__6dae6324-31c4-4533-aaf2-10762107bc30-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "WAT IS HET BESTE OM 'S NACHTS OP HET GEZICHT AAN TE BRENGEN?",
+            "icon": "check_mark",
+            "row_content": "<p>\"'s Nachts gaat onze huid in de herstelmodus om schade te repareren en vernieuwing te stimuleren, dus zorg ervoor dat u een voedende nachtcrème heeft. Een van de beste ingrediënten om vernieuwing te ondersteunen is retinol - deze ongelooflijke multitasker pakt een aantal huidproblemen aan, van acne tot veroudering,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
+            "page": ""
+          }
+        },
+        "template--19336098513243__6dae6324-31c4-4533-aaf2-10762107bc30-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "MOET IK MOISTURIZER GEBRUIKEN ALS IK EEN VETTE HUID HEB?",
+            "icon": "check_mark",
+            "row_content": "<p>\"De huid kan eigenlijk nog meer olie produceren als het niet effectief gehydrateerd is, dus alle huidtypes, inclusief de vette huid, moeten een moisturizer gebruiken. Voor een vette huid zullen moisturizers lichtgewicht zijn en kunnen ze helpen bij het beheersen van olie terwijl ze uw teint matteren,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
+            "page": ""
+          }
+        },
+        "template--19336098513243__6dae6324-31c4-4533-aaf2-10762107bc30-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "MOET IK MOISTURIZER AFWASSEN?",
+            "icon": "check_mark",
+            "row_content": "<p>\"Sommige producten zoals reinigers en bepaalde exfolianten zijn ontworpen als afspoelbare producten die met water moeten worden verwijderd. Andere producten zoals serums en moisturizers zijn ontworpen om op de huid te blijven voor maximale voordelen. Eenmaal aangebracht, laat uw moisturizer intrekken en was het niet af,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
+            "page": ""
+          }
+        },
+        "e20a0022-8721-4313-ad2d-de36a1cacdae": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "HOE LANG DUURT HET VOORDAT MOISTURIZER WORDT OPGENOMEN?",
+            "icon": "check_mark",
+            "row_content": "<p>\"Het kan tot 30 minuten duren voordat al uw huidverzorgingsproducten, inclusief uw moisturizer, volledig zijn opgenomen. Een algemene vuistregel is om 30 seconden tot 1 minuut te wachten voordat u producten over elkaar aanbrengt,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
+            "page": ""
+          }
+        },
+        "db56bb74-9f3b-4e6e-bd4b-5f3ca38b3915": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "IS MOISTURIZING CREAM GOED VOOR HET GEZICHT?",
+            "icon": "check_mark",
+            "row_content": "<p>\"Een dagelijkse gezichtscrème is een essentieel product om de vochtbarrière van uw huid te helpen behouden terwijl het zachtere, geconditioneerde huid bevordert,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
+            "page": ""
+          }
+        },
+        "595b1220-207b-4863-88de-84cefa7b6d82": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "KAN IK MOISTURIZER OVERSLAAN?",
+            "icon": "check_mark",
+            "row_content": "<p>\"Moisturizer aanbrengen is een essentiële stap in uw huidverzorgingsroutine. Er zijn zoveel voordelen aan uw gezichtsmoisturizer - het maakt de huid soepel, zacht en gehydrateerd. Alle huidtypes moeten twee keer per dag een moisturizer gebruiken,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
+            "page": ""
+          }
+        },
+        "7d2b829f-c319-476f-a3af-864fda3ac05b": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "WELKE GEZICHTSCRÈME IS HET BESTE?",
+            "icon": "check_mark",
+            "row_content": "<p>\"Als u zich afvraagt wat de beste gezichtscrème is voor uw huid, begin dan met uw huidtype (droog, gecombineerd, vet) en beoordeel vervolgens wat uw zorgen zijn. Kies een moisturizer die de voordelen en ingrediënten biedt om uw zorgen aan te pakken en gebruik deze twee keer per dag voor optimale resultaten,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19336098513243__6dae6324-31c4-4533-aaf2-10762107bc30-collapsible_row-1",
+        "template--19336098513243__6dae6324-31c4-4533-aaf2-10762107bc30-collapsible_row-2",
+        "template--19336098513243__6dae6324-31c4-4533-aaf2-10762107bc30-collapsible_row-3",
+        "template--19336098513243__6dae6324-31c4-4533-aaf2-10762107bc30-collapsible_row-4",
+        "e20a0022-8721-4313-ad2d-de36a1cacdae",
+        "db56bb74-9f3b-4e6e-bd4b-5f3ca38b3915",
+        "595b1220-207b-4863-88de-84cefa7b6d82",
+        "7d2b829f-c319-476f-a3af-864fda3ac05b"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Veelgestelde vragen over moisturizers",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -180,6 +327,8 @@
     "product-grid",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
-    "60dc76e2-2d04-464c-a9e0-5d186807e785"
+    "60dc76e2-2d04-464c-a9e0-5d186807e785",
+    "4bf35aec-9845-4b07-9ae8-d3ff5b7d0b6c",
+    "6dae6324-31c4-4533-aaf2-10762107bc30"
   ]
 }

@@ -28,10 +28,9 @@
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Lees meer",
+            "button_link": "#readmore"
           }
         }
       },
@@ -83,8 +82,8 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Meer informatie over onze drops &serums<\/strong>",
-            "heading_size": "h2"
+            "heading": "Reiniger Pro Tips",
+            "heading_size": "h1"
           }
         },
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-text-1": {
@@ -126,6 +125,7 @@
       "blocks": {
         "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "",
             "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
@@ -137,7 +137,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Er is een reden waarom serums ons favoriete huidverzorgingsproduct zijn! Lees in de onderstaande artikelen hoe onze drops & serums een weldaad zijn voor jouw huid en jou die jeugdige gloed bezorgen.<\/p>",
+            "text": "<p>De meest effectieve huidverzorgingsrituelen beginnen met een gerichte gezichtsreiniger. Ontdek alle professionele tips en technieken over hoe u het meeste uit uw reiniger kunt halen, van het kiezen van een textuur die geschikt is voor uw huidtype, tot de ingrediënten en actieve stoffen die het beste bij de behoeften van uw huid passen.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -163,9 +163,9 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 1,
         "icon__grid": false,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "item_alignment": "center",
         "background_style": "none",
         "button_label": "",

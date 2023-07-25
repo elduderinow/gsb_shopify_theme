@@ -97,8 +97,8 @@
                   data-cascade
                 {% endif %}
               >
-                <a class="block link-wrapper" href="{{ block.settings.highlight_url }}">
-                  <div class="image-wrapper aspect-{5/4} overflow-hidden">
+                <a class="highlight--image block link-wrapper" href="{{ block.settings.highlight_url }}">
+                  <div class="image-wrapper overflow-hidden">
                     <img
                       srcset="
                         {%- if block.settings.image.width >= 165 -%}{{ block.settings.image | image_url: width: 165 }} 165w,{%- endif -%}

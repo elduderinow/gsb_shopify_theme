@@ -32,16 +32,26 @@
             "button_label": "Lees Meer",
             "button_link": "#readmore"
           }
+        },
+        "c95c103a-aff3-435d-a443-0f6436af9fb3": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_masks.jpg",
+            "image_title": "try these moisturizers",
+            "image_subtitle": "revitalise your skin",
+            "highlight_url": ""
+          }
         }
       },
       "block_order": [
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1",
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1",
-        "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
+        "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1",
+        "c95c103a-aff3-435d-a443-0f6436af9fb3"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Moisturizer_Desktop_1.jpg",
-        "height": "large",
+        "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -169,8 +179,10 @@
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
+        "show_preview_text": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "section_width": "boxed"
       }
     },
     "4bf35aec-9845-4b07-9ae8-d3ff5b7d0b6c": {
@@ -317,7 +329,8 @@
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "section_width": "boxed"
       }
     }
   },

@@ -323,6 +323,8 @@
 }
 .image-with-text .image-with-text__text-item .image-with-text__content {
   padding-bottom: 0;
+}
+.image-with-text .highlight--image {
   padding-top: 10rem;
 }
 .image-with-text .highlight--image .image-wrapper {

@@ -15,23 +15,22 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "MASKERS",
-            "heading_size": "h2"
+            "heading": "Professionele gezichtsmaskers",
+            "heading_size": "h1"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Facial masks are the ultimate treatment to add into your skincare ritual for a boost of benefits including hydration, detox, firming, and soothing.<\/p>",
+            "text": "<p>Gezichtsmaskers zijn de ultieme behandeling om toe te voegen aan uw huidverzorgingsritueel voor een extra dosis voordelen, waaronder hydratatie, detox, versteviging en kalmering.<\/p>",
             "text_style": "body"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Lees meer",
+            "button_link": "#readmore"
           }
         }
       },
@@ -42,7 +41,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/featured_header_Desktop-_masks.jpg",
-        "height": "medium",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -52,12 +51,15 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "section_width": "boxed"
       }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
+        "product_view": "grid",
+        "section_width": "full_width",
         "products_per_page": 20,
         "columns_desktop": 4,
         "image_ratio": "portrait",
@@ -80,7 +82,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Meer informatie over onze drops &serums<\/strong>",
+            "heading": "Tips van experts voor maskers en behandelingen",
             "heading_size": "h2"
           }
         },
@@ -125,13 +127,14 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
+            "text": "<p>Geef uw teint een gerichte boost door maskers toe te voegen aan uw wekelijkse huidverzorgingsritueel. Van wekelijkse maskers tot multi-masking, ontdek alles wat u moet weten over deze gerichte behandelingen met onze deskundige tips en technieken.<\/p>",
             "link_label": "",
             "link": ""
           }
         },
         "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-2": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "",
             "text": "<p>Er is een reden waarom serums ons favoriete huidverzorgingsproduct zijn! Lees in de onderstaande artikelen hoe onze drops & serums een weldaad zijn voor jouw huid en jou die jeugdige gloed bezorgen.<\/p>",
@@ -160,9 +163,9 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 1,
         "icon__grid": false,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "item_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -191,6 +194,63 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "7d587072-5cc9-430a-9f67-be63522faff0": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19336331067739__7d587072-5cc9-430a-9f67-be63522faff0-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Gezichtsmaskers zijn een geweldige aanvullende behandeling om uw reguliere huidverzorgingsritueel aan te vullen. Doordrenkt met geavanceerde actieve ingrediënten, lossen de minerale maskers van Glo verschillende huidproblemen op en bieden ze een meer gerichte en geconcentreerde behandeling met zichtbare resultaten. Gezichtsmaskers zijn meestal behandelingen van 10 minuten, ideaal voor een verwennende zelfverzorgingssessie. Breng een gezichtsmasker aan na het reinigen en tonen van de huid, ontspan dan en laat de actieve ingrediënten van het masker hun magie doen.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19336331067739__7d587072-5cc9-430a-9f67-be63522faff0-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Weet u niet zeker welk gezichtsmasker u moet proberen? Als u op zoek bent naar een gezichtsmasker voor acne, probeer dan een balancerend en ontgiftend masker op basis van houtskool en kaolienklei. Voor anti-aging gezichtsmaskers kunt u kijken naar verstevigende en verfijnende maskers met plantenstamcellen, antioxidanten en meerdere peptiden om de natuurlijke vernieuwingsprocessen van de huid te ondersteunen, voor gladmakende, herstellende en verfijnende resultaten. En als u een gevoelige huid heeft, voeg dan eens per week of vaker een kalmerend en hydraterend gezichtsmasker toe aan uw ritueel. Een hydraterend gezichtsmasker met komkommerextract en verzachtende plantenextracten kan precies zijn wat uw huid nodig heeft om tot rust te komen.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19336331067739__7d587072-5cc9-430a-9f67-be63522faff0-column-3": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19336331067739__7d587072-5cc9-430a-9f67-be63522faff0-column-1",
+        "template--19336331067739__7d587072-5cc9-430a-9f67-be63522faff0-column-2",
+        "template--19336331067739__7d587072-5cc9-430a-9f67-be63522faff0-column-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "icon__grid": false,
+        "column_alignment": "left",
+        "item_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
     }
   },
   "order": [
@@ -199,6 +259,7 @@
     "product-grid",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
-    "60dc76e2-2d04-464c-a9e0-5d186807e785"
+    "60dc76e2-2d04-464c-a9e0-5d186807e785",
+    "7d587072-5cc9-430a-9f67-be63522faff0"
   ]
 }

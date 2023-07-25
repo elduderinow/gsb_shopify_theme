@@ -324,6 +324,9 @@
 .image-with-text .image-with-text__text-item .image-with-text__content {
   padding-bottom: 0;
 }
-.image-with-text .highlight--image .image-wrapper {
+.image-with-text .bottom--content {
+  margin-top: 10rem;
+}
+.image-with-text .bottom--content .highlight--image .image-wrapper {
   aspect-ratio: 5/4;
 }

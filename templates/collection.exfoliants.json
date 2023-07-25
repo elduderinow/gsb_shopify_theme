@@ -15,14 +15,14 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "EXFOLIANTS",
-            "heading_size": "h2"
+            "heading": "Exfoliant",
+            "heading_size": "h1"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our skin exfoliators smooth, refine, and revitalize, for a brighter, clearer complexion, while also boosting the efficacy of your other products too.<\/p>",
+            "text": "<p>Onze huidvernieuwers gladmaken, verfijnen en revitaliseren de huid voor een helderdere, egalere teint, terwijl ze ook de effectiviteit van uw andere producten versterken.<\/p>",
             "text_style": "body"
           }
         },
@@ -52,12 +52,15 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "section_width": "boxed"
       }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
+        "product_view": "grid",
+        "section_width": "full_width",
         "products_per_page": 20,
         "columns_desktop": 4,
         "image_ratio": "portrait",
@@ -80,8 +83,8 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Meer informatie over onze drops &serums<\/strong>",
-            "heading_size": "h2"
+            "heading": "Tips voor het vinden van de juiste exfoliant",
+            "heading_size": "h1"
           }
         },
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-text-1": {
@@ -125,13 +128,14 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
+            "text": "<p>Kom van dode huidcellen af met de juiste exfoliant voor de behoeften van uw huid. Exfoliatie helpt uw huid te egaliseren en onthult een stralende, gezonde huid. Lees onze bronnen hieronder om meer te weten te komen over de voordelen van exfolianten.<\/p>",
             "link_label": "",
             "link": ""
           }
         },
         "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-2": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "",
             "text": "<p>Er is een reden waarom serums ons favoriete huidverzorgingsproduct zijn! Lees in de onderstaande artikelen hoe onze drops & serums een weldaad zijn voor jouw huid en jou die jeugdige gloed bezorgen.<\/p>",
@@ -160,9 +164,9 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 1,
         "icon__grid": false,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "item_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -191,6 +195,63 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "79117fbd-ec20-41d0-8272-6f943997c557": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19336321597787__79117fbd-ec20-41d0-8272-6f943997c557-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Huidvernieuwing is essentieel voor elk huidtype, zelfs voor de gevoelige huid. Huidvernieuwers werken door het verwijderen van overtollige ophoping van dode huidcellen, oliën en andere onzuiverheden die verstopping kunnen veroorzaken. Voor een doffe, futloze, droge huid die een oppepper nodig heeft, bieden exfoliërende producten een eenvoudige en effectieve manier om uw stralende gloed terug te krijgen. Voor een vette en gecombineerde huid helpen acne exfolianten bij het balanceren en zuiveren, verwijderen ze onzuiverheden en reinigen ze de poriën voor een schonere, helderdere teint.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19336321597787__79117fbd-ec20-41d0-8272-6f943997c557-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Chemische exfolianten zijn een uitstekende optie voor alle huidtypes, en ons bestverkopende Hydra-Bright Pro 5 Liquid Exfoliant, met zijn unieke mix van alfahydroxyzuren (AHAs), is de perfecte behandeling voor een stralende teint. Voor fysieke exfoliërende producten kunt u denken aan exfoliërende scrubs zoals onze Pumpkin Enzyme Scrub of Brightening Polish, die geweldig zijn om dode huidcellen die zich ophopen aan het oppervlak te verwijderen met milieuvriendelijke jojoba-korrels. Omdat er meer wrijving is tussen de scrubkorrels en uw huid, kunnen fysieke exfolianten bij een gevoelige huid irritatie of roodheid veroorzaken, dus chemische exfolianten voor het gezicht zijn een zachtere optie. En als u uw gezichtsvernieuwing naar een meer gerichte behandeling wilt tillen, probeer dan een van onze maandelijkse peelkits voor thuisgebruik.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19336321597787__79117fbd-ec20-41d0-8272-6f943997c557-column-3": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19336321597787__79117fbd-ec20-41d0-8272-6f943997c557-column-1",
+        "template--19336321597787__79117fbd-ec20-41d0-8272-6f943997c557-column-2",
+        "template--19336321597787__79117fbd-ec20-41d0-8272-6f943997c557-column-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "icon__grid": false,
+        "column_alignment": "left",
+        "item_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "section_width": "boxed"
+      }
     }
   },
   "order": [
@@ -199,6 +260,7 @@
     "product-grid",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
-    "60dc76e2-2d04-464c-a9e0-5d186807e785"
+    "60dc76e2-2d04-464c-a9e0-5d186807e785",
+    "79117fbd-ec20-41d0-8272-6f943997c557"
   ]
 }

@@ -15,23 +15,22 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Face Moisturizer",
+            "heading": "Gezichts Moisturizer",
             "heading_size": "h2"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Elevate your face moisturizer with our next-generation, active-infused face creams, perfect for delivering all your complexion goals.<\/p>",
+            "text": "<p>Verbeter uw gezichtsmoisturizer met onze volgende generatie actief verrijkte gezichtscrèmes, perfect voor het bereiken van al uw teint doelen.<\/p>",
             "text_style": "body"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Lees Meer",
+            "button_link": "#readmore"
           }
         }
       },
@@ -42,7 +41,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Moisturizer_Desktop_1.jpg",
-        "height": "medium",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -52,12 +51,15 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "section_width": "boxed"
       }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
+        "product_view": "grid",
+        "section_width": "full_width",
         "products_per_page": 20,
         "columns_desktop": 4,
         "image_ratio": "portrait",
@@ -80,7 +82,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Meer informatie over onze drops &serums<\/strong>",
+            "heading": "Tips voor het kiezen van de juiste moisturizer",
             "heading_size": "h2"
           }
         },
@@ -125,44 +127,23 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-2": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>Er is een reden waarom serums ons favoriete huidverzorgingsproduct zijn! Lees in de onderstaande artikelen hoe onze drops & serums een weldaad zijn voor jouw huid en jou die jeugdige gloed bezorgen.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-3": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Moisturizer speelt een cruciale rol in uw huidverzorgingsroutine. Leer hoe u de juiste moisturizer voor uw huid kunt kiezen met behulp van de hieronder verstrekte bronnen.<\/p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-1",
-        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-2",
-        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-3"
+        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-1"
       ],
       "settings": {
         "title": "",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 1,
         "icon__grid": false,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "item_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -171,7 +152,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 80,
+        "padding_bottom": 36,
         "section_width": "boxed"
       }
     },

@@ -188,11 +188,13 @@
         "columns_desktop": 3,
         "color_scheme": "background-2",
         "show_image": true,
-        "show_date": true,
+        "show_date": false,
         "show_author": false,
         "show_view_all": true,
+        "show_preview_text": false,
         "padding_top": 80,
-        "padding_bottom": 48
+        "padding_bottom": 48,
+        "section_width": "full_width"
       }
     },
     "37451595-eac5-4463-8371-6f0daf3e0822": {

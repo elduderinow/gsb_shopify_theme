@@ -321,3 +321,6 @@
     row-gap: var(--grid-desktop-vertical-spacing);
   }
 }
+.image-with-text .highlight--image .image-wrapper {
+  aspect-ratio: 5/4;
+}

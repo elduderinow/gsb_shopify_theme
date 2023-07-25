@@ -191,8 +191,8 @@
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 80,
+        "padding_bottom": 48
       }
     },
     "37451595-eac5-4463-8371-6f0daf3e0822": {

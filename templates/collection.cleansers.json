@@ -44,6 +44,7 @@
         },
         "5874c7ee-9e1a-4cf8-bd89-5c11cb376c55": {
           "type": "highlight",
+          "disabled": true,
           "settings": {
             "image_title": "",
             "image_subtitle": "",

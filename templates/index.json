@@ -3,6 +3,23 @@
     "a9132cbf-2ea9-4bb0-96e9-1e58e1371a27": {
       "type": "slideshow",
       "blocks": {
+        "9eaf1a1a-60b6-45da-b983-20c7c7f5d573": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23jul-hp-summerstaples-slider-desktop.png",
+            "heading": "Zomerse must-haves",
+            "heading_size": "h1",
+            "color_option_id": "#FFFFFF",
+            "subheading": "Minerale make-up en gerichte huidverzorgingsoplossingen voor de zomerhuid.",
+            "subheading_size": "h5",
+            "button_label": "Shop Now",
+            "link": "#",
+            "box_align": "top-left",
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "text_alignment_mobile": "center"
+          }
+        },
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0": {
           "type": "slide",
           "settings": {
@@ -39,6 +56,7 @@
         }
       },
       "block_order": [
+        "9eaf1a1a-60b6-45da-b983-20c7c7f5d573",
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0",
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1"
       ],

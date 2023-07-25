@@ -88,7 +88,7 @@
               {%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
-        <div class="bg-green-200 grid">
+        <div class="grid mt-16">
           {%- for block in section.blocks -%}
             {%- if block.type == 'highlight' -%}
               <div
@@ -98,7 +98,7 @@
                 {% endif %}
               >
                 <a class="block link-wrapper" href="{{ block.settings.highlight_url }}">
-                  <div class="image-wrapper">
+                  <div class="image-wrapper aspect-5/4 overflow-hidden">
                     <img
                       srcset="
                         {%- if block.settings.image.width >= 165 -%}{{ block.settings.image | image_url: width: 165 }} 165w,{%- endif -%}

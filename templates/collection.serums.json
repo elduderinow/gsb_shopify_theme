@@ -193,6 +193,52 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "771ccbfe-ca52-438b-a86a-ea6f167f8b6d": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19336305639771__771ccbfe-ca52-438b-a86a-ea6f167f8b6d-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Gezichtsserums zijn de strateeg van uw huidverzorgingsroutine. Doelgerichte huidbehandelingen geformuleerd om aan de behoeften van uw huid te voldoen; elk serum levert de hoogste concentraties huidvriendelijke actieve ingrediënten van elk huidverzorgingsproduct, voor klinisch bewezen, zichtbare resultaten. Lichtgewicht en snel absorberend, gezichtsserums zijn de perfecte manier om uw huidverzorgingsritueel te personaliseren en precies te bieden wat uw huid nodig heeft, wanneer het dat nodig heeft. En, of u zich nu richt op anti-veroudering, gladmaken, acne, verzachten, verhelderen, blauwlichtbescherming, en meer, de uitgebreide serumcollectie van Glo biedt effectieve, transformerende oplossingen om uw eigen selectie samen te stellen en uw unieke glansdoelen te bereiken.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19336305639771__771ccbfe-ca52-438b-a86a-ea6f167f8b6d-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Weet u niet zeker met welk serum u moet beginnen? Voor een essentiële dosis hydratatie en antioxidanten ter bescherming van de huid, zijn onze best verkopende C-Shield Anti-Pollution Drops en HA-Revive Hyaluronic Drops het perfecte dagelijkse duo, dat sterk inzet op verheldering en het versterken van de huid met vitamine C en hyaluronzuur. De gezichtsserums van Glo zijn zeer veelzijdig en gemakkelijk aan te passen; of u ervoor kiest om ze in uw dagelijkse ritueel als dag- of avondbehandelingen te gebruiken, u kunt uw serum op volle sterkte gebruiken - 4-6 druppels aanbrengen op het gezicht en decolleté voor maximale voordelen. Voeg 2-3 druppels toe om specifieke problemen aan te pakken, of voeg 2-3 druppels toe om een moisturizer, primer of foundation extra kracht bij te zetten.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19336305639771__771ccbfe-ca52-438b-a86a-ea6f167f8b6d-column-1",
+        "template--19336305639771__771ccbfe-ca52-438b-a86a-ea6f167f8b6d-column-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "icon__grid": false,
+        "column_alignment": "left",
+        "item_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
     }
   },
   "order": [
@@ -201,6 +247,7 @@
     "product-grid",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
-    "60dc76e2-2d04-464c-a9e0-5d186807e785"
+    "60dc76e2-2d04-464c-a9e0-5d186807e785",
+    "771ccbfe-ca52-438b-a86a-ea6f167f8b6d"
   ]
 }

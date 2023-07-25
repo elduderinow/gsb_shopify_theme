@@ -15,14 +15,14 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "TONERS",
-            "heading_size": "h2"
+            "heading": "Gezichtstoner",
+            "heading_size": "h1"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Face toners refresh, prep, and balance your complexion, helping your skincare products work better too. From toners to face mists find your favorite here.<\/p>",
+            "text": "<p>Gezichtstoners verfrissen, bereiden de huid voor en brengen de teint in balans, waardoor uw huidverzorgingsproducten ook beter werken. Van toners tot gezichtssprays, vind uw favoriet hier.<\/p>",
             "text_style": "body"
           }
         },
@@ -42,7 +42,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Toner_Desktop-_1.jpg",
-        "height": "medium",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -52,12 +52,15 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "section_width": "boxed"
       }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
+        "product_view": "grid",
+        "section_width": "full_width",
         "products_per_page": 20,
         "columns_desktop": 4,
         "image_ratio": "portrait",
@@ -80,7 +83,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Meer informatie over onze drops &serums<\/strong>",
+            "heading": "Tips van experts voor toners",
             "heading_size": "h2"
           }
         },
@@ -125,13 +128,14 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
+            "text": "<p>Op zoek naar een toner die past bij uw huidbehoeften? Onze deskundige gidsen bieden advies over de beste toners voor acne, anti-aging of gevoelige huid, hoe u een toner in uw huidverzorgingsritueel kunt opnemen en de voordelen die ze bieden.<\/p>",
             "link_label": "",
             "link": ""
           }
         },
         "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-2": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "",
             "text": "<p>Er is een reden waarom serums ons favoriete huidverzorgingsproduct zijn! Lees in de onderstaande artikelen hoe onze drops & serums een weldaad zijn voor jouw huid en jou die jeugdige gloed bezorgen.<\/p>",
@@ -160,9 +164,9 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 1,
         "icon__grid": false,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "item_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -191,6 +195,63 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "57341cee-6e24-4d76-a656-aed327d2c506": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19336330805595__57341cee-6e24-4d76-a656-aed327d2c506-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Gezichtstoners zijn de sleutel tot het ontgrendelen van extra voordelen voor uw huidverzorging waar u misschien niet van op de hoogte bent. U vraagt zich misschien af, wat doet een toner precies? Velen van ons denken dat het gebruik van een reiniger voldoende is, maar het doel van een toner is om de huid op te frissen en te voeden na het reinigen, zonder vocht te onttrekken, en om als primer te dienen voor de rest van uw huidverzorgingsproducten. In het verleden werden huidtoners geassocieerd met het verwijderen van oliën uit de huid, maar deze toners van de nieuwe generatie zijn verrijkt met kalmerende, verhelderende en anti-aging actieve ingrediënten. Daarom raden we onze toners aan voor elk huidtype, zelfs voor de gevoelige huid. Ze zijn experts in het verwijderen van onzuiverheden, resten van vuil of vervuiling die uw reiniging niet heeft weggenomen. Toners beschermen ook de huid door poriën te sluiten en te verkleinen, wat helpt bij het voorkomen van puistjes. Daarnaast verhogen ze de doeltreffendheid van andere huidverzorgingsproducten door zachte exfoliatie en pH-balancering, wat een betere opname bevordert.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19336330805595__57341cee-6e24-4d76-a656-aed327d2c506-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Onze best verkopende toner, exfoliant en behandeling booster is de Hydra-Bright Pro 5 Liquid Exfoliant. Doordrenkt met alfahydroxyzuren (AHAs) en niacinamide, vormt het een droomteam voor een toning behandeling. Voor een vette of gecombineerde huid bieden onze Clear Complexion Pads verhoogde controle van de olie en verwijdering van verstoppingen. We hebben ook voedende toning mists voor een verfrissende spritz van voordelen die u gedurende de dag kunt herhalen.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19336330805595__57341cee-6e24-4d76-a656-aed327d2c506-column-3": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19336330805595__57341cee-6e24-4d76-a656-aed327d2c506-column-1",
+        "template--19336330805595__57341cee-6e24-4d76-a656-aed327d2c506-column-2",
+        "template--19336330805595__57341cee-6e24-4d76-a656-aed327d2c506-column-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "icon__grid": false,
+        "column_alignment": "left",
+        "item_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "section_width": "boxed"
+      }
     }
   },
   "order": [
@@ -199,6 +260,7 @@
     "product-grid",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
-    "60dc76e2-2d04-464c-a9e0-5d186807e785"
+    "60dc76e2-2d04-464c-a9e0-5d186807e785",
+    "57341cee-6e24-4d76-a656-aed327d2c506"
   ]
 }

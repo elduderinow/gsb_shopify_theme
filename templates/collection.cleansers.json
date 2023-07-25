@@ -101,8 +101,8 @@
       "settings": {
         "custom_liquid": "<div id=\"readmore\"\/>",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 80,
+        "padding_bottom": 0
       }
     },
     "276980df-6134-4fa4-8d48-9d8a646adda5": {

@@ -298,8 +298,8 @@ cart-remove-button .icon-remove {
   }
 }
 .cart-item {
-  vertical-align: center;
-  border-bottom: 1px solid red;
+  vertical-align: center !important;
+  border-bottom: 1px solid red !important;
 }
 .cart-item .cart-item__image-container .cart-item__image {
   aspect-ratio: 1/1;

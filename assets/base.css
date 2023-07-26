@@ -112,3 +112,7 @@ html {
   width: 50%;
   text-align: right;
 }
+
+.button:not([disabled]):hover:after {
+  --border-offset: none;
+}

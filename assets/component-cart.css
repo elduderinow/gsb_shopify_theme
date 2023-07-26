@@ -210,3 +210,6 @@ cart-items {
     gap: 1rem;
   }
 }
+.cart__footer .button.cart__checkout-button {
+  color: black;
+}

@@ -113,9 +113,9 @@ html {
   text-align: right;
 }
 
-.button:not([disabled]):hover {
+.product-form__buttons .button:not([disabled]):hover {
   background-color: #e6e6e6;
 }
-.button:not([disabled]):hover:after {
+.product-form__buttons .button:not([disabled]):hover:after {
   --border-offset: 0px;
 }

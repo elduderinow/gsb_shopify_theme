@@ -15,14 +15,14 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Anti-Aging Skincare Products",
+            "heading": "Anti-Aging Huidverzorgingsproducten",
             "heading_size": "h2"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>To firm and lift, our lineup of professional anti-aging skincare products promote cell renewal, boost hydration levels, and offer preventative aging solutions.<\/p>",
+            "text": "<p>Om te verstevigen en op te liften, bevordert onze selectie van professionele anti-aging huidverzorgingsproducten celvernieuwing, verhoogt het de hydratatieniveaus en biedt het preventieve oplossingen tegen veroudering.<\/p>",
             "text_style": "body"
           }
         },
@@ -118,7 +118,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Anti Aging Skincare 101: Tips from the Experts at Glo Skin Beauty",
+            "heading": "Anti-Aging Huidverzorging 101: Tips van de Experts bij Glo Skin Beauty",
             "heading_size": "h2"
           }
         },
@@ -163,13 +163,14 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Anti-aging skincare is all about cell renewal, boosting collagen and elastin production, smoothing skin’s <a href=\"https:\/\/www.gloskinbeauty.com\/skincare\/skin-concern\/texture\" title=\"Texture\"><strong>texture<\/strong><\/a>, and reducing the appearance of fine lines and wrinkles. It’s also concerned with improving suppleness, strength, plumpness, and overall vitality with reparative ingredients. Prevention is the best anti-aging method, so practicing good, daily suncare will keep your skin protected from the sun’s damaging rays which cause premature aging such as fine lines, <a href=\"https:\/\/www.gloskinbeauty.com\/skincare\/skin-concern\/hyperpigmentation-1\" title=\"Hyperpigmentation\"><strong>hyperpigmentation<\/strong><\/a>, and other free radical damage which can have lasting impact on your skin’s youthfulness. Other preventative anti-aging solutions include <a href=\"https:\/\/www.gloskinbeauty.com\/skincare\/product-type\/vitamin-c\" title=\"Vitamin C\"><strong>Vitamin C<\/strong><\/a>, and other antioxidants which shield skin from environmental stressors like pollution and blue light damage.<\/p>",
+            "text": "<p>Fijne lijntjes en rimpels, verdwijnen maar! Met de juiste anti-aging formule wordt deze droom werkelijkheid. Maak je klaar om de effecten van veroudering te bestrijden en je huid de verzorging te geven die het nodig heeft. Glo Skin Beauty's holistische, anti-aging producten zijn hier om je je allerbeste te laten voelen en eruit te laten zien. Ontdek hoe ze precies werken, kom achter enkele van onze geheime tips en meer in onze bronnen hieronder.<\/p>",
             "link_label": "",
             "link": ""
           }
         },
         "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-2": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "",
             "text": "<p>To boost your age-defying regimen, you’ll want to add an anti-aging <a href=\"https:\/\/www.gloskinbeauty.com\/skincare\/product-type\/serum\" title=\"Serum\"><strong>serum<\/strong><\/a> that contains regenerative and restorative ingredients such as vegan epidermal growth factor (EGF), clinically proven to repair skin’s texture and improve smoothness, reducing the appearance of fine lines and wrinkles, while boosting collagen production. Eye lifting serums make great anti aging <a href=\"https:\/\/www.gloskinbeauty.com\/skincare\/product-type\/lip-and-eyecare\" title=\"Eye Creams\"><strong>eye creams<\/strong><\/a>, helping reduce the appearance of crow's feet and fine lines around the eyes, while depuffing and banishing aging dark circles. Investing in a good anti-aging <a href=\"https:\/\/www.gloskinbeauty.com\/skincare\/product-type\/moisturizer\" title=\"Moisturizer\"><strong>moisturizer<\/strong><\/a> is key too in delivering skin vital hydration.<\/p>",
@@ -198,9 +199,9 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 1,
         "icon__grid": false,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "item_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -271,8 +272,67 @@
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
+        "show_preview_text": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
+    "2f97dfdf-c469-47eb-8d61-823e56054973": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19336999371099__2f97dfdf-c469-47eb-8d61-823e56054973-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Anti-aging huidverzorging draait allemaal om celvernieuwing, het verhogen van de productie van collageen en elastine, het egaliseren van de huidtextuur en het verminderen van de zichtbaarheid van fijne lijntjes en rimpels. Het is ook gericht op het verbeteren van soepelheid, kracht, volheid en algehele vitaliteit met herstellende ingrediënten. Preventie is de beste methode tegen veroudering, dus het dagelijks goed verzorgen van je huid tegen de zon zal je huid beschermen tegen de schadelijke stralen van de zon die vroegtijdige veroudering zoals fijne lijntjes, hyperpigmentatie en andere schade door vrije radicalen veroorzaken, wat blijvende gevolgen kan hebben voor de jeugdigheid van je huid. Andere preventieve anti-aging oplossingen zijn onder meer vitamine C en andere antioxidanten die de huid beschermen tegen milieu-stressoren zoals vervuiling en schade door blauw licht.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19336999371099__2f97dfdf-c469-47eb-8d61-823e56054973-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Om je leeftijd tartende routine te versterken, wil je een anti-aging serum toevoegen dat regeneratieve en herstellende ingrediënten bevat, zoals veganistische epidermale groeifactor (EGF), klinisch bewezen om de huidtextuur te herstellen en de gladheid te verbeteren, waardoor de verschijning van fijne lijntjes en rimpels wordt verminderd, terwijl de productie van collageen wordt gestimuleerd. Oogserums voor versteviging zijn uitstekende anti-aging oogcrèmes die helpen de verschijning van kraaienpootjes en fijne lijntjes rond de ogen te verminderen, terwijl ze zwelling verminderen en verouderende donkere kringen verdrijven. Het investeren in een goede anti-aging moisturizer is ook essentieel om de huid essentiële hydratatie te bieden.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19336999371099__2f97dfdf-c469-47eb-8d61-823e56054973-column-3": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19336999371099__2f97dfdf-c469-47eb-8d61-823e56054973-column-1",
+        "template--19336999371099__2f97dfdf-c469-47eb-8d61-823e56054973-column-2",
+        "template--19336999371099__2f97dfdf-c469-47eb-8d61-823e56054973-column-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "icon__grid": false,
+        "column_alignment": "left",
+        "item_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
       }
     }
   },
@@ -284,6 +344,7 @@
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "e9b112d8-2840-40aa-9cca-6d577d1ee07b",
-    "60dc76e2-2d04-464c-a9e0-5d186807e785"
+    "60dc76e2-2d04-464c-a9e0-5d186807e785",
+    "2f97dfdf-c469-47eb-8d61-823e56054973"
   ]
 }

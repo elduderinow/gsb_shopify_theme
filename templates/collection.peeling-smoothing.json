@@ -9,6 +9,55 @@
         "color_scheme": "background-1"
       }
     },
+    "e071fe43-ea0b-4d9f-acbb-5a1a3435db50": {
+      "type": "image-image",
+      "blocks": {
+        "template--19343199076699__e071fe43-ea0b-4d9f-acbb-5a1a3435db50-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23jul-hp-summerstaples-slider-desktop.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19343199076699__e071fe43-ea0b-4d9f-acbb-5a1a3435db50-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/womens-fall-fashion-in-autumn-landscape.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "47c220fb-93a3-4843-9217-d45e258d5460": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DrySkin_Desktop-_1__1.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19343199076699__e071fe43-ea0b-4d9f-acbb-5a1a3435db50-column-1",
+        "template--19343199076699__e071fe43-ea0b-4d9f-acbb-5a1a3435db50-column-2",
+        "47c220fb-93a3-4843-9217-d45e258d5460"
+      ],
+      "settings": {
+        "image_grid": "dynamic",
+        "image_ratio": "portrait",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "92602d36-7d25-4028-b9d9-a36860448447": {
       "type": "image-with-text",
       "blocks": {
@@ -471,6 +520,7 @@
   },
   "order": [
     "banner",
+    "e071fe43-ea0b-4d9f-acbb-5a1a3435db50",
     "92602d36-7d25-4028-b9d9-a36860448447",
     "fc76c3a0-2cd4-4353-b1a7-a3cc1af8dd5f",
     "a7221b8f-1547-444b-af45-ca5396cf1f3a",

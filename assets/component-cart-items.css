@@ -297,7 +297,7 @@ cart-remove-button .icon-remove {
     width: 60%;
   }
 }
-@media (min-width: 0px) {
+@media screen and (min-width: 750px) {
   .cart-item {
     vertical-align: center !important;
     border-bottom: 1px solid red !important;

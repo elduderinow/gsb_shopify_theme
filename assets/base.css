@@ -112,6 +112,9 @@ html {
   width: 50%;
   text-align: right;
 }
+.product-view--list .button.quick-add__submit {
+  width: auto;
+}
 
 .button.quick-add__submit:not([disabled]):hover, .button.product-form__submit:not([disabled]):hover {
   background-color: #e6e6e6;

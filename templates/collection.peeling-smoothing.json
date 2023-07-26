@@ -66,6 +66,99 @@
         "section_width": "boxed"
       }
     },
+    "a7221b8f-1547-444b-af45-ca5396cf1f3a": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19343199076699__a7221b8f-1547-444b-af45-ca5396cf1f3a-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GloIcons_BlueLightShield-01.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19343199076699__a7221b8f-1547-444b-af45-ca5396cf1f3a-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GloIcons_FreeOf_ArtificialFragrance.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19343199076699__a7221b8f-1547-444b-af45-ca5396cf1f3a-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GloIcons_FreeOf_MineralOil.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "2eaf419b-e572-4693-b882-75abedfecfe0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GloIcons_FreeOf_Sulfates.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "7abcc0b1-5cda-4641-b5b2-10cd909ed2fa": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GloIcons_FreeOf_Sulfates.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "5d5124e0-94c5-49bd-8824-d690486edd7b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GloIcons_FreeOf_Phthalates.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19343199076699__a7221b8f-1547-444b-af45-ca5396cf1f3a-column-1",
+        "template--19343199076699__a7221b8f-1547-444b-af45-ca5396cf1f3a-column-2",
+        "template--19343199076699__a7221b8f-1547-444b-af45-ca5396cf1f3a-column-3",
+        "2eaf419b-e572-4693-b882-75abedfecfe0",
+        "7abcc0b1-5cda-4641-b5b2-10cd909ed2fa",
+        "5d5124e0-94c5-49bd-8824-d690486edd7b"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "icon__grid": true,
+        "column_alignment": "center",
+        "item_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "fc76c3a0-2cd4-4353-b1a7-a3cc1af8dd5f": {
       "type": "highlight",
       "blocks": {
@@ -353,6 +446,7 @@
   "order": [
     "banner",
     "92602d36-7d25-4028-b9d9-a36860448447",
+    "a7221b8f-1547-444b-af45-ca5396cf1f3a",
     "fc76c3a0-2cd4-4353-b1a7-a3cc1af8dd5f",
     "product-grid",
     "276980df-6134-4fa4-8d48-9d8a646adda5",

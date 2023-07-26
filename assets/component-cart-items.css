@@ -297,9 +297,11 @@ cart-remove-button .icon-remove {
     width: 60%;
   }
 }
-.cart-item {
-  vertical-align: center !important;
-  border-bottom: 1px solid red !important;
+@media (min-width: 0px) {
+  .cart-item {
+    vertical-align: center !important;
+    border-bottom: 1px solid red !important;
+  }
 }
 .cart-item .cart-item__image-container .cart-item__image {
   aspect-ratio: 1/1;

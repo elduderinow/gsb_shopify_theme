@@ -297,6 +297,10 @@ cart-remove-button .icon-remove {
     width: 60%;
   }
 }
+.cart-item {
+  vertical-align: center;
+  border-bottom: 1px solid red;
+}
 .cart-item .cart-item__image-container .cart-item__image {
   aspect-ratio: 1/1;
   object-fit: contain;

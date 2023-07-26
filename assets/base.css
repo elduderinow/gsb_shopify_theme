@@ -117,7 +117,7 @@ html {
 }
 .product-view--list .collection .card__content .quick-add form .button.quick-add__submit {
   width: auto;
-  min-width: none;
+  min-width: unset;
 }
 
 .button.quick-add__submit:not([disabled]):hover, .button.product-form__submit:not([disabled]):hover {

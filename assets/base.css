@@ -113,16 +113,9 @@ html {
   text-align: right;
 }
 
-.product-form__buttons .button:not([disabled]):hover {
+.button.quick-add__submit:not([disabled]):hover, .button.product-form__submit:not([disabled]):hover {
   background-color: #e6e6e6;
 }
-.product-form__buttons .button:not([disabled]):hover:after {
-  --border-offset: 0px;
-}
-
-.button.quick-add__submit:not([disabled]):hover {
-  background-color: #e6e6e6;
-}
-.button.quick-add__submit:not([disabled]):hover:after {
+.button.quick-add__submit:not([disabled]):hover:after, .button.product-form__submit:not([disabled]):hover:after {
   --border-offset: 0px;
 }

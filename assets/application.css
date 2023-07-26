@@ -596,6 +596,14 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
 .block {
   display: block;
 }
@@ -655,10 +663,19 @@ video {
   margin-bottom: calc(4rem * var(--tw-space-y-reverse));
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .truncate {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.bg-green-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
 }
 
 .p-0 {

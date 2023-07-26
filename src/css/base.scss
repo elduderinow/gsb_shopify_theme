@@ -1,5 +1,9 @@
 @import "shopify_base.css", "../config/config.scss";
 
+html {
+    scroll-behavior: smooth;
+}
+
 .shop-flex {
     display: flex;
     flex-wrap: wrap;

@@ -4,6 +4,10 @@ body {
   font-family: "Roboto", sans-serif !important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .shop-flex {
   display: flex;
   flex-wrap: wrap;

@@ -441,6 +441,32 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e8d5d18e-39e9-43f9-8df1-c0aeeac06a79": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Complete your routine",
+        "description": "",
+        "show_description": false,
+        "collection": "chemical-peeling",
+        "products_to_show": 14,
+        "columns_desktop": 1,
+        "select_width": "full_width",
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -452,6 +478,7 @@
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
-    "8cece25c-74b5-4297-b872-a89a7b9f4b83"
+    "8cece25c-74b5-4297-b872-a89a7b9f4b83",
+    "e8d5d18e-39e9-43f9-8df1-c0aeeac06a79"
   ]
 }

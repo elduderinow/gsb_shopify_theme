@@ -15,14 +15,14 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Serums en Producten voor Hyperpigmentatie",
+            "heading": "Salicylzuur Huidverzorging",
             "heading_size": "h1"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Verhelder je teint en egaliseer de huid, verbeter acne littekens, donkere vlekken en verkleuring van de huid met onze producten voor hyperpigmentatie.<\/p>",
+            "text": "<p>Salicylzuur is een van de beste ingrediënten in huidverzorging om acne te bestrijden. Of het nu een salicylzuur serum, reiniger of peeling is, ontdek onze essentiële producten.<\/p>",
             "text_style": "body"
           }
         },
@@ -40,7 +40,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/featured_header_Desktop-_eye-care.jpg",
+        "image": "shopify:\/\/shop_images\/featured_header_Desktop-_clarify-balance__2.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -91,7 +91,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Hyperpigmentatie Behandelingstips om te proberen",
+            "heading": "Salicylzuur Pro Tips",
             "heading_size": "h1"
           }
         },
@@ -146,7 +146,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>De meest effectieve huidverzorgingsrituelen beginnen met een gerichte gezichtsreiniger. Ontdek alle professionele tips en technieken over hoe u het meeste uit uw reiniger kunt halen, van het kiezen van een textuur die geschikt is voor uw huidtype, tot de ingrediënten en actieve stoffen die het beste bij de behoeften van uw huid passen.<\/p>",
+            "text": "<p>Salicylzuur, het favoriete ingrediënt in de strijd tegen acne, kan een wereld van verschil maken als je last hebt van overtollig talg en puistjes. Het voorkomt en behandelt puistjes, of het nu als een plekbehandeling is of als een dagelijkse basisbehoefte. Ontdek hier alle manieren waarop je salicylzuur aan je verhelderende huidverzorgingsroutine kunt toevoegen.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -213,7 +213,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Reinigen is de belangrijkste stap in uw huidverzorgingsritueel, maar vaak ook de meest over het hoofd gezien. Uw teint wordt dagelijks blootgesteld aan vele omgevingsstressoren, of dat nu van make-up, vervuiling of algemene ophoping van vuil en toxines is. <br\/><br\/>Uw dagelijkse gezichtsreiniger verwijdert vuil, overtollige olie en dode huidcellen, waardoor uw teint helderder en gehydrateerd wordt. Voor een vette en gemengde huid helpen gezichtsreinigers bij het verwijderen van overtollig talg, zuiveren en in evenwicht brengen, en ondersteunen ze elke acne-bestrijdende behandeling. Voor alle huidtypes, maar vooral voor de droge huid, vullen gezichtsreinigers essentiële hydratatie aan, beheren ze de pH-niveaus van de huid en versterken ze de barrière van de huid om gezonde vochtgehaltes te behouden.<\/p>",
+            "text": "<p>Op zoek naar een behandeling voor acne, om puistjes in balans te brengen en verdere uitbraken te voorkomen? Dan heb je producten nodig die salicylzuur bevatten. Salicylzuur is een ware held in de strijd tegen acne. Het is een beta hydroxyzuur, wat betekent dat het oplosbaar is in olie. Hierdoor kan het gemakkelijker doordringen in de huidlagen dan alpha hydroxyzuur (AHAs), dat oplosbaar is in water. Dit is goed nieuws in de strijd tegen bacteriën en verstopping van de poriën, wat leidt tot puistjes, aangezien salicylzuur deze diep behandelt en voorkomt dat ze aan het oppervlak uitbreken. Bovendien heeft het ook een ontstekingsremmende werking, wat roodheid en reacties kalmeert.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -222,7 +222,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Twee keer per dag reinigen is essentieel voor een optimale huidgezondheid. Uw ochtendgezichtsreiniging verwijdert productresten van uw avondritueel, balanceert eventueel overtollige oliën en revitaliseert uw teint, waardoor het wordt voorbereid op uw dagelijkse producten. <br\/><br\/>Uw avondgezichtsreiniging is een van de beste dingen die u voor uw huid kunt doen, vooral voor anti-veroudering, omdat het vervuiling, make-up, vuil en potentiële vrije radicalen reinigt die schade aan de huid kunnen veroorzaken. Het helpt uw huid zich voor te bereiden op het herstel gedurende de nacht met een schone, heldere en ondersteunde teint. <br\/><br\/>Kies uit gezichtsreinigers zoals schuimende, olie, crème of melkreinigers voor perfect gezuiverde en voorbereide huid, klaar voor uw volgende huidverzorgingsstappen.<\/p>",
+            "text": "<p>Start je balancerende en verhelderende routine met een reiniger op basis van salicylzuur om je poriën schoon te maken en je huid te ontgiften, klaar voor je salicylzuur serum. Salicylzuur en retinol vormen een droomteam in de controle van acne, het egaliseren en verhelderen, dus zoek naar een serum dat deze ingrediënten bevat. Als je op zoek bent naar een diepere reiniging, kies dan voor een salicylzuurpeeling, omdat dit zorgt voor een diepere, verhoogde exfoliatie en andere huidverzorgingsingrediënten beter laat doordringen. Als je verstopte poriën op je neus of andere specifieke gebieden hebt, kun je ook een spot treatment met salicylzuur gebruiken.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -251,98 +251,6 @@
         "padding_bottom": 80,
         "section_width": "boxed"
       }
-    },
-    "ce6989ae-1af1-455a-85b6-d30d25ae8fc3": {
-      "type": "collapsible-content",
-      "blocks": {
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "WAT DOEN GEZICHTSREINIGERS?",
-            "icon": "heart",
-            "row_content": "<p>\"Gezichtsreinigers verfrissen uw teint en spoelen vuil, make-up, dode huidcellen, overtollige olie en verontreinigende stoffen weg zonder uw huid uit te drogen. Gezichtsreinigers bieden een schone basis voor alle producten die daarna worden aangebracht, en ze moeten 's ochtends en 's avonds worden gebruikt,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
-            "page": ""
-          }
-        },
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "IS GEZICHTSWASSEN EEN REINIGER?",
-            "icon": "check_mark",
-            "row_content": "<p>\"Ja, gezichtswassen is hetzelfde als een huidreiniger. Er zijn verschillende soorten huidreinigers, zoals: gel, melk, crème of poeder. Een evenwichtige reiniger of gezichtswas zal uw huid schoon en verfrist achterlaten zonder irritatie,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
-            "page": ""
-          }
-        },
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "HEB IK EEN REINIGER EN EEN GEZICHTSWAS NODIG?",
-            "icon": "check_mark",
-            "row_content": "<p>\"Als u niet zeker weet wat een gezichtsreiniger is, denk er dan aan als een gezichtswas - het is in feite hetzelfde. Als u een favoriete reiniger of gezichtswas heeft, is dat alles wat u nodig heeft. Maar u kunt uw reiniging ook personaliseren, dus probeer bijvoorbeeld een gelreiniger in de ochtend en een crème reiniger 's nachts, of wissel reinigers af in de zomer en winter,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
-            "page": ""
-          }
-        },
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "KAN IK EEN HYDRATERENDE REINIGER GEBRUIKEN VOOR EEN GECOMBINEERDE HUID?",
-            "icon": "check_mark",
-            "row_content": "<p>\"Alle huidtypes kunnen baat hebben bij hydraterende reinigers. U kunt een gecombineerde huid hebben en toch gebrek hebben aan water of vocht, dus de beste reiniger voor een gecombineerde huid is een hydraterende reiniger die zachte exfoliatie biedt om overtollige olie in balans te brengen,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
-            "page": ""
-          }
-        },
-        "f1651ad9-8cb2-4e53-b294-5176ce67a5a9": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "WELKE IS BETER, SCHUIM OF GEL REINIGER?",
-            "icon": "check_mark",
-            "row_content": "<p>\"De beste huidreiniger voor de ene persoon kan verschillen van die voor een andere persoon. Als u wilt voeden en verzorgen tijdens het reinigen, zijn melk of crèmes een goede keuze. Gel- en schuimende reinigers kunnen een diepe reiniging bieden om de huid in balans te brengen en te revitaliseren,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
-            "page": ""
-          }
-        },
-        "2f5db8e0-cf13-414d-a065-c834735e618e": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "WELK TYPE GEZICHTSREINIGER MOET IK GEBRUIKEN?",
-            "icon": "check_mark",
-            "row_content": "<p>\"Het kiezen van een huidreiniger die bij u past, hangt af van wat u ermee wilt bereiken. Of het nu gaat om puistjes, het balanceren van olie, gevoeligheid, hydratatie, veroudering of hyperpigmentatie, kies een gerichte reiniger om uw huidproblemen te ondersteunen, en volg dit op met een vergelijkbaar huidverzorgingsritueel voor alle voordelen,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
-            "page": ""
-          }
-        },
-        "47bc5dec-6dc0-4a94-9f0e-b551c474d87c": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "WAARVOOR WORDT EEN GELREINIGER GEBRUIKT?",
-            "icon": "check_mark",
-            "row_content": "<p>\"Gelgezichtsreinigers bieden een diepe reinigingswerking terwijl ze de huid verfrissen en in balans brengen. De meeste huidtypes kunnen baat hebben bij een gelreiniger, afhankelijk van het doel ervan. Sommige gel formules kunnen schuimen wanneer water wordt toegevoegd om de reiniging en balancerende ervaring te verbeteren,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-1",
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-2",
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-3",
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-4",
-        "f1651ad9-8cb2-4e53-b294-5176ce67a5a9",
-        "2f5db8e0-cf13-414d-a065-c834735e618e",
-        "47bc5dec-6dc0-4a94-9f0e-b551c474d87c"
-      ],
-      "settings": {
-        "caption": "FAQ",
-        "heading": "Veelgestelde vragen over reinigers",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "row",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": true,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "section_width": "boxed"
-      }
     }
   },
   "order": [
@@ -353,7 +261,6 @@
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
-    "37451595-eac5-4463-8371-6f0daf3e0822",
-    "ce6989ae-1af1-455a-85b6-d30d25ae8fc3"
+    "37451595-eac5-4463-8371-6f0daf3e0822"
   ]
 }

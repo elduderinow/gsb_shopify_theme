@@ -15,14 +15,14 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "REINIGERS",
-            "heading_size": "h2"
+            "heading": "Smoothing Peels",
+            "heading_size": "h1"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Kick-start your cleansing with our lineup of face cleansers powered by active botanicals to clarify, refine, balance, brighten, and hydrate.<\/p>",
+            "text": "<p>Restore skin’s radiance and power up your skin smoothing with this professional-level Retinol + C Smoothing Peel. Bringing the treatment room to your bathroom, this full service, single-use peel kit contains everything you need to perform the perfect peel, suitable for all skin tones and types.<\/p>",
             "text_style": "body"
           }
         },
@@ -33,15 +33,25 @@
             "button_label": "Button label",
             "button_link": ""
           }
+        },
+        "64eab1c4-c269-442c-b719-6bb018b86488": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_retinol.jpg",
+            "image_title": "Peel-Time: 30 minutes",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
         }
       },
       "block_order": [
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1",
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1",
-        "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
+        "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1",
+        "64eab1c4-c269-442c-b719-6bb018b86488"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Cleanser_Desktop.jpg",
+        "image": "shopify:\/\/shop_images\/Peptides_Desktop.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -52,12 +62,214 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
+    "a7221b8f-1547-444b-af45-ca5396cf1f3a": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19343199076699__a7221b8f-1547-444b-af45-ca5396cf1f3a-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GloIcons_BlueLightShield-01.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19343199076699__a7221b8f-1547-444b-af45-ca5396cf1f3a-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GloIcons_FreeOf_ArtificialFragrance.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19343199076699__a7221b8f-1547-444b-af45-ca5396cf1f3a-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GloIcons_FreeOf_MineralOil.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "2eaf419b-e572-4693-b882-75abedfecfe0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GloIcons_FreeOf_Sulfates.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "7abcc0b1-5cda-4641-b5b2-10cd909ed2fa": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GloIcons_FreeOf_Sulfates.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "5d5124e0-94c5-49bd-8824-d690486edd7b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GloIcons_FreeOf_Phthalates.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19343199076699__a7221b8f-1547-444b-af45-ca5396cf1f3a-column-1",
+        "template--19343199076699__a7221b8f-1547-444b-af45-ca5396cf1f3a-column-2",
+        "template--19343199076699__a7221b8f-1547-444b-af45-ca5396cf1f3a-column-3",
+        "2eaf419b-e572-4693-b882-75abedfecfe0",
+        "7abcc0b1-5cda-4641-b5b2-10cd909ed2fa",
+        "5d5124e0-94c5-49bd-8824-d690486edd7b"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "icon__grid": true,
+        "column_alignment": "center",
+        "item_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "section_width": "boxed"
+      }
+    },
+    "e071fe43-ea0b-4d9f-acbb-5a1a3435db50": {
+      "type": "image-image",
+      "blocks": {
+        "template--19343199076699__e071fe43-ea0b-4d9f-acbb-5a1a3435db50-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23jul-hp-summerstaples-slider-desktop.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19343199076699__e071fe43-ea0b-4d9f-acbb-5a1a3435db50-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/womens-fall-fashion-in-autumn-landscape.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "47c220fb-93a3-4843-9217-d45e258d5460": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DrySkin_Desktop-_1__1.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19343199076699__e071fe43-ea0b-4d9f-acbb-5a1a3435db50-column-1",
+        "template--19343199076699__e071fe43-ea0b-4d9f-acbb-5a1a3435db50-column-2",
+        "47c220fb-93a3-4843-9217-d45e258d5460"
+      ],
+      "settings": {
+        "image_grid": "dynamic",
+        "image_ratio": "landscape",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "section_width": "boxed"
+      }
+    },
+    "fc76c3a0-2cd4-4353-b1a7-a3cc1af8dd5f": {
+      "type": "highlight",
+      "blocks": {
+        "62b0e968-2c4f-4bd7-9638-2654bcc542cd": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DrySkin_Desktop-_1__1.webp",
+            "image_title": "Dry Skin",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "dfab1161-8f63-40c1-a7ac-10e3f2de44a7": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Exfoliant_Desktop_2.webp",
+            "image_title": "Exfoliants",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "66b1f4a9-1dee-4b0e-aa44-de344b11e7a9": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_oily-skin.webp",
+            "image_title": "Oily Skin",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "5aca16c1-f5fa-4e4e-961d-06543e4959af": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_clarify-balance__2.webp",
+            "image_title": "Clarify",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "62b0e968-2c4f-4bd7-9638-2654bcc542cd",
+        "dfab1161-8f63-40c1-a7ac-10e3f2de44a7",
+        "66b1f4a9-1dee-4b0e-aa44-de344b11e7a9",
+        "5aca16c1-f5fa-4e4e-961d-06543e4959af"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h2",
+        "description": "Shop our Smoothing Peels Collection",
+        "color_scheme": "background-1",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "section_width": "boxed"
       }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
+        "product_view": "grid",
+        "section_width": "full_width",
         "products_per_page": 20,
         "columns_desktop": 4,
         "image_ratio": "portrait",
@@ -76,6 +288,7 @@
     },
     "276980df-6134-4fa4-8d48-9d8a646adda5": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
@@ -120,6 +333,7 @@
     },
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-1": {
           "type": "column",
@@ -177,6 +391,7 @@
     },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -188,17 +403,132 @@
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
+        "show_preview_text": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
+    "8cece25c-74b5-4297-b872-a89a7b9f4b83": {
+      "type": "infographic",
+      "blocks": {
+        "95855e28-5dbe-4bf4-9556-2132ee7bd5f8": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Gecertificeerde Wreedheidvrije Huidverzorging",
+            "heading_size": "h2",
+            "text": "<p>PETA-goedgekeurd, gecertificeerd Beauty Without Bunnies, Glo huidverzorgingsproducten en hun ingrediënten worden nooit getest op onze harige vrienden.<br\/><\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "0008bb93-f23c-4219-8a02-6cf2c05d6e98": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Veganistische Huidverzorging",
+            "heading_size": "h2",
+            "text": "<p>Doordrenkt met plantaardige actieve stoffen, bevat dit product geen ingrediënten van dierlijke oorsprong.<br\/><\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "94bbf85d-699a-4569-b761-7c047cbdef7d": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Parabeenvrije Huidverzorging",
+            "heading_size": "h2",
+            "text": "<p>Een soort conserveermiddel dat in verband wordt gebracht met hormonale verstoring? Geen sprake van, niet in enig Glo huidverzorgingsproduct.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "055f5e9d-78d8-4213-9774-b47df78c18d5": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Sulfaatvrije Huidverzorging",
+            "heading_size": "h2",
+            "text": "<p>Oppervlakteactieve stoffen die irritatie kunnen veroorzaken of allergieën kunnen triggeren, Glo huidverzorging is vrij van SLS + SLES sulfaten.<br\/><\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "b9dcb185-9d5e-46d1-bcf0-0f3089a47d6c": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Vrij van Ftalaten",
+            "heading_size": "h2",
+            "text": "<p>Moeilijk uit te spreken, nog moeilijker voor de huid, Glo is een ftalaatvrije zone.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "95855e28-5dbe-4bf4-9556-2132ee7bd5f8",
+        "0008bb93-f23c-4219-8a02-6cf2c05d6e98",
+        "94bbf85d-699a-4569-b761-7c047cbdef7d",
+        "055f5e9d-78d8-4213-9774-b47df78c18d5",
+        "b9dcb185-9d5e-46d1-bcf0-0f3089a47d6c"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SKIN-FreeOf-PDP-Image-wIcons.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "number_highlight_1": "",
+        "text_highlight_1": "",
+        "number_highlight_2": "",
+        "text_highlight_2": "",
+        "number_highlight_3": "",
+        "text_highlight_3": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "e8d5d18e-39e9-43f9-8df1-c0aeeac06a79": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Complete your routine",
+        "description": "",
+        "show_description": false,
+        "collection": "chemical-peeling",
+        "products_to_show": 14,
+        "columns_desktop": 1,
+        "select_width": "full_width",
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     }
   },
   "order": [
     "banner",
     "92602d36-7d25-4028-b9d9-a36860448447",
+    "a7221b8f-1547-444b-af45-ca5396cf1f3a",
+    "e071fe43-ea0b-4d9f-acbb-5a1a3435db50",
+    "fc76c3a0-2cd4-4353-b1a7-a3cc1af8dd5f",
     "product-grid",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
-    "60dc76e2-2d04-464c-a9e0-5d186807e785"
+    "60dc76e2-2d04-464c-a9e0-5d186807e785",
+    "8cece25c-74b5-4297-b872-a89a7b9f4b83",
+    "e8d5d18e-39e9-43f9-8df1-c0aeeac06a79"
   ]
 }

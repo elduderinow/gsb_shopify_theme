@@ -15,14 +15,22 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
+<<<<<<< HEAD:templates/collection.dryness-dehydratation.json
             "heading": "Serums en Producten voor Hyperpigmentatie",
+=======
+            "heading": "Huidverzorging voor de Droge Huid",
+>>>>>>> 33c38f8d1686d985b32950916e24abab6fd52484:templates/collection.dryness_dehydration.json
             "heading_size": "h1"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
+<<<<<<< HEAD:templates/collection.dryness-dehydratation.json
             "text": "<p>Verhelder je teint en egaliseer de huid, verbeter acne littekens, donkere vlekken en verkleuring van de huid met onze producten voor hyperpigmentatie.<\/p>",
+=======
+            "text": "<p>Droge huid, schrale plekken, ruwheid, spanning, roodheid of een doffe teint? Hydrateer, verzorg en versterk met ons speciaal samengestelde assortiment huidverzorgingsproducten voor de droge huid.<\/p>",
+>>>>>>> 33c38f8d1686d985b32950916e24abab6fd52484:templates/collection.dryness_dehydration.json
             "text_style": "body"
           }
         },
@@ -40,7 +48,11 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
+<<<<<<< HEAD:templates/collection.dryness-dehydratation.json
         "image": "shopify:\/\/shop_images\/featured_header_Desktop-_eye-care.jpg",
+=======
+        "image": "shopify:\/\/shop_images\/DrySkin_Desktop-_1.webp",
+>>>>>>> 33c38f8d1686d985b32950916e24abab6fd52484:templates/collection.dryness_dehydration.json
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -91,7 +103,11 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
+<<<<<<< HEAD:templates/collection.dryness-dehydratation.json
             "heading": "Hyperpigmentatie Behandelingstips om te proberen",
+=======
+            "heading": "Pro Tips voor de Droge Huid",
+>>>>>>> 33c38f8d1686d985b32950916e24abab6fd52484:templates/collection.dryness_dehydration.json
             "heading_size": "h1"
           }
         },
@@ -146,7 +162,11 @@
           "type": "column",
           "settings": {
             "title": "",
+<<<<<<< HEAD:templates/collection.dryness-dehydratation.json
             "text": "<p>De meest effectieve huidverzorgingsrituelen beginnen met een gerichte gezichtsreiniger. Ontdek alle professionele tips en technieken over hoe u het meeste uit uw reiniger kunt halen, van het kiezen van een textuur die geschikt is voor uw huidtype, tot de ingrediënten en actieve stoffen die het beste bij de behoeften van uw huid passen.<\/p>",
+=======
+            "text": "<p>Heb je moeite met een droge huid, gevoeligheden, uitdroging of een algemene strakheid en dofheid van je teint? Van het vinden van de meest hydraterende reiniger tot de beste moisturizer voor droge huid, ontdek onze door dermatologen aanbevolen huidverzorgingsoplossingen met behulp van deze professionele tips.<\/p>",
+>>>>>>> 33c38f8d1686d985b32950916e24abab6fd52484:templates/collection.dryness_dehydration.json
             "link_label": "",
             "link": ""
           }
@@ -213,7 +233,11 @@
           "type": "column",
           "settings": {
             "title": "",
+<<<<<<< HEAD:templates/collection.dryness-dehydratation.json
             "text": "<p>Reinigen is de belangrijkste stap in uw huidverzorgingsritueel, maar vaak ook de meest over het hoofd gezien. Uw teint wordt dagelijks blootgesteld aan vele omgevingsstressoren, of dat nu van make-up, vervuiling of algemene ophoping van vuil en toxines is. <br\/><br\/>Uw dagelijkse gezichtsreiniger verwijdert vuil, overtollige olie en dode huidcellen, waardoor uw teint helderder en gehydrateerd wordt. Voor een vette en gemengde huid helpen gezichtsreinigers bij het verwijderen van overtollig talg, zuiveren en in evenwicht brengen, en ondersteunen ze elke acne-bestrijdende behandeling. Voor alle huidtypes, maar vooral voor de droge huid, vullen gezichtsreinigers essentiële hydratatie aan, beheren ze de pH-niveaus van de huid en versterken ze de barrière van de huid om gezonde vochtgehaltes te behouden.<\/p>",
+=======
+            "text": "<p>Huidverzorging voor de droge huid draait allemaal om hydratatie en het versterken van de vochtbarrière van de huid. Droge huid kan zich op verschillende manieren uiten, zoals roodheid, schilferigheid, dofheid, strakheid, fijne lijntjes en gevoeligheid. Het kan seizoensgebonden zijn, vooral in de winter door koude lucht, of veroorzaakt worden door agressieve producten. Het kan ook je huidtype zijn, wat betekent dat je minder talgklieren hebt dan mensen met een gecombineerde of vette huid. Lagere niveaus van talg geven aan dat de huid de lipiden mist die nodig zijn om vocht vast te houden en een sterke barrière te bouwen om zich te beschermen tegen omgevingsstressoren. Dit is niet hetzelfde als uitgedroogde huid, wat te maken heeft met een gebrek aan water. De beste huidverzorgingsroutine voor droge huid zal gericht zijn op het herstellen en versterken van de vochtbarrière van je huid en bevat voedende oliën en vochtinbrengende ingrediënten.<\/p>",
+>>>>>>> 33c38f8d1686d985b32950916e24abab6fd52484:templates/collection.dryness_dehydration.json
             "link_label": "",
             "link": ""
           }
@@ -222,7 +246,11 @@
           "type": "column",
           "settings": {
             "title": "",
+<<<<<<< HEAD:templates/collection.dryness-dehydratation.json
             "text": "<p>Twee keer per dag reinigen is essentieel voor een optimale huidgezondheid. Uw ochtendgezichtsreiniging verwijdert productresten van uw avondritueel, balanceert eventueel overtollige oliën en revitaliseert uw teint, waardoor het wordt voorbereid op uw dagelijkse producten. <br\/><br\/>Uw avondgezichtsreiniging is een van de beste dingen die u voor uw huid kunt doen, vooral voor anti-veroudering, omdat het vervuiling, make-up, vuil en potentiële vrije radicalen reinigt die schade aan de huid kunnen veroorzaken. Het helpt uw huid zich voor te bereiden op het herstel gedurende de nacht met een schone, heldere en ondersteunde teint. <br\/><br\/>Kies uit gezichtsreinigers zoals schuimende, olie, crème of melkreinigers voor perfect gezuiverde en voorbereide huid, klaar voor uw volgende huidverzorgingsstappen.<\/p>",
+=======
+            "text": "<p>Vertrouw op speciaal geformuleerde producten voor de droge huid. Begin met een gerichte gezichtsreiniger voor de droge huid en zoek naar romige formules met aanvullende ingrediënten. Voeg een hydraterend en versterkend serum toe dat is verrijkt met hyaluronzuur, dat watermoleculen aantrekt en aan de huid bindt, en de vochtbarrière herstelt. En je moet nog steeds exfoliëren om dode huidcellen te verwijderen en je andere producten beter te laten doordringen. Chemische exfolianten zoals AHAs zijn beter voor de droge huid dan fysieke scrubs, omdat deze laatste irritatie kunnen veroorzaken. Een rijke, voedende moisturizer wordt je dagelijkse must-have.<\/p>",
+>>>>>>> 33c38f8d1686d985b32950916e24abab6fd52484:templates/collection.dryness_dehydration.json
             "link_label": "",
             "link": ""
           }
@@ -250,6 +278,7 @@
         "padding_top": 80,
         "padding_bottom": 80,
         "section_width": "boxed"
+<<<<<<< HEAD:templates/collection.dryness-dehydratation.json
       }
     },
     "ce6989ae-1af1-455a-85b6-d30d25ae8fc3": {
@@ -342,6 +371,8 @@
         "padding_top": 80,
         "padding_bottom": 80,
         "section_width": "boxed"
+=======
+>>>>>>> 33c38f8d1686d985b32950916e24abab6fd52484:templates/collection.dryness_dehydration.json
       }
     }
   },
@@ -353,7 +384,11 @@
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
+<<<<<<< HEAD:templates/collection.dryness-dehydratation.json
     "37451595-eac5-4463-8371-6f0daf3e0822",
     "ce6989ae-1af1-455a-85b6-d30d25ae8fc3"
+=======
+    "37451595-eac5-4463-8371-6f0daf3e0822"
+>>>>>>> 33c38f8d1686d985b32950916e24abab6fd52484:templates/collection.dryness_dehydration.json
   ]
 }

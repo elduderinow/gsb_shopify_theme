@@ -114,5 +114,5 @@ html {
 }
 
 .button:not([disabled]):hover:after {
-  --border-offset: none;
+  --border-offset: 0;
 }

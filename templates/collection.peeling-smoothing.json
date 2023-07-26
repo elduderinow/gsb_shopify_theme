@@ -15,14 +15,14 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "REINIGERS",
-            "heading_size": "h2"
+            "heading": "Smoothing Peels",
+            "heading_size": "h1"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Kick-start your cleansing with our lineup of face cleansers powered by active botanicals to clarify, refine, balance, brighten, and hydrate.<\/p>",
+            "text": "<p>Restore skin’s radiance and power up your skin smoothing with this professional-level Retinol + C Smoothing Peel. Bringing the treatment room to your bathroom, this full service, single-use peel kit contains everything you need to perform the perfect peel, suitable for all skin tones and types.<\/p>",
             "text_style": "body"
           }
         },
@@ -33,15 +33,25 @@
             "button_label": "Button label",
             "button_link": ""
           }
+        },
+        "64eab1c4-c269-442c-b719-6bb018b86488": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_retinol.jpg",
+            "image_title": "Peel-Time: 30 minutes",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
         }
       },
       "block_order": [
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1",
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1",
-        "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
+        "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1",
+        "64eab1c4-c269-442c-b719-6bb018b86488"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Cleanser_Desktop.jpg",
+        "image": "shopify:\/\/shop_images\/Peptides_Desktop.jpg",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -105,7 +115,7 @@
       "settings": {
         "title": "Featured collection",
         "heading_size": "h2",
-        "description": "",
+        "description": "Shop our Smoothing Peels Collection",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36,

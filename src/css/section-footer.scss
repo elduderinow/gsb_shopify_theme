@@ -12,6 +12,12 @@ $content-color: rgb(84, 72, 67);
             text-transform: uppercase;
         }
 
+        .logo-wrapper {
+            img {
+                max-width: 280px;
+            }
+        }
+
         .footer__menu {
             display: flex;
             flex-direction: row;

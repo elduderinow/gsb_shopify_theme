@@ -14,6 +14,10 @@ body {
   font-size: 3rem;
   text-transform: uppercase;
 }
+.footer .left .logo-wrapper img {
+  min-width: 200px;
+  max-width: 500px;
+}
 .footer .left .footer__menu {
   display: flex;
   flex-direction: row;

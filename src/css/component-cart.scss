@@ -1,0 +1,9 @@
+@import "./shopify/component-cart.scss";
+
+.cart__footer {
+    .button {
+        &.cart__checkout-button {
+            color: black;
+        }
+    }
+}

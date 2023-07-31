@@ -1,0 +1,10 @@
+@import "./shopify/component-cart-items.scss";
+
+.cart-item {
+    .cart-item__image-container {
+        .cart-item__image {
+            aspect-ratio: 1/1;
+            object-fit: contain;
+        }
+    }
+}

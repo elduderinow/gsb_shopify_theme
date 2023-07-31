@@ -128,4 +128,35 @@ html {
         width: 50%;
         text-align: right;
     }
+
+    .collection {
+        .card__content {
+            .quick-add {
+                form {
+                    justify-content: flex-end;
+                    .button {
+                        &.quick-add__submit {
+                            width: auto;
+                            min-width: unset;
+                        }
+                    }
+                }
+               
+            }
+        }
+    }
+}
+
+.button {
+    &.quick-add__submit,
+    &.product-form__submit {
+        &:not([disabled]) {
+            &:hover {
+                background-color: #e6e6e6;
+                &:after {
+                    --border-offset: 0px;
+                }
+            }
+        }
+    }
 }

@@ -41,7 +41,13 @@
   <div class="grid grid-cols-12">
     <div class="left col-span-12 xl:col-span-8">
       {%- if section.settings.footer_logo -%}
-        <div class="logo-wrapper">logo</div>
+        <div class="logo-wrapper">
+          {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
+          <img
+            src="{{ section.settings.footer_logo | image_url: width: 800 }}"
+            alt="{{ section.settings.footer_logo.alt | escape }}"
+          >
+        </div>
       {%- else -%}
         <h1>{{ shop.name }}</h1>
       {%- endif -%}

@@ -11,19 +11,18 @@
     },
     "92602d36-7d25-4028-b9d9-a36860448447": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Reinigers<\/strong>",
+            "heading": "Clarify + Balance",
             "heading_size": "h1"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Kick-start your cleansing with our lineup of face cleansers powered by active botanicals to clarify, refine, balance, brighten, and hydrate.<\/p>",
+            "text": "<p>tekst verzinnen<\/p>",
             "text_style": "body"
           }
         },
@@ -194,8 +193,10 @@
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
+        "show_preview_text": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "section_width": "boxed"
       }
     }
   },

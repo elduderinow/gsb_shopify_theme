@@ -28,10 +28,9 @@
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Lees Meer",
+            "button_link": "#readmore"
           }
         }
       },
@@ -42,7 +41,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Exfoliant_Desktop_1.jpg",
-        "height": "medium",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -75,6 +74,15 @@
         "columns_mobile": "2",
         "padding_top": 40,
         "padding_bottom": 40
+      }
+    },
+    "79ca693d-f985-4489-ab0a-7bfd92189b7b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"readmore\"\/>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "276980df-6134-4fa4-8d48-9d8a646adda5": {
@@ -192,8 +200,10 @@
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
+        "show_preview_text": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "section_width": "boxed"
       }
     },
     "79117fbd-ec20-41d0-8272-6f943997c557": {
@@ -258,6 +268,7 @@
     "banner",
     "92602d36-7d25-4028-b9d9-a36860448447",
     "product-grid",
+    "79ca693d-f985-4489-ab0a-7bfd92189b7b",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",

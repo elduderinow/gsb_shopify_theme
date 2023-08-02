@@ -68,7 +68,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "enable_filtering": true,
         "filter_type": "vertical",
         "enable_sorting": true,
@@ -192,8 +192,10 @@
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
+        "show_preview_text": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "section_width": "boxed"
       }
     },
     "b7e943f7-ca85-41b0-96e1-a3a49abbd1b8": {

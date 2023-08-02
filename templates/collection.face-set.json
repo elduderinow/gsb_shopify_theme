@@ -15,14 +15,14 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Minerale Foundation Primer",
+            "heading": "Fixeerpoeders",
             "heading_size": "h1"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Primers zorgen voor een perfecte, gladde teint, ideaal om de houdbaarheid van je foundation te verlengen, of om op zichzelf te dragen met alleen concealer.<\/p>",
+            "text": "<p>Fixeerpoeder tilt je make-up naar een hoger niveau en verlengt de draagtijd ervan. Van stralend tot mat, anti-roodheid tot beschermend, ontdek onze mineralen fixeerpoeders en finishing producten.<\/p>",
             "text_style": "body"
           }
         },
@@ -40,7 +40,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/featured_header_Desktop-_prime.webp",
+        "image": "shopify:\/\/shop_images\/Setting_Desktop.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -91,7 +91,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Make-up Primer Tips & Trends",
+            "heading": "Leer meer over het fixeren van poeder.",
             "heading_size": "h1"
           }
         },
@@ -129,64 +129,6 @@
         "padding_bottom": 0
       }
     },
-    "ecac0f0b-d040-4882-ba6d-5c01a131bf30": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-1": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "",
-            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-2": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>Het gebruik van de juiste make-up primer legt de basis voor de rest van je look. Begin met de perfecte ondergrond voor je make-up. Leer meer over het gebruik van make-up primer en andere handige make-up trucs met behulp van de bronnen hieronder.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-3": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-1",
-        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-2",
-        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 1,
-        "icon__grid": false,
-        "column_alignment": "center",
-        "item_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section_width": "boxed"
-      }
-    },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
       "disabled": true,
@@ -214,7 +156,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Make-up primers zijn een essentieel onderdeel van onze beauty kit, maar vaak een overgeslagen stap in onze make-up rituelen. Dus, waarom heb je eigenlijk een make-up primer nodig? Nou, ten eerste helpen primers bij het creëren van een gladde, meer gelijkmatige ondergrond door fijne lijntjes op te vullen en eventuele onvolkomenheden te vervagen, zodat je foundation moeiteloos kan worden aangebracht en ook langer meegaat.<\/p>",
+            "text": "<p>Oké, dus waarom heb je setting powder nodig? Voor elke make-upartiest is dit een onmisbare laatste stap om je make-up op zijn plaats te houden. Setting powder kan het verschil maken tussen dat je make-up een groot deel van de dag blijft zitten of tot diep in de nacht. Vergeet alle ideeën over poeder voor het gezicht dat krijtachtig, uitdrogend en vol talk zit. Wij gebruiken alleen de fijnste, driemaal gemalen mineralen en mica in talkvrije, schone formules, en we voegen antioxidanten toe voor extra bescherming van de teint.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -223,7 +165,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Als je op zoek bent om een natuurlijke make-uplook te creëren, en je huid wat dekking nodig heeft, dan kan je een getinte primer zoals onze Tinted Primer combineren met een concealer voor een super natuurlijke primer look met extra zonbescherming. En als je je oogleden wilt voorbereiden voor alle oogmake-up effecten, dan is onze lichtgewicht, zijdezachte Shadow Primer een must voor een langhoudend, kreukvrij en veegvast resultaat.<\/p>",
+            "text": "<p>Het kiezen van de juiste setting powder hangt ook af van je huidtype. Voor een vette huid of gecombineerde huid is het essentieel omdat het kan helpen om overtollige oliën op je huid te absorberen, waardoor je foundation of concealer gedurende de dag niet gaat glijden. Onze Matte Finishing Powder is superlichtgewicht en houdt je glansvrij en vlekkeloos. Het heeft ook een zelfdosering kwast voor eventuele snelle aanpassingen onderweg. Voor een droge huid kun je kijken naar een transparante poeder met een verhelderende afwerking, zoals onze Luminous Setting Powder, voor een zachte gloed. Als je wat glans wilt toevoegen met een beetje extra zonbescherming, dan zal onze Protecting Powder je ultieme schoonheidskit-partner zijn, met een zelfdosering kwast voor eenvoudige toepassing. En als je je afvraagt hoe je setting powder gebruikt, het is zo simpel als het gewoon over je gezicht vegen, of richten op glanzende plekken. Voor poeders die niet in kwastvorm komen, zorgt onze Tapered Setting Powder Brush voor moeiteloze toepassing.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -363,7 +305,6 @@
     "product-grid",
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
-    "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
     "37451595-eac5-4463-8371-6f0daf3e0822",
     "ce6989ae-1af1-455a-85b6-d30d25ae8fc3"

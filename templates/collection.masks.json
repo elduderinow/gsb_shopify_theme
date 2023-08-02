@@ -83,7 +83,7 @@
           "type": "heading",
           "settings": {
             "heading": "Tips van experts voor maskers en behandelingen",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-text-1": {
@@ -117,7 +117,7 @@
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 80,
-        "padding_bottom": 20
+        "padding_bottom": 0
       }
     },
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30": {
@@ -174,7 +174,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 80,
+        "padding_bottom": 36,
         "section_width": "boxed"
       }
     },
@@ -192,8 +192,8 @@
         "show_author": false,
         "show_view_all": true,
         "show_preview_text": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_top": 48,
+        "padding_bottom": 16,
         "section_width": "boxed"
       }
     },
@@ -249,8 +249,8 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_top": 80,
+        "padding_bottom": 80,
         "section_width": "boxed"
       }
     },

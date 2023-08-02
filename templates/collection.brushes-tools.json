@@ -15,14 +15,14 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Vitamine C voor het Gezicht",
+            "heading": "Make-upkwasten",
             "heading_size": "h1"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Geef je gezicht dagelijks een oppepper met vitamine C, een antioxidant die beschermt tegen schadelijke, verouderende milieustressoren en zorgt voor een stralende huid.<\/p>",
+            "text": "<p>Make-upkwasten en -gereedschap zijn essentieel voor precisie bij het aanbrengen en voor een goede hygiëne in je schoonheidsroutine. Beheers je make-upvaardigheden met onze professionele make-upkwasten en -tools.<\/p>",
             "text_style": "body"
           }
         },
@@ -40,7 +40,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/featured_header_Desktop-_vitamin-c_2.jpg",
+        "image": "shopify:\/\/shop_images\/EyeBrushes_Desktop_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -91,7 +91,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Bronnen voor Vitamine C Huidverzorging",
+            "heading": "Make-upkwasten - Handleidingen en Hulpmiddelen",
             "heading_size": "h1"
           }
         },
@@ -146,7 +146,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Bereik huidhelderheid en milieubescherming met vitamine C huidverzorgingsproducten. Vitamine C serums helpen bij hyperpigmentatie en andere huidverzorgingsproblemen. Leer hoe je het juiste serum kunt kiezen met behulp van onze bronnen voor vitamine C huidverzorging.<\/p>",
+            "text": "<p>Het vinden van de juiste make-upkwast is cruciaal voor je make-uproutine. Ontdek tips voor het kiezen van de juiste make-upkwast en het gebruik ervan met behulp van de hulpmiddelen hieronder.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -213,7 +213,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Vitamine C is een krachtige antioxidant die essentieel is voor niet alleen onze interne gezondheid, maar ook voor onze huid. Aangezien we het niet van nature in ons lichaam produceren, moeten we vitamine C oraal of topisch toevoegen - beide hebben tal van voordelen. Vitamine C voor het gezicht biedt dagelijkse bescherming tegen veroudering, vervuiling, blauw licht, zware metalen en andere vrije radicalen die een doffe huid, vroegtijdige lijntjes, donkere vlekken, droogheid en ruwe plekken kunnen veroorzaken.<\/p>",
+            "text": "<p>Ontdek de professionele make-upkwasten en hulpmiddelen die je nodig hebt om je aanbrengen, opbouwen, mengen en blenden perfect te maken. Hoewel vingers en make-upsponzen geweldig kunnen zijn voor sommige effecten, heb je voor een echt precieze applicatie en nog meer artistieke flair de juiste make-upkwasten nodig voor je kit. Van smokey eyes of winged oogschaduw tot een perfecte basis en natuurlijke contouring, wees creatief met onze verfijnde, veganistische en diervriendelijke make-upkwasten.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -222,7 +222,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Met klinisch bewezen voordelen van dagelijkse vitamine C-serums voor je huid, beschermt het je huid tegen schadelijke vrije radicalen, versterkt het de afweer van je huid, terwijl het ook zorgt voor een aanzienlijke verheldering en helderheid van de teint. En als je je zorgen maakt dat vitamine C de huid lichter maakt, is dat een mythe. Vitamine C is perfect veilig voor alle huidtinten, het beschermt en bevordert je natuurlijke gloed. Perfect voor alle huidtypes, zelfs de gevoelige huid, is vitamine C een universele behandeling die je kunt toevoegen aan elke huidverzorgingsroutine die specifiek gericht is op bepaalde huidproblemen. Vitamine C helpt bij acne door ontstekingen veroorzaakt door acne te verminderen en de verschijning van hyperpigmentatie te verbeteren.<\/p>",
+            "text": "<p>Voor je basis heb je dagelijkse basis make-upkwasten, zoals de Dual Fiber Face Brush voor een transparante applicatie, de Flat Top Kabuki Brush en Dual Fiber Cheek Brush voor een medium dekking, en voor een volledige dekking mag de Pro Kabuki Brush niet ontbreken. Een alles-in-één optie voor het aanbrengen van concealer en andere perfecties is de Dual Foundation\/Camouflage Brush, terwijl de Tapered Setting Powder Brush ideaal is om je make-up te fixeren. Afhankelijk van de ooglook die je wilt creëren, is de Eye Base Brush een goede allrounder, terwijl de Detail Shader Brush precisie biedt. Mix en match om je droomkit samen te stellen, of geniet van de volledige collectie. En vergeet niet om je kwasten regelmatig schoon te maken met onze Brush Cleaner voor goede hygiëne en om het risico op huidproblemen te verminderen.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -251,108 +251,6 @@
         "padding_bottom": 80,
         "section_width": "boxed"
       }
-    },
-    "ce6989ae-1af1-455a-85b6-d30d25ae8fc3": {
-      "type": "collapsible-content",
-      "blocks": {
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "KAN IK VITAMINE C 'S NACHTS OP MIJN GEZICHT LATEN ZITTEN?",
-            "icon": "heart",
-            "row_content": "<p>\"Bij het aanbrengen van vitamine C voor het gezicht zijn de meeste serums ontworpen voor gebruik overdag, ze bieden antioxidante bescherming en verdedigen tegen verouderende milieustressoren zoals blauw licht en vervuiling,\" zegt Anna De La Cruz, VP of Product Development.<\/p>",
-            "page": ""
-          }
-        },
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "KAN IK DE MOISTURIZER OVERSLAAN NA HET VITAMINE C SERUM?",
-            "icon": "check_mark",
-            "row_content": "<p>\"Je moet nog steeds een moisturizer gebruiken nadat je een vitamine C-serum op je gezicht hebt aangebracht. Serums zijn geconcentreerde formules die actieve ingrediënten dieper in de huid afleveren. Door een moisturizer te gebruiken na je vitamine C-serum voeg je vocht toe en sluit je de voordelen van het serum af,\" zegt Anna De La Cruz, VP of Product Development.<\/p>",
-            "page": ""
-          }
-        },
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "BRENG IK VITAMINE C AAN OP NATTE OF DROGE HUID?",
-            "icon": "check_mark",
-            "row_content": "<p>\"Je kunt vitamine C-serums aanbrengen op droge of vochtige huid na het reinigen + tonifiëren, maar vermijd het aanbrengen van vitamine C op natte huid. Dit kan de zure formule zwakker maken door verdunning,\" zegt Anna De La Cruz, VP of Product Development.<\/p>",
-            "page": ""
-          }
-        },
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "WAT KOMT EERST, VITAMINE C OF HYALURONZUUR?",
-            "icon": "check_mark",
-            "row_content": "<p>\"Als je vitamine C-serums + hyaluronzuur apart aanbrengt, breng dan eerst het vitamine C-serum aan en voeg daarna hyaluronzuur toe om de barrière van je huid te versterken en vocht vast te houden,\" zegt Anna De La Cruz, VP of Product Development.<\/p>",
-            "page": ""
-          }
-        },
-        "f1651ad9-8cb2-4e53-b294-5176ce67a5a9": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "VERWIJDERT VITAMINE C SERUM DONKERE VLEKKEN?",
-            "icon": "check_mark",
-            "row_content": "<p>\"Vitamine C-serums hebben veel voordelen, waaronder het verhelderen en verminderen van donkere vlekken + hyperpigmentatie. Bij regelmatig gebruik kan je vitamine C-serum helpen bij het verlichten van gebieden met hyperpigmentatie op de huid, voor een egalere, stralende teint,\" zegt Anna De La Cruz, VP of Product Development.<\/p>",
-            "page": ""
-          }
-        },
-        "2f5db8e0-cf13-414d-a065-c834735e618e": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "VERANDERT VITAMINE C DE KLEUR VAN DE HUID?",
-            "icon": "check_mark",
-            "row_content": "<p>\"Sommige vitamine C-serums kunnen oxideren op de huid, wat kan leiden tot een mogelijke oranje kleur. Om dit te voorkomen, gebruik het serum binnen 3 maanden na opening, of kies voor een stabielere vitamine C-formule zoals onze C-Shield Anti-Pollution Drops,\" zegt Anna De La Cruz, VP of Product Development.<\/p>",
-            "page": ""
-          }
-        },
-        "47bc5dec-6dc0-4a94-9f0e-b551c474d87c": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "KUN JE DAGELIJKS VITAMINE C HUIDVERZORGING GEBRUIKEN?",
-            "icon": "check_mark",
-            "row_content": "<p>\"Ja, neem vitamine C dagelijks op in je huidverzorgingsroutine voor de beste resultaten. Het biedt antioxidante bescherming en verdedigt tegen verouderende milieustressoren, terwijl het de huid verheldert en verstevigt,\" zegt Anna De La Cruz, VP of Product Development.<\/p>",
-            "page": ""
-          }
-        },
-        "94b37849-f3b0-431d-92cf-28f9f32d3397": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "WAT IS HET BESTE MOMENT OM EEN VITAMINE C SERUM TE GEBRUIKEN?",
-            "icon": "check_mark",
-            "row_content": "<p>\"Breng elke ochtend vitamine C druppels of serum aan op je gezicht als onderdeel van je dagelijkse huidverzorgingsritueel. Vitamine C biedt dagelijkse antioxidante bescherming en verdedigt tegen verouderende milieustressoren en schade door vrije radicalen,\" zegt Anna De La Cruz, VP of Product Development.<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-1",
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-2",
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-3",
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-4",
-        "f1651ad9-8cb2-4e53-b294-5176ce67a5a9",
-        "2f5db8e0-cf13-414d-a065-c834735e618e",
-        "47bc5dec-6dc0-4a94-9f0e-b551c474d87c",
-        "94b37849-f3b0-431d-92cf-28f9f32d3397"
-      ],
-      "settings": {
-        "caption": "FAQ",
-        "heading": "Veelgestelde vragen over Vitamine C",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "row",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": true,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "section_width": "boxed"
-      }
     }
   },
   "order": [
@@ -363,7 +261,6 @@
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
-    "37451595-eac5-4463-8371-6f0daf3e0822",
-    "ce6989ae-1af1-455a-85b6-d30d25ae8fc3"
+    "37451595-eac5-4463-8371-6f0daf3e0822"
   ]
 }

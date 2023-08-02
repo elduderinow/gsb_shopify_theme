@@ -11,19 +11,18 @@
     },
     "92602d36-7d25-4028-b9d9-a36860448447": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "all eye makup",
+            "heading": "Oogmake-up",
             "heading_size": "h1"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>tekst voor all eye-makeup<\/p>",
+            "text": "<p>Laat je creativiteit de vrije loop met onze selectie van minerale oogmake-up, waaronder hoog gepigmenteerde poeder- en crème-oogschaduws, potloden, vloeibare eyeliners, mascara en wenkbrauwcollectie.<\/p>",
             "text_style": "body"
           }
         },
@@ -41,7 +40,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Palettes_Desktop_1.jpg",
+        "image": "shopify:\/\/shop_images\/Eye_Generic_Desktop.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -79,7 +78,6 @@
     },
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<div id=\"readmore\"\/>",
         "color_scheme": "background-1",
@@ -89,12 +87,11 @@
     },
     "276980df-6134-4fa4-8d48-9d8a646adda5": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Bronnen voor Vitamine C Huidverzorging",
+            "heading": "Oogmake-up Tutorials en Tips",
             "heading_size": "h1"
           }
         },
@@ -134,7 +131,6 @@
     },
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-1": {
           "type": "column",
@@ -150,7 +146,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Bereik huidhelderheid en milieubescherming met vitamine C huidverzorgingsproducten. Vitamine C serums helpen bij hyperpigmentatie en andere huidverzorgingsproblemen. Leer hoe je het juiste serum kunt kiezen met behulp van onze bronnen voor vitamine C huidverzorging.<\/p>",
+            "text": "<p>Laat je ogen opvallen met onze oogmake-up tutorials en tips! Ontdek handige instructies, productaanbevelingen en meer met behulp van onze oogmake-up bronnen hieronder.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -213,13 +209,12 @@
     },
     "37451595-eac5-4463-8371-6f0daf3e0822": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--19336311996763__37451595-eac5-4463-8371-6f0daf3e0822-column-1": {
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Vitamine C is een krachtige antioxidant die essentieel is voor niet alleen onze interne gezondheid, maar ook voor onze huid. Aangezien we het niet van nature in ons lichaam produceren, moeten we vitamine C oraal of topisch toevoegen - beide hebben tal van voordelen. Vitamine C voor het gezicht biedt dagelijkse bescherming tegen veroudering, vervuiling, blauw licht, zware metalen en andere vrije radicalen die een doffe huid, vroegtijdige lijntjes, donkere vlekken, droogheid en ruwe plekken kunnen veroorzaken.<\/p>",
+            "text": "<p>Oogmake-up voor elke dag, van natuurlijke kleurtinten, opvallende smokey eyes, gedefinieerde wimpers tot gedurfde wenkbrauwen - wat je doel ook is, ontdek, speel en creëer je perfecte look. Als je op zoek bent naar een moeiteloze oogmake-up, bieden onze Cream Stay Shadow Sticks vol met huidverzorging een regenboog aan kleuren en zijn ze zo veelzijdig dat ze dienen als primer, basis en eyeliner in één langhoudende, fluweelzachte, kleurintense formule.<\/p><p>Voor precisie en het beheersen van de 'cat eye' of 'winged eye' look, perfectioneer je je eyeliner spel met de Precise Micro Eyeliner, Liquid Ink of Precision Eye Pencil - allemaal moeiteloze, langhoudende formules die applicatie eenvoudig maken.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -228,7 +223,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Met klinisch bewezen voordelen van dagelijkse vitamine C-serums voor je huid, beschermt het je huid tegen schadelijke vrije radicalen, versterkt het de afweer van je huid, terwijl het ook zorgt voor een aanzienlijke verheldering en helderheid van de teint. En als je je zorgen maakt dat vitamine C de huid lichter maakt, is dat een mythe. Vitamine C is perfect veilig voor alle huidtinten, het beschermt en bevordert je natuurlijke gloed. Perfect voor alle huidtypes, zelfs de gevoelige huid, is vitamine C een universele behandeling die je kunt toevoegen aan elke huidverzorgingsroutine die specifiek gericht is op bepaalde huidproblemen. Vitamine C helpt bij acne door ontstekingen veroorzaakt door acne te verminderen en de verschijning van hyperpigmentatie te verbeteren.<\/p>",
+            "text": "<p>Als je je oogmake-up kit wilt uitbreiden met meer oogschaduws, zijn onze Eye Shadow Quads een uitstekende keuze. Ze bieden mix- en matchbare tinten om je te helpen een look te creëren die helemaal bij jou past.<\/p><p>Leef je beste wimperleven ooit met onze professionele mascara's - in lengte verlengende, volumiserende en waterbestendige formules die vlekbestendig, langhoudend en rijk gepigmenteerd zijn voor een ultieme wimperdefinitie.<\/p><p>En vergeet de wenkbrauwen niet. Jouw gezichts-vrienden, of ze nu vol en natuurlijk zijn of juist gedurfd en strak, houd je wenkbrauwen perfect verzorgd met onze potloden, gel en quads voor alle gewenste effecten.<\/p>",
             "link_label": "",
             "link": ""
           }

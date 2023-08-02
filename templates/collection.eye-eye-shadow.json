@@ -15,14 +15,14 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Minerale Oogschaduws",
+            "heading": "Minerale Mascaras",
             "heading_size": "h1"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Smokey eyes, natuurlijke tinten en nudes, of opvallende kleuren, wat je ook wilt qua oogschaduw make-up, onze minerale oogschaduws zijn gemakkelijk, moeiteloos en goed te blenden voor een foutloze look.<\/p>",
+            "text": "<p>Schone minerale mascara voor het verlengen, volumiseren en waterdicht maken van wimpers. Ontdek de selectie langhoudende mascara's van Glo Skin Beauty voor verheven wimpers die de hele dag meegaan.<\/p>",
             "text_style": "body"
           }
         },
@@ -40,7 +40,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/EyeShadow_Desktop.jpg",
+        "image": "shopify:\/\/shop_images\/Mascara_Desktop.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -91,7 +91,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Minerale Oogschaduw Pro Tips",
+            "heading": "Mascara Tips en Trucs",
             "heading_size": "h1"
           }
         },
@@ -146,7 +146,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Smokey eyes, neutrale tinten en nudes, of opvallende kleuren, wat je stemming ook is, ons assortiment minerale oogschaduws heeft een textuur en tint voor iedereen. Van eyeliner tot volledige kleur, met onze professionele tips ontgrendel je het volledige potentieel van deze veelzijdige minerale oogschaduws, van applicatietips tot de nieuwste trends.<\/p>",
+            "text": "<p>Verleng en voeg volume toe aan je wimpers wanneer je mascara gebruikt van Glo Skin Beauty. Definieer en verbeter je wimpers zonder vervelende klontjes! Leer mascara tips en trucs om ervoor te zorgen dat je wimpers opvallen en er op hun best uitzien. Lees hoogtepunten uit ons beautyblog hieronder.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -213,7 +213,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Of je nu op zoek bent naar natuurlijke en neutrale oogschaduw of opvallende kleuren, onze talcavrije minerale oogschaduws bieden rijke pigmenttinten, zodat je jouw perfecte look kunt opbouwen en blenden. Al onze minerale oogschaduws zijn verrijkt met huidverzorgende ingrediënten, waaronder vitamines A, C en E, om te helpen voeden terwijl je kleur toevoegt. Maak onze Cream Stay Eyeshadow Sticks tot jouw favoriet, omdat ze de ultieme multitaskers zijn en een basis, oogschaduw en eyeliner in één romige, moeiteloze formule bieden in een scala aan heerlijke tinten.<\/p>",
+            "text": "<p>Leef je beste wimperleven met onze selectie schone, minerale mascara's. De keuze voor mascara kan heel persoonlijk zijn, afhankelijk van de kwaliteit van je wimpers, de dikte, de oogvorm, of gewoon de uitstraling die je wilt creëren. Daarom maken we het super eenvoudig om een veelzijdige mascaravariant te vinden die alles biedt wat je wilt in één handige mascara. Voor een beetje ondersteuning bij het laten groeien van je wimpers, is onze Lash Thickener and Conditioner een must-have om je wimpers te primeren met een versterkende, volumiserende boost van voedingsstoffen. Voeg vervolgens één of twee lagen van onze Volumizing Mascara toe voor moeiteloos vollere, verdikte en gedefinieerde wimpers - uiteraard zonder klontjes.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -222,7 +222,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Als je op zoek bent naar minerale poeder oogschaduw, komen onze oogschaduw potjes, samengestelde sets en paletten in fluweelzachte nudes, glanzende, matte en metallic tinten. De langhoudende, kreukvrije formules zijn gemakkelijk te blenden en op te bouwen, waardoor je eenvoudig meerdere tinten kunt combineren om eindeloze effecten te creëren en highlights en diepte toe te voegen. Beheers de nieuwste oogmake-up trends en de klassiekers, van smokey eyes en winged eyeliner tot ombre-effecten, voor een veelzijdig oogschaduwspel. En omdat we altijd gericht zijn op het verbeteren van je natuurlijke kenmerken, bieden we een verhoogde mix van natuurlijke, neutrale en nude oogschaduws voor dat subtiele, verfijnde effect. Combineer je professionele oogschaduw met onze professionele make-upkwasten om die precisie en applicatietechniek perfect te beheersen.<\/p>",
+            "text": "<p>Als je al volume hebt en op zoek bent naar die poppenachtige, gescheiden en verlengde wimperlook, wordt onze Lash Lengthening Mascara je nieuwe beste vriend. Met een rijke, langhoudende formule die je wimpers omhult met rijke pigmenten, zal deze schone mascara alle definitie toevoegen die je nodig hebt voor wimpers die echt opvallen. Voor een meer natuurlijke mascara look is één laagje voldoende, maar als je opvallende wimpers wilt, probeer dan een paar lagen voor het ultieme 'notice-me' effect. En voor een chique look bij het zwembad, laat onze Water Resistant Mascara je niet in de steek. Deze drievoudige mascara verlengt, geeft volume en biedt waterbestendige, intense kleur voor langdurige wimpers. Onze minerale mascara is geschikt voor de gevoelige huid, veganistisch, dierproefvrij, talcavrij en parabenenvrij.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -251,98 +251,6 @@
         "padding_bottom": 80,
         "section_width": "boxed"
       }
-    },
-    "ce6989ae-1af1-455a-85b6-d30d25ae8fc3": {
-      "type": "collapsible-content",
-      "blocks": {
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "WAT BETEKENT NEUTRALE OOGSCHADUW?",
-            "icon": "heart",
-            "row_content": "<p>\"Neutrale of nude oogschaduws hebben subtiele kleuren en geven een natuurlijke uitstraling aan de ogen. Ze kunnen ook aardse, organische tinten bevatten en zijn perfect voor het creëren van een subtieler effect,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
-            "page": ""
-          }
-        },
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "GAAT DONKERE OF LICHTERE OOGSCHADUW EERST?",
-            "icon": "check_mark",
-            "row_content": "<p>\"Als je een ooglook wilt opbouwen met basiskleuren, overgangskleuren, crease-kleuren en highlight-kleuren, breng dan eerst de lichtere of nude basiskleur aan voordat je de donkerdere crease-kleuren aanbrengt. Een highlight-kleur is over het algemeen de lichtste en wordt meestal als laatste aangebracht om dat oplichtende effect te creëren,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
-            "page": ""
-          }
-        },
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "WAT ZIJN GOEDE COMBINATIES VAN OOGSCHADUW?",
-            "icon": "check_mark",
-            "row_content": "<p>\"Populaire oogschaduwcombinaties voor alledaags gebruik zijn nude oogschaduws, goud en bruin, crème en taupe, roze en champagne. Voor meer dramatische looks kun je navy en taupe, smaragd en warm bruin, of perzik en roségoud proberen,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
-            "page": ""
-          }
-        },
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "HOE KIES IK DE JUISTE KLEUR OOGSCHADUW?",
-            "icon": "check_mark",
-            "row_content": "<p>Begin met basiskleuren die passen bij je oogkleur. Probeer oranje tinten, koper, warm bruin en grijs om blauwe ogen te laten opvallen. Voor groene en hazelkleurige ogen: goud, brons en pruim. En voor bruine ogen: blauw, groen, paars, roze en goud,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
-            "page": ""
-          }
-        },
-        "f1651ad9-8cb2-4e53-b294-5176ce67a5a9": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "WAT IS POEDER-OOGSCHADUW?",
-            "icon": "check_mark",
-            "row_content": "<p>\"Poeder-oogschaduw is een populaire keuze. Het is langhoudend en verkrijgbaar in verschillende intensiteiten, finishes en kleuren die gemakkelijk samen te blenden zijn. Het kan op zichzelf gedragen worden of over crème- of vloeibare oogschaduw worden aangebracht,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
-            "page": ""
-          }
-        },
-        "2f5db8e0-cf13-414d-a065-c834735e618e": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "IS VLOEIBARE OF POEDER-OOGSCHADUW BETER?",
-            "icon": "check_mark",
-            "row_content": "<p>\"Het is volledig afhankelijk van persoonlijke voorkeur. Vloeibare oogschaduws drogen snel en hebben laagjesmogelijkheden, waardoor je er supercreatief mee kunt werken. Poeder-oogschaduws zijn verkrijgbaar in een breed scala aan kleuren en finishes en worden aangebracht met je favoriete kwast,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
-            "page": ""
-          }
-        },
-        "47bc5dec-6dc0-4a94-9f0e-b551c474d87c": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "MOET OOGSCHADUW TOT AAN JE WENKBRAUW GAAN?",
-            "icon": "check_mark",
-            "row_content": "<p>\"Als je een oogschaduwpalette gebruikt, zul je basiskleuren, overgangskleuren, crease-kleuren en highlight-kleuren hebben om mee te werken. Je basiskleur en highlight zijn de meest voorkomende oogschaduwkleuren die tot aan het wenkbrauwbotgebied komen,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-1",
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-2",
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-3",
-        "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-4",
-        "f1651ad9-8cb2-4e53-b294-5176ce67a5a9",
-        "2f5db8e0-cf13-414d-a065-c834735e618e",
-        "47bc5dec-6dc0-4a94-9f0e-b551c474d87c"
-      ],
-      "settings": {
-        "caption": "FAQ",
-        "heading": "Veelgestelde vragen over oogcshaduw",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "row",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": true,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "section_width": "boxed"
-      }
     }
   },
   "order": [
@@ -353,7 +261,6 @@
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
-    "37451595-eac5-4463-8371-6f0daf3e0822",
-    "ce6989ae-1af1-455a-85b6-d30d25ae8fc3"
+    "37451595-eac5-4463-8371-6f0daf3e0822"
   ]
 }

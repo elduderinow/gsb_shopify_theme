@@ -145,7 +145,8 @@
         {%- else -%}
           <div class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">
             <div class="loading-overlay gradient"></div>
-            {{ section.settings.columns_desktop | json }}
+            {% assign maxWidthListItem = 100 | divided_by: section.settings.columns_desktop %}
+            {{ maxWidthListItem | json }}
             <ul
               id="product-grid"
               data-id="{{ section.id }}"

@@ -145,7 +145,7 @@
         {%- else -%}
           <div class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">
             <div class="loading-overlay gradient"></div>
-
+            {{ section.settings.columns_desktop | json }}
             <ul
               id="product-grid"
               data-id="{{ section.id }}"

@@ -120,40 +120,43 @@ html {
   min-width: unset;
 }
 
-.cart-notification-wrapper .cart-notification__heading .icon-checkmark {
+.cart-notification-wrapper #cart-notification {
+  border: 1px solid #f3f3f3;
+}
+.cart-notification-wrapper #cart-notification .cart-notification__heading .icon-checkmark {
   color: #009e6d;
 }
-.cart-notification-wrapper #cart-notification-product .cart-notification-product__image {
+.cart-notification-wrapper #cart-notification #cart-notification-product .cart-notification-product__image {
   aspect-ratio: 1/1;
 }
-.cart-notification-wrapper .cart-notification__links #cart-notification-button:after, .cart-notification-wrapper .cart-notification__links #cart-notification-button:before {
+.cart-notification-wrapper #cart-notification .cart-notification__links #cart-notification-button:after, .cart-notification-wrapper #cart-notification .cart-notification__links #cart-notification-button:before {
   content: none;
 }
-.cart-notification-wrapper .cart-notification__links #cart-notification-button:not([disabled]) {
+.cart-notification-wrapper #cart-notification .cart-notification__links #cart-notification-button:not([disabled]) {
   background-color: #f3f3f3;
   color: black;
   transition: background-color 0.3s ease-in-out;
 }
-.cart-notification-wrapper .cart-notification__links #cart-notification-button:not([disabled]):hover {
+.cart-notification-wrapper #cart-notification .cart-notification__links #cart-notification-button:not([disabled]):hover {
   background-color: #e6e6e6;
 }
-.cart-notification-wrapper .cart-notification__links #cart-notification-form button:after, .cart-notification-wrapper .cart-notification__links #cart-notification-form button:before {
+.cart-notification-wrapper #cart-notification .cart-notification__links #cart-notification-form button:after, .cart-notification-wrapper #cart-notification .cart-notification__links #cart-notification-form button:before {
   content: none;
 }
-.cart-notification-wrapper .cart-notification__links #cart-notification-form button:not([disabled]) {
+.cart-notification-wrapper #cart-notification .cart-notification__links #cart-notification-form button:not([disabled]) {
   background-color: #009e6d;
   color: white;
   transition: background-color 0.3s ease-in-out;
 }
-.cart-notification-wrapper .cart-notification__links #cart-notification-form button:not([disabled]):hover {
+.cart-notification-wrapper #cart-notification .cart-notification__links #cart-notification-form button:not([disabled]):hover {
   background-color: #00855b;
 }
-.cart-notification-wrapper .cart-notification__links button.link {
+.cart-notification-wrapper #cart-notification .cart-notification__links button.link {
   text-decoration: none;
   margin-top: 2rem;
   font-size: 1.3rem;
 }
-.cart-notification-wrapper .cart-notification__links button.link:hover {
+.cart-notification-wrapper #cart-notification .cart-notification__links button.link:hover {
   text-decoration: underline;
 }
 

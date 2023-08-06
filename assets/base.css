@@ -120,6 +120,9 @@ html {
   min-width: unset;
 }
 
+.cart-notification-wrapper .icon {
+  color: #009e6d;
+}
 .cart-notification-wrapper #cart-notification-product .cart-notification-product__image {
   aspect-ratio: 1/1;
 }

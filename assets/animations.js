@@ -6,8 +6,13 @@ function onIntersection(elements, observer) {
     if (element.isIntersecting) {
       const elementTarget = element.target;
       elementTarget.classList.add(SCROLL_ANIMATION_ACTIVE_CLASSNAME);
-      if (elementTarget.hasAttribute('data-cascade'))
-        elementTarget.setAttribute('style', `--animation-order: ${index};`);
+      if (elementTarget.hasAttribute('data-cascade')) {
+        let maxWidth;
+        if (elementTarget.hasAttribute('data-max-width')) {
+          maxWidth = elementTarget.getAttribute('data-max-width');
+        }
+        elementTarget.setAttribute('style', `--animation-order: ${index};max-width:${maxWidth}%`);
+      }
       observer.unobserve(elementTarget);
     }
   });

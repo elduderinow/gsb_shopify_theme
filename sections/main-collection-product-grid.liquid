@@ -147,7 +147,6 @@
             <div class="loading-overlay gradient"></div>
             {% assign maxWidthListItem = 100 | divided_by: section.settings.columns_desktop %}
             {{ maxWidthListItem | append: '%' }}
-            {{ maxWidthListItem | json }}
             <ul
               id="product-grid"
               data-id="{{ section.id }}"

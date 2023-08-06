@@ -120,7 +120,9 @@ html {
   min-width: unset;
 }
 
-.button.quick-add__submit, .button.product-form__submit {
+.product-view--grid .button.quick-add__submit, .product-view--grid .button.product-form__submit,
+.product-view--list .button.quick-add__submit,
+.product-view--list .button.product-form__submit {
   padding: 0.5rem 2rem;
   min-width: unset;
   width: auto;
@@ -129,17 +131,25 @@ html {
   background-color: #bdbdbd;
   color: rgb(58, 58, 58);
 }
-.button.quick-add__submit::after, .button.product-form__submit::after {
+.product-view--grid .button.quick-add__submit::after, .product-view--grid .button.product-form__submit::after,
+.product-view--list .button.quick-add__submit::after,
+.product-view--list .button.product-form__submit::after {
   content: none;
 }
-.button.quick-add__submit::before, .button.product-form__submit::before {
+.product-view--grid .button.quick-add__submit::before, .product-view--grid .button.product-form__submit::before,
+.product-view--list .button.quick-add__submit::before,
+.product-view--list .button.product-form__submit::before {
   content: none;
 }
-.button.quick-add__submit:not([disabled]), .button.product-form__submit:not([disabled]) {
+.product-view--grid .button.quick-add__submit:not([disabled]), .product-view--grid .button.product-form__submit:not([disabled]),
+.product-view--list .button.quick-add__submit:not([disabled]),
+.product-view--list .button.product-form__submit:not([disabled]) {
   background-color: #009e6d;
   color: white;
   transition: background-color 0.3s ease-in-out;
 }
-.button.quick-add__submit:not([disabled]):hover, .button.product-form__submit:not([disabled]):hover {
+.product-view--grid .button.quick-add__submit:not([disabled]):hover, .product-view--grid .button.product-form__submit:not([disabled]):hover,
+.product-view--list .button.quick-add__submit:not([disabled]):hover,
+.product-view--list .button.product-form__submit:not([disabled]):hover {
   background-color: #00855b;
 }

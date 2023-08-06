@@ -124,12 +124,12 @@ html {
   content: none;
 }
 .product .button.quick-add__submit:not([disabled]), .product .button.product-form__submit:not([disabled]) {
-  background-color: #808080;
+  background-color: #f3f3f3;
   color: black;
   transition: background-color 0.3s ease-in-out;
 }
 .product .button.quick-add__submit:not([disabled]):hover, .product .button.product-form__submit:not([disabled]):hover {
-  background-color: #00855b;
+  background-color: #e6e6e6;
 }
 .product .shopify-payment-button__button:after, .product .shopify-payment-button__button:before {
   content: none;

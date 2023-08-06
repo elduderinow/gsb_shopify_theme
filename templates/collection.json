@@ -59,7 +59,7 @@
       "type": "main-collection-product-grid",
       "settings": {
         "product_view": "grid",
-        "section_width": "boxed",
+        "section_width": "full_width",
         "products_per_page": 20,
         "columns_desktop": 4,
         "image_ratio": "portrait",

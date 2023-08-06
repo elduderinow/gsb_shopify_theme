@@ -213,3 +213,7 @@ html {
 .product-view--list .button.product-form__submit:not([disabled]):hover {
   background-color: #00855b;
 }
+
+.cart-count-bubble {
+  background-color: #009e6d;
+}

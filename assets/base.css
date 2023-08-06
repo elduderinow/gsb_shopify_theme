@@ -120,6 +120,10 @@ html {
   min-width: unset;
 }
 
+.product .shopify-payment-button__button:after, .product .shopify-payment-button__button:before {
+  content: none;
+}
+
 .product-view--grid .button.quick-add__submit, .product-view--grid .button.product-form__submit,
 .product-view--list .button.quick-add__submit,
 .product-view--list .button.product-form__submit {

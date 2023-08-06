@@ -119,10 +119,3 @@ html {
   width: auto;
   min-width: unset;
 }
-
-.button.quick-add__submit:not([disabled]):hover, .button.product-form__submit:not([disabled]):hover {
-  background-color: #e6e6e6;
-}
-.button.quick-add__submit:not([disabled]):hover:after, .button.product-form__submit:not([disabled]):hover:after {
-  --border-offset: 0px;
-}

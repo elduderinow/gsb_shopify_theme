@@ -449,7 +449,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
   text-decoration: none;
-  color: #808080;
+  color: #f3f3f3;
 }
 .card-product--component .card__content .card__information .price {
   margin-top: 0;

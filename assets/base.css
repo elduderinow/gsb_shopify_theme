@@ -125,8 +125,6 @@ html {
   min-width: unset;
   width: auto;
   min-height: auto;
-  background-color: #009E6D;
-  color: white;
   border-radius: 20px;
 }
 .button.quick-add__submit::after, .button.product-form__submit::after {
@@ -134,4 +132,8 @@ html {
 }
 .button.quick-add__submit::before, .button.product-form__submit::before {
   content: none;
+}
+.button.quick-add__submit:not([disabled]), .button.product-form__submit:not([disabled]) {
+  background-color: #009E6D;
+  color: white;
 }

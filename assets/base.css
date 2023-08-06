@@ -120,7 +120,7 @@ html {
   min-width: unset;
 }
 
-.cart-notification-wrapper .icon-checkmark {
+.cart-notification-wrapper .cart-notification__heading .icon-checkmark {
   color: #009e6d;
 }
 .cart-notification-wrapper #cart-notification-product .cart-notification-product__image {

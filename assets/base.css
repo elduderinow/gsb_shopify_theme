@@ -121,12 +121,13 @@ html {
 }
 
 .button.quick-add__submit, .button.product-form__submit {
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 2rem;
   min-width: unset;
   width: auto;
   min-height: auto;
   background-color: #009E6D;
   color: white;
+  border-radius: 20px;
 }
 .button.quick-add__submit::after, .button.product-form__submit::after {
   content: none;

@@ -225,4 +225,5 @@ body {
 }
 .cart__footer .button.cart__checkout-button:not([disabled]):hover {
   background-color: #00855b;
+  cursor: pointer;
 }

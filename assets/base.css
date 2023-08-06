@@ -139,6 +139,7 @@ html {
 }
 .cart-notification-wrapper #cart-notification .cart-notification__links #cart-notification-button:not([disabled]):hover {
   background-color: #e6e6e6;
+  cursor: pointer;
 }
 .cart-notification-wrapper #cart-notification .cart-notification__links #cart-notification-form button:after, .cart-notification-wrapper #cart-notification .cart-notification__links #cart-notification-form button:before {
   content: none;
@@ -150,6 +151,7 @@ html {
 }
 .cart-notification-wrapper #cart-notification .cart-notification__links #cart-notification-form button:not([disabled]):hover {
   background-color: #00855b;
+  cursor: pointer;
 }
 .cart-notification-wrapper #cart-notification .cart-notification__links button.link {
   text-decoration: none;
@@ -170,6 +172,7 @@ html {
 }
 .product .button.quick-add__submit:not([disabled]):hover, .product .button.product-form__submit:not([disabled]):hover {
   background-color: #e6e6e6;
+  cursor: pointer;
 }
 .product .shopify-payment-button__button:after, .product .shopify-payment-button__button:before {
   content: none;
@@ -212,6 +215,7 @@ html {
 .product-view--list .button.quick-add__submit:not([disabled]):hover,
 .product-view--list .button.product-form__submit:not([disabled]):hover {
   background-color: #00855b;
+  cursor: pointer;
 }
 
 .cart-count-bubble {

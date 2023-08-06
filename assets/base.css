@@ -120,6 +120,9 @@ html {
   min-width: unset;
 }
 
+.cart-notification-wrapper #cart-notification-product .cart-notification-product__image {
+  aspect-ratio: 1/1;
+}
 .cart-notification-wrapper #cart-notification-button:after, .cart-notification-wrapper #cart-notification-button:before {
   content: none;
 }
@@ -144,6 +147,8 @@ html {
 }
 .cart-notification-wrapper button.link {
   text-decoration: none;
+  margin-top: 2rem;
+  font-size: 1.3rem;
 }
 .cart-notification-wrapper button.link:hover {
   text-decoration: underline;

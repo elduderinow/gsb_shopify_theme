@@ -58,6 +58,7 @@ html {
 
 #product-grid .grid__item {
   max-width: none;
+  flex-grow: 0;
 }
 
 .collection-list .collection-list__item {

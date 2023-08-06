@@ -120,6 +120,9 @@ html {
   min-width: unset;
 }
 
+.product.quick-add__submit:after, .product.quick-add__submit:before, .product.product-form__submit:after, .product.product-form__submit:before {
+  content: none;
+}
 .product .shopify-payment-button__button:after, .product .shopify-payment-button__button:before {
   content: none;
 }

@@ -119,3 +119,9 @@ html {
   width: auto;
   min-width: unset;
 }
+
+.button.quick-add__submit, .button.product-form__submit {
+  padding: 0 1rem;
+  min-width: unset;
+  width: auto;
+}

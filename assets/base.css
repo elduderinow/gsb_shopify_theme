@@ -125,7 +125,7 @@ html {
   min-width: unset;
   width: auto;
   min-height: auto;
-  background-color: green;
+  background-color: #009E6D;
   color: white;
 }
 .button.quick-add__submit::after, .button.product-form__submit::after {

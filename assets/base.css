@@ -166,14 +166,11 @@ html {
   background-color: #bdbdbd;
   color: rgb(58, 58, 58);
 }
-.product-view--grid .button.quick-add__submit::after, .product-view--grid .button.product-form__submit::after,
-.product-view--list .button.quick-add__submit::after,
-.product-view--list .button.product-form__submit::after {
-  content: none;
-}
-.product-view--grid .button.quick-add__submit::before, .product-view--grid .button.product-form__submit::before,
-.product-view--list .button.quick-add__submit::before,
-.product-view--list .button.product-form__submit::before {
+.product-view--grid .button.quick-add__submit:after, .product-view--grid .button.quick-add__submit:before, .product-view--grid .button.product-form__submit:after, .product-view--grid .button.product-form__submit:before,
+.product-view--list .button.quick-add__submit:after,
+.product-view--list .button.quick-add__submit:before,
+.product-view--list .button.product-form__submit:after,
+.product-view--list .button.product-form__submit:before {
   content: none;
 }
 .product-view--grid .button.quick-add__submit:not([disabled]), .product-view--grid .button.product-form__submit:not([disabled]),

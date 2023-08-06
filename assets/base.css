@@ -136,6 +136,9 @@ html {
   content: none;
 }
 .button.quick-add__submit:not([disabled]), .button.product-form__submit:not([disabled]) {
-  background-color: #009E6D;
+  background-color: #009e6d;
   color: white;
+}
+.button.quick-add__submit:not([disabled]):hover, .button.product-form__submit:not([disabled]):hover {
+  background-color: #00855b;
 }

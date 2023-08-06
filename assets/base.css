@@ -131,6 +131,17 @@ html {
 .cart-notification-wrapper #cart-notification-button:not([disabled]):hover {
   background-color: #e6e6e6;
 }
+.cart-notification-wrapper #cart-notification-form button:after, .cart-notification-wrapper #cart-notification-form button:before {
+  content: none;
+}
+.cart-notification-wrapper #cart-notification-form button:not([disabled]) {
+  background-color: #009e6d;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+.cart-notification-wrapper #cart-notification-form button:not([disabled]):hover {
+  background-color: #00855b;
+}
 
 .product .button.quick-add__submit:after, .product .button.quick-add__submit:before, .product .button.product-form__submit:after, .product .button.product-form__submit:before {
   content: none;

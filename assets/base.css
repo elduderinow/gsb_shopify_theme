@@ -120,15 +120,15 @@ html {
   min-width: unset;
 }
 
-.product .shopify-payment-button__button {
+.product .shopify-payment-button__button:after, .product .shopify-payment-button__button:before {
+  content: none;
+}
+.product .shopify-payment-button__button:not([disabled]) {
   background-color: #009e6d;
   color: white;
   transition: background-color 0.3s ease-in-out;
 }
-.product .shopify-payment-button__button:after, .product .shopify-payment-button__button:before {
-  content: none;
-}
-.product .shopify-payment-button__button:hover {
+.product .shopify-payment-button__button:not([disabled]):hover {
   background-color: #00855b;
 }
 

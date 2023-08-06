@@ -141,22 +141,122 @@ html {
                         }
                     }
                 }
-               
             }
         }
     }
 }
 
-.button {
-    &.quick-add__submit,
-    &.product-form__submit {
-        &:not([disabled]) {
-            &:hover {
-                background-color: #e6e6e6;
-                &:after {
-                    --border-offset: 0px;
+//product buttons
+
+@mixin grayButton {
+    &:after,
+    &:before {
+        content: none;
+    }
+    &:not([disabled]) {
+        background-color: $gray;
+        color: black;
+        transition: background-color 0.3s ease-in-out;
+        &:hover {
+            background-color: darken($gray, 5%);
+            cursor: pointer;
+        }
+    }
+}
+
+@mixin ctaButton {
+    &:after,
+    &:before {
+        content: none;
+    }
+
+    &:not([disabled]) {
+        background-color: $green;
+        color: white;
+        transition: background-color 0.3s ease-in-out;
+
+        &:hover {
+            background-color: darken($green, 5%);
+            cursor: pointer;
+        }
+    }
+}
+
+.cart-notification-wrapper {
+    #cart-notification {
+        border: 1px solid $gray;
+
+        .cart-notification__heading .icon-checkmark {
+            color: $green;
+        }
+        #cart-notification-product {
+            .cart-notification-product__image {
+                aspect-ratio: 1/1;
+            }
+        }
+
+        .cart-notification__links {
+            #cart-notification-button {
+                @include grayButton;
+            }
+
+            #cart-notification-form button {
+                @include ctaButton;
+            }
+
+            button.link {
+                text-decoration: none;
+                margin-top: 2rem;
+                font-size: 1.3rem;
+
+                &:hover {
+                    text-decoration: underline;
                 }
             }
         }
     }
+}
+
+.product {
+    .button {
+        &.quick-add__submit,
+        &.product-form__submit {
+            @include grayButton;
+        }
+    }
+    .shopify-payment-button__button {
+        &:after,
+        &:before {
+            content: none;
+        }
+        &:not([disabled]) {
+            background-color: $green;
+            color: white;
+            transition: background-color 0.3s ease-in-out;
+            &:hover {
+                background-color: darken($green, 5%);
+            }
+        }
+    }
+}
+.product-view--grid,
+.product-view--list {
+    .button {
+        &.quick-add__submit,
+        &.product-form__submit {
+            padding: 0.5rem 2rem;
+            min-width: unset;
+            width: auto;
+            min-height: auto;
+            border-radius: 20px;
+            background-color: #bdbdbd;
+            color: rgb(58, 58, 58);
+
+            @include ctaButton;
+        }
+    }
+}
+
+.cart-count-bubble {
+    background-color: $green;
 }

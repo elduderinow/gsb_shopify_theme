@@ -449,14 +449,15 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
   text-decoration: none;
+  color: #808080;
 }
 .card-product--component .card__content .card__information .price {
   margin-top: 0;
 }
 .card-product--component .card__content .card__information .price .price__container {
-  font-size: 1.3rem;
-  color: rgb(100, 100, 100);
-  font-weight: 400;
+  font-size: 1.6rem;
+  color: #000;
+  font-weight: 300;
   margin-top: 0.5rem;
 }
 .card-product--component:hover .card__media {

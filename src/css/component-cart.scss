@@ -1,9 +1,27 @@
-@import "./shopify/component-cart.scss";
+@import "./shopify/component-cart.scss", "../config/config.scss";
+
+@mixin ctaButton {
+    &:after,
+    &:before {
+        content: none;
+    }
+
+    &:not([disabled]) {
+        background-color: $green;
+        color: white;
+        transition: background-color 0.3s ease-in-out;
+
+        &:hover {
+            background-color: darken($green, 5%);
+            cursor: pointer;
+        }
+    }
+}
 
 .cart__footer {
     .button {
         &.cart__checkout-button {
-            color: black;
+           @include ctaButton;
         }
     }
 }

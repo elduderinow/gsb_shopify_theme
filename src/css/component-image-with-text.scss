@@ -5,6 +5,12 @@
         .image-with-text__content {
             padding-bottom: 0;
 
+            .top--content {
+                .image-with-text__heading {
+                    margin-bottom: 1rem;
+                }
+            }
+
             .bottom--content {
                 margin-top: 10rem;
                 

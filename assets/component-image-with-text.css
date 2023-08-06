@@ -324,6 +324,9 @@
 .image-with-text .image-with-text__text-item .image-with-text__content {
   padding-bottom: 0;
 }
+.image-with-text .image-with-text__text-item .image-with-text__content .top--content .image-with-text__heading {
+  margin-bottom: 1rem;
+}
 .image-with-text .image-with-text__text-item .image-with-text__content .bottom--content {
   margin-top: 10rem;
 }

@@ -145,7 +145,7 @@
         {%- else -%}
           <div class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">
             <div class="loading-overlay gradient"></div>
-
+            {% assign maxWidthListItem = 100 | divided_by: section.settings.columns_desktop %}
             <ul
               id="product-grid"
               data-id="{{ section.id }}"
@@ -160,7 +160,8 @@
                   {%- assign lazy_load = true -%}
                 {%- endif -%}
                 <li
-                  class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                  data-max-width="{{ maxWidthListItem }}"
+                  class="grid__item{% if settings.animations_reveal_on_scroll %} testtest scroll-trigger animate--slide-in{% endif %}"
                   {% if settings.animations_reveal_on_scroll %}
                     data-cascade
                   {% endif %}

@@ -61,8 +61,8 @@
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_top": 80,
+        "padding_bottom": 80,
         "section_width": "boxed"
       }
     },
@@ -124,8 +124,8 @@
         "product": "741-1-retinol-c-smoothing-peel-in-a-box",
         "color_scheme": "background-1",
         "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
+        "media_size": "small",
+        "constrain_to_viewport": false,
         "media_fit": "contain",
         "media_position": "left",
         "image_zoom": "lightbox",

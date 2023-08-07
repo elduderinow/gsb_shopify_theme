@@ -153,10 +153,10 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "image_width": "half",
+        "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 6,
-        "icon__grid": true,
+        "icon__grid": false,
         "column_alignment": "center",
         "item_alignment": "center",
         "background_style": "none",

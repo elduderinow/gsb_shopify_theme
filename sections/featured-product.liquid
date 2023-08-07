@@ -221,6 +221,7 @@
                       >
                     </span>
                   </label>
+                
                   <quantity-input class="quantity">
                     <button class="quantity__button no-js-hidden" name="minus" type="button">
                       <span class="visually-hidden">
@@ -277,6 +278,15 @@
                       </span>
                     {%- endif -%}
                   </div>
+                  
+                  {%- when 'buy_buttons' -%}
+                    {%- render 'buy-buttons',
+                      block: block,
+                      product: product,
+                      product_form_id: product_form_id,
+                      section_id: section.id
+                    -%}
+
                 </div>
               {%- when 'share' -%}
                 {% assign share_url = product.selected_variant.url | default: product.url | prepend: request.origin %}
@@ -288,13 +298,13 @@
                   product_form_id: product_form_id,
                   update_url: false
                 %}
-              {%- when 'buy_buttons' -%}
+              {% comment %} {%- when 'buy_buttons' -%}
                 {%- render 'buy-buttons',
                   block: block,
                   product: product,
                   product_form_id: product_form_id,
                   section_id: section.id
-                -%}
+                -%} {% endcomment %}
               {%- when 'custom_liquid' -%}
                 {{ block.settings.custom_liquid }}
               {%- when 'rating' -%}

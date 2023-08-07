@@ -95,6 +95,11 @@ body {
   display: flex;
   gap: 2rem;
 }
+.featured-product .blocks-wrapper .buy-button .product-form__buttons button.product-form__submit {
+  white-space: nowrap;
+  padding: 0px 4rem;
+  border-radius: 50px;
+}
 .featured-product .blocks-wrapper .buy-button .product-form__buttons button.shopify-payment-button__button {
   white-space: nowrap;
   padding: 0px 4rem;

@@ -318,6 +318,9 @@
             {% assign tabsBlocks = tabsBlocks | append: block %}
           {% endif %}
         {% endfor %}
+        {%- for tabs in tabsBlocks -%}
+          {{ tabs | json }}
+        {%- endfor -%}
       </div>
       {%- if section.settings.media_position == 'right' -%}
         <div class="grid__item product__media-wrapper small-hide">

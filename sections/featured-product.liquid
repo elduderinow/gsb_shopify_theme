@@ -279,13 +279,12 @@
                     {%- endif -%}
                   </div>
                   <div class="test">
-                    {%- when 'buy_buttons' -%}
-                      {%- render 'buy-buttons',
-                        block: block,
-                        product: product,
-                        product_form_id: product_form_id,
-                        section_id: section.id
-                      -%}
+                    {%- render 'buy-buttons',
+                      block: block,
+                      product: product,
+                      product_form_id: product_form_id,
+                      section_id: section.id
+                    -%}
                   </div>
                 </div>
               {%- when 'share' -%}

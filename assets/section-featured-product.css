@@ -70,7 +70,6 @@ body {
 .featured-product .blocks-wrapper {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
 }
 .featured-product .blocks-wrapper .product__title {
   flex-grow: 1;

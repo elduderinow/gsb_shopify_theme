@@ -81,15 +81,15 @@ body {
   width: 100%;
 }
 .featured-product .blocks-wrapper .product-form__quantity {
-  width: 50%;
+  margin-right: 2rem;
   margin-top: 2rem;
   min-width: auto;
   max-width: none;
   flex: none;
-  background-color: red;
 }
 .featured-product .blocks-wrapper .buy-button {
   width: 60%;
+  margin-top: 2rem;
 }
 .featured-product .blocks-wrapper .buy-button .product-form__buttons {
   display: flex;

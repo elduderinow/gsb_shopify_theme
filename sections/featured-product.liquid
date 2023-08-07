@@ -319,7 +319,8 @@
           {% endif %}
         {% endfor %}
         {%- for tabs in tabsBlocks -%}
-          {{ tabs | json }}
+          {{ tabs.tab_title }}
+          {{ tabs.tab_text }}
         {%- endfor -%}
       </div>
       {%- if section.settings.media_position == 'right' -%}

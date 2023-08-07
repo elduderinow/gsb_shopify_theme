@@ -148,9 +148,6 @@
         </pickup-availability-preview>
       </template>
     </pickup-availability>
-
-    <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
-
     <div class="product-form__error-message-wrapper" role="alert" hidden>
       <svg
         aria-hidden="true"
@@ -165,5 +162,6 @@
       </svg>
       <span class="product-form__error-message"></span>
     </div>
+    <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
   {%- endif -%}
 </div>

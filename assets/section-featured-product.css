@@ -72,3 +72,18 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
 }
+.featured-product .blocks-wrapper .product__title {
+  flex-grow: 1;
+  width: 100%;
+  display: block;
+}
+.featured-product .blocks-wrapper .price-wrapper {
+  width: 100%;
+}
+.featured-product .blocks-wrapper .product-form__quantity {
+  width: 50%;
+  margin-top: 2rem;
+}
+.featured-product .blocks-wrapper .buy-button {
+  width: 60%;
+}

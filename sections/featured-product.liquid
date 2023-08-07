@@ -312,18 +312,12 @@
             </a>
           {% endcomment %}
         </product-info>
-        {%- for block in section.blocks -%}
-          {%- if block.type == 'tabs' -%}
-            <div class="tabs"></div>
-            {{ block.type | json }}
-          {%- endif -%}
-          {% comment %}
-            {%- case block.type -%}
-              {%- when 'tabs' -%}
-
-            {%- endcase -%}
-          {% endcomment %}
-        {%- endfor -%}
+        {% assign tabsBlocks = '' | split: ',' %}
+        {% for block in section.blocks %}
+          {% if block.type == 'tabs' %}
+            {%- assign tabsBlocks = tabsBlocks | push: block -%}
+          {% endif %}
+        {% endfor %}
       </div>
       {%- if section.settings.media_position == 'right' -%}
         <div class="grid__item product__media-wrapper small-hide">

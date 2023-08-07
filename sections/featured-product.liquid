@@ -313,9 +313,9 @@
           {% endcomment %}
         </product-info>
         {%- for block in section.blocks -%}
-          {{ block.type | json }}
           {%- if block.type == 'tabs' -%}
             <div class="tabs"></div>
+            {{ block.type | json }}
           {%- endif -%}
           {% comment %}
             {%- case block.type -%}

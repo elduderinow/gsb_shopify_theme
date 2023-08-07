@@ -278,14 +278,16 @@
                         </span>
                       {%- endif -%}
                     </div>
-                    <div class="buy-button">
-                      {%- render 'buy-buttons',
-                        block: block,
-                        product: product,
-                        product_form_id: product_form_id,
-                        section_id: section.id
-                      -%}
-                    </div>
+                    {% comment %}
+                      <div class="buy-button">
+                        {%- render 'buy-buttons',
+                          block: block,
+                          product: product,
+                          product_form_id: product_form_id,
+                          section_id: section.id
+                        -%}
+                      </div>
+                    {% endcomment %}
                   </div>
                 </div>
               {%- when 'share' -%}

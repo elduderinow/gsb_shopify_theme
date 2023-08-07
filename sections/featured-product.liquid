@@ -312,6 +312,10 @@
             </a>
           {% endcomment %}
         </product-info>
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+          {%- endcase -%}
+        {%- endfor -%}
         <div class="tabs">tabs</div>
       </div>
       {%- if section.settings.media_position == 'right' -%}

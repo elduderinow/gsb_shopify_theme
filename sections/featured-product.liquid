@@ -252,6 +252,14 @@
                         {% render 'icon-plus' %}
                       </button>
                     </quantity-input>
+                    <div class="buy-button">
+                      {%- render 'buy-buttons',
+                        block: block,
+                        product: product,
+                        product_form_id: product_form_id,
+                        section_id: section.id
+                      -%}
+                    </div>
                     <div class="quantity__rules caption no-js-hidden">
                       {%- if product.selected_or_first_available_variant.quantity_rule.increment > 1 -%}
                         <span class="divider">

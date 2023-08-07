@@ -15,14 +15,14 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Vitamine C voor het Gezicht",
+            "heading": "Behandelingen + Peelings",
             "heading_size": "h1"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Geef je gezicht dagelijks een oppepper met vitamine C, een antioxidant die beschermt tegen schadelijke, verouderende milieustressoren en zorgt voor een stralende huid.<\/p>",
+            "text": "<p>Ontdek een menu met professionele thuispeelingsets en gezichtsbehandelingen voor transformerende resultaten. Denk aan producten voor een stralende huid, gladmakende en herstellende huidbehandelingen.<\/p>",
             "text_style": "body"
           }
         },
@@ -40,7 +40,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/featured_header_Desktop-_vitamin-c_2.jpg",
+        "image": "shopify:\/\/shop_images\/featured_header_Desktop-_peels_738597f5-b18a-40af-a4fc-5981fe18083b.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -91,7 +91,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Bronnen voor Vitamine C Huidverzorging",
+            "heading": "Leer Meer Over Behandelingen + Peelings",
             "heading_size": "h1"
           }
         },
@@ -146,7 +146,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Bereik huidhelderheid en milieubescherming met vitamine C huidverzorgingsproducten. Vitamine C serums helpen bij hyperpigmentatie en andere huidverzorgingsproblemen. Leer hoe je het juiste serum kunt kiezen met behulp van onze bronnen voor vitamine C huidverzorging.<\/p>",
+            "text": "<p>Heb je je dagelijkse huidverzorgingsritueel onder de knie, maar heb je behoefte aan een beetje extra vernieuwing, verfijning of verheldering? Gerichte behandelingen en thuispeelings zijn de perfecte manier om je huidverzorging naar een hoger niveau te tillen en transformatieve resultaten te behalen. Ontdek een behandelingsplan dat geschikt is voor jouw huidtype met onze professionele tips en technieken.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -213,7 +213,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Vitamine C is een krachtige antioxidant die essentieel is voor niet alleen onze interne gezondheid, maar ook voor onze huid. Aangezien we het niet van nature in ons lichaam produceren, moeten we vitamine C oraal of topisch toevoegen - beide hebben tal van voordelen. Vitamine C voor het gezicht biedt dagelijkse bescherming tegen veroudering, vervuiling, blauw licht, zware metalen en andere vrije radicalen die een doffe huid, vroegtijdige lijntjes, donkere vlekken, droogheid en ruwe plekken kunnen veroorzaken.<\/p>",
+            "text": "<p>Glo zijn de professionals op het gebied van gezichtspeelings. We brengen de behandelkamer naar jouw badkamer en hebben onze professionele erfgoed en expertise in gezichtspeelings samengebracht in een collectie veilige, moeiteloze thuispeelingssets. Deze bieden professionele, transformerende resultaten in slechts 20 minuten. De beste thuispeelings, denk aan verhoogde exfoliatie-ervaringen voor elke huid. Onze bekroonde collectie thuischemische peelings omvat exfoliatieniveaus 1 en 2, waarbij elke peeling ook een gerichte boost van extra huidverzorgingsvoordelen biedt. Voor directe verheldering kies je onze gevoelige-huidvriendelijke peeling zonder hersteltijd - de perfecte gezichtsbehandeling als je nieuw bent met peelings of op zoek bent naar een grote oppepper voor je gloed. Als je je richt op anti-veroudering, levert onze peeling op basis van retinol en vitamine C 's nachts helderheid, egaliseert de teint en textuur voor blijvende helderheid. En voor de meer ervaren gebruikers van peelings, bevat onze niveau 2 oppervlaktepeeling glycolzuur voor professioneel gladmaken en radicaal verfijnde stralendheid.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -222,7 +222,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Met klinisch bewezen voordelen van dagelijkse vitamine C-serums voor je huid, beschermt het je huid tegen schadelijke vrije radicalen, versterkt het de afweer van je huid, terwijl het ook zorgt voor een aanzienlijke verheldering en helderheid van de teint. En als je je zorgen maakt dat vitamine C de huid lichter maakt, is dat een mythe. Vitamine C is perfect veilig voor alle huidtinten, het beschermt en bevordert je natuurlijke gloed. Perfect voor alle huidtypes, zelfs de gevoelige huid, is vitamine C een universele behandeling die je kunt toevoegen aan elke huidverzorgingsroutine die specifiek gericht is op bepaalde huidproblemen. Vitamine C helpt bij acne door ontstekingen veroorzaakt door acne te verminderen en de verschijning van hyperpigmentatie te verbeteren.<\/p>",
+            "text": "<p>Elke thuispeelingsset wordt geleverd met alle producten en accessoires die je nodig hebt om een volledige gezichtspeelingsservice thuis te voltooien, met een beetje extra voor nazorg na de peeling. En voor een voedende, anti-verouderingsbehandeling wordt onze thuisgezichtsbehandeling jouw favoriet. Perfect voor zelfverzorging en om cadeau te geven, onze schone en klinische huidverzorgingssets worden aanbevolen door dermatologen, zijn veganistisch, dierproefvrij, vrij van parabenen en ftalaten.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -254,6 +254,7 @@
     },
     "ce6989ae-1af1-455a-85b6-d30d25ae8fc3": {
       "type": "collapsible-content",
+      "disabled": true,
       "blocks": {
         "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-1": {
           "type": "collapsible_row",

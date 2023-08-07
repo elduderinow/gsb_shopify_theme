@@ -91,6 +91,9 @@ body {
   width: 60%;
   margin-top: 2rem;
 }
+.featured-product .blocks-wrapper .buy-button .product-form {
+  margin: 0;
+}
 .featured-product .blocks-wrapper .buy-button .product-form__buttons {
   display: flex;
   gap: 2rem;

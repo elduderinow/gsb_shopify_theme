@@ -91,3 +91,12 @@ body {
 .featured-product .blocks-wrapper .buy-button {
   width: 60%;
 }
+.featured-product .blocks-wrapper .buy-button .product-form__buttons {
+  display: flex;
+  gap: 2rem;
+}
+.featured-product .blocks-wrapper .buy-button .product-form__buttons button.shopify-payment-button__button {
+  white-space: nowrap;
+  padding: 0px 4rem;
+  border-radius: 50px;
+}

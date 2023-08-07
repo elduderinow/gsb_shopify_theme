@@ -83,6 +83,9 @@ body {
 .featured-product .blocks-wrapper .product-form__quantity {
   width: 50%;
   margin-top: 2rem;
+  min-width: auto;
+  max-width: none;
+  flex: none;
 }
 .featured-product .blocks-wrapper .buy-button {
   width: 60%;

@@ -86,6 +86,7 @@ body {
   min-width: auto;
   max-width: none;
   flex: none;
+  background-color: red;
 }
 .featured-product .blocks-wrapper .buy-button {
   width: 60%;

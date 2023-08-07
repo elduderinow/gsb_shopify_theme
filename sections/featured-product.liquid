@@ -313,10 +313,15 @@
           {% endcomment %}
         </product-info>
         {%- for block in section.blocks -%}
-          {%- case block.type -%}
-            {%- when 'tabs' -%}
-              <div class="tabs">tabs from when</div>
-          {%- endcase -%}
+          {%- if block.type == 'tabs' -%}
+            <div class="tabs"></div>
+          {%- endif -%}
+          {% comment %}
+            {%- case block.type -%}
+              {%- when 'tabs' -%}
+
+            {%- endcase -%}
+          {% endcomment %}
         {%- endfor -%}
       </div>
       {%- if section.settings.media_position == 'right' -%}

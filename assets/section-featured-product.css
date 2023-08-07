@@ -91,14 +91,6 @@ body {
   width: 60%;
   margin-top: 2rem;
 }
-.featured-product .blocks-wrapper .buy-button .buy-button--wrapper {
-  height: 100%;
-}
-.featured-product .blocks-wrapper .buy-button .product-form {
-  display: flex;
-  height: 100%;
-  align-items: flex-end;
-}
 .featured-product .blocks-wrapper .buy-button .product-form__buttons {
   display: flex;
   gap: 2rem;

@@ -347,9 +347,6 @@
               {%- when 'icon-with-text' -%}
                 {% render 'icon-with-text', block: block %}
             {%- endcase -%}
-            {%- if block.type == 'buy_button' -%}
-              <p>render the damn buttons</p>
-            {%- endif -%}
           {%- endfor -%}
           {% comment %}
             <a

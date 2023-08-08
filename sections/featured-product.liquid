@@ -282,11 +282,13 @@
             <div class="tabs-wrapper">
               <div class="tabs">
                 {%- for block in section.blocks -%}
-                  <div class="tabs--title">{{ block.settings.tab_title }}</div>
+                  <div class="tabs--title {%- if forloop.index == 0 -%} active {%- endif -%}">
+                    {{ block.settings.tab_title }}
+                  </div>
                 {%- endfor -%}
               </div>
               {%- for block in section.blocks -%}
-                <div class="tabs--content">
+                <div class="tabs--content {%- if forloop.index == 0 -%} active {%- endif -%}">
                   <p>{{ block.settings.tab_text }}</p>
                 </div>
               {%- endfor -%}

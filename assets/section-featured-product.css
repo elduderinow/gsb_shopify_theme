@@ -69,6 +69,7 @@ body {
 
 .featured-product .qnty-buy--wrapper {
   display: flex;
+  flex-direction: column;
   gap: 2rem;
 }
 .featured-product .qnty-buy--wrapper .buy-button--wrapper {

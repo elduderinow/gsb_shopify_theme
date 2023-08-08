@@ -68,68 +68,6 @@
     },
     "1f40742d-e9f6-48a9-8451-928aef1f294b": {
       "type": "featured-product",
-      "blocks": {
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-text-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-title-1": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-price-1": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-variant_picker-1": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-quantity_selector-1": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-buy_buttons-1": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-share-1": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        },
-        "cb539f9c-fd51-4a0c-b8f0-153dfb5ed1de": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-text-1",
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-title-1",
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-price-1",
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-variant_picker-1",
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-quantity_selector-1",
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-buy_buttons-1",
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-share-1",
-        "cb539f9c-fd51-4a0c-b8f0-153dfb5ed1de"
-      ],
       "settings": {
         "product": "741-1-retinol-c-smoothing-peel-in-a-box",
         "color_scheme": "background-1",

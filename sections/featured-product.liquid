@@ -294,7 +294,7 @@
               {%- for block in section.blocks -%}
                 <div
                   data-index="{{ forloop.index }}"
-                  class="tabs--content{% if forloop.index == 1 %} active{% endif %}"
+                  class="rte tabs--content{% if forloop.index == 1 %} active{% endif %}"
                 >
                   <p>{{ block.settings.tab_text }}</p>
                 </div>

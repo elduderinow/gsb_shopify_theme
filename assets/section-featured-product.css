@@ -108,16 +108,16 @@ body {
   /* Handle on hover */
 }
 .featured-product .values-wrapper::-webkit-scrollbar {
-  width: 10px;
+  height: 2px;
 }
 .featured-product .values-wrapper::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: rgba(0, 0, 0, 0);
 }
 .featured-product .values-wrapper::-webkit-scrollbar-thumb {
-  background: #888;
+  background: black;
 }
 .featured-product .values-wrapper::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: black;
 }
 .featured-product .values-wrapper .value {
   width: 75px;

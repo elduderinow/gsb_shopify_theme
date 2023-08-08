@@ -136,6 +136,9 @@
               {{ 'onboarding.product_title' | t }}
             {%- endif -%}
           </h2>
+          <div class="no-js-hidden" id="price-{{ section.id }}" role="status">
+            {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
+          </div>
           {% comment %}
             {%- for block in section.blocks -%}
               {%- case block.type -%}
@@ -148,14 +151,6 @@
                   >
                     {{- block.settings.text -}}
                   </p>
-                {%- when 'title' -%}
-                  <h2 class="product__title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-                    {%- if product.title != blank -%}
-                      {{ product.title | escape }}
-                    {%- else -%}
-                      {{ 'onboarding.product_title' | t }}
-                    {%- endif -%}
-                  </h2>
                 {%- when 'price' -%}
                   <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                     {%- render 'price',

@@ -228,7 +228,7 @@ html {
 .rte h4,
 .rte h5,
 .rte h6 {
-  margin-bottom: 2rem;
+  margin-bottom: 1.1rem;
 }
 .rte ul {
   list-style-position: inherit;
@@ -238,4 +238,7 @@ html {
 }
 .rte ul li {
   margin-bottom: 1.2rem;
+}
+.rte p + ul {
+  margin-top: 1.1rem;
 }

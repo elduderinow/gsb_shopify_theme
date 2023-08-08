@@ -39,6 +39,15 @@
   assign valueTags = valueTags | remove_first: ',' | split: ','
 -%}
 
+{%- liquid
+  assign hasValueTags = false
+  for tag in product.tags
+    if tag contains 'value'
+      assign hasValueTags = true
+    endif
+  endfor
+-%}
+
 {% comment %} TODO: assign `product.selected_or_first_available_variant` to variable and replace usage to reduce verbosity {% endcomment %}
 
 {%- assign first_3d_model = product.media | where: 'media_type', 'model' | first -%}
@@ -265,15 +274,6 @@
               -%}
             </div>
           </div>
-
-          {%- liquid
-            assign hasValueTags = false
-            for tag in product.tags
-              if tag contains 'value'
-                assign hasValueTags = true
-              endif
-            endfor
-          -%}
 
           {%- if hasValueTags == true -%}
             <div class="values-wrapper">

@@ -267,10 +267,12 @@
           </div>
           <div class="values-wrapper">
             {%- for tag in valueTags -%}
-              {{ tag | handle }}
-              <div class="value">
-                {% render tag %}
-              </div>
+              {%- case tag -%}
+                {%- when 'value-vegan' -%}
+                  <div class="value">
+                    {% render 'value-vegan' %}
+                  </div>
+              {%- endcase -%}
             {%- endfor -%}
           </div>
           {% comment %}

@@ -151,7 +151,6 @@ body {
   background: black;
 }
 .featured-product .tabs-wrapper .tabs .tabs--title {
-  text-transform: uppercase;
   color: #dddddd;
   white-space: nowrap;
 }

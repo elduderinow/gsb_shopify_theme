@@ -131,8 +131,29 @@ body {
   border-bottom: 1px solid #dddddd;
   padding: 0 0 1rem 0;
   margin-bottom: 2rem;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+.featured-product .tabs-wrapper .tabs::-webkit-scrollbar {
+  height: 2px;
+}
+.featured-product .tabs-wrapper .tabs::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+.featured-product .tabs-wrapper .tabs::-webkit-scrollbar-thumb {
+  background: black;
+}
+.featured-product .tabs-wrapper .tabs::-webkit-scrollbar-thumb:hover {
+  background: black;
 }
 .featured-product .tabs-wrapper .tabs .tabs--title {
   text-transform: uppercase;
   color: #dddddd;
+}
+.featured-product .tabs-wrapper .tabs .tabs--title.active {
+  color: black;
 }

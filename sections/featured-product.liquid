@@ -269,7 +269,7 @@
             {{ valueTags | json }}
             {%- for tag in valueTags -%}
               <div class="value">
-                {% render 'value-vegan' %}
+                {% render tag %}
               </div>
             {%- endfor -%}
           </div>

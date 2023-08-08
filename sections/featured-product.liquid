@@ -285,7 +285,7 @@
                 {%- for block in section.blocks -%}
                   <div
                     data-index="{{ forloop.index }}"
-                    class="tabs--title {%- if forloop.index == 1 -%} active {%- endif -%}"
+                    class="tabs--title  {%- if forloop.index == 1 -%} active {%- endif -%}"
                   >
                     {{ block.settings.tab_title }}
                   </div>
@@ -294,7 +294,7 @@
               {%- for block in section.blocks -%}
                 <div
                   data-index="{{ forloop.index }}"
-                  class="tabs--content {%- if forloop.index == 1 -%} active {%- endif -%}"
+                  class="tabs--content  {%- if forloop.index == 1 -%} active {%- endif -%}"
                 >
                   <p>{{ block.settings.tab_text }}</p>
                 </div>

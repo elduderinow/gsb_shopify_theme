@@ -34,7 +34,9 @@
   endif
   for tag in product.tags
     case tag
-      when 'vegan'
+      when 'value-vegan'
+        assign valueTags = valueTags | append: ',' | append: tag
+      when 'value-artificial'
         assign valueTags = valueTags | append: ',' | append: tag
     endcase
   endfor

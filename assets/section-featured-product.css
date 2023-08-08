@@ -155,6 +155,10 @@ body {
   color: #dddddd;
   white-space: nowrap;
 }
+.featured-product .tabs-wrapper .tabs .tabs--title:hover {
+  color: black;
+  cursor: pointer;
+}
 .featured-product .tabs-wrapper .tabs .tabs--title.active {
   color: black;
 }

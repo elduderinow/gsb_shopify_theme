@@ -266,10 +266,10 @@
             </div>
           </div>
           <div class="values-wrapper">
-            {{ valueTags | json }}
             {%- for tag in valueTags -%}
+              {{ tag | json }}
               <div class="value">
-                {% render tag %}
+                {% render 'value-vegan' %}
               </div>
             {%- endfor -%}
           </div>

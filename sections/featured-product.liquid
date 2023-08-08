@@ -278,13 +278,14 @@
           {%- if hasValueTags == true -%}
             {%- render 'values', productTags: product.tags -%}
           {%- endif -%}
-
-          {%- for block in section.blocks -%}
+          {%- if section.block.size > 0 -%}
             <div class="tabs">
-              <h1>{{ block.settings.tab_title }}</h1>
-              <p>{{ block.settings.tab_text }}</p>
+              {%- for block in section.blocks -%}
+                <h1>{{ block.settings.tab_title }}</h1>
+                <p>{{ block.settings.tab_text }}</p>
+              {%- endfor -%}
             </div>
-          {%- endfor -%}
+          {%- endif -%}
           {% comment %}
             {%- for block in section.blocks -%}
               {%- case block.type -%}

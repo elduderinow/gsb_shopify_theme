@@ -158,9 +158,9 @@ body {
 .featured-product .tabs-wrapper .tabs .tabs--title.active {
   color: black;
 }
-.featured-product .tabs-wrapper .tabs .tabs--content {
+.featured-product .tabs-wrapper .tabs--content {
   display: none;
 }
-.featured-product .tabs-wrapper .tabs .tabs--content.active {
+.featured-product .tabs-wrapper .tabs--content.active {
   display: block;
 }

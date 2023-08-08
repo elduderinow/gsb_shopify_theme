@@ -222,6 +222,14 @@ html {
   background-color: #009e6d;
 }
 
+.rte h1,
+.rte h2,
+.rte h3,
+.rte h4,
+.rte h5,
+.rte h6 {
+  margin-bottom: 2rem;
+}
 .rte ul {
   list-style-position: inherit;
   margin-left: 20px;

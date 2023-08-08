@@ -335,6 +335,9 @@
               {%- endcase -%}
             {%- endfor -%}
           </div>
+          {%- for block in section.blocks -%}
+            <div></div>
+          {%- endfor -%}
           {% comment %}
             {%- for block in section.blocks -%}
               {%- case block.type -%}

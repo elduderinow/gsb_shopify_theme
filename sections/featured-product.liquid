@@ -38,8 +38,6 @@
         assign valueTags = valueTags | append: ',' | append: tag
     endcase
   endfor
-  assign valueTags = valueTags | remove_first: ',' | split: ','
-  assign joinedTagLists = finalTaglist | concat: newTagList
 -%}
 
 {% comment %} TODO: assign `product.selected_or_first_available_variant` to variable and replace usage to reduce verbosity {% endcomment %}

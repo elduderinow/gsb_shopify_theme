@@ -101,11 +101,11 @@ body {
   display: flex;
   overflow-y: hidden;
   overflow-x: scroll;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 .featured-product .values-wrapper .value {
-  width: 55px;
-  height: 55px;
+  width: 65px;
+  height: 65px;
   aspect-ratio: 1/1;
   position: relative;
 }

@@ -23,6 +23,7 @@
 
 {%- liquid
   assign product = section.settings.product
+  assign valueTags = ''
 
   if section.settings.media_size == 'large'
     assign media_width = 0.65
@@ -31,6 +32,14 @@
   elsif section.settings.media_size == 'small'
     assign media_width = 0.45
   endif
+  for tag in product.tags
+    case tag
+      when 'vegan'
+        assign valueTags = valueTags | append: ',' | append: tag
+    endcase
+  endfor
+  assign valueTags = valueTags | remove_first: ',' | split: ','
+  assign joinedTagLists = finalTaglist | concat: newTagList
 -%}
 
 {% comment %} TODO: assign `product.selected_or_first_available_variant` to variable and replace usage to reduce verbosity {% endcomment %}

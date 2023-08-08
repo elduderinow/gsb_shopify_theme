@@ -100,7 +100,7 @@
         "f514ce4a-e652-4299-bd0d-36333942570f": {
           "type": "tab",
           "settings": {
-            "tab_title": "Tab",
+            "tab_title": "some long name",
             "tab_text": "<p>add text<\/p>"
           }
         }

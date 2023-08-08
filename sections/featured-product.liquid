@@ -277,7 +277,7 @@
           {{ hasValueTags | json }}
           {%- if hasValueTags == true -%}
             <p>test</p>
-            {%- render 'values', tags: product.tags -%}
+            {%- render 'values', productTags: product.tags -%}
           {%- endif -%}
           {%- for block in section.blocks -%}
             <div>

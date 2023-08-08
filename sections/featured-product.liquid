@@ -276,7 +276,6 @@
           -%}
 
           <div class="values-wrapper">
-            {{ hasValueTags | json }}
             {%- for tag in product.tags -%}
               {%- case tag -%}
                 {%- when 'value-vegan' -%}
@@ -346,6 +345,7 @@
               {%- endcase -%}
             {%- endfor -%}
           </div>
+          {{ hasValueTags | json }}
           {%- for block in section.blocks -%}
             <div>
               <h1>{{ block.settings.tab_title }}</h1>

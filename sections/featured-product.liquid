@@ -129,7 +129,13 @@
           data-url="{{ product.url }}"
         >
           {%- assign product_form_id = 'product-form-' | append: section.id -%}
-
+          <h2 class="product__title {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+            {%- if product.title != blank -%}
+              {{ product.title | escape }}
+            {%- else -%}
+              {{ 'onboarding.product_title' | t }}
+            {%- endif -%}
+          </h2>
           {% comment %}
             {%- for block in section.blocks -%}
               {%- case block.type -%}

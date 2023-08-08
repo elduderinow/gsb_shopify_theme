@@ -69,6 +69,10 @@ body {
 
 .featured-product .qnty-buy--wrapper {
   display: flex;
+  gap: 2rem;
+}
+.featured-product .qnty-buy--wrapper .buy-button--wrapper {
+  max-width: 45%;
 }
 .featured-product .qnty-buy--wrapper .buy-button--wrapper .product-form {
   margin: 0;

@@ -102,6 +102,22 @@ body {
   overflow-y: hidden;
   overflow-x: scroll;
   gap: 0.5rem;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+.featured-product .values-wrapper::-webkit-scrollbar {
+  width: 10px;
+}
+.featured-product .values-wrapper::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.featured-product .values-wrapper::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.featured-product .values-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 .featured-product .values-wrapper .value {
   width: 75px;

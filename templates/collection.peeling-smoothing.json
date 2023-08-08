@@ -89,28 +89,12 @@
             "tab_title": "<strong>How To Use<\/strong>",
             "tab_text": "<p>For full-strength serum benefits apply 4-6 drops to the face morning and\/or night.<\/p><p>Mix 2-3 drops to your favorite moisturizer for a hydration boost.<\/p><p>Can be used AM and\/or PM, depending on your skin’s needs. Apply after cleansing and toning. For a daily antioxidant boost, apply HA-Revive Hyaluronic Drops on top of <a href=\"https:\/\/www.gloskinbeauty.com\/c-shield-anti-pollution-drops\"><strong>C-Shield Anti-Pollution Drops<\/strong><\/a>.<\/p><p><strong>Pairs With:<\/strong><\/p><ul><li><a href=\"https:\/\/www.gloskinbeauty.com\/c-shield-anti-pollution-drops\"><strong>C-Shield Anti-Pollution Drops<\/strong><\/a> — the perfect daily serum duo to boost antioxidant benefits and moisture content in the skin. Mix 2-3 drops together or apply C-Shield Anti-Pollution Drops followed by HA-Revive Hyaluronic Drops in the morning.<\/li><li><a href=\"https:\/\/www.gloskinbeauty.com\/ha-revive-hyaluronic-mist\"><strong>HA-Revive Hyaluronic Mist<\/strong><\/a> for dual-action hyaluronic acid. Spritz skin and follow with HA-Revive Hyaluronic Drops for the ultimate hydration boost.<\/li><li>Follow HA-Revive Hyaluronic Drops with <a href=\"https:\/\/www.gloskinbeauty.com\/ha-revive-hyaluronic-hydrator\"><strong>HA-Revive Hyaluronic Hydrator<\/strong><\/a> to target dry, dehydrated, and dull skin concerned with aging.<\/li><\/ul>"
           }
-        },
-        "ec47b900-2c9c-4dfe-8fea-42829f3937e8": {
-          "type": "tab",
-          "settings": {
-            "tab_title": "some name",
-            "tab_text": "<p>add text<\/p>"
-          }
-        },
-        "f514ce4a-e652-4299-bd0d-36333942570f": {
-          "type": "tab",
-          "settings": {
-            "tab_title": "some long name",
-            "tab_text": "<p>add text<\/p>"
-          }
         }
       },
       "block_order": [
         "5a931e11-4a8d-4e1d-99df-57c12537b8e6",
         "ae83364b-88c0-4d59-8a36-aa4509b1f6af",
-        "a2c65f8f-de76-4334-9cfc-dcc6d12c6f9c",
-        "ec47b900-2c9c-4dfe-8fea-42829f3937e8",
-        "f514ce4a-e652-4299-bd0d-36333942570f"
+        "a2c65f8f-de76-4334-9cfc-dcc6d12c6f9c"
       ],
       "settings": {
         "product": "741-1-retinol-c-smoothing-peel-in-a-box",

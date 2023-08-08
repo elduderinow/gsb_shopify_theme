@@ -84,7 +84,7 @@ body {
 }
 .featured-product .qnty-buy--wrapper .buy-button--wrapper .product-form .product-form__buttons button.product-form__submit {
   white-space: nowrap;
-  padding: 0px 4rem;
+  padding: 0px 4rem !important;
   border-radius: 50px;
   width: 100%;
 }

@@ -226,6 +226,7 @@ html {
   list-style-position: inherit;
   margin-left: 20px;
   padding-left: 0;
+  list-style-type: disc;
 }
 .rte ul li {
   margin-bottom: 1.2rem;

@@ -118,20 +118,6 @@
             "text": "",
             "text_style": "body"
           }
-        },
-        "343112b3-4d6e-415f-bf9a-d015588ba7ea": {
-          "type": "tabs",
-          "settings": {
-            "tab_title": "tab title",
-            "tab_text": "Text block"
-          }
-        },
-        "5bfa3bcd-5d02-4822-ab54-7d732a34c5e7": {
-          "type": "tabs",
-          "settings": {
-            "tab_title": "tab title",
-            "tab_text": "Text block"
-          }
         }
       },
       "block_order": [
@@ -142,9 +128,7 @@
         "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-quantity_selector-1",
         "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-buy_buttons-1",
         "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-share-1",
-        "cb539f9c-fd51-4a0c-b8f0-153dfb5ed1de",
-        "343112b3-4d6e-415f-bf9a-d015588ba7ea",
-        "5bfa3bcd-5d02-4822-ab54-7d732a34c5e7"
+        "cb539f9c-fd51-4a0c-b8f0-153dfb5ed1de"
       ],
       "settings": {
         "product": "741-1-retinol-c-smoothing-peel-in-a-box",
@@ -163,6 +147,7 @@
     },
     "a7221b8f-1547-444b-af45-ca5396cf1f3a": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--19343199076699__a7221b8f-1547-444b-af45-ca5396cf1f3a-column-1": {
           "type": "column",

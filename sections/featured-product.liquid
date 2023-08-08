@@ -282,6 +282,7 @@
             <div class="tabs-wrapper">
               <div class="tabs">
                 {%- for block in section.blocks -%}
+                  {{ forloop.index | json }}
                   <div class="tabs--title {%- if forloop.index == 0 -%} active {%- endif -%}">
                     {{ block.settings.tab_title }}
                   </div>

@@ -276,9 +276,7 @@
           </div>
 
           {%- if hasValueTags == true -%}
-            <div class="values-wrapper">
-              {%- render 'values', tags: product.tags -%}
-            </div>
+            {%- render 'values', tags: product.tags -%}
           {%- endif -%}
           {%- for block in section.blocks -%}
             <div>

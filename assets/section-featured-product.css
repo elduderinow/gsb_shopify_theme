@@ -97,7 +97,7 @@ body {
 .featured-product .values-wrapper {
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
-  padding: 1.5rem 0;
+  padding: 0.5rem 0;
   display: flex;
   overflow-y: hidden;
   overflow-x: scroll;

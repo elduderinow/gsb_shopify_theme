@@ -66,3 +66,21 @@
 body {
   font-family: "Roboto", sans-serif !important;
 }
+
+.featured-product .qnty-buy--wrapper {
+  display: flex;
+}
+.featured-product .qnty-buy--wrapper .buy-button--wrapper .product-form__buttons {
+  display: flex;
+  gap: 2rem;
+}
+.featured-product .qnty-buy--wrapper .buy-button--wrapper .product-form__buttons button.product-form__submit {
+  white-space: nowrap;
+  padding: 0px 4rem;
+  border-radius: 50px;
+}
+.featured-product .qnty-buy--wrapper .buy-button--wrapper .product-form__buttons .shopify-payment-button__button {
+  white-space: nowrap;
+  padding: 0px 4rem;
+  border-radius: 50px;
+}

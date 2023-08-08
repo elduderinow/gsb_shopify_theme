@@ -104,7 +104,6 @@ body {
   gap: 2rem;
 }
 .featured-product .values-wrapper .value {
-  background-color: pink;
   width: 55px;
   height: 55px;
   aspect-ratio: 1/1;

@@ -268,10 +268,10 @@
 
           {%- liquid
             assign hasValueTags = false
-            if product.tags contains 'value'
-              assign hasValueTags = true
-            endif
             for tag in product.tags
+              if tag contains 'value'
+                assign hasValueTags = true
+              endif
             endfor
           -%}
 

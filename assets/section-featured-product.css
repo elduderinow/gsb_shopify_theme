@@ -104,8 +104,12 @@ body {
   gap: 2rem;
 }
 .featured-product .values-wrapper .value {
-  background-color: red;
+  background-color: green;
   width: 55px;
   height: 55px;
   aspect-ratio: 1/1;
+  position: relative;
+}
+.featured-product .values-wrapper .value:after {
+  position: absolute;
 }

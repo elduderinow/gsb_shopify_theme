@@ -37,7 +37,6 @@
     endif
   endfor
   assign valueTags = valueTags | remove_first: ',' | split: ','
-  assign joinedTagLists = valueTags | concat: valueTags
 -%}
 
 {% comment %} TODO: assign `product.selected_or_first_available_variant` to variable and replace usage to reduce verbosity {% endcomment %}
@@ -267,32 +266,12 @@
             </div>
           </div>
           <div class="values-wrapper">
-            {{ product.tags | json }}
             {{ valueTags | json }}
-            <div class="value">
-              {% render 'icon-vegan' %}
-            </div>
-            <div class="value">
-              {% render 'icon-artificial' %}
-            </div>
-            <div class="value">
-              {% render 'icon-vegan' %}
-            </div>
-            <div class="value">
-              {% render 'icon-vegan' %}
-            </div>
-            <div class="value">
-              {% render 'icon-vegan' %}
-            </div>
-            <div class="value">
-              {% render 'icon-vegan' %}
-            </div>
-            <div class="value">
-              {% render 'icon-vegan' %}
-            </div>
-            <div class="value">
-              {% render 'icon-vegan' %}
-            </div>
+            {%- for tag in valueTags -%}
+              <div class="value">
+                {% render 'value-vegan' %}
+              </div>
+            {%- endfor -%}
           </div>
           {% comment %}
             {%- for block in section.blocks -%}

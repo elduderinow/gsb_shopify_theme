@@ -221,3 +221,12 @@ html {
 .cart-count-bubble {
   background-color: #009e6d;
 }
+
+.rte ul {
+  list-style-position: inherit;
+  margin-left: 20px;
+  padding-left: 0;
+}
+.rte ul li {
+  margin-bottom: 1.2rem;
+}

@@ -94,3 +94,6 @@ body {
   border-radius: 50px;
   width: 100%;
 }
+.featured-product .values-wrappe {
+  background-color: red;
+}

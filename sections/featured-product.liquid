@@ -265,6 +265,16 @@
               -%}
             </div>
           </div>
+
+          {%- liquid
+            assign hasValueTags = false
+            if product.tags contains 'value'
+              assign hasValueTags = true
+            endif
+            for tag in product.tags
+            endfor
+          -%}
+
           <div class="values-wrapper">
             {%- for tag in product.tags -%}
               {%- case tag -%}

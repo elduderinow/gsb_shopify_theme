@@ -151,7 +151,7 @@
             </div>
           {%- endif -%}
           {%- if product != blank -%}
-            <div {{ block.shopify_attributes }}>
+            <div>
               {%- form 'product', product -%}
                 <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                 {{ form | payment_terms }}

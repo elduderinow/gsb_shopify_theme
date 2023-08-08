@@ -94,6 +94,18 @@ body {
   border-radius: 50px;
   width: 100%;
 }
-.featured-product .values-wrappe {
+.featured-product .values-wrapper {
+  border-top: 1px solid #aaaaaa;
+  border-bottom: 1px solid #aaaaaa;
+  padding: 1.5rem 0;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  gap: 2rem;
+}
+.featured-product .values-wrapper .value {
   background-color: red;
+  width: 55px;
+  height: 100%;
+  aspect-ratio: 1/1;
 }

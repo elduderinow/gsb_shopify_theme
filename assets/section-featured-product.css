@@ -110,9 +110,3 @@ body {
   aspect-ratio: 1/1;
   position: relative;
 }
-.featured-product .values-wrapper .value:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}

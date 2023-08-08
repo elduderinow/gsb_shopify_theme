@@ -125,3 +125,14 @@ body {
   aspect-ratio: 1/1;
   position: relative;
 }
+.featured-product .tabs-wrapper {
+  display: flex;
+  gap: 2rem;
+  border-bottom: 1px solid #dddddd;
+  padding: 0 0 1rem 0;
+  margin-bottom: 2rem;
+}
+.featured-product .tabs-wrapper .tabs--title {
+  text-transform: uppercase;
+  color: #dddddd;
+}

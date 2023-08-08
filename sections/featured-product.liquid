@@ -33,12 +33,9 @@
     assign media_width = 0.45
   endif
   for tag in product.tags
-    case tag
-      when 'value-vegan'
-        assign valueTags = valueTags | append: ',' | append: tag
-      when 'value-artificial'
-        assign valueTags = valueTags | append: ',' | append: tag
-    endcase
+    if tag contains 'value'
+      assign valueTags = valueTags | append: ',' | append: tag
+    endif
   endfor
 -%}
 

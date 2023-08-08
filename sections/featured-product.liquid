@@ -272,6 +272,10 @@
                   <div class="value">
                     {% render 'value-vegan' %}
                   </div>
+                {%- when 'value-artificial' -%}
+                  <div class="value">
+                    {% render 'value-artifical' %}
+                  </div>
               {%- endcase -%}
             {%- endfor -%}
           </div>

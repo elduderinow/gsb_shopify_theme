@@ -278,7 +278,7 @@
           {%- if hasValueTags == true -%}
             {%- render 'values', productTags: product.tags -%}
           {%- endif -%}
-          {%- if section.block.size > 0 -%}
+          {%- if section.blocks.size > 0 -%}
             <div class="tabs">
               {%- for block in section.blocks -%}
                 <h1>{{ block.settings.tab_title }}</h1>

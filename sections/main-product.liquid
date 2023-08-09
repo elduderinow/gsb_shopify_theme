@@ -109,8 +109,9 @@
             {{ form | payment_terms }}
           {%- endform -%}
         </div>
-
-        {{ product.metafields.custom.size | json }}
+        {%- if product.metafields.custom.size -%}
+          <p>{{ product.metafields.custom.size }}</p>
+        {%- endif -%}
 
         <div
           id="Quantity-Form-{{ section.id }}"

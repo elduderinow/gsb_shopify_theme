@@ -169,4 +169,5 @@ body {
 }
 .featured-product .product__view-details {
   display: flex;
+  margin-top: 4rem;
 }

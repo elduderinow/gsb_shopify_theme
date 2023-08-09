@@ -241,6 +241,7 @@
     },
     "0544e851-a779-4248-a67e-cbec20d2a40e": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-1": {
           "type": "column",
@@ -355,7 +356,6 @@
     },
     "a1b8a544-b5d6-4bca-b36c-d2b81eb792e5": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--19180119228763__a1b8a544-b5d6-4bca-b36c-d2b81eb792e5-column-1": {
           "type": "column",
@@ -409,6 +409,7 @@
         },
         "e904db06-7e8a-43cf-962e-d4421942d4ef": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/hydration.svg",
             "title": "",
@@ -419,6 +420,7 @@
         },
         "476bfc4e-a5ad-43bd-beb5-5692e8b5963b": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/parabens.svg",
             "title": "",
@@ -442,7 +444,7 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 7,
+        "columns_desktop": 6,
         "icon__grid": true,
         "column_alignment": "center",
         "item_alignment": "center",

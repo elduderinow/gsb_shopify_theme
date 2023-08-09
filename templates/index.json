@@ -652,7 +652,8 @@
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "section_width": "boxed"
       }
     },
     "e4c713b5-f3e0-4c55-a907-41e75876dd11": {
@@ -711,8 +712,10 @@
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
+        "show_preview_text": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "section_width": "boxed"
       }
     },
     "038e2eda-d74b-4a35-b975-29a27fd16f5e": {
@@ -734,7 +737,7 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 100,

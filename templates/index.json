@@ -409,7 +409,6 @@
         },
         "e904db06-7e8a-43cf-962e-d4421942d4ef": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/hydration.svg",
             "title": "",

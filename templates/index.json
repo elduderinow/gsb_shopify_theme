@@ -457,50 +457,6 @@
         "section_width": "boxed"
       }
     },
-    "59fb9ddd-d55c-49a7-ac87-c5d37744075d": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19143340065115__59fb9ddd-d55c-49a7-ac87-c5d37744075d-1689686290bacfce76-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Onze belofte voor clean",
-            "heading_size": "h1"
-          }
-        },
-        "template--19143340065115__59fb9ddd-d55c-49a7-ac87-c5d37744075d-1689686290bacfce76-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--19143340065115__59fb9ddd-d55c-49a7-ac87-c5d37744075d-1689686290bacfce76-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19143340065115__59fb9ddd-d55c-49a7-ac87-c5d37744075d-1689686290bacfce76-0",
-        "template--19143340065115__59fb9ddd-d55c-49a7-ac87-c5d37744075d-1689686290bacfce76-1",
-        "template--19143340065115__59fb9ddd-d55c-49a7-ac87-c5d37744075d-1689686290bacfce76-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 80,
-        "padding_bottom": 0
-      }
-    },
     "1ecd70ec-550e-4ee0-9b19-cbdc86548b9c": {
       "type": "multicolumn",
       "blocks": {
@@ -556,6 +512,50 @@
         "padding_top": 40,
         "padding_bottom": 40,
         "section_width": "boxed"
+      }
+    },
+    "59fb9ddd-d55c-49a7-ac87-c5d37744075d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19143340065115__59fb9ddd-d55c-49a7-ac87-c5d37744075d-1689686290bacfce76-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Onze belofte voor clean",
+            "heading_size": "h1"
+          }
+        },
+        "template--19143340065115__59fb9ddd-d55c-49a7-ac87-c5d37744075d-1689686290bacfce76-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--19143340065115__59fb9ddd-d55c-49a7-ac87-c5d37744075d-1689686290bacfce76-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19143340065115__59fb9ddd-d55c-49a7-ac87-c5d37744075d-1689686290bacfce76-0",
+        "template--19143340065115__59fb9ddd-d55c-49a7-ac87-c5d37744075d-1689686290bacfce76-1",
+        "template--19143340065115__59fb9ddd-d55c-49a7-ac87-c5d37744075d-1689686290bacfce76-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 0
       }
     },
     "b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721": {
@@ -873,8 +873,8 @@
     "36581f1d-ed42-44a4-ba6e-322786b4adbc",
     "0544e851-a779-4248-a67e-cbec20d2a40e",
     "a1b8a544-b5d6-4bca-b36c-d2b81eb792e5",
-    "59fb9ddd-d55c-49a7-ac87-c5d37744075d",
     "1ecd70ec-550e-4ee0-9b19-cbdc86548b9c",
+    "59fb9ddd-d55c-49a7-ac87-c5d37744075d",
     "b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721",
     "5c3199d7-11a1-45b3-9035-c6dce8f38ac2",
     "0fdfcae3-8f01-4e9e-889e-3faf6f707784",

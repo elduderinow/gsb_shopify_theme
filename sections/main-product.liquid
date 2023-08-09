@@ -450,6 +450,11 @@
           {{ 'products.product.view_full_details' | t }}
           {% render 'icon-arrow' %}
         </a>
+
+        {%- if hasValueTags == true -%}
+          {%- render 'values', productTags: product.tags -%}
+        {%- endif -%}
+        
       </product-info>
     </div>
     {%- if section.settings.media_position == 'right' -%}

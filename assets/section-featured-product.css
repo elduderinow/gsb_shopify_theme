@@ -167,3 +167,6 @@ body {
 .featured-product .tabs-wrapper .tabs--content.active {
   display: block;
 }
+.featured-product .product__view-details {
+  display: flex;
+}

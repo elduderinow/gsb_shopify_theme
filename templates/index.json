@@ -451,7 +451,7 @@
         "button_link": "",
         "color_scheme": "background-2",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 80,
         "section_width": "boxed"

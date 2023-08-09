@@ -69,66 +69,32 @@
     "1f40742d-e9f6-48a9-8451-928aef1f294b": {
       "type": "featured-product",
       "blocks": {
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-text-1": {
-          "type": "text",
-          "disabled": true,
+        "5a931e11-4a8d-4e1d-99df-57c12537b8e6": {
+          "type": "tab",
           "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
+            "tab_title": "<strong>Product<\/strong>",
+            "tab_text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<\/p>"
           }
         },
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-title-1": {
-          "type": "title",
+        "ae83364b-88c0-4d59-8a36-aa4509b1f6af": {
+          "type": "tab",
           "settings": {
-            "heading_size": "h1"
+            "tab_title": "<strong>Key Ingredients<\/strong>",
+            "tab_text": "<p><strong>Key Ingredients:<\/strong><\/p><ul><li>Hyaluronic Acid: Occurring naturally in the human body, this water-binding molecule works by attracting large amounts of water molecules and binding them into the skin. Perfect for dry or dehydrated skin, adding hyaluronic acid to your skincare helps boost skin’s hydration levels for a plumped, smoothed, more radiant effect.<\/li><li>Sweet Iris (Plant Stem Cell): Smooths and softens, helping bind moisture to the skin and keep it there.<\/li><li>Marine Actives (Plankton Extract): Retextures fine lines and wrinkles, firming skin<\/li><\/ul>"
           }
         },
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-price-1": {
-          "type": "price",
+        "a2c65f8f-de76-4334-9cfc-dcc6d12c6f9c": {
+          "type": "tab",
           "settings": {
-          }
-        },
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-variant_picker-1": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-quantity_selector-1": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-buy_buttons-1": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-share-1": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        },
-        "cb539f9c-fd51-4a0c-b8f0-153dfb5ed1de": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
+            "tab_title": "<strong>How To Use<\/strong>",
+            "tab_text": "<p>For full-strength serum benefits apply 4-6 drops to the face morning and\/or night.<\/p><p>Mix 2-3 drops to your favorite moisturizer for a hydration boost.<\/p><p>Can be used AM and\/or PM, depending on your skin’s needs. Apply after cleansing and toning. For a daily antioxidant boost, apply HA-Revive Hyaluronic Drops on top of <a href=\"https:\/\/www.gloskinbeauty.com\/c-shield-anti-pollution-drops\"><strong>C-Shield Anti-Pollution Drops<\/strong><\/a>.<\/p><p><strong>Pairs With:<\/strong><\/p><ul><li><a href=\"https:\/\/www.gloskinbeauty.com\/c-shield-anti-pollution-drops\"><strong>C-Shield Anti-Pollution Drops<\/strong><\/a> — the perfect daily serum duo to boost antioxidant benefits and moisture content in the skin. Mix 2-3 drops together or apply C-Shield Anti-Pollution Drops followed by HA-Revive Hyaluronic Drops in the morning.<\/li><li><a href=\"https:\/\/www.gloskinbeauty.com\/ha-revive-hyaluronic-mist\"><strong>HA-Revive Hyaluronic Mist<\/strong><\/a> for dual-action hyaluronic acid. Spritz skin and follow with HA-Revive Hyaluronic Drops for the ultimate hydration boost.<\/li><li>Follow HA-Revive Hyaluronic Drops with <a href=\"https:\/\/www.gloskinbeauty.com\/ha-revive-hyaluronic-hydrator\"><strong>HA-Revive Hyaluronic Hydrator<\/strong><\/a> to target dry, dehydrated, and dull skin concerned with aging.<\/li><\/ul>"
           }
         }
       },
       "block_order": [
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-text-1",
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-title-1",
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-price-1",
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-variant_picker-1",
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-quantity_selector-1",
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-buy_buttons-1",
-        "template--19382716301659__1f40742d-e9f6-48a9-8451-928aef1f294b-share-1",
-        "cb539f9c-fd51-4a0c-b8f0-153dfb5ed1de"
+        "5a931e11-4a8d-4e1d-99df-57c12537b8e6",
+        "ae83364b-88c0-4d59-8a36-aa4509b1f6af",
+        "a2c65f8f-de76-4334-9cfc-dcc6d12c6f9c"
       ],
       "settings": {
         "product": "741-1-retinol-c-smoothing-peel-in-a-box",
@@ -136,7 +102,7 @@
         "secondary_background": false,
         "media_size": "small",
         "constrain_to_viewport": true,
-        "media_fit": "contain",
+        "media_fit": "cover",
         "media_position": "left",
         "image_zoom": "none",
         "hide_variants": false,
@@ -147,6 +113,7 @@
     },
     "a7221b8f-1547-444b-af45-ca5396cf1f3a": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--19343199076699__a7221b8f-1547-444b-af45-ca5396cf1f3a-column-1": {
           "type": "column",

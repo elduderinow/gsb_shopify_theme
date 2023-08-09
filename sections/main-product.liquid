@@ -197,6 +197,10 @@
           show_pickup_availability: true
         -%}
 
+        {%- if hasValueTags == true -%}
+          {%- render 'values', productTags: product.tags -%}
+        {%- endif -%}
+
         {%- if product.description != blank -%}
           <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
             {{ product.description }}

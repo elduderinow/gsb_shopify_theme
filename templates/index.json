@@ -681,11 +681,34 @@
         "section_width": "boxed"
       }
     },
+    "27e0a6fd-4902-475d-8c44-722ca6c9a8c7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19143340065115__27e0a6fd-4902-475d-8c44-722ca6c9a8c7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shop our skincare and",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--19143340065115__27e0a6fd-4902-475d-8c44-722ca6c9a8c7-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "038e2eda-d74b-4a35-b975-29a27fd16f5e": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
-        "description": "",
+        "title": "Meest populair",
+        "description": "Shop onze bestverkopende huidverzorging en make-up.",
         "show_description": false,
         "collection": "alles-zonder-tools-displays",
         "products_to_show": 9,
@@ -737,6 +760,7 @@
     "5c3199d7-11a1-45b3-9035-c6dce8f38ac2",
     "e4c713b5-f3e0-4c55-a907-41e75876dd11",
     "0f90b165-b5d3-4c04-9d0a-74dd2faa080b",
+    "27e0a6fd-4902-475d-8c44-722ca6c9a8c7",
     "038e2eda-d74b-4a35-b975-29a27fd16f5e",
     "1689685903c1366c04"
   ]

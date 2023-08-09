@@ -110,7 +110,7 @@
           {%- endform -%}
         </div>
 
-        {{ product.metafields | json }}
+        {{ product.metafields.size | json }}
 
         <div
           id="Quantity-Form-{{ section.id }}"

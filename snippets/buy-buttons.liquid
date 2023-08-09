@@ -10,7 +10,7 @@
   Usage:
   {% render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true %}
 {% endcomment %}
-<div {{ block.shopify_attributes }}>
+<div class="buy-button--wrapper" {{ block.shopify_attributes }}>
   {%- if product != blank -%}
     {%- liquid
       assign gift_card_recipient_feature_active = false
@@ -20,6 +20,10 @@
 
       assign show_dynamic_checkout = false
       if block.settings.show_dynamic_checkout and gift_card_recipient_feature_active == false
+        assign show_dynamic_checkout = true
+      endif
+
+      if forceShowBuy == true
         assign show_dynamic_checkout = true
       endif
     -%}
@@ -62,7 +66,7 @@
         <div class="product-form__buttons">
           {%- liquid
             assign check_against_inventory = true
-            if product.selected_or_first_available_variant.inventory_management != 'shopify' or  product.selected_or_first_available_variant.inventory_policy == 'continue'
+            if product.selected_or_first_available_variant.inventory_management != 'shopify' or product.selected_or_first_available_variant.inventory_policy == 'continue'
               assign check_against_inventory = false
             endif
             if product.selected_or_first_available_variant.quantity_rule.min > product.selected_or_first_available_variant.inventory_quantity and check_against_inventory
@@ -70,7 +74,7 @@
             endif
           -%}
           <button
-            id = "ProductSubmitButton-{{ section_id }}"
+            id="ProductSubmitButton-{{ section_id }}"
             type="submit"
             name="add"
             class="product-form__submit button button--full-width {% if show_dynamic_checkout %}button--secondary{% else %}button--primary{% endif %}"

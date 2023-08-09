@@ -1,0 +1,131 @@
+@import "./shopify/section-featured-product.scss", "../config/config.scss";
+
+.featured-product {
+    .qnty-buy--wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .buy-button--wrapper {
+            max-width: 45%;
+            .product-form {
+                margin: 0;
+                .product-form__buttons {
+                    display: flex;
+                    gap: 2rem;
+
+                    button.product-form__submit {
+                        white-space: nowrap;
+                        padding: 0px 4rem;
+                        border-radius: 50px;
+                        width: 100%;
+                    }
+
+                    .shopify-payment-button__button {
+                        white-space: nowrap;
+                        padding: 0px 4rem;
+                        border-radius: 50px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .values-wrapper {
+        border-top: 1px solid $gray200;
+        border-bottom: 1px solid $gray200;
+        padding: 0.5rem 0;
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        gap: 0.5rem;
+
+        /* width */
+        &::-webkit-scrollbar {
+            height: 2px;
+        }
+
+        /* Track */
+        &::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0);
+        }
+
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+            background: black;
+        }
+
+        /* Handle on hover */
+        &::-webkit-scrollbar-thumb:hover {
+            background: black;
+        }
+
+        .value {
+            width: 75px;
+            height: 75px;
+            aspect-ratio: 1/1;
+            position: relative;
+        }
+    }
+
+    .tabs-wrapper {
+        .tabs {
+            display: flex;
+            gap: 2rem;
+            border-bottom: 1px solid $gray200;
+            padding: 0 0 1rem 0;
+            margin-bottom: 2rem;
+
+            overflow-y: hidden;
+            overflow-x: scroll;
+
+            /* width */
+            &::-webkit-scrollbar {
+                height: 2px;
+            }
+
+            /* Track */
+            &::-webkit-scrollbar-track {
+                background: rgba(0, 0, 0, 0);
+            }
+
+            /* Handle */
+            &::-webkit-scrollbar-thumb {
+                background: black;
+            }
+
+            /* Handle on hover */
+            &::-webkit-scrollbar-thumb:hover {
+                background: black;
+            }
+
+            .tabs--title {
+                color: $gray200;
+                white-space: nowrap;
+
+                &:hover {
+                    color: black;
+                    cursor: pointer;
+                }
+
+                &.active {
+                    color: black;
+                }
+            }
+        }
+
+        .tabs--content {
+            display: none;
+
+            &.active {
+                display: block;
+            }
+        }
+    }
+
+    .product__view-details {
+        display: flex;
+        margin-top: 4rem;
+    }
+}

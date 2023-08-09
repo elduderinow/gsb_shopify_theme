@@ -87,6 +87,9 @@
               {{ product.title | escape }}
             </h2>
           </a>
+          {%- if product.metafields.custom.size -%}
+            <p>{{ product.metafields.custom.size }}</p>
+          {%- endif -%}
         </div>
 
         <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
@@ -109,9 +112,6 @@
             {{ form | payment_terms }}
           {%- endform -%}
         </div>
-        {%- if product.metafields.custom.size -%}
-          <p>{{ product.metafields.custom.size }}</p>
-        {%- endif -%}
 
         <div
           id="Quantity-Form-{{ section.id }}"

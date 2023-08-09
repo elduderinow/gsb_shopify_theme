@@ -78,7 +78,7 @@
           "type": "heading",
           "settings": {
             "heading": "Ons Verhaal",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         }
       },
@@ -448,7 +448,7 @@
         "column_alignment": "center",
         "item_alignment": "center",
         "background_style": "none",
-        "button_label": "",
+        "button_label": "Lees meer",
         "button_link": "",
         "color_scheme": "background-2",
         "columns_mobile": "1",
@@ -460,6 +460,7 @@
     },
     "6dfc8c1f-05f6-4021-b06a-ab52aa9eaa27": {
       "type": "call-to-action",
+      "disabled": true,
       "blocks": {
         "template--19143340065115__6dfc8c1f-05f6-4021-b06a-ab52aa9eaa27-link-1": {
           "type": "link",

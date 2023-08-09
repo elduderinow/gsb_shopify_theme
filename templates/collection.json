@@ -11,6 +11,7 @@
     },
     "92602d36-7d25-4028-b9d9-a36860448447": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
@@ -58,7 +59,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "product_view": "grid",
+        "product_view": "list",
         "section_width": "full_width",
         "products_per_page": 20,
         "columns_desktop": 4,

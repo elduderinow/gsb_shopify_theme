@@ -188,7 +188,7 @@
       ],
       "settings": {
         "title": "Wat maakt glo Skin Beauty uniek",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "description": "",
         "color_scheme": "background-1",
         "padding_top": 80,
@@ -476,63 +476,6 @@
         "color_scheme": "background-2",
         "padding_top": 36,
         "padding_bottom": 72
-      }
-    },
-    "1ecd70ec-550e-4ee0-9b19-cbdc86548b9c": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--19143340065115__1ecd70ec-550e-4ee0-9b19-cbdc86548b9c-1688229291c922cd03-0": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>Bij Glo Skin Beauty geloven we dat huidverzorging zelfzorg is en dat de producten die je elke dag gebruikt een significant verschil moeten maken voor je gezondheid en welzijn. We doen intensief onderzoek naar onze formuleringen om bewust clean, klinisch bewezen huidverzorging en cosmetica te creëren, gemaakt om echte verandering teweeg te brengen in jou en je huid. <br\/><br\/>Onze grondstoffen en eindproducten worden nooit op dieren getest en we zijn er trots op dat we lid zijn van PETA's Beauty Without Bunnies. We beloven dat we in 2023 volledig veganistisch zullen zijn.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--19143340065115__1ecd70ec-550e-4ee0-9b19-cbdc86548b9c-1688229291c922cd03-1": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>Omdat we begrijpen dat wat er niet in onze producten zit net zo belangrijk is als wat er wel in zit, gebruiken we alleen vertrouwde ingrediënten van de hoogste kwaliteit in effectieve concentraties om baanbrekende resultaten te leveren zonder afbreuk te doen aan de veiligheid van de huid.<br\/><br\/>We hanteren een less is more-aanpak, met minimale ingrediënten voor een maximaal effect. Onze belofte voor clean betekent dat we nooit formuleren met parabenen, talk, kunstmatige geurstoffen, irriterende sulfaten, ftalaten, agressieve kleurstoffen, polyethyleenparels of minerale olie.<br\/>We blijven formuleren, herzien en innoveren om ervoor te zorgen dat onze producten onvoorwaardelijk clean blijven.<br\/><\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "3f2326b7-3059-405f-b2fa-075d96d0b6fc": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "",
-            "text": "<p><strong>Whats in?<br\/><br\/><\/strong><\/p><ul><li>NEXT-GENERATION ACTIVES<\/li><li>NATURAL NOURISHERS<\/li><li>LUXURIOUS HYDRATORS<\/li><li>ETHICALLY-SOURCED MINERALS<\/li><li>SOOTHING BOTANICALS<\/li><li>ANTIOXIDANTS<\/li><li>INNOVATIVE TECHNOLOGY<\/li><\/ul>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19143340065115__1ecd70ec-550e-4ee0-9b19-cbdc86548b9c-1688229291c922cd03-0",
-        "template--19143340065115__1ecd70ec-550e-4ee0-9b19-cbdc86548b9c-1688229291c922cd03-1",
-        "3f2326b7-3059-405f-b2fa-075d96d0b6fc"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "icon__grid": false,
-        "column_alignment": "left",
-        "item_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "section_width": "boxed"
       }
     },
     "59fb9ddd-d55c-49a7-ac87-c5d37744075d": {
@@ -895,7 +838,6 @@
     "0544e851-a779-4248-a67e-cbec20d2a40e",
     "a1b8a544-b5d6-4bca-b36c-d2b81eb792e5",
     "6dfc8c1f-05f6-4021-b06a-ab52aa9eaa27",
-    "1ecd70ec-550e-4ee0-9b19-cbdc86548b9c",
     "59fb9ddd-d55c-49a7-ac87-c5d37744075d",
     "b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721",
     "5c3199d7-11a1-45b3-9035-c6dce8f38ac2",

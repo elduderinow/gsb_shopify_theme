@@ -75,21 +75,21 @@ $cols: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
 
                     @media (min-width: $breakpoint-sm) {
                         .grid__item {
-                            width: calc((100% / 5) - $gap);
+                            width: calc((100% / 4) - $gap);
                             .multicolumn-card__image-wrapper {
                                 padding: 0.5rem 0.5rem 0 0.5rem;
                             }
                         }
                     }
 
-                    @media (min-width: $breakpoint-md) {
-                        .grid__item {
-                            width: calc((100% / 5) - $gap);
-                            .multicolumn-card__image-wrapper {
-                                padding: 0;
-                            }
-                        }
-                    }
+                    // @media (min-width: $breakpoint-md) {
+                    //     .grid__item {
+                    //         width: calc((100% / 4) - $gap);
+                    //         .multicolumn-card__image-wrapper {
+                    //             padding: 0;
+                    //         }
+                    //     }
+                    // }
 
                     @media (min-width: $breakpoint-lg) {
                         .grid__item {
@@ -104,7 +104,7 @@ $cols: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
             justify-content: left;
         }
         &.justify-center {
-            justify-content: space-between;
+            justify-content: center;
         }
         &.justify-right {
             justify-content: right;

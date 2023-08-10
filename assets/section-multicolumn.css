@@ -237,7 +237,6 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn .multicolumn-list.grid--1-col-desktop .grid__item {
-    background-color: red;
     width: calc(200% - 5px);
   }
 }
@@ -248,7 +247,6 @@ body {
 }
 @media (max-width: 750px) {
   .multicolumn .multicolumn-list.grid--1-col-tablet-down .grid__item {
-    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -261,7 +259,6 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn .multicolumn-list.grid--2-col-desktop .grid__item {
-    background-color: red;
     width: calc(100% - 5px);
   }
 }
@@ -272,7 +269,6 @@ body {
 }
 @media (max-width: 750px) {
   .multicolumn .multicolumn-list.grid--2-col-tablet-down .grid__item {
-    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -285,7 +281,6 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn .multicolumn-list.grid--3-col-desktop .grid__item {
-    background-color: red;
     width: calc(66.6666666667% - 5px);
   }
 }
@@ -296,7 +291,6 @@ body {
 }
 @media (max-width: 750px) {
   .multicolumn .multicolumn-list.grid--3-col-tablet-down .grid__item {
-    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -309,7 +303,6 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn .multicolumn-list.grid--4-col-desktop .grid__item {
-    background-color: red;
     width: calc(50% - 5px);
   }
 }
@@ -320,7 +313,6 @@ body {
 }
 @media (max-width: 750px) {
   .multicolumn .multicolumn-list.grid--4-col-tablet-down .grid__item {
-    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -333,7 +325,6 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn .multicolumn-list.grid--5-col-desktop .grid__item {
-    background-color: red;
     width: calc(40% - 5px);
   }
 }
@@ -344,7 +335,6 @@ body {
 }
 @media (max-width: 750px) {
   .multicolumn .multicolumn-list.grid--5-col-tablet-down .grid__item {
-    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -357,7 +347,6 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn .multicolumn-list.grid--6-col-desktop .grid__item {
-    background-color: red;
     width: calc(33.3333333333% - 5px);
   }
 }
@@ -368,7 +357,6 @@ body {
 }
 @media (max-width: 750px) {
   .multicolumn .multicolumn-list.grid--6-col-tablet-down .grid__item {
-    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -381,7 +369,6 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn .multicolumn-list.grid--7-col-desktop .grid__item {
-    background-color: red;
     width: calc(28.5714285714% - 5px);
   }
 }
@@ -392,7 +379,6 @@ body {
 }
 @media (max-width: 750px) {
   .multicolumn .multicolumn-list.grid--7-col-tablet-down .grid__item {
-    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -405,7 +391,6 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn .multicolumn-list.grid--8-col-desktop .grid__item {
-    background-color: red;
     width: calc(25% - 5px);
   }
 }
@@ -416,7 +401,6 @@ body {
 }
 @media (max-width: 750px) {
   .multicolumn .multicolumn-list.grid--8-col-tablet-down .grid__item {
-    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -429,7 +413,6 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn .multicolumn-list.grid--9-col-desktop .grid__item {
-    background-color: red;
     width: calc(22.2222222222% - 5px);
   }
 }
@@ -440,7 +423,6 @@ body {
 }
 @media (max-width: 750px) {
   .multicolumn .multicolumn-list.grid--9-col-tablet-down .grid__item {
-    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -453,7 +435,6 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn .multicolumn-list.grid--10-col-desktop .grid__item {
-    background-color: red;
     width: calc(20% - 5px);
   }
 }
@@ -464,7 +445,6 @@ body {
 }
 @media (max-width: 750px) {
   .multicolumn .multicolumn-list.grid--10-col-tablet-down .grid__item {
-    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -477,7 +457,6 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn .multicolumn-list.grid--11-col-desktop .grid__item {
-    background-color: red;
     width: calc(18.1818181818% - 5px);
   }
 }
@@ -488,7 +467,6 @@ body {
 }
 @media (max-width: 750px) {
   .multicolumn .multicolumn-list.grid--11-col-tablet-down .grid__item {
-    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -501,7 +479,6 @@ body {
 }
 @media (min-width: 750px) {
   .multicolumn .multicolumn-list.grid--12-col-desktop .grid__item {
-    background-color: red;
     width: calc(16.6666666667% - 5px);
   }
 }
@@ -512,7 +489,6 @@ body {
 }
 @media (max-width: 750px) {
   .multicolumn .multicolumn-list.grid--12-col-tablet-down .grid__item {
-    background-color: blue;
     width: 100%;
     max-width: 100%;
   }

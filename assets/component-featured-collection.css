@@ -381,7 +381,7 @@ body {
 }
 
 .featured-collection--component {
-  background-color: red;
+  background-color: green;
 }
 .featured-collection--component .card__content .quick-add button.product-form__submit {
   white-space: nowrap;

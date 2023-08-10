@@ -1,4 +1,4 @@
-@import "shopify_base.css", "../config/config.scss";
+@import "shopify_base.scss", "../config/config.scss";
 
 html {
     scroll-behavior: smooth;
@@ -19,14 +19,14 @@ html {
     padding-right: 1.5rem;
 
     @media (min-width: $breakpoint-md) {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    @media (min-width: $breakpoint-lg) {
         padding-left: 5rem;
         padding-right: 5rem;
     }
-
-    // @media (min-width: $breakpoint-lg) {
-    //     padding-left: 5rem;
-    //     padding-right: 5rem;
-    // }
 }
 
 .page-width--full_width {
@@ -59,8 +59,17 @@ html {
 }
 
 #product-grid {
-    .grid__item {
-        max-width: none;
+    @media screen and (min-width: 750px) {
+        .grid__item {
+            max-width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
+        }
+    }
+
+    @media screen and (min-width: 990px) {
+        .grid__item {
+            flex-grow: 0;
+            width: calc(25% - var(--grid-mobile-horizontal-spacing) * 3 / 4);
+        }
     }
 }
 

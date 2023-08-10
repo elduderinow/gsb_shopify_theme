@@ -1,0 +1,46 @@
+@import "./shopify/component-featured-collection.scss", "../config/config.scss";
+
+.featured-collection--component {
+    .grid__item {
+        .card__content {
+            .quick-add {
+                button.quick-add__submit {
+                    white-space: nowrap;
+                    padding: 0.8rem 2rem;
+                    border-radius: 50px;
+                    width: auto;
+                    min-width: auto;
+                    min-height: auto;
+
+                    &:after,
+                    &:before {
+                        content: none;
+                    }
+
+                    &:disabled {
+                        background-color: $gray;
+                        color: $gray800;
+                        transition: background-color 0.3s ease-in-out;
+
+                        &:hover {
+                            cursor: not-allowed;
+                        }
+                    }
+
+                    &:not([disabled]) {
+                        background-color: rgba(0, 0, 0, 0);
+                        color: $gray800;
+                        border: 1px solid black;
+                        transition: background-color 0.3s ease-in-out;
+
+                        &:hover {
+                            background-color: black;
+                            color: white;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

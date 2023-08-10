@@ -3,6 +3,20 @@
 $cols: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
 
 .multicolumn {
+    .global-section-x-padding {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    
+        @media (min-width: $breakpoint-md) {
+            padding-left: 6rem;
+            padding-right: 6rem;
+        }
+    
+        @media (min-width: $breakpoint-lg) {
+            padding-left: 10rem;
+            padding-right: 10rem;
+        }
+    }
     .multicolumn-list {
         column-gap: 0;
         justify-content: space-between;
@@ -35,7 +49,6 @@ $cols: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
             &.grid--#{$col}-col-desktop {
                 .grid__item {
                     width: 100%;
-
                     &.icon__grid {
                         flex-grow: initial;
                     }
@@ -50,6 +63,15 @@ $cols: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
                 @media (min-width: $breakpoint-lg) {
                     .grid__item {
                         width: calc((100% / $col) - 5px);
+                    }
+                }
+            }
+
+            &.grid--#{$col}-col-tablet-down {
+                @media (max-width: $breakpoint-md) {
+                    .grid__item {
+                        width: 100%;
+                        max-width: 100%;
                     }
                 }
             }
@@ -105,6 +127,7 @@ $cols: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
         }
         &.justify-center {
             justify-content: center;
+            gap: 3.5rem;
         }
         &.justify-right {
             justify-content: right;

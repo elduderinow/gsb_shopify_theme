@@ -94,37 +94,6 @@ body {
   border-radius: 50px;
   width: 100%;
 }
-.featured-product .values-wrapper {
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
-  padding: 0.5rem 0;
-  display: flex;
-  overflow-y: hidden;
-  overflow-x: scroll;
-  gap: 0.5rem;
-  /* width */
-  /* Track */
-  /* Handle */
-  /* Handle on hover */
-}
-.featured-product .values-wrapper::-webkit-scrollbar {
-  height: 2px;
-}
-.featured-product .values-wrapper::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0);
-}
-.featured-product .values-wrapper::-webkit-scrollbar-thumb {
-  background: black;
-}
-.featured-product .values-wrapper::-webkit-scrollbar-thumb:hover {
-  background: black;
-}
-.featured-product .values-wrapper .value {
-  width: 75px;
-  height: 75px;
-  aspect-ratio: 1/1;
-  position: relative;
-}
 .featured-product .tabs-wrapper .tabs {
   display: flex;
   gap: 2rem;

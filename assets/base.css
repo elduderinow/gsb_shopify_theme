@@ -3216,10 +3216,6 @@ html {
   box-shadow: none !important;
 }
 
-#product-grid .grid__item {
-  max-width: none;
-}
-
 .collection-list .collection-list__item {
   max-width: none;
 }

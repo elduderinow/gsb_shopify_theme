@@ -4,7 +4,19 @@ $content-color: rgb(84, 72, 67);
     background-color: #d1d1d1;
 
     .left {
-        padding: 5rem 5rem 0 5rem;
+        padding: 3rem 1.5rem 3rem 1.5rem;
+
+        @media (min-width: $breakpoint-md) {
+            padding: 5rem 3rem 0 3rem;
+        }
+
+        @media (min-width: $breakpoint-lg) {
+            padding: 5rem 5rem 0 5rem;
+        }
+
+        @media (min-width: $breakpoint-xl) {
+            padding: 5rem 0 0 5rem;
+        }
 
         h1 {
             color: $content-color;
@@ -20,7 +32,7 @@ $content-color: rgb(84, 72, 67);
 
         .footer__menu {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             padding-bottom: 4rem;
 
             .footer__links,
@@ -44,6 +56,10 @@ $content-color: rgb(84, 72, 67);
                     margin-bottom: 1rem;
                     color: $content-color;
                 }
+            }
+
+            @media (min-width: $breakpoint-sm) {
+                flex-direction: row;
             }
         }
 

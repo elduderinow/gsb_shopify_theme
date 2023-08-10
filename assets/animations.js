@@ -11,7 +11,7 @@ function onIntersection(elements, observer) {
         if (elementTarget.hasAttribute('data-max-width')) {
           maxWidth = elementTarget.getAttribute('data-max-width');
         }
-        elementTarget.setAttribute('style', `--animation-order: ${index};max-width:${maxWidth}%`);
+        elementTarget.setAttribute('style', `--animation-order: ${index};`);
       }
       observer.unobserve(elementTarget);
     }

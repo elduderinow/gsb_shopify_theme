@@ -379,3 +379,19 @@ slider-component.slider-component-full-width {
 body {
   font-family: "Roboto", sans-serif !important;
 }
+
+.featured-collection--component {
+  background-color: red;
+}
+.featured-collection--component .card__content .quick-add button.product-form__submit {
+  white-space: nowrap;
+  padding: 0px 4rem;
+  border-radius: 50px;
+  width: 100%;
+}
+.featured-collection--component .card__content .quick-add .shopify-payment-button__button {
+  white-space: nowrap;
+  padding: 0px 4rem;
+  border-radius: 50px;
+  width: 100%;
+}

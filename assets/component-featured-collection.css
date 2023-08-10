@@ -393,7 +393,7 @@ body {
 }
 .featured-collection--component .grid__item .card__content .quick-add button.quick-add__submit:not([disabled]) {
   background-color: #f3f3f3;
-  color: black;
+  color: rgb(51, 51, 51) b;
   transition: background-color 0.3s ease-in-out;
 }
 .featured-collection--component .grid__item .card__content .quick-add button.quick-add__submit:not([disabled]):hover {

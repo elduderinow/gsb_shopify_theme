@@ -382,7 +382,7 @@ body {
 
 .featured-collection--component .grid__item .card__content .quick-add button.quick-add__submit {
   white-space: nowrap;
-  padding: 1rem 4rem;
+  padding: 0.8rem 2rem;
   border-radius: 50px;
   width: auto;
   min-width: auto;
@@ -392,11 +392,11 @@ body {
   content: none;
 }
 .featured-collection--component .grid__item .card__content .quick-add button.quick-add__submit:not([disabled]) {
-  background-color: #009e6d;
+  background-color: black;
   color: white;
   transition: background-color 0.3s ease-in-out;
 }
 .featured-collection--component .grid__item .card__content .quick-add button.quick-add__submit:not([disabled]):hover {
-  background-color: #00855b;
+  background-color: #0d0d0d;
   cursor: pointer;
 }

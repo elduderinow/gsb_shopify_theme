@@ -231,6 +231,7 @@ body {
 }
 .multicolumn .multicolumn-list.grid--1-col-tablet-down .grid__item {
   background-color: pink;
+  max-width: 100%;
 }
 .multicolumn .multicolumn-list.grid--1-col-desktop .grid__item {
   width: 100%;
@@ -251,6 +252,7 @@ body {
 }
 .multicolumn .multicolumn-list.grid--2-col-tablet-down .grid__item {
   background-color: pink;
+  max-width: 100%;
 }
 .multicolumn .multicolumn-list.grid--2-col-desktop .grid__item {
   width: 100%;
@@ -271,6 +273,7 @@ body {
 }
 .multicolumn .multicolumn-list.grid--3-col-tablet-down .grid__item {
   background-color: pink;
+  max-width: 100%;
 }
 .multicolumn .multicolumn-list.grid--3-col-desktop .grid__item {
   width: 100%;
@@ -291,6 +294,7 @@ body {
 }
 .multicolumn .multicolumn-list.grid--4-col-tablet-down .grid__item {
   background-color: pink;
+  max-width: 100%;
 }
 .multicolumn .multicolumn-list.grid--4-col-desktop .grid__item {
   width: 100%;
@@ -311,6 +315,7 @@ body {
 }
 .multicolumn .multicolumn-list.grid--5-col-tablet-down .grid__item {
   background-color: pink;
+  max-width: 100%;
 }
 .multicolumn .multicolumn-list.grid--5-col-desktop .grid__item {
   width: 100%;
@@ -331,6 +336,7 @@ body {
 }
 .multicolumn .multicolumn-list.grid--6-col-tablet-down .grid__item {
   background-color: pink;
+  max-width: 100%;
 }
 .multicolumn .multicolumn-list.grid--6-col-desktop .grid__item {
   width: 100%;
@@ -351,6 +357,7 @@ body {
 }
 .multicolumn .multicolumn-list.grid--7-col-tablet-down .grid__item {
   background-color: pink;
+  max-width: 100%;
 }
 .multicolumn .multicolumn-list.grid--7-col-desktop .grid__item {
   width: 100%;
@@ -371,6 +378,7 @@ body {
 }
 .multicolumn .multicolumn-list.grid--8-col-tablet-down .grid__item {
   background-color: pink;
+  max-width: 100%;
 }
 .multicolumn .multicolumn-list.grid--8-col-desktop .grid__item {
   width: 100%;
@@ -391,6 +399,7 @@ body {
 }
 .multicolumn .multicolumn-list.grid--9-col-tablet-down .grid__item {
   background-color: pink;
+  max-width: 100%;
 }
 .multicolumn .multicolumn-list.grid--9-col-desktop .grid__item {
   width: 100%;
@@ -411,6 +420,7 @@ body {
 }
 .multicolumn .multicolumn-list.grid--10-col-tablet-down .grid__item {
   background-color: pink;
+  max-width: 100%;
 }
 .multicolumn .multicolumn-list.grid--10-col-desktop .grid__item {
   width: 100%;
@@ -431,6 +441,7 @@ body {
 }
 .multicolumn .multicolumn-list.grid--11-col-tablet-down .grid__item {
   background-color: pink;
+  max-width: 100%;
 }
 .multicolumn .multicolumn-list.grid--11-col-desktop .grid__item {
   width: 100%;
@@ -451,6 +462,7 @@ body {
 }
 .multicolumn .multicolumn-list.grid--12-col-tablet-down .grid__item {
   background-color: pink;
+  max-width: 100%;
 }
 .multicolumn .multicolumn-list.grid--12-col-desktop .grid__item {
   width: 100%;

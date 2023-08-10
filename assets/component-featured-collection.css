@@ -387,9 +387,16 @@ body {
   width: auto;
   min-width: auto;
   min-height: auto;
+  background-color: #f3f3f3;
+  color: #5b5b5b;
+  transition: background-color 0.3s ease-in-out;
 }
 .featured-collection--component .grid__item .card__content .quick-add button.quick-add__submit:after, .featured-collection--component .grid__item .card__content .quick-add button.quick-add__submit:before {
   content: none;
+}
+.featured-collection--component .grid__item .card__content .quick-add button.quick-add__submit:hover {
+  background-color: #e6e6e6;
+  cursor: pointer;
 }
 .featured-collection--component .grid__item .card__content .quick-add button.quick-add__submit:not([disabled]) {
   background-color: #f3f3f3;

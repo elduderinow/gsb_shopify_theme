@@ -18,8 +18,7 @@ body {
 }
 @media (min-width: 990px) {
   .footer .left {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding: 5rem 5rem 0 5rem;
   }
 }
 @media (min-width: 1280px) {

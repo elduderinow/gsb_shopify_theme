@@ -15,14 +15,14 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Vitamine C voor het Gezicht",
+            "heading": "Minerale Mascaras",
             "heading_size": "h1"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Geef je gezicht dagelijks een oppepper met vitamine C, een antioxidant die beschermt tegen schadelijke, verouderende milieustressoren en zorgt voor een stralende huid.<\/p>",
+            "text": "<p>Schone minerale mascara voor verlenging, volume en waterbestendigheid. Bekijk het assortiment langhoudende mascara's van Glo Skin Beauty voor verheven wimpers die lang meegaan.<\/p>",
             "text_style": "body"
           }
         },
@@ -40,7 +40,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/featured_header_Desktop-_vitamin-c_2.jpg",
+        "image": "shopify:\/\/shop_images\/Mascara_Desktop_ef2ff049-2e90-4603-b62d-5879e6206d6d.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -67,7 +67,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "enable_filtering": true,
         "filter_type": "vertical",
         "enable_sorting": true,
@@ -91,7 +91,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Bronnen voor Vitamine C Huidverzorging",
+            "heading": "Mascara Tips en Trucs",
             "heading_size": "h1"
           }
         },
@@ -146,7 +146,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Bereik huidhelderheid en milieubescherming met vitamine C huidverzorgingsproducten. Vitamine C serums helpen bij hyperpigmentatie en andere huidverzorgingsproblemen. Leer hoe je het juiste serum kunt kiezen met behulp van onze bronnen voor vitamine C huidverzorging.<\/p>",
+            "text": "<p>Verleng en voeg volume toe aan je wimpers wanneer je mascara van Glo Skin Beauty gebruikt. Definieer en verbeter je wimpers zonder die vervelende klontjes! Leer mascara tips en trucs om ervoor te zorgen dat je wimpers opvallen en er op hun best uitzien. Lees hoogtepunten uit onze schoonheidsblog hieronder.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -213,7 +213,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Vitamine C is een krachtige antioxidant die essentieel is voor niet alleen onze interne gezondheid, maar ook voor onze huid. Aangezien we het niet van nature in ons lichaam produceren, moeten we vitamine C oraal of topisch toevoegen - beide hebben tal van voordelen. Vitamine C voor het gezicht biedt dagelijkse bescherming tegen veroudering, vervuiling, blauw licht, zware metalen en andere vrije radicalen die een doffe huid, vroegtijdige lijntjes, donkere vlekken, droogheid en ruwe plekken kunnen veroorzaken.<\/p>",
+            "text": "<p>Leef je beste wimperleven met ons assortiment schone, minerale mascara's. De keuze voor mascara kan zeer persoonlijk zijn, afhankelijk van de kwaliteit van je wimpers, dikte, oogvorm, of over het algemeen de uitstraling waar je naar streeft. Daarom maken we het super eenvoudig om een veelzijdige mascara-formulering te vinden die alles doet wat je wilt met één simpele borstel. Voor wat extra ondersteuning bij het laten groeien van wimpers, zal onze Lash Thickener and Conditioner een favoriet zijn om je wimpers voor te bereiden met een versterkende, volumeverhogende dosis voedingsstoffen. Breng dan één of twee lagen aan van onze Volumizing Mascara, voor moeiteloos volle, verdikte, gedefinieerde wimpers - uiteraard zonder klontjes.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -222,7 +222,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Met klinisch bewezen voordelen van dagelijkse vitamine C-serums voor je huid, beschermt het je huid tegen schadelijke vrije radicalen, versterkt het de afweer van je huid, terwijl het ook zorgt voor een aanzienlijke verheldering en helderheid van de teint. En als je je zorgen maakt dat vitamine C de huid lichter maakt, is dat een mythe. Vitamine C is perfect veilig voor alle huidtinten, het beschermt en bevordert je natuurlijke gloed. Perfect voor alle huidtypes, zelfs de gevoelige huid, is vitamine C een universele behandeling die je kunt toevoegen aan elke huidverzorgingsroutine die specifiek gericht is op bepaalde huidproblemen. Vitamine C helpt bij acne door ontstekingen veroorzaakt door acne te verminderen en de verschijning van hyperpigmentatie te verbeteren.<\/p>",
+            "text": "<p>Als je al volume hebt en op zoek bent naar die poppenachtige, gescheiden en verlengde wimperlook, wordt onze Lash Lengthening Mascara je nieuwe beste vriend. Door wimpers te bedekken met een rijke, langhoudende formulering met veel pigment, voegt deze schone mascara alle definitie toe die je nodig hebt voor wimpers die echt opvallen. Voor een meer natuurlijke mascaralook zou één laag voldoende moeten zijn, maar als je opvallende wimpers wilt, probeer dan een paar lagen voor het ultieme \"zie mij\" effect. En voor een chique look aan het zwembad, zal onze Water Resistant Mascara je niet in de steek laten. Deze mascara met driedubbele werking verlengt, geeft volume en biedt waterbestendige, intens gekleurde wimpers die lang meegaan. En onze minerale mascara is geschikt voor de gevoelige huid en is veganistisch, dierproefvrij, vrij van talk en vrij van parabenen.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -254,6 +254,7 @@
     },
     "ce6989ae-1af1-455a-85b6-d30d25ae8fc3": {
       "type": "collapsible-content",
+      "disabled": true,
       "blocks": {
         "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-1": {
           "type": "collapsible_row",

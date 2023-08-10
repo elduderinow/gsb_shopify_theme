@@ -3218,7 +3218,7 @@ html {
 
 @media screen and (min-width: 750px) {
   #product-grid .grid__item {
-    max-width: none;
+    max-width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
   }
 }
 

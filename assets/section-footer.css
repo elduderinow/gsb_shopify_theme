@@ -7,11 +7,11 @@ body {
   background-color: #d1d1d1;
 }
 .footer .left {
-  padding: 1.5rem 1.5rem 0 1.5rem;
+  padding: 3rem 1.5rem 3rem 1.5rem;
 }
 @media (min-width: 750px) {
   .footer .left {
-    padding: 3rem 3rem 0 3rem;
+    padding: 5rem 3rem 0 3rem;
   }
 }
 @media (min-width: 990px) {

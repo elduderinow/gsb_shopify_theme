@@ -380,9 +380,6 @@ body {
   font-family: "Roboto", sans-serif !important;
 }
 
-.featured-collection--component {
-  background-color: green;
-}
 .featured-collection--component .card__content .quick-add button.product-form__submit {
   white-space: nowrap;
   padding: 0px 4rem;

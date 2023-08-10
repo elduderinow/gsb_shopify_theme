@@ -385,6 +385,7 @@ body {
   padding: 0px 4rem;
   border-radius: 50px;
   width: 100%;
+  background-color: blue;
 }
 .featured-collection--component .grid__item .card__content .quick-add .shopify-payment-button__button {
   white-space: nowrap;

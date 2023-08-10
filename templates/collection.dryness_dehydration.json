@@ -238,7 +238,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
-        "icon__grid": false,
+        "icon__grid": true,
         "column_alignment": "left",
         "item_alignment": "center",
         "background_style": "none",

@@ -19,7 +19,7 @@ body {
 }
 .footer .left .footer__menu {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding-bottom: 4rem;
 }
 .footer .left .footer__menu .footer__links,
@@ -45,6 +45,11 @@ body {
   display: inline-block;
   margin-bottom: 1rem;
   color: rgb(84, 72, 67);
+}
+@media (min-width: 640px) {
+  .footer .left .footer__menu {
+    flex-direction: row;
+  }
 }
 .footer .left .footer__social {
   padding: 8rem 0;

@@ -6,9 +6,6 @@ body {
 .footer {
   background-color: #d1d1d1;
 }
-.footer .left {
-  padding: 5rem 5rem 0 5rem;
-}
 .footer .left h1 {
   color: rgb(84, 72, 67);
   font-size: 3rem;

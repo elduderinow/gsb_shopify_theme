@@ -382,9 +382,11 @@ body {
 
 .featured-collection--component .grid__item .card__content .quick-add button.quick-add__submit {
   white-space: nowrap;
-  padding: 0px 4rem;
+  padding: 1rem 4rem;
   border-radius: 50px;
   width: 100%;
+  min-width: auto;
+  min-height: auto;
 }
 .featured-collection--component .grid__item .card__content .quick-add button.quick-add__submit:after, .featured-collection--component .grid__item .card__content .quick-add button.quick-add__submit:before {
   content: none;

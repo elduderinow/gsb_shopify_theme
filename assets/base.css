@@ -3216,6 +3216,12 @@ html {
   box-shadow: none !important;
 }
 
+@media screen and (min-width: 750px) {
+  #product-grid .grid__item {
+    max-width: none;
+  }
+}
+
 .collection-list .collection-list__item {
   max-width: none;
 }

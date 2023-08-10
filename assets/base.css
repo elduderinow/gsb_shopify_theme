@@ -3221,6 +3221,12 @@ html {
     max-width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
   }
 }
+@media screen and (min-width: 990px) {
+  #product-grid .grid__item {
+    flex-grow: 0;
+    width: calc(25% - var(--grid-mobile-horizontal-spacing) * 3 / 4);
+  }
+}
 
 .collection-list .collection-list__item {
   max-width: none;

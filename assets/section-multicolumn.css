@@ -247,8 +247,8 @@ body {
   }
 }
 @media (max-width: 750px) {
-  .multicolumn .multicolumn-list.grid--1-col-tablet-down {
-    background-color: yellow;
+  .multicolumn .multicolumn-list.grid--1-col-tablet-down .grid__item {
+    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -271,8 +271,8 @@ body {
   }
 }
 @media (max-width: 750px) {
-  .multicolumn .multicolumn-list.grid--2-col-tablet-down {
-    background-color: yellow;
+  .multicolumn .multicolumn-list.grid--2-col-tablet-down .grid__item {
+    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -295,8 +295,8 @@ body {
   }
 }
 @media (max-width: 750px) {
-  .multicolumn .multicolumn-list.grid--3-col-tablet-down {
-    background-color: yellow;
+  .multicolumn .multicolumn-list.grid--3-col-tablet-down .grid__item {
+    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -319,8 +319,8 @@ body {
   }
 }
 @media (max-width: 750px) {
-  .multicolumn .multicolumn-list.grid--4-col-tablet-down {
-    background-color: yellow;
+  .multicolumn .multicolumn-list.grid--4-col-tablet-down .grid__item {
+    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -343,8 +343,8 @@ body {
   }
 }
 @media (max-width: 750px) {
-  .multicolumn .multicolumn-list.grid--5-col-tablet-down {
-    background-color: yellow;
+  .multicolumn .multicolumn-list.grid--5-col-tablet-down .grid__item {
+    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -367,8 +367,8 @@ body {
   }
 }
 @media (max-width: 750px) {
-  .multicolumn .multicolumn-list.grid--6-col-tablet-down {
-    background-color: yellow;
+  .multicolumn .multicolumn-list.grid--6-col-tablet-down .grid__item {
+    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -391,8 +391,8 @@ body {
   }
 }
 @media (max-width: 750px) {
-  .multicolumn .multicolumn-list.grid--7-col-tablet-down {
-    background-color: yellow;
+  .multicolumn .multicolumn-list.grid--7-col-tablet-down .grid__item {
+    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -415,8 +415,8 @@ body {
   }
 }
 @media (max-width: 750px) {
-  .multicolumn .multicolumn-list.grid--8-col-tablet-down {
-    background-color: yellow;
+  .multicolumn .multicolumn-list.grid--8-col-tablet-down .grid__item {
+    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -439,8 +439,8 @@ body {
   }
 }
 @media (max-width: 750px) {
-  .multicolumn .multicolumn-list.grid--9-col-tablet-down {
-    background-color: yellow;
+  .multicolumn .multicolumn-list.grid--9-col-tablet-down .grid__item {
+    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -463,8 +463,8 @@ body {
   }
 }
 @media (max-width: 750px) {
-  .multicolumn .multicolumn-list.grid--10-col-tablet-down {
-    background-color: yellow;
+  .multicolumn .multicolumn-list.grid--10-col-tablet-down .grid__item {
+    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -487,8 +487,8 @@ body {
   }
 }
 @media (max-width: 750px) {
-  .multicolumn .multicolumn-list.grid--11-col-tablet-down {
-    background-color: yellow;
+  .multicolumn .multicolumn-list.grid--11-col-tablet-down .grid__item {
+    background-color: blue;
     width: 100%;
     max-width: 100%;
   }
@@ -511,8 +511,8 @@ body {
   }
 }
 @media (max-width: 750px) {
-  .multicolumn .multicolumn-list.grid--12-col-tablet-down {
-    background-color: yellow;
+  .multicolumn .multicolumn-list.grid--12-col-tablet-down .grid__item {
+    background-color: blue;
     width: 100%;
     max-width: 100%;
   }

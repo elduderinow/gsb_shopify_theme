@@ -385,11 +385,16 @@ body {
   padding: 0px 4rem;
   border-radius: 50px;
   width: 100%;
-  background-color: blue;
 }
-.featured-collection--component .grid__item .card__content .quick-add .shopify-payment-button__button {
-  white-space: nowrap;
-  padding: 0px 4rem;
-  border-radius: 50px;
-  width: 100%;
+.featured-collection--component .grid__item .card__content .quick-add:after, .featured-collection--component .grid__item .card__content .quick-add:before {
+  content: none;
+}
+.featured-collection--component .grid__item .card__content .quick-add:not([disabled]) {
+  background-color: #009e6d;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+.featured-collection--component .grid__item .card__content .quick-add:not([disabled]):hover {
+  background-color: #00855b;
+  cursor: pointer;
 }

@@ -805,6 +805,7 @@ body {
 }
 .multicolumn .multicolumn-list.justify-center {
   justify-content: center;
+  gap: 3.5rem;
 }
 .multicolumn .multicolumn-list.justify-right {
   justify-content: right;

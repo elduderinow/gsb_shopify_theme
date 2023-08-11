@@ -1,5 +1,54 @@
 {
   "sections": {
+    "05495cf6-6b05-4043-9f7a-341ae95be296": {
+      "type": "image-banner",
+      "blocks": {
+        "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "What Clean BeautyMeans To Glo Skin Beauty",
+            "heading_size": "h1"
+          }
+        },
+        "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-heading-1",
+        "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-text-1",
+        "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/23jul-hp-protect_prevent-slider-desktop.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "top-right",
+        "show_text_box": false,
+        "desktop_content_alignment": "right",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -136,55 +185,6 @@
         "section_width": "boxed"
       }
     },
-    "05495cf6-6b05-4043-9f7a-341ae95be296": {
-      "type": "image-banner",
-      "blocks": {
-        "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "What Clean BeautyMeans To Glo Skin Beauty",
-            "heading_size": "h1"
-          }
-        },
-        "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-buttons-1": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-heading-1",
-        "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-text-1",
-        "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-buttons-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/23jul-hp-protect_prevent-slider-desktop.png",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "top-right",
-        "show_text_box": false,
-        "desktop_content_alignment": "right",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "55f0350e-d10c-4ac7-8f29-6a66dfd1724a": {
       "type": "image-image",
       "blocks": {
@@ -222,15 +222,62 @@
         "padding_bottom": 36,
         "section_width": "boxed"
       }
+    },
+    "e03a7d26-1065-4812-8cb5-774b156b2488": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19180119458139__e03a7d26-1065-4812-8cb5-774b156b2488-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Bij Glo Skin Beauty geloven we dat huidverzorging zelfzorg is, en dat de producten die je dagelijks gebruikt een aanzienlijk verschil moeten maken voor je gezondheid en welzijn. We doen obsessief onderzoek naar onze samenstellingen om bewust zuivere, klinisch bewezen huidverzorging en cosmetica samen te stellen, ontwikkeld om echte verandering te bewerkstelligen bij jou en je huid. Onze grondstoffen en eindproducten worden nooit op dieren getest, en we zijn er trots op lid te zijn van PETA's Beauty Without Bunnies. We zijn vastbesloten om tegen 2023 volledig veganistisch te worden.<\/p><p>Omdat we begrijpen dat wat niet in onze producten zit net zo belangrijk is als wat er wel in zit, gebruiken we alleen de hoogste kwaliteit vertrouwde ingrediënten in effectieve concentraties om baanbrekende resultaten te leveren zonder concessies te doen aan de veiligheid van de huid.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19180119458139__e03a7d26-1065-4812-8cb5-774b156b2488-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>We hanteren een 'minder is meer'-benadering, met minimale ingrediënten voor maximaal effect. Onze toewijding aan zuiverheid betekent dat we nooit formuleren met parabenen, talk, kunstmatige geurstoffen, irriterende sulfaten, ftalaten, schadelijke kleurstoffen, polyethyleenkorrels of minerale olie.<\/p><p>We zullen blijven formuleren, beoordelen en innoveren om ervoor te zorgen dat onze producten compromisloos zuiver blijven.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19180119458139__e03a7d26-1065-4812-8cb5-774b156b2488-column-1",
+        "template--19180119458139__e03a7d26-1065-4812-8cb5-774b156b2488-column-2"
+      ],
+      "settings": {
+        "title": "Onze Toewijding aan Zuiverheid",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "icon__grid": false,
+        "column_alignment": "left",
+        "item_alignment": "center",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "section_width": "boxed"
+      }
     }
   },
   "order": [
+    "05495cf6-6b05-4043-9f7a-341ae95be296",
     "main",
     "7c0455ea-3137-469f-b11a-5c75459d11c7",
     "3b2eec19-5ff2-44d5-a5d6-0d3b30e301d5",
     "71a460a1-c5db-4f10-8a12-2e509b22039c",
     "3c35e5fe-c1c5-40f8-ae7b-c3beb1413d8a",
-    "05495cf6-6b05-4043-9f7a-341ae95be296",
-    "55f0350e-d10c-4ac7-8f29-6a66dfd1724a"
+    "55f0350e-d10c-4ac7-8f29-6a66dfd1724a",
+    "e03a7d26-1065-4812-8cb5-774b156b2488"
   ]
 }

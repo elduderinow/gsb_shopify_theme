@@ -87,7 +87,7 @@
               {{ product.title | escape }}
             </h2>
           </a>
-          {{ product.metafields.custom.volume | json }}
+          {{ product.metafields.custom | json }}
           {%- if product.metafields.custom.size -%}
             <p>{{ product.metafields.custom.size }}</p>
           {%- endif -%}

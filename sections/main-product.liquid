@@ -71,7 +71,7 @@
   {%- liquid
     assign tabs = ''
     for tab in product.metafields.custom
-      if tab.ingredients
+      if tab contains 'ingredients'
         assign tabs = tabs | append: ',' | append: tab
       endif
     endfor

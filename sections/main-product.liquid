@@ -88,7 +88,10 @@
             </h2>
           </a>
           {% unless product.metafields.custom.volume == empty %}
-            <p>{{ product.metafields.custom.volume.value }} {{ product.metafields.custom.volume.unit }}</p>
+            <p>
+              {{ product.metafields.custom.volume.value }}
+              {{ product.metafields.custom.volume.unit }}
+            </p>
           {% endunless %}
           {% unless product.metafields.custom.weight == empty %}
             <p>{{ product.metafields.custom.weight }}</p>
@@ -218,6 +221,29 @@
         {%- if hasValueTags == true -%}
           {%- render 'values', productTags: product.tags -%}
         {%- endif -%}
+
+        {% comment %}
+          <div class="tabs-wrapper">
+            <div class="tabs">
+              {%- for block in section.blocks -%}
+                <div
+                  data-index="{{ forloop.index }}"
+                  class="tabs--title{% if forloop.index == 1 %} active{% endif %}"
+                >
+                  {{ block.settings.tab_title }}
+                </div>
+              {%- endfor -%}
+            </div>
+            {%- for block in section.blocks -%}
+              <div
+                data-index="{{ forloop.index }}"
+                class="rte tabs--content{% if forloop.index == 1 %} active{% endif %}"
+              >
+                {{ block.settings.tab_text }}
+              </div>
+            {%- endfor -%}
+          </div>
+        {% endcomment %}
 
         {%- if product.description != blank -%}
           <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>

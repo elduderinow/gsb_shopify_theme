@@ -254,12 +254,7 @@
         <div class="tabs-wrapper">
           <div class="tabs">
             {%- if product.metafields.custom.ingredients -%}
-              <div
-                data-index="{{ forloop.index }}"
-                class="tabs--title{% if forloop.index == 1 %} active{% endif %}"
-              >
-                {{ block.settings.tab_title }}
-              </div>
+              <div data-index="1" class="tabs--title{% if forloop.index == 1 %} active{% endif %}">Ingredients</div>
             {%- endif -%}
           </div>
           {% comment %}

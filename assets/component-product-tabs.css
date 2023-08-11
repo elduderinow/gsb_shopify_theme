@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.tabs-wrapper .tabs {
+  display: flex;
+  gap: 2rem;
+  border-bottom: 1px solid #dddddd;
+  padding: 0 0 1rem 0;
+  margin-bottom: 2rem;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+.tabs-wrapper .tabs::-webkit-scrollbar {
+  height: 2px;
+}
+.tabs-wrapper .tabs::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+.tabs-wrapper .tabs::-webkit-scrollbar-thumb {
+  background: black;
+}
+.tabs-wrapper .tabs::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+.tabs-wrapper .tabs .tabs--title {
+  color: #dddddd;
+  white-space: nowrap;
+}
+.tabs-wrapper .tabs .tabs--title:hover {
+  color: black;
+  cursor: pointer;
+}
+.tabs-wrapper .tabs .tabs--title.active {
+  color: black;
+}
+.tabs-wrapper .tabs--content {
+  display: none;
+}
+.tabs-wrapper .tabs--content.active {
+  display: block;
+}

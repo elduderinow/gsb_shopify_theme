@@ -29,7 +29,7 @@ body {
   background: black;
 }
 .tabs-wrapper .tabs .tabs--title {
-  color: #dddddd;
+  color: #aaaaaa;
   white-space: nowrap;
 }
 .tabs-wrapper .tabs .tabs--title:hover {
@@ -38,6 +38,7 @@ body {
 }
 .tabs-wrapper .tabs .tabs--title.active {
   color: black;
+  font-weight: 500;
 }
 .tabs-wrapper .tabs--content {
   display: none;

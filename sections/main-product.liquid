@@ -73,7 +73,7 @@
 
   {%- liquid
     assign hasInfo = false
-    if product.metafields.custom.how_to_use != null or product.metafields.custom.ingredients != null or product.metafields.custom.extra_info or product.description != null
+    if product.metafields.custom.how_to_use != null or product.metafields.custom.ingredients != null or product.metafields.custom.extra_info or product.description != blank
       assign hasInfo = true
     endif
   -%}

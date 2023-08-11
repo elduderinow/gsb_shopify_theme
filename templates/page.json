@@ -1,5 +1,13 @@
 {
   "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
     "05495cf6-6b05-4043-9f7a-341ae95be296": {
       "type": "image-banner",
       "blocks": {
@@ -49,180 +57,6 @@
         "show_text_below": true
       }
     },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
-    "7c0455ea-3137-469f-b11a-5c75459d11c7": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Featured collection",
-        "description": "",
-        "show_description": false,
-        "collection": "",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "select_width": "full_width",
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "3b2eec19-5ff2-44d5-a5d6-0d3b30e301d5": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "HIGHLIGHTS INGREDIËNTEN",
-        "description": "",
-        "show_description": false,
-        "collection": "",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "select_width": "full_width",
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "71a460a1-c5db-4f10-8a12-2e509b22039c": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "HIGHLIGHT PRODUCTEN",
-        "description": "",
-        "show_description": false,
-        "collection": "",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "select_width": "full_width",
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "3c35e5fe-c1c5-40f8-ae7b-c3beb1413d8a": {
-      "type": "highlight",
-      "blocks": {
-        "66d38502-6c80-4e2b-ad19-7d5f3d31c110": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/23Jul-HP-Meltproof-Block.jpg",
-            "image_title": "title",
-            "image_subtitle": "subtitle",
-            "highlight_url": "shopify:\/\/pages\/contact-workshop"
-          }
-        },
-        "80187276-ae62-430c-b008-1042e50743c0": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/23Jul-HP-Hyaluronic-Acid-Block.jpg",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
-          }
-        },
-        "f77cd07d-5094-4283-a768-d136dc11ece7": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bio-renew-egf-cream-stylized2.webp",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "66d38502-6c80-4e2b-ad19-7d5f3d31c110",
-        "80187276-ae62-430c-b008-1042e50743c0",
-        "f77cd07d-5094-4283-a768-d136dc11ece7"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section_width": "boxed"
-      }
-    },
-    "55f0350e-d10c-4ac7-8f29-6a66dfd1724a": {
-      "type": "image-image",
-      "blocks": {
-        "template--19180119458139__55f0350e-d10c-4ac7-8f29-6a66dfd1724a-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Hyperpigmentation_Desktop.webp",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--19180119458139__55f0350e-d10c-4ac7-8f29-6a66dfd1724a-column-2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19180119458139__55f0350e-d10c-4ac7-8f29-6a66dfd1724a-column-1",
-        "template--19180119458139__55f0350e-d10c-4ac7-8f29-6a66dfd1724a-column-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_grid": "dynamic",
-        "image_ratio": "landscape",
-        "background_style": "primary",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section_width": "boxed"
-      }
-    },
     "e03a7d26-1065-4812-8cb5-774b156b2488": {
       "type": "multicolumn",
       "blocks": {
@@ -259,25 +93,150 @@
         "column_alignment": "left",
         "item_alignment": "center",
         "background_style": "none",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 80,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
+    "29c9f92b-558c-41b1-b8ab-35e4239b9c7c": {
+      "type": "infographic",
+      "blocks": {
+        "3de445d7-47d3-4a5a-b893-324c957427ec": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Info Block",
+            "heading_size": "h1",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "3cbf9bd8-bdb8-41d1-b2bd-00344a1bea8a": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Info Block",
+            "heading_size": "h1",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "151c8982-385f-4906-bc21-e1a765cd4e54": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Info Block",
+            "heading_size": "h1",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "3de445d7-47d3-4a5a-b893-324c957427ec",
+        "3cbf9bd8-bdb8-41d1-b2bd-00344a1bea8a",
+        "151c8982-385f-4906-bc21-e1a765cd4e54"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "number_highlight_1": "",
+        "text_highlight_1": "",
+        "number_highlight_2": "",
+        "text_highlight_2": "",
+        "number_highlight_3": "",
+        "text_highlight_3": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "728e1b56-042e-44e6-8781-e443dd32cc59": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19180119458139__728e1b56-042e-44e6-8781-e443dd32cc59-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>What’s In<\/strong>",
+            "text": "<ul><li>NEXT-GENERATION ACTIVES<\/li><li>NATURAL NOURISHERS<\/li><li>LUXURIOUS HYDRATORS<\/li><li>ETHICALLY-SOURCED MINERALS<\/li><li>SOOTHING BOTANICALS<\/li><li>ANTIOXIDANTS<\/li><li>INNOVATIVE TECHNOLOGY<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19180119458139__728e1b56-042e-44e6-8781-e443dd32cc59-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>What’s Out<\/strong>",
+            "text": "<ul><li>PARABENS<\/li><li>TALC<\/li><li>ARTIFICIAL FRAGRANCE<\/li><li>IRRITATING SULFATES<\/li><li>PHTHALATES<\/li><li>HARSH COLORANTS<\/li><li>POLYETHYLENE BEADS<\/li><li>MINERAL OIL<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19180119458139__728e1b56-042e-44e6-8781-e443dd32cc59-column-3": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "556638f2-2683-4223-bbf8-90d9f71593ce": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19180119458139__728e1b56-042e-44e6-8781-e443dd32cc59-column-1",
+        "template--19180119458139__728e1b56-042e-44e6-8781-e443dd32cc59-column-2",
+        "template--19180119458139__728e1b56-042e-44e6-8781-e443dd32cc59-column-3",
+        "556638f2-2683-4223-bbf8-90d9f71593ce"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "icon__grid": false,
+        "column_alignment": "left",
+        "item_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
         "padding_bottom": 80,
         "section_width": "boxed"
       }
     }
   },
   "order": [
-    "05495cf6-6b05-4043-9f7a-341ae95be296",
     "main",
-    "7c0455ea-3137-469f-b11a-5c75459d11c7",
-    "3b2eec19-5ff2-44d5-a5d6-0d3b30e301d5",
-    "71a460a1-c5db-4f10-8a12-2e509b22039c",
-    "3c35e5fe-c1c5-40f8-ae7b-c3beb1413d8a",
-    "55f0350e-d10c-4ac7-8f29-6a66dfd1724a",
-    "e03a7d26-1065-4812-8cb5-774b156b2488"
+    "05495cf6-6b05-4043-9f7a-341ae95be296",
+    "e03a7d26-1065-4812-8cb5-774b156b2488",
+    "29c9f92b-558c-41b1-b8ab-35e4239b9c7c",
+    "728e1b56-042e-44e6-8781-e443dd32cc59"
   ]
 }

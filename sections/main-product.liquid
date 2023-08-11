@@ -257,16 +257,14 @@
               <div data-index="1" class="tabs--title{% if forloop.index == 1 %} active{% endif %}">Ingredients</div>
             {%- endif -%}
           </div>
-          {% comment %}
-            {%- for block in section.blocks -%}
-              <div
-                data-index="{{ forloop.index }}"
-                class="rte tabs--content{% if forloop.index == 1 %} active{% endif %}"
-              >
-                {{ block.settings.tab_text }}
-              </div>
-            {%- endfor -%}
-          {% endcomment %}
+          {%- if product.metafields.custom.ingredients -%}
+            <div
+              data-index="{{ forloop.index }}"
+              class="rte tabs--content{% if forloop.index == 1 %} active{% endif %}"
+            >
+              {{ product.metafields.custom.ingredients.paragraph }}
+            </div>
+          {%- endif -%}
         </div>
 
         {%- if product.description != blank -%}

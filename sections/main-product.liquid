@@ -88,9 +88,10 @@
             </h2>
           </a>
           {{ product.metafields.custom | json }}
-          {%- if product.metafields.custom.size -%}
+
+          {% unless product.metafields.custom.size == empty %}
             <p>{{ product.metafields.custom.size }}</p>
-          {%- endif -%}
+          {% endunless %}
         </div>
 
         <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>

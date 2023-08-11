@@ -265,6 +265,9 @@
             {%- if product.metafields.custom.how_to_use != null -%}
               <div data-index="3" class="tabs--title">Handleiding</div>
             {%- endif -%}
+            {%- if product.metafields.custom.extra_info != null -%}
+              <div data-index="4" class="tabs--title">Extra Info</div>
+            {%- endif -%}
           </div>
           {%- if product.description != blank -%}
             <div
@@ -277,7 +280,7 @@
           {%- if product.metafields.custom.ingredients != null -%}
             <div
               data-index="2"
-              class="rte tabs--content active"
+              class="rte tabs--content"
             >
               {{ product.metafields.custom.ingredients | metafield_tag }}
             </div>
@@ -285,9 +288,17 @@
           {%- if product.metafields.custom.how_to_use != null -%}
             <div
               data-index="3"
-              class="rte tabs--content active"
+              class="rte tabs--content"
             >
               {{ product.metafields.custom.how_to_use | metafield_tag }}
+            </div>
+          {%- endif -%}
+          {%- if product.metafields.custom.extra_info != null -%}
+            <div
+              data-index="4"
+              class="rte tabs--content"
+            >
+              {{ product.metafields.custom.extra_info | metafield_tag }}
             </div>
           {%- endif -%}
         </div>

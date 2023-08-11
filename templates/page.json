@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -10,6 +9,7 @@
     },
     "7c0455ea-3137-469f-b11a-5c75459d11c7": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured collection",
         "description": "",
@@ -36,6 +36,7 @@
     },
     "3b2eec19-5ff2-44d5-a5d6-0d3b30e301d5": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "HIGHLIGHTS INGREDIËNTEN",
         "description": "",
@@ -62,6 +63,7 @@
     },
     "71a460a1-c5db-4f10-8a12-2e509b22039c": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "HIGHLIGHT PRODUCTEN",
         "description": "",
@@ -122,8 +124,10 @@
         "80187276-ae62-430c-b008-1042e50743c0",
         "f77cd07d-5094-4283-a768-d136dc11ece7"
       ],
+      "disabled": true,
       "settings": {
         "title": "Featured collection",
+        "heading_size": "h1",
         "description": "",
         "color_scheme": "background-1",
         "padding_top": 36,

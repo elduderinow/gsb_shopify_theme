@@ -149,7 +149,7 @@
             "image": "shopify:\/\/shop_images\/featured_header_Desktop-_peels.jpg",
             "image_title": "At home peelings",
             "image_subtitle": "",
-            "highlight_url": "shopify:\/\/pages\/peelings"
+            "highlight_url": "\/collections\/peelings"
           }
         },
         "83e4fc1d-b68e-4194-9d39-fd375c930bf1": {
@@ -241,7 +241,6 @@
     },
     "0544e851-a779-4248-a67e-cbec20d2a40e": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-1": {
           "type": "column",
@@ -334,6 +333,7 @@
         "01df6425-b6d7-4bfa-ae78-702487d59974",
         "e5a2d624-510e-4da4-9c27-ef5123a7ca5e"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -460,7 +460,6 @@
     },
     "6dfc8c1f-05f6-4021-b06a-ab52aa9eaa27": {
       "type": "call-to-action",
-      "disabled": true,
       "blocks": {
         "template--19143340065115__6dfc8c1f-05f6-4021-b06a-ab52aa9eaa27-link-1": {
           "type": "link",
@@ -473,6 +472,7 @@
       "block_order": [
         "template--19143340065115__6dfc8c1f-05f6-4021-b06a-ab52aa9eaa27-link-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "padding_top": 36,
@@ -481,7 +481,6 @@
     },
     "b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--19143340065115__b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721-1688229291c922cd03-0": {
           "type": "column",
@@ -537,6 +536,7 @@
         "1ac2151e-ff2a-44eb-b1b1-730bf6875312",
         "248c5fa9-bfec-4fea-86d1-14624f452f62"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -559,7 +559,6 @@
     },
     "5c3199d7-11a1-45b3-9035-c6dce8f38ac2": {
       "type": "infographic",
-      "disabled": true,
       "blocks": {
         "ddf6e1bb-fb8c-4eba-a30b-a792b1ab63c9": {
           "type": "infoblock",
@@ -598,6 +597,7 @@
         "b69ad00d-7478-45b9-8869-c06c6974d85f",
         "fc1a0376-ae40-44fb-836a-e08c17da5beb"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Foundation_Desktop_1.jpg",
         "height": "small",

@@ -262,7 +262,7 @@
               data-index="{{ forloop.index }}"
               class="rte tabs--content active"
             >
-              {{ product.metafields.custom.ingredients.paragraph }}
+              {{ product.metafields.custom | json }}
             </div>
           {%- endif -%}
         </div>

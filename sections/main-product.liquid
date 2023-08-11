@@ -71,9 +71,14 @@
   {%- liquid
     assign tabs = ''
     for tab in product.metafields.custom
-      if tab contains 'ingredients'
-        assign tabs = tabs | append: ',' | append: tab
-      endif
+      case tab
+        when 'ingredients'
+          assign tabs = tabs | append: ',' | append: tab
+        when 'how_to_use'
+          assign tabs = tabs | append: ',' | append: tab
+        when 'extra_info'
+          assign tabs = tabs | append: ',' | append: tab
+      endcase
     endfor
     assign tabs = tabs | remove_first: ',' | split: ','
   -%}

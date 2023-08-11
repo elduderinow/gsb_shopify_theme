@@ -87,10 +87,11 @@
               {{ product.title | escape }}
             </h2>
           </a>
-          {{ product.metafields.custom | json }}
-
-          {% unless product.metafields.custom.size == empty %}
-            <p>{{ product.metafields.custom.size }}</p>
+          {% unless product.metafields.custom.volume == empty %}
+            <p>{{ product.metafields.custom.volume }}</p>
+          {% endunless %}
+          {% unless product.metafields.custom.weight == empty %}
+            <p>{{ product.metafields.custom.weight }}</p>
           {% endunless %}
         </div>
 

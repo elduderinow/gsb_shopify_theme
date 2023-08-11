@@ -88,7 +88,7 @@
             </h2>
           </a>
           {% unless product.metafields.custom.volume == empty %}
-            <p>{{ product.metafields.custom.volume }}</p>
+            <p>{{ product.metafields.custom.volume.value }} {{ product.metafields.custom.volume.unit }}</p>
           {% endunless %}
           {% unless product.metafields.custom.weight == empty %}
             <p>{{ product.metafields.custom.weight }}</p>

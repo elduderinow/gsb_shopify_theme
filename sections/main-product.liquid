@@ -72,16 +72,16 @@
     assign tabs = ''
     assign metafields = product.metafields.custom
 
-    if metafields.extra_info != null
-      assign tabs = tabs | append: 'extra_info,'
-    endif
-
     if metafields.ingredients != null
-      assign tabs = tabs | append: 'ingredients,'
+      assign tabs = tabs | append: ',' | append: metafields.ingredients
     endif
 
     if metafields.how_to_use != null
-      assign tabs = tabs | append: 'how_to_use,'
+      assign tabs = tabs | append: ',' | append: metafields.how_to_use
+    endif
+
+    if metafields.extra_info != null
+      assign tabs = tabs | append: ',' | append: metafields.extra_info
     endif
 
     assign tabs = tabs | remove_last: ','

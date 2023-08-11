@@ -254,7 +254,7 @@
         <div class="tabs-wrapper">
           <div class="tabs">
             {%- if product.metafields.custom.ingredients != null -%}
-              <div data-index="1" class="tabs--title{% if forloop.index == 1 %} active{% endif %}">Ingredients</div>
+              <div data-index="1" class="tabs--title active">Ingredients</div>
             {%- endif -%}
           </div>
           {%- if product.metafields.custom.ingredients != null -%}
@@ -262,8 +262,6 @@
               data-index="{{ forloop.index }}"
               class="rte tabs--content active"
             >
-              {%- for child in product.metafields.custom.ingredients.children -%}
-              {%- endfor -%}
               {{ product.metafields.custom.ingredients | metafield_tag }}
             </div>
           {%- endif -%}

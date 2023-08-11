@@ -226,12 +226,6 @@
           {%- render 'values', productTags: product.tags -%}
         {%- endif -%}
 
-        {% comment %}
-          {%- for tab in tabs -%}
-            {{ tab | json }}
-          {%- endfor -%}
-        {% endcomment %}
-
         <div class="tabs-wrapper">
           <div class="tabs">
             {%- if product.description != blank -%}

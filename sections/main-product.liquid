@@ -233,55 +233,56 @@
           {%- render 'values', productTags: product.tags -%}
         {%- endif -%}
 
-        {{ hasInfo | json }}
-        <div class="tabs-wrapper">
-          <div class="tabs">
+        {%- if hasInfo == true -%}
+          <div class="tabs-wrapper">
+            <div class="tabs">
+              {%- if product.description != blank -%}
+                <div data-index="1" class="tabs--title active">Product Info</div>
+              {%- endif -%}
+              {%- if product.metafields.custom.ingredients != null -%}
+                <div data-index="2" class="tabs--title">Ingredienten</div>
+              {%- endif -%}
+              {%- if product.metafields.custom.how_to_use != null -%}
+                <div data-index="3" class="tabs--title">Handleiding</div>
+              {%- endif -%}
+              {%- if product.metafields.custom.extra_info != null -%}
+                <div data-index="4" class="tabs--title">Extra Info</div>
+              {%- endif -%}
+            </div>
             {%- if product.description != blank -%}
-              <div data-index="1" class="tabs--title active">Product Info</div>
+              <div
+                data-index="1"
+                class="rte tabs--content active"
+              >
+                {{ product.description }}
+              </div>
             {%- endif -%}
             {%- if product.metafields.custom.ingredients != null -%}
-              <div data-index="2" class="tabs--title">Ingredienten</div>
+              <div
+                data-index="2"
+                class="rte tabs--content"
+              >
+                {{ product.metafields.custom.ingredients | metafield_tag }}
+              </div>
             {%- endif -%}
             {%- if product.metafields.custom.how_to_use != null -%}
-              <div data-index="3" class="tabs--title">Handleiding</div>
+              <div
+                data-index="3"
+                class="rte tabs--content"
+              >
+                {{ product.metafields.custom.how_to_use | metafield_tag }}
+              </div>
             {%- endif -%}
             {%- if product.metafields.custom.extra_info != null -%}
-              <div data-index="4" class="tabs--title">Extra Info</div>
+              <div
+                data-index="4"
+                class="rte tabs--content"
+              >
+                {{ product.metafields.custom.extra_info | metafield_tag }}
+              </div>
             {%- endif -%}
           </div>
-          {%- if product.description != blank -%}
-            <div
-              data-index="1"
-              class="rte tabs--content active"
-            >
-              {{ product.description }}
-            </div>
-          {%- endif -%}
-          {%- if product.metafields.custom.ingredients != null -%}
-            <div
-              data-index="2"
-              class="rte tabs--content"
-            >
-              {{ product.metafields.custom.ingredients | metafield_tag }}
-            </div>
-          {%- endif -%}
-          {%- if product.metafields.custom.how_to_use != null -%}
-            <div
-              data-index="3"
-              class="rte tabs--content"
-            >
-              {{ product.metafields.custom.how_to_use | metafield_tag }}
-            </div>
-          {%- endif -%}
-          {%- if product.metafields.custom.extra_info != null -%}
-            <div
-              data-index="4"
-              class="rte tabs--content"
-            >
-              {{ product.metafields.custom.extra_info | metafield_tag }}
-            </div>
-          {%- endif -%}
-        </div>
+        {%- endif -%}
 
         {% comment %}
           {%- if product.description != blank -%}

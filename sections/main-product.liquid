@@ -257,15 +257,23 @@
               <div data-index="1" class="tabs--title active">Ingredients</div>
             {%- endif -%}
             {%- if product.metafields.custom.how_to_use != null -%}
-              <div data-index="1" class="tabs--title">Handleiding</div>
+              <div data-index="2" class="tabs--title">Handleiding</div>
             {%- endif -%}
           </div>
           {%- if product.metafields.custom.ingredients != null -%}
             <div
-              data-index="{{ forloop.index }}"
+              data-index="1"
               class="rte tabs--content active"
             >
               {{ product.metafields.custom.ingredients | metafield_tag }}
+            </div>
+          {%- endif -%}
+          {%- if product.metafields.custom.how_to_use != null -%}
+            <div
+              data-index="2"
+              class="rte tabs--content active"
+            >
+              {{ product.metafields.custom.how_to_use | metafield_tag }}
             </div>
           {%- endif -%}
         </div>

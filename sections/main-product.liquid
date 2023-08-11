@@ -11,6 +11,7 @@
   {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
   {{ 'component-values.css' | asset_url | stylesheet_tag }}
+  {{ 'component-product-tabs.css' | asset_url | stylesheet_tag }}
 
   {%- style -%}
     .section-{{ section.id }}-padding {
@@ -34,6 +35,8 @@
   {%- if request.design_mode -%}
     <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
   {%- endif -%}
+
+  <script src="{{ 'product-tabs.js' | asset_url }}" defer="defer"></script>
 
   {%- assign first_3d_model = product.media | where: 'media_type', 'model' | first -%}
   {%- if first_3d_model -%}
@@ -67,6 +70,14 @@
     endfor
     assign valueTags = valueTags | remove_first: ',' | split: ','
   -%}
+
+  {%- liquid
+    assign hasInfo = false
+    if product.metafields.custom.how_to_use != null or product.metafields.custom.ingredients != null or product.metafields.custom.extra_info or product.description != blank
+      assign hasInfo = true
+    endif
+  -%}
+
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} shop-flex grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
       {% render 'product-media-gallery', variant_images: variant_images %}
@@ -87,9 +98,15 @@
               {{ product.title | escape }}
             </h2>
           </a>
-          {%- if product.metafields.custom.size != 0 -%}
-            <p>{{ product.metafields.custom.size }}</p>
-          {%- endif -%}
+          {% unless product.metafields.custom.volume == empty %}
+            <p>
+              {{ product.metafields.custom.volume.value }}
+              {{ product.metafields.custom.volume.unit }}
+            </p>
+          {% endunless %}
+          {% unless product.metafields.custom.weight == empty %}
+            <p>{{ product.metafields.custom.weight }}</p>
+          {% endunless %}
         </div>
 
         <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
@@ -216,11 +233,64 @@
           {%- render 'values', productTags: product.tags -%}
         {%- endif -%}
 
-        {%- if product.description != blank -%}
-          <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
-            {{ product.description }}
+        {%- if hasInfo == true -%}
+          <div class="tabs-wrapper">
+            <div class="tabs">
+              {%- if product.description != blank -%}
+                <div data-index="1" class="tabs--title active">Product Info</div>
+              {%- endif -%}
+              {%- if product.metafields.custom.ingredients != null -%}
+                <div data-index="2" class="tabs--title">Ingredienten</div>
+              {%- endif -%}
+              {%- if product.metafields.custom.how_to_use != null -%}
+                <div data-index="3" class="tabs--title">Handleiding</div>
+              {%- endif -%}
+              {%- if product.metafields.custom.extra_info != null -%}
+                <div data-index="4" class="tabs--title">Extra Info</div>
+              {%- endif -%}
+            </div>
+            {%- if product.description != blank -%}
+              <div
+                data-index="1"
+                class="rte tabs--content active"
+              >
+                {{ product.description }}
+              </div>
+            {%- endif -%}
+            {%- if product.metafields.custom.ingredients != null -%}
+              <div
+                data-index="2"
+                class="rte tabs--content"
+              >
+                {{ product.metafields.custom.ingredients | metafield_tag }}
+              </div>
+            {%- endif -%}
+            {%- if product.metafields.custom.how_to_use != null -%}
+              <div
+                data-index="3"
+                class="rte tabs--content"
+              >
+                {{ product.metafields.custom.how_to_use | metafield_tag }}
+              </div>
+            {%- endif -%}
+            {%- if product.metafields.custom.extra_info != null -%}
+              <div
+                data-index="4"
+                class="rte tabs--content"
+              >
+                {{ product.metafields.custom.extra_info | metafield_tag }}
+              </div>
+            {%- endif -%}
           </div>
         {%- endif -%}
+
+        {% comment %}
+          {%- if product.description != blank -%}
+            <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
+              {{ product.description }}
+            </div>
+          {%- endif -%}
+        {% endcomment %}
 
         {% comment %}
           {%- for block in section.blocks -%}

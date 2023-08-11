@@ -69,60 +69,60 @@
     //     }
     // }
 
-    .tabs-wrapper {
-        .tabs {
-            display: flex;
-            gap: 2rem;
-            border-bottom: 1px solid $gray200;
-            padding: 0 0 1rem 0;
-            margin-bottom: 2rem;
+    // .tabs-wrapper {
+    //     .tabs {
+    //         display: flex;
+    //         gap: 2rem;
+    //         border-bottom: 1px solid $gray200;
+    //         padding: 0 0 1rem 0;
+    //         margin-bottom: 2rem;
 
-            overflow-y: hidden;
-            overflow-x: scroll;
+    //         overflow-y: hidden;
+    //         overflow-x: scroll;
 
-            /* width */
-            &::-webkit-scrollbar {
-                height: 2px;
-            }
+    //         /* width */
+    //         &::-webkit-scrollbar {
+    //             height: 2px;
+    //         }
 
-            /* Track */
-            &::-webkit-scrollbar-track {
-                background: rgba(0, 0, 0, 0);
-            }
+    //         /* Track */
+    //         &::-webkit-scrollbar-track {
+    //             background: rgba(0, 0, 0, 0);
+    //         }
 
-            /* Handle */
-            &::-webkit-scrollbar-thumb {
-                background: black;
-            }
+    //         /* Handle */
+    //         &::-webkit-scrollbar-thumb {
+    //             background: black;
+    //         }
 
-            /* Handle on hover */
-            &::-webkit-scrollbar-thumb:hover {
-                background: black;
-            }
+    //         /* Handle on hover */
+    //         &::-webkit-scrollbar-thumb:hover {
+    //             background: black;
+    //         }
 
-            .tabs--title {
-                color: $gray200;
-                white-space: nowrap;
+    //         .tabs--title {
+    //             color: $gray200;
+    //             white-space: nowrap;
 
-                &:hover {
-                    color: black;
-                    cursor: pointer;
-                }
+    //             &:hover {
+    //                 color: black;
+    //                 cursor: pointer;
+    //             }
 
-                &.active {
-                    color: black;
-                }
-            }
-        }
+    //             &.active {
+    //                 color: black;
+    //             }
+    //         }
+    //     }
 
-        .tabs--content {
-            display: none;
+    //     .tabs--content {
+    //         display: none;
 
-            &.active {
-                display: block;
-            }
-        }
-    }
+    //         &.active {
+    //             display: block;
+    //         }
+    //     }
+    // }
 
     .product__view-details {
         display: flex;

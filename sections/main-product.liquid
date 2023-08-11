@@ -70,7 +70,8 @@
 
   {%- liquid
     assign tabs = ''
-    for tab in product.metafields.custom
+    assign tab_keys = product.metafields.custom | map: 'first' | split: ','
+    for tab_key in tab_keys
       case tab_key
         when 'ingredients', 'how_to_use', 'extra_info'
           assign tabs = tabs | append: ',' | append: tab_key
@@ -79,7 +80,7 @@
     assign tabs = tabs | remove_first: ',' | split: ','
   -%}
 
-  {{ product.metafields.custom | json }}
+  {% comment %} {{ product.metafields.custom | json }} {% endcomment %}
 
   {{ tabs | json }}
 

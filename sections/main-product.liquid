@@ -70,19 +70,17 @@
 
   {%- liquid
     assign tabs = ''
-    assign tab_keys = product.metafields.custom | map: 'first' | split: ','
-    for tab_key in tab_keys
-      case tab_key
-        when 'ingredients', 'how_to_use', 'extra_info'
-          assign tabs = tabs | append: ',' | append: tab_key
-      endcase
+    for tab in product.metafields.custom
+      if tab.ingredients
+        assign tabs = tabs | append: ',' | append: tab.ingredients
+      endif
     endfor
     assign tabs = tabs | remove_first: ',' | split: ','
   -%}
 
   {% comment %} {{ product.metafields.custom | json }} {% endcomment %}
 
-  {{ product.metafields.custom | json }}
+  {{ tabs | json }}
 
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} shop-flex grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">

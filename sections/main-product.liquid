@@ -71,28 +71,6 @@
     assign valueTags = valueTags | remove_first: ',' | split: ','
   -%}
 
-  {%- liquid
-    assign tabs = ''
-    assign metafields = product.metafields.custom
-
-    if metafields.ingredients != null
-      assign tabs = tabs | append: ',' | append: metafields.ingredients
-    endif
-
-    if metafields.how_to_use != null
-      assign tabs = tabs | append: ',' | append: metafields.how_to_use
-    endif
-
-    if metafields.extra_info != null
-      assign tabs = tabs | append: ',' | append: metafields.extra_info
-    endif
-
-    assign tabs = tabs | remove_last: ','
-    assign tabs = tabs | split: ','
-  -%}
-
-  {% comment %} {{ tabs.ingredients.children.paragraph | json }} {% endcomment %}
-
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} shop-flex grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
       {% render 'product-media-gallery', variant_images: variant_images %}

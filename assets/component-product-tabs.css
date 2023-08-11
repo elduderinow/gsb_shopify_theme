@@ -42,6 +42,9 @@ body {
 .tabs-wrapper .tabs--content {
   display: none;
 }
+.tabs-wrapper .tabs--content .metafield-rich_text_field p + p {
+  margin-bottom: 2rem;
+}
 .tabs-wrapper .tabs--content.active {
   display: block;
 }

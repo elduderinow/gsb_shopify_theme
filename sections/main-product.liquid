@@ -71,6 +71,13 @@
     assign valueTags = valueTags | remove_first: ',' | split: ','
   -%}
 
+  {%- liquid
+    assign hasInfo = false
+    if product.metafields.custom.how_to_use != null or product.metafields.custom.ingredients != null or product.metafields.custom.extra_info or product.description != null
+      assign hasInfo = true
+    endif
+  -%}
+
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} shop-flex grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
       {% render 'product-media-gallery', variant_images: variant_images %}
@@ -226,6 +233,7 @@
           {%- render 'values', productTags: product.tags -%}
         {%- endif -%}
 
+        {{ hasInfo | json }}
         <div class="tabs-wrapper">
           <div class="tabs">
             {%- if product.description != blank -%}

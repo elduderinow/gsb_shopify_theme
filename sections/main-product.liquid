@@ -245,22 +245,24 @@
           {%- render 'values', productTags: product.tags -%}
         {%- endif -%}
 
-        {%- for tab in tabs -%}
-          {{ tab | json }}
-        {%- endfor -%}
-
         {% comment %}
-          <div class="tabs-wrapper">
-            <div class="tabs">
-              {%- for block in section.blocks -%}
-                <div
-                  data-index="{{ forloop.index }}"
-                  class="tabs--title{% if forloop.index == 1 %} active{% endif %}"
-                >
-                  {{ block.settings.tab_title }}
-                </div>
-              {%- endfor -%}
-            </div>
+          {%- for tab in tabs -%}
+            {{ tab | json }}
+          {%- endfor -%}
+        {% endcomment %}
+
+        <div class="tabs-wrapper">
+          <div class="tabs">
+            {%- if product.metafields.custom.ingredients -%}
+              <div
+                data-index="{{ forloop.index }}"
+                class="tabs--title{% if forloop.index == 1 %} active{% endif %}"
+              >
+                {{ block.settings.tab_title }}
+              </div>
+            {%- endif -%}
+          </div>
+          {% comment %}
             {%- for block in section.blocks -%}
               <div
                 data-index="{{ forloop.index }}"
@@ -269,8 +271,8 @@
                 {{ block.settings.tab_text }}
               </div>
             {%- endfor -%}
-          </div>
-        {% endcomment %}
+          {% endcomment %}
+        </div>
 
         {%- if product.description != blank -%}
           <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>

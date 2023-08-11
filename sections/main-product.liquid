@@ -78,7 +78,7 @@
     assign tabs = tabs | remove_first: ',' | split: ','
   -%}
 
-  {% comment %} {{ product.metafields.custom | json }} {% endcomment %}
+  {{ product.metafields.custom | json }}
 
   {{ tabs | json }}
 

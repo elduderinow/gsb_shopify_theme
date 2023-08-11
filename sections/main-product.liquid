@@ -83,6 +83,8 @@
     assign tabs = tabs | remove_first: ',' | split: ','
   -%}
 
+  {{ product.metafields.custom | json }}
+
   {{ tabs | json }}
 
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} shop-flex grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">

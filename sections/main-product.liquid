@@ -72,7 +72,7 @@
     assign tabs = ''
     for tab in product.metafields.custom
       if tab.ingredients
-        assign tabs = tabs | append: ',' | append: tab.ingredients
+        assign tabs = tabs | append: ',' | append: tab
       endif
     endfor
     assign tabs = tabs | remove_first: ',' | split: ','

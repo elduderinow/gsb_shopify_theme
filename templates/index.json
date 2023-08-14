@@ -756,6 +756,66 @@
         "padding_bottom": 100
       }
     },
+    "ba64c99b-6f12-4032-b358-96045c1b1639": {
+      "type": "infographic",
+      "blocks": {
+        "7c26a8ab-86a2-4b21-9212-e09bd606fc42": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Wat is een gezichtsprimer + waarom heb je er een nodig?",
+            "heading_size": "h2",
+            "text": "<p>Vraag je je af wat een gezichtsprimer is en wat het doet? Vaak een overgeslagen stap in onze schoonheidsrituelen, hebben primers eigenlijk veel voordelen waar je mogelijk niet van op de hoogte bent. Als je te maken hebt met uitvegen, vouwen of verdwijnen van foundation gedurende de dag, voeg dan een gezichtsprimer toe aan je ochtendproducten en je zult de voordelen meteen opmerken.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "ca00d612-b33b-4e8b-8c66-3118d5bdddf5": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Voordelen van Aloë Vera voor de huid",
+            "heading_size": "h2",
+            "text": "<p>Aloë vera wordt al eeuwenlang gebruikt in huidverzorging vanwege zijn voedende en helende eigenschappen, om nog maar te zwijgen van zijn vermogen om zonnebrand te verzachten. Maar de voordelen van aloë vera voor de huid eindigen hier niet. Ontdek alles wat er te weten valt over dit huid-superfood.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "efed1630-0912-4eb3-99c0-d324828cb7eb": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Waarom je huidverzorging make-up hybriden nodig hebt",
+            "heading_size": "h2",
+            "text": "<p>Met onze drukke levens zoeken we steeds vaker naar huidverzorging en make-up die meer kan doen, meer kan aanpakken en het aantal producten dat we in onze dagelijkse routine gebruiken kan verminderen. We willen dat onze producten slimmer werken en toch een stralend resultaat opleveren. Betreed huidverzorging make-up hybriden: make-up met huidverzorgingsvoordelen.<br\/><\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7c26a8ab-86a2-4b21-9212-e09bd606fc42",
+        "ca00d612-b33b-4e8b-8c66-3118d5bdddf5",
+        "efed1630-0912-4eb3-99c0-d324828cb7eb"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/23Aug-HP-Blog.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "number_highlight_1": "",
+        "text_highlight_1": "",
+        "number_highlight_2": "",
+        "text_highlight_2": "",
+        "number_highlight_3": "",
+        "text_highlight_3": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1689685903c1366c04": {
       "type": "apps",
       "blocks": {
@@ -788,6 +848,7 @@
     "0f90b165-b5d3-4c04-9d0a-74dd2faa080b",
     "3a8bc5a3-eff6-4ced-b226-ee503a61991b",
     "038e2eda-d74b-4a35-b975-29a27fd16f5e",
+    "ba64c99b-6f12-4032-b358-96045c1b1639",
     "1689685903c1366c04"
   ]
 }

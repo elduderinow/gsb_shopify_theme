@@ -696,12 +696,12 @@
         },
         "template--19180119228763__3a8bc5a3-eff6-4ced-b226-ee503a61991b-column-2": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/23Aug-HP-calm_soothe-Block-1.jpg",
+            "title": "Verminder roodheid + kalmeer verbrande huid",
+            "text": "",
+            "link_label": "Shop calming skincare",
+            "link": "shopify:\/\/collections\/calm-sooth"
           }
         },
         "0b089f9b-894b-4769-a41f-8f98e485faa8": {

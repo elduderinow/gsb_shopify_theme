@@ -3231,11 +3231,8 @@ html {
 #instagram-feed-box #instafeed {
   padding: 80px 0;
 }
-#instagram-feed-box #instafeed .glide__arrow {
-  position: relative;
-}
 #instagram-feed-box #instafeed .glide__arrow:after {
-  content: "test";
+  content: "←";
 }
 #instagram-feed-box .glide__slides .glide__slide {
   box-shadow: none !important;

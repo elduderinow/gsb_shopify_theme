@@ -44,6 +44,12 @@ body {
   text-align: left;
   color: white;
 }
+.section--image-repeater .image-repeater-grid .image-block .image-block--content .content--inner .button {
+  background-color: #3c3c3c;
+}
+.section--image-repeater .image-repeater-grid .image-block .image-block--content .content--inner .button::after {
+  content: none;
+}
 .section--image-repeater .image-repeater-grid .image-block:hover .image-repeater--image-wrapper img {
   transform: scale(1.06);
 }

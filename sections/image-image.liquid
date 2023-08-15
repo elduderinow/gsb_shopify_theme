@@ -24,6 +24,10 @@
     <div class="image-repeater-grid grid--{{ section.settings.image_grid }} flex flex-col md:flex-row">
       {% assign imageModulo = section.blocks.size | modulo: 2 %}
       {%- for block in section.blocks -%}
+        {%- capture rgb -%}{{ color | color_to_rgb }}{%- endcapture -%}
+        {%- assign tail = alpha | prepend: ', ' | append: ')' -%}
+        {{ rgb | replace: 'rgb', 'rgba' | replace: ')', tail }}
+
         {{ block.settings.bg_color }}
         {{ block.settings.bg_opacity }}
         <a

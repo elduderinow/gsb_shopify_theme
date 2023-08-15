@@ -41,6 +41,8 @@ body {
 .section--image-repeater .image-repeater-grid .image-block .image-block--content .content--inner .title {
   font-weight: 500;
   margin: 0;
+  text-align: left;
+  color: white;
 }
 .section--image-repeater .image-repeater-grid .image-block:hover .image-repeater--image-wrapper img {
   transform: scale(1.06);

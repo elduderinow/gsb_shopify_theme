@@ -112,7 +112,7 @@ body {
   color: black;
   font-weight: 700;
   margin: 0;
-  color: white;
+  color: white !important;
 }
 .section--image-repeater .image-repeater-grid.grid--dynamic .image-block .image-block--content .content--inner .title {
   font-size: 16px;

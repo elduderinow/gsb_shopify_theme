@@ -6,7 +6,7 @@ body {
 .section-infographic {
   max-width: 1280px;
 }
-.section-infographic .image-with-text__media-item .image-with-text__media-item .image-with-text__media {
+.section-infographic .image-with-text__media-item .image-with-text__media {
   min-height: auto;
 }
 .section-infographic .image-with-text__media-item .highlight-overlay {

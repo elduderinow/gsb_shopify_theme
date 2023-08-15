@@ -691,7 +691,9 @@
             "title": "Gepersonaliseerde aanbevelingen to unlock your glow.",
             "text": "",
             "link_label": "Contacteer een professional",
-            "link": "shopify:\/\/pages\/contact"
+            "link": "shopify:\/\/pages\/contact",
+            "bg_color": "#000000",
+            "bg_opacity": 25
           }
         },
         "template--19180119228763__3a8bc5a3-eff6-4ced-b226-ee503a61991b-column-2": {
@@ -701,7 +703,9 @@
             "title": "Verminder roodheid + kalmeer verbrande huid",
             "text": "",
             "link_label": "Shop calming skincare",
-            "link": "shopify:\/\/collections\/calm-sooth"
+            "link": "shopify:\/\/collections\/calm-sooth",
+            "bg_color": "#000000",
+            "bg_opacity": 30
           }
         },
         "0b089f9b-894b-4769-a41f-8f98e485faa8": {
@@ -711,7 +715,9 @@
             "title": "huidverzorging aangedreven make-up",
             "text": "",
             "link_label": "Moeiteloos, maximum glow",
-            "link": "shopify:\/\/collections\/eye-mascara"
+            "link": "shopify:\/\/collections\/eye-mascara",
+            "bg_color": "#000000",
+            "bg_opacity": 30
           }
         }
       },

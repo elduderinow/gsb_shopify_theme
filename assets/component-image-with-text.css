@@ -321,7 +321,7 @@
     row-gap: var(--grid-desktop-vertical-spacing);
   }
 }
-.image-with-text .image-with-text__text-item .image-with-text__media {
+.image-with-text .image-with-text__media-item .image-with-text__media {
   min-height: auto;
 }
 .image-with-text .image-with-text__text-item .image-with-text__content {

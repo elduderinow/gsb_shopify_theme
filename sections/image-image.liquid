@@ -27,7 +27,7 @@
         {{ block.settings.bg_color }}
         {{ block.settings.bg_opacity }}
 
-        {{ '#7ab55c' | color_to_rgb }}
+        {{ '#7ab55c' | color_modify: 'alpha', 0.85 }}
         <a
           href="{{ block.settings.link }}"
           class="image-block image--{%- if imageModulo == 0 -%}even{%- else -%}odd{%- endif -%}"

@@ -24,6 +24,8 @@
     <div class="image-repeater-grid grid--{{ section.settings.image_grid }} flex flex-col md:flex-row">
       {% assign imageModulo = section.blocks.size | modulo: 2 %}
       {%- for block in section.blocks -%}
+        {{ block.settings.bg_color }}
+        {{ block.settings.bg_opacity }}
         <a
           href="{{ block.settings.link }}"
           class="image-block image--{%- if imageModulo == 0 -%}even{%- else -%}odd{%- endif -%}"

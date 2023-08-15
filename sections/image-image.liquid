@@ -14,10 +14,6 @@
   }
 {%- endstyle -%}
 
-{%- capture rgb -%}{{ color | color_to_rgb }}{%- endcapture -%}
-{%- assign tail = alpha | prepend: ', ' | append: ')' -%}
-{{ rgb | replace: 'rgb', 'rgba' | replace: ')', tail }}
-
 <div class="section--image-repeater bcolor-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div
     class="page-width page-width--{{ section.settings.section_width }} section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -28,8 +24,6 @@
     <div class="image-repeater-grid grid--{{ section.settings.image_grid }} flex flex-col md:flex-row">
       {% assign imageModulo = section.blocks.size | modulo: 2 %}
       {%- for block in section.blocks -%}
-        {% render 'color_to_rgba', color: settings.the_color, alpha: '0.8' %}
-
         {{ block.settings.bg_color }}
         {{ block.settings.bg_opacity }}
         <a

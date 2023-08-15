@@ -25,7 +25,7 @@
       {% assign imageModulo = section.blocks.size | modulo: 2 %}
       {%- for block in section.blocks -%}
         {{ block.settings.bg_color }}
-        {{ block.settings.bg_opacity }}
+        {{ block.settings.bg_opacity | divided_by: 100 }}
 
         {{ block.settings.bg_color | color_modify: 'alpha', 0.30 }}
         <a

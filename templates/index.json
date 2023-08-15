@@ -803,7 +803,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/23Aug-HP-Blog.jpg",
-        "height": "small",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",

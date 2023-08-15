@@ -14,7 +14,7 @@ html {
     row-gap: var(--grid-mobile-vertical-spacing);
 }
 
-.global-section-x-padding {
+@mixin global-section-x-padding {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 
@@ -27,6 +27,10 @@ html {
         padding-left: 5rem;
         padding-right: 5rem;
     }
+}
+
+.global-section-x-padding {
+    @include global-section-x-padding;
 }
 
 .page-width--full_width {
@@ -45,9 +49,21 @@ html {
 }
 
 #instagram-feed-box {
-    display: none;
+    // display: none;
     margin: 0 auto;
     max-width: $max-width--boxed;
+    @include global-section-x-padding;
+
+    #instafeed {
+        padding: 80px 0;
+
+        .glide__arrow {
+            // &:after {
+            //     content: "←";
+            // }
+        }
+    }
+
     .glide__slides {
         .glide__slide {
             box-shadow: none !important;

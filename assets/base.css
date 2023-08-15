@@ -3211,9 +3211,25 @@ html {
 }
 
 #instagram-feed-box {
-  display: none;
   margin: 0 auto;
   max-width: 1280px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+@media (min-width: 750px) {
+  #instagram-feed-box {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+@media (min-width: 990px) {
+  #instagram-feed-box {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+#instagram-feed-box #instafeed {
+  padding: 80px 0;
 }
 #instagram-feed-box .glide__slides .glide__slide {
   box-shadow: none !important;

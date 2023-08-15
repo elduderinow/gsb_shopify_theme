@@ -47,6 +47,20 @@ $gap: 3rem;
                     .title {
                         font-weight: 500;
                         margin: 0;
+                        text-align: left;
+                        color: white;
+                    }
+
+                    .button {
+                        background-color: $gray700;
+                        transition: background-color 0.3s ease-in-out;
+                        &::after {
+                            content: none;
+                        }
+
+                        &:hover {
+                            background-color: ligten($gray700, 10%);
+                        }
                     }
                 }
             }
@@ -131,6 +145,7 @@ $gap: 3rem;
                         .title {
                             @include h5-text;
                             margin: 0;
+                            color: white;
                         }
                     }
                 }

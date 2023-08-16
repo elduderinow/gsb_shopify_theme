@@ -161,28 +161,26 @@
                   {%- assign lazy_load = true -%}
                 {%- endif -%}
                 {%- unless customer.tags contains 'B2B' -%}
-                  {%- unless product.tags contains 'tester' -%}
-                    {%- unless product.tags contains 'professional' -%}
-                      <li
-                        data-max-width="{{ maxWidthListItem }}"
-                        class="grid__item{% if settings.animations_reveal_on_scroll %} testtest scroll-trigger animate--slide-in{% endif %}"
-                        {% if settings.animations_reveal_on_scroll %}
-                          data-cascade
-                        {% endif %}
-                      >
-                        {% render 'card-product',
-                          card_product: product,
-                          media_aspect_ratio: section.settings.image_ratio,
-                          image_shape: section.settings.image_shape,
-                          show_secondary_image: section.settings.show_secondary_image,
-                          show_vendor: section.settings.show_vendor,
-                          show_rating: section.settings.show_rating,
-                          lazy_load: lazy_load,
-                          show_quick_add: section.settings.enable_quick_add,
-                          section_id: section.id
-                        %}
-                      </li>
-                    {%- endunless -%}
+                  {%- unless product.tags contains 'tester' or product.tags contains 'professional' -%}
+                    <li
+                      data-max-width="{{ maxWidthListItem }}"
+                      class="grid__item{% if settings.animations_reveal_on_scroll %} testtest scroll-trigger animate--slide-in{% endif %}"
+                      {% if settings.animations_reveal_on_scroll %}
+                        data-cascade
+                      {% endif %}
+                    >
+                      {% render 'card-product',
+                        card_product: product,
+                        media_aspect_ratio: section.settings.image_ratio,
+                        image_shape: section.settings.image_shape,
+                        show_secondary_image: section.settings.show_secondary_image,
+                        show_vendor: section.settings.show_vendor,
+                        show_rating: section.settings.show_rating,
+                        lazy_load: lazy_load,
+                        show_quick_add: section.settings.enable_quick_add,
+                        section_id: section.id
+                      %}
+                    </li>
                   {%- endunless -%}
                 {%- endunless -%}
                 {%- if customer.tags contains 'B2B' -%}

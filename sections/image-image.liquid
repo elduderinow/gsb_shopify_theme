@@ -43,7 +43,9 @@
             </div>
           {%- endif -%}
           <div
-            style="background: linear-gradient(0deg, {{ bgColor }} 0%, rgba(255,255,255,0) 50%);"
+            {% if section.settings.image_grid == 'dynamic' %}
+              style="background: linear-gradient(0deg, {{ bgColor }} 0%, rgba(255,255,255,0) 50%);"
+            {% endif %}
             class="image-block--content"
           >
             <div class="content--inner">

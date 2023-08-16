@@ -65,6 +65,9 @@ body {
   margin-left: 0;
   padding: 3rem 2rem 0 2rem;
 }
+.section-infographic .image-with-text__grid .image-with-text__content .infoblock_wrapper .infoblock .image-with-text__heading {
+  margin-bottom: 1rem;
+}
 .section-infographic .image-with-text__grid .image-with-text__content .infoblock_wrapper .button--text {
   padding-top: 1rem;
   display: block;
@@ -76,6 +79,13 @@ body {
   text-decoration: none;
 }
 @media (min-width: 750px) {
+  .section-infographic .image-with-text__grid .image-with-text__content .infoblock_wrapper {
+    padding: 0;
+    width: 83.3333333333%;
+    margin-left: 16.6666666667%;
+  }
+}
+@media (min-width: 990px) {
   .section-infographic .image-with-text__grid .image-with-text__content .infoblock_wrapper {
     padding: 0;
     width: 66.6666666667%;

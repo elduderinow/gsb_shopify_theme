@@ -160,8 +160,10 @@
                 {%- if forloop.index > 2 -%}
                   {%- assign lazy_load = true -%}
                 {%- endif -%}
-                {%- if product.tags contains 'tester' -%}
-                  {{ product.tags }}
+                {%- if customer.tags contains 'B2B' -%}
+                  {%- if product.tags contains 'tester' -%}
+                    {{ product.tags }}
+                  {%- endif -%}
                 {%- endif -%}
                 <li
                   data-max-width="{{ maxWidthListItem }}"

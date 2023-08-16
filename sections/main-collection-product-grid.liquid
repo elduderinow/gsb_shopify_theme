@@ -154,8 +154,13 @@
                 grid--{{ section.settings.columns_desktop }}-col-desktop
               "
             >
+<<<<<<< HEAD
               {%- for product in collection.products -%}
                 {% include 'easylockdown_filter_collection' with product %}
+=======
+              {%- for product in collection.products -%}{% include 'easylockdown_filter_collection' with product %}
+                
+>>>>>>> 2d19571f6d33886881e729687aa1c69636522258
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
                   {%- assign lazy_load = true -%}

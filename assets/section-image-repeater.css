@@ -155,6 +155,9 @@ body {
   .section--image-repeater .image-repeater-grid.grid--dynamic .image-block .image-repeater--image-wrapper {
     aspect-ratio: 4/5;
   }
+  .section--image-repeater .image-repeater-grid.grid--dynamic .image-block .image-block--content .content--inner .title {
+    font-size: 4rem;
+  }
 }
 @media (min-width: 990px) {
   .section--image-repeater .image-repeater-grid.grid--dynamic {

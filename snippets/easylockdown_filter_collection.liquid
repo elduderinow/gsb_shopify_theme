@@ -7,14 +7,12 @@
 {% endfor %}
 {% for t in easylockdown_filter_collection.tags %}
 {% assign tag = t | downcase %}
-{% if tag == 'tester' %}{% assign elpTag1 = true %}{% endif %}
-{% if tag == 'professional' %}{% assign elpTag2 = true %}{% endif %}
-{% if tag == 'skincare professional' %}{% assign elpTag3 = true %}{% endif %}
-{% if tag == 'beauty professional' %}{% assign elpTag4 = true %}{% endif %}
+{% if tag == 'skincare professional' %}{% assign elpTag1 = true %}{% endif %}
+{% if tag == 'beauty professional' %}{% assign elpTag2 = true %}{% endif %}
 {% endfor %}
 {% assign easylockdownCollectionException = false %}
 {% unless easylockdownCollectionException %}
-{% if elpTag3 or elpTag4 %}
+{% if elpTag1 or elpTag2 %}
 {% unless customer %}
 {% if easylockdownRender %}continue{% endif %}{% continue %}
 {% else %}

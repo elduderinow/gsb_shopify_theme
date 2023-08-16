@@ -158,7 +158,8 @@ body {
   }
   .section--image-repeater .image-repeater-grid.grid--dynamic .image-block .image-block--content .content--inner .title {
     text-align: left;
-    max-width: 100%;
+    max-width: 90%;
     font-size: 3rem;
+    line-height: 3.2rem;
   }
 }

@@ -159,6 +159,10 @@
               "
             >
               {%- for product in filtered_b2c_products -%}
+                {% assign lazy_load = false %}
+                {%- if forloop.index > 2 -%}
+                  {%- assign lazy_load = true -%}
+                {%- endif -%}
                 <li
                   data-max-width="{{ maxWidthListItem }}"
                   class="grid__item{% if settings.animations_reveal_on_scroll %} testtest scroll-trigger animate--slide-in{% endif %}"

@@ -28,7 +28,7 @@
 {%- endstyle -%}
 
 {%- liquid
-  assign filtered_b2c_products = collection.products | where: 'tag', 'tester'
+  assign filtered_b2c_products = collection.products | where: 'tags', 'tester'
 %}
 
 <div class="section-{{ section.id }}-padding global-section-x-padding page-width--{{ section.settings.section_width }} product-view--{{ section.settings.product_view }}">
@@ -159,10 +159,6 @@
               "
             >
               {%- for product in filtered_b2c_products -%}
-                {% assign lazy_load = false %}
-                {%- if forloop.index > 2 -%}
-                  {%- assign lazy_load = true -%}
-                {%- endif -%}
                 <li
                   data-max-width="{{ maxWidthListItem }}"
                   class="grid__item{% if settings.animations_reveal_on_scroll %} testtest scroll-trigger animate--slide-in{% endif %}"

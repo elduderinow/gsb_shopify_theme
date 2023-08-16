@@ -694,7 +694,7 @@
             "text": "",
             "link_label": "Contacteer een professional",
             "link": "shopify:\/\/pages\/contact",
-            "bg_color": "#813900",
+            "bg_color": "#391900",
             "bg_opacity": 70
           }
         },
@@ -706,7 +706,7 @@
             "text": "",
             "link_label": "Shop calming skincare",
             "link": "shopify:\/\/collections\/calm-sooth",
-            "bg_color": "#bc0000",
+            "bg_color": "#960013",
             "bg_opacity": 45
           }
         },
@@ -718,7 +718,7 @@
             "text": "",
             "link_label": "Moeiteloos, maximum glow",
             "link": "shopify:\/\/collections\/eye-mascara",
-            "bg_color": "#15416b",
+            "bg_color": "#1a3148",
             "bg_opacity": 50
           }
         }

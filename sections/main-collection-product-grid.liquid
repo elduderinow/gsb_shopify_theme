@@ -27,15 +27,17 @@
   }
 {%- endstyle -%}
 
-{%- liquid
-  assign filtered_b2c_products = ''
-  for product in collection.products
-    if product.tags contains 'tester'
-      assign filtered_b2c_products = filtered_b2c_products | append: ',' | append: product
-    endif
-  endfor
-  assign filtered_b2c_products = filtered_b2c_products | remove_first: ',' | split: ','
-%}
+{% comment %}
+  {%- liquid
+    assign filtered_b2c_products = ''
+    for product in collection.products
+      if product.tags contains 'tester'
+        assign filtered_b2c_products = filtered_b2c_products | append: ',' | append: product
+      endif
+    endfor
+    assign filtered_b2c_products = filtered_b2c_products | remove_first: ',' | split: ','
+  %}
+{% endcomment %}
 
 <div class="section-{{ section.id }}-padding global-section-x-padding page-width--{{ section.settings.section_width }} product-view--{{ section.settings.product_view }}">
   {%- paginate collection.products by section.settings.products_per_page -%}
@@ -164,63 +166,15 @@
                 grid--{{ section.settings.columns_desktop }}-col-desktop
               "
             >
-              {%- for product in filtered_b2c_products -%}
+              {%- for product in collection.products -%}
+                {% include 'easylockdown_filter_collection' with product %}
+
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
                   {%- assign lazy_load = true -%}
                 {%- endif -%}
-                <li
-                  data-max-width="{{ maxWidthListItem }}"
-                  class="grid__item{% if settings.animations_reveal_on_scroll %} testtest scroll-trigger animate--slide-in{% endif %}"
-                  {% if settings.animations_reveal_on_scroll %}
-                    data-cascade
-                  {% endif %}
-                >
-                  {% render 'card-product',
-                    card_product: product,
-                    media_aspect_ratio: section.settings.image_ratio,
-                    image_shape: section.settings.image_shape,
-                    show_secondary_image: section.settings.show_secondary_image,
-                    show_vendor: section.settings.show_vendor,
-                    show_rating: section.settings.show_rating,
-                    lazy_load: lazy_load,
-                    show_quick_add: section.settings.enable_quick_add,
-                    section_id: section.id
-                  %}
-                </li>
-              {%- endfor -%}
-              {% comment %}
-                {%- for product in collection.products -%}
-                  {% include 'easylockdown_filter_collection' with product %}
-
-                  {% assign lazy_load = false %}
-                  {%- if forloop.index > 2 -%}
-                    {%- assign lazy_load = true -%}
-                  {%- endif -%}
-                  {%- unless customer.tags contains 'B2B' -%}
-                    {%- unless product.tags contains 'tester' or product.tags contains 'professional' -%}
-                      <li
-                        data-max-width="{{ maxWidthListItem }}"
-                        class="grid__item{% if settings.animations_reveal_on_scroll %} testtest scroll-trigger animate--slide-in{% endif %}"
-                        {% if settings.animations_reveal_on_scroll %}
-                          data-cascade
-                        {% endif %}
-                      >
-                        {% render 'card-product',
-                          card_product: product,
-                          media_aspect_ratio: section.settings.image_ratio,
-                          image_shape: section.settings.image_shape,
-                          show_secondary_image: section.settings.show_secondary_image,
-                          show_vendor: section.settings.show_vendor,
-                          show_rating: section.settings.show_rating,
-                          lazy_load: lazy_load,
-                          show_quick_add: section.settings.enable_quick_add,
-                          section_id: section.id
-                        %}
-                      </li>
-                    {%- endunless -%}
-                  {%- endunless -%}
-                  {%- if customer.tags contains 'B2B' -%}
+                {%- unless customer.tags contains 'B2B' -%}
+                  {%- unless product.tags contains 'tester' or product.tags contains 'professional' -%}
                     <li
                       data-max-width="{{ maxWidthListItem }}"
                       class="grid__item{% if settings.animations_reveal_on_scroll %} testtest scroll-trigger animate--slide-in{% endif %}"
@@ -240,11 +194,31 @@
                         section_id: section.id
                       %}
                     </li>
-                  {%- endif -%}
-                {%- endfor -%}
-              {% endcomment %}
+                  {%- endunless -%}
+                {%- endunless -%}
+                {%- if customer.tags contains 'B2B' -%}
+                  <li
+                    data-max-width="{{ maxWidthListItem }}"
+                    class="grid__item{% if settings.animations_reveal_on_scroll %} testtest scroll-trigger animate--slide-in{% endif %}"
+                    {% if settings.animations_reveal_on_scroll %}
+                      data-cascade
+                    {% endif %}
+                  >
+                    {% render 'card-product',
+                      card_product: product,
+                      media_aspect_ratio: section.settings.image_ratio,
+                      image_shape: section.settings.image_shape,
+                      show_secondary_image: section.settings.show_secondary_image,
+                      show_vendor: section.settings.show_vendor,
+                      show_rating: section.settings.show_rating,
+                      lazy_load: lazy_load,
+                      show_quick_add: section.settings.enable_quick_add,
+                      section_id: section.id
+                    %}
+                  </li>
+                {%- endif -%}
+              {%- endfor -%}
             </ul>
-
             {%- if paginate.pages > 1 -%}
               {% render 'pagination', paginate: paginate, anchor: '' %}
             {%- endif -%}

@@ -30,7 +30,7 @@
 {%- liquid
   assign filtered_b2c_products = ''
   for product in collection.products
-    if product.tag contains 'tester'
+    if product.tags contains 'tester'
       assign filtered_b2c_products = filtered_b2c_products | append: ',' | append: product
     endif
   endfor

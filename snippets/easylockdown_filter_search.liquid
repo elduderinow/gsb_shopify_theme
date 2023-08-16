@@ -3,7 +3,8 @@
 {% for t in customer.tags %}
 {% assign tag = t | downcase %}
 {% if tag == 'b2b' %}{% assign elcTag1 = true %}{% endif %}
-{% if tag == 'training' %}{% assign elcTag2 = true %}{% endif %}
+{% if tag == 'b2b' %}{% assign elcTag2 = true %}{% endif %}
+{% if tag == 'training' %}{% assign elcTag3 = true %}{% endif %}
 {% endfor %}
 {% for t in easylockdown_filter_search.tags %}
 {% assign tag = t | downcase %}
@@ -17,7 +18,7 @@
 {% unless customer %}
 {% if easylockdownRender %}continue{% endif %}{% continue %}
 {% else %}
-{% unless elcTag1 %}{% if easylockdownRender %}continue{% endif %}{% continue %}{% endunless %}
+{% unless elcTag2 %}{% if easylockdownRender %}continue{% endif %}{% continue %}{% endunless %}
 {% endunless %}
 
 {% endif %}
@@ -30,7 +31,7 @@
 {% unless customer %}
 {% if easylockdownRender %}continue{% endif %}{% continue %}
 {% else %}
-{% unless elcTag1 %}{% if easylockdownRender %}continue{% endif %}{% continue %}{% endunless %}
+{% unless elcTag2 %}{% if easylockdownRender %}continue{% endif %}{% continue %}{% endunless %}
 {% endunless %}
 
 {% endif %}

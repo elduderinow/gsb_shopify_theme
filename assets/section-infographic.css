@@ -6,33 +6,37 @@ body {
 .section-infographic {
   max-width: 1280px;
 }
-.section-infographic .image-with-text__media-item .highlight-overlay {
+.section-infographic .image-with-text__grid {
+  align-items: flex-start;
+}
+.section-infographic .image-with-text__grid .image-with-text__media-item .image-with-text__media {
+  min-height: auto;
+}
+.section-infographic .image-with-text__grid .image-with-text__media-item .highlight-overlay {
   width: 100%;
   height: 100%;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 29%, rgba(67, 27, 105, 0.4920561975) 100%);
   position: absolute;
   z-index: 1;
 }
 @media (max-width: 750px) {
-  .section-infographic .image-with-text__media-item .highlight-overlay {
+  .section-infographic .image-with-text__grid .image-with-text__media-item .highlight-overlay {
     display: none;
   }
 }
-.section-infographic .image-with-text__media-item .highlight-overlay .overlay--inner {
+.section-infographic .image-with-text__grid .image-with-text__media-item .highlight-overlay .overlay--inner {
   display: flex;
   flex-direction: column;
   align-items: end;
   justify-content: center;
   flex-wrap: wrap;
 }
-.section-infographic .image-with-text__media-item .highlight-overlay .overlay--inner .item {
+.section-infographic .image-with-text__grid .image-with-text__media-item .highlight-overlay .overlay--inner .item {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-right: 5rem;
 }
-.section-infographic .image-with-text__media-item .highlight-overlay .overlay--inner .item .number {
+.section-infographic .image-with-text__grid .image-with-text__media-item .highlight-overlay .overlay--inner .item .number {
   width: 90px;
   height: 90px;
   border: 3px solid white;
@@ -44,35 +48,35 @@ body {
   font-weight: 300;
   border-radius: 5rem;
 }
-.section-infographic .image-with-text__media-item .highlight-overlay .overlay--inner .item .text {
+.section-infographic .image-with-text__grid .image-with-text__media-item .highlight-overlay .overlay--inner .item .text {
   color: white;
   width: 170px;
   font-size: 2rem;
   text-align: center;
   margin-top: 1rem;
 }
-.section-infographic .image-with-text__content {
+.section-infographic .image-with-text__grid .image-with-text__content {
   padding: 0;
   display: flex;
   justify-content: center;
 }
-.section-infographic .image-with-text__content .infoblock_wrapper {
+.section-infographic .image-with-text__grid .image-with-text__content .infoblock_wrapper {
   width: 100%;
   margin-left: 0;
   padding: 3rem 2rem 0 2rem;
 }
-.section-infographic .image-with-text__content .infoblock_wrapper .button--text {
+.section-infographic .image-with-text__grid .image-with-text__content .infoblock_wrapper .button--text {
   padding-top: 1rem;
   display: block;
   font-weight: 400;
   text-decoration: underline;
   transition: text-decoration 0.2s ease-in-out;
 }
-.section-infographic .image-with-text__content .infoblock_wrapper .button--text:hover {
+.section-infographic .image-with-text__grid .image-with-text__content .infoblock_wrapper .button--text:hover {
   text-decoration: none;
 }
 @media (min-width: 750px) {
-  .section-infographic .image-with-text__content .infoblock_wrapper {
+  .section-infographic .image-with-text__grid .image-with-text__content .infoblock_wrapper {
     padding: 0;
     width: 66.6666666667%;
     margin-left: 33.3333333333%;

@@ -15,6 +15,11 @@
   }
 {%- endstyle -%}
 
+{%- liquid
+  assign alpha = section.settings.bg_opacity | divided_by: 100.0
+  assign bgColor = section.settings.bg_color | color_modify: 'alpha', alpha
+%}
+
 <div class="image-with-text section-infographic image-with-text--{{ section.settings.content_layout }} page-width isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == 'background-1' and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %} section-{{ section.id }}-padding{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
   <div class="image-with-text__grid shop-flex grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
     <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
@@ -22,7 +27,10 @@
         or section.settings.number_highlight_2 != blank
         or section.settings.number_highlight_3 != blank
       -%}
-        <div class="highlight-overlay">
+        <div
+          class="highlight-overlay"
+          style="background: linear-gradient(270deg, {{ bgColor }} 0%, rgba(255,255,255,0) 50%);"
+        >
           <div class="overlay--inner relative w-full h-full space-y-16">
             {%- if section.settings.number_highlight_1 != blank -%}
               <div class="item">
@@ -277,6 +285,21 @@
     {
       "type": "header",
       "content": "Info Highlight"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "bg_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "label": "Background opacity",
+      "default": 30
     },
     {
       "type": "text",

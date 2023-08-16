@@ -52,7 +52,7 @@ body {
   content: none;
 }
 .section--image-repeater .image-repeater-grid .image-block .image-block--content .content--inner .button:hover {
-  background-color: ligten(#3c3c3c, 10%);
+  background-color: #565656;
 }
 .section--image-repeater .image-repeater-grid .image-block:hover .image-repeater--image-wrapper img {
   transform: scale(1.06);

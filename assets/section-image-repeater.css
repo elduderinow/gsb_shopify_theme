@@ -151,6 +151,11 @@ body {
     line-height: 27.6px;
   }
 }
+@media (max-width: 750px) {
+  .section--image-repeater .image-repeater-grid.grid--dynamic .image-block .image-repeater--image-wrapper {
+    aspect-ratio: 3/5;
+  }
+}
 @media (min-width: 990px) {
   .section--image-repeater .image-repeater-grid.grid--dynamic {
     gap: 3rem;

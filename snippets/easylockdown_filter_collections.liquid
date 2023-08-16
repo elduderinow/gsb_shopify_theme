@@ -9,9 +9,8 @@
 {% for t in easylockdown_filter_collections.tags %}
 {% assign tag = t | downcase %}
 {% if tag == 'professional' %}{% assign elpTag1 = true %}{% endif %}
-{% if tag == 'tester' %}{% assign elpTag2 = true %}{% endif %}
-{% if tag == 'skincare professional' %}{% assign elpTag3 = true %}{% endif %}
-{% if tag == 'beauty professional' %}{% assign elpTag4 = true %}{% endif %}
+{% if tag == 'skincare professional' %}{% assign elpTag2 = true %}{% endif %}
+{% if tag == 'beauty professional' %}{% assign elpTag3 = true %}{% endif %}
 {% endfor %}
 {% assign easylockdownCollectionsException = false %}
 {% unless easylockdownCollectionsException %}

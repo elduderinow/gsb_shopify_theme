@@ -35,14 +35,14 @@ body {
   object-fit: cover;
 }
 .section--image-repeater .image-repeater-grid .image-block .image-block--content .content--inner {
-  text-align: center;
+  text-align: left;
   padding-top: 3rem;
 }
 .section--image-repeater .image-repeater-grid .image-block .image-block--content .content--inner .title {
   font-weight: 500;
   margin: 0;
   text-align: left;
-  color: white;
+  color: black;
 }
 .section--image-repeater .image-repeater-grid .image-block .image-block--content .content--inner .button {
   background-color: #3c3c3c;

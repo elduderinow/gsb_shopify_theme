@@ -28,7 +28,15 @@
 {%- endstyle -%}
 
 {%- liquid
-  assign filtered_b2b_products = collection.products | where: 'tags', 'tester'
+  assign filteredProducts = ''
+
+  for product in collection.products
+    if product.tags contains 'tester'
+      assign filteredProducts = filteredProducts | append: product.id | append: ','
+    endif
+  endfor
+
+  assign filteredProductIds = filteredProducts | split: ',' | join: ',' | remove: ''
 %}
 
 <div class="section-{{ section.id }}-padding global-section-x-padding page-width--{{ section.settings.section_width }} product-view--{{ section.settings.product_view }}">
@@ -158,7 +166,7 @@
                 grid--{{ section.settings.columns_desktop }}-col-desktop
               "
             >
-              {%- for product in filtered_b2c_products -%}
+              {%- for product in filteredProducts -%}
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
                   {%- assign lazy_load = true -%}

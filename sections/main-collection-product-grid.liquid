@@ -36,7 +36,7 @@
     endif
   endfor
 
-  assign filteredProductIds = filteredProducts | split: ',' | join: ',' | remove: ''
+  assign filteredProducts = filteredProducts | split: ',' | join: ',' | remove: ''
 %}
 
 <div class="section-{{ section.id }}-padding global-section-x-padding page-width--{{ section.settings.section_width }} product-view--{{ section.settings.product_view }}">

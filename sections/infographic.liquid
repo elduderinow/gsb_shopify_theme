@@ -27,7 +27,10 @@
         or section.settings.number_highlight_2 != blank
         or section.settings.number_highlight_3 != blank
       -%}
-        <div class="highlight-overlay">
+        <div
+          class="highlight-overlay"
+          style="background: linear-gradient(90deg, {{ bgColor }} 0%, rgba(255,255,255,0) 50%);"
+        >
           <div class="overlay--inner relative w-full h-full space-y-16">
             {%- if section.settings.number_highlight_1 != blank -%}
               <div class="item">

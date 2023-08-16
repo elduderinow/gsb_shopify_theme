@@ -15,8 +15,6 @@ body {
 .section-infographic .image-with-text__grid .image-with-text__media-item .highlight-overlay {
   width: 100%;
   height: 100%;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 29%, rgba(67, 27, 105, 0.4920561975) 100%);
   position: absolute;
   z-index: 1;
 }

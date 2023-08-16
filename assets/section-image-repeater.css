@@ -129,6 +129,14 @@ body {
 .section--image-repeater .image-repeater-grid.grid--dynamic .image-block .image-repeater--image-wrapper {
   aspect-ratio: 4/5;
 }
+@media (min-width: 640px) {
+  .section--image-repeater .image-repeater-grid.grid--dynamic .image-block--content .content--inner .title {
+    max-width: 90%;
+  }
+  .section--image-repeater .image-repeater-grid.grid--dynamic .image-repeater--image-wrapper {
+    aspect-ratio: 6/4;
+  }
+}
 @media (min-width: 990px) {
   .section--image-repeater .image-repeater-grid.grid--dynamic {
     gap: 3rem;

@@ -81,6 +81,13 @@ body {
 @media (min-width: 750px) {
   .section-infographic .image-with-text__grid .image-with-text__content .infoblock_wrapper {
     padding: 0;
+    width: 83.3333333333%;
+    margin-left: 16.6666666667%;
+  }
+}
+@media (min-width: 990px) {
+  .section-infographic .image-with-text__grid .image-with-text__content .infoblock_wrapper {
+    padding: 0;
     width: 66.6666666667%;
     margin-left: 33.3333333333%;
   }

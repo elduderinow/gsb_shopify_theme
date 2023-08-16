@@ -151,9 +151,14 @@ body {
     line-height: 27.6px;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 640px) {
   .section--image-repeater .image-repeater-grid.grid--dynamic .image-block .image-repeater--image-wrapper {
     aspect-ratio: 4/5;
+  }
+}
+@media (max-width: 750px) {
+  .section--image-repeater .image-repeater-grid.grid--dynamic .image-block .image-repeater--image-wrapper {
+    aspect-ratio: 5/4;
   }
   .section--image-repeater .image-repeater-grid.grid--dynamic .image-block .image-block--content .content--inner {
     align-items: center;

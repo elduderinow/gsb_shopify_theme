@@ -32,7 +32,7 @@
 
   for product in collection.products
     if product.tags contains 'tester'
-      assign filteredProducts = filteredProducts | append: product.id | append: ','
+      assign filteredProducts = filteredProducts | append: product | append: ','
     endif
   endfor
 

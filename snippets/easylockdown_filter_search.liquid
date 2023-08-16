@@ -1,0 +1,39 @@
+{% assign easylockdownLocationsCan = '' | split: ',' %}{% assign easylockdownLocationsCannot = '' | split: ',' %}{% assign easylockdownPasswordItems = '' | split: ',' %}
+{% assign easylockdownNow = 'now' | date:'%s' | times: 1 %}{% assign easylockdownNowWeekDay = easylockdownNow | date:'%u' %}{% assign easylockdownNowMonthDay = easylockdownNow | date:'%d' %}{% assign easylockdownNowHM = easylockdownNow | date:'%H%M' | times: 1 %}{% if customer %}{% assign easylockdownPlacedOrder = customer.orders.first.created_at | date:'%s' %}{% assign easylockdownOldestPlacedOrder = customer.orders.last.created_at | date:'%s' %}{% assign easylockdownDateDifference = easylockdownNow | minus: easylockdownPlacedOrder %}{% endif %}
+{% for t in customer.tags %}
+{% assign tag = t | downcase %}
+{% if tag == 'b2b' %}{% assign elcTag1 = true %}{% endif %}
+{% if tag == 'training' %}{% assign elcTag2 = true %}{% endif %}
+{% endfor %}
+{% for t in easylockdown_filter_search.tags %}
+{% assign tag = t | downcase %}
+{% if tag == 'skincare professional' %}{% assign elpTag1 = true %}{% endif %}
+{% if tag == 'beauty professional' %}{% assign elpTag2 = true %}{% endif %}
+{% endfor %}
+{% assign easylockdownSearchException = false %}
+{% unless easylockdownSearchException %}
+{% if easylockdown_filter_search.object_type == 'product' %}
+{% if elpTag1 or elpTag2 %}
+{% unless customer %}
+{% if easylockdownRender %}continue{% endif %}{% continue %}
+{% else %}
+{% unless elcTag1 %}{% if easylockdownRender %}continue{% endif %}{% continue %}{% endunless %}
+{% endunless %}
+
+{% endif %}
+{% endif %}
+{% endunless %}
+{% assign easylockdownSearchException = false %}
+{% unless easylockdownSearchException %}
+{% if easylockdown_filter_search.object_type == 'page' %}
+{% if easylockdown_filter_search.id == 49035608163 %}
+{% unless customer %}
+{% if easylockdownRender %}continue{% endif %}{% continue %}
+{% else %}
+{% unless elcTag1 %}{% if easylockdownRender %}continue{% endif %}{% continue %}{% endunless %}
+{% endunless %}
+
+{% endif %}
+{% endif %}
+{% endunless %}
+{% unless easylockdownItemSelectorOff %}<div class='easylockdown-item-selector easy-item-selector' data-eld-loc-can='{{ easylockdownLocationsCan | join: "," }}' data-eld-loc-cannot='{{ easylockdownLocationsCannot | join: "," }}' data-eld-loc-auth='{{ easylockdownPasswordItems | join: "," }}' style='display:none;'></div>{% endunless %}

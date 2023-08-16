@@ -28,13 +28,7 @@
 {%- endstyle -%}
 
 {%- liquid
-  assign filtered_b2c_products = ''
-  for product in collection.products
-    if product.tags contains 'tester'
-      assign filtered_b2c_products = filtered_b2c_products | append: ',' | append: product
-    endif
-  endfor
-  assign filtered_b2c_products = filtered_b2c_products | remove_first: ',' | split: ','
+  assign filtered_b2b_products = collection.products | where: 'tags', 'tester'
 %}
 
 <div class="section-{{ section.id }}-padding global-section-x-padding page-width--{{ section.settings.section_width }} product-view--{{ section.settings.product_view }}">

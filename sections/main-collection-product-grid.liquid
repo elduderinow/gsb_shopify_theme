@@ -28,7 +28,7 @@
 {%- endstyle -%}
 
 {%- liquid
-  assign filtered_b2c_products = collection.products | where: 'tags', 'tester'
+  assign filtered_b2c_products = collection.products | where: 'tag', 'tester'
 %}
 
 <div class="section-{{ section.id }}-padding global-section-x-padding page-width--{{ section.settings.section_width }} product-view--{{ section.settings.product_view }}">

@@ -160,7 +160,7 @@
                 {%- if forloop.index > 2 -%}
                   {%- assign lazy_load = true -%}
                 {%- endif -%}
-                {{ product.tag }}
+                {{ product.tags }}
                 <li
                   data-max-width="{{ maxWidthListItem }}"
                   class="grid__item{% if settings.animations_reveal_on_scroll %} testtest scroll-trigger animate--slide-in{% endif %}"

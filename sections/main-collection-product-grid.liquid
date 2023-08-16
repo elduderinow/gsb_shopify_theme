@@ -161,9 +161,9 @@
                   {%- assign lazy_load = true -%}
                 {%- endif -%}
                 {%- unless customer.tags contains 'B2B' -%}
-                  {%- if product.tags contains 'tester' -%}
+                  {%- unless product.tags contains 'tester' or 'professional' -%}
                     {{ product.tags }}
-                  {%- endif -%}
+                  {%- endunless -%}
                 {%- endunless -%}
                 <li
                   data-max-width="{{ maxWidthListItem }}"

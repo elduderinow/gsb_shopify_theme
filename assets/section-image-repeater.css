@@ -163,6 +163,15 @@ body {
     line-height: 3.2rem;
   }
 }
+@media (max-width: 750px) {
+  .section--image-repeater .image-repeater-grid.grid--dynamic .image-block .image-block--content .content--inner {
+    align-items: center;
+  }
+  .section--image-repeater .image-repeater-grid.grid--dynamic .image-block .image-block--content .content--inner .title {
+    font-size: 3rem;
+    line-height: 3.2rem;
+  }
+}
 @media (min-width: 990px) {
   .section--image-repeater .image-repeater-grid.grid--dynamic {
     gap: 3rem;

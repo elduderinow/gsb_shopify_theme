@@ -153,4 +153,8 @@ body {
   .section--image-repeater .image-repeater-grid.grid--dynamic .image-block.image--odd:last-child {
     width: calc(50% - 1.5rem);
   }
+  .section--image-repeater .image-repeater-grid.grid--dynamic .image-block .image-block--content .content--inner .title {
+    max-width: 100%;
+    font-size: 3.5rem;
+  }
 }

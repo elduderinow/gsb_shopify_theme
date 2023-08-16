@@ -65,6 +65,9 @@ body {
   margin-left: 0;
   padding: 3rem 2rem 0 2rem;
 }
+.section-infographic .image-with-text__grid .image-with-text__content .infoblock_wrapper .infoblock .image-with-text__heading {
+  margin-bottom: 1rem;
+}
 .section-infographic .image-with-text__grid .image-with-text__content .infoblock_wrapper .button--text {
   padding-top: 1rem;
   display: block;

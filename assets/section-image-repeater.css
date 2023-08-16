@@ -147,10 +147,6 @@ body {
   .section--image-repeater .image-repeater-grid.grid--dynamic .image-block:first-child {
     width: 100%;
   }
-  .section--image-repeater .image-repeater-grid.grid--dynamic .image-block:first-child .image-block--content .content--inner .title {
-    max-width: 85%;
-    font-size: 4rem;
-  }
   .section--image-repeater .image-repeater-grid.grid--dynamic .image-block.image--even:last-child {
     width: 100%;
   }

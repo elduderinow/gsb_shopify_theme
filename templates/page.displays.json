@@ -21,18 +21,17 @@
         "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-text-1": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "shop displays now",
             "text_style": "body"
           }
         },
         "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-buttons-1": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "lees meer",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -45,7 +44,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/gloprof-skinbeauty_fe3c968d-604b-4ac3-8e77-f21451c62651.png",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 10,
         "image_height": "small",
         "desktop_content_position": "top-right",
         "show_text_box": false,
@@ -83,6 +82,7 @@
         "template--19180119458139__e03a7d26-1065-4812-8cb5-774b156b2488-column-1",
         "template--19180119458139__e03a7d26-1065-4812-8cb5-774b156b2488-column-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "displays",
         "heading_size": "h1",
@@ -308,6 +308,62 @@
         "padding_bottom": 80,
         "section_width": "boxed"
       }
+    },
+    "73eefec2-c3d8-4762-b9f4-98e7e3155007": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19491675996507__73eefec2-c3d8-4762-b9f4-98e7e3155007-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Make-up Displays voor Eindeloze Schoonheid",
+            "heading_size": "h1"
+          }
+        },
+        "template--19491675996507__73eefec2-c3d8-4762-b9f4-98e7e3155007-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Betreed de wereld van make-up via onze prachtige displays. Ontdek een scala aan kleuren en texturen, van oogverblindende paletten tot weelderige lippenstiften. Laat jouw creativiteit zien en omarm zelfexpressie met onze make-up displays. Jouw reis naar schoonheid begint hier.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19491675996507__73eefec2-c3d8-4762-b9f4-98e7e3155007-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Lees meer",
+            "button_link": ""
+          }
+        },
+        "4bc1988b-cafd-46bb-82e8-b6705827879c": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gloprof-PBtester_aace1fac-c85a-4d90-8c2c-f194ea25e99e.png",
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19491675996507__73eefec2-c3d8-4762-b9f4-98e7e3155007-heading-1",
+        "template--19491675996507__73eefec2-c3d8-4762-b9f4-98e7e3155007-text-1",
+        "template--19491675996507__73eefec2-c3d8-4762-b9f4-98e7e3155007-button-1",
+        "4bc1988b-cafd-46bb-82e8-b6705827879c"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Lip-Display_Tower.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
     }
   },
   "order": [
@@ -318,6 +374,7 @@
     "29c9f92b-558c-41b1-b8ab-35e4239b9c7c",
     "728e1b56-042e-44e6-8781-e443dd32cc59",
     "8a782564-a233-4ab3-9c54-f4370a9ca431",
-    "7d635706-83fc-46a2-9b95-d89c6a2ada0f"
+    "7d635706-83fc-46a2-9b95-d89c6a2ada0f",
+    "73eefec2-c3d8-4762-b9f4-98e7e3155007"
   ]
 }

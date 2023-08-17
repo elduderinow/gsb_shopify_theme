@@ -39,6 +39,11 @@
   %}
 {% endcomment %}
 
+{% assign test = collection.products | where: 'tags', 'tester' %}
+{%- for product in test -%}
+  {{ product.tags }}
+{%- endfor -%}
+
 <div class="section-{{ section.id }}-padding global-section-x-padding page-width--{{ section.settings.section_width }} product-view--{{ section.settings.product_view }}">
   {%- paginate collection.products by section.settings.products_per_page -%}
     {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
@@ -166,11 +171,6 @@
                 grid--{{ section.settings.columns_desktop }}-col-desktop
               "
             >
-              {% assign test = collection.products | where: 'tags', 'tester' %}
-              {%- for product in test -%}
-                {{ product.tags }}
-              {%- endfor -%}
-
               {%- for product in collection.products -%}
                 {% include 'easylockdown_filter_collection' with product %}
 

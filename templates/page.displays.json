@@ -14,7 +14,7 @@
         "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "What Clean BeautyMeans To Glo Skin Beauty",
+            "heading": "Displays",
             "heading_size": "h1"
           }
         },
@@ -44,7 +44,7 @@
         "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-buttons-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/23jul-hp-protect_prevent-slider-desktop.png",
+        "image": "shopify:\/\/shop_images\/gloprof-skinbeauty_fe3c968d-604b-4ac3-8e77-f21451c62651.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "top-right",
@@ -64,7 +64,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Bij Glo Skin Beauty geloven we dat huidverzorging zelfzorg is, en dat de producten die je dagelijks gebruikt een aanzienlijk verschil moeten maken voor je gezondheid en welzijn. We doen obsessief onderzoek naar onze samenstellingen om bewust zuivere, klinisch bewezen huidverzorging en cosmetica samen te stellen, ontwikkeld om echte verandering te bewerkstelligen bij jou en je huid. Onze grondstoffen en eindproducten worden nooit op dieren getest, en we zijn er trots op lid te zijn van PETA's Beauty Without Bunnies. We zijn vastbesloten om tegen 2023 volledig veganistisch te worden.<\/p><p>Omdat we begrijpen dat wat niet in onze producten zit net zo belangrijk is als wat er wel in zit, gebruiken we alleen de hoogste kwaliteit vertrouwde ingrediënten in effectieve concentraties om baanbrekende resultaten te leveren zonder concessies te doen aan de veiligheid van de huid.<\/p>",
+            "text": "<p>tekst over displays<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -73,7 +73,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>We hanteren een 'minder is meer'-benadering, met minimale ingrediënten voor maximaal effect. Onze toewijding aan zuiverheid betekent dat we nooit formuleren met parabenen, talk, kunstmatige geurstoffen, irriterende sulfaten, ftalaten, schadelijke kleurstoffen, polyethyleenkorrels of minerale olie.<\/p><p>We zullen blijven formuleren, beoordelen en innoveren om ervoor te zorgen dat onze producten compromisloos zuiver blijven.<\/p>",
+            "text": "<p>tekst part 2<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -84,7 +84,7 @@
         "template--19180119458139__e03a7d26-1065-4812-8cb5-774b156b2488-column-2"
       ],
       "settings": {
-        "title": "Onze Toewijding aan Zuiverheid",
+        "title": "displays",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -101,6 +101,33 @@
         "padding_top": 80,
         "padding_bottom": 36,
         "section_width": "boxed"
+      }
+    },
+    "4e2ab784-4bdb-4dc6-802a-196ab3c739ca": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Stralende displays",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "collection": "displays",
+        "products_to_show": 20,
+        "columns_desktop": 4,
+        "select_width": "full_width",
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "29c9f92b-558c-41b1-b8ab-35e4239b9c7c": {
@@ -151,6 +178,8 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
+        "bg_color": "#000000",
+        "bg_opacity": 30,
         "number_highlight_1": "",
         "text_highlight_1": "",
         "number_highlight_2": "",
@@ -285,6 +314,7 @@
     "main",
     "05495cf6-6b05-4043-9f7a-341ae95be296",
     "e03a7d26-1065-4812-8cb5-774b156b2488",
+    "4e2ab784-4bdb-4dc6-802a-196ab3c739ca",
     "29c9f92b-558c-41b1-b8ab-35e4239b9c7c",
     "728e1b56-042e-44e6-8781-e443dd32cc59",
     "8a782564-a233-4ab3-9c54-f4370a9ca431",

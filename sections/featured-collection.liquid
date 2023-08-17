@@ -59,8 +59,7 @@
           </h2>
         {% endcomment %}
         <h2
-          class="rich-text__heading rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          {{ block.shopify_attributes }}
+          class="rich-text__heading rte inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {% if settings.animations_reveal_on_scroll %}
             data-cascade
           {% endif %}
@@ -183,6 +182,30 @@
       "id": "title",
       "default": "Featured collection",
       "label": "t:sections.featured-collection.settings.title.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
     },
     {
       "type": "text",

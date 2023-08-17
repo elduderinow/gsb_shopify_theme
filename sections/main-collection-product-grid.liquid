@@ -219,7 +219,6 @@
                 {%- endif -%}
               {%- endfor -%}
             </ul>
-            {{ paginate | json }}
             {%- if paginate.pages > 1 -%}
               {% render 'pagination', paginate: paginate, anchor: '' %}
             {%- endif -%}

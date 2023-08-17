@@ -27,6 +27,18 @@
   }
 {%- endstyle -%}
 
+{% comment %}
+  {%- liquid
+    assign filtered_b2c_products = collection.products
+    for product in filtered_b2c_products
+      if product.tags contains 'tester'
+        assign filtered_b2c_products = filtered_b2c_products | append: ',' | append: product
+      endif
+    endfor
+    assign filtered_b2c_products = filtered_b2c_products | remove_first: ',' | split: ','
+  %}
+{% endcomment %}
+
 <div class="section-{{ section.id }}-padding global-section-x-padding page-width--{{ section.settings.section_width }} product-view--{{ section.settings.product_view }}">
   {%- paginate collection.products by section.settings.products_per_page -%}
     {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
@@ -154,8 +166,9 @@
                 grid--{{ section.settings.columns_desktop }}-col-desktop
               "
             >
-              {%- for product in collection.products -%}{% include 'easylockdown_filter_collection' with product %}
-                
+              {%- for product in collection.products -%}
+                {% include 'easylockdown_filter_collection' with product %}
+
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
                   {%- assign lazy_load = true -%}
@@ -206,7 +219,6 @@
                 {%- endif -%}
               {%- endfor -%}
             </ul>
-
             {%- if paginate.pages > 1 -%}
               {% render 'pagination', paginate: paginate, anchor: '' %}
             {%- endif -%}

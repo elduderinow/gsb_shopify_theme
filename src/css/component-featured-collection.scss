@@ -1,6 +1,11 @@
 @import "./shopify/component-featured-collection.scss", "../config/config.scss";
 
 .featured-collection--component {
+    .collection__title {
+        .rich-text__heading {
+            text-align: center;
+        }
+    }
     .grid__item {
         .card__content {
             .quick-add {

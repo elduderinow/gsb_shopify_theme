@@ -380,6 +380,9 @@ body {
   font-family: "Roboto", sans-serif !important;
 }
 
+.featured-collection--component .collection__title .rich-text__heading {
+  text-align: center;
+}
 .featured-collection--component .grid__item .card__content .quick-add button.quick-add__submit {
   white-space: nowrap;
   padding: 0.8rem 2rem;

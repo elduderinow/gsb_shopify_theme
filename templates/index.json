@@ -742,6 +742,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Meest populair",
+        "heading_size": "h2",
         "description": "Shop onze bestverkopende huidverzorging en make-up.",
         "show_description": false,
         "collection": "alles-zonder-tools-displays",

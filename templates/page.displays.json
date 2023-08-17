@@ -159,6 +159,43 @@
         "section_width": "boxed"
       }
     },
+    "04f66f82-b130-435a-bf0d-7bdb5f86d28f": {
+      "type": "featured-product",
+      "blocks": {
+        "template--19491675996507__04f66f82-b130-435a-bf0d-7bdb5f86d28f-tab-1": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Product Info",
+            "tab_text": "<ul><li>Cleanser x2<\/li><li>Liquid Exfoliant x2<\/li><li>Serums x7<\/li><li>Hydrator x2<\/li><li>C-Shield Anti-Pollution Moisture Tint x2<\/li><li>Restorative Cream x1<\/li><li>Masks x2<\/li><li>Oil Free SPF 40+ x1<\/li><li>Eye Serum x1<\/li><li>C-Shield Eye Restore Hydrator x1<\/li><li>Barrier Balm x1 <\/li><\/ul>"
+          }
+        },
+        "5252328d-161c-4166-9a25-8db4fdb7c87d": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Afmeting",
+            "tab_text": "<p>60x38x30,5cm<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19491675996507__04f66f82-b130-435a-bf0d-7bdb5f86d28f-tab-1",
+        "5252328d-161c-4166-9a25-8db4fdb7c87d"
+      ],
+      "settings": {
+        "product": "801-5-skin-hero-tester-display",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "4e2ab784-4bdb-4dc6-802a-196ab3c739ca": {
       "type": "featured-collection",
       "settings": {
@@ -372,6 +409,7 @@
     "05495cf6-6b05-4043-9f7a-341ae95be296",
     "73eefec2-c3d8-4762-b9f4-98e7e3155007",
     "e03a7d26-1065-4812-8cb5-774b156b2488",
+    "04f66f82-b130-435a-bf0d-7bdb5f86d28f",
     "4e2ab784-4bdb-4dc6-802a-196ab3c739ca",
     "29c9f92b-558c-41b1-b8ab-35e4239b9c7c",
     "728e1b56-042e-44e6-8781-e443dd32cc59",

@@ -167,6 +167,9 @@
               "
             >
               {% assign test = collection.products | where: 'tags', 'tester' %}
+              {%- for product in test -%}
+                {{ product.tags }}
+              {%- endfor -%}
 
               {%- for product in collection.products -%}
                 {% include 'easylockdown_filter_collection' with product %}

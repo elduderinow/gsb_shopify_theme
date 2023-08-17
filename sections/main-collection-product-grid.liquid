@@ -43,6 +43,9 @@
 {%- for product in test -%}
   {{ product.tags }}
 {%- endfor -%}
+{%- for product in collection.products -%}
+  {{ product.tags }}
+{%- endfor -%}
 
 <div class="section-{{ section.id }}-padding global-section-x-padding page-width--{{ section.settings.section_width }} product-view--{{ section.settings.product_view }}">
   {%- paginate collection.products by section.settings.products_per_page -%}

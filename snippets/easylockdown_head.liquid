@@ -35,6 +35,15 @@
 {% endunless %}
 {% endif %}
 {% endunless %}
+{% unless customer %}
+<script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/collections/b2b-all-makeup-2023"],*[data-eld-collection-handle="b2b-all-makeup-2023"],*[href$="/collections/b2b-all-skincare"],*[data-eld-collection-handle="b2b-all-skincare"]');</script>
+{% else %}
+{% assign easylockdownHideLinks = false %}{% unless elcTag1 %}{% assign easylockdownHideLinks = true %}{% endunless %}
+{% if easylockdownHideLinks %}
+<script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/collections/b2b-all-makeup-2023"],*[data-eld-collection-handle="b2b-all-makeup-2023"],*[href$="/collections/b2b-all-skincare"],*[data-eld-collection-handle="b2b-all-skincare"]');</script>
+{% endif %}
+{% endunless %}
+
 
 {% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' %}
 {% assign easylockdownLockedContent = false %}

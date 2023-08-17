@@ -166,6 +166,8 @@
                 grid--{{ section.settings.columns_desktop }}-col-desktop
               "
             >
+              {% assign test = collection.products | where: 'tags', 'tester' %}
+
               {%- for product in collection.products -%}
                 {% include 'easylockdown_filter_collection' with product %}
 

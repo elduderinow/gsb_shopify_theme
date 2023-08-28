@@ -107,7 +107,7 @@
         {% include 'easylockdown_filter_collection' with product %}
         <li
           id="Slide-{{ section.id }}-{{ forloop.index }}"
-          class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          class="grid__item slider__slide scroll-trigger animate--slide-in"
           {% if settings.animations_reveal_on_scroll %}
             data-cascade
           {% endif %}

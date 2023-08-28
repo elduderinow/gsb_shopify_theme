@@ -78,6 +78,25 @@
     </a>
   </div>
 
+  {%- if article.metafields.custom.featured_products.value -%}
+    {%- assign featured_products = article.metafields.custom.featured_products.value -%}
+    {% comment %}
+      {%- paginate featured_products by 10 -%}
+        <h2>Related {{ paginate.items | pluralize: 'Product', 'Products' }}</h2>
+        {%- for the_product in featured_products -%}
+          <a href="{{ the_product.url }}" title="{{ the_product.title }}">
+            <img
+              src="{{ the_product.featured_image | img_url: '300x300', crop: 'center', format: 'pjpg' }}"
+              alt="{{ the_product.title }}"
+              loading="lazy"
+            >
+            <p>{{ the_product.title }}</p>
+          </a>
+        {%- endfor -%}
+      {%- endpaginate -%}
+    {% endcomment %}
+  {%- endif -%}
+
   <slider-component class="slider--component slider-mobile-gutter{% if section.settings.select_width == "full_width" or section.settings.select_width == 'boxed' %} slider-component-full-width{% endif %}{% if show_mobile_slider == false %} page-width{% endif %}{% if show_desktop_slider == false and section.settings.full_width != 'full_width' %} page-width-desktop{% endif %}{% if show_desktop_slider %} slider-component-desktop{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     <ul
       id="Slider-{{ section.id }}"
@@ -147,23 +166,6 @@
       </div>
     {%- endif -%}
   </slider-component>
-
-  {%- if article.metafields.custom.featured_products.value -%}
-    {%- assign featured_products = article.metafields.custom.featured_products.value -%}
-    {%- paginate featured_products by 10 -%}
-      <h2>Related {{ paginate.items | pluralize: 'Product', 'Products' }}</h2>
-      {%- for the_product in featured_products -%}
-        <a href="{{ the_product.url }}" title="{{ the_product.title }}">
-          <img
-            src="{{ the_product.featured_image | img_url: '300x300', crop: 'center', format: 'pjpg' }}"
-            alt="{{ the_product.title }}"
-            loading="lazy"
-          >
-          <p>{{ the_product.title }}</p>
-        </a>
-      {%- endfor -%}
-    {%- endpaginate -%}
-  {%- endif -%}
 
   {%- if blog.comments_enabled? -%}
     <div class="article-template__comment-wrapper background-secondary">

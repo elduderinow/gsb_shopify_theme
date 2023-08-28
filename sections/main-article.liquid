@@ -83,16 +83,14 @@
     {%- paginate featured_products by 10 -%}
       <h2>Related {{ paginate.items | pluralize: 'Product', 'Products' }}</h2>
       {%- for the_product in featured_products -%}
-        {%- if the_product.available -%}
-          <a href="{{ the_product.url }}" title="{{ the_product.title }}">
-            <img
-              src="{{ the_product.featured_image | img_url: '300x300', crop: 'center', format: 'pjpg' }}"
-              alt="{{ the_product.title }}"
-              loading="lazy"
-            >
-            <p>{{ the_product.title }}</p>
-          </a>
-        {%- endif -%}
+        <a href="{{ the_product.url }}" title="{{ the_product.title }}">
+          <img
+            src="{{ the_product.featured_image | img_url: '300x300', crop: 'center', format: 'pjpg' }}"
+            alt="{{ the_product.title }}"
+            loading="lazy"
+          >
+          <p>{{ the_product.title }}</p>
+        </a>
       {%- endfor -%}
     {%- endpaginate -%}
   {%- endif -%}

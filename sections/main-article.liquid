@@ -1,8 +1,8 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
+  {{ section | json }}
   {%- for block in section.blocks -%}
-    {{ block.metafields | json }}
     {%- case block.type -%}
       {%- when '@app' -%}
         <div class="page-width page-width--narrow">

@@ -77,7 +77,26 @@
       {{ 'blogs.article.back_to_blog' | t: title: blog.title }}
     </a>
   </div>
-  {{ article.metafields.custom.featured_products | json }}
+
+  {%- if article.metafields.custom.related_products.value -%}
+    {%- assign related_products = article.metafields.custom.related_products.value -%}
+    {%- paginate related_products by 10 -%}
+      <h2>Related {{ paginate.items | pluralize: 'Product', 'Products' }}</h2>
+      {%- for the_product in related_products -%}
+        {%- if the_product.available -%}
+          <a href="{{ the_product.url }}" title="{{ the_product.title }}">
+            <img
+              src="{{ the_product.featured_image | img_url: '300x300', crop: 'center', format: 'pjpg' }}"
+              alt="{{ the_product.title }}"
+              loading="lazy"
+            >
+            <p>{{ the_product.title }}</p>
+          </a>
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endpaginate -%}
+  {%- endif -%}
+
   {%- if blog.comments_enabled? -%}
     <div class="article-template__comment-wrapper background-secondary">
       <div id="comments" class="page-width page-width--narrow">

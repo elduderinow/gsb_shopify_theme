@@ -85,11 +85,14 @@
       {%- for the_product in related_products -%}
         {%- if the_product.available -%}
           <a href="{{ the_product.url }}" title="{{ the_product.title }}">
-            <img
-              src="{{ the_product.featured_image | img_url: '300x300', crop: 'center', format: 'pjpg' }}"
-              alt="{{ the_product.title }}"
-              loading="lazy"
-            >
+            {% comment %}
+              <img
+                src="{{ the_product.featured_image | img_url: '300x300', crop: 'center', format: 'pjpg' }}"
+                alt="{{ the_product.title }}"
+                loading="lazy"
+              >
+            {% endcomment %}
+            test
             <p>{{ the_product.title }}</p>
           </a>
         {%- endif -%}

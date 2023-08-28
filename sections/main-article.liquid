@@ -78,11 +78,11 @@
     </a>
   </div>
 
-  {%- if article.metafields.custom.related_products.value -%}
-    {%- assign related_products = article.metafields.custom.related_products.value -%}
-    {%- paginate related_products by 10 -%}
+  {%- if article.metafields.custom.featured_products.value -%}
+    {%- assign featured_products = article.metafields.custom.featured_products.value -%}
+    {%- paginate featured_products by 10 -%}
       <h2>Related {{ paginate.items | pluralize: 'Product', 'Products' }}</h2>
-      {%- for the_product in related_products -%}
+      {%- for the_product in featured_products -%}
         {%- if the_product.available -%}
           <a href="{{ the_product.url }}" title="{{ the_product.title }}">
             {% comment %}

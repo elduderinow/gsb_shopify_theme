@@ -4,6 +4,9 @@
 
 {%- liquid
   assign show_desktop_slider = true
+  if article.metafields.custom.featured_products.value
+    assign featured_products = article.metafields.custom.featured_products.value
+  endif
 -%}
 
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
@@ -77,25 +80,6 @@
     {%- endcase -%}
   {%- endfor -%}
 
-  {%- if article.metafields.custom.featured_products.value -%}
-    {%- assign featured_products = article.metafields.custom.featured_products.value -%}
-    {% comment %}
-      {%- paginate featured_products by 10 -%}
-        <h2>Related {{ paginate.items | pluralize: 'Product', 'Products' }}</h2>
-        {%- for the_product in featured_products -%}
-          <a href="{{ the_product.url }}" title="{{ the_product.title }}">
-            <img
-              src="{{ the_product.featured_image | img_url: '300x300', crop: 'center', format: 'pjpg' }}"
-              alt="{{ the_product.title }}"
-              loading="lazy"
-            >
-            <p>{{ the_product.title }}</p>
-          </a>
-        {%- endfor -%}
-      {%- endpaginate -%}
-    {% endcomment %}
-  {%- endif -%}
-
   <slider-component class="slider--component slider-mobile-gutter slider-component-full-width page-width-desktop slider-component-desktop scroll-trigger animate--slide-in">
     <ul
       id="Slider-{{ section.id }}"
@@ -117,9 +101,9 @@
             media_aspect_ratio: section.settings.image_ratio,
             image_shape: section.settings.image_shape,
             show_secondary_image: section.settings.show_secondary_image,
-            show_vendor: section.settings.show_vendor,
-            show_rating: section.settings.show_rating,
-            show_quick_add: section.settings.enable_quick_add,
+            show_vendor: false,
+            show_rating: false,
+            show_quick_add: true,
             section_id: section.id
           %}
         </li>

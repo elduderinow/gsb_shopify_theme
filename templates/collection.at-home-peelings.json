@@ -22,7 +22,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Ontdek een menu met professionele thuispeelingsets en gezichtsbehandelingen voor transformerende resultaten. Denk aan producten voor een stralende huid, gladmakende en herstellende huidbehandelingen.<\/p>",
+            "text": "<p>Ontdek een menu met professionele thuispeelingsets en gelaatsbehandelingen voor transformerende resultaten. Denk aan producten voor een stralende huid, gladmakende en herstellende huidbehandelingen.<\/p>",
             "text_style": "body"
           }
         },
@@ -254,7 +254,6 @@
     },
     "ce6989ae-1af1-455a-85b6-d30d25ae8fc3": {
       "type": "collapsible-content",
-      "disabled": true,
       "blocks": {
         "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-1": {
           "type": "collapsible_row",
@@ -339,6 +338,7 @@
         "47bc5dec-6dc0-4a94-9f0e-b551c474d87c",
         "94b37849-f3b0-431d-92cf-28f9f32d3397"
       ],
+      "disabled": true,
       "settings": {
         "caption": "FAQ",
         "heading": "Veelgestelde vragen over Vitamine C",

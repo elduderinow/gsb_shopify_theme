@@ -22,7 +22,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Restore skin’s radiance and power up your skin smoothing with this professional-level Retinol + C Smoothing Peel. Bringing the treatment room to your bathroom, this full service, single-use peel kit contains everything you need to perform the perfect peel, suitable for all skin tones and types.<\/p>",
+            "text": "<p>Laat de huid weer stralen en maak je huid egaler met deze Retinol + C Smoothing Peel op professioneel niveau. Deze full-service peelkit voor eenmalig gebruik brengt de behandelkamer naar je badkamer en bevat alles wat je nodig hebt om de perfecte peeling uit te voeren, geschikt voor alle huidtinten en -types.<\/p>",
             "text_style": "body"
           }
         },
@@ -113,7 +113,6 @@
     },
     "a7221b8f-1547-444b-af45-ca5396cf1f3a": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--19343199076699__a7221b8f-1547-444b-af45-ca5396cf1f3a-column-1": {
           "type": "column",
@@ -196,6 +195,7 @@
         "5d5124e0-94c5-49bd-8824-d690486edd7b",
         "7e48d106-ad7d-49fa-a2ce-a3acbfb721ee"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -226,7 +226,9 @@
             "title": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
           }
         },
         "template--19343199076699__e071fe43-ea0b-4d9f-acbb-5a1a3435db50-column-2": {
@@ -236,7 +238,9 @@
             "title": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
           }
         },
         "47c220fb-93a3-4843-9217-d45e258d5460": {
@@ -246,7 +250,9 @@
             "title": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
           }
         }
       },
@@ -345,7 +351,6 @@
     },
     "276980df-6134-4fa4-8d48-9d8a646adda5": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
@@ -379,6 +384,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-text-1",
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -390,7 +396,6 @@
     },
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-1": {
           "type": "column",
@@ -426,6 +431,7 @@
         "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-2",
         "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -559,6 +565,8 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
+        "bg_color": "#000000",
+        "bg_opacity": 30,
         "number_highlight_1": "",
         "text_highlight_1": "",
         "number_highlight_2": "",
@@ -575,6 +583,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Complete your routine",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "collection": "chemical-peeling",

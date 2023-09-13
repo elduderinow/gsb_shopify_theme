@@ -232,7 +232,7 @@
     },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
-      "disabled":true,
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",

@@ -188,6 +188,7 @@
     },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -203,6 +204,57 @@
         "padding_top": 48,
         "padding_bottom": 16,
         "section_width": "boxed"
+      }
+    },
+    "abc0f096-3db4-427f-a7e5-bae7a8c933ec": {
+      "type": "image-banner",
+      "blocks": {
+        "template--19336305639771__abc0f096-3db4-427f-a7e5-bae7a8c933ec-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--19336305639771__abc0f096-3db4-427f-a7e5-bae7a8c933ec-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--19336305639771__abc0f096-3db4-427f-a7e5-bae7a8c933ec-buttons-1": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19336305639771__abc0f096-3db4-427f-a7e5-bae7a8c933ec-heading-1",
+        "template--19336305639771__abc0f096-3db4-427f-a7e5-bae7a8c933ec-text-1",
+        "template--19336305639771__abc0f096-3db4-427f-a7e5-bae7a8c933ec-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/header-girls_2450x_5bcf0c0a-d5b1-4188-9d42-57f575b15fe2.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "771ccbfe-ca52-438b-a86a-ea6f167f8b6d": {
@@ -260,6 +312,7 @@
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
+    "abc0f096-3db4-427f-a7e5-bae7a8c933ec",
     "771ccbfe-ca52-438b-a86a-ea6f167f8b6d"
   ]
 }

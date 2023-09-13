@@ -99,7 +99,7 @@
           role="list"
           aria-label="{{ 'general.slider.name' | t }}"
         >
-          {%- for product in featured_products limit: 10 -%}
+          {%- for product in featured_products limit: 4 -%}
             {% include 'easylockdown_filter_collection' with product %}
             <li
               id="Slide-{{ section.id }}-{{ forloop.index }}"

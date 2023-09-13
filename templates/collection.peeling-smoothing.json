@@ -335,6 +335,7 @@
         "66b1f4a9-1dee-4b0e-aa44-de344b11e7a9",
         "5aca16c1-f5fa-4e4e-961d-06543e4959af"
       ],
+      "disabled": true,
       "settings": {
         "title": "Featured collection",
         "heading_size": "h2",

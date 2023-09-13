@@ -166,13 +166,8 @@
                 grid--{{ section.settings.columns_desktop }}-col-desktop
               "
             >
-<<<<<<< HEAD
-              {%- for product in collection.products -%}{% include 'easylockdown_filter_collection' with product %}
-=======
               {%- for product in collection.products -%}
                 {% include 'easylockdown_filter_collection' with product %}
-
->>>>>>> development
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
                   {%- assign lazy_load = true -%}

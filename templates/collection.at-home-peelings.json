@@ -66,10 +66,40 @@
             "image_subtitle": "peels",
             "highlight_url": "shopify:\/\/collections\/peeling-smoothing"
           }
+        },
+        "8df63b2d-dc1c-4731-9c82-bab6730b91dd": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pores_Shine_Desktop.jpg",
+            "image_title": "Brightening",
+            "image_subtitle": "Peels",
+            "highlight_url": "shopify:\/\/collections\/peeling-brightening"
+          }
+        },
+        "6e40314b-65ae-4261-a228-1f072aa6a43a": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_hydrate-restore_2.webp",
+            "image_title": "Clarifying",
+            "image_subtitle": "Peels",
+            "highlight_url": "shopify:\/\/collections\/peeling-clarifying"
+          }
+        },
+        "b62f4e0d-07c0-4a60-b0e7-23900916f890": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hyperpigmentation_Desktop.webp",
+            "image_title": "Resurfacing",
+            "image_subtitle": "Peels",
+            "highlight_url": "shopify:\/\/collections\/peeling-resurfacing"
+          }
         }
       },
       "block_order": [
-        "5c75a209-60eb-474a-8d35-de06b3fab558"
+        "5c75a209-60eb-474a-8d35-de06b3fab558",
+        "8df63b2d-dc1c-4731-9c82-bab6730b91dd",
+        "6e40314b-65ae-4261-a228-1f072aa6a43a",
+        "b62f4e0d-07c0-4a60-b0e7-23900916f890"
       ],
       "settings": {
         "title": "Featured collection",

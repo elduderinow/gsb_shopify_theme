@@ -204,6 +204,9 @@
   object-fit: cover;
   aspect-ratio: 6/4;
 }
+.article-template .slider--component ul.product-grid li.grid__item {
+  width: 25%;
+}
 .article-template .slider--component ul.product-grid li.grid__item:first-child {
   margin-left: 0;
 }

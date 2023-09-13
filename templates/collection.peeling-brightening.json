@@ -62,13 +62,37 @@
         "template--19343221850459__0865e273-dee8-439d-8c31-202fdff415ba-tab-1": {
           "type": "tab",
           "settings": {
-            "tab_title": "Tab",
-            "tab_text": "<p>add text<\/p>"
+            "tab_title": "Product",
+            "tab_text": "<p>Geef de stralendheid van de huid een opfrisbeurt en lever een boost aan verhelderende voordelen met het professionele Hydra-Bright AHA Glow Peel thuispakket. Dit richt zich op dofheid, uitdroging en donkere vlekken met een mix van veganistische melkzuur + ferulinezuur, en deze herstellende peeling beschermt de huid tegen schadelijke vrije radicalen veroorzaakt door vervuiling, waardoor fijne lijntjes en rimpels worden gladgestreken en verminderd. En, in tegenstelling tot andere peelings, vult deze transformerende behandeling ook aan terwijl hij verfijnt, de huid voedend met hydraterend hyaluronzuur en ontstekingsremmende plantaardige ingrediënten, waardoor het geschikt is voor alle huidtypes, zelfs de gevoelige.<br\/><br\/>Op Level 1 is dit de ideale introductie tot thuispeelbehandelingen.<br\/><br\/>Peel-Tijd: 20 minuten<br\/><br\/>Hersteltijd: 0-5 dagen<\/p>"
+          }
+        },
+        "6352e5bc-f5b8-4cd8-98e7-9130c366f097": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Ingrediënten",
+            "tab_text": "<p><strong>Veganistisch Melkzuur:<\/strong> Verhelderend en verstevigend, dit grote molecuul alpha hydroxyzuur biedt milde oppervlakte-exfoliatie.<\/p><p><strong>Ferulinezuur: <\/strong>Een krachtige beschermende antioxidant, het neutraliseert schade veroorzaakt door vrije radicalen door de zon en vervuiling, minimaliseert de verschijning van donkere vlekken en vermindert de vorming van fijne lijntjes en rimpels.<\/p><p><strong>Niacinamide: <\/strong>Herstelt en repareert de barrière van de huid, maakt de huid gladder en vermindert tekenen van veroudering.<\/p><p><strong>Hyaluronzuur: <\/strong>Conditioneert de huid met een dosis hydratatie om het peelproces te verzachten en in balans te brengen.<\/p>"
+          }
+        },
+        "8e04959e-817e-4c14-b244-02eee681938f": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Voordelen",
+            "tab_text": "<p><strong>Verheldert:<\/strong> Een mix van verhelderende plantaardige ingrediënten en AHA geeft een gerevitaliseerde stralendheid.<br\/><\/p><p><strong>Behandelt:<\/strong> Versterkte antioxidanten bieden bescherming tegen vervuiling, behandelen hyperpigmentatieproblemen en verzachten de verschijning van fijne lijntjes en rimpels.<br\/><\/p><p><strong>Hydrateert:<\/strong> Biedt diepe, aanvullende hydratatie aan droge, doffe huid.<\/p>"
+          }
+        },
+        "ebb003a7-0dac-4906-80c8-38b628babb7c": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "In de box",
+            "tab_text": "<ul><li>Hydra-Bright AHA Cleanser<\/li><li>monsterzakje<\/li><li>Hydra-Bright Pro 5 Vloeibare<\/li><li>Exfoliant 7 ml \/ 0,23 fl. oz.<\/li><li>Peel Prep 7 ml \/ 0,23 fl. oz.<\/li><li>Barrièrebalsem monsterzakje<\/li><li>Hydra-Bright AHA Glow Peel 7 ml \/ 0,23 fl. oz.<\/li><li>Peel Neutralizer 7 ml \/ 0,23 fl. oz.<\/li><li>Hydra-Bright Alpha Arbutin<\/li><li>Druppels 13 ml \/ 0,43 fl. oz.<\/li><li>Glycolic Applicator<\/li><li>(2) Wattenstaafjes<\/li><li>(3) 2x2 Gaasjes<\/li><li>Masker Beker<\/li><li>(2) Herbruikbare Katoenen Rondjes van Glo<br\/>Glo Haarband<\/li><\/ul>"
           }
         }
       },
       "block_order": [
-        "template--19343221850459__0865e273-dee8-439d-8c31-202fdff415ba-tab-1"
+        "template--19343221850459__0865e273-dee8-439d-8c31-202fdff415ba-tab-1",
+        "6352e5bc-f5b8-4cd8-98e7-9130c366f097",
+        "8e04959e-817e-4c14-b244-02eee681938f",
+        "ebb003a7-0dac-4906-80c8-38b628babb7c"
       ],
       "settings": {
         "product": "759-1-hydra-bright-aha-glow-peel-in-a-box",

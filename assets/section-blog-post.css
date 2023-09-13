@@ -161,6 +161,6 @@
   margin-bottom: 3.2rem;
 }
 
-.article-template .article-template__content {
-  @apply space-y-10;
+.article-template .article-template__content > * {
+  margin-bottom: 2rem;
 }

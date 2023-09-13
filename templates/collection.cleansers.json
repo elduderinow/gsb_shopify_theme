@@ -36,9 +36,9 @@
         "26068815-0013-4d5e-bcee-092ea8c2f5f4": {
           "type": "highlight",
           "settings": {
-            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_vitamin-c_2.jpg",
-            "image_title": "highlight cleanser",
-            "image_subtitle": "shop our highlight cleanser",
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "image_title": "",
+            "image_subtitle": "",
             "highlight_url": "shopify:\/\/pages\/complexions"
           }
         },

@@ -91,7 +91,7 @@
     {%- endcase -%}
   {%- endfor -%}
   {%- if featured_products -%}
-    <div class="main-article-featured page-width">
+    <div class="main-article-featured page-width page-width--narrow ">
       <slider-component class="slider--component slider-mobile-gutter{% if section.settings.select_width == "full_width" or section.settings.select_width == 'boxed' %} slider-component-full-width{% endif %}{% if show_mobile_slider == false %} page-width{% endif %}{% if show_desktop_slider == false and section.settings.full_width != 'full_width' %} page-width-desktop{% endif %}{% if show_desktop_slider %} slider-component-desktop{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         <ul
           id="Slider-{{ section.id }}"

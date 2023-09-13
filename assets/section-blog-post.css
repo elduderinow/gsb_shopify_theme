@@ -172,3 +172,6 @@
 .article-template .article-template__content strong {
   font-weight: 600;
 }
+.article-template .article-template__content a {
+  text-decoration: underline;
+}

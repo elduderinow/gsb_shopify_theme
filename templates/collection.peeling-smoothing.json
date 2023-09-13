@@ -261,6 +261,7 @@
         "template--19343199076699__e071fe43-ea0b-4d9f-acbb-5a1a3435db50-column-2",
         "47c220fb-93a3-4843-9217-d45e258d5460"
       ],
+      "disabled": true,
       "settings": {
         "image_grid": "dynamic",
         "image_ratio": "landscape",
@@ -582,7 +583,7 @@
     "e8d5d18e-39e9-43f9-8df1-c0aeeac06a79": {
       "type": "featured-collection",
       "settings": {
-        "title": "Complete your routine",
+        "title": "Maak je routine compleet",
         "heading_size": "h1",
         "description": "",
         "show_description": false,

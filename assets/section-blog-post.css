@@ -204,12 +204,18 @@
   object-fit: cover;
   aspect-ratio: 6/4;
 }
-.article-template .slider--component {
+.article-template .main-article-featured h3 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.article-template .main-article-featured .slider--component {
   margin-bottom: 5rem;
 }
-.article-template .slider--component ul.product-grid li.grid__item {
+.article-template .main-article-featured .slider--component ul.product-grid li.grid__item {
   width: 25%;
 }
-.article-template .slider--component ul.product-grid li.grid__item:first-child {
+.article-template .main-article-featured .slider--component ul.product-grid li.grid__item:first-child {
   margin-left: 0;
 }

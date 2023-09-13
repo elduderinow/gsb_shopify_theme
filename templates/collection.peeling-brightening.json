@@ -111,6 +111,7 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "product_view": "grid",
         "section_width": "full_width",

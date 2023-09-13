@@ -162,7 +162,7 @@
 }
 
 .article-template .article-template__title {
-  font-size: 2.3rem;
+  font-size: 3rem;
   line-height: 3.5rem;
   font-weight: 500;
 }
@@ -206,7 +206,8 @@
 }
 .article-template .main-article-featured h3 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.3rem;
+  line-height: 3.5rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
 }

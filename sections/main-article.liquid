@@ -99,7 +99,7 @@
   {%- if featured_products -%}
     <div class="main-article-featured page-width page-width--narrow ">
       <h3 class="featured--title">Producten in dit artikel</h3>
-      {{ productsTotal | divided_by: 2 }}
+      {{ productsTotal }}
       <slider-component class="slider--component slider-mobile-gutter{% if section.settings.select_width == "full_width" or section.settings.select_width == 'boxed' %} slider-component-full-width{% endif %}{% if show_mobile_slider == false %} page-width{% endif %}{% if show_desktop_slider == false and section.settings.full_width != 'full_width' %} page-width-desktop{% endif %}{% if show_desktop_slider %} slider-component-desktop{% endif %} scroll-trigger animate--slide-in">
         <ul
           id="Slider-{{ section.id }}"

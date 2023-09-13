@@ -111,7 +111,6 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "settings": {
         "product_view": "grid",
         "section_width": "full_width",
@@ -250,6 +249,33 @@
         "padding_bottom": 36,
         "section_width": "boxed"
       }
+    },
+    "e8d5d18e-39e9-43f9-8df1-c0aeeac06a79": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Maak je routine compleet",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "collection": "chemical-peeling",
+        "products_to_show": 14,
+        "columns_desktop": 1,
+        "select_width": "full_width",
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
     }
   },
   "order": [
@@ -259,6 +285,7 @@
     "product-grid",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
-    "60dc76e2-2d04-464c-a9e0-5d186807e785"
+    "60dc76e2-2d04-464c-a9e0-5d186807e785",
+    "e8d5d18e-39e9-43f9-8df1-c0aeeac06a79"
   ]
 }

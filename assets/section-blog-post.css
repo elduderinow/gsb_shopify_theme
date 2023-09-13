@@ -186,6 +186,7 @@
 }
 .article-template .article-template__content ul {
   padding-left: 2rem;
+  margin-top: 1rem;
 }
 .article-template .article-template__content ul li {
   margin-bottom: 0.5rem;

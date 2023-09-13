@@ -231,7 +231,7 @@
     },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
-      "disabled":true,
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -256,7 +256,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Milieubeschermingsproducten zijn de beste anti-aging producten waarin je kunt investeren. Schade door vrije radicalen, veroorzaakt door milieustressoren zoals vervuiling en blauw licht van onze schermen, kan leiden tot vroegtijdige tekenen van veroudering, zoals verkleuring, fijne lijntjes en rimpels, en een doffe of futloze teint. Huidverzorging tegen vervuiling beschermt de huid tegen deze schadelijke elementen en beschermt de huid tegen oxidatieve stress.<\/p>",
+            "text": "<p>Milieubeschermingsproducten zijn de beste anti-aging producten waarin je kunt investeren. Schade door vrije radicalen, veroorzaakt door milieustressoren zoals vervuiling en blauw licht van onze schermen, kan leiden tot vroegtijdige tekenen van veroudering, zoals verkleuring, fijne lijntjes en rimpels, en een doffe of futloze teint. <br\/><br\/>Huidverzorging tegen vervuiling beschermt de huid tegen deze schadelijke elementen en beschermt de huid tegen oxidatieve stress.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -265,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p> Voor een vette of gecombineerde huidtypes, kies voor olievrije formules, terwijl voor de droge huid, probeer rijkere texturen met voedende huidverzorgingsingrediënten. Als je wat kleur aan je bescherming wilt toevoegen, probeer dan een hydraterende tint. Het kan dienen als bescherming, basis, primer en vochtinbrenger in één. Al onze huidverzorging tegen vervuiling is gemaakt van schone en klinische ingrediënten en is veganistisch en wreedheidvrij.<\/p>",
+            "text": "<p> Voor een vette of gecombineerde huidtypes, kies voor olievrije formules, terwijl voor de droge huid, probeer rijkere texturen met voedende huidverzorgingsingrediënten. <br\/><br\/>Als je wat kleur aan je bescherming wilt toevoegen, probeer dan een hydraterende tint. Het kan dienen als bescherming, basis, primer en vochtinbrenger in één. <br\/><br\/>Al onze huidverzorging tegen vervuiling is gemaakt van schone en klinische ingrediënten en is veganistisch en wreedheidvrij.<\/p>",
             "link_label": "",
             "link": ""
           }

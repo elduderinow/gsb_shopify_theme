@@ -215,7 +215,7 @@
   margin-bottom: 5rem;
 }
 .article-template .main-article-featured .slider--component ul.product-grid li.grid__item {
-  width: 25%;
+  width: calc(25% - 54px);
 }
 .article-template .main-article-featured .slider--component ul.product-grid li.grid__item:first-child {
   margin-left: 0;

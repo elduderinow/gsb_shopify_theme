@@ -174,4 +174,8 @@
 }
 .article-template .article-template__content a {
   text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+.article-template .article-template__content a:hover {
+  text-decoration: none;
 }

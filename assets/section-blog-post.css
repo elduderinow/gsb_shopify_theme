@@ -169,3 +169,6 @@
   font-weight: 500;
   margin-top: 5rem;
 }
+.article-template .article-template__content strong {
+  font-weight: 600;
+}

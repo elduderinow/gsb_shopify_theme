@@ -8,8 +8,8 @@
 {{ 'component-featured-collection.css' | asset_url | stylesheet_tag }}
 
 {%- liquid
+  assign productsTotal = 0
   if article.metafields.custom.featured_products.value
-    assign productsTotal = 0
     assign temp = ''
     assign featured_products = article.metafields.custom.featured_products.value
     for products in featured_products

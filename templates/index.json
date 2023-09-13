@@ -655,6 +655,7 @@
         "template--19143340065115__e4c713b5-f3e0-4c55-a907-41e75876dd11-16882290004a28d1c4-1",
         "template--19143340065115__e4c713b5-f3e0-4c55-a907-41e75876dd11-16882290004a28d1c4-2"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -666,6 +667,7 @@
     },
     "0f90b165-b5d3-4c04-9d0a-74dd2faa080b": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",

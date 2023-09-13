@@ -15,14 +15,14 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "REINIGERS",
-            "heading_size": "h2"
+            "heading": "Brightening Peels",
+            "heading_size": "h1"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Kick-start your cleansing with our lineup of face cleansers powered by active botanicals to clarify, refine, balance, brighten, and hydrate.<\/p>",
+            "text": "<p>Het verhogen van helderheid en het vernieuwen van de uitstraling, deze peel op professioneel niveau richt zich op dofheid, uitdroging en hyperpigmentatie, aangedreven door veganistische melkzuur + ferulinezuur en herstellende antioxidanten. Deze thuispeelkit bevat alle producten en accessoires om een volledige behandeling uit te voeren.<\/p>",
             "text_style": "body"
           }
         },
@@ -41,8 +41,8 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Cleanser_Desktop.jpg",
-        "height": "medium",
+        "image": "shopify:\/\/shop_images\/featured_header_Desktop-_peels_738597f5-b18a-40af-a4fc-5981fe18083b.jpg",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -52,12 +52,69 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
+    "0865e273-dee8-439d-8c31-202fdff415ba": {
+      "type": "featured-product",
+      "blocks": {
+        "template--19343221850459__0865e273-dee8-439d-8c31-202fdff415ba-tab-1": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Product",
+            "tab_text": "<p>Geef de stralendheid van de huid een opfrisbeurt en lever een boost aan verhelderende voordelen met het professionele Hydra-Bright AHA Glow Peel thuispakket. Dit richt zich op dofheid, uitdroging en donkere vlekken met een mix van veganistische melkzuur + ferulinezuur, en deze herstellende peeling beschermt de huid tegen schadelijke vrije radicalen veroorzaakt door vervuiling, waardoor fijne lijntjes en rimpels worden gladgestreken en verminderd. En, in tegenstelling tot andere peelings, vult deze transformerende behandeling ook aan terwijl hij verfijnt, de huid voedend met hydraterend hyaluronzuur en ontstekingsremmende plantaardige ingrediënten, waardoor het geschikt is voor alle huidtypes, zelfs de gevoelige.<br\/><br\/>Op Level 1 is dit de ideale introductie tot thuispeelbehandelingen.<br\/><br\/>Peel-Tijd: 20 minuten<br\/><br\/>Hersteltijd: 0-5 dagen<\/p>"
+          }
+        },
+        "6352e5bc-f5b8-4cd8-98e7-9130c366f097": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Ingrediënten",
+            "tab_text": "<p><strong>Veganistisch Melkzuur:<\/strong> Verhelderend en verstevigend, dit grote molecuul alpha hydroxyzuur biedt milde oppervlakte-exfoliatie.<\/p><p><strong>Ferulinezuur: <\/strong>Een krachtige beschermende antioxidant, het neutraliseert schade veroorzaakt door vrije radicalen door de zon en vervuiling, minimaliseert de verschijning van donkere vlekken en vermindert de vorming van fijne lijntjes en rimpels.<\/p><p><strong>Niacinamide: <\/strong>Herstelt en repareert de barrière van de huid, maakt de huid gladder en vermindert tekenen van veroudering.<\/p><p><strong>Hyaluronzuur: <\/strong>Conditioneert de huid met een dosis hydratatie om het peelproces te verzachten en in balans te brengen.<\/p>"
+          }
+        },
+        "8e04959e-817e-4c14-b244-02eee681938f": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Voordelen",
+            "tab_text": "<p><strong>Verheldert:<\/strong> Een mix van verhelderende plantaardige ingrediënten en AHA geeft een gerevitaliseerde stralendheid.<br\/><\/p><p><strong>Behandelt:<\/strong> Versterkte antioxidanten bieden bescherming tegen vervuiling, behandelen hyperpigmentatieproblemen en verzachten de verschijning van fijne lijntjes en rimpels.<br\/><\/p><p><strong>Hydrateert:<\/strong> Biedt diepe, aanvullende hydratatie aan droge, doffe huid.<\/p>"
+          }
+        },
+        "ebb003a7-0dac-4906-80c8-38b628babb7c": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "In de box",
+            "tab_text": "<ul><li>Hydra-Bright AHA Cleanser<\/li><li>monsterzakje<\/li><li>Hydra-Bright Pro 5 Vloeibare<\/li><li>Exfoliant 7 ml \/ 0,23 fl. oz.<\/li><li>Peel Prep 7 ml \/ 0,23 fl. oz.<\/li><li>Barrièrebalsem monsterzakje<\/li><li>Hydra-Bright AHA Glow Peel 7 ml \/ 0,23 fl. oz.<\/li><li>Peel Neutralizer 7 ml \/ 0,23 fl. oz.<\/li><li>Hydra-Bright Alpha Arbutin<\/li><li>Druppels 13 ml \/ 0,43 fl. oz.<\/li><li>Glycolic Applicator<\/li><li>(2) Wattenstaafjes<\/li><li>(3) 2x2 Gaasjes<\/li><li>Masker Beker<\/li><li>(2) Herbruikbare Katoenen Rondjes van Glo<br\/>Glo Haarband<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19343221850459__0865e273-dee8-439d-8c31-202fdff415ba-tab-1",
+        "6352e5bc-f5b8-4cd8-98e7-9130c366f097",
+        "8e04959e-817e-4c14-b244-02eee681938f",
+        "ebb003a7-0dac-4906-80c8-38b628babb7c"
+      ],
+      "settings": {
+        "product": "759-1-hydra-bright-aha-glow-peel-in-a-box",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "right",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
+        "product_view": "grid",
+        "section_width": "full_width",
         "products_per_page": 20,
         "columns_desktop": 4,
         "image_ratio": "portrait",
@@ -109,6 +166,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-text-1",
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -155,6 +213,7 @@
         "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-2",
         "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -177,6 +236,7 @@
     },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -188,17 +248,133 @@
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
+        "show_preview_text": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
+    "8cece25c-74b5-4297-b872-a89a7b9f4b83": {
+      "type": "infographic",
+      "blocks": {
+        "95855e28-5dbe-4bf4-9556-2132ee7bd5f8": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Gecertificeerde Wreedheidvrije Huidverzorging",
+            "heading_size": "h2",
+            "text": "<p>PETA-goedgekeurd, gecertificeerd Beauty Without Bunnies, Glo huidverzorgingsproducten en hun ingrediënten worden nooit getest op onze harige vrienden.<br\/><\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "0008bb93-f23c-4219-8a02-6cf2c05d6e98": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Veganistische Huidverzorging",
+            "heading_size": "h2",
+            "text": "<p>Doordrenkt met plantaardige actieve stoffen, bevat dit product geen ingrediënten van dierlijke oorsprong.<br\/><\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "94bbf85d-699a-4569-b761-7c047cbdef7d": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Parabeenvrije Huidverzorging",
+            "heading_size": "h2",
+            "text": "<p>Een soort conserveermiddel dat in verband wordt gebracht met hormonale verstoring? Geen sprake van, niet in enig Glo huidverzorgingsproduct.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "055f5e9d-78d8-4213-9774-b47df78c18d5": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Sulfaatvrije Huidverzorging",
+            "heading_size": "h2",
+            "text": "<p>Oppervlakteactieve stoffen die irritatie kunnen veroorzaken of allergieën kunnen triggeren, Glo huidverzorging is vrij van SLS + SLES sulfaten.<br\/><\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "b9dcb185-9d5e-46d1-bcf0-0f3089a47d6c": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Vrij van Ftalaten",
+            "heading_size": "h2",
+            "text": "<p>Moeilijk uit te spreken, nog moeilijker voor de huid, Glo is een ftalaatvrije zone.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "95855e28-5dbe-4bf4-9556-2132ee7bd5f8",
+        "0008bb93-f23c-4219-8a02-6cf2c05d6e98",
+        "94bbf85d-699a-4569-b761-7c047cbdef7d",
+        "055f5e9d-78d8-4213-9774-b47df78c18d5",
+        "b9dcb185-9d5e-46d1-bcf0-0f3089a47d6c"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SKIN-FreeOf-PDP-Image-wIcons.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "bg_color": "#000000",
+        "bg_opacity": 30,
+        "number_highlight_1": "",
+        "text_highlight_1": "",
+        "number_highlight_2": "",
+        "text_highlight_2": "",
+        "number_highlight_3": "",
+        "text_highlight_3": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "e8d5d18e-39e9-43f9-8df1-c0aeeac06a79": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Maak je routine compleet",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "collection": "chemical-peeling",
+        "products_to_show": 14,
+        "columns_desktop": 1,
+        "select_width": "full_width",
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     }
   },
   "order": [
     "banner",
     "92602d36-7d25-4028-b9d9-a36860448447",
+    "0865e273-dee8-439d-8c31-202fdff415ba",
     "product-grid",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
-    "60dc76e2-2d04-464c-a9e0-5d186807e785"
+    "60dc76e2-2d04-464c-a9e0-5d186807e785",
+    "8cece25c-74b5-4297-b872-a89a7b9f4b83",
+    "e8d5d18e-39e9-43f9-8df1-c0aeeac06a79"
   ]
 }

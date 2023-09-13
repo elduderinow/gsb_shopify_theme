@@ -187,8 +187,51 @@
         "section_width": "boxed"
       }
     },
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f": {
+      "type": "image-image",
+      "blocks": {
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        },
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1",
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2"
+      ],
+      "settings": {
+        "image_grid": "grid",
+        "image_ratio": "landscape",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -213,7 +256,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Oké, dus wat doet niacinamide voor de huid? Nou, waar zullen we beginnen. Niacinamide is een van de best bewaarde geheimen in huidverzorging en geliefd bij dermatologen en beautyredacteuren vanwege de indrukwekkende reeks voordelen voor de huid. Of het nu via reinigers, toners of moisturizers aan de huid wordt gegeven, niacinamide werkt goed samen met andere actieve ingrediënten om diep in de huid door te dringen en zijn goede eigenschappen af te geven.<\/p><p>Het is een expert in het ondersteunen en beschermen van de uiterst belangrijke huidbarrière. Het helpt optimale niveaus van hydratatie te behouden, moedigt de huid aan om verloren vocht vast te houden en te herstellen, terwijl het ook tekenen van beschadiging repareert en verzacht. En hier komen de verhelderende krachten van niacinamide om de hoek kijken.<\/p>",
+            "text": "<p>Oké, dus wat doet niacinamide voor de huid? Nou, waar zullen we beginnen. Niacinamide is een van de best bewaarde geheimen in huidverzorging en geliefd bij dermatologen en beautyredacteuren vanwege de indrukwekkende reeks voordelen voor de huid. <br\/><br\/>Of het nu via reinigers, toners of moisturizers aan de huid wordt gegeven, niacinamide werkt goed samen met andere actieve ingrediënten om diep in de huid door te dringen en zijn goede eigenschappen af te geven.<br\/><br\/>Het is een expert in het ondersteunen en beschermen van de uiterst belangrijke huidbarrière. Het helpt optimale niveaus van hydratatie te behouden, moedigt de huid aan om verloren vocht vast te houden en te herstellen, terwijl het ook tekenen van beschadiging repareert en verzacht. En hier komen de verhelderende krachten van niacinamide om de hoek kijken.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -222,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Door de vitaliteit en kracht van de huid te stimuleren, vermindert het doffe teint en herstelt het de natuurlijke glans van de huid. Dit helpt ook bij de anti-verouderingsvoordelen, omdat het de elasticiteit van de huid ondersteunt, de huid voller maakt en het verschijnen van fijne lijntjes en rimpels vermindert. Het is geweldig in een oogcrème of serum om deze reden. Alsof dat nog niet genoeg is, is niacinamide ook een expert in het in evenwicht brengen en ondersteunen van de huid die gevoelig is voor onzuiverheden, waarbij het helpt het verschijnen van poriën te verminderen door ze te reinigen. Tot slot verbetert het ook het uiterlijk van een ongelijkmatige teint, voor zachtere, helderdere teinten.<\/p>",
+            "text": "<p>Door de vitaliteit en kracht van de huid te stimuleren, vermindert het doffe teint en herstelt het de natuurlijke glans van de huid. Dit helpt ook bij de anti-verouderingsvoordelen, omdat het de elasticiteit van de huid ondersteunt, de huid voller maakt en het verschijnen van fijne lijntjes en rimpels vermindert. <br\/><br\/>Het is geweldig in een oogcrème of serum om deze reden. Alsof dat nog niet genoeg is, is niacinamide ook een expert in het in evenwicht brengen en ondersteunen van de huid die gevoelig is voor onzuiverheden, waarbij het helpt het verschijnen van poriën te verminderen door ze te reinigen. Tot slot verbetert het ook het uiterlijk van een ongelijkmatige teint, voor zachtere, helderdere teinten.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -260,6 +303,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
     "37451595-eac5-4463-8371-6f0daf3e0822"
   ]

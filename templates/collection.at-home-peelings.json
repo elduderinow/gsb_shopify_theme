@@ -76,6 +76,62 @@
         "padding_bottom": 40
       }
     },
+    "edec96a8-aebc-4705-830c-479b900f9a19": {
+      "type": "highlight",
+      "blocks": {
+        "5c75a209-60eb-474a-8d35-de06b3fab558": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_peels_738597f5-b18a-40af-a4fc-5981fe18083b.jpg",
+            "image_title": "Smoothing",
+            "image_subtitle": "peels",
+            "highlight_url": "shopify:\/\/collections\/peeling-smoothing"
+          }
+        },
+        "8df63b2d-dc1c-4731-9c82-bab6730b91dd": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pores_Shine_Desktop.jpg",
+            "image_title": "Brightening",
+            "image_subtitle": "Peels",
+            "highlight_url": "shopify:\/\/collections\/peeling-brightening"
+          }
+        },
+        "6e40314b-65ae-4261-a228-1f072aa6a43a": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_hydrate-restore_2.webp",
+            "image_title": "Clarifying",
+            "image_subtitle": "Peels",
+            "highlight_url": "shopify:\/\/collections\/peeling-clarifying"
+          }
+        },
+        "b62f4e0d-07c0-4a60-b0e7-23900916f890": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hyperpigmentation_Desktop.webp",
+            "image_title": "Resurfacing",
+            "image_subtitle": "Peels",
+            "highlight_url": "shopify:\/\/collections\/peeling-resurfacing"
+          }
+        }
+      },
+      "block_order": [
+        "5c75a209-60eb-474a-8d35-de06b3fab558",
+        "8df63b2d-dc1c-4731-9c82-bab6730b91dd",
+        "6e40314b-65ae-4261-a228-1f072aa6a43a",
+        "b62f4e0d-07c0-4a60-b0e7-23900916f890"
+      ],
+      "settings": {
+        "title": "Onze peeling collectie",
+        "heading_size": "h1",
+        "description": "",
+        "color_scheme": "background-1",
+        "padding_top": 80,
+        "padding_bottom": 32,
+        "section_width": "boxed"
+      }
+    },
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b": {
       "type": "custom-liquid",
       "settings": {
@@ -360,6 +416,7 @@
     "banner",
     "92602d36-7d25-4028-b9d9-a36860448447",
     "product-grid",
+    "edec96a8-aebc-4705-830c-479b900f9a19",
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",

@@ -187,8 +187,51 @@
         "section_width": "boxed"
       }
     },
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f": {
+      "type": "image-image",
+      "blocks": {
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        },
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1",
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2"
+      ],
+      "settings": {
+        "image_grid": "grid",
+        "image_ratio": "landscape",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -213,7 +256,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Retinol is hét anti-aging ingrediënt in huidverzorging - samen met zonbescherming, natuurlijk. Het heeft een verhelderende, verstevigende, gladmakende en collageenversterkende werking, en is een must voor elk huidtype, huidskleur en textuur. Maar wat is retinol eigenlijk? Samen met andere retinoïden is retinol een derivaat van vitamine A - een essentiële voedingsstof die de celvernieuwing bevordert. Het dringt diep door in de huid en verwijdert dode cellen, stimuleert de collageenproductie, vult de huid op en vervaagt fijne lijntjes en rimpels. Door regelmatig retinol te gebruiken, verbetert de huidskleur, elasticiteit en worden pigmentatieproblemen ook aangepakt.<\/p>",
+            "text": "<p>Retinol is hét anti-aging ingrediënt in huidverzorging - samen met zonbescherming, natuurlijk. Het heeft een verhelderende, verstevigende, gladmakende en collageenversterkende werking, en is een must voor elk huidtype, huidskleur en textuur. <br\/><br\/>Maar wat is retinol eigenlijk? Samen met andere retinoïden is retinol een derivaat van vitamine A - een essentiële voedingsstof die de celvernieuwing bevordert. Het dringt diep door in de huid en verwijdert dode cellen, stimuleert de collageenproductie, vult de huid op en vervaagt fijne lijntjes en rimpels. <br\/><br\/>Door regelmatig retinol te gebruiken, verbetert de huidskleur, elasticiteit en worden pigmentatieproblemen ook aangepakt.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -222,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Retinol is ook een krachtig ingrediënt voor de behandeling en preventie van acne, omdat het diep in de poriën doordringt om mee-eters en andere onvolkomenheden te verwijderen die onder het oppervlak kunnen ontstaan. Retinol en salicylzuur zijn een droomteam voor de huid die gevoelig is voor puistjes. Sommige ervaren retinol-gebruikers willen misschien een anhydrous (waterloos) retinol-serum proberen, terwijl voor de gevoelige huid retinoltolerantie in de loop van de tijd moet worden opgebouwd. Het kan in het begin tintelend aanvoelen of roodheid veroorzaken, dus het is het beste om rustig te beginnen. Je kunt ook een moisturizer gebruiken om je retinol-serum te mengen, door een paar druppels aan je gezichtscrème toe te voegen, of je moisturizer eerst aan te brengen en daarna een retinol-serum erbovenop. Omdat retinol de huid gevoeliger maakt voor zonlicht, is het het beste om het alleen 's nachts aan te brengen.<\/p>",
+            "text": "<p>Retinol is ook een krachtig ingrediënt voor de behandeling en preventie van acne, omdat het diep in de poriën doordringt om mee-eters en andere onvolkomenheden te verwijderen die onder het oppervlak kunnen ontstaan. Retinol en salicylzuur zijn een droomteam voor de huid die gevoelig is voor puistjes. <br\/><br\/>Sommige ervaren retinol-gebruikers willen misschien een anhydrous (waterloos) retinol-serum proberen, terwijl voor de gevoelige huid retinoltolerantie in de loop van de tijd moet worden opgebouwd. Het kan in het begin tintelend aanvoelen of roodheid veroorzaken, dus het is het beste om rustig te beginnen. <br\/><br\/>Je kunt ook een moisturizer gebruiken om je retinol-serum te mengen, door een paar druppels aan je gezichtscrème toe te voegen, of je moisturizer eerst aan te brengen en daarna een retinol-serum erbovenop. Omdat retinol de huid gevoeliger maakt voor zonlicht, is het het beste om het alleen 's nachts aan te brengen.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -260,6 +303,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
     "37451595-eac5-4463-8371-6f0daf3e0822"
   ]

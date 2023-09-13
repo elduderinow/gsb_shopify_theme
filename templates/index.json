@@ -747,7 +747,7 @@
         "heading_size": "h2",
         "description": "Shop onze bestverkopende huidverzorging en make-up.",
         "show_description": false,
-        "collection": "alles-zonder-tools-displays",
+        "collection": "landingpage-best-selling",
         "products_to_show": 9,
         "columns_desktop": 1,
         "select_width": "boxed",

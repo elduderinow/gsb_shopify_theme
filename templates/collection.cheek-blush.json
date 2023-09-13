@@ -187,6 +187,48 @@
         "section_width": "boxed"
       }
     },
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f": {
+      "type": "image-image",
+      "blocks": {
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        },
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1",
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2"
+      ],
+      "settings": {
+        "image_grid": "grid",
+        "image_ratio": "landscape",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
       "disabled": true,
@@ -214,7 +256,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Ben je meer fan van een natuurlijke gloed blush of een opvallende splash van kleur? Wat je blush stijl ook is, onze minerale blush make-up heeft een tint, afwerking en textuur om al je blush doelen te overtreffen. Geschikt voor alle huidtypes, zelfs de gevoelige huid, gebruiken we alleen de beste mineralen voor al onze blushes en voegen we verzorgende ingrediënten toe zoals antioxidanten vitamines A, C, E, groene thee en kaolienklei. Bovendien zijn ze dierproefvrij, talcvrij en parabenenvrij.<\/p>",
+            "text": "<p>Ben je meer fan van een natuurlijke gloed blush of een opvallende splash van kleur? Wat je blush stijl ook is, onze minerale blush make-up heeft een tint, afwerking en textuur om al je blush doelen te overtreffen. <br\/><br\/>Geschikt voor alle huidtypes, zelfs de gevoelige huid, gebruiken we alleen de beste mineralen voor al onze blushes en voegen we verzorgende ingrediënten toe zoals antioxidanten vitamines A, C, E, groene thee en kaolienklei. Bovendien zijn ze dierproefvrij, talcvrij en parabenenvrij.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -223,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Bij het kiezen tussen poeder of crème blushes kan je voorkeur of huidtype een rol spelen. Crème blushes zijn rijker van textuur, met een verzorgende formule, en ze zijn gemakkelijk aan te brengen en te blenden met een blushkwast of met je vingers. Ze geven een dewy afwerking en stralend effect, dus ze zijn geweldig voor de droge huidtypes of om doffe teinten op te frissen. Poeder blushes kunnen meer mat zijn, wat ideaal is voor een vette huid, of ze kunnen een glinsterende, multidimensionale afwerking hebben. Poeder blushes zijn ook heel flexibel en opbouwbaar, zodat je de intensiteit van de blush gemakkelijk kunt aanpassen met je favoriete make-upkwasten.<\/p>",
+            "text": "<p>Bij het kiezen tussen poeder of crème blushes kan je voorkeur of huidtype een rol spelen. Crème blushes zijn rijker van textuur, met een verzorgende formule, en ze zijn gemakkelijk aan te brengen en te blenden met een blushkwast of met je vingers. <br\/><br\/>Ze geven een dewy afwerking en stralend effect, dus ze zijn geweldig voor de droge huidtypes of om doffe teinten op te frissen. Poeder blushes kunnen meer mat zijn, wat ideaal is voor een vette huid, of ze kunnen een glinsterende, multidimensionale afwerking hebben. <br\/><br\/>Poeder blushes zijn ook heel flexibel en opbouwbaar, zodat je de intensiteit van de blush gemakkelijk kunt aanpassen met je favoriete make-upkwasten.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -261,6 +303,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
     "37451595-eac5-4463-8371-6f0daf3e0822"
   ]

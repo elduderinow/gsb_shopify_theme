@@ -187,8 +187,51 @@
         "section_width": "boxed"
       }
     },
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f": {
+      "type": "image-image",
+      "blocks": {
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        },
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1",
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2"
+      ],
+      "settings": {
+        "image_grid": "grid",
+        "image_ratio": "landscape",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -213,7 +256,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Contouring kan een aanzienlijk verschil maken voor de vorm en definitie van belangrijke delen van je gezicht. Of het nu subtiel en zacht is of dramatisch en gebeiteld, contour make-up helpt je om natuurlijk te boetseren, definiëren, verlichten en verhelderen. Door kenmerken te verbeteren door aanpasbare diepte en dimensie te creëren, kan contouring elke gezichtsvorm verslanken. Gebruik diepere schaduwen zoals minerale bronzers en donkerdere tinten in de contourkit om de illusie van vormgeving van je gezichtseigenschappen te creëren en natuurlijk ogende definitie toe te voegen. Kies een contourtint die twee keer dieper is dan je natuurlijke teint en breng deze aan langs de onderste delen van je jukbeenderen, haarlijn, zijkanten van je neus en kaaklijn. Voor een subtieler effect, verzacht je de contouring door te schaduwen langs delen van je gezicht waar natuurlijk licht als eerste op valt. Je kunt hiervoor een bronzer gebruiken om een natuurlijke, zonovergoten look te creëren.<\/p>",
+            "text": "<p>Contouring kan een aanzienlijk verschil maken voor de vorm en definitie van belangrijke delen van je gezicht. Of het nu subtiel en zacht is of dramatisch en gebeiteld, contour make-up helpt je om natuurlijk te boetseren, definiëren, verlichten en verhelderen. <br\/><br\/>Door kenmerken te verbeteren door aanpasbare diepte en dimensie te creëren, kan contouring elke gezichtsvorm verslanken. Gebruik diepere schaduwen zoals minerale bronzers en donkerdere tinten in de contourkit om de illusie van vormgeving van je gezichtseigenschappen te creëren en natuurlijk ogende definitie toe te voegen. <br\/><br\/>Kies een contourtint die twee keer dieper is dan je natuurlijke teint en breng deze aan langs de onderste delen van je jukbeenderen, haarlijn, zijkanten van je neus en kaaklijn. <br\/><br\/>Voor een subtieler effect, verzacht je de contouring door te schaduwen langs delen van je gezicht waar natuurlijk licht als eerste op valt. Je kunt hiervoor een bronzer gebruiken om een natuurlijke, zonovergoten look te creëren.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -222,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Vervolgens is het tijd om te highlighten en die hoogste punten op te lichten met luminositeit en helderheid. De meest voorkomende gebieden om te highlighten zijn het midden van het voorhoofd, de wenkbrauwbotjes, de bovenkant van de jukbeenderen, het midden van de neus en de punt, de bovenlip, en het midden van de kin, omdat dit de natuurlijke punten zijn waar het licht op valt. Voor een meer transparante, dauwachtige look is een highlighting balm jouw go-to, terwijl je voor een meer extraverte glinstering en matte effect kunt kiezen voor een shimmer poeder. Je hebt hiervoor gereedschap nodig, dus investeer in contour- en highlightpenselen.<\/p>",
+            "text": "<p>Vervolgens is het tijd om te highlighten en die hoogste punten op te lichten met luminositeit en helderheid. De meest voorkomende gebieden om te highlighten zijn het midden van het voorhoofd, de wenkbrauwbotjes, de bovenkant van de jukbeenderen, het midden van de neus en de punt, de bovenlip, en het midden van de kin, omdat dit de natuurlijke punten zijn waar het licht op valt. <br\/><br\/>Voor een meer transparante, dauwachtige look is een highlighting balm jouw go-to, terwijl je voor een meer extraverte glinstering en matte effect kunt kiezen voor een shimmer poeder. Je hebt hiervoor gereedschap nodig, dus investeer in contour- en highlightpenselen.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -254,7 +297,6 @@
     },
     "ce6989ae-1af1-455a-85b6-d30d25ae8fc3": {
       "type": "collapsible-content",
-      "disabled": true,
       "blocks": {
         "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-1": {
           "type": "collapsible_row",
@@ -339,6 +381,7 @@
         "47bc5dec-6dc0-4a94-9f0e-b551c474d87c",
         "94b37849-f3b0-431d-92cf-28f9f32d3397"
       ],
+      "disabled": true,
       "settings": {
         "caption": "FAQ",
         "heading": "Veelgestelde vragen over Vitamine C",
@@ -363,6 +406,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
     "37451595-eac5-4463-8371-6f0daf3e0822",
     "ce6989ae-1af1-455a-85b6-d30d25ae8fc3"

@@ -187,6 +187,48 @@
         "section_width": "boxed"
       }
     },
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f": {
+      "type": "image-image",
+      "blocks": {
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        },
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1",
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2"
+      ],
+      "settings": {
+        "image_grid": "grid",
+        "image_ratio": "landscape",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
       "disabled": true,
@@ -214,7 +256,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Ontmoet jouw perfecte foundationmatch met onze selectie van transparante, medium en volledige dekking minerale foundations in matte, glanzende of satijnen afwerkingen. Jouw huid is de beste basis, en bij Glo hanteren we een huidgerichte aanpak waarbij we jouw natuurlijke straling versterken en verbeteren voordat we kleur toevoegen om te corrigeren en te perfectioneren. Onze schone, natuurlijke foundations zijn verrijkt met huidverzorgende ingrediënten, waaronder beschermende antioxidanten, zonbescherming en hyaluronzuur om jouw huid te voeden, terwijl we de teint en textuur op het oppervlak behandelen met minerale pigmenten. Het kiezen van jouw perfecte foundation gaat niet alleen om het kiezen van de juiste tint - hoewel dat belangrijk is (probeer onze Shade Finder) - het gaat ook om het vinden van de juiste afwerking en dekking.<\/p>",
+            "text": "<p>Ontmoet jouw perfecte foundationmatch met onze selectie van transparante, medium en volledige dekking minerale foundations in matte, glanzende of satijnen afwerkingen. <br\/><br\/>Jouw huid is de beste basis, en bij Glo hanteren we een huidgerichte aanpak waarbij we jouw natuurlijke straling versterken en verbeteren voordat we kleur toevoegen om te corrigeren en te perfectioneren. <br\/><br\/>Onze schone, natuurlijke foundations zijn verrijkt met huidverzorgende ingrediënten, waaronder beschermende antioxidanten, zonbescherming en hyaluronzuur om jouw huid te voeden, terwijl we de teint en textuur op het oppervlak behandelen met minerale pigmenten. <br\/><br\/>Het kiezen van jouw perfecte foundation gaat niet alleen om het kiezen van de juiste tint - hoewel dat belangrijk is (probeer onze Shade Finder) - het gaat ook om het vinden van de juiste afwerking en dekking.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -223,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Voor transparante en natuurlijke foundations kun je een primer of tint proberen voor een glanzende afwerking, of voor een opbouwbare, flexibele dekking kun je een multifunctionele foundationstick proberen. Vloeibare foundation kan zorgen voor een glanzende afwerking met transparante tot medium dekking. Als je op zoek bent naar een semi-matte effect dat geweldig is voor een vette huid, probeer dan een compact poeder foundation voor opbouwbare, transparante tot volledige dekking. Als je juist medium tot volledige dekking wilt, kijk dan naar crème foundations met een satijnen afwerking, of naar losse poeders voor matterende effecten. Al onze minerale foundations zijn schoon, dierproefvrij, vrij van parabenen en talk en geschikt voor alle huidtypen, inclusief de gevoelige huid.<\/p>",
+            "text": "<p>Voor transparante en natuurlijke foundations kun je een primer of tint proberen voor een glanzende afwerking, of voor een opbouwbare, flexibele dekking kun je een multifunctionele foundationstick proberen. <br\/><br\/>Vloeibare foundation kan zorgen voor een glanzende afwerking met transparante tot medium dekking. Als je op zoek bent naar een semi-matte effect dat geweldig is voor een vette huid, probeer dan een compact poeder foundation voor opbouwbare, transparante tot volledige dekking. <br\/><br\/>Als je juist medium tot volledige dekking wilt, kijk dan naar crème foundations met een satijnen afwerking, of naar losse poeders voor matterende effecten. Al onze minerale foundations zijn schoon, dierproefvrij, vrij van parabenen en talk en geschikt voor alle huidtypen, inclusief de gevoelige huid.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -353,6 +395,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
     "37451595-eac5-4463-8371-6f0daf3e0822",
     "ce6989ae-1af1-455a-85b6-d30d25ae8fc3"

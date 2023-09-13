@@ -187,8 +187,51 @@
         "section_width": "boxed"
       }
     },
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f": {
+      "type": "image-image",
+      "blocks": {
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        },
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1",
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2"
+      ],
+      "settings": {
+        "image_grid": "grid",
+        "image_ratio": "landscape",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -213,7 +256,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Leef je beste wimperleven met ons assortiment schone, minerale mascara's. De keuze voor mascara kan zeer persoonlijk zijn, afhankelijk van de kwaliteit van je wimpers, dikte, oogvorm, of over het algemeen de uitstraling waar je naar streeft. Daarom maken we het super eenvoudig om een veelzijdige mascara-formulering te vinden die alles doet wat je wilt met één simpele borstel. Voor wat extra ondersteuning bij het laten groeien van wimpers, zal onze Lash Thickener and Conditioner een favoriet zijn om je wimpers voor te bereiden met een versterkende, volumeverhogende dosis voedingsstoffen. Breng dan één of twee lagen aan van onze Volumizing Mascara, voor moeiteloos volle, verdikte, gedefinieerde wimpers - uiteraard zonder klontjes.<\/p>",
+            "text": "<p>Leef je beste wimperleven met ons assortiment schone, minerale mascara's. De keuze voor mascara kan zeer persoonlijk zijn, afhankelijk van de kwaliteit van je wimpers, dikte, oogvorm, of over het algemeen de uitstraling waar je naar streeft. <br\/><br\/>Daarom maken we het super eenvoudig om een veelzijdige mascara-formulering te vinden die alles doet wat je wilt met één simpele borstel. Voor wat extra ondersteuning bij het laten groeien van wimpers, zal onze Lash Thickener and Conditioner een favoriet zijn om je wimpers voor te bereiden met een versterkende, volumeverhogende dosis voedingsstoffen. <br\/><br\/>Breng dan één of twee lagen aan van onze Volumizing Mascara, voor moeiteloos volle, verdikte, gedefinieerde wimpers - uiteraard zonder klontjes.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -222,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Als je al volume hebt en op zoek bent naar die poppenachtige, gescheiden en verlengde wimperlook, wordt onze Lash Lengthening Mascara je nieuwe beste vriend. Door wimpers te bedekken met een rijke, langhoudende formulering met veel pigment, voegt deze schone mascara alle definitie toe die je nodig hebt voor wimpers die echt opvallen. Voor een meer natuurlijke mascaralook zou één laag voldoende moeten zijn, maar als je opvallende wimpers wilt, probeer dan een paar lagen voor het ultieme \"zie mij\" effect. En voor een chique look aan het zwembad, zal onze Water Resistant Mascara je niet in de steek laten. Deze mascara met driedubbele werking verlengt, geeft volume en biedt waterbestendige, intens gekleurde wimpers die lang meegaan. En onze minerale mascara is geschikt voor de gevoelige huid en is veganistisch, dierproefvrij, vrij van talk en vrij van parabenen.<\/p>",
+            "text": "<p>Als je al volume hebt en op zoek bent naar die poppenachtige, gescheiden en verlengde wimperlook, wordt onze Lash Lengthening Mascara je nieuwe beste vriend. Door wimpers te bedekken met een rijke, langhoudende formulering met veel pigment, voegt deze schone mascara alle definitie toe die je nodig hebt voor wimpers die echt opvallen. <br\/><br\/>Voor een meer natuurlijke mascaralook zou één laag voldoende moeten zijn, maar als je opvallende wimpers wilt, probeer dan een paar lagen voor het ultieme \"zie mij\" effect. En voor een chique look aan het zwembad, zal onze Water Resistant Mascara je niet in de steek laten. <br\/><br\/>Deze mascara met driedubbele werking verlengt, geeft volume en biedt waterbestendige, intens gekleurde wimpers die lang meegaan. En onze minerale mascara is geschikt voor de gevoelige huid en is veganistisch, dierproefvrij, vrij van talk en vrij van parabenen.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -254,7 +297,6 @@
     },
     "ce6989ae-1af1-455a-85b6-d30d25ae8fc3": {
       "type": "collapsible-content",
-      "disabled": true,
       "blocks": {
         "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-1": {
           "type": "collapsible_row",
@@ -339,6 +381,7 @@
         "47bc5dec-6dc0-4a94-9f0e-b551c474d87c",
         "94b37849-f3b0-431d-92cf-28f9f32d3397"
       ],
+      "disabled": true,
       "settings": {
         "caption": "FAQ",
         "heading": "Veelgestelde vragen over Vitamine C",
@@ -363,6 +406,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
     "37451595-eac5-4463-8371-6f0daf3e0822",
     "ce6989ae-1af1-455a-85b6-d30d25ae8fc3"

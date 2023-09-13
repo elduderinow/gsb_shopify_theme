@@ -187,6 +187,48 @@
         "section_width": "boxed"
       }
     },
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f": {
+      "type": "image-image",
+      "blocks": {
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        },
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1",
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2"
+      ],
+      "settings": {
+        "image_grid": "grid",
+        "image_ratio": "landscape",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
       "disabled": true,
@@ -214,7 +256,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Oogmake-up voor elke dag, van natuurlijke kleurtinten, opvallende smokey eyes, gedefinieerde wimpers tot gedurfde wenkbrauwen - wat je doel ook is, ontdek, speel en creëer je perfecte look. Als je op zoek bent naar een moeiteloze oogmake-up, bieden onze Cream Stay Shadow Sticks vol met huidverzorging een regenboog aan kleuren en zijn ze zo veelzijdig dat ze dienen als primer, basis en eyeliner in één langhoudende, fluweelzachte, kleurintense formule.<\/p><p>Voor precisie en het beheersen van de 'cat eye' of 'winged eye' look, perfectioneer je je eyeliner spel met de Precise Micro Eyeliner, Liquid Ink of Precision Eye Pencil - allemaal moeiteloze, langhoudende formules die applicatie eenvoudig maken.<\/p>",
+            "text": "<p>Oogmake-up voor elke dag, van natuurlijke kleurtinten, opvallende smokey eyes, gedefinieerde wimpers tot gedurfde wenkbrauwen - wat je doel ook is, ontdek, speel en creëer je perfecte look. <br\/><br\/>Als je op zoek bent naar een moeiteloze oogmake-up, bieden onze Cream Stay Shadow Sticks vol met huidverzorging een regenboog aan kleuren en zijn ze zo veelzijdig dat ze dienen als primer, basis en eyeliner in één langhoudende, fluweelzachte, kleurintense formule.<br\/><br\/>Voor precisie en het beheersen van de 'cat eye' of 'winged eye' look, perfectioneer je je eyeliner spel met de Precise Micro Eyeliner, Liquid Ink of Precision Eye Pencil - allemaal moeiteloze, langhoudende formules die applicatie eenvoudig maken.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -223,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Als je je oogmake-up kit wilt uitbreiden met meer oogschaduws, zijn onze Eye Shadow Quads een uitstekende keuze. Ze bieden mix- en matchbare tinten om je te helpen een look te creëren die helemaal bij jou past.<\/p><p>Leef je beste wimperleven ooit met onze professionele mascara's - in lengte verlengende, volumiserende en waterbestendige formules die vlekbestendig, langhoudend en rijk gepigmenteerd zijn voor een ultieme wimperdefinitie.<\/p><p>En vergeet de wenkbrauwen niet. Jouw gezichts-vrienden, of ze nu vol en natuurlijk zijn of juist gedurfd en strak, houd je wenkbrauwen perfect verzorgd met onze potloden, gel en quads voor alle gewenste effecten.<\/p>",
+            "text": "<p>Als je je oogmake-up kit wilt uitbreiden met meer oogschaduws, zijn onze Eye Shadow Quads een uitstekende keuze. Ze bieden mix- en matchbare tinten om je te helpen een look te creëren die helemaal bij jou past.<br\/><br\/>Leef je beste wimperleven ooit met onze professionele mascara's - in lengte verlengende, volumiserende en waterbestendige formules die vlekbestendig, langhoudend en rijk gepigmenteerd zijn voor een ultieme wimperdefinitie.<br\/><br\/>En vergeet de wenkbrauwen niet. Jouw gezichts-vrienden, of ze nu vol en natuurlijk zijn of juist gedurfd en strak, houd je wenkbrauwen perfect verzorgd met onze potloden, gel en quads voor alle gewenste effecten.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -255,7 +297,6 @@
     },
     "ce6989ae-1af1-455a-85b6-d30d25ae8fc3": {
       "type": "collapsible-content",
-      "disabled": true,
       "blocks": {
         "template--19336311996763__ce6989ae-1af1-455a-85b6-d30d25ae8fc3-collapsible_row-1": {
           "type": "collapsible_row",
@@ -340,6 +381,7 @@
         "47bc5dec-6dc0-4a94-9f0e-b551c474d87c",
         "94b37849-f3b0-431d-92cf-28f9f32d3397"
       ],
+      "disabled": true,
       "settings": {
         "caption": "FAQ",
         "heading": "Veelgestelde vragen over Vitamine C",
@@ -364,6 +406,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
     "37451595-eac5-4463-8371-6f0daf3e0822",
     "ce6989ae-1af1-455a-85b6-d30d25ae8fc3"

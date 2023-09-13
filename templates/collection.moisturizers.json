@@ -177,6 +177,7 @@
     },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -194,6 +195,61 @@
         "section_width": "boxed"
       }
     },
+    "bb8aa146-ff8c-425c-b0f4-c2ceb789528a": {
+      "type": "image-image",
+      "blocks": {
+        "template--19336999829851__bb8aa146-ff8c-425c-b0f4-c2ceb789528a-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Moisturizer_Desktop_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        },
+        "template--19336999829851__bb8aa146-ff8c-425c-b0f4-c2ceb789528a-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Moisturizer_Desktop_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        },
+        "fe15c7f0-4cdb-4f8b-bbbf-50c0e7476b56": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Moisturizer_Desktop_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--19336999829851__bb8aa146-ff8c-425c-b0f4-c2ceb789528a-column-1",
+        "template--19336999829851__bb8aa146-ff8c-425c-b0f4-c2ceb789528a-column-2",
+        "fe15c7f0-4cdb-4f8b-bbbf-50c0e7476b56"
+      ],
+      "settings": {
+        "image_grid": "grid",
+        "image_ratio": "landscape",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "4bf35aec-9845-4b07-9ae8-d3ff5b7d0b6c": {
       "type": "multicolumn",
       "blocks": {
@@ -201,7 +257,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Gezichtsmoisturizers zijn een essentiële stap in uw dagelijkse en avondelijke huidverzorgingsritueel. Onze gezichtscrèmes voeden, versterken en hydrateren de teint met de essentiële voedingsstoffen die onze huid nodig heeft. Ze zitten boordevol de nieuwste botanische, schone technologieën en innovatieve actieve ingrediënten voor het meest comfortabele huidbeeld ooit. Aangedreven door vochtvasthoudende stoffen zoals hyaluronzuur, die vocht aan de huid binden, tot shea butter en jojoba-olie voor voeding van het volgende niveau, en antioxidanten om te helpen bij het voorkomen van verouderingsschade door vrije radicalen, richten en behandelen onze gezichtsmoisturizers uw zorgen voor elk huidtype.<\/p>",
+            "text": "<p>Gezichtsmoisturizers zijn een essentiële stap in uw dagelijkse en avondelijke huidverzorgingsritueel. Onze gezichtscrèmes voeden, versterken en hydrateren de teint met de essentiële voedingsstoffen die onze huid nodig heeft. Ze zitten boordevol de nieuwste botanische, schone technologieën en innovatieve actieve ingrediënten voor het meest comfortabele huidbeeld ooit. <br\/><br\/>Aangedreven door vochtvasthoudende stoffen zoals hyaluronzuur, die vocht aan de huid binden, tot shea butter en jojoba-olie voor voeding van het volgende niveau, en antioxidanten om te helpen bij het voorkomen van verouderingsschade door vrije radicalen, richten en behandelen onze gezichtsmoisturizers uw zorgen voor elk huidtype.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -210,7 +266,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Als u op zoek bent naar gezichtsmoisturizers voor een gecombineerde of vette huid, zullen olievrije formuleringen uw favoriet zijn omdat ze diepe hydratatie bieden, balanceren en zuiveren zonder de poriën te verstoppen. Voor een droge huid zal een hydraterende gezichtsmoisturizer een game-changer zijn, omdat deze een met vocht doordrenkte laag biedt met kalmerende en vochtminnende ingrediënten in rijkere, vollere formuleringen. En voor anti-aging zijn de moisturizers verrijkt met plantaardige stamceltechnologie, liftend, verstevigend en opvullend voor een verfrissende gloed. Wat betreft uw nachtcrèmes, geef uw slaap een boost met retinolcrèmes voor een helderdere huid gedurende de nacht, een gladdere huid, anti-aging en acne-bestrijdende eigenschappen. En als u extra voordelen aan uw gezichtsmoisturizer wilt toevoegen, voeg dan een paar druppels van uw favoriete serum toe.<\/p>",
+            "text": "<p>Als u op zoek bent naar gezichtsmoisturizers voor een gecombineerde of vette huid, zullen olievrije formuleringen uw favoriet zijn omdat ze diepe hydratatie bieden, balanceren en zuiveren zonder de poriën te verstoppen. Voor een droge huid zal een hydraterende gezichtsmoisturizer een game-changer zijn, omdat deze een met vocht doordrenkte laag biedt met kalmerende en vochtminnende ingrediënten in rijkere, vollere formuleringen. <br\/><br\/>En voor anti-aging zijn de moisturizers verrijkt met plantaardige stamceltechnologie, liftend, verstevigend en opvullend voor een verfrissende gloed. Wat betreft uw nachtcrèmes, geef uw slaap een boost met retinolcrèmes voor een helderdere huid gedurende de nacht, een gladdere huid, anti-aging en acne-bestrijdende eigenschappen. En als u extra voordelen aan uw gezichtsmoisturizer wilt toevoegen, voeg dan een paar druppels van uw favoriete serum toe.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -351,6 +407,7 @@
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
+    "bb8aa146-ff8c-425c-b0f4-c2ceb789528a",
     "4bf35aec-9845-4b07-9ae8-d3ff5b7d0b6c",
     "6dae6324-31c4-4533-aaf2-10762107bc30"
   ]

@@ -187,8 +187,51 @@
         "section_width": "boxed"
       }
     },
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f": {
+      "type": "image-image",
+      "blocks": {
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        },
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1",
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2"
+      ],
+      "settings": {
+        "image_grid": "grid",
+        "image_ratio": "landscape",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -213,7 +256,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Huidvernieuwing is essentieel voor elk huidtype, zelfs voor de gevoelige huid. Huidvernieuwers werken door het verwijderen van overtollige ophoping van dode huidcellen, oliën en andere onzuiverheden die verstopping kunnen veroorzaken. Voor een doffe, futloze, droge huid die een oppepper nodig heeft, bieden exfoliërende producten een eenvoudige en effectieve manier om uw stralende gloed terug te krijgen. Voor een vette en gecombineerde huid helpen acne exfolianten bij het balanceren en zuiveren, verwijderen ze onzuiverheden en reinigen ze de poriën voor een schonere, helderdere teint.<\/p>",
+            "text": "<p>Huidvernieuwing is essentieel voor elk huidtype, zelfs voor de gevoelige huid. Huidvernieuwers werken door het verwijderen van overtollige ophoping van dode huidcellen, oliën en andere onzuiverheden die verstopping kunnen veroorzaken. <br\/><br\/>Voor een doffe, futloze, droge huid die een oppepper nodig heeft, bieden exfoliërende producten een eenvoudige en effectieve manier om uw stralende gloed terug te krijgen. Voor een vette en gecombineerde huid helpen acne exfolianten bij het balanceren en zuiveren, verwijderen ze onzuiverheden en reinigen ze de poriën voor een schonere, helderdere teint.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -222,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Chemische exfolianten zijn een uitstekende optie voor alle huidtypes, en ons bestverkopende Hydra-Bright Pro 5 Liquid Exfoliant, met zijn unieke mix van alfahydroxyzuren (AHAs), is de perfecte behandeling voor een stralende teint. Voor fysieke exfoliërende producten kunt u denken aan exfoliërende scrubs zoals onze Pumpkin Enzyme Scrub of Brightening Polish, die geweldig zijn om dode huidcellen die zich ophopen aan het oppervlak te verwijderen met milieuvriendelijke jojoba-korrels. Omdat er meer wrijving is tussen de scrubkorrels en uw huid, kunnen fysieke exfolianten bij een gevoelige huid irritatie of roodheid veroorzaken, dus chemische exfolianten voor het gezicht zijn een zachtere optie. En als u uw gezichtsvernieuwing naar een meer gerichte behandeling wilt tillen, probeer dan een van onze maandelijkse peelkits voor thuisgebruik.<\/p>",
+            "text": "<p>Chemische exfolianten zijn een uitstekende optie voor alle huidtypes, en ons bestverkopende Hydra-Bright Pro 5 Liquid Exfoliant, met zijn unieke mix van alfahydroxyzuren (AHAs), is de perfecte behandeling voor een stralende teint. <br\/><br\/>Voor fysieke exfoliërende producten kunt u denken aan exfoliërende scrubs zoals onze Pumpkin Enzyme Scrub of Brightening Polish, die geweldig zijn om dode huidcellen die zich ophopen aan het oppervlak te verwijderen met milieuvriendelijke jojoba-korrels. Omdat er meer wrijving is tussen de scrubkorrels en uw huid, kunnen fysieke exfolianten bij een gevoelige huid irritatie of roodheid veroorzaken, dus chemische exfolianten voor het gezicht zijn een zachtere optie. <br\/><br\/>En als u uw gezichtsvernieuwing naar een meer gerichte behandeling wilt tillen, probeer dan een van onze maandelijkse peelkits voor thuisgebruik.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -271,6 +314,7 @@
     "79ca693d-f985-4489-ab0a-7bfd92189b7b",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
     "79117fbd-ec20-41d0-8272-6f943997c557"
   ]

@@ -187,8 +187,51 @@
         "section_width": "boxed"
       }
     },
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f": {
+      "type": "image-image",
+      "blocks": {
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        },
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1",
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2"
+      ],
+      "settings": {
+        "image_grid": "grid",
+        "image_ratio": "landscape",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -213,7 +256,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Gezichtsmaskers zijn een geweldige aanvullende behandeling om uw reguliere huidverzorgingsritueel aan te vullen. Doordrenkt met geavanceerde actieve ingrediënten, lossen de minerale maskers van Glo verschillende huidproblemen op en bieden ze een meer gerichte en geconcentreerde behandeling met zichtbare resultaten. Gezichtsmaskers zijn meestal behandelingen van 10 minuten, ideaal voor een verwennende zelfverzorgingssessie. Breng een gezichtsmasker aan na het reinigen en tonen van de huid, ontspan dan en laat de actieve ingrediënten van het masker hun magie doen.<\/p>",
+            "text": "<p>Gezichtsmaskers zijn een geweldige aanvullende behandeling om uw reguliere huidverzorgingsritueel aan te vullen. Doordrenkt met geavanceerde actieve ingrediënten, lossen de minerale maskers van Glo verschillende huidproblemen op en bieden ze een meer gerichte en geconcentreerde behandeling met zichtbare resultaten. <br\/><br\/>Gezichtsmaskers zijn meestal behandelingen van 10 minuten, ideaal voor een verwennende zelfverzorgingssessie. Breng een gezichtsmasker aan na het reinigen en tonen van de huid, ontspan dan en laat de actieve ingrediënten van het masker hun magie doen.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -222,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Weet u niet zeker welk gezichtsmasker u moet proberen? Als u op zoek bent naar een gezichtsmasker voor acne, probeer dan een balancerend en ontgiftend masker op basis van houtskool en kaolienklei. Voor anti-aging gezichtsmaskers kunt u kijken naar verstevigende en verfijnende maskers met plantenstamcellen, antioxidanten en meerdere peptiden om de natuurlijke vernieuwingsprocessen van de huid te ondersteunen, voor gladmakende, herstellende en verfijnende resultaten. En als u een gevoelige huid heeft, voeg dan eens per week of vaker een kalmerend en hydraterend gezichtsmasker toe aan uw ritueel. Een hydraterend gezichtsmasker met komkommerextract en verzachtende plantenextracten kan precies zijn wat uw huid nodig heeft om tot rust te komen.<\/p>",
+            "text": "<p>Weet u niet zeker welk gezichtsmasker u moet proberen? Als u op zoek bent naar een gezichtsmasker voor acne, probeer dan een balancerend en ontgiftend masker op basis van houtskool en kaolienklei. <br\/><br\/>Voor anti-aging gezichtsmaskers kunt u kijken naar verstevigende en verfijnende maskers met plantenstamcellen, antioxidanten en meerdere peptiden om de natuurlijke vernieuwingsprocessen van de huid te ondersteunen, voor gladmakende, herstellende en verfijnende resultaten. <br\/><br\/>En als u een gevoelige huid heeft, voeg dan eens per week of vaker een kalmerend en hydraterend gezichtsmasker toe aan uw ritueel. Een hydraterend gezichtsmasker met komkommerextract en verzachtende plantenextracten kan precies zijn wat uw huid nodig heeft om tot rust te komen.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -383,6 +426,7 @@
     "f48c45e8-6e83-40a8-8dde-c73c05127d70",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
     "7d587072-5cc9-430a-9f67-be63522faff0",
     "5493b0d5-4126-4f95-b8e1-3e315f7768b7"

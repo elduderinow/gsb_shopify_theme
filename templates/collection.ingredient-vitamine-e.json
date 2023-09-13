@@ -187,8 +187,51 @@
         "section_width": "boxed"
       }
     },
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f": {
+      "type": "image-image",
+      "blocks": {
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        },
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1",
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2"
+      ],
+      "settings": {
+        "image_grid": "grid",
+        "image_ratio": "landscape",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -213,7 +256,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Vitamine E is een waardevol huidverzorgingsingrediënt en wordt al tientallen jaren geliefd. Het is een super-vitamine en krachtige antioxidant die in de loop der jaren in verschillende formuleringen is gebruikt om droge of gestreste huidproblemen, striae en zelfs littekens te helpen herstellen en verzachten. We voegen graag vitamine E toe aan onze huidverzorgingsproducten vanwege de beschermende eigenschappen, omdat het verouderende oxidatieve schade aan huidcellen voorkomt door vrije radicalen van vervuiling, de zon, blauw licht van onze schermen en andere omgevingsfactoren te neutraliseren.<\/p>",
+            "text": "<p>Vitamine E is een waardevol huidverzorgingsingrediënt en wordt al tientallen jaren geliefd. Het is een super-vitamine en krachtige antioxidant die in de loop der jaren in verschillende formuleringen is gebruikt om droge of gestreste huidproblemen, striae en zelfs littekens te helpen herstellen en verzachten. <br\/><br\/>We voegen graag vitamine E toe aan onze huidverzorgingsproducten vanwege de beschermende eigenschappen, omdat het verouderende oxidatieve schade aan huidcellen voorkomt door vrije radicalen van vervuiling, de zon, blauw licht van onze schermen en andere omgevingsfactoren te neutraliseren.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -222,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p> Vitamine E versterkt ook de vochtbarrière van de huid, houdt hydratatie vast en houdt de huid geconditioneerd en comfortabel. Bovendien heeft het natuurlijke ontstekingsremmende eigenschappen, waardoor het gevoeligheden vermindert en kalmeert, waardoor vitamine E een favoriet ingrediënt is voor mensen met een gevoelige of droge huid.<\/p>",
+            "text": "<p>Vitamine E versterkt ook de vochtbarrière van de huid, houdt hydratatie vast en houdt de huid geconditioneerd en comfortabel. <br\/><br\/>Bovendien heeft het natuurlijke ontstekingsremmende eigenschappen, waardoor het gevoeligheden vermindert en kalmeert, waardoor vitamine E een favoriet ingrediënt is voor mensen met een gevoelige of droge huid.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -260,6 +303,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
     "37451595-eac5-4463-8371-6f0daf3e0822"
   ]

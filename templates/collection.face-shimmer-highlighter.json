@@ -187,8 +187,51 @@
         "section_width": "boxed"
       }
     },
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f": {
+      "type": "image-image",
+      "blocks": {
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        },
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1",
+        "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2"
+      ],
+      "settings": {
+        "image_grid": "grid",
+        "image_ratio": "landscape",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -213,7 +256,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Een stralende huid is altijd in de mode, en hoewel een goede huidverzorgingsroutine je natuurlijke gloed kan helpen, hebben we soms wat extra nodig. En daar komt highlighter make-up om de hoek kijken, want het kan een wereld van verschil maken voor je look. Highlighten draait allemaal om het nabootsen van de manier waarop natuurlijk licht onze botstructuur raakt en reflecteert, waardoor die punten oplichten en definitie wordt toegevoegd met een vleugje helderheid. Als je niet zeker weet waar je highlighter op je gezicht moet aanbrengen, gebruik dan je botstructuur als leidraad.<\/p>",
+            "text": "<p>Een stralende huid is altijd in de mode, en hoewel een goede huidverzorgingsroutine je natuurlijke gloed kan helpen, hebben we soms wat extra nodig. En daar komt highlighter make-up om de hoek kijken, want het kan een wereld van verschil maken voor je look. <br\/><br\/>Highlighten draait allemaal om het nabootsen van de manier waarop natuurlijk licht onze botstructuur raakt en reflecteert, waardoor die punten oplichten en definitie wordt toegevoegd met een vleugje helderheid. Als je niet zeker weet waar je highlighter op je gezicht moet aanbrengen, gebruik dan je botstructuur als leidraad.<br\/><br\/>Breng je highlighter aan langs de bovenkant van je jukbeenderen, op je wenkbrauwbotjes, langs het midden van je neus tot aan de punt, op je cupidoboog en in het midden van je kin en voorhoofd. Zorg ervoor dat je de highlighter goed blendt. Je kunt highlighter ook combineren met contouring voor een meer gebeeldhouwde, gedefinieerde look. <br\/><br\/><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -222,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Breng je highlighter aan langs de bovenkant van je jukbeenderen, op je wenkbrauwbotjes, langs het midden van je neus tot aan de punt, op je cupidoboog en in het midden van je kin en voorhoofd. Zorg ervoor dat je de highlighter goed blendt. Je kunt highlighter ook combineren met contouring voor een meer gebeeldhouwde, gedefinieerde look. Afhankelijk van het effect dat je wilt creëren, kun je voor een dauwachtig, subtiel, natuurlijk highlightingeffect een highlighting balsem gebruiken. Voor een meer sprankelende, opvallende highlighter kun je een shimmer brick, pressed powder proberen. Deze verhelderende poeders zijn opbouwbaar en verkrijgbaar in verschillende tinten, en geven een soft-focus effect voor een lichtgevende en fotogenieke uitstraling. Al onze highlighters zijn verrijkt met huidverzorgende ingrediënten, bevatten alleen ethisch verkregen, milieuvriendelijke mica en zijn vrij van talk en op minerale basis, dus ze zijn geschikt voor alle huidtypes, zelfs de gevoelige huid.<\/p>",
+            "text": "<p>Afhankelijk van het effect dat je wilt creëren, kun je voor een dauwachtig, subtiel, natuurlijk highlightingeffect een highlighting balsem gebruiken. Voor een meer sprankelende, opvallende highlighter kun je een shimmer brick, pressed powder proberen. <br\/><br\/>Deze verhelderende poeders zijn opbouwbaar en verkrijgbaar in verschillende tinten, en geven een soft-focus effect voor een lichtgevende en fotogenieke uitstraling. <br\/><br\/>Al onze highlighters zijn verrijkt met huidverzorgende ingrediënten, bevatten alleen ethisch verkregen, milieuvriendelijke mica en zijn vrij van talk en op minerale basis, dus ze zijn geschikt voor alle huidtypes, zelfs de gevoelige huid.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -362,6 +405,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
+    "c9055c65-600f-45a6-ac53-403f9f1e9f1f",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
     "37451595-eac5-4463-8371-6f0daf3e0822",
     "ce6989ae-1af1-455a-85b6-d30d25ae8fc3"

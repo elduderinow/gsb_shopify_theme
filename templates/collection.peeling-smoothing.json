@@ -73,7 +73,7 @@
           "type": "tab",
           "settings": {
             "tab_title": "<strong>Product<\/strong>",
-            "tab_text": "<p>Herstel de stralendheid van de huid en geef je huid een boost met deze professionele Retinol + C Smoothing Peel. Breng de schoonheidssalon naar je badkamer met deze complete, eenmalige peelkit die alles bevat wat je nodig hebt voor de perfecte peeling, geschikt voor alle huidtinten en -typen. Door de huid te exfoliëren, verfijnen en in balans te brengen, voelt de huid verzorgd aan en oogt ze zichtbaar helderder, wat de effecten van je serums en moisturizers versterkt.<br\/><br\/>Op Level 1 is dit de ideale introductie tot thuispeelbehandelingen. Als je klaar bent om je behandelingen naar Level 2 te brengen en geen gevoelige huid hebt, probeer dan de GlyPro AHA Resurfacing Peel.<\/p>"
+            "tab_text": "<p>Herstel de stralendheid van de huid en geef je huid een boost met deze professionele Retinol + C Smoothing Peel. Breng de schoonheidssalon naar je badkamer met deze complete, eenmalige peelkit die alles bevat wat je nodig hebt voor de perfecte peeling, geschikt voor alle huidtinten en -typen. Door de huid te exfoliëren, verfijnen en in balans te brengen, voelt de huid verzorgd aan en oogt ze zichtbaar helderder, wat de effecten van je serums en moisturizers versterkt.<br\/><br\/>Op Level 1 is dit de ideale introductie tot thuispeelbehandelingen. Als je klaar bent om je behandelingen naar Level 2 te brengen en geen gevoelige huid hebt, probeer dan de GlyPro AHA Resurfacing Peel.<\/p><p>Peel-tijd: 30 minuten<\/p><p>Hersteltijd (vanwege het vervellen, afschilferen of roodheid): 0-5 dagen<\/p>"
           }
         },
         "ae83364b-88c0-4d59-8a36-aa4509b1f6af": {
@@ -96,13 +96,21 @@
             "tab_title": "In de box",
             "tab_text": "<ul><li>Hydra-Bright AHA Cleanser<\/li><li>Monsterzakje<\/li><li>Monsterzakje Glycolic Resurfacing<\/li><li>Cleanser<\/li><li>Pro 5 Vloeibare Exfoliant<\/li><li>Beta-Clarity BHA Druppels<\/li><li>Barrière Balsem<\/li><li>Retinol + C Peeling Booster<\/li><li>(2) 2x2 Gaasjes<\/li><li>Masker Beker<\/li><li>(2) Tissues<\/li><li>(2) Wattenstaafjes<br\/>Maskerkwast<\/li><\/ul>"
           }
+        },
+        "631692d6-24a8-4962-b5b7-dd1789c67a52": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Voordelen",
+            "tab_text": "<p><strong>Brightening:<\/strong> Vitamine C, niacinamide en hydroxyzuren verhelderen zichtbaar en verbeteren de helderheid van de huid.<br\/><\/p><p><strong>Smoothing:<\/strong> Professionele exfoliatie met retinol en hydroxyzuren verbetert zichtbaar de huidtextuur en vermindert de zichtbaarheid van fijne lijntjes en poriën.<br\/><\/p><p><strong>Clarifying:<\/strong> Balanseert de huid om de teint en textuur te verbeteren en behoudt de vochtbalans van de huid.<\/p>"
+          }
         }
       },
       "block_order": [
         "5a931e11-4a8d-4e1d-99df-57c12537b8e6",
         "ae83364b-88c0-4d59-8a36-aa4509b1f6af",
         "a2c65f8f-de76-4334-9cfc-dcc6d12c6f9c",
-        "d6c5e01f-2c01-410d-af15-31784f9f6f7c"
+        "d6c5e01f-2c01-410d-af15-31784f9f6f7c",
+        "631692d6-24a8-4962-b5b7-dd1789c67a52"
       ],
       "settings": {
         "product": "741-1-retinol-c-smoothing-peel-in-a-box",

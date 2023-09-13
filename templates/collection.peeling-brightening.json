@@ -98,7 +98,7 @@
         "product": "759-1-hydra-bright-aha-glow-peel-in-a-box",
         "color_scheme": "background-1",
         "secondary_background": false,
-        "media_size": "medium",
+        "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "media_position": "right",

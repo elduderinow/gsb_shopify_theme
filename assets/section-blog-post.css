@@ -190,3 +190,6 @@
 .article-template .article-template__content ul li {
   margin-bottom: 0.5rem;
 }
+.article-template .article-template__content img {
+  width: 100%;
+}

@@ -16,16 +16,7 @@
 {%- liquid
   assign products_to_display = 10
   assign show_desktop_slider = true
-
-  if section.settings.collection.all_products_count > section.settings.products_to_show
-    assign products_to_display = section.settings.products_to_show
-    assign more_in_collection = true
-  endif
-
-  assign columns_mobile_int = section.settings.columns_mobile | plus: 0
-
   assign show_mobile_slider = true
-
   assign show_desktop_slider = true
 -%}
 

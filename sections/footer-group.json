@@ -4,7 +4,6 @@
   "sections": {
     "2b7861bb-50c2-435e-9d64-c74fa9fb2972": {
       "type": "newsletter",
-      "disabled": true,
       "blocks": {
         "sections--19143339934043__2b7861bb-50c2-435e-9d64-c74fa9fb2972-1689686591c89e0cee-0": {
           "type": "heading",
@@ -30,6 +29,7 @@
         "sections--19143339934043__2b7861bb-50c2-435e-9d64-c74fa9fb2972-1689686591c89e0cee-1",
         "sections--19143339934043__2b7861bb-50c2-435e-9d64-c74fa9fb2972-1689686591c89e0cee-2"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "full_width": true,
@@ -81,7 +81,7 @@
         "footer_logo": "shopify:\/\/shop_images\/gsb_horizontal.svg",
         "color_scheme": "background-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Yes! Ik wil graag meer glo(w) in mijn mailbox:",
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,

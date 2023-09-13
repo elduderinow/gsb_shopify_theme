@@ -198,4 +198,6 @@
 }
 .article-template .article-template__content img {
   width: 100%;
+  object-fit: cover;
+  aspect-ratio: 6/4;
 }

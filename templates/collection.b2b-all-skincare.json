@@ -11,7 +11,6 @@
     },
     "92602d36-7d25-4028-b9d9-a36860448447": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
@@ -41,6 +40,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1",
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Serums_Desktop.webp",
         "height": "medium",

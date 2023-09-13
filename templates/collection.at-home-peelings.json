@@ -128,7 +128,7 @@
         "description": "",
         "color_scheme": "background-1",
         "padding_top": 80,
-        "padding_bottom": 80,
+        "padding_bottom": 32,
         "section_width": "boxed"
       }
     },

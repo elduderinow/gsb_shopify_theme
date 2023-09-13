@@ -217,9 +217,9 @@
 .article-template .main-article-featured .slider--component ul.product-grid li.grid__item {
   width: 25%;
 }
-.article-template .main-article-featured .slider--component ul.product-grid li.grid__item.max4 {
-  width: calc(25% - 54px);
-}
 .article-template .main-article-featured .slider--component ul.product-grid li.grid__item:first-child {
   margin-left: 0;
+}
+.article-template .main-article-featured .slider--component ul.product-grid li.grid__item.max4 {
+  width: calc(25% - 54px);
 }

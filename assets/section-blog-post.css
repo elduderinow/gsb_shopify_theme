@@ -204,7 +204,7 @@
   object-fit: cover;
   aspect-ratio: 6/4;
 }
-.article-template .main-article-featured h3 {
+.article-template .main-article-featured .featured--title {
   text-align: center;
   font-size: 2.3rem;
   line-height: 3.5rem;

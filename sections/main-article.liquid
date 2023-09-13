@@ -2,6 +2,13 @@
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}
+{{ 'template-collection.css' | asset_url | stylesheet_tag }}
+{{ 'component-featured-collection.css' | asset_url | stylesheet_tag }}
+
 {%- liquid
   if article.metafields.custom.featured_products.value
     assign featured_products = article.metafields.custom.featured_products.value

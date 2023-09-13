@@ -250,6 +250,90 @@
         "section_width": "boxed"
       }
     },
+    "8cece25c-74b5-4297-b872-a89a7b9f4b83": {
+      "type": "infographic",
+      "blocks": {
+        "95855e28-5dbe-4bf4-9556-2132ee7bd5f8": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Gecertificeerde Wreedheidvrije Huidverzorging",
+            "heading_size": "h2",
+            "text": "<p>PETA-goedgekeurd, gecertificeerd Beauty Without Bunnies, Glo huidverzorgingsproducten en hun ingrediënten worden nooit getest op onze harige vrienden.<br\/><\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "0008bb93-f23c-4219-8a02-6cf2c05d6e98": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Veganistische Huidverzorging",
+            "heading_size": "h2",
+            "text": "<p>Doordrenkt met plantaardige actieve stoffen, bevat dit product geen ingrediënten van dierlijke oorsprong.<br\/><\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "94bbf85d-699a-4569-b761-7c047cbdef7d": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Parabeenvrije Huidverzorging",
+            "heading_size": "h2",
+            "text": "<p>Een soort conserveermiddel dat in verband wordt gebracht met hormonale verstoring? Geen sprake van, niet in enig Glo huidverzorgingsproduct.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "055f5e9d-78d8-4213-9774-b47df78c18d5": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Sulfaatvrije Huidverzorging",
+            "heading_size": "h2",
+            "text": "<p>Oppervlakteactieve stoffen die irritatie kunnen veroorzaken of allergieën kunnen triggeren, Glo huidverzorging is vrij van SLS + SLES sulfaten.<br\/><\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "b9dcb185-9d5e-46d1-bcf0-0f3089a47d6c": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Vrij van Ftalaten",
+            "heading_size": "h2",
+            "text": "<p>Moeilijk uit te spreken, nog moeilijker voor de huid, Glo is een ftalaatvrije zone.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "95855e28-5dbe-4bf4-9556-2132ee7bd5f8",
+        "0008bb93-f23c-4219-8a02-6cf2c05d6e98",
+        "94bbf85d-699a-4569-b761-7c047cbdef7d",
+        "055f5e9d-78d8-4213-9774-b47df78c18d5",
+        "b9dcb185-9d5e-46d1-bcf0-0f3089a47d6c"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SKIN-FreeOf-PDP-Image-wIcons.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "bg_color": "#000000",
+        "bg_opacity": 30,
+        "number_highlight_1": "",
+        "text_highlight_1": "",
+        "number_highlight_2": "",
+        "text_highlight_2": "",
+        "number_highlight_3": "",
+        "text_highlight_3": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "e8d5d18e-39e9-43f9-8df1-c0aeeac06a79": {
       "type": "featured-collection",
       "settings": {
@@ -286,6 +370,7 @@
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
+    "8cece25c-74b5-4297-b872-a89a7b9f4b83",
     "e8d5d18e-39e9-43f9-8df1-c0aeeac06a79"
   ]
 }

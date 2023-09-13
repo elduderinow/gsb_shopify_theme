@@ -55,8 +55,35 @@
         "section_width": "boxed"
       }
     },
+    "edec96a8-aebc-4705-830c-479b900f9a19": {
+      "type": "highlight",
+      "blocks": {
+        "5c75a209-60eb-474a-8d35-de06b3fab558": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_peels_738597f5-b18a-40af-a4fc-5981fe18083b.jpg",
+            "image_title": "Smoothing",
+            "image_subtitle": "peels",
+            "highlight_url": "shopify:\/\/collections\/peeling-smoothing"
+          }
+        }
+      },
+      "block_order": [
+        "5c75a209-60eb-474a-8d35-de06b3fab558"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "product_view": "grid",
         "section_width": "full_width",
@@ -359,6 +386,7 @@
   "order": [
     "banner",
     "92602d36-7d25-4028-b9d9-a36860448447",
+    "edec96a8-aebc-4705-830c-479b900f9a19",
     "product-grid",
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b",
     "276980df-6134-4fa4-8d48-9d8a646adda5",

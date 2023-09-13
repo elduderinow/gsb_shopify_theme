@@ -177,6 +177,7 @@
     },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -191,6 +192,48 @@
         "show_preview_text": false,
         "padding_top": 48,
         "padding_bottom": 16,
+        "section_width": "boxed"
+      }
+    },
+    "bb8aa146-ff8c-425c-b0f4-c2ceb789528a": {
+      "type": "image-image",
+      "blocks": {
+        "template--19336999829851__bb8aa146-ff8c-425c-b0f4-c2ceb789528a-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Moisturizer_Desktop_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        },
+        "template--19336999829851__bb8aa146-ff8c-425c-b0f4-c2ceb789528a-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Moisturizer_Desktop_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--19336999829851__bb8aa146-ff8c-425c-b0f4-c2ceb789528a-column-1",
+        "template--19336999829851__bb8aa146-ff8c-425c-b0f4-c2ceb789528a-column-2"
+      ],
+      "settings": {
+        "image_grid": "grid",
+        "image_ratio": "landscape",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
         "section_width": "boxed"
       }
     },
@@ -351,6 +394,7 @@
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
+    "bb8aa146-ff8c-425c-b0f4-c2ceb789528a",
     "4bf35aec-9845-4b07-9ae8-d3ff5b7d0b6c",
     "6dae6324-31c4-4533-aaf2-10762107bc30"
   ]

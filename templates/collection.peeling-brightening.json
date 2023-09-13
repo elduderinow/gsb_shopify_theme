@@ -15,14 +15,14 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "REINIGERS",
-            "heading_size": "h2"
+            "heading": "Brightening Peels",
+            "heading_size": "h1"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Kick-start your cleansing with our lineup of face cleansers powered by active botanicals to clarify, refine, balance, brighten, and hydrate.<\/p>",
+            "text": "<p>Het verhogen van helderheid en het vernieuwen van de uitstraling, deze peel op professioneel niveau richt zich op dofheid, uitdroging en hyperpigmentatie, aangedreven door veganistische melkzuur + ferulinezuur en herstellende antioxidanten. Deze thuispeelkit bevat alle producten en accessoires om een volledige behandeling uit te voeren.<\/p>",
             "text_style": "body"
           }
         },
@@ -41,8 +41,8 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Cleanser_Desktop.jpg",
-        "height": "medium",
+        "image": "shopify:\/\/shop_images\/featured_header_Desktop-_peels_738597f5-b18a-40af-a4fc-5981fe18083b.jpg",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -52,12 +52,44 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
+    "0865e273-dee8-439d-8c31-202fdff415ba": {
+      "type": "featured-product",
+      "blocks": {
+        "template--19343221850459__0865e273-dee8-439d-8c31-202fdff415ba-tab-1": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Tab",
+            "tab_text": "<p>add text<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19343221850459__0865e273-dee8-439d-8c31-202fdff415ba-tab-1"
+      ],
+      "settings": {
+        "product": "759-1-hydra-bright-aha-glow-peel-in-a-box",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "right",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
+        "product_view": "grid",
+        "section_width": "full_width",
         "products_per_page": 20,
         "columns_desktop": 4,
         "image_ratio": "portrait",
@@ -188,14 +220,17 @@
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
+        "show_preview_text": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "section_width": "boxed"
       }
     }
   },
   "order": [
     "banner",
     "92602d36-7d25-4028-b9d9-a36860448447",
+    "0865e273-dee8-439d-8c31-202fdff415ba",
     "product-grid",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",

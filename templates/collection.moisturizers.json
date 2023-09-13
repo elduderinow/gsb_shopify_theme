@@ -221,11 +221,24 @@
             "bg_color": "#000000",
             "bg_opacity": 30
           }
+        },
+        "fe15c7f0-4cdb-4f8b-bbbf-50c0e7476b56": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Moisturizer_Desktop_1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
         }
       },
       "block_order": [
         "template--19336999829851__bb8aa146-ff8c-425c-b0f4-c2ceb789528a-column-1",
-        "template--19336999829851__bb8aa146-ff8c-425c-b0f4-c2ceb789528a-column-2"
+        "template--19336999829851__bb8aa146-ff8c-425c-b0f4-c2ceb789528a-column-2",
+        "fe15c7f0-4cdb-4f8b-bbbf-50c0e7476b56"
       ],
       "settings": {
         "image_grid": "grid",

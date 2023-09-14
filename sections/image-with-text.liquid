@@ -99,6 +99,7 @@
                   data-cascade
                 {% endif %}
               >
+                {{ block.settings.highlight_url }}
                 <a
                   class="highlight--image block link-wrapper {% if block.settings.highlight_url == false %} disable {% endif %}"
                   href="{{ block.settings.highlight_url }}"

@@ -333,6 +333,3 @@
 .image-with-text .image-with-text__text-item .image-with-text__content .bottom--content .highlight--image .image-wrapper {
   aspect-ratio: 5/4;
 }
-.image-with-text .image-with-text__text-item .image-with-text__content .bottom--content .highlight--image.disabled {
-  pointer-events: none;
-}

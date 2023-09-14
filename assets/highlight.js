@@ -1,1 +1,1 @@
-"use strict";var _swiper=_interopRequireDefault(require("swiper"));function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}var onInit=function(){console.log("testing refresh")};document.addEventListener("DOMContentLoaded",onInit);
+"use strict";var onInit=function(){console.log("refreshing")};document.addEventListener("DOMContentLoaded",onInit);

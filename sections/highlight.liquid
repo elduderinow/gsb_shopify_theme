@@ -16,6 +16,10 @@
 
 {% assign lazy_load = true %}
 
+{%- liquid
+  assign sectionBlocksSize = section.blocks | size
+%}
+
 <div class="section-highlight color-{{ section.settings.color_scheme }} ">
   <div class="highlight-inner global-section-x-padding page-width--{{ section.settings.section_width }} section-{{ section.id }}-padding">
     <div class="highlight--title">
@@ -55,7 +59,7 @@
       {%- endif -%}
     </div>
     <!-- Slider main container -->
-    <div data-swiper-size="{{ section.blocks | size }}" class="swiper">
+    <div data-swiper-size="{{ sectionBlocksSize }}" class="swiper {% if sectionBlocksSize > 4 %}{% endif %}">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         {%- for block in section.blocks -%}

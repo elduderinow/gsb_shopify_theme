@@ -1,67 +1,86 @@
-// const filterSlides = (slides) => {
-//     console.log('all slides arr f', slides)
-//     slides.map((slide) => {
+const handeSlidePerView = (size) => {
+    if (size >= 4) {
+        return 4
+    } else {
+        return size
+    }
+}
 
-//         let arr = Array.from(slide.classList).join()
-//         if (!arr.includes('duplicate')) {
-//             console.log('not dupl', slide)
-//         }
-//     })
-// }
-
-// import Swiper from "swiper";
-
-const onInit = () => {
-
-    console.log('refreshing 2')
-
-    const breakPoints = { sm: 640, md: 750, lg: 990 }
-
-    const swiper = new Swiper('.swiper', {
-        loop: true,
-        slidesPerView: 1.3,
-        spaceBetween: 10,
-        runCallbacksOnInit: true,
-        autoplay: {
+const handleAutoplay = (size) => {
+    if (size > 4) {
+        return {
             delay: 4000,
             disableOnInteraction: false
-        },
-        breakpoints: {
-            [breakPoints.sm]: {
-                slidesPerView: 2,
-                spaceBetween: 20,
-            },
-            [breakPoints.lg]: {
-                slidesPerView: 4,
-                spaceBetween: 40,
-            }
-        },
-        breakpoints: function (sw) {
-            console.log('test self invoking')
-        }(),
-        onInit: function (swiper) {
-            console.log('yolo2', swiper)
-        }(),
-        pagination: {
+        }
+    } else {
+        return false
+    }
+}
+
+const handlePagination = (size) => {
+    if (size > 4) {
+        return {
             el: '.swiper-pagination',
-        },
-        navigation: {
+        }
+    } else {
+        return false
+    }
+}
+
+const handleNavigation = (size) => {
+    if (size > 4) {
+        return {
             nextEl: '.slider-button--next',
             prevEl: '.slider-button--prev',
-        },
-    });
-
-    if (swiper) {
-        swiper.forEach(swiper => {
-            console.log(swiper)
-            const swiperSize = parseInt(swiper.el.attributes['data-swiper-size'].value)
-            console.log(swiperSize)
-
-            if (swiperSize <= 4) {
-                swiper.enabled = false
-            }
-        });
+        }
+    } else {
+        return false
     }
+}
+
+const onInit = () => {
+    const breakPoints = { sm: 640, md: 750, lg: 990 }
+    console.log('refreshing 6')
+    const swipers = Array.from(document.querySelectorAll('.swiper'));
+
+    if (swipers.length > 0) {
+        swipers.forEach((swiperEl, i) => {
+
+            const swiperSize = parseInt(swiperEl.attributes['data-swiper-size'].value)
+
+            const swiper = new Swiper(swiperEl, {
+                loop: true,
+                slidesPerView: 1.3,
+                spaceBetween: 10,
+                runCallbacksOnInit: true,
+                autoplay: {
+                    delay: 4000,
+                    disableOnInteraction: false
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+                navigation: {
+                    nextEl: '.slider-button--next',
+                    prevEl: '.slider-button--prev',
+                },
+                breakpoints: {
+                    [breakPoints.sm]: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    [breakPoints.lg]: {
+                        pagination: handlePagination(swiperSize),
+                        autoplay: handleAutoplay(swiperSize),
+                        slidesPerView: handeSlidePerView(swiperSize),
+                        spaceBetween: 40,
+                    }
+                }
+            });
+            console.log(`swiper ${i}`, swiper)
+        })
+    }
+
 }
 
 document.addEventListener('DOMContentLoaded', onInit)

@@ -1,1 +1,1 @@
-import Swiper from"swiper";const onInit=()=>{console.log("watching works",Swiper)};document.addEventListener("DOMContentLoaded",onInit);
+"use strict";var onInit=function(){console.log("testing refresh")};document.addEventListener("DOMContentLoaded",onInit);

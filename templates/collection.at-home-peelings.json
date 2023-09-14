@@ -132,6 +132,52 @@
         "section_width": "boxed"
       }
     },
+    "a3e329ae-9429-4b7d-b6f6-faba59e79aed": {
+      "type": "highlight",
+      "blocks": {
+        "9c25c475-7986-482b-b5c0-fd402dcb07bd": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/beta-clarity-aha-clarifying-peel.webp",
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "aaf7df3e-18a0-46a4-a1a1-e7a945e98a2a": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HB-Glow-peel.webp",
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "391bee55-87da-4eb4-ba97-a804fe2e7ece": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/peels-guide1.webp",
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "9c25c475-7986-482b-b5c0-fd402dcb07bd",
+        "aaf7df3e-18a0-46a4-a1a1-e7a945e98a2a",
+        "391bee55-87da-4eb4-ba97-a804fe2e7ece"
+      ],
+      "settings": {
+        "title": "highlght 3 img",
+        "heading_size": "h1",
+        "description": "",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b": {
       "type": "custom-liquid",
       "settings": {
@@ -417,6 +463,7 @@
     "92602d36-7d25-4028-b9d9-a36860448447",
     "product-grid",
     "edec96a8-aebc-4705-830c-479b900f9a19",
+    "a3e329ae-9429-4b7d-b6f6-faba59e79aed",
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",

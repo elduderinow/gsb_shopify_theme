@@ -99,33 +99,31 @@
         {% endfor %}
       </div>
       <!-- If we need pagination -->
-      {% comment %}
-        <div class="swiper--controls">
-          <div class="swiper-button prev">
-            <button
-              type="button"
-              class="slider-button slider-button--prev"
-              name="previous"
-              aria-label="{{ 'sections.slideshow.previous_slideshow' | t }}"
-              aria-controls="Slider-{{ section.id }}"
-            >
-              {% render 'icon-caret' %}
-            </button>
-          </div>
-          <div class="swiper-pagination"></div>
-          <div class="swiper-button next">
-            <button
-              type="button"
-              class="slider-button slider-button--next"
-              name="next"
-              aria-label="{{ 'sections.slideshow.next_slideshow' | t }}"
-              aria-controls="Slider-{{ section.id }}"
-            >
-              {% render 'icon-caret' %}
-            </button>
-          </div>
+      <div class="swiper--controls">
+        <div class="swiper-button prev">
+          <button
+            type="button"
+            class="slider-button slider-button--prev"
+            name="previous"
+            aria-label="{{ 'sections.slideshow.previous_slideshow' | t }}"
+            aria-controls="Slider-{{ section.id }}"
+          >
+            {% render 'icon-caret' %}
+          </button>
         </div>
-      {% endcomment %}
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button next">
+          <button
+            type="button"
+            class="slider-button slider-button--next"
+            name="next"
+            aria-label="{{ 'sections.slideshow.next_slideshow' | t }}"
+            aria-controls="Slider-{{ section.id }}"
+          >
+            {% comment %} {% render 'icon-caret' %} {% endcomment %}
+          </button>
+        </div>
+      </div>
     </div>
   </div>
 </div>

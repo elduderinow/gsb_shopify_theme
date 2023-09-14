@@ -76,6 +76,62 @@
         "padding_bottom": 40
       }
     },
+    "15a533ef-19f7-42a1-8c01-90509818a1fb": {
+      "type": "highlight",
+      "blocks": {
+        "dc2ebd34-57f7-494d-9f86-77a3c5877fb7": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_vitamin-c_2.jpg",
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "fb8e6601-105d-4844-a9c3-08a9b5dd9a38": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23Aug-HP-Blog_dcb4499c-0367-488f-a51e-c52547d62cd4.jpg",
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "6850012e-9adc-48e0-962a-9058f8570c4c": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_prime.webp",
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        },
+        "d2438154-f20b-4c14-b84d-38f8fa8089d6": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_masks.jpg",
+            "image_title": "",
+            "image_subtitle": "",
+            "highlight_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "dc2ebd34-57f7-494d-9f86-77a3c5877fb7",
+        "fb8e6601-105d-4844-a9c3-08a9b5dd9a38",
+        "6850012e-9adc-48e0-962a-9058f8570c4c",
+        "d2438154-f20b-4c14-b84d-38f8fa8089d6"
+      ],
+      "settings": {
+        "title": "test highlight for two swipers",
+        "heading_size": "h1",
+        "description": "",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "edec96a8-aebc-4705-830c-479b900f9a19": {
       "type": "highlight",
       "blocks": {
@@ -416,6 +472,7 @@
     "banner",
     "92602d36-7d25-4028-b9d9-a36860448447",
     "product-grid",
+    "15a533ef-19f7-42a1-8c01-90509818a1fb",
     "edec96a8-aebc-4705-830c-479b900f9a19",
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b",
     "276980df-6134-4fa4-8d48-9d8a646adda5",

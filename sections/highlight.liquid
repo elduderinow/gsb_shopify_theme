@@ -60,6 +60,7 @@
       <div class="swiper-wrapper">
         {%- for block in section.blocks -%}
           {%- if block.type == 'highlight' -%}
+            {{ section.blocks | size }}
             <div
               class="swiper-slide {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
               {% if settings.animations_reveal_on_scroll %}

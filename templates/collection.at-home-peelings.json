@@ -76,128 +76,6 @@
         "padding_bottom": 40
       }
     },
-    "15a533ef-19f7-42a1-8c01-90509818a1fb": {
-      "type": "highlight",
-      "blocks": {
-        "dc2ebd34-57f7-494d-9f86-77a3c5877fb7": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_vitamin-c_2.jpg",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
-          }
-        },
-        "fb8e6601-105d-4844-a9c3-08a9b5dd9a38": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/23Aug-HP-Blog_dcb4499c-0367-488f-a51e-c52547d62cd4.jpg",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
-          }
-        },
-        "6850012e-9adc-48e0-962a-9058f8570c4c": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_prime.webp",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
-          }
-        },
-        "d2438154-f20b-4c14-b84d-38f8fa8089d6": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_masks.jpg",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
-          }
-        },
-        "c025b917-2ab7-4d78-9898-caa711b46872": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/peel-finder-1.jpg",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
-          }
-        },
-        "c2306765-5a0e-4088-a8aa-5b568145fdfe": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DrySkin_Desktop-_1_989d42aa-4496-4403-9332-d3e6ceca022e.jpg",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "dc2ebd34-57f7-494d-9f86-77a3c5877fb7",
-        "fb8e6601-105d-4844-a9c3-08a9b5dd9a38",
-        "6850012e-9adc-48e0-962a-9058f8570c4c",
-        "d2438154-f20b-4c14-b84d-38f8fa8089d6",
-        "c025b917-2ab7-4d78-9898-caa711b46872",
-        "c2306765-5a0e-4088-a8aa-5b568145fdfe"
-      ],
-      "settings": {
-        "title": "swiper w +5 img",
-        "heading_size": "h1",
-        "description": "",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section_width": "boxed"
-      }
-    },
-    "541fe3d4-2acc-4e4d-9252-4925b3b04fb1": {
-      "type": "highlight",
-      "blocks": {
-        "7d3dcd43-7364-4a39-841e-fa1232a47f87": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HB-Glow-peel.webp",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
-          }
-        },
-        "1bc439f6-5d2f-4784-bfe0-fb5a6c30f7cb": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/beta-clarity-aha-clarifying-peel.webp",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
-          }
-        },
-        "a7e7e0a1-5281-4b50-ad17-03f317a223c6": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/23Aug-HP-Blog.jpg",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "7d3dcd43-7364-4a39-841e-fa1232a47f87",
-        "1bc439f6-5d2f-4784-bfe0-fb5a6c30f7cb",
-        "a7e7e0a1-5281-4b50-ad17-03f317a223c6"
-      ],
-      "settings": {
-        "title": "highlight w 3imgs",
-        "heading_size": "h1",
-        "description": "",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section_width": "boxed"
-      }
-    },
     "edec96a8-aebc-4705-830c-479b900f9a19": {
       "type": "highlight",
       "blocks": {
@@ -538,8 +416,6 @@
     "banner",
     "92602d36-7d25-4028-b9d9-a36860448447",
     "product-grid",
-    "15a533ef-19f7-42a1-8c01-90509818a1fb",
-    "541fe3d4-2acc-4e4d-9252-4925b3b04fb1",
     "edec96a8-aebc-4705-830c-479b900f9a19",
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b",
     "276980df-6134-4fa4-8d48-9d8a646adda5",

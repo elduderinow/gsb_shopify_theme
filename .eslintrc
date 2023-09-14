@@ -7,7 +7,8 @@
     },
     "parserOptions": {
         "ecmaVersion": 6,
-        "sourceType": "module"
+        "sourceType": "module",
+      "allowImportExportEverywhere": true
     },
     "rules": {
 
@@ -20,7 +21,7 @@
         "no-var": 2,
 
         // Variables
-        //        "no-shadow": 2,
+//        "no-shadow": 2,
         "no-shadow-restricted-names": 2,
         "no-unused-vars": [1, {
             "vars": "local",
@@ -76,7 +77,7 @@
         "no-floating-decimal": 2,
         "no-implied-eval": 2,
         "no-lone-blocks": 2,
-        //        "no-loop-func": 2,
+//        "no-loop-func": 2,
         "no-multi-str": 2,
         "no-native-reassign": 2,
         "no-new": 2,
@@ -97,6 +98,7 @@
         "vars-on-top": 2,
         "wrap-iife": [2, "any"],
         "yoda": 2,
+
 
         // Style
 
@@ -144,16 +146,18 @@
         }],
         "keyword-spacing": 2,
         "space-before-blocks": 2,
-        "space-before-function-paren": [2, {
+        "space-before-function-paren": [2,
+          {
             "anonymous": "always",
-            "named": "never",
+            "named": "always",
             "asyncArrow": "always"
-        }],
+          }],
         "space-infix-ops": 2,
         "switch-colon-spacing": [2, {
             "after": true,
             "before": false
         }],
+
         "compat/compat": 1
     }
 }

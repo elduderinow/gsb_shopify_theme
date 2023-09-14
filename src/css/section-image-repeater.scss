@@ -66,6 +66,10 @@ $gap: 3rem;
                 }
             }
 
+            &.disabled {
+                pointer-events: none;
+            }
+
             &:hover {
                 .image-repeater--image-wrapper img {
                     transform: scale(1.06);

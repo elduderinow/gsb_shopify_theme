@@ -18,6 +18,10 @@
                     .image-wrapper {
                         aspect-ratio: 5/4;
                     }
+
+                    &.disabled {
+                        pointer-events: none;
+                    }
                 }
             }
         }

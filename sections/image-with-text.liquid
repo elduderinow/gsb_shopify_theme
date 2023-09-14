@@ -101,7 +101,7 @@
               >
                 {{ block.settings.highlight_url }}
                 <a
-                  class="highlight--image block link-wrapper {% if block.settings.highlight_url == false %} disable {% endif %}"
+                  class="highlight--image block link-wrapper {% if block.settings.highlight_url == '' %} disable {% endif %}"
                   href="{{ block.settings.highlight_url }}"
                 >
                   <div class="image-wrapper overflow-hidden">

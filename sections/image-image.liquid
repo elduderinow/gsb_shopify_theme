@@ -28,7 +28,7 @@
         {%- assign bgColor = block.settings.bg_color | color_modify: 'alpha', alpha -%}
         <a
           href="{{ block.settings.link }}"
-          class="image-block image--{%- if imageModulo == 0 -%}even{%- else -%}odd{%- endif -%} {% if block.settings.link == blank %}disabled{% endif %}"
+          class="image-block image--{%- if imageModulo == 0 -%}even{%- else -%}odd{%- endif -%} {% if block.settings.link == blank %} disabled{% endif %}"
         >
           {%- if block.settings.image != blank -%}
             <div class="image-repeater--image-wrapper image--{{ section.settings.image_ratio }}">

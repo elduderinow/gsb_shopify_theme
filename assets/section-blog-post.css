@@ -258,3 +258,6 @@ body {
   color: white;
   cursor: pointer;
 }
+.article-template .main-article-featured button.quick-add__submit:hover {
+  background-color: red;
+}

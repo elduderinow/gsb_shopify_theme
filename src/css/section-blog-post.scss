@@ -1,4 +1,4 @@
-@import "./shopify/section-blog-post.scss";
+@import "./shopify/section-blog-post.scss", "../config/config.scss";
 
 .article-template {
     // background-color: red;
@@ -64,6 +64,43 @@
             margin-bottom: 1.5rem;
         }
 
+        button.quick-add__submit {
+            white-space: nowrap;
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            width: auto;
+            min-width: auto;
+            min-height: auto;
+
+            &:after,
+            &:before {
+                content: none;
+            }
+
+            &:disabled {
+                background-color: $gray;
+                color: $gray800;
+                transition: background-color 0.3s ease-in-out;
+
+                &:hover {
+                    cursor: not-allowed;
+                }
+            }
+
+            &:not([disabled]) {
+                background-color: rgba(0, 0, 0, 0);
+                color: $gray800;
+                border: 1px solid black;
+                transition: background-color 0.3s ease-in-out;
+
+                &:hover {
+                    background-color: black;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+
         .slider--component {
             margin-bottom: 5rem;
             ul.product-grid {
@@ -71,6 +108,16 @@
                     width: 25%;
                     &:first-child {
                         margin-left: 0;
+                    }
+
+                    &:hover {
+                        button.quick-add__submit {
+                            &:not([disabled]) {
+                                background-color: black;
+                                color: white;
+                                cursor: pointer;
+                            }
+                        }
                     }
                 }
                 &.size-4 {

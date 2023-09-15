@@ -40,7 +40,6 @@ const handleNavigation = (size) => {
 
 const onInit = () => {
     const breakPoints = { sm: 640, md: 750, lg: 990 }
-    console.log('refreshing 6')
     const swipers = Array.from(document.querySelectorAll('.swiper'));
 
     if (swipers.length > 0) {
@@ -70,7 +69,6 @@ const onInit = () => {
                         spaceBetween: 20,
                     },
                     [breakPoints.lg]: {
-                        pagination: handlePagination(swiperSize),
                         autoplay: handleAutoplay(swiperSize),
                         slidesPerView: handeSlidePerView(swiperSize),
                         spaceBetween: 40,

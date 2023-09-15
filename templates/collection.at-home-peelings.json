@@ -132,128 +132,6 @@
         "section_width": "boxed"
       }
     },
-    "a3e329ae-9429-4b7d-b6f6-faba59e79aed": {
-      "type": "highlight",
-      "blocks": {
-        "9c25c475-7986-482b-b5c0-fd402dcb07bd": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/beta-clarity-aha-clarifying-peel.webp",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
-          }
-        },
-        "aaf7df3e-18a0-46a4-a1a1-e7a945e98a2a": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HB-Glow-peel.webp",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
-          }
-        },
-        "391bee55-87da-4eb4-ba97-a804fe2e7ece": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/peels-guide1.webp",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "9c25c475-7986-482b-b5c0-fd402dcb07bd",
-        "aaf7df3e-18a0-46a4-a1a1-e7a945e98a2a",
-        "391bee55-87da-4eb4-ba97-a804fe2e7ece"
-      ],
-      "settings": {
-        "title": "highlght 3 img",
-        "heading_size": "h1",
-        "description": "",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section_width": "boxed"
-      }
-    },
-    "17b6116e-cc29-4be5-b206-d70ee3232adb": {
-      "type": "highlight",
-      "blocks": {
-        "fb8299df-7732-4a3b-9e26-f95d4b50dfc4": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HB-Glow-peel.webp",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
-          }
-        },
-        "cb7d00a7-ef87-4a3d-8d0b-54c9139c1674": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/23Aug-HP-Blog_dcb4499c-0367-488f-a51e-c52547d62cd4.jpg",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
-          }
-        },
-        "1bd3e495-72be-4edc-988e-56bb770f1d4b": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/23Aug-HP-skin-powered-makeup-Block-2.jpg",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
-          }
-        },
-        "e73a9c1d-f7a8-433f-8e05-e436b8caed5d": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DrySkin_Desktop-_1_989d42aa-4496-4403-9332-d3e6ceca022e.jpg",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
-          }
-        },
-        "9cdf89b1-dcbf-4b76-aebe-fe8d1063c796": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/retinol-_-c-smoothing-peel-beta-clarity.jpg",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
-          }
-        },
-        "d88c579e-bb10-4ba8-ab0c-54048470a5f9": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Setting_Desktop.jpg",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "fb8299df-7732-4a3b-9e26-f95d4b50dfc4",
-        "cb7d00a7-ef87-4a3d-8d0b-54c9139c1674",
-        "1bd3e495-72be-4edc-988e-56bb770f1d4b",
-        "e73a9c1d-f7a8-433f-8e05-e436b8caed5d",
-        "9cdf89b1-dcbf-4b76-aebe-fe8d1063c796",
-        "d88c579e-bb10-4ba8-ab0c-54048470a5f9"
-      ],
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section_width": "boxed"
-      }
-    },
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b": {
       "type": "custom-liquid",
       "settings": {
@@ -539,8 +417,6 @@
     "92602d36-7d25-4028-b9d9-a36860448447",
     "product-grid",
     "edec96a8-aebc-4705-830c-479b900f9a19",
-    "a3e329ae-9429-4b7d-b6f6-faba59e79aed",
-    "17b6116e-cc29-4be5-b206-d70ee3232adb",
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b",
     "276980df-6134-4fa4-8d48-9d8a646adda5",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",

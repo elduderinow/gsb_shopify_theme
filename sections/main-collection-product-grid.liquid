@@ -218,8 +218,10 @@
                 {%- endif -%}
               {%- endfor -%}
             </ul>
-            {%- if paginate.pages > 1 -%}
-              {% render 'pagination', paginate: paginate, anchor: '' %}
+            {%- if section.settings.enable_sorting or ection.settings.enable_filtering -%}
+              {%- if paginate.pages > 1 -%}
+                {% render 'pagination', paginate: paginate, anchor: '' %}
+              {%- endif -%}
             {%- endif -%}
           </div>
         {%- endif -%}

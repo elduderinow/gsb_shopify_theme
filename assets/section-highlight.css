@@ -866,7 +866,7 @@ swiper-container .swiper-notification {
   justify-content: center;
 }
 @media (min-width: 990px) {
-  .section-highlight .swiper.web-nav-disabled .swiper-controls {
+  .section-highlight .swiper.web-nav-disabled .swiper--controls {
     display: none;
   }
 }

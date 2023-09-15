@@ -109,6 +109,7 @@
     },
     "358af34e-a004-4152-8299-a8caacd66f78": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div id=\"readmore\"\/>",
         "color_scheme": "background-1",

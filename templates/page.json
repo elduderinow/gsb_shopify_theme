@@ -222,13 +222,13 @@
         "icon__grid": false,
         "column_alignment": "left",
         "item_alignment": "center",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 80,
         "padding_bottom": 80,
         "section_width": "boxed"
       }

@@ -255,7 +255,7 @@ body {
 .article-template .main-article-featured .slider--component ul.product-grid li.grid__item:first-child {
   margin-left: 0;
 }
-.article-template .main-article-featured .slider--component ul.product-grid li.grid__item:hover {
+.article-template .main-article-featured .slider--component ul.product-grid li.grid__item:hover button.quick-add__submit {
   background-color: red;
 }
 .article-template .main-article-featured .slider--component ul.product-grid.size-4 li.grid__item {

@@ -29,7 +29,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Lees meer",
+            "button_label": "",
             "button_link": "#"
           }
         }
@@ -40,7 +40,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DrySkin_Desktop-_1.jpg",
+        "image": "shopify:\/\/shop_images\/glow_up_highlighter_stick_stylized1_9f277c1d-1e47-4d17-922e-0181619ad445.jpg",
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",

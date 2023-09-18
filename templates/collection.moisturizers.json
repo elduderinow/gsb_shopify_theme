@@ -36,7 +36,7 @@
         "c95c103a-aff3-435d-a443-0f6436af9fb3": {
           "type": "highlight",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Toner_Desktop-_1.jpg",
+            "image": "shopify:\/\/shop_images\/moisturizer-guide.png",
             "image_title": "try these moisturizers",
             "image_subtitle": "revitalise your skin",
             "highlight_url": ""
@@ -201,7 +201,7 @@
         "template--19336999829851__bb8aa146-ff8c-425c-b0f4-c2ceb789528a-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Moisturizer_Desktop_1.jpg",
+            "image": "shopify:\/\/shop_images\/moisturizer-guide.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -213,7 +213,7 @@
         "template--19336999829851__bb8aa146-ff8c-425c-b0f4-c2ceb789528a-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Moisturizer_Desktop_1.jpg",
+            "image": "shopify:\/\/shop_images\/dry-v-dehydrated-skin.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -225,7 +225,7 @@
         "fe15c7f0-4cdb-4f8b-bbbf-50c0e7476b56": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Moisturizer_Desktop_1.jpg",
+            "image": "shopify:\/\/shop_images\/3-1024x768.png",
             "title": "",
             "text": "",
             "link_label": "",

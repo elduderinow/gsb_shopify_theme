@@ -24,9 +24,9 @@
           "type": "highlight",
           "settings": {
             "image": "shopify:\/\/shop_images\/Serums_Desktop.webp",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": ""
+            "image_title": "nbkjbjkj",
+            "image_subtitle": "jnjnkj",
+            "highlight_url": "shopify:\/\/pages\/complexions"
           }
         },
         "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7": {
@@ -136,7 +136,9 @@
             "title": "heading",
             "text": "<p>Sample description text<\/p>",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/pages\/blog"
+            "link": "shopify:\/\/pages\/blog",
+            "bg_color": "#000000",
+            "bg_opacity": 30
           }
         },
         "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-1": {
@@ -146,7 +148,9 @@
             "title": "heading",
             "text": "<p>sample description text<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
           }
         },
         "2fc92817-1265-4478-8cf7-5f7170c36be2": {
@@ -156,7 +160,9 @@
             "title": "Heading",
             "text": "<p>sample description<\/p>",
             "link_label": "shop",
-            "link": "shopify:\/\/pages\/algemene-voorwaarden"
+            "link": "shopify:\/\/pages\/algemene-voorwaarden",
+            "bg_color": "#000000",
+            "bg_opacity": 30
           }
         }
       },
@@ -188,6 +194,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Best Sellers",
+        "heading_size": "h1",
         "description": "Shop Our best selling products",
         "show_description": false,
         "collection": "chemical-peeling",

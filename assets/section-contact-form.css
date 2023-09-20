@@ -40,6 +40,6 @@ body {
   font-family: "Roboto", sans-serif !important;
 }
 
-.contact {
-  background-color: red;
+.contact .contact__button .button {
+  color: black;
 }

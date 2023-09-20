@@ -44,13 +44,13 @@
         "column_alignment": "left",
         "item_alignment": "center",
         "background_style": "none",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_bottom": 60,
         "section_width": "boxed"
       }
     },
@@ -60,12 +60,13 @@
         "template--19143340360027__1ac31368-cf7f-40eb-9172-1eaa3cdb96f6-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Niet gevonden wat je zocht?",
+            "heading": "Contact",
             "heading_size": "h2"
           }
         },
         "template--19143340360027__1ac31368-cf7f-40eb-9172-1eaa3cdb96f6-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Welkom bij Glo Skin Beauty - jouw partner voor hoogwaardige make-up en professionele gelaatsverzorging, speciaal ontworpen voor schoonheidssalons en winkels. <br\/><br\/>Wij begrijpen de behoeften van jouw zaak en zijn er om jouw assortiment naar een hoger niveau te tillen met onze premium producten. <br\/><br\/>Wil je onze producten in jouw zaak aanbieden of heb je vragen over onze distributeursprogramma's? Aarzel niet om contact met ons op te nemen. Samen kunnen we jouw zaak laten bloeien met Glo Skin Beauty. Neem contact met ons op via onderstaande gegevens, en laten we samenwerken om de schoonheidservaring van jouw klanten te transformeren.<\/p>"
           }
@@ -88,14 +89,13 @@
         "template--19143340360027__1ac31368-cf7f-40eb-9172-1eaa3cdb96f6-text-1",
         "template--19143340360027__1ac31368-cf7f-40eb-9172-1eaa3cdb96f6-button-1"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 80
+        "padding_bottom": 40
       }
     },
     "form": {

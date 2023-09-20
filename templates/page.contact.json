@@ -8,6 +8,52 @@
         "padding_bottom": 0
       }
     },
+    "76e018a9-a272-4cf6-95ae-b681d737749c": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19143340360027__76e018a9-a272-4cf6-95ae-b681d737749c-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Welkom bij Glo Skin Beauty - jouw partner voor hoogwaardige make-up en professionele gelaatsverzorging, speciaal ontworpen voor schoonheidssalons en winkels. <br\/><br\/>Wij begrijpen de behoeften van jouw zaak en zijn er om jouw assortiment naar een hoger niveau te tillen met onze premium producten. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19143340360027__76e018a9-a272-4cf6-95ae-b681d737749c-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Wil je onze producten in jouw zaak aanbieden of heb je vragen over onze distributeursprogramma's? <br\/><br\/>Aarzel niet om contact met ons op te nemen. Samen kunnen we jouw zaak laten bloeien met Glo Skin Beauty. <br\/><br\/>Neem contact met ons op via onderstaande gegevens, en laten we samenwerken om de schoonheidservaring van jouw klanten te transformeren.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19143340360027__76e018a9-a272-4cf6-95ae-b681d737749c-column-1",
+        "template--19143340360027__76e018a9-a272-4cf6-95ae-b681d737749c-column-2"
+      ],
+      "settings": {
+        "title": "Word een Glo Skin Beauty Distributeur",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "icon__grid": false,
+        "column_alignment": "left",
+        "item_alignment": "center",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "1ac31368-cf7f-40eb-9172-1eaa3cdb96f6": {
       "type": "rich-text",
       "blocks": {
@@ -21,7 +67,7 @@
         "template--19143340360027__1ac31368-cf7f-40eb-9172-1eaa3cdb96f6-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Heb je vragen, opmerkingen of wil je meer weten over onze producten en diensten? <br\/><br\/>Aarzel niet om contact met ons op te nemen. We staan altijd klaar om je te helpen je beste zelf te zijn. Bereik ons via onderstaande contactgegevens, en laat ons samen werken aan jouw stralende look.<\/p>"
+            "text": "<p>Welkom bij Glo Skin Beauty - jouw partner voor hoogwaardige make-up en professionele gelaatsverzorging, speciaal ontworpen voor schoonheidssalons en winkels. <br\/><br\/>Wij begrijpen de behoeften van jouw zaak en zijn er om jouw assortiment naar een hoger niveau te tillen met onze premium producten. <br\/><br\/>Wil je onze producten in jouw zaak aanbieden of heb je vragen over onze distributeursprogramma's? Aarzel niet om contact met ons op te nemen. Samen kunnen we jouw zaak laten bloeien met Glo Skin Beauty. Neem contact met ons op via onderstaande gegevens, en laten we samenwerken om de schoonheidservaring van jouw klanten te transformeren.<\/p>"
           }
         },
         "template--19143340360027__1ac31368-cf7f-40eb-9172-1eaa3cdb96f6-button-1": {
@@ -42,6 +88,7 @@
         "template--19143340360027__1ac31368-cf7f-40eb-9172-1eaa3cdb96f6-text-1",
         "template--19143340360027__1ac31368-cf7f-40eb-9172-1eaa3cdb96f6-button-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -58,12 +105,13 @@
         "heading_size": "h1",
         "color_scheme": "background-1",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 100
       }
     }
   },
   "order": [
     "main",
+    "76e018a9-a272-4cf6-95ae-b681d737749c",
     "1ac31368-cf7f-40eb-9172-1eaa3cdb96f6",
     "form"
   ]

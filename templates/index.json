@@ -24,14 +24,14 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/fall-skincare-swaps.jpg",
-            "heading": "Herfst essentials",
-            "heading_size": "h1",
-            "color_option_id": "#ffffff",
+            "heading": "<strong>Herfst essentials<\/strong>",
+            "heading_size": "h2",
+            "color_option_id": "#e17c2a",
             "subheading": "",
             "subheading_size": "h5",
             "button_label": "SHOP ESSENTIALS",
             "link": "shopify:\/\/collections\/beauty-pro-skincare-pro-testers",
-            "box_align": "bottom-left",
+            "box_align": "top-left",
             "text_alignment": "left",
             "image_overlay_opacity": 10,
             "text_alignment_mobile": "center"

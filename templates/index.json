@@ -690,6 +690,7 @@
       "blocks": {
         "template--19180119228763__3a8bc5a3-eff6-4ced-b226-ee503a61991b-column-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/header-girls_2450x_5bcf0c0a-d5b1-4188-9d42-57f575b15fe2.webp",
             "title": "Gepersonaliseerde aanbevelingen to unlock your glow.",

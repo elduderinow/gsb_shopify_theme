@@ -96,13 +96,21 @@
             "tab_title": "In de box",
             "tab_text": "<ul><li>Hydra-Bright AHA Cleanser monsterzakje<\/li><li>Hydra-Bright Pro 5 Liquid Exfoliant 7 ml <\/li><li>Peel Prep 7 ml <\/li><li>Barrier Balm monsterzakje<\/li><li>Hydra-Bright AHA Glow Peel 7 ml <\/li><li>Peel Neutralizer 7 ml <\/li><li>Hydra-Bright Alpha Arbutin Drops 13 ml <\/li><li>Glycolic Applicator<\/li><li>2x Wattenstaafjes<\/li><li>3x 2x2 Gaasjes<\/li><li>Mengkom<\/li><li>2x Glo Reusable Cotton Rounds <\/li><li>Glo Haarband<\/li><\/ul>"
           }
+        },
+        "a523a8c7-9028-4eb4-b20f-2475f2611589": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Tips",
+            "tab_text": "<p>...<\/p>"
+          }
         }
       },
       "block_order": [
         "template--19343221850459__0865e273-dee8-439d-8c31-202fdff415ba-tab-1",
         "6352e5bc-f5b8-4cd8-98e7-9130c366f097",
         "8e04959e-817e-4c14-b244-02eee681938f",
-        "ebb003a7-0dac-4906-80c8-38b628babb7c"
+        "ebb003a7-0dac-4906-80c8-38b628babb7c",
+        "a523a8c7-9028-4eb4-b20f-2475f2611589"
       ],
       "settings": {
         "product": "759-1-hydra-bright-aha-glow-peel-in-a-box",

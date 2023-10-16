@@ -104,6 +104,13 @@
             "tab_title": "<strong>Handleiding<\/strong>",
             "tab_text": "<p>For full-strength serum benefits apply 4-6 drops to the face morning and\/or night.<\/p><p>Mix 2-3 drops to your favorite moisturizer for a hydration boost.<\/p><p>Can be used AM and\/or PM, depending on your skin’s needs. Apply after cleansing and toning. For a daily antioxidant boost, apply HA-Revive Hyaluronic Drops on top of <a href=\"https:\/\/www.gloskinbeauty.com\/c-shield-anti-pollution-drops\"><strong>C-Shield Anti-Pollution Drops<\/strong><\/a>.<\/p><p><strong>Pairs With:<\/strong><\/p><ul><li><a href=\"https:\/\/www.gloskinbeauty.com\/c-shield-anti-pollution-drops\"><strong>C-Shield Anti-Pollution Drops<\/strong><\/a> — the perfect daily serum duo to boost antioxidant benefits and moisture content in the skin. Mix 2-3 drops together or apply C-Shield Anti-Pollution Drops followed by HA-Revive Hyaluronic Drops in the morning.<\/li><li><a href=\"https:\/\/www.gloskinbeauty.com\/ha-revive-hyaluronic-mist\"><strong>HA-Revive Hyaluronic Mist<\/strong><\/a> for dual-action hyaluronic acid. Spritz skin and follow with HA-Revive Hyaluronic Drops for the ultimate hydration boost.<\/li><li>Follow HA-Revive Hyaluronic Drops with <a href=\"https:\/\/www.gloskinbeauty.com\/ha-revive-hyaluronic-hydrator\"><strong>HA-Revive Hyaluronic Hydrator<\/strong><\/a> to target dry, dehydrated, and dull skin concerned with aging.<\/li><\/ul>"
           }
+        },
+        "1d42a0f4-03d7-4976-86dd-525100f07c5c": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Tips",
+            "tab_text": "<p>...<\/p>"
+          }
         }
       },
       "block_order": [
@@ -111,7 +118,8 @@
         "ae83364b-88c0-4d59-8a36-aa4509b1f6af",
         "631692d6-24a8-4962-b5b7-dd1789c67a52",
         "d6c5e01f-2c01-410d-af15-31784f9f6f7c",
-        "a2c65f8f-de76-4334-9cfc-dcc6d12c6f9c"
+        "a2c65f8f-de76-4334-9cfc-dcc6d12c6f9c",
+        "1d42a0f4-03d7-4976-86dd-525100f07c5c"
       ],
       "settings": {
         "product": "782-1-beta-clarity-aha-clarifying-peel-kit",

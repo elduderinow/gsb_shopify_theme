@@ -91,15 +91,14 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Huidverzorging voor Droge Huid",
+            "heading": "Meer informatie",
             "heading_size": "h1"
           }
         },
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-text-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Wat voor huidprobleem je ook wilt<br\/>corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van<br\/>drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<br\/><\/p><p>Er is een reden waarom serums ons favoriete<br\/>huidverzorgingsproduct zijn! Lees in de onderstaande artikelen hoe onze drops<br\/>& serums een weldaad zijn voor jouw huid en jou die jeugdige gloed bezorgen.<\/p>"
+            "text": "<p>Nog tekst voorzien<\/p><p><\/p>"
           }
         },
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1": {
@@ -120,7 +119,6 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-text-1",
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",

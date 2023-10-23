@@ -22,7 +22,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Heb je last van droge huid, gebarsten ruwe plekken, een gespannen gevoel, roodheid of een doffe teint? Hydrateer, verzorg en versterk je huid met onze doelgerichte selectie van huidverzorgingsproducten voor droge huid.<\/p>",
+            "text": "<p>Nog tekst voorzien<\/p>",
             "text_style": "body"
           }
         },
@@ -40,7 +40,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DrySkin_Desktop-_1.jpg",
+        "image": "shopify:\/\/shop_images\/22Jul-HP-luminous-collection-opt2-Block.jpg",
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",

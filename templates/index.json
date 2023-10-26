@@ -8,14 +8,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/GloSkinBeauty-Oil-FreeTintedPrimer-Group-1_EUUK.png",
             "heading": "<strong>Nieuw <\/strong>",
-            "heading_size": "h2",
-            "color_option_id": "#b06120",
+            "heading_size": "h0",
+            "color_option_id": "#a56200",
             "subheading": "Een 4-in-1 olievrije getinte primer om de huid te corrigeren,  beschermen en te balanceren.",
             "subheading_size": "h5",
             "button_label": "Shop Now",
             "link": "shopify:\/\/collections\/oil-free-tinted-primer",
-            "box_align": "top-left",
-            "text_alignment": "left",
+            "box_align": "bottom-right",
+            "text_alignment": "right",
             "image_overlay_opacity": 0,
             "text_alignment_mobile": "center"
           }
@@ -25,14 +25,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/fall-skincare-swaps.jpg",
             "heading": "<strong>Herfst essentials<\/strong>",
-            "heading_size": "h2",
-            "color_option_id": "#b06120",
+            "heading_size": "h0",
+            "color_option_id": "#3e9f81",
             "subheading": "",
             "subheading_size": "h5",
             "button_label": "SHOP ESSENTIALS",
             "link": "shopify:\/\/collections\/beauty-pro-skincare-pro-testers",
-            "box_align": "top-left",
-            "text_alignment": "left",
+            "box_align": "bottom-right",
+            "text_alignment": "right",
             "image_overlay_opacity": 10,
             "text_alignment_mobile": "center"
           }
@@ -42,7 +42,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Copy_of_GloSkinBeauty-23Holiday-SkincareKits.png",
             "heading": "<strong>Holiday Kits 2023<\/strong>",
-            "heading_size": "h2",
+            "heading_size": "h0",
             "color_option_id": "#727272",
             "subheading": "Time To Shine",
             "subheading_size": "h6",

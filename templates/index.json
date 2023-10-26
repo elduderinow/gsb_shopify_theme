@@ -48,8 +48,8 @@
             "subheading_size": "h6",
             "button_label": "Shop Limited Edition Kits",
             "link": "shopify:\/\/collections\/holiday-23",
-            "box_align": "top-left",
-            "text_alignment": "left",
+            "box_align": "top-right",
+            "text_alignment": "right",
             "image_overlay_opacity": 0,
             "text_alignment_mobile": "center"
           }

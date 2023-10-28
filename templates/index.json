@@ -14,8 +14,8 @@
             "subheading_size": "h5",
             "button_label": "Shop Now",
             "link": "shopify:\/\/collections\/oil-free-tinted-primer",
-            "box_align": "bottom-right",
-            "text_alignment": "right",
+            "box_align": "top-left",
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "text_alignment_mobile": "center"
           }

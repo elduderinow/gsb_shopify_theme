@@ -732,7 +732,7 @@
         "0b089f9b-894b-4769-a41f-8f98e485faa8"
       ],
       "settings": {
-        "image_grid": "dynamic",
+        "image_grid": "grid",
         "image_ratio": "landscape",
         "background_style": "primary",
         "color_scheme": "background-1",

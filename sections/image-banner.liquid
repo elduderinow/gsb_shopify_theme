@@ -52,7 +52,7 @@
       {%- liquid
         assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
         if section.settings.image_2 != blank
-          assign image_class = 'banner__media-image-half'
+          assign image_class = 'banner__media-image-half classesyes'
         endif
         if section.settings.image_2 != blank and section.settings.stack_images_on_mobile
           assign sizes = stacked_sizes
@@ -69,7 +69,7 @@
           loading: 'lazy',
           width: section.settings.image.width,
           height: image_height,
-          class: 'image_class additional-class-1 additional-class-2',
+          class: image_class,
           sizes: sizes,
           widths: widths
       }}

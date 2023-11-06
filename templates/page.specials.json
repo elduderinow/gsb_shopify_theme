@@ -216,6 +216,54 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "72f20bbf-901d-4648-9607-cbe0b699a20f": {
+      "type": "image-banner",
+      "blocks": {
+        "template--19294323310939__72f20bbf-901d-4648-9607-cbe0b699a20f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--19294323310939__72f20bbf-901d-4648-9607-cbe0b699a20f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--19294323310939__72f20bbf-901d-4648-9607-cbe0b699a20f-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--19294323310939__72f20bbf-901d-4648-9607-cbe0b699a20f-heading-1",
+        "template--19294323310939__72f20bbf-901d-4648-9607-cbe0b699a20f-text-1",
+        "template--19294323310939__72f20bbf-901d-4648-9607-cbe0b699a20f-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/22Jul-HP-luminous-collection-opt2-Block.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -226,6 +274,7 @@
     "fc6a038b-7432-4952-80f1-067d9e34c140",
     "876ee66f-439e-4c6b-8c88-9f3c2de14e44",
     "fe0ab6ac-31d7-4360-813c-b9e11d1aa500",
-    "149559a5-2285-4000-883b-657a48e24031"
+    "149559a5-2285-4000-883b-657a48e24031",
+    "72f20bbf-901d-4648-9607-cbe0b699a20f"
   ]
 }

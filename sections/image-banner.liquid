@@ -62,17 +62,16 @@
           assign sizes = full_width
         endif
       -%}
-      {{ section.settings.image | json }}
       {{
         section.settings.image
         | image_url: width: 3840
         | image_tag:
-          loading: 'lazy',
-          width: section.settings.image.width,
-          height: image_height,
-          class: image_class,
-          sizes: sizes,
-          widths: widths
+        loading: 'lazy',
+        width: section.settings.image.width,
+        height: image_height,
+        class: image_class, feefefef,
+        sizes: sizes,
+        widths: widths
       }}
     </div>
   {%- elsif section.settings.image_2 == blank -%}

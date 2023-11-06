@@ -62,6 +62,7 @@
           assign sizes = full_width
         endif
       -%}
+      {{ section.settings.image | json }}
       {{
         section.settings.image
         | image_url: width: 3840

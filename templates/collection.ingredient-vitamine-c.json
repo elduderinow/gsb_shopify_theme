@@ -22,7 +22,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Geef je gelaat dagelijks een oppepper met vitamine C, een antioxidant die beschermt tegen schadelijke, verouderende milieu-stressoren en zorgt voor een stralende huid.<\/p>",
+            "text": "<p>Geef je gelaat dagelijks een oppepper met vitamine C, een antioxidant die beschermt tegen schadelijke, verouderende omgevingsstressoren en zorgt voor een stralende huid.<\/p>",
             "text_style": "body"
           }
         },
@@ -91,7 +91,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Ons aanbod van huidverzorging op basis van vitamine C.",
+            "heading": "Ons aanbod van huidverzorging op basis van vitamine C",
             "heading_size": "h1"
           }
         },
@@ -256,7 +256,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Vitamine C is een krachtige antioxidant die essentieel is voor niet alleen onze interne gezondheid, maar ook voor onze huid. <br\/><br\/>Aangezien we het niet van nature in ons lichaam produceren, moeten we vitamine C oraal of topisch toevoegen - beide hebben tal van voordelen. Vitamine C voor het gezicht biedt dagelijkse bescherming tegen veroudering, vervuiling, blauw licht, zware metalen en andere vrije radicalen die een doffe huid, vroegtijdige lijntjes, donkere vlekken, droogheid en ruwe plekken kunnen veroorzaken.<\/p>",
+            "text": "<p>Vitamine C is een krachtige antioxidant die essentieel is voor niet alleen onze interne gezondheid, maar ook voor onze huid. <br\/><br\/>Aangezien we het niet van nature in ons lichaam produceren, moeten we vitamine C oraal of topisch toevoegen - beide hebben tal van voordelen. Vitamine C voor het gezicht biedt dagelijkse bescherming tegen veroudering, vervuiling, blauw licht, zware metalen en andere vrije radicalen die een doffe huid, vroegtijdige lijntjes, donkere vlekken, droogheid en ruwe plekken kunnen veroorzaken.<\/p><p>Met klinisch bewezen voordelen van dagelijkse vitamine C-serums voor je huid, beschermt het je huid tegen schadelijke vrije radicalen, versterkt het de afweer van je huid, terwijl het ook zorgt voor een aanzienlijke verheldering en helderheid van de teint. <\/p>",
             "link_label": "",
             "link": ""
           }
@@ -265,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Met klinisch bewezen voordelen van dagelijkse vitamine C-serums voor je huid, beschermt het je huid tegen schadelijke vrije radicalen, versterkt het de afweer van je huid, terwijl het ook zorgt voor een aanzienlijke verheldering en helderheid van de teint. <br\/><br\/>En als je je zorgen maakt dat vitamine C de huid lichter maakt, is dat een mythe. Vitamine C is perfect veilig voor alle huidtinten, het beschermt en bevordert je natuurlijke gloed. <br\/><br\/>Perfect voor alle huidtypes, zelfs de gevoelige huid, is vitamine C een universele behandeling die je kunt toevoegen aan elke huidverzorgingsroutine die specifiek gericht is op bepaalde huidproblemen. Vitamine C helpt bij acne door ontstekingen veroorzaakt door acne te verminderen en de verschijning van hyperpigmentatie te verbeteren.<\/p>",
+            "text": "<p>En als je je zorgen maakt dat vitamine C de huid lichter maakt, is dat een mythe. Vitamine C is perfect veilig voor alle huidtinten, het beschermt en bevordert je natuurlijke gloed. <br\/><br\/>Perfect voor alle huidtypes, ook voor de gevoelige, is vitamine C een  ingrediënt dat je kunt toevoegen aan elke huidverzorgingsroutine die specifiek gericht is op bepaalde huidproblemen. Vitamine C helpt ook bij acne door ontstekingen veroorzaakt door acne te verminderen en de verschijning van hyperpigmentatie te verbeteren.<\/p>",
             "link_label": "",
             "link": ""
           }

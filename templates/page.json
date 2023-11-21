@@ -14,7 +14,7 @@
         "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "What Clean BeautyMeans To Glo Skin Beauty",
+            "heading": "Wat betekent Clean Beauty voor glo Skin Beauty?",
             "heading_size": "h1"
           }
         },
@@ -171,8 +171,8 @@
         "template--19180119458139__728e1b56-042e-44e6-8781-e443dd32cc59-column-1": {
           "type": "column",
           "settings": {
-            "title": "<strong>What’s In<\/strong>",
-            "text": "<ul><li>NEXT-GENERATION ACTIVES<\/li><li>NATURAL NOURISHERS<\/li><li>LUXURIOUS HYDRATORS<\/li><li>ETHICALLY-SOURCED MINERALS<\/li><li>SOOTHING BOTANICALS<\/li><li>ANTIOXIDANTS<\/li><li>INNOVATIVE TECHNOLOGY<\/li><\/ul>",
+            "title": "<strong>Wat zit er wel in ?<\/strong>",
+            "text": "<ul><li>NIEUWSTE GENERATIE ACTIEVE WERKSTOFFEN<\/li><li>NATUURLIJKE VOEDINGSSTOFFEN<\/li><li>LUXUEUZE HYDRATATORS<\/li><li>ETISCH GEWONNEN MINERALEN<\/li><li>KALMERENDE BOTANISCHE EXTRACTEN<\/li><li>ANTIOXIDANTEN<\/li><li>INNOVATIEVE TECHNOLOGIÊN<\/li><\/ul>",
             "link_label": "",
             "link": ""
           }
@@ -180,8 +180,8 @@
         "template--19180119458139__728e1b56-042e-44e6-8781-e443dd32cc59-column-2": {
           "type": "column",
           "settings": {
-            "title": "<strong>What’s Out<\/strong>",
-            "text": "<ul><li>PARABENS<\/li><li>TALC<\/li><li>ARTIFICIAL FRAGRANCE<\/li><li>IRRITATING SULFATES<\/li><li>PHTHALATES<\/li><li>HARSH COLORANTS<\/li><li>POLYETHYLENE BEADS<\/li><li>MINERAL OIL<\/li><\/ul>",
+            "title": "<strong>Wat zit er niet in?<\/strong>",
+            "text": "<ul><li>PARABENEN<\/li><li>TALK<\/li><li>ARTIFICIÊLE PARFUMS<\/li><li>IRRITERENDE SULFATEN<\/li><li>PHTHALATEN<\/li><li>AGRESSIEVE KLEURSTOFFEN<\/li><li>POLYETHYLEEN PARELS<\/li><li>MINERALE OLIE<\/li><\/ul>",
             "link_label": "",
             "link": ""
           }

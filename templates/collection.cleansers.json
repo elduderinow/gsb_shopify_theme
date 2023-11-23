@@ -33,15 +33,6 @@
             "button_link": "#readmore"
           }
         },
-        "26068815-0013-4d5e-bcee-092ea8c2f5f4": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
-            "image_title": "",
-            "image_subtitle": "",
-            "highlight_url": "shopify:\/\/pages\/complexions"
-          }
-        },
         "5874c7ee-9e1a-4cf8-bd89-5c11cb376c55": {
           "type": "highlight",
           "disabled": true,
@@ -56,11 +47,10 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1",
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1",
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1",
-        "26068815-0013-4d5e-bcee-092ea8c2f5f4",
         "5874c7ee-9e1a-4cf8-bd89-5c11cb376c55"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/featured_header_Desktop-_eye-care.jpg",
+        "image": "shopify:\/\/shop_images\/cleanser-guide-1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

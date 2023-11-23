@@ -131,6 +131,7 @@
       "blocks": {
         "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-0": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/23Jul-HP-Meltproof-Block.jpg",
             "title": "heading",
@@ -147,8 +148,8 @@
             "image": "shopify:\/\/shop_images\/Bio_Renew-EGF-Cell-Repairing-Facial5.png",
             "title": "heading",
             "text": "<p>sample description text<\/p>",
-            "link_label": "",
-            "link": "",
+            "link_label": "shopdzfee",
+            "link": "shopify:\/\/pages\/customer-service",
             "bg_color": "#000000",
             "bg_opacity": 30
           }
@@ -172,7 +173,7 @@
         "2fc92817-1265-4478-8cf7-5f7170c36be2"
       ],
       "settings": {
-        "image_grid": "dynamic",
+        "image_grid": "grid",
         "image_ratio": "landscape",
         "background_style": "primary",
         "color_scheme": "background-1",

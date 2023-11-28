@@ -23,16 +23,16 @@
         "19d36a42-b3ad-400c-a700-19a089c1648f": {
           "type": "highlight",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Serums_Desktop.webp",
-            "image_title": "nbkjbjkj",
-            "image_subtitle": "jnjnkj",
+            "image": "shopify:\/\/shop_images\/20.png",
+            "image_title": "ddd",
+            "image_subtitle": "ddd",
             "highlight_url": "shopify:\/\/pages\/complexions"
           }
         },
         "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7": {
           "type": "highlight",
           "settings": {
-            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_peels.jpg",
+            "image": "shopify:\/\/shop_images\/GloSkinBeauty-Oil-FreeTintedPrimer-Group-1_EUUK.png",
             "image_title": "",
             "image_subtitle": "",
             "highlight_url": ""
@@ -41,7 +41,7 @@
         "caafd9d2-7a97-44ba-bff8-b9e226b70128": {
           "type": "highlight",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Foundation_Desktop_1.jpg",
+            "image": "shopify:\/\/shop_images\/2_1.png",
             "image_title": "",
             "image_subtitle": "",
             "highlight_url": ""
@@ -50,7 +50,7 @@
         "0bf05740-800b-4b9b-894b-61d5ce06cc68": {
           "type": "highlight",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Moisturizer_Desktop_1.jpg",
+            "image": "shopify:\/\/shop_images\/unknown_344552512_1228537714456578_5851149202924115872_n_1.jpg",
             "image_title": "",
             "image_subtitle": "",
             "highlight_url": ""
@@ -131,6 +131,7 @@
       "blocks": {
         "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-0": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/23Jul-HP-Meltproof-Block.jpg",
             "title": "heading",
@@ -144,11 +145,11 @@
         "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/womens-fall-fashion-in-autumn-landscape.jpg",
+            "image": "shopify:\/\/shop_images\/Bio_Renew-EGF-Cell-Repairing-Facial5.png",
             "title": "heading",
             "text": "<p>sample description text<\/p>",
-            "link_label": "",
-            "link": "",
+            "link_label": "shopdzfee",
+            "link": "shopify:\/\/pages\/customer-service",
             "bg_color": "#000000",
             "bg_opacity": 30
           }
@@ -156,7 +157,7 @@
         "2fc92817-1265-4478-8cf7-5f7170c36be2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bestsellers_Desktop_5.jpg",
+            "image": "shopify:\/\/shop_images\/20.png",
             "title": "Heading",
             "text": "<p>sample description<\/p>",
             "link_label": "shop",
@@ -172,7 +173,7 @@
         "2fc92817-1265-4478-8cf7-5f7170c36be2"
       ],
       "settings": {
-        "image_grid": "dynamic",
+        "image_grid": "grid",
         "image_ratio": "landscape",
         "background_style": "primary",
         "color_scheme": "background-1",

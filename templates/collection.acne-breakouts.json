@@ -15,7 +15,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Acne behandelingen",
+            "heading": "Pak ontstekingen en onzuiverheden aan",
             "heading_size": "h1"
           }
         },
@@ -193,7 +193,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "image": "shopify:\/\/shop_images\/61opFxaDZOL._SL1000_622be917-ae26-4484-a6fa-64589ebc75a7.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -205,7 +205,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Cleanser.JPG",
+            "image": "shopify:\/\/shop_images\/skin-detox.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -361,6 +361,7 @@
         "2f5db8e0-cf13-414d-a065-c834735e618e",
         "47bc5dec-6dc0-4a94-9f0e-b551c474d87c"
       ],
+      "disabled": true,
       "settings": {
         "caption": "FAQ",
         "heading": "Veelgestelde vragen over reinigers",

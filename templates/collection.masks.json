@@ -193,7 +193,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/beta-clarity-aha-clarifying-peel_1.png",
+            "image": "shopify:\/\/shop_images\/14227001-1305018987751711.webp",
             "title": "",
             "text": "",
             "link_label": "",
@@ -265,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Weet u niet zeker welk gezichtsmasker u moet proberen? Als u op zoek bent naar een gezichtsmasker voor acne, probeer dan een balancerend en ontgiftend masker op basis van houtskool en kaolienklei. <br\/><br\/>Voor anti-aging gezichtsmaskers kunt u kijken naar verstevigende en verfijnende maskers met plantenstamcellen, antioxidanten en meerdere peptiden om de natuurlijke vernieuwingsprocessen van de huid te ondersteunen, voor gladmakende, herstellende en verfijnende resultaten. <br\/><br\/>En als u een gevoelige huid heeft, voeg dan eens per week of vaker een kalmerend en hydraterend gezichtsmasker toe aan uw ritueel. Een hydraterend gezichtsmasker met komkommerextract en verzachtende plantenextracten kan precies zijn wat uw huid nodig heeft om tot rust te komen.<\/p>",
+            "text": "<p>Weet je niet zeker welk gezichtsmasker je moet proberen? Als je op zoek bent naar een gezichtsmasker voor acne, probeer dan een balancerend en ontgiftend masker op basis van houtskool en kaolienklei. <br\/><br\/>Voor anti-aging gezichtsmaskers kan je  kijken naar verstevigende en verfijnende maskers met plantenstamcellen, antioxidanten en meerdere peptiden om de natuurlijke vernieuwingsprocessen van de huid te ondersteunen, voor gladmakende, herstellende en verfijnende resultaten. <br\/><br\/>En als je een gevoelige huid hebt, voeg dan eens per week of vaker een kalmerend en hydraterend gezichtsmasker toe aan jouw ritueel. Een hydraterend gezichtsmasker met komkommerextract en verzachtende plantenextracten kan precies zijn wat jouw huid nodig heeft om tot rust te komen.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -314,16 +314,7 @@
           "settings": {
             "heading": "WAT MOET IK DOEN VOORDAT IK EEN GEZICHTSMASKER AANBRENG?",
             "icon": "check_mark",
-            "row_content": "<p>Breng altijd een gezichtsmasker aan op een schone huid, dus zorg ervoor dat je make-up verwijdert, de huid reinigt en tonifieert. Je kan ook een serum aanbrengen voor je gezichtsmasker voor een nog voedzamere, spa-ervaring. <\/p>",
-            "page": ""
-          }
-        },
-        "template--19336331067739__5493b0d5-4126-4f95-b8e1-3e315f7768b7-collapsible_row-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "WAT BETEKENT 'VERFIJNING' IN EEN GEZICHTSMASKER?",
-            "icon": "check_mark",
-            "row_content": "<p>Verfijnende maskers helpen onzuiverheden te verwijderen en het uiterlijk van de huidoppervlakte, inclusief textuur en poriën, te verfijnen. Ze behandelen verstoppingen en puistjes door exfoliëring en detoxificatie, en de meeste verfijnende maskers bevatten detoxificerende ingrediënten zoals houtskool, klei en hydroxyzuren. <\/p>",
+            "row_content": "<p>Breng altijd een gezichtsmasker aan op een schone huid, dus zorg ervoor dat je make-up verwijdert, de huid reinigt en toniseert. Je kan ook een serum aanbrengen voor jouw gezichtsmasker voor een nog voedzamere, spa-ervaring. <\/p>",
             "page": ""
           }
         },
@@ -341,7 +332,7 @@
           "settings": {
             "heading": "WAT DOEN HYDRATERENDE GEZICHTSMASKERS?",
             "icon": "check_mark",
-            "row_content": "<p>Hydraterende gezichtsmaskers bevatten vaak vochtinbrengende ingrediënten zoals hyaluronzuur, komkommer, natriumpca of glycerine. Ze helpen vocht aan te vullen in de huid om droge en gedehydrateerde teint direct te kalmeren en te hydrateren. <\/p>",
+            "row_content": "<p>Hydraterende gezichtsmaskers bevatten vaak vochtinbrengende ingrediënten zoals hyaluronzuur, komkommer, natriumpca of glycerine. Ze helpen vocht aan te vullen in de huid om droge en gedehydrateerde teint direct te kalmeren en te hydrateren.<\/p>",
             "page": ""
           }
         },
@@ -350,7 +341,7 @@
           "settings": {
             "heading": "WAT KOMT EERST, GEZICHTSMASKER OF SERUM?",
             "icon": "check_mark",
-            "row_content": "<p>Je kunt eigenlijk serums zowel voor ALS na maskers aanbrengen. Als je een specifiek probleem wilt aanpakken, breng dan behandelingsserums aan vóór je gezichtsmasker. Zodra het masker is verwijderd, kun je nog een serum aanbrengen, zoals hyaluronzuur, vóór je moisturizer. <\/p>",
+            "row_content": "<p>Je kan eigenlijk serums zowel voor ALS na maskers aanbrengen. Als je een specifiek probleem wilt aanpakken, breng dan behandelingsserums aan vóór je gezichtsmasker. Zodra het masker is verwijderd, kun je nog een serum aanbrengen, zoals hyaluronzuur, vóór je moisturizer. <\/p>",
             "page": ""
           }
         },
@@ -368,7 +359,7 @@
           "settings": {
             "heading": "WELK GEZICHTSMASKER IS HET BESTE VOOR EEN STRALENDE HUID?",
             "icon": "check_mark",
-            "row_content": "<p>We hebben een geweldige selectie van gezichtsmaskers die zorgen voor een stralende huid, maar een van onze favorieten is het Phyto-Active Firming Mask. Het is het perfecte masker voor speciale gelegenheden dat direct zichtbaar lift en stralendheid geeft voor een huid die straalt. <\/p>",
+            "row_content": "<p>We hebben een geweldige selectie van gezichtsmaskers die zorgen voor een stralende huid, maar een van onze favorieten is het Phyto-Active Firming Mask. Het is het perfecte masker voor speciale gelegenheden dat direct zichtbaar lift en stralendheid geeft voor een huid die straalt.<\/p>",
             "page": ""
           }
         },
@@ -377,7 +368,7 @@
           "settings": {
             "heading": "WAT DOET EEN KALMEREND GEZICHTSMASKER?",
             "icon": "check_mark",
-            "row_content": "<p>Kalmerende gezichtsmaskers bieden direct een verzachtend en verkoelend effect op de huid. Deze zijn geweldig voor de gevoelige of gevoelig gemaakte huid en kunnen roodheid direct verminderen. <\/p>",
+            "row_content": "<p>Kalmerende gezichtsmaskers bieden direct een verzachtend en verkoelend effect op de huid. Deze zijn geweldig voor de gevoelige of gevoelig gemaakte huid en kunnen roodheid direct verminderen.<\/p>",
             "page": ""
           }
         },
@@ -386,14 +377,13 @@
           "settings": {
             "heading": "ZIJN GEZICHTSMASKERS MET HOUTSKOOL GOED VOOR UW HUID?",
             "icon": "check_mark",
-            "row_content": "<p>Ja, gezichtsmaskers met houtskool zijn een uitstekende keuze voor een vette, gecombineerde en gevoelige huid omdat ze de huid helpen te ontgiften door onzuiverheden en overtollige olie uit de poriën te verwijderen, voor een schonere, verfijnde teint. <\/p>",
+            "row_content": "<p>Ja, gezichtsmaskers met houtskool zijn een uitstekende keuze voor een vette, gecombineerde en gevoelige huid omdat ze de huid helpen te ontgiften door onzuiverheden en overtollige olie uit de poriën te verwijderen, voor een schonere, verfijnde teint.<\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "template--19336331067739__5493b0d5-4126-4f95-b8e1-3e315f7768b7-collapsible_row-1",
-        "template--19336331067739__5493b0d5-4126-4f95-b8e1-3e315f7768b7-collapsible_row-2",
         "template--19336331067739__5493b0d5-4126-4f95-b8e1-3e315f7768b7-collapsible_row-3",
         "template--19336331067739__5493b0d5-4126-4f95-b8e1-3e315f7768b7-collapsible_row-4",
         "a71e70fc-54e1-4b60-9803-ea69e9ce3826",

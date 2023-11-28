@@ -22,7 +22,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Verban puistjes en breng de talgproductie in balans met effectieve huidverzorging voor onzuiverheden en ontstekingen. Zuiver, verhelder en ontgift met ons aanbod van de beste behandelingen voor een heldere huid.<\/p>",
+            "text": "<p>Verban puistjes en breng de talgproductie in balans met effectieve huidverzorging voor acne. Zuiver, verhelder en ontgift met ons aanbod van de beste acnebehandelingen voor een heldere huid.<\/p>",
             "text_style": "body"
           }
         },
@@ -40,7 +40,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Cleanser_Desktop.jpg",
+        "image": "shopify:\/\/shop_images\/featured_header_Desktop-_acne_2.jpg",
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",

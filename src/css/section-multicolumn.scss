@@ -3,9 +3,14 @@
 $cols: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
 
 .multicolumn {
+
+    .button {
+        margin-top: 2rem;
+    }
+
     .global-section-x-padding {
-        padding-left: 3rem;
-        padding-right: 3rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
     
         @media (min-width: $breakpoint-md) {
             padding-left: 6rem;
@@ -17,15 +22,27 @@ $cols: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
             padding-right: 10rem;
         }
     }
+
+    .title-wrapper--self-padded-mobile {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .multicolumn-list {
         column-gap: 0;
         justify-content: space-between;
-        gap: 5px;
+        gap: 2rem;
 
         &.padding--none {
             padding-left: 0;
             padding-right: 0;
             .multicolumn-list__item {
+
+                .multicolumn-card__image-wrapper {
+                    margin-left: 0;
+                    margin-right: 0;
+                }
+
                 .multicolumn-card__info {
                     padding-left: 0;
                     padding-right: 0;

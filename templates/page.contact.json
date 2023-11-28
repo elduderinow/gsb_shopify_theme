@@ -86,10 +86,10 @@
         "title": "Ons team",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "columns_desktop": 3,
         "icon__grid": false,
-        "column_alignment": "center",
+        "column_alignment": "left",
         "item_alignment": "left",
         "background_style": "none",
         "button_label": "",
@@ -99,7 +99,7 @@
         "swipe_on_mobile": false,
         "padding_top": 84,
         "padding_bottom": 80,
-        "section_width": "full_width"
+        "section_width": "boxed"
       }
     },
     "76e018a9-a272-4cf6-95ae-b681d737749c": {

@@ -208,6 +208,9 @@ body {
   font-family: "Roboto", sans-serif !important;
 }
 
+.multicolumn {
+  background-color: red;
+}
 .multicolumn .global-section-x-padding {
   padding-left: 3rem;
   padding-right: 3rem;

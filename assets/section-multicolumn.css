@@ -231,7 +231,7 @@ body {
 .multicolumn .multicolumn-list {
   column-gap: 0;
   justify-content: space-between;
-  gap: 10px;
+  gap: 1rem;
 }
 .multicolumn .multicolumn-list.padding--none {
   padding-left: 0;

@@ -99,7 +99,7 @@
         "swipe_on_mobile": false,
         "padding_top": 84,
         "padding_bottom": 80,
-        "section_width": "boxed"
+        "section_width": "full_width"
       }
     },
     "76e018a9-a272-4cf6-95ae-b681d737749c": {

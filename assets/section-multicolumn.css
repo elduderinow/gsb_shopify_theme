@@ -237,6 +237,10 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
+.multicolumn .multicolumn-list.padding--none .multicolumn-list__item .multicolumn-card__image-wrapper {
+  margin-left: 0;
+  margin-right: 0;
+}
 .multicolumn .multicolumn-list.padding--none .multicolumn-list__item .multicolumn-card__info {
   padding-left: 0;
   padding-right: 0;

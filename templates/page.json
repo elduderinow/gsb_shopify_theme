@@ -181,7 +181,7 @@
           "type": "column",
           "settings": {
             "title": "<strong>Wat zit er niet in?<\/strong>",
-            "text": "<ul><li>PARABENEN<\/li><li>TALK<\/li><li>ARTIFICIËLE PARFUMS<\/li><li>IRRITERENDE SULFATEN<\/li><li>PHTHALATEN<\/li><li>AGRESSIEVE KLEURSTOFFEN<\/li><li>POLYETHYLEEN PARELS<\/li><li>MINERALE OLIE<\/li><\/ul>",
+            "text": "<ul><li>Parabenen<\/li><li>Talk<\/li><li>Kunstmatige geur- en kleurstoffen<\/li><li>Irriterende sulfaten<\/li><li>Ftalaten<\/li><li>Polyethyleen parels<\/li><li>Minerale oliën<\/li><\/ul>",
             "link_label": "",
             "link": ""
           }

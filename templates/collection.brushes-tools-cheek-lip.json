@@ -22,7 +22,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>De perfecte tools voor het aanbrengen van je blush en bronzer.<\/p>",
+            "text": "<p>De perfecte tools voor het aanbrengen van je blush, bronzer en lipstick<\/p>",
             "text_style": "body"
           }
         },
@@ -91,7 +91,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Wangen make-up kwasten- professionele tips",
+            "heading": "Wangen make-up kwasten - professionele tips",
             "heading_size": "h1"
           }
         },
@@ -146,7 +146,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Van waaierkwasten tot contour kwasten, upgrade je set met onze selectie van kwasten, vakkundig ontworpen om je applicatietechnieken te verbeteren. En om je alle professionele kennis te geven, ontdek onze tips en trucs.<\/p>",
+            "text": "<p>Van waaierkwasten tot contour kwasten, upgrade je set met onze selectie van kwasten, vakkundig ontworpen om je applicatietechnieken te verbeteren. En om je alle professionele kennis te geven, ontdek onze tips en tricks.<\/p>",
             "link_label": "",
             "link": ""
           }

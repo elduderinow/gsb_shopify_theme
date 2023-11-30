@@ -22,7 +22,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lip crayons bieden veelzijdige, langhoudende kleur in een reeks van hoogglans of matte afwerkingen. Vind jouw perfecte lipkleur hier.<\/p>",
+            "text": "<p>Lip crayons bieden een veelzijdige, langhoudende kleur in een reeks van hoogglans of matte afwerkingen. Vind jouw perfecte lipkleur hier.<\/p>",
             "text_style": "body"
           }
         },
@@ -91,7 +91,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Wat is een Lip Crayon?",
+            "heading": "Wat is een lip crayon?",
             "heading_size": "h1"
           }
         },

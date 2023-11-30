@@ -15,14 +15,14 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Makeup accessoires",
+            "heading": "Make-up accessoires",
             "heading_size": "h1"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Vul je collectie aan met alle professionele make-uptools die je nodig hebt voor een vlekkeloze look. Van sponsjes tot make-upkwastenreiniger, ontdek onze collectie.<\/p>",
+            "text": "<p>Vul je collectie aan met alle professionele make-up tools die je nodig hebt voor een vlekkeloze look. <\/p>",
             "text_style": "body"
           }
         },
@@ -91,7 +91,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Make-upkwasten + Tools Tips",
+            "heading": "Make-up kwasten - professionele tips",
             "heading_size": "h1"
           }
         },
@@ -146,7 +146,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Niet zeker wanneer je een kwast of je vingers moet gebruiken? Of hoe vaak je je make-upkwasten moet schoonmaken? Ontdek hier alle professionele make-upapplicatie tips en trucs.<\/p>",
+            "text": "<p>Niet zeker wanneer je een kwast of je vingers moet gebruiken? Of hoe vaak je je make-up kwasten best moet reinigen? Ontdek hier alle professionele make-up applicatie tips en tricks.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -256,7 +256,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Gebruik make-up als een professional met onze door artiesten goedgekeurde make-up tools collectie. Zorg ervoor dat je goede hygiëne toepast voor je kwasten met onze handige kwastenreiniger en make-up remover. En voor het behouden van de precisie van je potloden, bekijk onze potloodslijper of puntenslijpers - onmisbaar voor je make-up set.<\/p>",
+            "text": "<p>Gebruik make-up als een professional met onze door artiesten goedgekeurde make-up tools. Zorg ervoor dat je een goede hygiëne toepast voor je kwasten. En voor het behouden van de precisie van je potloden, bekijk onze  puntenslijpers - onmisbaar voor je make-up set.<\/p>",
             "link_label": "",
             "link": ""
           }

@@ -25,19 +25,11 @@
             "text": "<p>Neem de controle over jouw talgproductie, herstel je huid en verhelder je teint met ons aanbod aan verhelderende essentials van het hoogste niveau. Geformuleerd met salicylzuur, niacinamide en ontgiftende ingrediënten is<br\/>deze productlijn een must have voor een onrustige doffe huid.<\/p>",
             "text_style": "body"
           }
-        },
-        "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Lees meer",
-            "button_link": "#"
-          }
         }
       },
       "block_order": [
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1",
-        "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1",
-        "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
+        "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/featured_header_Desktop-_acne_2.jpg",

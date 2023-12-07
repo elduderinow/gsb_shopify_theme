@@ -528,9 +528,9 @@
         "95855e28-5dbe-4bf4-9556-2132ee7bd5f8": {
           "type": "infoblock",
           "settings": {
-            "heading": "Gecertificeerde Wreedheidvrije Huidverzorging",
+            "heading": "Gecertificeerde dierproefvrije Huidverzorging",
             "heading_size": "h2",
-            "text": "<p>PETA-goedgekeurd, gecertificeerd Beauty Without Bunnies, Glo huidverzorgingsproducten en hun ingrediënten worden nooit getest op onze harige vrienden.<br\/><\/p>",
+            "text": "<p>PETA-goedgekeurd, gecertificeerd Beauty Without Bunnies, glo huidverzorgingsproducten en hun ingrediënten worden nooit getest op dieren<br\/><\/p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -555,6 +555,16 @@
             "button_link": ""
           }
         },
+        "b9dcb185-9d5e-46d1-bcf0-0f3089a47d6c": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Vrij van Ftalaten",
+            "heading_size": "h2",
+            "text": "<p>Moeilijk uit te spreken, nog moeilijker voor de huid, glo is een ftalaatvrije zone.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
         "055f5e9d-78d8-4213-9774-b47df78c18d5": {
           "type": "infoblock",
           "settings": {
@@ -564,24 +574,14 @@
             "button_label": "Button label",
             "button_link": ""
           }
-        },
-        "b9dcb185-9d5e-46d1-bcf0-0f3089a47d6c": {
-          "type": "infoblock",
-          "settings": {
-            "heading": "Vrij van Ftalaten",
-            "heading_size": "h2",
-            "text": "<p>Moeilijk uit te spreken, nog moeilijker voor de huid, Glo is een ftalaatvrije zone.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "95855e28-5dbe-4bf4-9556-2132ee7bd5f8",
         "0008bb93-f23c-4219-8a02-6cf2c05d6e98",
         "94bbf85d-699a-4569-b761-7c047cbdef7d",
-        "055f5e9d-78d8-4213-9774-b47df78c18d5",
-        "b9dcb185-9d5e-46d1-bcf0-0f3089a47d6c"
+        "b9dcb185-9d5e-46d1-bcf0-0f3089a47d6c",
+        "055f5e9d-78d8-4213-9774-b47df78c18d5"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/SKIN-FreeOf-PDP-Image-wIcons.webp",

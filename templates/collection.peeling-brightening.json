@@ -280,7 +280,7 @@
           "settings": {
             "heading": "Gecertificeerde dierproefvrije huidverzorging",
             "heading_size": "h2",
-            "text": "<p>PETA-goedgekeurd, gecertificeerd Beauty Without Bunnies, Glo huidverzorgingsproducten en hun ingrediënten worden nooit getest op onze harige vrienden.<br\/><\/p>",
+            "text": "<p>PETA-goedgekeurd, gecertificeerd Beauty Without Bunnies, glo huidverzorgingsproducten en hun ingrediënten worden nooit getest op dieren.<br\/><\/p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -300,7 +300,7 @@
           "settings": {
             "heading": "Parabeenvrije Huidverzorging",
             "heading_size": "h2",
-            "text": "<p>Een soort conserveermiddel dat in verband wordt gebracht met hormonale verstoring? Geen sprake van, niet in enig Glo huidverzorgingsproduct.<\/p>",
+            "text": "<p>Een soort conserveermiddel dat in verband wordt gebracht met hormonale verstoring? Geen sprake van, niet aanwezig in enig glo huidverzorgingsproduct.<\/p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -320,7 +320,7 @@
           "settings": {
             "heading": "Vrij van Ftalaten",
             "heading_size": "h2",
-            "text": "<p>Moeilijk uit te spreken, nog moeilijker voor de huid, Glo is een ftalaatvrije zone.<\/p>",
+            "text": "<p>Moeilijk uit te spreken, nog moeilijker voor de huid, glo is een ftalaatvrije zone.<\/p>",
             "button_label": "Button label",
             "button_link": ""
           }

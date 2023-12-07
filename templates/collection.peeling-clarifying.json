@@ -22,7 +22,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Ontgift en exfolieer met deze thuisklaringspeelkit. Aangedreven door mandelzuur en salicylzuur, plus vitamine C, richt het zich op oneffenheden, zichtbare poriën en verstoppingen voor verhoogde helderheid en straling.<\/p>",
+            "text": "<p>Ontgift en exfolieer met deze \"At home Peeling kit\". Aangedreven door mandelzuur en salicylzuur, plus vitamine C, richt het zich op oneffenheden, zichtbare poriën en verstoppingen voor verhoogde helderheid en straling.<\/p>",
             "text_style": "body"
           }
         },
@@ -528,7 +528,7 @@
         "95855e28-5dbe-4bf4-9556-2132ee7bd5f8": {
           "type": "infoblock",
           "settings": {
-            "heading": "Gecertificeerde Wreedheidvrije Huidverzorging",
+            "heading": "Gecertificeerde dierproefvrije huidverzorging",
             "heading_size": "h2",
             "text": "<p>PETA-goedgekeurd, gecertificeerd Beauty Without Bunnies, Glo huidverzorgingsproducten en hun ingrediënten worden nooit getest op onze harige vrienden.<br\/><\/p>",
             "button_label": "Button label",
@@ -550,17 +550,7 @@
           "settings": {
             "heading": "Parabeenvrije Huidverzorging",
             "heading_size": "h2",
-            "text": "<p>Een soort conserveermiddel dat in verband wordt gebracht met hormonale verstoring? Geen sprake van, niet in enig Glo huidverzorgingsproduct.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "055f5e9d-78d8-4213-9774-b47df78c18d5": {
-          "type": "infoblock",
-          "settings": {
-            "heading": "Sulfaatvrije Huidverzorging",
-            "heading_size": "h2",
-            "text": "<p>Oppervlakteactieve stoffen die irritatie kunnen veroorzaken of allergieën kunnen triggeren, Glo huidverzorging is vrij van SLS + SLES sulfaten.<br\/><\/p>",
+            "text": "<p>Een soort conserveermiddel dat in verband wordt gebracht met hormonale verstoring? Geen sprake van, niet aanwezig in enig glo huidverzorgingsproduct.<\/p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -574,14 +564,24 @@
             "button_label": "Button label",
             "button_link": ""
           }
+        },
+        "055f5e9d-78d8-4213-9774-b47df78c18d5": {
+          "type": "infoblock",
+          "settings": {
+            "heading": "Sulfaatvrije Huidverzorging",
+            "heading_size": "h2",
+            "text": "<p>Oppervlakteactieve stoffen die irritatie kunnen veroorzaken of allergieën kunnen triggeren, glo huidverzorging is vrij van SLS + SLES sulfaten.<br\/><\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "95855e28-5dbe-4bf4-9556-2132ee7bd5f8",
         "0008bb93-f23c-4219-8a02-6cf2c05d6e98",
         "94bbf85d-699a-4569-b761-7c047cbdef7d",
-        "055f5e9d-78d8-4213-9774-b47df78c18d5",
-        "b9dcb185-9d5e-46d1-bcf0-0f3089a47d6c"
+        "b9dcb185-9d5e-46d1-bcf0-0f3089a47d6c",
+        "055f5e9d-78d8-4213-9774-b47df78c18d5"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/SKIN-FreeOf-PDP-Image-wIcons.webp",

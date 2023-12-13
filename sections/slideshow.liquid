@@ -169,7 +169,7 @@
             {%- endif -%}
             {%- if block.settings.button_label != blank -%}
               <div class="banner__buttons">
-                {% if customer and customer.tags contains 'b2b' %}
+                {% if customer and customer.tags contains 'B2B' %}
                   <a
                     {% if block.settings.link %}
                       href="{{ block.settings.link }}"

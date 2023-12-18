@@ -24,17 +24,17 @@
           "type": "highlight",
           "settings": {
             "image": "shopify:\/\/shop_images\/20.png",
-            "image_title": "ddd",
-            "image_subtitle": "ddd",
-            "highlight_url": "shopify:\/\/pages\/complexions"
+            "image_title": "Holiday kits 23",
+            "image_subtitle": "",
+            "highlight_url": "shopify:\/\/collections\/holiday-23"
           }
         },
         "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7": {
           "type": "highlight",
           "settings": {
             "image": "shopify:\/\/shop_images\/GloSkinBeauty-Oil-FreeTintedPrimer-Group-1_EUUK.png",
-            "image_title": "",
-            "image_subtitle": "",
+            "image_title": "Oil Free Tinted Primer",
+            "image_subtitle": "naar collectie",
             "highlight_url": ""
           }
         },
@@ -42,8 +42,8 @@
           "type": "highlight",
           "settings": {
             "image": "shopify:\/\/shop_images\/2_1.png",
-            "image_title": "",
-            "image_subtitle": "",
+            "image_title": "Eye Base",
+            "image_subtitle": "eye base collectie",
             "highlight_url": ""
           }
         },
@@ -51,8 +51,8 @@
           "type": "highlight",
           "settings": {
             "image": "shopify:\/\/shop_images\/unknown_344552512_1228537714456578_5851149202924115872_n_1.jpg",
-            "image_title": "",
-            "image_subtitle": "",
+            "image_title": "Highlighters",
+            "image_subtitle": "Skin Glow stick Highlight, skin glo powder highlighter",
             "highlight_url": ""
           }
         }
@@ -146,10 +146,10 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Bio_Renew-EGF-Cell-Repairing-Facial5.png",
-            "title": "heading",
-            "text": "<p>sample description text<\/p>",
-            "link_label": "shopdzfee",
-            "link": "shopify:\/\/pages\/customer-service",
+            "title": "Bio Renew EGF Cell Repairing Box",
+            "text": "",
+            "link_label": "Meer info",
+            "link": "shopify:\/\/products\/888-10-bio-renew-egf-cell-repairing-facial-limited-edition",
             "bg_color": "#000000",
             "bg_opacity": 30
           }
@@ -158,10 +158,10 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/20.png",
-            "title": "Heading",
-            "text": "<p>sample description<\/p>",
-            "link_label": "shop",
-            "link": "shopify:\/\/pages\/algemene-voorwaarden",
+            "title": "Holliday Kits 23",
+            "text": "",
+            "link_label": "Meer info",
+            "link": "shopify:\/\/collections\/holiday-23",
             "bg_color": "#000000",
             "bg_opacity": 30
           }
@@ -198,7 +198,7 @@
         "heading_size": "h1",
         "description": "Shop Our best selling products",
         "show_description": false,
-        "collection": "chemical-peeling",
+        "collection": "landingpage-best-selling",
         "products_to_show": 8,
         "columns_desktop": 4,
         "select_width": "boxed",
@@ -252,6 +252,7 @@
         "template--19294323310939__72f20bbf-901d-4648-9607-cbe0b699a20f-text-1",
         "template--19294323310939__72f20bbf-901d-4648-9607-cbe0b699a20f-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/22Jul-HP-luminous-collection-opt2-Block.jpg",
         "image_overlay_opacity": 0,

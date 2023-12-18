@@ -276,6 +276,8 @@
                 </div>
               </div>
             {%- endif -%}
+          {%- else -%}
+            test
           {%- endif -%}
           {%- if hasValueTags == true -%}
             {%- render 'values', productTags: product.tags -%}

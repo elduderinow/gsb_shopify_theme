@@ -705,9 +705,9 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/featured_header_Desktop-_retinol.jpg",
-            "title": "Verminder roodheid + kalmeer verbrande huid",
+            "title": "Verminder roodheid en irritatie",
             "text": "",
-            "link_label": "Shop calming skincare",
+            "link_label": "Ga naar onze calm + Soothe lijn",
             "link": "shopify:\/\/collections\/calm-sooth",
             "bg_color": "#6e1111",
             "bg_opacity": 70
@@ -717,9 +717,9 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/23Aug-HP-skin-powered-makeup-Block-2.jpg",
-            "title": "huidverzorging aangedreven make-up",
+            "title": "Huidverbeterende make-up",
             "text": "",
-            "link_label": "Moeiteloos, maximum glow",
+            "link_label": "Minimale inspanning – maximale glow!",
             "link": "shopify:\/\/collections\/eye-mascara",
             "bg_color": "#1a3148",
             "bg_opacity": 50

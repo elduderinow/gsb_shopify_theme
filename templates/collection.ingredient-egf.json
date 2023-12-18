@@ -85,48 +85,80 @@
         "padding_bottom": 0
       }
     },
-    "276980df-6134-4fa4-8d48-9d8a646adda5": {
+    "a33e386c-c0ab-4a5f-b842-41800fec28e4": {
       "type": "rich-text",
       "blocks": {
-        "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
+        "template--19336999534939__a33e386c-c0ab-4a5f-b842-41800fec28e4-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "",
-            "heading_size": "h1"
+            "heading": "Wat is EGF (Epidermale GroeiFactor) in Huidverzorging?",
+            "heading_size": "h2"
           }
         },
-        "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-text-1": {
+        "template--19336999534939__a33e386c-c0ab-4a5f-b842-41800fec28e4-text-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.<\/p>"
-          }
-        },
-        "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1",
-        "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-text-1",
-        "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1"
+        "template--19336999534939__a33e386c-c0ab-4a5f-b842-41800fec28e4-heading-1",
+        "template--19336999534939__a33e386c-c0ab-4a5f-b842-41800fec28e4-text-1"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "ef2330af-d59f-4231-90c0-002da7c9496e": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19336999534939__ef2330af-d59f-4231-90c0-002da7c9496e-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>De epidermale groeifactor (EGF) voor de huid, ontdekt en bekroond met een Nobelprijs 30 jaar geleden, is nu een innovatief huidverzorgingsingrediënt. EGF stimuleert fibroblasten in de opperhuid, verhoogt collageen en elastine, en herstelt jeugdige elasticiteit. Ons veganistische EGF serum, in samenwerking met dermatoloog Dr. Dendy Engelman, combineert dit met plantaardige stamcellen voor een stralende teint. De Bio-Renew EGF Cream met fyto-retinolen optimaliseert natuurlijke vernieuwingsprocessen, klinisch bewezen voor een sterkere, helderdere huid in één maand.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19336999534939__ef2330af-d59f-4231-90c0-002da7c9496e-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Deze crème, ontwikkeld met Dr. Dendy, herstelt huidbarrière, vermindert fijne lijntjes, pigmentvlekken en verbetert textuur. Vegan EGF, klinisch bewezen in één week, verzacht en verheldert de huid. Het plantaardige retinolcomplex levert resultaten zoals retinol zonder irritatie, met antioxidanten en ceramiden voor een sterke huidbarrière. Een ultieme oplossing voor huidverjonging en herstel, getuige klinische tests en de expertise van Dr. Dendy.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19336999534939__ef2330af-d59f-4231-90c0-002da7c9496e-column-1",
+        "template--19336999534939__ef2330af-d59f-4231-90c0-002da7c9496e-column-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "icon__grid": false,
+        "column_alignment": "left",
+        "item_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 80,
-        "padding_bottom": 0
+        "padding_bottom": 80,
+        "section_width": "boxed"
       }
     },
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30": {
@@ -134,7 +166,6 @@
       "blocks": {
         "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-1": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "title": "",
             "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
@@ -145,8 +176,8 @@
         "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-2": {
           "type": "column",
           "settings": {
-            "title": "",
-            "text": "<p><strong>Wat is EGF (Epidermale GroeiFactor) in Huidverzorging? <\/strong><\/p><p>Epidermale groeifactor voor de huid was de eerste<br\/>groeifactor die werd bestudeerd. De wetenschappers die het 30 jaar geleden<br\/>ontdekten, wonnen een Nobelprijs voor hun werk, waardoor het nu een van de<br\/>meest innovatieve ingrediënten in de huidverzorgingswereld is.<\/p><p>Groeifactoren zijn enorm belangrijk voor de regulatie van<br\/>celprocessen in het menselijk lichaam. En zoals de naam al doet vermoeden,<br\/>heeft epidermale groeifactor betrekking op de opperhuid - de bovenste laag van<br\/>de huid. EGF stimuleert cellen in de huid, fibroblasten genaamd, die collageen<br\/>en elastine produceren om de huid te verhelderen, dikker en strakker te maken.<br\/>Naarmate je ouder wordt, neemt je EGF af en daarmee ook de elasticiteit van de<br\/>huid, wat leidt tot tekenen van veroudering zoals dofheid, rimpels, lijntjes en<br\/>algemene huidverslapping. <\/p><p>Een oplossing om deze factoren aan te pakken? Onze vegan<br\/>epidermale groeifactor serum en moisturizer, ontwikkeld in samenwerking met USA<br\/>topdermatologe Dr. Dendy Engelman: \"Epidermale groeifactor is een<br\/>herstellend ingrediënt dat de cellen signalen geeft om de productie van<br\/>collageen en elastine te stimuleren. Dit helpt bij celherstel en -vernieuwing,<br\/>wat resulteert in een meer stralende, jeugdige teint,\" legt Dr. Dendy uit.<\/p><p>In combinatie met plantaardige stamcellen, die in synergie<br\/>met je huid werken, activeren zowel ons EGF serum als onze moisturizer de<br\/>natuurlijke EGF-receptoren en versnellen ze de regeneratie van de opperhuid. En<br\/>onze Bio-Renew EGF Cream bevat ook fyto-retinolen voor extra voordelen.<\/p><p>\"Fyto-retinolen zijn plantaardige alternatieven voor<br\/>retinol die de barrièrefunctie van de huid verbeteren en de collageenproductie<br\/>stimuleren, net als traditionele retinolen, maar zonder de huidgevoeligheid of<br\/>irritatie,\" voegt Dr. Dendy toe.<\/p><p>De resultaten spreken voor zich. \"Klinische tests<br\/>toonden een significante vermindering van fijne lijntjes, rimpels,<br\/>pigmentvlekken en roodheid, evenals een significante verbetering van de teint,<br\/>textuur, stevigheid en glans van de huid na 30 dagen gebruik.\"<\/p><p>Onze nieuwe Bio-Renew EGF Cream is geformuleerd in<br\/>samenwerking met vooraanstaand dermatoloog Dr. Dendy Engelman uit NYC en is een<br\/>vochtinbrengende crème van de volgende generatie die de huidbarrière herstelt.<br\/>Aangedreven door veganistisch EGF en een fyto-retinol complex om de natuurlijke<br\/>vernieuwingsprocessen van de huid te optimaliseren, is van deze krachtige<br\/>moisturizer klinisch bewezen dat het zorgt voor een sterkere, helderdere,<br\/>gladdere en stevigere huid in slechts één maand.<\/p><p>\"Deze crème is het ultieme in het herstellen van de<br\/>stevigheid van de huid. Hij revitaliseert en stimuleert het herstel van de<br\/>huidbarrière. Het herstelt niet alleen schade na verloop van tijd, maar helpt<br\/>ook bij wondherstel na een behandeling met IPL, laser, microneedling, peeling<br\/>en nog veel meer,\" vertelt Dr. Dendy.<\/p><p>\"De veganistische EGF (Epidermal Growth Factor) is<br\/>klinisch bewezen na zowel één week als één maand, waarbij vrijwilligers<br\/>verklaarden dat de huid duidelijk zachter en helderder werd en dat er minder<br\/>zichtbare rimpels waren. De formule is ook rijk aan plantaardige<br\/>retinolalternatieven die resultaten bereiken die sterk lijken op die van<br\/>retinol en andere vitamine A-derivaten zonder de irriterende bijwerkingen. Ze<br\/>leveren ook een dosis antioxidanten en ceramiden om schade door vrije radicalen<br\/>tegen te gaan en een sterke huidbarrière te ondersteunen.\"<\/p>",
+            "title": "<strong>Wat is EGF (Epidermale GroeiFactor) in Huidverzorging? <\/strong>",
+            "text": "<p>Epidermale groeifactor voor de huid was de eerste groeifactor die werd bestudeerd. De wetenschappers die het 30 jaar geleden ontdekten, wonnen een Nobelprijs voor hun werk, waardoor het nu een van de meest innovatieve ingrediënten in de huidverzorgingswereld is. Groeifactoren zijn enorm belangrijk voor de regulatie van celprocessen in het menselijk lichaam. En zoals de naam al doet vermoeden, heeft epidermale groeifactor betrekking op de opperhuid - de bovenste laag van de huid. EGF stimuleert cellen in de huid, fibroblasten genaamd, die collageen en elastine produceren om de huid te verhelderen, dikker en strakker te maken. Naarmate je ouder wordt, neemt je EGF af en daarmee ook de elasticiteit van de huid, wat leidt tot tekenen van veroudering zoals dofheid, rimpels, lijntjes en algemene huidverslapping. Een oplossing om deze factoren aan te pakken? Ons veganistische epidermale groeifactor serum en moisturizer, ontwikkeld in samenwerking met de Amerikaanse topdermatologe Dr. Dendy Engelman: \"Epidermale groeifactor is een herstellend ingrediënt dat de cellen signalen geeft om de productie van collageen en elastine te stimuleren. Dit helpt bij celherstel en -vernieuwing, wat resulteert in een meer stralende, jeugdige teint,\" legt Dr. Dendy uit. In combinatie met plantaardige stamcellen, die in synergie met je huid werken, activeren zowel ons EGF serum als onze moisturizer de natuurlijke EGF-receptoren en versnellen ze de regeneratie van de opperhuid. En onze Bio-Renew EGF Cream bevat ook fyto-retinolen voor extra voordelen. \"Fyto-retinolen zijn plantaardige alternatieven voor retinol die de barrièrefunctie van de huid verbeteren en de collageenproductie stimuleren, net als traditionele retinolen, maar zonder de huidgevoeligheid of irritatie,\" voegt Dr. Dendy toe. De resultaten spreken voor zich. \"Klinische tests toonden een significante vermindering van fijne lijntjes, rimpels, pigmentvlekken en roodheid, evenals een significante verbetering van de teint, textuur, stevigheid en glans van de huid na 30 dagen gebruik.\" Onze nieuwe Bio-Renew EGF Cream is geformuleerd in samenwerking met vooraanstaand dermatoloog Dr. Dendy Engelman uit NYC en is een vochtinbrengende crème van de volgende generatie die de huidbarrière herstelt. Aangedreven door veganistisch EGF en een fyto-retinolcomplex om de natuurlijke vernieuwingsprocessen van de huid te optimaliseren, is van deze krachtige moisturizer klinisch bewezen dat het zorgt voor een sterkere, helderdere, gladdere en stevigere huid in slechts één maand. \"Deze crème is het ultieme in het herstellen van de stevigheid van de huid. Hij revitaliseert en stimuleert het herstel van de huidbarrière. Het herstelt niet alleen schade na verloop van tijd, maar helpt ook bij wondherstel na een behandeling met IPL, laser, microneedling, peelings en nog veel meer,\" vertelt Dr. Dendy. \"De veganistische EGF (Epidermal Growth Factor) is klinisch bewezen na zowel één week als één maand, waarbij vrijwilligers verklaarden dat de huid duidelijk zachter en helderder werd en dat er minder zichtbare rimpels waren. De formule is ook rijk aan plantaardige retinolalternatieven die resultaten bereiken die sterk lijken op die van retinol en andere vitamine A-derivaten zonder de irriterende bijwerkingen. Ze leveren ook een dosis antioxidanten en ceramiden om schade door vrije radicalen tegen te gaan en een sterke huidbarrière te ondersteunen.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -167,6 +198,7 @@
         "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-2",
         "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -394,7 +426,8 @@
     "92602d36-7d25-4028-b9d9-a36860448447",
     "product-grid",
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b",
-    "276980df-6134-4fa4-8d48-9d8a646adda5",
+    "a33e386c-c0ab-4a5f-b842-41800fec28e4",
+    "ef2330af-d59f-4231-90c0-002da7c9496e",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "c9055c65-600f-45a6-ac53-403f9f1e9f1f",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",

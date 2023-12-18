@@ -252,6 +252,7 @@
         "template--19294323310939__72f20bbf-901d-4648-9607-cbe0b699a20f-text-1",
         "template--19294323310939__72f20bbf-901d-4648-9607-cbe0b699a20f-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/22Jul-HP-luminous-collection-opt2-Block.jpg",
         "image_overlay_opacity": 0,

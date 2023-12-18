@@ -33,8 +33,8 @@
           "type": "highlight",
           "settings": {
             "image": "shopify:\/\/shop_images\/GloSkinBeauty-Oil-FreeTintedPrimer-Group-1_EUUK.png",
-            "image_title": "",
-            "image_subtitle": "",
+            "image_title": "Oil Free Tinted Primer",
+            "image_subtitle": "naar collectie",
             "highlight_url": ""
           }
         },
@@ -42,8 +42,8 @@
           "type": "highlight",
           "settings": {
             "image": "shopify:\/\/shop_images\/2_1.png",
-            "image_title": "",
-            "image_subtitle": "",
+            "image_title": "Eye Base",
+            "image_subtitle": "eye base collectie",
             "highlight_url": ""
           }
         },
@@ -51,7 +51,7 @@
           "type": "highlight",
           "settings": {
             "image": "shopify:\/\/shop_images\/unknown_344552512_1228537714456578_5851149202924115872_n_1.jpg",
-            "image_title": "",
+            "image_title": "Skin Highlight Powder",
             "image_subtitle": "",
             "highlight_url": ""
           }

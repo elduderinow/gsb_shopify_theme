@@ -125,7 +125,7 @@
             "link": ""
           }
         },
-        "1ddc3514-5b40-4d06-bfb7-442a0308efd9": {
+        "e80bc556-cd09-45d3-b6d5-a32b2e853235": {
           "type": "column",
           "settings": {
             "title": "",
@@ -138,17 +138,17 @@
       "block_order": [
         "template--19143340360027__76e018a9-a272-4cf6-95ae-b681d737749c-column-1",
         "template--19143340360027__76e018a9-a272-4cf6-95ae-b681d737749c-column-2",
-        "1ddc3514-5b40-4d06-bfb7-442a0308efd9"
+        "e80bc556-cd09-45d3-b6d5-a32b2e853235"
       ],
       "settings": {
         "title": "Word een Glo Skin Beauty Distributeur",
         "heading_size": "h2",
-        "image_width": "full",
+        "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 1,
         "icon__grid": false,
         "column_alignment": "left",
-        "item_alignment": "center",
+        "item_alignment": "left",
         "background_style": "none",
         "button_label": "",
         "button_link": "",

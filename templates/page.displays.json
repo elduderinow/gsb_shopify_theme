@@ -27,6 +27,7 @@
         },
         "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-buttons-1": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "lees meer",
             "button_link_1": "",

@@ -277,7 +277,12 @@
               </div>
             {%- endif -%}
           {%- else -%}
-            test
+            <a
+              href="/pages/store-locator"
+              class="button button--primary"
+            >
+              Zoek een Professional
+            </a>
           {%- endif -%}
           {%- if hasValueTags == true -%}
             {%- render 'values', productTags: product.tags -%}

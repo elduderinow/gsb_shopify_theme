@@ -153,9 +153,9 @@
       "settings": {
         "title": "Word een Glo Skin Beauty Distributeur",
         "heading_size": "h2",
-        "image_width": "half",
+        "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 1,
+        "columns_desktop": 2,
         "icon__grid": false,
         "column_alignment": "left",
         "item_alignment": "left",

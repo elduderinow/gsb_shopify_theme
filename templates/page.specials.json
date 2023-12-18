@@ -51,8 +51,8 @@
           "type": "highlight",
           "settings": {
             "image": "shopify:\/\/shop_images\/unknown_344552512_1228537714456578_5851149202924115872_n_1.jpg",
-            "image_title": "Skin Highlight Powder",
-            "image_subtitle": "",
+            "image_title": "Highlighters",
+            "image_subtitle": "Skin Glow stick Highlight, skin glo powder highlighter",
             "highlight_url": ""
           }
         }
@@ -146,10 +146,10 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Bio_Renew-EGF-Cell-Repairing-Facial5.png",
-            "title": "heading",
-            "text": "<p>sample description text<\/p>",
-            "link_label": "shopdzfee",
-            "link": "shopify:\/\/pages\/customer-service",
+            "title": "Bio Renew EGF Cell Repairing Box",
+            "text": "",
+            "link_label": "Meer info",
+            "link": "shopify:\/\/products\/888-10-bio-renew-egf-cell-repairing-facial-limited-edition",
             "bg_color": "#000000",
             "bg_opacity": 30
           }
@@ -158,10 +158,10 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/20.png",
-            "title": "Heading",
-            "text": "<p>sample description<\/p>",
-            "link_label": "shop",
-            "link": "shopify:\/\/pages\/algemene-voorwaarden",
+            "title": "Holliday Kits 23",
+            "text": "",
+            "link_label": "Meer info",
+            "link": "shopify:\/\/collections\/holiday-23",
             "bg_color": "#000000",
             "bg_opacity": 30
           }

@@ -169,16 +169,25 @@
             {%- endif -%}
             {%- if block.settings.button_label != blank -%}
               <div class="banner__buttons">
-                <a
-                  {% if block.settings.link %}
-                    href="{{ block.settings.link }}"
-                  {% else %}
-                    role="link" aria-disabled="true"
-                  {% endif %}
-                  class="button button--primary"
-                >
-                  {{- block.settings.button_label | escape -}}
-                </a>
+                {% if customer and customer.tags contains 'B2B' %}
+                  <a
+                    {% if block.settings.link %}
+                      href="{{ block.settings.link }}"
+                    {% else %}
+                      role="link" aria-disabled="true"
+                    {% endif %}
+                    class="button button--primary"
+                  >
+                    {{- block.settings.button_label | escape -}}
+                  </a>
+                {%- else -%}
+                  <a
+                    href="/pages/store-locator"
+                    class="button button--primary"
+                  >
+                    Zoek een Professional
+                  </a>
+                {%- endif -%}
               </div>
             {%- endif -%}
           </div>

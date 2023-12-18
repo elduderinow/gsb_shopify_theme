@@ -333,7 +333,8 @@
             {% render block %}
         {%- endcase -%}
       {%- endfor -%}
-
+      {% if customer %}
+        {% if customer.tags contains 'B2B' %}
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {%- liquid
           if cart == empty
@@ -352,6 +353,8 @@
           </div>
         {%- endif -%}
       </a>
+    {%- endif -%}
+  {%- endif -%}
     </div>
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>

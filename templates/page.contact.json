@@ -129,7 +129,16 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Op zoek naar een merk dat jou voorziet van een totaaloplossing vanaf de reiniging tot aan de lipstick? Ben je getriggerd door het krachtige peelingsysteem en de professionele at-home peelings? Op zoek naar huidverbeterende, clean & minerale make-up?Neem contact op via (vul aan met hoe je wenst benaderd te worden), vermeld waar je interesse in hebt en we nemen spoedig contact met je op om alle in- en outs van dit fantastische merk met je te delen!Let’s g(l)o!Tania<\/p>",
+            "text": "<p>Op zoek naar een merk dat jou voorziet van een totaaloplossing vanaf de reiniging tot aan de lipstick? Ben je getriggerd door het krachtige peelingsysteem en de professionele at-home peelings? Op zoek naar huidverbeterende, clean & minerale make-up?<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "2d762385-7971-4dff-a254-a791ec629f4c": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Neem contact op via (vul aan met hoe je wenst benaderd te worden), vermeld waar je interesse in hebt en we nemen spoedig contact met je op om alle in- en outs van dit fantastische merk met je te delen!<br\/><br\/>Let’s g(l)o!<br\/>Tania<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -138,7 +147,8 @@
       "block_order": [
         "template--19143340360027__76e018a9-a272-4cf6-95ae-b681d737749c-column-1",
         "template--19143340360027__76e018a9-a272-4cf6-95ae-b681d737749c-column-2",
-        "e80bc556-cd09-45d3-b6d5-a32b2e853235"
+        "e80bc556-cd09-45d3-b6d5-a32b2e853235",
+        "2d762385-7971-4dff-a254-a791ec629f4c"
       ],
       "settings": {
         "title": "Word een Glo Skin Beauty Distributeur",

@@ -107,6 +107,7 @@
       "blocks": {
         "template--19143340360027__76e018a9-a272-4cf6-95ae-b681d737749c-column-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "",
             "text": "<p>Welkom bij Glo Skin Beauty - jouw partner voor hoogwaardige make-up en professionele gelaatsverzorging, speciaal ontworpen voor schoonheidssalons en winkels. <br\/><br\/>Wij begrijpen de behoeften van jouw zaak en zijn er om jouw assortiment naar een hoger niveau te tillen met onze premium producten. <\/p>",
@@ -116,9 +117,19 @@
         },
         "template--19143340360027__76e018a9-a272-4cf6-95ae-b681d737749c-column-2": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "",
             "text": "<p>Wil je onze producten in jouw zaak aanbieden of heb je vragen over onze distributeursprogramma's? <br\/><br\/>Aarzel niet om contact met ons op te nemen. Samen kunnen we jouw zaak laten bloeien met Glo Skin Beauty. <br\/><br\/>Neem contact met ons op via onderstaande gegevens, en laten we samenwerken om de schoonheidservaring van jouw klanten te transformeren.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1ddc3514-5b40-4d06-bfb7-442a0308efd9": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Op zoek naar een merk dat jou voorziet van een totaaloplossing vanaf de reiniging tot aan de lipstick? Ben je getriggerd door het krachtige peelingsysteem en de professionele at-home peelings? Op zoek naar huidverbeterende, clean & minerale make-up?Neem contact op via (vul aan met hoe je wenst benaderd te worden), vermeld waar je interesse in hebt en we nemen spoedig contact met je op om alle in- en outs van dit fantastische merk met je te delen!Let’s g(l)o!Tania<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -126,14 +137,15 @@
       },
       "block_order": [
         "template--19143340360027__76e018a9-a272-4cf6-95ae-b681d737749c-column-1",
-        "template--19143340360027__76e018a9-a272-4cf6-95ae-b681d737749c-column-2"
+        "template--19143340360027__76e018a9-a272-4cf6-95ae-b681d737749c-column-2",
+        "1ddc3514-5b40-4d06-bfb7-442a0308efd9"
       ],
       "settings": {
         "title": "Word een Glo Skin Beauty Distributeur",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 1,
         "icon__grid": false,
         "column_alignment": "left",
         "item_alignment": "center",

@@ -198,7 +198,7 @@
         "heading_size": "h1",
         "description": "Shop Our best selling products",
         "show_description": false,
-        "collection": "chemical-peeling",
+        "collection": "landingpage-best-selling",
         "products_to_show": 8,
         "columns_desktop": 4,
         "select_width": "boxed",

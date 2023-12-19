@@ -39,6 +39,7 @@
         },
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/winter-skincare-1.webp",
             "heading": "<strong>Herfst essentials<\/strong>",

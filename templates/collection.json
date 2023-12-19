@@ -39,6 +39,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1",
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/22Jul-HP-luminous-collection-opt2-Block.jpg",
         "height": "large",
@@ -119,6 +120,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-text-1",
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -222,6 +224,7 @@
         "template--19180119687515__8435cf60-b8fb-4075-a821-d7d78554ac50-column-1",
         "template--19180119687515__8435cf60-b8fb-4075-a821-d7d78554ac50-column-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",

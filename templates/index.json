@@ -42,8 +42,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Copy_of_GloSkinBeauty-23Holiday-SkincareKits.png",
             "heading": "<strong>Holiday Kits 2023<\/strong>",
-            "heading_size": "h0",
-            "color_option_id": "#2a2a2a",
+            "heading_size": "h1",
+            "color_option_id": "#414141",
             "subheading": "Time To Shine",
             "subheading_size": "h6",
             "button_label": "Shop Limited Edition Kits",

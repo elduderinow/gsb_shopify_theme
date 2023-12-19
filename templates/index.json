@@ -3,6 +3,23 @@
     "a9132cbf-2ea9-4bb0-96e9-1e58e1371a27": {
       "type": "slideshow",
       "blocks": {
+        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Copy_of_GloSkinBeauty-23Holiday-SkincareKits.png",
+            "heading": "<strong>Holiday Kits 2023<\/strong>",
+            "heading_size": "h1",
+            "color_option_id": "#414141",
+            "subheading": "Time To Shine",
+            "subheading_size": "h6",
+            "button_label": "Shop Limited Edition Kits",
+            "link": "shopify:\/\/collections\/holiday-23",
+            "box_align": "top-right",
+            "text_alignment": "right",
+            "image_overlay_opacity": 0,
+            "text_alignment_mobile": "center"
+          }
+        },
         "9eaf1a1a-60b6-45da-b983-20c7c7f5d573": {
           "type": "slide",
           "settings": {
@@ -36,29 +53,12 @@
             "image_overlay_opacity": 10,
             "text_alignment_mobile": "center"
           }
-        },
-        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_GloSkinBeauty-23Holiday-SkincareKits.png",
-            "heading": "<strong>Holiday Kits 2023<\/strong>",
-            "heading_size": "h1",
-            "color_option_id": "#414141",
-            "subheading": "Time To Shine",
-            "subheading_size": "h6",
-            "button_label": "Shop Limited Edition Kits",
-            "link": "shopify:\/\/collections\/holiday-23",
-            "box_align": "top-right",
-            "text_alignment": "right",
-            "image_overlay_opacity": 0,
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1",
         "9eaf1a1a-60b6-45da-b983-20c7c7f5d573",
-        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0",
-        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1"
+        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0"
       ],
       "settings": {
         "layout": "full_bleed",

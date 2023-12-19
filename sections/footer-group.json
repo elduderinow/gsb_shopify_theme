@@ -44,7 +44,7 @@
           "type": "link_list",
           "settings": {
             "heading": "Menu",
-            "menu": "develop-menu"
+            "menu": "footer"
           }
         },
         "footer-0": {

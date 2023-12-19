@@ -63,7 +63,7 @@
         "template--19491675996507__73eefec2-c3d8-4762-b9f4-98e7e3155007-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Make-up Displays voor Eindeloze Schoonheid",
+            "heading": "Make-up displays",
             "heading_size": "h1"
           }
         },
@@ -200,9 +200,9 @@
     "4e2ab784-4bdb-4dc6-802a-196ab3c739ca": {
       "type": "featured-collection",
       "settings": {
-        "title": "Stralende displays",
+        "title": "",
         "heading_size": "h1",
-        "description": "Verken Onze Make-up Displays voor de perfecte uitstraling.",
+        "description": "Ontdek onze Make-up displays",
         "show_description": false,
         "collection": "displays",
         "products_to_show": 20,
@@ -361,7 +361,7 @@
         "template--19180119458139__8a782564-a233-4ab3-9c54-f4370a9ca431-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Meer Ontdekken Over Onze Zuivere Schoonheid",
+            "heading": "Meer ontdekken over onze Clean Beauty",
             "heading_size": "h1"
           }
         },

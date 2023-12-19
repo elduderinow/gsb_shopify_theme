@@ -17,7 +17,7 @@
 {% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' %}
 {% assign easylockdownLockedContent = false %}
 {% assign easylockdownHiddenContent = false %}
-{% if template contains "page" and page %}{% if page.id == 81864425571 %}{% assign easylockdownLockedContent = true %}{% endif %}{% endif %}
+{% if template contains "page" and page %}{% if page.id == 121812320603 %}{% assign easylockdownLockedContent = true %}{% endif %}{% endif %}
 {% if easylockdownLockedContent %}
 {% unless customer %}
 {% assign easylockdownON = true %}
@@ -28,7 +28,7 @@
 {% endif %}
 {% endunless %}
 {% unless customer %}
-<script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/pages/algemene-voorwaarden"]');</script>
+<script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/pages/terms-conditions"]');</script>
 {% endunless %}
 
 

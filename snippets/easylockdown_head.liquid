@@ -17,6 +17,24 @@
 {% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' %}
 {% assign easylockdownLockedContent = false %}
 {% assign easylockdownHiddenContent = false %}
+{% if template contains "page" and page %}{% if page.id == 81864425571 %}{% assign easylockdownLockedContent = true %}{% endif %}{% endif %}
+{% if easylockdownLockedContent %}
+{% unless customer %}
+{% assign easylockdownON = true %}
+{% capture easylockdownPage404Title %}Page not found{% endcapture %}
+{% capture easylockdownPage404Message %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
+{% capture easylockdownRedirectURL %}login{% endcapture %}
+{% endunless %}
+{% endif %}
+{% endunless %}
+{% unless customer %}
+<script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/pages/algemene-voorwaarden"]');</script>
+{% endunless %}
+
+
+{% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' %}
+{% assign easylockdownLockedContent = false %}
+{% assign easylockdownHiddenContent = false %}
 {% if template contains "product" and product %}{% if elpTag1 %}{% assign easylockdownLockedContent = true %}{% endif %}{% endif %}
 {% if easylockdownLockedContent %}
 {% unless customer %}

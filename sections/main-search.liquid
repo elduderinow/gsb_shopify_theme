@@ -280,7 +280,7 @@
                 role="list"
               >
                 {%- for item in search.results -%}
-                  {% include 'easylockdown_filter_search' with item %}
+                  
                   {% assign lazy_load = false %}
                   {%- if forloop.index > 2 -%}
                     {%- assign lazy_load = true -%}

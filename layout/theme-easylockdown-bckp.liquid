@@ -1,10 +1,12 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+    {% include 'easylockdown_head' %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
+    <meta name="google-site-verification" content="86qCqyBA_djbnIMysPLqu-GiBjfKgz5QrzowRtXO3KE" />
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 
@@ -261,7 +263,8 @@
     {% sections 'header-group' %}
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      {{ content_for_layout }}
+      {% comment %}{{ content_for_layout }}{% endcomment %}
+      {%- include 'easylockdown_body' %}
     </main>
 
     {% sections 'footer-group' %}

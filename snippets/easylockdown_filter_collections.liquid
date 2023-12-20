@@ -1,0 +1,25 @@
+{% assign easylockdownLocationsCan = '' | split: ',' %}{% assign easylockdownLocationsCannot = '' | split: ',' %}{% assign easylockdownPasswordItems = '' | split: ',' %}
+{% assign easylockdownNow = 'now' | date:'%s' | times: 1 %}{% assign easylockdownNowWeekDay = easylockdownNow | date:'%u' %}{% assign easylockdownNowMonthDay = easylockdownNow | date:'%d' %}{% assign easylockdownNowHM = easylockdownNow | date:'%H%M' | times: 1 %}{% if customer %}{% assign easylockdownPlacedOrder = customer.orders.first.created_at | date:'%s' %}{% assign easylockdownOldestPlacedOrder = customer.orders.last.created_at | date:'%s' %}{% assign easylockdownDateDifference = easylockdownNow | minus: easylockdownPlacedOrder %}{% endif %}
+{% for t in customer.tags %}
+{% assign tag = t | downcase %}
+{% if tag == 'b2b' %}{% assign elcTag1 = true %}{% endif %}
+{% if tag == 'training' %}{% assign elcTag2 = true %}{% endif %}
+{% endfor %}
+{% for t in easylockdown_filter_collections.tags %}
+{% assign tag = t | downcase %}
+{% if tag == 'stockverkoop' %}{% assign elpTag1 = true %}{% endif %}
+{% if tag == 'skincare professional' %}{% assign elpTag2 = true %}{% endif %}
+{% if tag == 'beauty professional' %}{% assign elpTag3 = true %}{% endif %}
+{% endfor %}
+{% assign easylockdownCollectionsException = false %}
+{% unless easylockdownCollectionsException %}
+{% if easylockdown_filter_collections.id == 604232778075 or easylockdown_filter_collections.id == 603942256987 %}
+{% unless customer %}
+{% if easylockdownRender %}continue{% endif %}{% continue %}
+{% else %}
+{% unless elcTag1 %}{% if easylockdownRender %}continue{% endif %}{% continue %}{% endunless %}
+{% endunless %}
+{% endif %}
+{% endunless %}
+
+{% unless easylockdownItemSelectorOff %}<div class='easylockdown-collection-item-selector easy-item-selector' data-eld-loc-can='{{ easylockdownLocationsCan | join: "," }}' data-eld-loc-cannot='{{ easylockdownLocationsCannot | join: "," }}' data-eld-loc-auth='{{ easylockdownPasswordItems | join: "," }}' style='display:none;'></div>{% endunless %}

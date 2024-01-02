@@ -295,6 +295,7 @@ button.gm-control-active.gm-fullscreen-control img:nth-child(3) {
 }
 .store-locator-wrapper .scasl-container form#bh-sl-user-location .scasl-address-wrap .search-buttons {
   display: flex;
+  gap: 2rem;
 }
 .store-locator-wrapper .scasl-container form#bh-sl-user-location .scasl-address-wrap .search-buttons .scasl-search-btn {
   padding: 0;

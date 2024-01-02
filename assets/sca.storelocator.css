@@ -271,3 +271,7 @@ button.gm-control-active.gm-fullscreen-control img:nth-child(3) {
 .bh-sl-container {
   padding: 5rem 0 10rem 0 !important;
 }
+
+.store-locator-wrapper {
+  background-color: red;
+}

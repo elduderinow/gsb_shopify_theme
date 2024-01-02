@@ -282,9 +282,9 @@ button.gm-control-active.gm-fullscreen-control img:nth-child(3) {
 .store-locator-wrapper .scasl-container button {
   font-family: "Roboto", sans-serif !important;
 }
-.store-locator-wrapper .scasl-container form#scasl-distance #bh-sl-user-location #scapl-geocode-btn {
+.store-locator-wrapper .scasl-container form#bh-sl-user-location #scapl-geocode-btn {
   border-radius: 0;
 }
-.store-locator-wrapper .scasl-container form#scasl-distance #bh-sl-user-location .scasl-see-more-content {
+.store-locator-wrapper .scasl-container form#bh-sl-user-location .scasl-see-more-content {
   display: none;
 }

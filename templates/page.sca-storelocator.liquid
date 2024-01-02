@@ -12,10 +12,15 @@
               <label for="bh-sl-address">Current Location</label>
               <div class="scasl-address-wrap">
                 <input type="text" id="bh-sl-address" name="bh-sl-address">
-                <a href="#" id="scapl-geocode-btn" title="Find My Location" style="background-color: none !important">
-                  <img src="{{ 'sca.location-find-location.png' | asset_url }}">
-                </a>
+                {% comment %}
+                  <a href="#" id="scapl-geocode-btn" title="Find My Location" style="background-color: none !important">
+                    <img src="{{ 'sca.location-find-location.png' | asset_url }}">
+                  </a>
+                {% endcomment %}
                 <button id="scapl-geocode-btn" type="button">Find My Location</button>
+                <div class="scasl-search-btn">
+                  <button id="bh-sl-submit" type="submit">Search</button>
+                </div>
               </div>
             </div>
 
@@ -39,12 +44,16 @@
               </div>
             </div>
 
-            <a class="scasl-see-more">More &raquo;</a>
-            <a class="scasl-see-less">Less &laquo;</a>
+            {% comment %}
+              <a class="scasl-see-more">More &raquo;</a>
+              <a class="scasl-see-less">Less &laquo;</a>
+            {% endcomment %}
 
-            <div class="scasl-search-btn">
-              <button id="bh-sl-submit" type="submit">Search</button>
-            </div>
+            {% comment %}
+              <div class="scasl-search-btn">
+                <button id="bh-sl-submit" type="submit">Search</button>
+              </div>
+            {% endcomment %}
           </form>
           <div class="spinner">
             <div class="double-bounce1"></div>

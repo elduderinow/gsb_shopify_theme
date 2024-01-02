@@ -67,7 +67,7 @@ body {
   }
 }
 .footer .left .footer__social {
-  padding: 8rem 0;
+  padding-top: 8rem;
   display: flex;
   border-top: 1px solid rgb(186, 173, 168);
   justify-content: space-between;
@@ -78,6 +78,10 @@ body {
 }
 .footer .left .footer__social .social-icons svg path {
   fill: rgb(84, 72, 67);
+}
+.footer .left .footer__extra {
+  padding-bottom: 8rem;
+  display: flex;
 }
 .footer .right {
   background-color: rgb(36, 36, 36);

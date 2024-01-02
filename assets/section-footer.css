@@ -82,6 +82,7 @@ body {
 .footer .left .footer__extra {
   padding-bottom: 8rem;
   display: flex;
+  gap: 0.5rem;
 }
 .footer .left .footer__extra a {
   text-decoration: underline;

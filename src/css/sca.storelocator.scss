@@ -1,0 +1,67 @@
+@import "./shopify/sca.storelocator.scss";
+
+.store-locator-wrapper {
+    .scasl-container {
+        #page-header {
+            .bh-sl-title {
+                font-family: "Roboto", sans-serif;
+            }
+        }
+
+        label,
+        input,
+        select,
+        a,
+        button {
+            font-family: "Roboto", sans-serif !important;
+        }
+
+        form#bh-sl-user-location {
+            #scapl-geocode-btn {
+                border-radius: 0;
+            }
+            .scasl-see-more-content {
+                display: none;
+            }
+
+            .scasl-address-wrap {
+                display: flex;
+                gap: 1rem;
+                flex-direction: column;
+
+                input {
+                    width: 100% !important;
+                }
+
+                .search-buttons {
+                    display: flex;
+                    gap: 1rem;
+
+                    #scapl-geocode-btn {
+                        background-color: gray !important;
+                        margin-top: 0 !important;
+
+                        &:hover {
+                            background-color: darken(gray, 5%) !important;
+                        }
+                    }
+
+                    .scasl-search-btn {
+                        padding: 0;
+                        margin: 0;
+                        border-top: none;
+
+                        #bh-sl-submit {
+                            background-color: black !important;
+                            border-radius: 0;
+
+                            &:hover {
+                                background-color: lighten(black, 5%) !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

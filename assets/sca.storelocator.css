@@ -77,7 +77,7 @@
   margin: 0 !important;
 }
 
-.scasl-tag>label {
+.scasl-tag > label {
   font-weight: bold;
 }
 
@@ -212,38 +212,30 @@
 
 /* Screens */
 @media screen and (max-width: 600px) {
-
   .scasl-location-list,
   .scasl-map {
     width: 100% !important;
   }
-
   .scasl-location-list {
     height: 300px !important;
   }
-
   .scasl-map {
     margin-top: 10px;
   }
 }
-
 @media screen and (max-width: 768px) {
-
   .scasl-search-btn button,
   #scapl-geocode-btn {
     width: auto !important;
   }
-
   #scapl-geocode-btn {
     float: left;
     margin-top: 10px !important;
   }
-
   #bh-sl-address {
     width: 100% !important;
   }
 }
-
 #scasl-title {
   font-weight: bold !important;
 }
@@ -254,7 +246,7 @@
 }
 
 .gm-style-cc,
-.gm-style-cc+div {
+.gm-style-cc + div {
   visibility: visible;
 }
 
@@ -273,9 +265,57 @@ button.gm-control-active.gm-fullscreen-control img:nth-child(1) {
 
 button.gm-control-active.gm-fullscreen-control img:nth-child(2),
 button.gm-control-active.gm-fullscreen-control img:nth-child(3) {
-  display: none
+  display: none;
 }
 
 .bh-sl-container {
   padding: 5rem 0 10rem 0 !important;
+}
+
+.store-locator-wrapper .scasl-container #page-header .bh-sl-title {
+  font-family: "Roboto", sans-serif;
+}
+.store-locator-wrapper .scasl-container label,
+.store-locator-wrapper .scasl-container input,
+.store-locator-wrapper .scasl-container select,
+.store-locator-wrapper .scasl-container a,
+.store-locator-wrapper .scasl-container button {
+  font-family: "Roboto", sans-serif !important;
+}
+.store-locator-wrapper .scasl-container form#bh-sl-user-location #scapl-geocode-btn {
+  border-radius: 0;
+}
+.store-locator-wrapper .scasl-container form#bh-sl-user-location .scasl-see-more-content {
+  display: none;
+}
+.store-locator-wrapper .scasl-container form#bh-sl-user-location .scasl-address-wrap {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.store-locator-wrapper .scasl-container form#bh-sl-user-location .scasl-address-wrap input {
+  width: 100% !important;
+}
+.store-locator-wrapper .scasl-container form#bh-sl-user-location .scasl-address-wrap .search-buttons {
+  display: flex;
+  gap: 1rem;
+}
+.store-locator-wrapper .scasl-container form#bh-sl-user-location .scasl-address-wrap .search-buttons #scapl-geocode-btn {
+  background-color: gray !important;
+  margin-top: 0 !important;
+}
+.store-locator-wrapper .scasl-container form#bh-sl-user-location .scasl-address-wrap .search-buttons #scapl-geocode-btn:hover {
+  background-color: #737373 !important;
+}
+.store-locator-wrapper .scasl-container form#bh-sl-user-location .scasl-address-wrap .search-buttons .scasl-search-btn {
+  padding: 0;
+  margin: 0;
+  border-top: none;
+}
+.store-locator-wrapper .scasl-container form#bh-sl-user-location .scasl-address-wrap .search-buttons .scasl-search-btn #bh-sl-submit {
+  background-color: black !important;
+  border-radius: 0;
+}
+.store-locator-wrapper .scasl-container form#bh-sl-user-location .scasl-address-wrap .search-buttons .scasl-search-btn #bh-sl-submit:hover {
+  background-color: #0d0d0d !important;
 }

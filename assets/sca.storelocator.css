@@ -273,5 +273,5 @@ button.gm-control-active.gm-fullscreen-control img:nth-child(3) {
 }
 
 .store-locator-wrapper {
-  background-color: red;
+  background-color: red !important;
 }

@@ -301,7 +301,7 @@ button.gm-control-active.gm-fullscreen-control img:nth-child(3) {
   gap: 1rem;
 }
 .store-locator-wrapper .scasl-container form#bh-sl-user-location .scasl-address-wrap .search-buttons .scapl-geocode-btn {
-  background-color: gray;
+  background-color: gray !important;
 }
 .store-locator-wrapper .scasl-container form#bh-sl-user-location .scasl-address-wrap .search-buttons .scasl-search-btn {
   padding: 0;
@@ -309,6 +309,6 @@ button.gm-control-active.gm-fullscreen-control img:nth-child(3) {
   border-top: none;
 }
 .store-locator-wrapper .scasl-container form#bh-sl-user-location .scasl-address-wrap .search-buttons .scasl-search-btn .bh-sl-submit {
-  background-color: black;
+  background-color: black !important;
   border-radius: 0;
 }

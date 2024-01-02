@@ -2,6 +2,11 @@
   z-index: 10000000 !important;
 }
 
+.store-locator-wrapper {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
 .scasl-location-mobile-wrap {
   clear: left;
   float: left;

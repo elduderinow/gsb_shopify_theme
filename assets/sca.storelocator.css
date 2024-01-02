@@ -302,6 +302,7 @@ button.gm-control-active.gm-fullscreen-control img:nth-child(3) {
 }
 .store-locator-wrapper .scasl-container form#bh-sl-user-location .scasl-address-wrap .search-buttons #scapl-geocode-btn {
   background-color: gray !important;
+  margin: 0;
 }
 .store-locator-wrapper .scasl-container form#bh-sl-user-location .scasl-address-wrap .search-buttons #scapl-geocode-btn:hover {
   background-color: #737373 !important;

@@ -278,15 +278,3 @@ button.gm-control-active.gm-fullscreen-control img:nth-child(3) {
 .store-locator-wrapper .scasl-container label, .store-locator-wrapper .scasl-container input, .store-locator-wrapper .scasl-container select, .store-locator-wrapper .scasl-container a, .store-locator-wrapper .scasl-container button {
   font-family: "Roboto", sans-serif !important;
 }
-.store-locator-wrapper .scasl-container #scasl-tabs {
-  display: none;
-}
-.store-locator-wrapper .scasl-container #bh-sl-user-location a#scapl-geocode-btn {
-  display: none;
-}
-.store-locator-wrapper .scasl-container #bh-sl-user-location #scapl-geocode-btn {
-  border-radius: 0;
-}
-.store-locator-wrapper .scasl-container #bh-sl-user-location .scasl-see-more-content {
-  display: none;
-}

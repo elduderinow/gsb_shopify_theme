@@ -281,3 +281,6 @@ button.gm-control-active.gm-fullscreen-control img:nth-child(3) {
 .store-locator-wrapper .scasl-container #bh-sl-user-location #scapl-geocode-btn {
   display: none;
 }
+.store-locator-wrapper .scasl-container #bh-sl-user-location #scapl-geocode-btn {
+  border-radius: 0;
+}

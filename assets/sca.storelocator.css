@@ -310,4 +310,5 @@ button.gm-control-active.gm-fullscreen-control img:nth-child(3) {
 }
 .store-locator-wrapper .scasl-container form#bh-sl-user-location .scasl-address-wrap .search-buttons .scasl-search-btn .bh-sl-submit {
   background-color: black;
+  border-radius: 0;
 }

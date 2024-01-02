@@ -43,6 +43,9 @@
         "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-text-1",
         "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-buttons-1"
       ],
+      "custom_css": [
+        "banner__heading {color:red;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/23jul-hp-protect_prevent-slider-desktop.png",
         "image_overlay_opacity": 0,

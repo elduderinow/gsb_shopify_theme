@@ -272,13 +272,10 @@ button.gm-control-active.gm-fullscreen-control img:nth-child(3) {
   padding: 5rem 0 10rem 0 !important;
 }
 
-.store-locator-wrapper .scasl-container {
-  background-color: pink;
-}
 .store-locator-wrapper .scasl-container #scasl-tabs {
   display: none;
 }
-.store-locator-wrapper .scasl-container #bh-sl-user-location #scapl-geocode-btn img {
+.store-locator-wrapper .scasl-container #bh-sl-user-location a#scapl-geocode-btn {
   display: none;
 }
 .store-locator-wrapper .scasl-container #bh-sl-user-location #scapl-geocode-btn {

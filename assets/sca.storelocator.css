@@ -272,6 +272,6 @@ button.gm-control-active.gm-fullscreen-control img:nth-child(3) {
   padding: 5rem 0 10rem 0 !important;
 }
 
-.store-locator-wrapper .scasl-container {
-  background-color: red !important;
+.store-locator-wrapper .scasl-container #page-header #scasl-tabs {
+  display: none;
 }

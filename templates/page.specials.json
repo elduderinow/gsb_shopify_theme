@@ -34,8 +34,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/GloSkinBeauty-Oil-FreeTintedPrimer-Group-1_EUUK.png",
             "image_title": "Oil Free Tinted Primer",
-            "image_subtitle": "naar collectie",
-            "highlight_url": ""
+            "image_subtitle": "",
+            "highlight_url": "shopify:\/\/collections\/oil-free-tinted-primer"
           }
         },
         "caafd9d2-7a97-44ba-bff8-b9e226b70128": {
@@ -43,8 +43,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/2_1.png",
             "image_title": "Eye Base",
-            "image_subtitle": "eye base collectie",
-            "highlight_url": ""
+            "image_subtitle": "",
+            "highlight_url": "shopify:\/\/collections\/essential-eye-base"
           }
         },
         "0bf05740-800b-4b9b-894b-61d5ce06cc68": {
@@ -52,8 +52,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/unknown_344552512_1228537714456578_5851149202924115872_n_1.jpg",
             "image_title": "Highlighters",
-            "image_subtitle": "Skin Glow stick Highlight, skin glo powder highlighter",
-            "highlight_url": ""
+            "image_subtitle": "",
+            "highlight_url": "shopify:\/\/collections\/highlighters"
           }
         }
       },

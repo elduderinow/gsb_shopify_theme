@@ -79,7 +79,7 @@
       ],
       "custom_css": [
         ".footer__newsletter-container {pointer-events: none;}",
-        ".footer-block__newsletter {opacity:0.1;}"
+        ".footer-block__newsletter {opacity: 0.1; cursor: not-allowed;}"
       ],
       "settings": {
         "footer_image": "shopify:\/\/shop_images\/23Jun-HP-Automat-Quiz-Big-Banner.jpg",

@@ -236,6 +236,12 @@ body {
   justify-content: space-between;
   gap: 2rem;
 }
+.multicolumn .multicolumn-list .multicolumn-card .link {
+  display: flex;
+}
+.multicolumn .multicolumn-list .multicolumn-card .link .icon-wrap {
+  display: contents;
+}
 .multicolumn .multicolumn-list.padding--none {
   padding-left: 0;
   padding-right: 0;

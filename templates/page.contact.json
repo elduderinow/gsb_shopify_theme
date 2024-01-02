@@ -50,8 +50,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/3674f8c5-76eb-4c6c-a374-2f3a0bd37a6c.jpg",
-            "title": "<strong>Chief Executive officer<\/strong>",
-            "text": "<p><a href=\"mailto:tania@gloskinbeauty.be\" target=\"_blank\" title=\"mailto:tania@gloskinbeauty.be\">Tania@gloskinbeauty.be<\/a><\/p><p>+3247 33 35 92<\/p>",
+            "title": "<strong>Chief Executive Officer<\/strong>",
+            "text": "<p>Tania De Voght<\/p><p><a href=\"mailto:tania@gloskinbeauty.be\" target=\"_blank\" title=\"mailto:tania@gloskinbeauty.be\">Tania@gloskinbeauty.be<\/a><\/p><p>+3247 33 35 92<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -61,17 +61,27 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/35206914-f82a-4de1-a72d-776568234ac9.jpg",
             "title": "<strong>Educator manager<\/strong>",
-            "text": "<p><a href=\"mailto:Reina@gloskinbeauty.be\" target=\"_blank\" title=\"mailto:Reina@gloskinbeauty.be\">Reina@gloskinbeauty.be<\/a><\/p><p><\/p>",
+            "text": "<p>Reina Breugelmans<\/p><p><a href=\"mailto:Reina@gloskinbeauty.be\" target=\"_blank\" title=\"mailto:Reina@gloskinbeauty.be\">Reina@gloskinbeauty.be<\/a><\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b9730996-e123-4657-84d7-89b0398f008b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_c001224a-a8f9-49ba-bda6-f621375482d4.png",
+            "title": "<strong>Communications, Content & Community manager<\/strong>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         },
         "template--19143340360027__6b66fa65-45ce-4fe8-bcbb-2d826436d3ea-column-3": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/female_user.png",
+            "title": "<strong>Operational Support<\/strong>",
+            "text": "<p>Indra Franken<\/p><p>Indra@gloskinbeauty.be<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -80,11 +90,12 @@
       "block_order": [
         "template--19143340360027__6b66fa65-45ce-4fe8-bcbb-2d826436d3ea-column-2",
         "template--19143340360027__6b66fa65-45ce-4fe8-bcbb-2d826436d3ea-column-1",
+        "b9730996-e123-4657-84d7-89b0398f008b",
         "template--19143340360027__6b66fa65-45ce-4fe8-bcbb-2d826436d3ea-column-3"
       ],
       "settings": {
         "title": "Ons team",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "portrait",
         "columns_desktop": 3,
@@ -100,52 +111,6 @@
         "padding_top": 60,
         "padding_bottom": 80,
         "section_width": "full_width"
-      }
-    },
-    "7d2c8079-6afb-49b9-abc9-5d392c484f1b": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--19180119556443__7d2c8079-6afb-49b9-abc9-5d392c484f1b-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h2"
-          }
-        },
-        "template--19180119556443__7d2c8079-6afb-49b9-abc9-5d392c484f1b-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Bij glo Skin Beauty Benelux omarmen we een unieke samenwerking met <strong>rebels in business<\/strong>, pioniers in strategische en operationele mentoring op maat voor ambitieuze saloneigenaars. Rebels in business biedt een krachtige combinatie van expertise, hands-on ervaring en onuitputtelijke inspiratie, allemaal gericht op het verwezenlijken van jouw huidige en toekomstige doelen\/ideeën. Centraal in hun aanpak staat <strong>JOUW KLANT<\/strong>, jouw bron van inkomsten!<\/p><p>Zij staan ook klaar om jou efficiënt te helpen. Hun <strong>deep dive mentoringdag <\/strong>richt zich op het in kaart brengen van de knelpunten in je salon die aan de basis liggen van jouw vraag\/terugkerende uitdaging. Onze samenwerking heeft geleid naar een volledige rebranding van glo Skin beauty Benelux om ons nog beter in de markt te plaatsen. Benieuwd naar het resultaat wanneer jij <strong>rebels in business<\/strong> toelaat in jouw skin business? Bezoek <a href=\"http:\/\/www.rebels-in-business.be\/\">www.rebels-in-business.be<\/a><\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--19180119556443__7d2c8079-6afb-49b9-abc9-5d392c484f1b-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19180119556443__7d2c8079-6afb-49b9-abc9-5d392c484f1b-heading-1",
-        "template--19180119556443__7d2c8079-6afb-49b9-abc9-5d392c484f1b-text-1",
-        "template--19180119556443__7d2c8079-6afb-49b9-abc9-5d392c484f1b-button-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/phyto-calm-mist-2.jpg",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section_width": "boxed"
       }
     },
     "76e018a9-a272-4cf6-95ae-b681d737749c": {
@@ -225,14 +190,61 @@
         "padding_top": 36,
         "padding_bottom": 100
       }
+    },
+    "4ae8b7f2-c654-4b86-811b-6b3c6278296c": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19180119556443__4ae8b7f2-c654-4b86-811b-6b3c6278296c-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cropped-cropped-banner-website-1-2.png",
+            "title": "",
+            "text": "<p>Bij glo Skin Beauty Benelux omarmen we een unieke samenwerking met <strong>rebels in business<\/strong>, pioniers in strategische en operationele mentoring op maat voor ambitieuze saloneigenaars. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19180119556443__4ae8b7f2-c654-4b86-811b-6b3c6278296c-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Rebels in Business<\/strong>",
+            "text": "<p>Rebels in business biedt een krachtige combinatie van expertise, hands-on ervaring en onuitputtelijke inspiratie, allemaal gericht op het verwezenlijken van jouw huidige en toekomstige doelen\/ideeën.<br\/><br\/>Centraal in hun aanpak staat <strong>JOUW KLANT<\/strong>, jouw bron van inkomsten!Zij staan ook klaar om jou efficiënt te helpen. Hun <strong>deep dive mentoringdag <\/strong>richt zich op het in kaart brengen van de knelpunten in je salon die aan de basis liggen van jouw vraag\/terugkerende uitdaging. <br\/><br\/>Onze samenwerking heeft geleid naar een volledige rebranding van glo Skin beauty Benelux om ons nog beter in de markt te plaatsen. Benieuwd naar het resultaat wanneer jij <strong>rebels in business<\/strong> toelaat in jouw skin business?<\/p>",
+            "link_label": "Bezoek Rebels in Business",
+            "link": "https:\/\/rebels-in-business.be"
+          }
+        }
+      },
+      "block_order": [
+        "template--19180119556443__4ae8b7f2-c654-4b86-811b-6b3c6278296c-column-1",
+        "template--19180119556443__4ae8b7f2-c654-4b86-811b-6b3c6278296c-column-3"
+      ],
+      "settings": {
+        "title": "Onze partners",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "icon__grid": false,
+        "column_alignment": "left",
+        "item_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
     }
   },
   "order": [
     "main",
     "5d688b20-f395-42fc-9b72-c2701c406c1c",
     "6b66fa65-45ce-4fe8-bcbb-2d826436d3ea",
-    "7d2c8079-6afb-49b9-abc9-5d392c484f1b",
     "76e018a9-a272-4cf6-95ae-b681d737749c",
-    "form"
+    "form",
+    "4ae8b7f2-c654-4b86-811b-6b3c6278296c"
   ]
 }

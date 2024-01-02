@@ -282,9 +282,6 @@ button.gm-control-active.gm-fullscreen-control img:nth-child(3) {
 .store-locator-wrapper .scasl-container button {
   font-family: "Roboto", sans-serif !important;
 }
-.store-locator-wrapper .scasl-container form#scasl-distance #bh-sl-user-location a#scapl-geocode-btn {
-  display: none;
-}
 .store-locator-wrapper .scasl-container form#scasl-distance #bh-sl-user-location #scapl-geocode-btn {
   border-radius: 0;
 }

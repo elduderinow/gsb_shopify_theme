@@ -67,7 +67,7 @@ body {
   }
 }
 .footer .left .footer__social {
-  padding: 8rem 0;
+  padding-top: 8rem;
   display: flex;
   border-top: 1px solid rgb(186, 173, 168);
   justify-content: space-between;
@@ -78,6 +78,17 @@ body {
 }
 .footer .left .footer__social .social-icons svg path {
   fill: rgb(84, 72, 67);
+}
+.footer .left .footer__extra {
+  padding-bottom: 8rem;
+  display: flex;
+  gap: 0.5rem;
+}
+.footer .left .footer__extra a {
+  text-decoration: underline;
+}
+.footer .left .footer__extra a:hover {
+  text-decoration: none;
 }
 .footer .right {
   background-color: rgb(36, 36, 36);
@@ -116,6 +127,7 @@ body {
 .footer .right .footer__newsletter-container .footer-block__newsletter .footer__newsletter .field__input {
   background-color: rgba(0, 0, 0, 0);
   border: none;
+  color: white;
 }
 .footer .right .footer__newsletter-container .footer-block__newsletter .footer__newsletter .newsletter-form__field-wrapper .field label {
   color: white;

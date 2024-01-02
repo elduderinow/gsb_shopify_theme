@@ -33,6 +33,16 @@ $cols: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
         justify-content: space-between;
         gap: 2rem;
 
+        .multicolumn-card {
+            .link {
+                display: flex;
+
+                .icon-wrap {
+                    display: contents;
+                }
+            }
+        }
+
         &.padding--none {
             padding-left: 0;
             padding-right: 0;

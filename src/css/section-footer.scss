@@ -64,7 +64,7 @@ $content-color: rgb(84, 72, 67);
         }
 
         .footer__social {
-            padding: 8rem 0;
+            padding-top: 8rem;
             display: flex;
             border-top: 1px solid rgb(186, 173, 168);
             justify-content: space-between;
@@ -77,6 +77,20 @@ $content-color: rgb(84, 72, 67);
             .social-icons {
                 svg path {
                     fill: $content-color;
+                }
+            }
+        }
+
+        .footer__extra {
+            padding-bottom: 8rem;
+            display: flex;
+            gap: 0.5rem;
+
+            a {
+                text-decoration: underline;
+
+                &:hover {
+                    text-decoration: none;
                 }
             }
         }
@@ -120,6 +134,7 @@ $content-color: rgb(84, 72, 67);
                     .field__input {
                         background-color: rgba(0, 0, 0, 0);
                         border: none;
+                        color: white;
                     }
 
                     .newsletter-form__field-wrapper {

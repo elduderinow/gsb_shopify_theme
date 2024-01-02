@@ -592,12 +592,12 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
 .mt-14 {
   margin-top: 3.5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .block {

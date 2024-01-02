@@ -102,6 +102,52 @@
         "section_width": "full_width"
       }
     },
+    "7d2c8079-6afb-49b9-abc9-5d392c484f1b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19180119556443__7d2c8079-6afb-49b9-abc9-5d392c484f1b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h2"
+          }
+        },
+        "template--19180119556443__7d2c8079-6afb-49b9-abc9-5d392c484f1b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bij glo Skin Beauty Benelux omarmen we een unieke samenwerking met <strong>rebels in business<\/strong>, pioniers in strategische en operationele mentoring op maat voor ambitieuze saloneigenaars. Rebels in business biedt een krachtige combinatie van expertise, hands-on ervaring en onuitputtelijke inspiratie, allemaal gericht op het verwezenlijken van jouw huidige en toekomstige doelen\/ideeën. Centraal in hun aanpak staat <strong>JOUW KLANT<\/strong>, jouw bron van inkomsten!<\/p><p>Zij staan ook klaar om jou efficiënt te helpen. Hun <strong>deep dive mentoringdag <\/strong>richt zich op het in kaart brengen van de knelpunten in je salon die aan de basis liggen van jouw vraag\/terugkerende uitdaging. Onze samenwerking heeft geleid naar een volledige rebranding van glo Skin beauty Benelux om ons nog beter in de markt te plaatsen. Benieuwd naar het resultaat wanneer jij <strong>rebels in business<\/strong> toelaat in jouw skin business? Bezoek <a href=\"http:\/\/www.rebels-in-business.be\/\">www.rebels-in-business.be<\/a><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19180119556443__7d2c8079-6afb-49b9-abc9-5d392c484f1b-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19180119556443__7d2c8079-6afb-49b9-abc9-5d392c484f1b-heading-1",
+        "template--19180119556443__7d2c8079-6afb-49b9-abc9-5d392c484f1b-text-1",
+        "template--19180119556443__7d2c8079-6afb-49b9-abc9-5d392c484f1b-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/phyto-calm-mist-2.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "76e018a9-a272-4cf6-95ae-b681d737749c": {
       "type": "multicolumn",
       "blocks": {
@@ -185,6 +231,7 @@
     "main",
     "5d688b20-f395-42fc-9b72-c2701c406c1c",
     "6b66fa65-45ce-4fe8-bcbb-2d826436d3ea",
+    "7d2c8079-6afb-49b9-abc9-5d392c484f1b",
     "76e018a9-a272-4cf6-95ae-b681d737749c",
     "form"
   ]

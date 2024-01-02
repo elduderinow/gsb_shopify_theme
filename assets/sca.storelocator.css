@@ -273,7 +273,7 @@ button.gm-control-active.gm-fullscreen-control img:nth-child(3) {
 }
 
 .store-locator-wrapper .scasl-container #page-header .bh-sl-title {
-  font: inherit !important;
+  font-family: "Roboto", sans-serif;
 }
 .store-locator-wrapper .scasl-container #scasl-tabs {
   display: none;

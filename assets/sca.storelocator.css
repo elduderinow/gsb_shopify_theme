@@ -273,8 +273,8 @@ button.gm-control-active.gm-fullscreen-control img:nth-child(3) {
 }
 
 .store-locator-wrapper .scasl-container {
-  background-color: pink !important;
+  background-color: pink;
 }
-.store-locator-wrapper .scasl-container #page-header #scasl-tabs {
-  display: none !important;
+.store-locator-wrapper .scasl-container #scasl-tabs {
+  display: none;
 }

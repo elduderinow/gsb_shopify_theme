@@ -288,3 +288,8 @@ button.gm-control-active.gm-fullscreen-control img:nth-child(3) {
 .store-locator-wrapper .scasl-container form#bh-sl-user-location .scasl-see-more-content {
   display: none;
 }
+.store-locator-wrapper .scasl-container form#bh-sl-user-location .scasl-address-wrap {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}

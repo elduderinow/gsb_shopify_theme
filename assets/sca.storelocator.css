@@ -278,7 +278,7 @@ button.gm-control-active.gm-fullscreen-control img:nth-child(3) {
 .store-locator-wrapper .scasl-container #scasl-tabs {
   display: none;
 }
-.store-locator-wrapper .scasl-container #bh-sl-user-location #scapl-geocode-btn {
+.store-locator-wrapper .scasl-container #bh-sl-user-location #scapl-geocode-btn img {
   display: none;
 }
 .store-locator-wrapper .scasl-container #bh-sl-user-location #scapl-geocode-btn {

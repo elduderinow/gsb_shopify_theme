@@ -5,7 +5,6 @@
 .store-locator-wrapper {
   max-width: 1500px;
   margin: 0 auto;
-  padding-top: 5rem;
 }
 
 .scasl-location-mobile-wrap {
@@ -278,5 +277,5 @@ button.gm-control-active.gm-fullscreen-control img:nth-child(3) {
 }
 
 .bh-sl-container {
-  padding: 0 !important;
+  padding: 5rem 0 10rem 0 !important;
 }

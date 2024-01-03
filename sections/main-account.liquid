@@ -44,6 +44,7 @@
                   {{ 'customer.orders.fulfillment_status' | t }}
                 </th>
                 <th id="ColumnTotal" scope="col" role="columnheader">{{ 'customer.orders.total' | t }}</th>
+                 <th>Factuur nodig?</th>
               </tr>
             </thead>
             <tbody role="rowgroup">
@@ -82,6 +83,8 @@
                   <td headers="RowOrder ColumnTotal" role="cell" data-label="{{ 'customer.orders.total' | t }}">
                     {{ order.total_net_amount | money_with_currency }}
                   </td>
+                  <td><a target='_blank' href='https://gloskincare.myshopify.com/apps/download-pdf/9c15b973a4acc3c4237f/{{ order.id | times: 1493 }}/{{ order.order_number }}.pdf'>Download PDF</a></td>
+
                 </tr>
               {%- endfor -%}
             </tbody>

@@ -156,6 +156,7 @@
         },
         "2fc92817-1265-4478-8cf7-5f7170c36be2": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/20.png",
             "title": "Holliday Kits 23",

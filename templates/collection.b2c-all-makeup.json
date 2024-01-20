@@ -39,6 +39,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1",
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/featured_header_Desktop-_vitamin-c_2.jpg",
         "height": "adapt",
@@ -120,6 +121,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-text-1",
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -167,6 +169,7 @@
         "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-2",
         "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -189,6 +192,7 @@
     },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -232,6 +236,7 @@
         "template--19336311996763__37451595-eac5-4463-8371-6f0daf3e0822-column-1",
         "template--19336311996763__37451595-eac5-4463-8371-6f0daf3e0822-column-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -338,6 +343,7 @@
         "47bc5dec-6dc0-4a94-9f0e-b551c474d87c",
         "94b37849-f3b0-431d-92cf-28f9f32d3397"
       ],
+      "disabled": true,
       "settings": {
         "caption": "FAQ",
         "heading": "Veelgestelde vragen over Vitamine C",

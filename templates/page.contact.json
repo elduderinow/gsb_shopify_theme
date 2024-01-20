@@ -113,6 +113,15 @@
         "section_width": "full_width"
       }
     },
+    "custom_liquid_Ct6nrU": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"b2b-section\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "76e018a9-a272-4cf6-95ae-b681d737749c": {
       "type": "multicolumn",
       "blocks": {
@@ -243,6 +252,7 @@
     "main",
     "5d688b20-f395-42fc-9b72-c2701c406c1c",
     "6b66fa65-45ce-4fe8-bcbb-2d826436d3ea",
+    "custom_liquid_Ct6nrU",
     "76e018a9-a272-4cf6-95ae-b681d737749c",
     "form",
     "4ae8b7f2-c654-4b86-811b-6b3c6278296c"

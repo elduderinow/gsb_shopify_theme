@@ -116,12 +116,12 @@
           id="ContactForm-body"
           class="text-area field__input"
           name="contact[{{ 'templates.contact.form.comment' | t }}]"
-          placeholder="test"
+          placeholder="{{ 'templates.contact.form.comment' | t }}"
         >
           {{- form.body -}}
         </textarea>
         <label class="form__label field__label" for="ContactForm-body">
-          {{- 'templates.contact.form.comment' | t -}}
+          test
         </label>
       </div>
       <div class="contact__button">

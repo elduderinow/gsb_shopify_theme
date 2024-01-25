@@ -12,3 +12,6 @@
 .account--sidebar .sidebar-bottom {
   margin-top: 100px;
 }
+.account--sidebar .sidebar-bottom .list--item a {
+  display: flex;
+}

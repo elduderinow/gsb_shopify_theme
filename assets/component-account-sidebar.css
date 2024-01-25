@@ -8,11 +8,13 @@
 .account--sidebar .links-wrapper .list--item a {
   text-decoration: none;
   padding: 1rem;
+  width: 100%;
+  display: block;
 }
-.account--sidebar .links-wrapper .list--item.active {
+.account--sidebar .links-wrapper .list--item.active a {
   background-color: #ebebeb;
 }
-.account--sidebar .links-wrapper .list--item:hover {
+.account--sidebar .links-wrapper .list--item:hover a {
   background-color: #ebebeb;
 }
 .account--sidebar .sidebar-bottom {

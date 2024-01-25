@@ -21,7 +21,7 @@
       <a href="{{ routes.account_url }}">{{ 'customer.account.return' | t }}</a>
     </div>
   {% endcomment %}
-  <div class="grid">
+  <div class="grid grid-cols-12">
     <div class="col-span-2 bg-blue-200">
       {% render 'account-sidebar' %}
     </div>
@@ -326,24 +326,26 @@
     </div>
   </div>
 
-  <div>
+  {% comment %}
     <div>
-      <h2>{{ 'customer.order.billing_address' | t }}</h2>
-      <p>
-        <strong>{{ 'customer.order.payment_status' | t }}:</strong>
-        {{ order.financial_status_label }}
-      </p>
-      {{ order.billing_address | format_address }}
+      <div>
+        <h2>{{ 'customer.order.billing_address' | t }}</h2>
+        <p>
+          <strong>{{ 'customer.order.payment_status' | t }}:</strong>
+          {{ order.financial_status_label }}
+        </p>
+        {{ order.billing_address | format_address }}
+      </div>
+      <div>
+        <h2>{{ 'customer.order.shipping_address' | t }}</h2>
+        <p>
+          <strong>{{ 'customer.order.fulfillment_status' | t }}:</strong>
+          {{ order.fulfillment_status_label }}
+        </p>
+        {{ order.shipping_address | format_address }}
+      </div>
     </div>
-    <div>
-      <h2>{{ 'customer.order.shipping_address' | t }}</h2>
-      <p>
-        <strong>{{ 'customer.order.fulfillment_status' | t }}:</strong>
-        {{ order.fulfillment_status_label }}
-      </p>
-      {{ order.shipping_address | format_address }}
-    </div>
-  </div>
+  {% endcomment %}
 </div>
 
 {% schema %}

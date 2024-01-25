@@ -3,7 +3,7 @@
   padding: 0;
 }
 .account--sidebar .links-wrapper .list--item {
-  padding: 1rem 0;
+  padding: 1rem;
   border-bottom: 1px solid gray;
 }
 .account--sidebar .links-wrapper .list--item a {

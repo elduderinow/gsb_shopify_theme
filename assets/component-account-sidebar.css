@@ -5,6 +5,9 @@
   margin: 0;
   padding: 0;
 }
+.account--sidebar .links-wrapper .list--item {
+  border-bottom: 1px solid gray;
+}
 .account--sidebar .sidebar-bottom {
   margin-top: 100px;
 }

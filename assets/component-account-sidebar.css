@@ -9,6 +9,9 @@
   padding: 1rem 0;
   border-bottom: 1px solid gray;
 }
+.account--sidebar .links-wrapper .list--item a {
+  text-decoration: none;
+}
 .account--sidebar .sidebar-bottom {
   margin-top: 100px;
 }

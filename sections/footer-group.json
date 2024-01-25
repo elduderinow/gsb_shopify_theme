@@ -77,6 +77,10 @@
         "1eb74a45-7700-4958-bd00-dadeeaeecf14",
         "footer-2"
       ],
+      "custom_css": [
+        ".footer__newsletter-container {pointer-events: none;}",
+        ".footer-block__newsletter {opacity: 0.1; cursor: not-allowed;}"
+      ],
       "settings": {
         "footer_image": "shopify:\/\/shop_images\/23Jun-HP-Automat-Quiz-Big-Banner.jpg",
         "footer_logo": "shopify:\/\/shop_images\/gsb_horizontal.svg",

@@ -6,11 +6,11 @@
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_GloSkinBeauty-23Holiday-SkincareKits.png",
-            "heading": "<strong>Holiday Kits 2023<\/strong>",
+            "image": "shopify:\/\/shop_images\/Copy_of_GSB-SolutionPrimerCollection-2-0923.jpg",
+            "heading": "<strong>Solution Primers<\/strong>",
             "heading_size": "h1",
             "color_option_id": "#414141",
-            "subheading": "Time To Shine",
+            "subheading": "NIEUW",
             "subheading_size": "h6",
             "button_label": "Shop Limited Edition Kits",
             "link": "shopify:\/\/collections\/holiday-23",
@@ -24,8 +24,8 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/GloSkinBeauty-dOil-FreeTintedPrimer-Group-1_EUUK.jpg",
-            "heading": "<strong>Nieuw <\/strong>",
-            "heading_size": "h1",
+            "heading": "<strong>Oil Free Tinted Primer SPF 30<\/strong>",
+            "heading_size": "h2",
             "color_option_id": "#3c3c3c",
             "subheading": "Een 4-in-1 olievrije getinte primer om de huid te corrigeren,  beschermen en te balanceren.",
             "subheading_size": "h5",
@@ -721,7 +721,7 @@
             "title": "Huidverbeterende make-up",
             "text": "",
             "link_label": "Minimale inspanning – maximale glow!",
-            "link": "shopify:\/\/collections\/eye-mascara",
+            "link": "shopify:\/\/collections\/b2c-all-makeup",
             "bg_color": "#1a3148",
             "bg_opacity": 50
           }

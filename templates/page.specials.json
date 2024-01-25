@@ -23,10 +23,10 @@
         "19d36a42-b3ad-400c-a700-19a089c1648f": {
           "type": "highlight",
           "settings": {
-            "image": "shopify:\/\/shop_images\/20.png",
-            "image_title": "Holiday kits 23",
-            "image_subtitle": "",
-            "highlight_url": "shopify:\/\/collections\/holiday-23"
+            "image": "shopify:\/\/shop_images\/Copy_of_GSB-SolutionPrimerCollection-2-0923.jpg",
+            "image_title": "Solution Primers",
+            "image_subtitle": "Meer info",
+            "highlight_url": "shopify:\/\/collections\/face-prime"
           }
         },
         "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7": {
@@ -34,7 +34,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/GloSkinBeauty-Oil-FreeTintedPrimer-Group-1_EUUK.png",
             "image_title": "Oil Free Tinted Primer",
-            "image_subtitle": "",
+            "image_subtitle": "Meer info",
             "highlight_url": "shopify:\/\/collections\/oil-free-tinted-primer"
           }
         },
@@ -43,7 +43,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/2_1.png",
             "image_title": "Eye Base",
-            "image_subtitle": "",
+            "image_subtitle": "Meer info",
             "highlight_url": "shopify:\/\/collections\/essential-eye-base"
           }
         },
@@ -52,7 +52,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/unknown_344552512_1228537714456578_5851149202924115872_n_1.jpg",
             "image_title": "Highlighters",
-            "image_subtitle": "",
+            "image_subtitle": "Meer info",
             "highlight_url": "shopify:\/\/collections\/highlighters"
           }
         }
@@ -156,6 +156,7 @@
         },
         "2fc92817-1265-4478-8cf7-5f7170c36be2": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/20.png",
             "title": "Holliday Kits 23",

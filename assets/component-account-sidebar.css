@@ -12,6 +12,9 @@
 .account--sidebar .links-wrapper .list--item.active {
   background-color: #ebebeb;
 }
+.account--sidebar .links-wrapper .list--item:hover {
+  background-color: #ebebeb;
+}
 .account--sidebar .sidebar-bottom {
   margin-top: 100px;
 }

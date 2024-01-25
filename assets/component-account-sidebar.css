@@ -6,6 +6,7 @@
   padding: 0;
 }
 .account--sidebar .links-wrapper .list--item {
+  padding: 1rem 0;
   border-bottom: 1px solid gray;
 }
 .account--sidebar .sidebar-bottom {

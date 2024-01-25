@@ -1,0 +1,31 @@
+.account--sidebar {
+  position: sticky;
+}
+.account--sidebar .links-wrapper {
+  margin: 0;
+  padding: 0;
+}
+.account--sidebar .links-wrapper .list--item {
+  border-bottom: 1px solid gray;
+}
+.account--sidebar .links-wrapper .list--item a {
+  text-decoration: none;
+  padding: 1rem;
+  width: 100%;
+  display: block;
+}
+.account--sidebar .links-wrapper .list--item.active a {
+  background-color: #ebebeb;
+}
+.account--sidebar .links-wrapper .list--item:hover a {
+  background-color: #ebebeb;
+}
+.account--sidebar .sidebar-bottom {
+  margin-top: 100px;
+}
+.account--sidebar .sidebar-bottom .list--item a {
+  display: flex;
+}
+.account--sidebar .sidebar-bottom .list--item a svg {
+  margin-top: -3px;
+}

@@ -1,0 +1,38 @@
+.account--sidebar {
+    position: sticky;
+    
+    .links-wrapper {
+        margin: 0;
+        padding: 0;
+
+        .list--item {
+            border-bottom: 1px solid gray;
+            a {
+                text-decoration: none;
+                padding: 1rem;
+                width: 100%;
+                display: block;
+            }
+
+            &.active a {
+                background-color: #ebebeb;
+            }
+
+            &:hover a {
+                background-color: #ebebeb;
+            }
+        }
+    }
+
+    .sidebar-bottom {
+        margin-top: 100px;
+        .list--item {
+            a {
+                display: flex;
+                svg {
+                    margin-top: -3px;
+                }
+            }
+        }
+    }
+}

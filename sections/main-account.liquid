@@ -13,8 +13,13 @@
     }
   }
 {%- endstyle -%}
-{% render 'account-sidebar' %}
+{% comment %} {% render 'account-sidebar' %} {% endcomment %}
 <div class="customer account section-{{ section.id }}-padding">
+  <div class="grid grid-cols-12">
+    <div class="col-span-4">
+      <div class="account--sidebar">test sidebar</div>
+    </div>
+  </div>
   <div>
     <h1 class="customer__title">{{ 'customer.account.title' | t }}</h1>
     <a href="{{ routes.account_logout_url }}">

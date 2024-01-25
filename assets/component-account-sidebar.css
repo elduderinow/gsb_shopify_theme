@@ -4,7 +4,7 @@
 }
 .account--sidebar .links-wrapper .list--item {
   padding: 1rem;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #ebebeb;
 }
 .account--sidebar .links-wrapper .list--item a {
   text-decoration: none;

@@ -608,6 +608,14 @@ video {
   grid-column: span 10 / span 10;
 }
 
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
+
+.col-span-9 {
+  grid-column: span 9 / span 9;
+}
+
 .m-0 {
   margin: 0px;
 }

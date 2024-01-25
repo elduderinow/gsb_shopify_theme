@@ -13,7 +13,7 @@
     }
   }
 {%- endstyle -%}
-
+{% render 'share-button', block: block, share_link: share_url %}
 <div class="customer account section-{{ section.id }}-padding">
   <div>
     <h1 class="customer__title">{{ 'customer.account.title' | t }}</h1>
@@ -25,16 +25,16 @@
     </a>
   </div>
 
-    <div style="display:flex;flex-direction:column;">
-      <h2>{{ 'customer.account.details' | t }}</h2>
-      <div>
-        {{ customer.default_address | format_address }}
-  
-        <a href="{{ routes.account_addresses_url }}">
-          {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
-        </a>
-      </div>
+  <div style="display:flex;flex-direction:column;">
+    <h2>{{ 'customer.account.details' | t }}</h2>
+    <div>
+      {{ customer.default_address | format_address }}
+
+      <a href="{{ routes.account_addresses_url }}">
+        {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
+      </a>
     </div>
+  </div>
 
   <div style="margin-top:4rem;">
     <div>
@@ -55,7 +55,7 @@
                   {{ 'customer.orders.fulfillment_status' | t }}
                 </th>
                 <th id="ColumnTotal" scope="col" role="columnheader">{{ 'customer.orders.total' | t }}</th>
-                 <th>Factuur nodig?</th>
+                <th>Factuur nodig?</th>
               </tr>
             </thead>
             <tbody role="rowgroup">
@@ -94,8 +94,13 @@
                   <td headers="RowOrder ColumnTotal" role="cell" data-label="{{ 'customer.orders.total' | t }}">
                     {{ order.total_net_amount | money_with_currency }}
                   </td>
-                  <td><a target='_blank' href='https://gloskincare.myshopify.com/apps/download-pdf/9c15b973a4acc3c4237f/{{ order.id | times: 1493 }}/{{ order.order_number }}.pdf'>Download PDF</a></td>
-
+                  <td>
+                    <a
+                      target="_blank"
+                      href="https://gloskincare.myshopify.com/apps/download-pdf/9c15b973a4acc3c4237f/{{ order.id | times: 1493 }}/{{ order.order_number }}.pdf"
+                      >Download PDF</a
+                    >
+                  </td>
                 </tr>
               {%- endfor -%}
             </tbody>

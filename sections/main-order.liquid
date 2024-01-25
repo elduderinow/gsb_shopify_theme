@@ -323,7 +323,7 @@
           </tfoot>
         </table>
         <div class="flex flex-row">
-          <div>
+          <div class="address billing-address">
             <h2>{{ 'customer.order.billing_address' | t }}</h2>
             <p>
               <strong>{{ 'customer.order.payment_status' | t }}:</strong>
@@ -331,7 +331,8 @@
             </p>
             {{ order.billing_address | format_address }}
           </div>
-          <div>
+
+          <div class="address billing-address">
             <h2>{{ 'customer.order.shipping_address' | t }}</h2>
             <p>
               <strong>{{ 'customer.order.fulfillment_status' | t }}:</strong>

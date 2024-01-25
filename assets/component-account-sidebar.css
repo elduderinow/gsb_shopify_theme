@@ -15,3 +15,6 @@
 .account--sidebar .sidebar-bottom .list--item a {
   display: flex;
 }
+.account--sidebar .sidebar-bottom .list--item a svg {
+  margin-top: -3px;
+}

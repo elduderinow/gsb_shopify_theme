@@ -22,10 +22,10 @@
     </div>
   {% endcomment %}
   <div class="grid grid-cols-12">
-    <div class="col-span-2 bg-blue-200">
+    <div class="col-span-3 bg-blue-200">
       {% render 'account-sidebar' %}
     </div>
-    <div class="col-span-10 bg-red-200">
+    <div class="col-span-9 bg-red-200">
       <div class="order--wrapper">
         <h2>{{ 'customer.order.title' | t: name: order.name }}</h2>
         {%- assign order_date = order.created_at | time_tag: format: 'date_at_time' -%}

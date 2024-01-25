@@ -4,13 +4,13 @@
 }
 .account--sidebar .links-wrapper .list--item {
   padding: 1rem;
-  border-bottom: 1px solid #ebebeb;
+  border-bottom: 1px solid gray;
 }
 .account--sidebar .links-wrapper .list--item a {
   text-decoration: none;
 }
 .account--sidebar .links-wrapper .list--item.active {
-  background-color: gray;
+  background-color: #ebebeb;
 }
 .account--sidebar .sidebar-bottom {
   margin-top: 100px;

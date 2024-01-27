@@ -739,28 +739,28 @@ header.header .header__heading-link {
   height: calc(100vh - 70px);
   overflow: hidden;
 }
-.customer.account {
+.customer.account, .customer.order {
   padding: 0;
   height: calc(100vh - 70px);
   overflow: hidden;
 }
-.customer.account .orders--wrapper {
+.customer.account .orders--wrapper, .customer.order .orders--wrapper {
   height: calc(100vh - (1rem + 70px));
   padding: 2rem;
 }
-.customer.account .orders--wrapper .order-wrapper--inner {
+.customer.account .orders--wrapper .order-wrapper--inner, .customer.order .orders--wrapper .order-wrapper--inner {
   padding: 2rem;
   height: 100%;
 }
-.customer.account .orders--wrapper .order-wrapper--inner .order-header {
+.customer.account .orders--wrapper .order-wrapper--inner .order-header, .customer.order .orders--wrapper .order-wrapper--inner .order-header {
   border-bottom: 1px solid gray;
   padding-bottom: 2rem;
 }
-.customer.account .orders--wrapper .order-wrapper--inner .orders--inner {
+.customer.account .orders--wrapper .order-wrapper--inner .orders--inner, .customer.order .orders--wrapper .order-wrapper--inner .orders--inner {
   overflow: scroll;
   height: 100%;
 }
-.customer.account .orders--wrapper .order-wrapper--inner .orders--inner .filler {
+.customer.account .orders--wrapper .order-wrapper--inner .orders--inner .filler, .customer.order .orders--wrapper .order-wrapper--inner .orders--inner .filler {
   background-color: red;
   width: 200px;
   height: 1000px;

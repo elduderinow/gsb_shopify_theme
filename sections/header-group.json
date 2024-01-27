@@ -17,8 +17,9 @@
       "block_order": [
         "announcement-bar-0"
       ],
+      "disabled": true,
       "custom_css": [
-        ".utility-bar {display:none;}"
+        ".utility-bar {display: none;}"
       ],
       "settings": {
         "color_scheme": "accent-1",
@@ -29,6 +30,7 @@
     },
     "header": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "logo_position": "middle-left",
         "menu": "develop-menu",

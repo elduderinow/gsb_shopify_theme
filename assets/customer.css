@@ -734,9 +734,10 @@ header.header .header__heading-link {
   padding: 0;
   height: calc(100vh - 70px);
   padding: 2rem 0;
+  overflow: hidden;
 }
 .customer.account .orders--wrapper {
-  height: 100%;
+  height: calc(100vh - (1rem + 70px));
 }
 .customer.account .orders--wrapper .filler {
   background-color: red;

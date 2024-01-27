@@ -741,6 +741,11 @@ header.header .header__heading-link {
 }
 .customer.account .orders--wrapper {
   height: calc(100vh - (1rem + 70px));
+  padding: 2rem;
+}
+.customer.account .orders--wrapper .order-wrapper--inner {
+  padding: 2rem;
+  height: 100%;
 }
 .customer.account .orders--wrapper .order-wrapper--inner .order-header {
   border-bottom: 1px solid gray;

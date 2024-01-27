@@ -734,6 +734,11 @@ header.header .header__heading-link {
   background-color: #fafafa;
 }
 
+.customer.account, .customer.order {
+  padding: 0;
+  height: calc(100vh - 70px);
+  overflow: hidden;
+}
 .customer.account {
   padding: 0;
   height: calc(100vh - 70px);

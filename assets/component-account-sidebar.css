@@ -25,6 +25,9 @@
 .account--sidebar .links-wrapper .list--item:hover a {
   background-color: #d7d7d7;
 }
+.account--sidebar .links-wrapper .list--item:hover.active a {
+  background-color: #009e6d;
+}
 .account--sidebar .sidebar-top {
   display: flex;
   flex-direction: column;

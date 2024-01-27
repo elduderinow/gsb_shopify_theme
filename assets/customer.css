@@ -722,8 +722,15 @@ footer.footer {
   display: none;
 }
 
+header.header {
+  padding: 1rem 2rem;
+}
+header.header .header__heading-link {
+  width: 50px;
+}
+
 .customer.account {
   padding: 0;
-  background-color: red;
+  background-color: gray;
   height: calc(100vh - 129.6px);
 }

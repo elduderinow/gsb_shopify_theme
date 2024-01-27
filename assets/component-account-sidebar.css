@@ -23,7 +23,7 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0);
 }
 .account--sidebar .links-wrapper .list--item.active a {
-  color: white;
+  color: #009e6d;
   font-weight: 500;
   border-bottom: 1px solid #009e6d;
 }

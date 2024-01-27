@@ -770,7 +770,11 @@ header.header .header__heading-link {
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+.customer.account .orders--wrapper .order-wrapper--inner .orders--inner .address-wrapper, .customer.order .orders--wrapper .order-wrapper--inner .orders--inner .address-wrapper {
+  gap: 2rem;
+}
 .customer.account .orders--wrapper .order-wrapper--inner .orders--inner .address-wrapper .address, .customer.order .orders--wrapper .order-wrapper--inner .orders--inner .address-wrapper .address {
+  padding: 2rem;
   width: 100%;
   background-color: white;
   border-radius: 10px;

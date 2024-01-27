@@ -760,7 +760,7 @@ header.header .header__heading-link {
   overflow: scroll;
   height: 100%;
 }
-.customer.account .orders--wrapper .order-wrapper--inner .orders--inner .orders-details, .customer.order .orders--wrapper .order-wrapper--inner .orders--inner .orders-details {
+.customer.account .orders--wrapper .order-wrapper--inner .orders--inner .order-details, .customer.order .orders--wrapper .order-wrapper--inner .orders--inner .order-details {
   background-color: white;
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;

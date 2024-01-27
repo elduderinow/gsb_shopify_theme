@@ -732,6 +732,6 @@ header.header .header__heading-link {
 
 .customer.account {
   padding: 0;
-  background-color: gray;
   height: calc(100vh - 70px);
+  padding: 2rem 0;
 }

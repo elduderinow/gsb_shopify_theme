@@ -28,7 +28,7 @@
     <div class="col-span-12 lg:col-span-9">
       <div class="orders--wrapper">
         <div class="order-wrapper--inner">
-          <h2>{{ 'customer.order.title' | t: name: order.name }}</h2>
+          <h2 class="order-header">{{ 'customer.order.title' | t: name: order.name }}</h2>
           <div class="orders--inner">
             {%- assign order_date = order.created_at | time_tag: format: 'date_at_time' -%}
             <p>{{ 'customer.order.date_html' | t: date: order_date }}</p>

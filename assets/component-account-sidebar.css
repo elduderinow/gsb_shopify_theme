@@ -15,12 +15,12 @@
   padding: 1rem;
   width: 100%;
   display: block;
+  border-radius: 5px;
 }
 .account--sidebar .links-wrapper .list--item.active a {
   background-color: #009e6d;
   color: white;
   font-weight: 500;
-  border-radius: 5px;
 }
 .account--sidebar .links-wrapper .list--item:hover a {
   background-color: #d7d7d7;

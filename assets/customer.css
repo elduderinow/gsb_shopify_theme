@@ -755,6 +755,7 @@ header.header .header__heading-link {
 .customer.account .orders--wrapper .order-wrapper--inner .order-header, .customer.order .orders--wrapper .order-wrapper--inner .order-header {
   border-bottom: 1px solid gray;
   padding-bottom: 2rem;
+  margin: 0;
 }
 .customer.account .orders--wrapper .order-wrapper--inner .orders--inner, .customer.order .orders--wrapper .order-wrapper--inner .orders--inner {
   overflow: scroll;

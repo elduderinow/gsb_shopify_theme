@@ -761,8 +761,16 @@ header.header .header__heading-link {
   overflow: scroll;
   height: 100%;
   padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 .customer.account .orders--wrapper .order-wrapper--inner .orders--inner .order-details, .customer.order .orders--wrapper .order-wrapper--inner .orders--inner .order-details {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.customer.account .orders--wrapper .order-wrapper--inner .orders--inner .address-wrapper .address, .customer.order .orders--wrapper .order-wrapper--inner .orders--inner .address-wrapper .address {
   background-color: white;
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;

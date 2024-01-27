@@ -10,9 +10,6 @@
   margin: 0;
   padding: 0;
 }
-.account--sidebar .links-wrapper .list--item {
-  border-bottom: 1px solid gray;
-}
 .account--sidebar .links-wrapper .list--item a {
   text-decoration: none;
   padding: 1rem;
@@ -20,7 +17,10 @@
   display: block;
 }
 .account--sidebar .links-wrapper .list--item.active a {
-  background-color: #ebebeb;
+  background-color: #009e6d;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
 }
 .account--sidebar .links-wrapper .list--item:hover a {
   background-color: #ebebeb;

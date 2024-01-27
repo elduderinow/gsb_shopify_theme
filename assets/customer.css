@@ -721,3 +721,9 @@ body {
 footer.footer {
   display: none;
 }
+
+.customer.account {
+  padding: 0;
+  background-color: red;
+  height: calc(100vh - 129.6px);
+}

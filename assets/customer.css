@@ -731,13 +731,12 @@ header.header .header__heading-link {
 }
 
 .shopify-section {
-  background-color: #fefefe;
+  background-color: #fafafa;
 }
 
 .customer.account {
   padding: 0;
   height: calc(100vh - 70px);
-  padding: 2rem 0;
   overflow: hidden;
 }
 .customer.account .orders--wrapper {

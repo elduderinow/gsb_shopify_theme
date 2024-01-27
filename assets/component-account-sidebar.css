@@ -21,6 +21,12 @@ body {
   width: 100%;
   display: block;
   border-bottom: 1px solid rgba(0, 0, 0, 0);
+  display: flex;
+  align-items: center;
+}
+.account--sidebar .links-wrapper .list--item a svg {
+  width: 30px;
+  margin-right: 0;
 }
 .account--sidebar .links-wrapper .list--item.active a {
   color: #009e6d;

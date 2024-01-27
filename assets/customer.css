@@ -730,6 +730,10 @@ header.header .header__heading-link {
   width: 50px;
 }
 
+.shopify-section {
+  background-color: #efefef;
+}
+
 .customer.account {
   padding: 0;
   height: calc(100vh - 70px);

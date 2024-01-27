@@ -1,5 +1,5 @@
 .account--sidebar {
-  position: sticky;
+  height: 100%;
 }
 .account--sidebar .links-wrapper {
   margin: 0;

@@ -328,27 +328,27 @@
                 </tr>
               </tfoot>
             </table>
-            {% comment %}
-              <div class="flex flex-row gap-3 address-wrapper">
-                <div class="address billing-address">
-                  <h2>{{ 'customer.order.billing_address' | t }}</h2>
-                  <p>
-                    <strong>{{ 'customer.order.payment_status' | t }}:</strong>
-                    {{ order.financial_status_label }}
-                  </p>
-                  {{ order.billing_address | format_address }}
-                </div>
 
-                <div class="address billing-address">
-                  <h2>{{ 'customer.order.shipping_address' | t }}</h2>
-                  <p>
-                    <strong>{{ 'customer.order.fulfillment_status' | t }}:</strong>
-                    {{ order.fulfillment_status_label }}
-                  </p>
-                  {{ order.shipping_address | format_address }}
-                </div>
+            <div class="flex flex-row gap-3 address-wrapper">
+              <div class="address billing-address">
+                <h2>{{ 'customer.order.billing_address' | t }}</h2>
+                <p>
+                  <strong>{{ 'customer.order.payment_status' | t }}:</strong>
+                  {{ order.financial_status_label }}
+                </p>
+                {{ order.billing_address | format_address }}
               </div>
-            {% endcomment %}
+
+              <div class="address billing-address">
+                <h2>{{ 'customer.order.shipping_address' | t }}</h2>
+                <p>
+                  <strong>{{ 'customer.order.fulfillment_status' | t }}:</strong>
+                  {{ order.fulfillment_status_label }}
+                </p>
+                {{ order.shipping_address | format_address }}
+              </div>
+            </div>
+
             <div style="height:1000px;width:200px;background-color:red;display:block;"></div>
           </div>
         </div>

@@ -724,6 +724,7 @@ footer.footer {
 
 header.header {
   padding: 1rem 2rem;
+  height: 70px;
 }
 header.header .header__heading-link {
   width: 50px;
@@ -732,5 +733,5 @@ header.header .header__heading-link {
 .customer.account {
   padding: 0;
   background-color: gray;
-  height: calc(100vh - 129.6px);
+  height: calc(100vh - 70px);
 }

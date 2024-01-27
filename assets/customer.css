@@ -752,9 +752,14 @@ header.header .header__heading-link {
   padding: 2rem;
   height: 100%;
 }
-.customer.account .orders--wrapper .order-wrapper--inner .order-header .order--title, .customer.order .orders--wrapper .order-wrapper--inner .order-header .order--title {
-  border-bottom: 1px solid gray;
+.customer.account .orders--wrapper .order-wrapper--inner .order-header, .customer.order .orders--wrapper .order-wrapper--inner .order-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding-bottom: 2rem;
+  border-bottom: 1px solid gray;
+}
+.customer.account .orders--wrapper .order-wrapper--inner .order-header .order--title, .customer.order .orders--wrapper .order-wrapper--inner .order-header .order--title {
   margin: 0;
 }
 .customer.account .orders--wrapper .order-wrapper--inner .orders--inner, .customer.order .orders--wrapper .order-wrapper--inner .orders--inner {

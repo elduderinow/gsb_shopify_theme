@@ -783,7 +783,6 @@ header.header .header__heading-link {
 .customer.account .orders--wrapper .order-wrapper--inner .orders--inner .order-info, .customer.order .orders--wrapper .order-wrapper--inner .orders--inner .order-info {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
   background-color: white;
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;

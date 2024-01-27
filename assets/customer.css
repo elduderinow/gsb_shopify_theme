@@ -752,7 +752,7 @@ header.header .header__heading-link {
   padding: 2rem;
   height: 100%;
 }
-.customer.account .orders--wrapper .order-wrapper--inner .order-header, .customer.order .orders--wrapper .order-wrapper--inner .order-header {
+.customer.account .orders--wrapper .order-wrapper--inner .order--title, .customer.order .orders--wrapper .order-wrapper--inner .order--title {
   border-bottom: 1px solid gray;
   padding-bottom: 2rem;
   margin: 0;

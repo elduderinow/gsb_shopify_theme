@@ -765,9 +765,12 @@ header.header .header__heading-link {
 .customer.account .orders--wrapper .order-wrapper--inner .order-header .order-download a, .customer.order .orders--wrapper .order-wrapper--inner .order-header .order-download a {
   background-color: #009e6d;
   color: white;
-  padding: 0.5rem 1.5rem;
+  padding: 1rem 1.5rem;
   text-decoration: none;
   border-radius: 5px;
+}
+.customer.account .orders--wrapper .order-wrapper--inner .order-header .order-download a:hover, .customer.order .orders--wrapper .order-wrapper--inner .order-header .order-download a:hover {
+  background-color: #006b4a;
 }
 .customer.account .orders--wrapper .order-wrapper--inner .orders--inner, .customer.order .orders--wrapper .order-wrapper--inner .orders--inner {
   overflow: scroll;

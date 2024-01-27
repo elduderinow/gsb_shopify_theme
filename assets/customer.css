@@ -742,15 +742,15 @@ header.header .header__heading-link {
 .customer.account .orders--wrapper {
   height: calc(100vh - (1rem + 70px));
 }
-.customer.account .orders--wrapper .order-header {
+.customer.account .orders--wrapper .order-wrapper--inner .order-header {
   border-bottom: 1px solid gray;
   padding-bottom: 2rem;
 }
-.customer.account .orders--wrapper .orders--inner {
+.customer.account .orders--wrapper .order-wrapper--inner .orders--inner {
   overflow: scroll;
   height: 100%;
 }
-.customer.account .orders--wrapper .orders--inner .filler {
+.customer.account .orders--wrapper .order-wrapper--inner .orders--inner .filler {
   background-color: red;
   width: 200px;
   height: 1000px;

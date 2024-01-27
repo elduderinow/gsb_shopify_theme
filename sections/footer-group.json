@@ -77,7 +77,6 @@
         "1eb74a45-7700-4958-bd00-dadeeaeecf14",
         "footer-2"
       ],
-      "disabled": true,
       "custom_css": [
         ".footer__newsletter-container {pointer-events: none;}",
         ".footer-block__newsletter {opacity: 0.1; cursor: not-allowed;}"

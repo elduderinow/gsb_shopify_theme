@@ -1,3 +1,6 @@
+.account--sidebar {
+  position: sticky;
+}
 .account--sidebar .links-wrapper {
   margin: 0;
   padding: 0;

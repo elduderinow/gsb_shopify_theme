@@ -153,18 +153,16 @@
     </div>
   </div>
 
-  {% comment %}
-    <div style="display:flex;flex-direction:column;">
-      <h2>{{ 'customer.account.details' | t }}</h2>
-      <div>
-        {{ customer.default_address | format_address }}
+  <div style="display:flex;flex-direction:column;">
+    <h2>{{ 'customer.account.details' | t }}</h2>
+    <div>
+      {{ customer.default_address | format_address }}
 
-        <a href="{{ routes.account_addresses_url }}">
-          {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
-        </a>
-      </div>
+      <a href="{{ routes.account_addresses_url }}">
+        {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
+      </a>
     </div>
-  {% endcomment %}
+  </div>
 </div>
 
 {% schema %}

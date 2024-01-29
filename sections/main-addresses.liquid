@@ -31,21 +31,19 @@
       </div>
       <div class="col-span-12 lg:col-span-9">
         <div class="content--wrapper">
-          <div class="content--inner">
+          <div data-address class="content--inner">
             <div class="content-header">
               <h2 class="content--title">Gegevens</h2>
+              <button
+                type="button"
+                aria-expanded="false"
+                aria-controls="AddAddress"
+              >
+                {{ 'customer.addresses.add_new' | t }}
+              </button>
             </div>
-            <div data-address class="content-main">
+            <div class="content-main">
               <div class="left-side">
-                {% comment %}
-                  <button
-                    type="button"
-                    aria-expanded="false"
-                    aria-controls="AddAddress"
-                  >
-                    {{ 'customer.addresses.add_new' | t }}
-                  </button>
-                {% endcomment %}
                 <div id="AddAddress">
                   <h2 id="AddressNewHeading">{{ 'customer.addresses.add_new' | t }}</h2>
                   {%- form 'customer_address', customer.new_address, aria-labelledBy: 'AddressNewHeading' -%}

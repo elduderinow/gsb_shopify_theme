@@ -31,6 +31,9 @@ body {
   font-weight: 500;
   border-bottom: 1px solid #00eaa0;
 }
+.account--sidebar .links-wrapper .list--item.active a svg {
+  fill: #00eaa0;
+}
 .account--sidebar .links-wrapper .list--item:hover a {
   border-bottom: 1px solid white;
 }
@@ -48,6 +51,7 @@ body {
 .account--sidebar .sidebar-top .list--item a svg {
   width: 15px;
   margin-right: 0;
+  fill: white;
 }
 .account--sidebar .sidebar-bottom {
   margin-top: 100px;

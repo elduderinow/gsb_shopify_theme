@@ -186,18 +186,6 @@
                       <div class="address-content">
                         <div class="info">
                           {%- if address == customer.default_address -%}
-                            <!-- Your code for the default address -->
-                          {%- endif -%}
-                          <!-- Your code for other addresses -->
-                        </div>
-                      </div>
-                    </li>
-                  {%- endfor -%}
-                  {%- for address in sorted_addresses -%}
-                    <li class="address--item" data-address>
-                      <div class="address-content">
-                        <div class="info">
-                          {%- if address == customer.default_address -%}
                             <h2>{{ 'customer.addresses.default' | t }}</h2>
                           {%- endif -%}
                           {{ address | format_address }}

@@ -190,6 +190,7 @@
                           {{ address | format_address }}
                         </div>
                         <button
+                          class="edit"
                           type="button"
                           id="EditFormButton_{{ address.id }}"
                           aria-label="{{ 'customer.addresses.edit_address' | t }} {{ forloop.index }}"
@@ -199,16 +200,15 @@
                         >
                           {{ 'customer.addresses.edit' | t }}
                         </button>
-                        {% comment %}
-                          <button
-                            type="button"
-                            aria-label="{{ 'customer.addresses.delete' | t }} {{ forloop.index }}"
-                            data-target="{{ address.url }}"
-                            data-confirm-message="{{ 'customer.addresses.delete_confirm' | t }}"
-                          >
-                            {{ 'customer.addresses.delete' | t }}
-                          </button>
-                        {% endcomment %}
+                        <button
+                          class="remove"
+                          type="button"
+                          aria-label="{{ 'customer.addresses.delete' | t }} {{ forloop.index }}"
+                          data-target="{{ address.url }}"
+                          data-confirm-message="{{ 'customer.addresses.delete_confirm' | t }}"
+                        >
+                          {{ 'customer.addresses.delete' | t }}
+                        </button>
                         <div id="EditAddress_{{ address.id }}">
                           <h2>{{ 'customer.addresses.edit_address' | t }}</h2>
                           {%- form 'customer_address', address -%}

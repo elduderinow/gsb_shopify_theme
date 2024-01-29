@@ -748,6 +748,7 @@ header.header .header__heading-link {
 .customer.account .content--wrapper, .customer.order .content--wrapper, .customer.addresses .content--wrapper {
   height: calc(100vh - (1rem + 70px));
   padding: 2rem;
+  background-color: #cccccc;
 }
 .customer.account .content--wrapper .content--inner, .customer.order .content--wrapper .content--inner, .customer.addresses .content--wrapper .content--inner {
   padding: 2rem;

@@ -36,14 +36,14 @@
               <h2 class="content--title">Gegevens</h2>
             </div>
             <div class="content-main">
-              <button
-                type="button"
-                aria-expanded="false"
-                aria-controls="AddAddress"
-              >
-                {{ 'customer.addresses.add_new' | t }}
-              </button>
               <div class="left-side">
+                <button
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="AddAddress"
+                >
+                  {{ 'customer.addresses.add_new' | t }}
+                </button>
                 <div id="AddAddress">
                   <h2 id="AddressNewHeading">{{ 'customer.addresses.add_new' | t }}</h2>
                   {%- form 'customer_address', customer.new_address, aria-labelledBy: 'AddressNewHeading' -%}

@@ -24,6 +24,7 @@ body {
   display: flex;
   align-items: center;
   padding-left: 0;
+  color: #08f6ac;
 }
 .account--sidebar .links-wrapper .list--item.active a {
   color: #08f6ac;

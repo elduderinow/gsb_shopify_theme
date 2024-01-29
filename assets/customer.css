@@ -757,6 +757,7 @@ header.header .header__heading-link {
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   overflow: hidden;
+  padding-bottom: 5rem;
 }
 .customer.account .content--wrapper .content--inner .content-header, .customer.order .content--wrapper .content--inner .content-header, .customer.addresses .content--wrapper .content--inner .content-header {
   display: flex;

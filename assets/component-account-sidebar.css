@@ -57,3 +57,6 @@ body {
   width: 15px;
   margin-top: -3px;
 }
+.account--sidebar .content--wrapper {
+  background-color: #cccccc;
+}

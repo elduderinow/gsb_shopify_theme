@@ -181,7 +181,7 @@
               <div class="address-edit bg-red-200">
                 <ul role="list">
                   {%- for address in customer.addresses -%}
-                    <li class="address--item" data-address>
+                    <li class="address--item grid grid-cols-12" data-address>
                       <div class="address-content">
                         {%- if address == customer.default_address -%}
                           <h2>{{ 'customer.addresses.default' | t }}</h2>

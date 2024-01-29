@@ -37,13 +37,15 @@
             </div>
             <div data-address class="content-main">
               <div class="left-side">
-                <button
-                  type="button"
-                  aria-expanded="false"
-                  aria-controls="AddAddress"
-                >
-                  {{ 'customer.addresses.add_new' | t }}
-                </button>
+                {% comment %}
+                  <button
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="AddAddress"
+                  >
+                    {{ 'customer.addresses.add_new' | t }}
+                  </button>
+                {% endcomment %}
                 <div id="AddAddress">
                   <h2 id="AddressNewHeading">{{ 'customer.addresses.add_new' | t }}</h2>
                   {%- form 'customer_address', customer.new_address, aria-labelledBy: 'AddressNewHeading' -%}

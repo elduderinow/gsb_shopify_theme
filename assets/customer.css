@@ -820,16 +820,17 @@ header.header .header__heading-link {
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 2rem;
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content .info, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content .info, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content .info {
-  width: calc(60% - 1rem);
+  width: calc(60% - 2rem);
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content button.edit,
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content button.remove, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content button.edit,
 .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content button.remove, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content button.edit,
 .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content button.remove {
-  width: calc(20% - 1rem);
+  width: calc(20% - 2rem);
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content .address-form, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content .address-form, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content .address-form {
   width: 100%;

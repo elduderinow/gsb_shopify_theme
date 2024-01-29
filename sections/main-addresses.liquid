@@ -183,10 +183,12 @@
                   {%- for address in customer.addresses -%}
                     <li class="address--item" data-address>
                       <div class="address-content">
-                        {%- if address == customer.default_address -%}
-                          <h2>{{ 'customer.addresses.default' | t }}</h2>
-                        {%- endif -%}
-                        {{ address | format_address }}
+                        <div class="content">
+                          {%- if address == customer.default_address -%}
+                            <h2>{{ 'customer.addresses.default' | t }}</h2>
+                          {%- endif -%}
+                          {{ address | format_address }}
+                        </div>
                         <button
                           type="button"
                           id="EditFormButton_{{ address.id }}"

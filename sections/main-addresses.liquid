@@ -178,10 +178,11 @@
                   {%- endform -%}
                 </div>
               </div>
+              {{ customer.default_address | json }}
               <div class="address-edit">
                 <ul class="list" role="list">
                   {%- assign sorted_addresses = customer.addresses | sort: customer.default_address -%}
-                  {{ customer.default_address | json }}
+
                   {{ customer.addresses | json }}
                   {%- for address in sorted_addresses -%}
                     <li class="address--item" data-address>

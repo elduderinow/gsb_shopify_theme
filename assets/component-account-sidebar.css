@@ -42,6 +42,9 @@ body {
   flex-direction: column;
   gap: 1rem;
 }
+.account--sidebar .sidebar-top .list--item a {
+  gap: 1rem;
+}
 .account--sidebar .sidebar-top .list--item a svg {
   width: 15px;
   margin-right: 0;

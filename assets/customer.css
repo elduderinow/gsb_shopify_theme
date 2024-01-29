@@ -746,7 +746,7 @@ header.header .header__heading-link {
   overflow: hidden;
 }
 .customer.account .content--wrapper, .customer.order .content--wrapper, .customer.addresses .content--wrapper {
-  height: calc(100vh - (1rem + 70px));
+  height: calc(100vh - (1rem + 60px));
   padding: 2rem;
   background-color: #cccccc;
 }

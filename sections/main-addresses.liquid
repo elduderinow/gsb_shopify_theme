@@ -181,6 +181,7 @@
               <div class="address-edit">
                 <ul class="list" role="list">
                   {%- assign sorted_addresses = customer.addresses | sort: 'default' | reverse -%}
+                  {{ sorted_addresses | json }}
                   {%- for address in customer.addresses -%}
                     <li class="address--item" data-address>
                       <div class="address-content">

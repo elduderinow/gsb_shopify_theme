@@ -8,7 +8,9 @@
       >
     </li>
     <li class="list--item {% if active == 'address' %}active{% endif %}">
-      <a href="/account/addresses">Gegevens</a>
+      <a href="/account/addresses"
+        ><span>{%- render 'icon-account' -%}</span>Gegevens</a
+      >
     </li>
     <li class="list--item {% if active == 'links' %}active{% endif %}">
       <a href="/account/addresses">Handige Links</a>

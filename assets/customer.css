@@ -735,7 +735,7 @@ header.header .header__heading-link {
 }
 
 .customer.account, .customer.order, .customer.addresses {
-  padding: 0;
+  padding: 0 !important;
   height: calc(100vh - 70px);
   overflow: hidden;
   max-width: 1500px !important;

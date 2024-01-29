@@ -818,7 +818,7 @@ header.header .header__heading-link {
   background-color: red;
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .address--item, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .address--item, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .address--item {
-  margin: 0;
+  margin-top: 0;
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content {
   display: flex;

@@ -817,25 +817,30 @@ header.header .header__heading-link {
 .customer.account .content--wrapper .content--inner .content-main.address-main, .customer.order .content--wrapper .content--inner .content-main.address-main, .customer.addresses .content--wrapper .content--inner .content-main.address-main {
   background-color: red;
 }
-.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .address--item, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .address--item, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .address--item {
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item {
   margin-top: 0;
 }
-.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content {
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 2rem;
 }
-.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content .info, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content .info, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content .info {
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .info, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .info, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .info {
   width: calc(60% - 2rem);
   text-align: left;
 }
-.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content button.edit,
-.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content button.remove, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content button.edit,
-.customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content button.remove, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content button.edit,
-.customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content button.remove {
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit,
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit,
+.customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit,
+.customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove {
   width: calc(20% - 2rem);
 }
-.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content .address-form, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content .address-form, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .address--item .address-content .address-form {
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form {
   width: 100%;
 }

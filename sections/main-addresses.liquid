@@ -181,7 +181,8 @@
               <div class="address-edit">
                 <ul class="list" role="list">
                   {%- assign sorted_addresses = customer.addresses | sort: customer.default_address -%}
-                  {{ sorted_addresses | json }}
+                  {{ customer.default_address | json }}
+                  {{ customer.addresses | json }}
                   {%- for address in sorted_addresses -%}
                     <li class="address--item" data-address>
                       <div class="address-content">

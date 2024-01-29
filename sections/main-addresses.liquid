@@ -180,7 +180,20 @@
               </div>
               <div class="address-edit">
                 <ul class="list" role="list">
-                  {%- for address in customer.addresses -%}
+                  {%- assign sorted_addresses = customer.addresses | sort: 'default' | reverse -%}
+                  {%- for address in sorted_addresses -%}
+                    <li class="address--item" data-address>
+                      <div class="address-content">
+                        <div class="info">
+                          {%- if address == customer.default_address -%}
+                            <!-- Your code for the default address -->
+                          {%- endif -%}
+                          <!-- Your code for other addresses -->
+                        </div>
+                      </div>
+                    </li>
+                  {%- endfor -%}
+                  {%- for address in sorted_addresses -%}
                     <li class="address--item" data-address>
                       <div class="address-content">
                         <div class="info">

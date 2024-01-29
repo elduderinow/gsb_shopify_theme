@@ -52,5 +52,6 @@ body {
   display: flex;
 }
 .account--sidebar .sidebar-bottom .list--item a svg {
+  width: 30px;
   margin-top: -3px;
 }

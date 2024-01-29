@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  background-color: #f0f0f0;
+  background-color: #00301d;
 }
 .account--sidebar .links-wrapper {
   margin: 0;
@@ -26,15 +26,15 @@ body {
   padding-left: 0;
 }
 .account--sidebar .links-wrapper .list--item.active a {
-  color: #009e6d;
+  color: #08f6ac;
   font-weight: 500;
-  border-bottom: 1px solid #009e6d;
+  border-bottom: 1px solid #08f6ac;
 }
 .account--sidebar .links-wrapper .list--item:hover a {
-  border-bottom: 1px solid #009e6d;
+  border-bottom: 1px solid #08f6ac;
 }
 .account--sidebar .links-wrapper .list--item:hover.active a {
-  border-bottom: 1px solid #009e6d;
+  border-bottom: 1px solid #08f6ac;
 }
 .account--sidebar .sidebar-top {
   display: flex;

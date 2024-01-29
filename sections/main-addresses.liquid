@@ -181,32 +181,32 @@
               <div class="address-edit bg-red-200">
                 <ul role="list">
                   {%- for address in customer.addresses -%}
-                    <li class="address--item grid grid-cols-12" data-address>
-                      <button
-                        type="button"
-                        id="EditFormButton_{{ address.id }}"
-                        aria-label="{{ 'customer.addresses.edit_address' | t }} {{ forloop.index }}"
-                        aria-controls="EditAddress_{{ address.id }}"
-                        aria-expanded="false"
-                        data-address-id="{{ address.id }}"
-                      >
-                        {{ 'customer.addresses.edit' | t }}
-                      </button>
-                      <button
-                        type="button"
-                        aria-label="{{ 'customer.addresses.delete' | t }} {{ forloop.index }}"
-                        data-target="{{ address.url }}"
-                        data-confirm-message="{{ 'customer.addresses.delete_confirm' | t }}"
-                      >
-                        {{ 'customer.addresses.delete' | t }}
-                      </button>
+                    <li class="address--item grid grid-cols-12">
                       <div class="address-content col-span-6">
                         {%- if address == customer.default_address -%}
                           <h2>{{ 'customer.addresses.default' | t }}</h2>
                         {%- endif -%}
                         {{ address | format_address }}
                       </div>
-                      <div class="address--form col-span-6">
+                      <div class="address--form col-span-6" data-address>
+                        <button
+                          type="button"
+                          id="EditFormButton_{{ address.id }}"
+                          aria-label="{{ 'customer.addresses.edit_address' | t }} {{ forloop.index }}"
+                          aria-controls="EditAddress_{{ address.id }}"
+                          aria-expanded="false"
+                          data-address-id="{{ address.id }}"
+                        >
+                          {{ 'customer.addresses.edit' | t }}
+                        </button>
+                        <button
+                          type="button"
+                          aria-label="{{ 'customer.addresses.delete' | t }} {{ forloop.index }}"
+                          data-target="{{ address.url }}"
+                          data-confirm-message="{{ 'customer.addresses.delete_confirm' | t }}"
+                        >
+                          {{ 'customer.addresses.delete' | t }}
+                        </button>
                         <div id="EditAddress_{{ address.id }}">
                           <h2>{{ 'customer.addresses.edit_address' | t }}</h2>
                           {%- form 'customer_address', address -%}

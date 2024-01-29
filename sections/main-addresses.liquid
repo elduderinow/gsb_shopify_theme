@@ -189,16 +189,18 @@
                           {%- endif -%}
                           {{ address | format_address }}
                         </div>
-                        <button
-                          type="button"
-                          id="EditFormButton_{{ address.id }}"
-                          aria-label="{{ 'customer.addresses.edit_address' | t }} {{ forloop.index }}"
-                          aria-controls="EditAddress_{{ address.id }}"
-                          aria-expanded="false"
-                          data-address-id="{{ address.id }}"
-                        >
-                          {{ 'customer.addresses.edit' | t }}
-                        </button>
+                        <div class="buttons">
+                          <button
+                            type="button"
+                            id="EditFormButton_{{ address.id }}"
+                            aria-label="{{ 'customer.addresses.edit_address' | t }} {{ forloop.index }}"
+                            aria-controls="EditAddress_{{ address.id }}"
+                            aria-expanded="false"
+                            data-address-id="{{ address.id }}"
+                          >
+                            {{ 'customer.addresses.edit' | t }}
+                          </button>
+                        </div>
                         <button
                           type="button"
                           aria-label="{{ 'customer.addresses.delete' | t }} {{ forloop.index }}"

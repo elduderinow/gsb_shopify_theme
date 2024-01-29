@@ -182,7 +182,7 @@
                 <ul role="list">
                   {%- for address in customer.addresses -%}
                     <li class="address--item" data-address>
-                      <div class="address--inner">
+                      <div class="address-content">
                         {%- if address == customer.default_address -%}
                           <h2>{{ 'customer.addresses.default' | t }}</h2>
                         {%- endif -%}
@@ -205,7 +205,8 @@
                         >
                           {{ 'customer.addresses.delete' | t }}
                         </button>
-
+                      </div>
+                      <div class="address--form">
                         <div id="EditAddress_{{ address.id }}">
                           <h2>{{ 'customer.addresses.edit_address' | t }}</h2>
                           {%- form 'customer_address', address -%}

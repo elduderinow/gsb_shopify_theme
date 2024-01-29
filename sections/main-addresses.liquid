@@ -180,10 +180,7 @@
               </div>
               <div class="address-edit">
                 <ul class="list" role="list">
-                  {%- capture default_address -%}
-                     {{ customer.default_address | split: ',' }}
-                  {%- endcapture -%}
-                  {%- assign sorted_addresses = customer.addresses | sort: default_address[0] -%}
+                  {%- assign sorted_addresses = customer.addresses | sort: customer.default_address -%}
                   {{ sorted_addresses | json }}
                   {%- for address in sorted_addresses -%}
                     <li class="address--item" data-address>

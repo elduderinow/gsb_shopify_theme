@@ -753,6 +753,8 @@ header.header .header__heading-link {
 .customer.account .content--wrapper .content--inner, .customer.order .content--wrapper .content--inner, .customer.addresses .content--wrapper .content--inner {
   padding: 2rem;
   height: 100%;
+  background-color: white;
+  border-radius: 10px;
 }
 .customer.account .content--wrapper .content--inner .content-header, .customer.order .content--wrapper .content--inner .content-header, .customer.addresses .content--wrapper .content--inner .content-header {
   display: flex;

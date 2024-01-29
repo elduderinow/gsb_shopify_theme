@@ -50,6 +50,7 @@ body {
 }
 .account--sidebar .sidebar-bottom .list--item a {
   display: flex;
+  gap: 1rem;
 }
 .account--sidebar .sidebar-bottom .list--item a svg {
   width: 30px;

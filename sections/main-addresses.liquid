@@ -207,7 +207,7 @@
                         </button>
                       </div>
                       <div class="address--form col-span-6">
-                        <div id="EditAddress_{{ address.id }}">
+                        <div class="hidden" id="EditAddress_{{ address.id }}">
                           <h2>{{ 'customer.addresses.edit_address' | t }}</h2>
                           {%- form 'customer_address', address -%}
                             <div class="field">

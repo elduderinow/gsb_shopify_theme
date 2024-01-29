@@ -182,7 +182,7 @@
                 <ul class="list" role="list">
                   {%- assign sorted_addresses = customer.addresses | sort: customer.default_address | reverse -%}
                   {{ sorted_addresses | json }}
-                  {%- for address in customer.addresses -%}
+                  {%- for address in sorted_addresses -%}
                     <li class="address--item" data-address>
                       <div class="address-content">
                         <div class="info">

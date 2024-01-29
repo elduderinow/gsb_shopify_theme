@@ -27,9 +27,9 @@ body {
   color: white;
 }
 .account--sidebar .links-wrapper .list--item.active a {
-  color: #009e6d;
+  color: #00eaa0;
   font-weight: 500;
-  border-bottom: 1px solid #009e6d;
+  border-bottom: 1px solid #00eaa0;
 }
 .account--sidebar .links-wrapper .list--item:hover a {
   border-bottom: 1px solid white;

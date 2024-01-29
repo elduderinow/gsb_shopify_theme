@@ -24,18 +24,18 @@ body {
   display: flex;
   align-items: center;
   padding-left: 0;
-  color: #08f6ac;
+  color: white;
 }
 .account--sidebar .links-wrapper .list--item.active a {
-  color: #08f6ac;
+  color: white;
   font-weight: 500;
-  border-bottom: 1px solid #08f6ac;
+  border-bottom: 1px solid white;
 }
 .account--sidebar .links-wrapper .list--item:hover a {
-  border-bottom: 1px solid #08f6ac;
+  border-bottom: 1px solid white;
 }
 .account--sidebar .links-wrapper .list--item:hover.active a {
-  border-bottom: 1px solid #08f6ac;
+  border-bottom: 1px solid white;
 }
 .account--sidebar .sidebar-top {
   display: flex;

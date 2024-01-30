@@ -1,12 +1,16 @@
 @import "../config/config.scss";
 
+$sidebarBg: #181818;
+$sidebarHighlight: white;
+$sidebarActive: #00eaa0;
+
 .account--sidebar {
     height: 100%;
     justify-content: space-between;
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    background-color: #f0f0f0;
+    background-color: $sidebarBg;
 
     .links-wrapper {
         margin: 0;
@@ -23,22 +27,27 @@
                 display: flex;
                 align-items: center;
                 padding-left: 0;
+                color: $sidebarHighlight;
             }
 
             &.active a {
                 // background-color: $green;
-                color: $green;
+                color: $sidebarActive;
                 font-weight: 500;
-                border-bottom: 1px solid $green;
+                border-bottom: 1px solid $sidebarActive;
+
+                svg {
+                    fill: $sidebarActive;
+                }
             }
 
             &:hover a {
-                border-bottom: 1px solid $green;
+                border-bottom: 1px solid $sidebarHighlight;
             }
 
             &:hover {
                 &.active a {
-                    border-bottom: 1px solid $green;
+                    border-bottom: 1px solid $sidebarActive;
                 }
             }
         }
@@ -50,9 +59,12 @@
         gap: 1rem;
 
         .list--item a {
+            gap: 1rem;
+
             svg {
-                width: 30px;
+                width: 15px;
                 margin-right: 0;
+                fill: white;
             }
         }
     }
@@ -62,7 +74,9 @@
         .list--item {
             a {
                 display: flex;
+                gap: 1rem;
                 svg {
+                    width: 15px;
                     margin-top: -3px;
                 }
             }

@@ -1,5 +1,13 @@
 @import "./shopify/customer.scss", "../config/config.scss";
 
+@mixin card-shadow {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+$contentBg: #cccccc;
+
 footer.footer {
     display: none;
 }
@@ -19,34 +27,41 @@ header.header {
 
 .customer {
     &.account,
-    &.order {
-        padding: 0;
+    &.order,
+    &.addresses {
+        padding: 0 !important;
         height: calc(100vh - 70px);
         overflow: hidden;
+        max-width: 1540px !important;
     }
 
     &.account,
-    &.order {
+    &.order,
+    &.addresses {
         padding: 0;
         height: calc(100vh - 70px);
         overflow: hidden;
 
-        .orders--wrapper {
-            height: calc(100vh - (1rem + 70px));
+        .content--wrapper {
+            height: calc(100vh - (1rem + 60px));
             padding: 2rem;
+            background-color: $contentBg;
 
-            .order-wrapper--inner {
+            .content--inner {
                 padding: 2rem;
                 height: 100%;
+                @include card-shadow;
+                overflow: hidden;
+                padding-bottom: 5rem;
 
-                .order-header {
+                .content-header {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
                     padding-bottom: 2rem;
                     border-bottom: 1px solid #e0e0e0;
 
-                    .order--title {
+                    .content--title {
                         margin: 0;
                     }
 
@@ -65,7 +80,7 @@ header.header {
                     }
                 }
 
-                .orders--inner {
+                .content-main {
                     overflow: scroll;
                     height: 100%;
                     padding: 2rem 1rem;
@@ -88,9 +103,7 @@ header.header {
                     }
 
                     .order-details {
-                        background-color: white;
-                        border-radius: 10px;
-                        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                        @include card-shadow;
                     }
 
                     .address-wrapper {
@@ -109,6 +122,43 @@ header.header {
                         width: 200px;
                         height: 1000px;
                         display: block;
+                    }
+
+                    &.address-main {
+                        .address-edit {
+                            .list {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 2rem;
+
+                                .address--item {
+                                    margin-top: 0;
+                                    padding: 2rem;
+                                    @include card-shadow;
+
+                                    .address-content {
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        align-items: center;
+                                        gap: 2rem;
+
+                                        .info {
+                                            width: calc(60% - 2rem);
+                                            text-align: left;
+                                        }
+
+                                        button.edit,
+                                        button.remove {
+                                            width: calc(20% - 2rem);
+                                        }
+
+                                        .address-form {
+                                            width: 100%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }

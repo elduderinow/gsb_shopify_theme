@@ -31,13 +31,12 @@
   assign filtered_b2c_products = collection.products
   for product in filtered_b2c_products
     if product.tags contains 'tester'
-      assign filtered_b2c_products = filtered_b2c_products | append: ',' | append: product
+      assign filtered_b2c_products = true
     endif
   endfor
-  assign filtered_b2c_products = filtered_b2c_products | remove_first: ',' | split: ','
 %}
 
-{{ collection.products | json }}
+{{ filtered_b2c_products | json }}
 
 <div class="section-{{ section.id }}-padding global-section-x-padding page-width--{{ section.settings.section_width }} product-view--{{ section.settings.product_view }}">
   {%- paginate collection.products by section.settings.products_per_page -%}

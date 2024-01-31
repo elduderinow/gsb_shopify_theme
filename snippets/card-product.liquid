@@ -204,6 +204,7 @@
         {%- if customer.tags contains 'B2B' -%}
           {%- if show_quick_add -%}
             <div class="quick-add no-js-hidden">
+              {{ product_id | json }}
               {%- liquid
                 assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id
                 assign qty_rules = false
@@ -211,7 +212,7 @@
                   assign qty_rules = true
                 endif
               -%}
-              {{ card_product.id | json }}
+
               {%- if card_product.variants.size > 1 or qty_rules -%}
                 <modal-opener data-modal="#QuickAdd-{{ card_product.id }}">
                   <button
@@ -224,7 +225,6 @@
                     data-product-url="{{ card_product.url }}"
                   >
                     {{ 'products.product.choose_options' | t }}
-                    <span class="icon-wrap">{% render 'icon-arrow' %}</span>
                     {%- if horizontal_quick_add -%}
                       <span class="icon-wrap">{% render 'icon-arrow' %}</span>
                     {%- endif -%}

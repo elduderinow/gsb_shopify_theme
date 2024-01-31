@@ -37,7 +37,7 @@
     endunless
   endfor
   if customer.tags contains 'B2B'
-    assign new_collection = 'its b2b'
+    assign new_collection = filtered_b2c_products
   else
     assign new_collection = collection.products
   endif

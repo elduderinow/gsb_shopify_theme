@@ -31,10 +31,10 @@
   assign filtered_b2c_products = null | sort
 
   for product in collection.products
-    if product.tags contains 'tester'
+    unless product.tags contains 'tester'
       assign item = product | sort
       assign filtered_b2c_products = filtered_b2c_products | concat: item
-    endif
+    endunless
   endfor
 %}
 

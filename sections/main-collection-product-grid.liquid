@@ -28,10 +28,10 @@
 {%- endstyle -%}
 
 {%- liquid
-  assign filtered_b2c_products = collection.products
-  for product in filtered_b2c_products
+  assign filtered_b2c_products = '' | split: ''
+  for product in collection.products
     if product.tags contains 'tester'
-      assign filtered_b2c_products = true
+      assign filtered_b2c_products = filtered_b2c_products | concat: product
     endif
   endfor
 %}

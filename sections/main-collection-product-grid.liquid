@@ -29,15 +29,21 @@
 
 {%- liquid
   assign filtered_b2c_products = null | sort
+  assign new_collection = ''
   for product in collection.products
     unless product.tags contains 'tester'
       assign item = product | sort
       assign filtered_b2c_products = filtered_b2c_products | concat: item
     endunless
   endfor
+  if customer.tags contains 'B2B'
+    assign new_collection = 'its b2b'
+  else
+    assign new_collection = 'its b2c'
+  endif
 %}
 
-{{ filtered_b2c_products | json }}
+{{ new_collection | json }}
 
 <div class="section-{{ section.id }}-padding global-section-x-padding page-width--{{ section.settings.section_width }} product-view--{{ section.settings.product_view }}">
   {%- paginate collection.products by section.settings.products_per_page -%}

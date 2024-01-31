@@ -281,7 +281,7 @@
               >
                 {%- for item in search.results -%}
                   {% include 'easylockdown_filter_search' with item %}
-                  {{ item | json }}
+
                   {% assign lazy_load = false %}
                   {%- if forloop.index > 2 -%}
                     {%- assign lazy_load = true -%}

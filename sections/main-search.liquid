@@ -308,6 +308,7 @@
                             show_quick_add: true,
                           %}
                         {% endcomment %}
+                        {{ item | json }}
                         {% render 'card-product',
                           card_product: item,
                           media_aspect_ratio: section.settings.image_ratio,

@@ -39,7 +39,7 @@
   if customer.tags contains 'B2B'
     assign new_collection = 'its b2b'
   else
-    assign new_collection = 'its b2c'
+    assign new_collection = collection.products
   endif
 %}
 

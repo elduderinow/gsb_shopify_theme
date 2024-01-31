@@ -166,7 +166,8 @@
                 grid--{{ section.settings.columns_desktop }}-col-desktop
               "
             >
-              {%- for product in collection.products -%}{% include 'easylockdown_filter_collection' with product %}
+              {%- for product in collection.products -%}
+                {% include 'easylockdown_filter_collection' with product %}
                 {% render 'easylockdown_filter_collection' with product %}
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
@@ -198,7 +199,7 @@
                 {%- if customer.tags contains 'B2B' -%}
                   <li
                     data-max-width="{{ maxWidthListItem }}"
-                    class="grid__item{% if settings.animations_reveal_on_scroll %} testtest scroll-trigger animate--slide-in{% endif %}"
+                    class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                     {% if settings.animations_reveal_on_scroll %}
                       data-cascade
                     {% endif %}

@@ -43,7 +43,7 @@
   endif
 %}
 
-{{ new_collection | json }}
+{% comment %} {{ new_collection | json }} {% endcomment %}
 
 <div class="section-{{ section.id }}-padding global-section-x-padding page-width--{{ section.settings.section_width }} product-view--{{ section.settings.product_view }}">
   {%- paginate collection.products by section.settings.products_per_page -%}
@@ -172,7 +172,7 @@
                 grid--{{ section.settings.columns_desktop }}-col-desktop
               "
             >
-              {%- for product in collection.products -%}
+              {%- for product in new_collection -%}
                 {% include 'easylockdown_filter_collection' with product %}
                 {% render 'easylockdown_filter_collection' with product %}
                 {% assign lazy_load = false %}

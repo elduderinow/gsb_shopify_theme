@@ -14,8 +14,8 @@
             "subheading_size": "h5",
             "button_label": "Zoek een Professional",
             "link": "shopify:\/\/collections\/beauty-pro-skincare-pro-testers",
-            "box_align": "bottom-right",
-            "text_alignment": "right",
+            "box_align": "bottom-left",
+            "text_alignment": "left",
             "image_overlay_opacity": 10,
             "text_alignment_mobile": "center"
           }
@@ -28,11 +28,11 @@
             "heading_size": "h1",
             "color_option_id": "#414141",
             "subheading": "NIEUW",
-            "subheading_size": "h6",
+            "subheading_size": "h5",
             "button_label": "Shop Now",
             "link": "shopify:\/\/collections\/face-prime",
-            "box_align": "top-right",
-            "text_alignment": "right",
+            "box_align": "bottom-left",
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "text_alignment_mobile": "center"
           }

@@ -6,15 +6,15 @@
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/b0-Sheila_Buenrostro_r1_0192.jpg",
-            "heading": "",
+            "image": "shopify:\/\/shop_images\/824257ca-c7c2-c543-21b9-bfb04b2e543f.jpg",
+            "heading": "Coming soon...",
             "heading_size": "h0",
             "color_option_id": "#2a2a2a",
             "subheading": "",
             "subheading_size": "h5",
             "button_label": "Zoek een Professional",
             "link": "shopify:\/\/pages\/store-locator",
-            "box_align": "bottom-left",
+            "box_align": "top-left",
             "text_alignment": "left",
             "image_overlay_opacity": 10,
             "text_alignment_mobile": "center"

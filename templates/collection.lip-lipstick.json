@@ -294,6 +294,22 @@
         "padding_bottom": 80,
         "section_width": "boxed"
       }
+    },
+    "video_awjBA9": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "lips?",
+        "heading_size": "h2",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/90s lips.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -305,6 +321,7 @@
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "c9055c65-600f-45a6-ac53-403f9f1e9f1f",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
-    "37451595-eac5-4463-8371-6f0daf3e0822"
+    "37451595-eac5-4463-8371-6f0daf3e0822",
+    "video_awjBA9"
   ]
 }

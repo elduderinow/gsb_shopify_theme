@@ -3,6 +3,23 @@
     "a9132cbf-2ea9-4bb0-96e9-1e58e1371a27": {
       "type": "slideshow",
       "blocks": {
+        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/824257ca-c7c2-c543-21b9-bfb04b2e543f.jpg",
+            "heading": "Coming soon...",
+            "heading_size": "h0",
+            "color_option_id": "#2a2a2a",
+            "subheading": "",
+            "subheading_size": "h5",
+            "button_label": "Zoek een Professional",
+            "link": "shopify:\/\/pages\/store-locator",
+            "box_align": "top-left",
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "text_alignment_mobile": "center"
+          }
+        },
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1": {
           "type": "slide",
           "settings": {
@@ -11,11 +28,11 @@
             "heading_size": "h1",
             "color_option_id": "#414141",
             "subheading": "NIEUW",
-            "subheading_size": "h6",
-            "button_label": "Shop Limited Edition Kits",
-            "link": "shopify:\/\/collections\/holiday-23",
-            "box_align": "top-right",
-            "text_alignment": "right",
+            "subheading_size": "h5",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/face-prime",
+            "box_align": "bottom-left",
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "text_alignment_mobile": "center"
           }
@@ -36,30 +53,12 @@
             "image_overlay_opacity": 0,
             "text_alignment_mobile": "center"
           }
-        },
-        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/winter-skincare-1.webp",
-            "heading": "<strong>Herfst essentials<\/strong>",
-            "heading_size": "h0",
-            "color_option_id": "#2a2a2a",
-            "subheading": "",
-            "subheading_size": "h5",
-            "button_label": "SHOP ESSENTIALS",
-            "link": "shopify:\/\/collections\/beauty-pro-skincare-pro-testers",
-            "box_align": "bottom-right",
-            "text_alignment": "right",
-            "image_overlay_opacity": 10,
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0",
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1",
-        "9eaf1a1a-60b6-45da-b983-20c7c7f5d573",
-        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0"
+        "9eaf1a1a-60b6-45da-b983-20c7c7f5d573"
       ],
       "settings": {
         "layout": "full_bleed",

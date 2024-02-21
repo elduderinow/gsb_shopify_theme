@@ -172,7 +172,7 @@
                 grid--{{ section.settings.columns_desktop }}-col-desktop
               "
             >
-              {%- for product in collection.products -%}
+              {%- for product in new_collection -%}
                 {% render 'easylockdown_filter_collection' with product %}
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}

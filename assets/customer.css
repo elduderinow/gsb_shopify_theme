@@ -744,7 +744,6 @@ header.header .header__heading-link {
   padding: 0;
   height: calc(100vh - 70px);
   overflow: hidden;
-  max-width: none;
 }
 .customer.account .content--wrapper, .customer.order .content--wrapper, .customer.addresses .content--wrapper {
   height: calc(100vh - (1rem + 60px));

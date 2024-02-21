@@ -732,9 +732,6 @@ header.header .header__heading-link {
 
 .shopify-section {
   background-color: #fafafa;
-  height: 100%;
-  display: flex;
-  align-items: center;
 }
 
 .customer.account, .customer.order, .customer.addresses {

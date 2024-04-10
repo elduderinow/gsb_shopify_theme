@@ -855,6 +855,8 @@ header.header .header__heading-link {
 .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit,
 .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove {
   width: calc(20% - 2rem);
+  background-color: gray;
+  color: black;
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form {
   width: 100%;

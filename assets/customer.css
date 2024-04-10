@@ -740,14 +740,10 @@ header.header .header__heading-link {
   overflow: hidden;
   max-width: 1540px !important;
 }
-@media (max-width: 750px) {
+@media (max-width: 990px) {
   .customer.account, .customer.order, .customer.addresses {
     height: auto;
   }
-}
-.customer.account, .customer.order, .customer.addresses {
-  padding: 0;
-  overflow: hidden;
 }
 .customer.account .content--wrapper, .customer.order .content--wrapper, .customer.addresses .content--wrapper {
   height: calc(100vh - (1rem + 60px));

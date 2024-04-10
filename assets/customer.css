@@ -763,10 +763,6 @@ header.header .header__heading-link {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   overflow: hidden;
   padding-bottom: 5rem;
-  background-color: pink;
-}
-.customer.account .content--wrapper .content--inner::-webkit-scrollbar, .customer.order .content--wrapper .content--inner::-webkit-scrollbar, .customer.addresses .content--wrapper .content--inner::-webkit-scrollbar, .customer.portal .content--wrapper .content--inner::-webkit-scrollbar {
-  display: none !important;
 }
 .customer.account .content--wrapper .content--inner .content-header, .customer.order .content--wrapper .content--inner .content-header, .customer.addresses .content--wrapper .content--inner .content-header, .customer.portal .content--wrapper .content--inner .content-header {
   display: flex;

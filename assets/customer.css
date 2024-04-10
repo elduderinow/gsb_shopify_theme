@@ -851,3 +851,8 @@ header.header .header__heading-link {
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form {
   width: 100%;
 }
+@media (max-width: 990px) {
+  .customer.account .content--wrapper, .customer.order .content--wrapper, .customer.addresses .content--wrapper {
+    height: auto;
+  }
+}

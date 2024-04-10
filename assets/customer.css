@@ -855,15 +855,21 @@ header.header .header__heading-link {
 .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit,
 .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove {
   width: calc(20% - 2rem);
-  background-color: gray;
+  background-color: rgba(0, 0, 0, 0);
   color: black;
-  border-radius: 50px;
+  text-decoration: underline;
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit::after,
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove::after, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit::after,
 .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove::after, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit::after,
 .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove::after {
   display: none;
+}
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit:hover,
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove:hover, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit:hover,
+.customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove:hover, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit:hover,
+.customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove:hover {
+  text-decoration: none;
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form {
   width: 100%;

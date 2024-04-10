@@ -29,16 +29,15 @@ body {
 .account--sidebar .links-wrapper .list--item.active a {
   color: #009e6d;
   font-weight: 500;
-  border-bottom: 1px solid #009e6d;
 }
 .account--sidebar .links-wrapper .list--item.active a svg {
   fill: #009e6d;
 }
 .account--sidebar .links-wrapper .list--item:hover a {
-  border-bottom: 1px solid rgb(0, 0, 0);
+  color: #009e6d;
 }
-.account--sidebar .links-wrapper .list--item:hover.active a {
-  border-bottom: 1px solid #009e6d;
+.account--sidebar .links-wrapper .list--item:hover a svg {
+  fill: #009e6d;
 }
 .account--sidebar .sidebar-top {
   display: flex;

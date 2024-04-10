@@ -38,7 +38,7 @@
               >
             </div>
           </div>
-          <div class="content-main">
+          <div class="content-main order-detail-main">
             <div class="order-info">
               {%- assign order_date = order.created_at | time_tag: format: 'date_at_time' -%}
               <p>{{ 'customer.order.date_html' | t: date: order_date }}</p>

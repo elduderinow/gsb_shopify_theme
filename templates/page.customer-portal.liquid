@@ -13,7 +13,7 @@
           <div class="content-header">
             <h2 class="content--title">Klantenzone</h2>
           </div>
-          <div class="content-main portal-main">
+          <div class="content-main portal-main space-y-14">
             {% comment %}
               <h2 class="intro">
                 De Klantenzone wordt momenteel bijgewerkt!<br>
@@ -23,16 +23,19 @@
                 Bedankt voor je geduld en we kijken ernaar uit om je van dienst te zijn.
               </h2>
             {% endcomment %}
-            {% if linklists.dropbox != empty %}
-              <div class="dir-links">
-                {% for item in linklists.dropbox.links %}
-                  <a target="_blank" class="dir--link" href="{{ item.url }}">
-                    {% render 'icon-directory' %}
-                    <p>{{ item.title }}</p>
-                  </a>
-                {% endfor %}
-              </div>
-            {% endif %}
+            <div class="portal-item">
+              <h2>Belangrijke mappen</h2>
+              {% if linklists.dropbox != empty %}
+                <div class="dir-links">
+                  {% for item in linklists.dropbox.links %}
+                    <a target="_blank" class="dir--link" href="{{ item.url }}">
+                      {% render 'icon-directory' %}
+                      <p>{{ item.title }}</p>
+                    </a>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            </div>
           </div>
         </div>
       </div>

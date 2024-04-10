@@ -180,7 +180,7 @@
               </div>
               <div class="address-edit">
                 <ul class="list" role="list">
-                  {%- assign sorted_addresses = customer.addresses | sort: 'default' -%}
+                  {%- assign sorted_addresses = customer.addresses | sort: 'default' | reverse -%}
                   {%- for address in sorted_addresses -%}
                     <li class="address--item" data-address>
                       <div class="address-content">

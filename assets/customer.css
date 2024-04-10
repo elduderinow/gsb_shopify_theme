@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-.customer:not(.account):not(.order) {
+.customer:not(.account):not(.order):not(.portal) {
   margin: 0 auto;
   max-width: 33.4rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   text-align: center;
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media screen and (min-width: 750px) {
@@ -794,22 +798,8 @@ header.header .header__heading-link {
     overflow: auto;
   }
 }
-.customer.account .content--wrapper .content--inner .content-main .order-info, .customer.order .content--wrapper .content--inner .content-main .order-info, .customer.addresses .content--wrapper .content--inner .content-main .order-info, .customer.portal .content--wrapper .content--inner .content-main .order-info {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  padding: 2rem;
-  width: max-content;
-}
-.customer.account .content--wrapper .content--inner .content-main .order-info p, .customer.order .content--wrapper .content--inner .content-main .order-info p, .customer.addresses .content--wrapper .content--inner .content-main .order-info p, .customer.portal .content--wrapper .content--inner .content-main .order-info p {
-  margin: 0;
-}
-.customer.account .content--wrapper .content--inner .content-main .order-details, .customer.order .content--wrapper .content--inner .content-main .order-details, .customer.addresses .content--wrapper .content--inner .content-main .order-details, .customer.portal .content--wrapper .content--inner .content-main .order-details {
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+.customer.account .content--wrapper .content--inner .content-main .order-history tbody tr, .customer.order .content--wrapper .content--inner .content-main .order-history tbody tr, .customer.addresses .content--wrapper .content--inner .content-main .order-history tbody tr, .customer.portal .content--wrapper .content--inner .content-main .order-history tbody tr {
+  padding: 1px;
 }
 .customer.account .content--wrapper .content--inner .content-main .address-wrapper, .customer.order .content--wrapper .content--inner .content-main .address-wrapper, .customer.addresses .content--wrapper .content--inner .content-main .address-wrapper, .customer.portal .content--wrapper .content--inner .content-main .address-wrapper {
   gap: 2rem;
@@ -821,11 +811,60 @@ header.header .header__heading-link {
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.customer.account .content--wrapper .content--inner .content-main .filler, .customer.order .content--wrapper .content--inner .content-main .filler, .customer.addresses .content--wrapper .content--inner .content-main .filler, .customer.portal .content--wrapper .content--inner .content-main .filler {
-  background-color: red;
-  width: 200px;
-  height: 1000px;
-  display: block;
+.customer.account .content--wrapper .content--inner .content-main.order-detail-main .order-info, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .order-info, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .order-info, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .order-info {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 2rem;
+  width: max-content;
+}
+.customer.account .content--wrapper .content--inner .content-main.order-detail-main .order-info p, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .order-info p, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .order-info p, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .order-info p {
+  margin: 0;
+}
+.customer.account .content--wrapper .content--inner .content-main.order-detail-main .order-details, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .order-details, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .order-details, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .order-details {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+@media (max-width: 990px) {
+  .customer.account .content--wrapper .content--inner .content-main.order-detail-main, .customer.order .content--wrapper .content--inner .content-main.order-detail-main, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main {
+    align-items: center;
+  }
+  .customer.account .content--wrapper .content--inner .content-main.order-detail-main .order-info, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .order-info, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .order-info, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .order-info {
+    width: 100%;
+    padding: 2rem 0;
+    box-shadow: none;
+  }
+  .customer.account .content--wrapper .content--inner .content-main.order-detail-main .order-info p, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .order-info p, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .order-info p, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .order-info p {
+    font-size: 1.4rem;
+  }
+  .customer.account .content--wrapper .content--inner .content-main.order-detail-main .order-details, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .order-details, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .order-details, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .order-details {
+    background-color: #fafafa;
+    border: 1px solid rgba(18, 18, 18, 0.0784313725);
+    box-shadow: none;
+  }
+  .customer.account .content--wrapper .content--inner .content-main.order-detail-main .order-details tr, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .order-details tr, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .order-details tr, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .order-details tr {
+    padding: 0 1.5rem;
+  }
+  .customer.account .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper {
+    flex-direction: column;
+    width: 100%;
+    padding: 2px;
+  }
+  .customer.account .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address {
+    padding: 0;
+    border-bottom: 1px solid rgba(18, 18, 18, 0.0784313725);
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .customer.account .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address h2, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address h2, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address h2, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address h2 {
+    margin: 0;
+  }
+  .customer.account .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address p, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address p, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address p, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address p {
+    font-size: 1.4rem;
+  }
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.order .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-new button {
   margin: 3rem 0;
@@ -919,7 +958,20 @@ header.header .header__heading-link {
   margin-top: 3rem;
 }
 @media (max-width: 990px) {
+  .customer.account .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.order .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.addresses .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.portal .content--wrapper .content--inner .content-main.portal-main h2.intro {
+    width: 100%;
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 990px) {
   .customer.account .content--wrapper, .customer.order .content--wrapper, .customer.addresses .content--wrapper, .customer.portal .content--wrapper {
     height: auto;
+    padding: 1rem;
+  }
+  .customer.account .content--wrapper .content-header .content--title, .customer.order .content--wrapper .content-header .content--title, .customer.addresses .content--wrapper .content-header .content--title, .customer.portal .content--wrapper .content-header .content--title {
+    font-size: 2rem;
+  }
+  .customer.account .content--wrapper .content--inner .content-main, .customer.order .content--wrapper .content--inner .content-main, .customer.addresses .content--wrapper .content--inner .content-main, .customer.portal .content--wrapper .content--inner .content-main {
+    padding: 0;
   }
 }

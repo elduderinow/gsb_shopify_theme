@@ -7,6 +7,7 @@
 }
 
 $contentBg: #ededed;
+$gray-border: #12121214;
 
 footer.footer {
     display: none;
@@ -96,22 +97,10 @@ header.header {
                         overflow: auto;
                     }
 
-                    .order-info {
-                        display: flex;
-                        flex-direction: column;
-                        background-color: white;
-                        border-radius: 10px;
-                        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-                        padding: 2rem;
-                        width: max-content;
-
-                        p {
-                            margin: 0;
+                    .order-history {
+                        tbody tr {
+                            padding: 1px;
                         }
-                    }
-
-                    .order-details {
-                        @include card-shadow;
                     }
 
                     .address-wrapper {
@@ -125,11 +114,66 @@ header.header {
                         }
                     }
 
-                    .filler {
-                        background-color: red;
-                        width: 200px;
-                        height: 1000px;
-                        display: block;
+                    &.order-detail-main {
+                        .order-info {
+                            display: flex;
+                            flex-direction: column;
+                            background-color: white;
+                            border-radius: 10px;
+                            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                            padding: 2rem;
+                            width: max-content;
+
+                            p {
+                                margin: 0;
+                            }
+                        }
+
+                        .order-details {
+                            @include card-shadow;
+                        }
+
+                        @media (max-width: $breakpoint-lg) {
+                            align-items: center;
+
+                            .order-info {
+                                width: 100%;
+                                padding: 2rem 0;
+                                box-shadow: none;
+
+                                p {
+                                    font-size: 1.4rem;
+                                }
+                            }
+                            .order-details {
+                                background-color: #fafafa;
+                                border: 1px solid $gray-border;
+                                box-shadow: none;
+
+                                tr {
+                                    padding: 0 1.5rem;
+                                }
+                            }
+                            .address-wrapper {
+                                flex-direction: column;
+                                width: 100%;
+                                padding: 2px;
+
+                                .address {
+                                    padding: 0;
+                                    border-bottom: 1px solid $gray-border;
+                                    border-radius: 0;
+                                    box-shadow: none;
+
+                                    h2 {
+                                        margin: 0;
+                                    }
+                                    p {
+                                        font-size: 1.4rem;
+                                    }
+                                }
+                            }
+                        }
                     }
 
                     &.address-main {
@@ -232,12 +276,31 @@ header.header {
                             width: 80%;
                             margin-top: 3rem;
                         }
+
+                        @media (max-width: $breakpoint-lg) {
+                            h2.intro {
+                                width: 100%;
+                                margin-top: 3rem;
+                            }
+                        }
                     }
                 }
             }
 
             @media (max-width: $breakpoint-lg) {
                 height: auto;
+                padding: 1rem;
+
+                .content-header {
+                    .content--title {
+                        font-size: 2rem;
+                    }
+                }
+                .content--inner {
+                    .content-main {
+                        padding: 0;
+                    }
+                }
             }
         }
     }

@@ -829,6 +829,9 @@ header.header .header__heading-link {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 @media (max-width: 990px) {
+  .customer.account .content--wrapper .content--inner .content-main.order-detail-main, .customer.order .content--wrapper .content--inner .content-main.order-detail-main, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main {
+    align-items: center;
+  }
   .customer.account .content--wrapper .content--inner .content-main.order-detail-main .order-info, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .order-info, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .order-info, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .order-info {
     width: 100%;
     padding: 2rem 0;
@@ -836,6 +839,10 @@ header.header .header__heading-link {
   }
   .customer.account .content--wrapper .content--inner .content-main.order-detail-main .order-info p, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .order-info p, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .order-info p, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .order-info p {
     font-size: 1.4rem;
+  }
+  .customer.account .content--wrapper .content--inner .content-main.order-detail-main .order-details, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .order-details, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .order-details, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .order-details {
+    background-color: gray;
+    width: 98%;
   }
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.order .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-new button {

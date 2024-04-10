@@ -67,6 +67,9 @@ body {
   .account--sidebar {
     flex-direction: column-reverse;
   }
+  .account--sidebar .sidebar-top .list--item {
+    border-bottom: 1px solid #d9d9d9;
+  }
   .account--sidebar .sidebar-bottom {
     display: none;
   }

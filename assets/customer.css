@@ -954,6 +954,7 @@ header.header .header__heading-link {
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro {
   width: 50%;
+  padding: 1.5rem;
   background-color: white;
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;

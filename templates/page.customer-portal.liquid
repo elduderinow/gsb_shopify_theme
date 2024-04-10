@@ -21,6 +21,17 @@
               <br>
               Bedankt voor je geduld en we kijken ernaar uit om je van dienst te zijn.
             </h2>
+            <div class="links">
+              {% if linklists.dropbox != empty %}
+                <ul class="menu">
+                  {% for item in linklists.dropbox.links %}
+                    <li>
+                      <a href="{{ item.url }}">{{ item.title }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </div>
           </div>
         </div>
       </div>

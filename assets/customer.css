@@ -754,9 +754,7 @@ header.header .header__heading-link {
 .customer.account .content--wrapper .content--inner, .customer.order .content--wrapper .content--inner, .customer.addresses .content--wrapper .content--inner {
   padding: 2rem;
   height: 100%;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 1px solid rgba(18, 18, 18, 0.0784313725);
   overflow: hidden;
   padding-bottom: 5rem;
 }
@@ -856,8 +854,4 @@ header.header .header__heading-link {
   .customer.account .content--wrapper, .customer.order .content--wrapper, .customer.addresses .content--wrapper {
     height: auto;
   }
-}
-.customer .address--item {
-  box-shadow: none;
-  border: 1px solid rgba(18, 18, 18, 0.0784313725);
 }

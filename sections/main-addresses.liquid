@@ -182,7 +182,10 @@
                 <ul class="list" role="list">
                   {%- assign sorted_addresses = customer.addresses | sort: 'default' | reverse -%}
                   {%- for address in sorted_addresses -%}
-                    <li class="address--item" data-address>
+                    <li
+                      class="address--item {%- if address == customer.default_address -%} default--address {%- endif -%}"
+                      data-address
+                    >
                       <div class="address-content">
                         <div class="info">
                           {%- if address == customer.default_address -%}

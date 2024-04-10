@@ -958,6 +958,7 @@ header.header .header__heading-link {
   background-color: white;
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro h2, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro h2, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro h2, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro h2 {
   font-size: 1.6rem;

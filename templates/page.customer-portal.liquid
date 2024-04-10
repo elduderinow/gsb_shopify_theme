@@ -21,7 +21,11 @@
               <br>
               Bedankt voor je geduld en we kijken ernaar uit om je van dienst te zijn.
             </h2>
-            <div class="links">
+            <div class="dir-links">
+              <div class="dir--link">
+                {% render 'icon-location' %}
+                <p>Algemeen</p>
+              </div>
               {% if linklists.dropbox != empty %}
                 <ul class="menu">
                   {% for item in linklists.dropbox.links %}

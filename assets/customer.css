@@ -857,6 +857,13 @@ header.header .header__heading-link {
   width: calc(20% - 2rem);
   background-color: gray;
   color: black;
+  border-radius: 50px;
+}
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit::after,
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove::after, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit::after,
+.customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove::after, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit::after,
+.customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove::after {
+  display: none;
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form {
   width: 100%;

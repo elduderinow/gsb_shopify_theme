@@ -953,7 +953,6 @@ header.header .header__heading-link {
   padding: 2rem 1rem;
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro {
-  padding: 1.5rem;
   display: flex;
   gap: 2rem;
 }
@@ -962,9 +961,11 @@ header.header .header__heading-link {
 .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro,
 .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro,
 .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback {
+  width: 100%;
   background-color: white;
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 1.5rem;
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2,
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2,

@@ -961,8 +961,11 @@ header.header .header__heading-link {
   width: 100%;
   display: flex;
 }
+.customer.account .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link, .customer.order .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link, .customer.portal .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link {
+  width: 12.5%;
+}
 .customer.account .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link svg, .customer.order .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link svg, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link svg, .customer.portal .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link svg {
-  fill: blue;
+  fill: rgb(64, 120, 173);
 }
 @media (max-width: 990px) {
   .customer.account .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.order .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.addresses .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.portal .content--wrapper .content--inner .content-main.portal-main h2.intro {

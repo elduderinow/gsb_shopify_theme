@@ -798,6 +798,9 @@ header.header .header__heading-link {
     overflow: auto;
   }
 }
+.customer.account .content--wrapper .content--inner .content-main .order-history tbody tr, .customer.order .content--wrapper .content--inner .content-main .order-history tbody tr, .customer.addresses .content--wrapper .content--inner .content-main .order-history tbody tr, .customer.portal .content--wrapper .content--inner .content-main .order-history tbody tr {
+  padding: 1px;
+}
 .customer.account .content--wrapper .content--inner .content-main .order-info, .customer.order .content--wrapper .content--inner .content-main .order-info, .customer.addresses .content--wrapper .content--inner .content-main .order-info, .customer.portal .content--wrapper .content--inner .content-main .order-info {
   display: flex;
   flex-direction: column;

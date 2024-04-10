@@ -862,6 +862,9 @@ header.header .header__heading-link {
   .customer.account .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address h2, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address h2, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address h2, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address h2 {
     margin: 0;
   }
+  .customer.account .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address p, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address p, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address p, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address p {
+    font-size: 1.4rem;
+  }
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.order .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-new button {
   margin: 3rem 0;

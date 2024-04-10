@@ -975,9 +975,9 @@ header.header .header__heading-link {
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg {
   fill: #56a4e5;
   transition: fill 0.2s ease-in-out;
+  width: 60px;
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg.icon-file, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg.icon-file, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg.icon-file, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg.icon-file {
-  width: 60px;
   fill: #a4a4a4;
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link p, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link p, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link p, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link p {

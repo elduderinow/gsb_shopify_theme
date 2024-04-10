@@ -183,7 +183,7 @@
                   {%- assign sorted_addresses = customer.addresses | sort: 'default' | reverse -%}
                   {%- for address in sorted_addresses -%}
                     <li
-                      class="address--item"
+                      class="address--item {% if address == customer.default_address %} default--address {% endif %}"
                       data-address
                     >
                       <div class="address-content">

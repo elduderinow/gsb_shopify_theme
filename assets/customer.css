@@ -923,9 +923,6 @@ header.header .header__heading-link {
     height: auto;
     padding: 0;
   }
-  .customer.account .content--wrapper .content-header, .customer.order .content--wrapper .content-header, .customer.addresses .content--wrapper .content-header, .customer.portal .content--wrapper .content-header {
-    justify-content: center;
-  }
   .customer.account .content--wrapper .content-header .content--title, .customer.order .content--wrapper .content-header .content--title, .customer.addresses .content--wrapper .content-header .content--title, .customer.portal .content--wrapper .content-header .content--title {
     font-size: 2rem;
   }

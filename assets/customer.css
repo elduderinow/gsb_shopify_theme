@@ -848,6 +848,14 @@ header.header .header__heading-link {
   .customer.account .content--wrapper .content--inner .content-main.order-detail-main .order-details tr, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .order-details tr, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .order-details tr, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .order-details tr {
     padding: 0 1.5rem;
   }
+  .customer.account .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper {
+    flex-direction: column;
+    width: 100%;
+    padding: 2px;
+  }
+  .customer.account .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .address-wrapper .address {
+    padding: 0;
+  }
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.order .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-new button {
   margin: 3rem 0;

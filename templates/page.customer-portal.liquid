@@ -1,35 +1,33 @@
 {{ 'customer.css' | asset_url | stylesheet_tag }}
 
-<script src="{{ 'customer.js' | asset_url }}" defer></script>
+{% comment %} <script src="{{ 'customer.js' | asset_url }}" defer></script> {% endcomment %}
 
-{%- paginate customer.addresses by 5 -%}
-  <div class="customer addresses section-{{ section.id }}-padding" data-customer-addresses>
-    {% comment %}
-      <h1>{{ 'customer.addresses.title' | t }}</h1>
-      <a href="{{ routes.account_url }}">
-        {{ 'customer.account.return' | t }}
-      </a>
-    {% endcomment %}
+<div class="customer addresses section-{{ section.id }}-padding" data-customer-addresses>
+  {% comment %}
+    <h1>{{ 'customer.addresses.title' | t }}</h1>
+    <a href="{{ routes.account_url }}">
+      {{ 'customer.account.return' | t }}
+    </a>
+  {% endcomment %}
 
-    <div class="grid grid-cols-12 h-full gap-0">
-      <div class="col-span-12 lg:col-span-3 xl:col-span-2">
-        {% render 'account-sidebar', active: 'portal' %}
-      </div>
-      <div class="col-span-12 lg:col-span-9 xl:col-span-10">
-        <div class="content--wrapper">
-          <div data-address class="content--inner">
-            <div class="content-header">
-              <h2 class="content--title">Klanten Portaal</h2>
-            </div>
-            <div class="content-main portal-main">
-              <h2 class="text">
-                De Klatenportaal wordt momenteel bijgewerkt! Binnenkort vind je hier handige links naar afbeeldingen en
-                documenten. Bedankt voor je geduld en we kijken ernaar uit om je van dienst te zijn.
-              </h2>
-            </div>
+  <div class="grid grid-cols-12 h-full gap-0">
+    <div class="col-span-12 lg:col-span-3 xl:col-span-2">
+      {% render 'account-sidebar', active: 'portal' %}
+    </div>
+    <div class="col-span-12 lg:col-span-9 xl:col-span-10">
+      <div class="content--wrapper">
+        <div data-address class="content--inner">
+          <div class="content-header">
+            <h2 class="content--title">Klanten Portaal</h2>
+          </div>
+          <div class="content-main portal-main">
+            <h2 class="text">
+              De Klatenportaal wordt momenteel bijgewerkt! Binnenkort vind je hier handige links naar afbeeldingen en
+              documenten. Bedankt voor je geduld en we kijken ernaar uit om je van dienst te zijn.
+            </h2>
           </div>
         </div>
       </div>
     </div>
   </div>
-{%- endpaginate -%}
+</div>

@@ -844,6 +844,9 @@ header.header .header__heading-link {
   border: 1px solid rgba(18, 18, 18, 0.0784313725);
   border-radius: 10px;
 }
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item.default--address, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item.default--address, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item.default--address {
+  background-color: #fafafa;
+}
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content {
   display: flex;
   flex-wrap: wrap;
@@ -856,6 +859,7 @@ header.header .header__heading-link {
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .info h2.default, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .info h2.default, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .info h2.default {
   font-weight: 400;
+  color: #009e6d;
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit,
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit,

@@ -841,7 +841,7 @@ header.header .header__heading-link {
     font-size: 1.4rem;
   }
   .customer.account .content--wrapper .content--inner .content-main.order-detail-main .order-details, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .order-details, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .order-details, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .order-details {
-    background-color: gray;
+    background-color: #fafafa;
     border: 1px solid rgba(18, 18, 18, 0.0784313725);
   }
 }

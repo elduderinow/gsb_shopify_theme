@@ -958,10 +958,8 @@ header.header .header__heading-link {
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro h2.intro, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro h2.intro, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro h2.intro, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro h2.intro {
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro h2, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro h2, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro h2, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro h2 {
   font-size: 1.6rem;
-  width: 80%;
-  margin-top: 3rem;
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item h2, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item h2, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item h2, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item h2 {
   font-weight: 400;

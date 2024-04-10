@@ -962,9 +962,8 @@ header.header .header__heading-link {
 .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro,
 .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback {
   width: 100%;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 1px solid #e6e6e6;
+  background-color: #f3f3f3;
   padding: 1.5rem;
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2,
@@ -972,7 +971,8 @@ header.header .header__heading-link {
 .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2,
 .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2,
 .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2 {
-  font-size: 1.6rem;
+  font-size: 15px;
+  line-height: 19px;
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2 span,
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2 span, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2 span,

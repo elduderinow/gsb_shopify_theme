@@ -828,6 +828,13 @@ header.header .header__heading-link {
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+@media (max-width: 990px) {
+  .customer.account .content--wrapper .content--inner .content-main.order-detail-main .order-info, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .order-info, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .order-info, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .order-info {
+    width: 100%;
+    padding: 2rem 0;
+    box-shadow: none;
+  }
+}
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.order .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-new button {
   margin: 3rem 0;
   border-radius: 50px;

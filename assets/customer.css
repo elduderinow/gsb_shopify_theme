@@ -966,7 +966,7 @@ header.header .header__heading-link {
 @media (max-width: 990px) {
   .customer.account .content--wrapper, .customer.order .content--wrapper, .customer.addresses .content--wrapper, .customer.portal .content--wrapper {
     height: auto;
-    padding: 0;
+    padding: 1rem;
   }
   .customer.account .content--wrapper .content-header .content--title, .customer.order .content--wrapper .content-header .content--title, .customer.addresses .content--wrapper .content-header .content--title, .customer.portal .content--wrapper .content-header .content--title {
     font-size: 2rem;

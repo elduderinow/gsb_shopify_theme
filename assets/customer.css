@@ -952,7 +952,10 @@ header.header .header__heading-link {
   display: flex;
   padding: 2rem 1rem;
 }
-.customer.account .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.order .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.addresses .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.portal .content--wrapper .content--inner .content-main.portal-main h2.intro {
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro {
+  width: 50%;
+}
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro h2.intro, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro h2.intro, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro h2.intro, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro h2.intro {
   font-size: 1.6rem;
   width: 80%;
   margin-top: 3rem;

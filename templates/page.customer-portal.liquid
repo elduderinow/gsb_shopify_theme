@@ -1,1 +1,27 @@
-<div>custom customer page liquid</div>
+{{ 'customer.css' | asset_url | stylesheet_tag }}
+
+{% comment %} <script src="{{ 'customer.js' | asset_url }}" defer></script> {% endcomment %}
+
+<div class="customer portal section-{{ section.id }}-padding">
+  <div class="grid grid-cols-12 h-full gap-0">
+    <div class="col-span-12 lg:col-span-3 xl:col-span-2">
+      {% render 'account-sidebar', active: 'portal' %}
+    </div>
+    <div class="col-span-12 lg:col-span-9 xl:col-span-10">
+      <div class="content--wrapper">
+        <div data-address class="content--inner">
+          <div class="content-header">
+            <h2 class="content--title">Klanten Portaal</h2>
+          </div>
+          <div class="content-main portal-main">
+            <h2 class="intro">
+              De Klatenportaal wordt momenteel bijgewerkt!<br>
+              Binnenkort vind je hier handige links naar afbeeldingen en documenten.<br>
+              Bedankt voor je geduld en we kijken ernaar uit om je van dienst te zijn.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -33,7 +33,6 @@
       assign ratio = 1
     endif
   -%}
-
   <div class="card-product--component card-wrapper product-card-wrapper underline-links-hover">
     <div
       class="
@@ -211,6 +210,7 @@
                   assign qty_rules = true
                 endif
               -%}
+
               {%- if card_product.variants.size > 1 or qty_rules -%}
                 <modal-opener data-modal="#QuickAdd-{{ card_product.id }}">
                   <button

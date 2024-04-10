@@ -877,6 +877,9 @@ header.header .header__heading-link {
   padding: 2rem;
   border-radius: 10px;
 }
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form h2, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form h2, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form h2 {
+  font-weight: bold;
+}
 @media (max-width: 990px) {
   .customer.account .content--wrapper, .customer.order .content--wrapper, .customer.addresses .content--wrapper {
     height: auto;

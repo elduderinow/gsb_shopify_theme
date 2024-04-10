@@ -842,6 +842,7 @@ header.header .header__heading-link {
   }
   .customer.account .content--wrapper .content--inner .content-main.order-detail-main .order-details, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .order-details, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .order-details, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .order-details {
     background-color: gray;
+    border: 1px solid rgba(18, 18, 18, 0.0784313725);
   }
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.order .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-new button {

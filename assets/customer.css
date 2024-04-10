@@ -825,9 +825,13 @@ header.header .header__heading-link {
   margin: 3rem 0;
   border-radius: 50px;
   background-color: #009e6d;
+  transition: background-color 0.3s ease-in-out;
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-new button:after, .customer.order .content--wrapper .content--inner .content-main.address-main .address-new button:after, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-new button:after {
   display: none;
+}
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-new button:hover, .customer.order .content--wrapper .content--inner .content-main.address-main .address-new button:hover, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-new button:hover {
+  background-color: #006b4a;
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list {
   display: flex;

@@ -64,10 +64,6 @@ body {
   margin-top: -3px;
 }
 @media (max-width: 990px) {
-  .account--sidebar {
-    flex-direction: column-reverse;
-    padding-bottom: 0;
-  }
   .account--sidebar .sidebar-top .list--item {
     border-bottom: 1px solid #d9d9d9;
   }

@@ -981,6 +981,7 @@ header.header .header__heading-link {
   width: 60px;
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg.icon-file, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg.icon-file, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg.icon-file, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg.icon-file {
+  width: 40px;
   fill: #a4a4a4;
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link p, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link p, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link p, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link p {

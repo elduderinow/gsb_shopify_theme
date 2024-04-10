@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  background-color: #181818;
+  background-color: #ededed;
 }
 .account--sidebar .links-wrapper {
   margin: 0;
@@ -24,21 +24,20 @@ body {
   display: flex;
   align-items: center;
   padding-left: 0;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .account--sidebar .links-wrapper .list--item.active a {
-  color: #00eaa0;
+  color: #009e6d;
   font-weight: 500;
-  border-bottom: 1px solid #00eaa0;
 }
 .account--sidebar .links-wrapper .list--item.active a svg {
-  fill: #00eaa0;
+  fill: #009e6d;
 }
 .account--sidebar .links-wrapper .list--item:hover a {
-  border-bottom: 1px solid white;
+  color: #009e6d;
 }
-.account--sidebar .links-wrapper .list--item:hover.active a {
-  border-bottom: 1px solid #00eaa0;
+.account--sidebar .links-wrapper .list--item:hover a svg {
+  fill: #009e6d;
 }
 .account--sidebar .sidebar-top {
   display: flex;
@@ -51,7 +50,7 @@ body {
 .account--sidebar .sidebar-top .list--item a svg {
   width: 15px;
   margin-right: 0;
-  fill: white;
+  fill: rgb(0, 0, 0);
 }
 .account--sidebar .sidebar-bottom {
   margin-top: 100px;
@@ -63,4 +62,18 @@ body {
 .account--sidebar .sidebar-bottom .list--item a svg {
   width: 15px;
   margin-top: -3px;
+}
+@media (max-width: 990px) {
+  .account--sidebar .sidebar-top {
+    gap: 0;
+  }
+  .account--sidebar .sidebar-top .list--item {
+    border-bottom: 1px solid #d9d9d9;
+  }
+  .account--sidebar .sidebar-bottom {
+    margin: 0;
+  }
+  .account--sidebar .sidebar-bottom .list--item {
+    border-bottom: 1px solid #d9d9d9;
+  }
 }

@@ -6,7 +6,7 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-$contentBg: #cccccc;
+$contentBg: #ededed;
 
 footer.footer {
     display: none;
@@ -22,26 +22,30 @@ header.header {
 }
 
 .shopify-section {
-    background-color: #fafafa;
+    background-color: $contentBg;
 }
 
 .customer {
     &.account,
     &.order,
-    &.addresses {
+    &.addresses,
+    &.portal {
         padding: 0 !important;
         height: calc(100vh - 70px);
         overflow: hidden;
         max-width: 1540px !important;
+        background: $contentBg;
+
+        @media (max-width: $breakpoint-lg) {
+            height: auto;
+            min-height: calc(100vh - 70px);
+        }
     }
 
     &.account,
     &.order,
-    &.addresses {
-        padding: 0;
-        height: calc(100vh - 70px);
-        overflow: hidden;
-
+    &.addresses,
+    &.portal {
         .content--wrapper {
             height: calc(100vh - (1rem + 60px));
             padding: 2rem;
@@ -88,6 +92,10 @@ header.header {
                     flex-direction: column;
                     gap: 2rem;
 
+                    @media (max-width: $breakpoint-lg) {
+                        overflow: auto;
+                    }
+
                     .order-info {
                         display: flex;
                         flex-direction: column;
@@ -125,6 +133,22 @@ header.header {
                     }
 
                     &.address-main {
+                        .address-new {
+                            button {
+                                margin: 3rem 0;
+                                border-radius: 50px;
+                                background-color: $green;
+                                transition: background-color 0.3s ease-in-out;
+
+                                &:after {
+                                    display: none;
+                                }
+
+                                &:hover {
+                                    background-color: darken($green, 10%);
+                                }
+                            }
+                        }
                         .address-edit {
                             .list {
                                 display: flex;
@@ -134,7 +158,13 @@ header.header {
                                 .address--item {
                                     margin-top: 0;
                                     padding: 2rem;
-                                    @include card-shadow;
+                                    // @include card-shadow;
+                                    border: 1px solid #12121214;
+                                    border-radius: 10px;
+
+                                    &.default--address {
+                                        background-color: #fafafa;
+                                    }
 
                                     .address-content {
                                         display: flex;
@@ -145,22 +175,69 @@ header.header {
                                         .info {
                                             width: calc(60% - 2rem);
                                             text-align: left;
+
+                                            h2.default {
+                                                font-weight: 400;
+                                                color: $green;
+                                            }
                                         }
 
                                         button.edit,
                                         button.remove {
                                             width: calc(20% - 2rem);
+                                            background-color: rgba(0, 0, 0, 0);
+                                            color: black;
+                                            text-decoration: underline;
+                                            margin: 0;
+
+                                            &::after {
+                                                display: none;
+                                            }
+
+                                            &:hover {
+                                                text-decoration: none;
+                                            }
                                         }
 
                                         .address-form {
                                             width: 100%;
+                                            border: 1px solid #12121214;
+                                            padding: 2rem;
+                                            border-radius: 10px;
+
+                                            h2 {
+                                                font-weight: 400;
+                                            }
+
+                                            .field,
+                                            select {
+                                                &:after {
+                                                    box-shadow: none;
+                                                    border: 1px solid #dddddd;
+                                                }
+                                            }
                                         }
                                     }
                                 }
                             }
                         }
                     }
+
+                    &.portal-main {
+                        display: flex;
+                        align-items: center;
+
+                        h2.intro {
+                            font-size: 1.6rem;
+                            width: 80%;
+                            margin-top: 3rem;
+                        }
+                    }
                 }
+            }
+
+            @media (max-width: $breakpoint-lg) {
+                height: auto;
             }
         }
     }

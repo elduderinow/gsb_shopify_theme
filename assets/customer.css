@@ -731,26 +731,28 @@ header.header .header__heading-link {
 }
 
 .shopify-section {
-  background-color: #fafafa;
+  background-color: #ededed;
 }
 
-.customer.account, .customer.order, .customer.addresses {
+.customer.account, .customer.order, .customer.addresses, .customer.portal {
   padding: 0 !important;
   height: calc(100vh - 70px);
   overflow: hidden;
-  max-width: none;
+  max-width: 1540px !important;
+  background: #ededed;
 }
-.customer.account, .customer.order, .customer.addresses {
-  padding: 0;
-  height: calc(100vh - 70px);
-  overflow: hidden;
+@media (max-width: 990px) {
+  .customer.account, .customer.order, .customer.addresses, .customer.portal {
+    height: auto;
+    min-height: calc(100vh - 70px);
+  }
 }
-.customer.account .content--wrapper, .customer.order .content--wrapper, .customer.addresses .content--wrapper {
+.customer.account .content--wrapper, .customer.order .content--wrapper, .customer.addresses .content--wrapper, .customer.portal .content--wrapper {
   height: calc(100vh - (1rem + 60px));
   padding: 2rem;
-  background-color: #cccccc;
+  background-color: #ededed;
 }
-.customer.account .content--wrapper .content--inner, .customer.order .content--wrapper .content--inner, .customer.addresses .content--wrapper .content--inner {
+.customer.account .content--wrapper .content--inner, .customer.order .content--wrapper .content--inner, .customer.addresses .content--wrapper .content--inner, .customer.portal .content--wrapper .content--inner {
   padding: 2rem;
   height: 100%;
   background-color: white;
@@ -759,27 +761,27 @@ header.header .header__heading-link {
   overflow: hidden;
   padding-bottom: 5rem;
 }
-.customer.account .content--wrapper .content--inner .content-header, .customer.order .content--wrapper .content--inner .content-header, .customer.addresses .content--wrapper .content--inner .content-header {
+.customer.account .content--wrapper .content--inner .content-header, .customer.order .content--wrapper .content--inner .content-header, .customer.addresses .content--wrapper .content--inner .content-header, .customer.portal .content--wrapper .content--inner .content-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-bottom: 2rem;
   border-bottom: 1px solid #e0e0e0;
 }
-.customer.account .content--wrapper .content--inner .content-header .content--title, .customer.order .content--wrapper .content--inner .content-header .content--title, .customer.addresses .content--wrapper .content--inner .content-header .content--title {
+.customer.account .content--wrapper .content--inner .content-header .content--title, .customer.order .content--wrapper .content--inner .content-header .content--title, .customer.addresses .content--wrapper .content--inner .content-header .content--title, .customer.portal .content--wrapper .content--inner .content-header .content--title {
   margin: 0;
 }
-.customer.account .content--wrapper .content--inner .content-header .order-download a, .customer.order .content--wrapper .content--inner .content-header .order-download a, .customer.addresses .content--wrapper .content--inner .content-header .order-download a {
+.customer.account .content--wrapper .content--inner .content-header .order-download a, .customer.order .content--wrapper .content--inner .content-header .order-download a, .customer.addresses .content--wrapper .content--inner .content-header .order-download a, .customer.portal .content--wrapper .content--inner .content-header .order-download a {
   background-color: #009e6d;
   color: white;
   padding: 1rem 1.5rem;
   text-decoration: none;
   border-radius: 5px;
 }
-.customer.account .content--wrapper .content--inner .content-header .order-download a:hover, .customer.order .content--wrapper .content--inner .content-header .order-download a:hover, .customer.addresses .content--wrapper .content--inner .content-header .order-download a:hover {
+.customer.account .content--wrapper .content--inner .content-header .order-download a:hover, .customer.order .content--wrapper .content--inner .content-header .order-download a:hover, .customer.addresses .content--wrapper .content--inner .content-header .order-download a:hover, .customer.portal .content--wrapper .content--inner .content-header .order-download a:hover {
   background-color: #006b4a;
 }
-.customer.account .content--wrapper .content--inner .content-main, .customer.order .content--wrapper .content--inner .content-main, .customer.addresses .content--wrapper .content--inner .content-main {
+.customer.account .content--wrapper .content--inner .content-main, .customer.order .content--wrapper .content--inner .content-main, .customer.addresses .content--wrapper .content--inner .content-main, .customer.portal .content--wrapper .content--inner .content-main {
   overflow: scroll;
   height: 100%;
   padding: 2rem 1rem;
@@ -787,7 +789,12 @@ header.header .header__heading-link {
   flex-direction: column;
   gap: 2rem;
 }
-.customer.account .content--wrapper .content--inner .content-main .order-info, .customer.order .content--wrapper .content--inner .content-main .order-info, .customer.addresses .content--wrapper .content--inner .content-main .order-info {
+@media (max-width: 990px) {
+  .customer.account .content--wrapper .content--inner .content-main, .customer.order .content--wrapper .content--inner .content-main, .customer.addresses .content--wrapper .content--inner .content-main, .customer.portal .content--wrapper .content--inner .content-main {
+    overflow: auto;
+  }
+}
+.customer.account .content--wrapper .content--inner .content-main .order-info, .customer.order .content--wrapper .content--inner .content-main .order-info, .customer.addresses .content--wrapper .content--inner .content-main .order-info, .customer.portal .content--wrapper .content--inner .content-main .order-info {
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -796,58 +803,123 @@ header.header .header__heading-link {
   padding: 2rem;
   width: max-content;
 }
-.customer.account .content--wrapper .content--inner .content-main .order-info p, .customer.order .content--wrapper .content--inner .content-main .order-info p, .customer.addresses .content--wrapper .content--inner .content-main .order-info p {
+.customer.account .content--wrapper .content--inner .content-main .order-info p, .customer.order .content--wrapper .content--inner .content-main .order-info p, .customer.addresses .content--wrapper .content--inner .content-main .order-info p, .customer.portal .content--wrapper .content--inner .content-main .order-info p {
   margin: 0;
 }
-.customer.account .content--wrapper .content--inner .content-main .order-details, .customer.order .content--wrapper .content--inner .content-main .order-details, .customer.addresses .content--wrapper .content--inner .content-main .order-details {
+.customer.account .content--wrapper .content--inner .content-main .order-details, .customer.order .content--wrapper .content--inner .content-main .order-details, .customer.addresses .content--wrapper .content--inner .content-main .order-details, .customer.portal .content--wrapper .content--inner .content-main .order-details {
   background-color: white;
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.customer.account .content--wrapper .content--inner .content-main .address-wrapper, .customer.order .content--wrapper .content--inner .content-main .address-wrapper, .customer.addresses .content--wrapper .content--inner .content-main .address-wrapper {
+.customer.account .content--wrapper .content--inner .content-main .address-wrapper, .customer.order .content--wrapper .content--inner .content-main .address-wrapper, .customer.addresses .content--wrapper .content--inner .content-main .address-wrapper, .customer.portal .content--wrapper .content--inner .content-main .address-wrapper {
   gap: 2rem;
 }
-.customer.account .content--wrapper .content--inner .content-main .address-wrapper .address, .customer.order .content--wrapper .content--inner .content-main .address-wrapper .address, .customer.addresses .content--wrapper .content--inner .content-main .address-wrapper .address {
+.customer.account .content--wrapper .content--inner .content-main .address-wrapper .address, .customer.order .content--wrapper .content--inner .content-main .address-wrapper .address, .customer.addresses .content--wrapper .content--inner .content-main .address-wrapper .address, .customer.portal .content--wrapper .content--inner .content-main .address-wrapper .address {
   padding: 2rem;
   width: 100%;
   background-color: white;
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.customer.account .content--wrapper .content--inner .content-main .filler, .customer.order .content--wrapper .content--inner .content-main .filler, .customer.addresses .content--wrapper .content--inner .content-main .filler {
+.customer.account .content--wrapper .content--inner .content-main .filler, .customer.order .content--wrapper .content--inner .content-main .filler, .customer.addresses .content--wrapper .content--inner .content-main .filler, .customer.portal .content--wrapper .content--inner .content-main .filler {
   background-color: red;
   width: 200px;
   height: 1000px;
   display: block;
 }
-.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list {
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.order .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-new button {
+  margin: 3rem 0;
+  border-radius: 50px;
+  background-color: #009e6d;
+  transition: background-color 0.3s ease-in-out;
+}
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-new button:after, .customer.order .content--wrapper .content--inner .content-main.address-main .address-new button:after, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-new button:after, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-new button:after {
+  display: none;
+}
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-new button:hover, .customer.order .content--wrapper .content--inner .content-main.address-main .address-new button:hover, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-new button:hover, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-new button:hover {
+  background-color: #006b4a;
+}
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-edit .list {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item {
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item {
   margin-top: 0;
   padding: 2rem;
-  background-color: white;
+  border: 1px solid rgba(18, 18, 18, 0.0784313725);
   border-radius: 10px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content {
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item.default--address, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item.default--address, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item.default--address, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item.default--address {
+  background-color: #fafafa;
+}
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 2rem;
 }
-.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .info, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .info, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .info {
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .info, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .info, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .info, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .info {
   width: calc(60% - 2rem);
   text-align: left;
+}
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .info h2.default, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .info h2.default, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .info h2.default, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .info h2.default {
+  font-weight: 400;
+  color: #009e6d;
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit,
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit,
 .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit,
-.customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove {
+.customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit,
+.customer.portal .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove {
   width: calc(20% - 2rem);
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  text-decoration: underline;
+  margin: 0;
 }
-.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form {
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit::after,
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove::after, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit::after,
+.customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove::after, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit::after,
+.customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove::after, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit::after,
+.customer.portal .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove::after {
+  display: none;
+}
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit:hover,
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove:hover, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit:hover,
+.customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove:hover, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit:hover,
+.customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove:hover, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.edit:hover,
+.customer.portal .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content button.remove:hover {
+  text-decoration: none;
+}
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form {
   width: 100%;
+  border: 1px solid rgba(18, 18, 18, 0.0784313725);
+  padding: 2rem;
+  border-radius: 10px;
+}
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form h2, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form h2, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form h2, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form h2 {
+  font-weight: 400;
+}
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form .field:after,
+.customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form select:after, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form .field:after,
+.customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form select:after, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form .field:after,
+.customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form select:after, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form .field:after,
+.customer.portal .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form select:after {
+  box-shadow: none;
+  border: 1px solid #dddddd;
+}
+.customer.account .content--wrapper .content--inner .content-main.portal-main, .customer.order .content--wrapper .content--inner .content-main.portal-main, .customer.addresses .content--wrapper .content--inner .content-main.portal-main, .customer.portal .content--wrapper .content--inner .content-main.portal-main {
+  display: flex;
+  align-items: center;
+}
+.customer.account .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.order .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.addresses .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.portal .content--wrapper .content--inner .content-main.portal-main h2.intro {
+  font-size: 1.6rem;
+  width: 80%;
+  margin-top: 3rem;
+}
+@media (max-width: 990px) {
+  .customer.account .content--wrapper, .customer.order .content--wrapper, .customer.addresses .content--wrapper, .customer.portal .content--wrapper {
+    height: auto;
+  }
 }

@@ -857,3 +857,7 @@ header.header .header__heading-link {
     height: auto;
   }
 }
+.customer .address--item {
+  box-shadow: none;
+  border: 1px solid rgba(18, 18, 18, 0.0784313725);
+}

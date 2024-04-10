@@ -926,7 +926,7 @@ header.header .header__heading-link {
   .customer.account .content--wrapper .content-header .content--title, .customer.order .content--wrapper .content-header .content--title, .customer.addresses .content--wrapper .content-header .content--title, .customer.portal .content--wrapper .content-header .content--title {
     font-size: 2rem;
   }
-  .customer.account .content--wrapper .content--main, .customer.order .content--wrapper .content--main, .customer.addresses .content--wrapper .content--main, .customer.portal .content--wrapper .content--main {
+  .customer.account .content--wrapper .content--inner .content--main, .customer.order .content--wrapper .content--inner .content--main, .customer.addresses .content--wrapper .content--inner .content--main, .customer.portal .content--wrapper .content--inner .content--main {
     padding: 0;
   }
 }

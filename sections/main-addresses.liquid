@@ -186,7 +186,7 @@
                       <div class="address-content">
                         <div class="info">
                           {%- if address == customer.default_address -%}
-                            <h2>{{ 'customer.addresses.default' | t }}</h2>
+                            <h2 class="default">{{ 'customer.addresses.default' | t }}</h2>
                           {%- endif -%}
                           {{ address | format_address }}
                         </div>

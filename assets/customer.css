@@ -824,11 +824,10 @@ header.header .header__heading-link {
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.order .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-new button {
   margin: 3rem 0;
   border-radius: 50px;
+  background-color: #009e6d;
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-new button:after, .customer.order .content--wrapper .content--inner .content-main.address-main .address-new button:after, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-new button:after {
-  background-color: #009e6d;
-  border-radius: 50px;
-  box-shadow: none;
+  display: none;
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list {
   display: flex;

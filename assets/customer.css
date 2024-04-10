@@ -1020,7 +1020,7 @@ header.header .header__heading-link {
   fill: #7e7e7e;
 }
 @media (max-width: 990px) {
-  .customer.account .content--wrapper .content--inner .content-main.portal-main, .customer.order .content--wrapper .content--inner .content-main.portal-main, .customer.addresses .content--wrapper .content--inner .content-main.portal-main, .customer.portal .content--wrapper .content--inner .content-main.portal-main {
+  .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro {
     flex-direction: column;
   }
   .customer.account .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.order .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.addresses .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.portal .content--wrapper .content--inner .content-main.portal-main h2.intro {

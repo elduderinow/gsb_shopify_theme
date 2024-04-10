@@ -964,6 +964,10 @@ header.header .header__heading-link {
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link, .customer.order .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link, .customer.portal .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link {
   width: 8.3333333333%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link svg, .customer.order .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link svg, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link svg, .customer.portal .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link svg {
   fill: #56a4e5;

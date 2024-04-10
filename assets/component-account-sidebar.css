@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  background-color: #ffffff;
+  background-color: #ededed;
 }
 .account--sidebar .links-wrapper {
   margin: 0;

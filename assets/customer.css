@@ -990,11 +990,8 @@ header.header .header__heading-link {
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links {
   width: 100%;
-  display: flex;
-  gap: 3rem;
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link {
-  width: 8.3333333333%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -1029,9 +1026,6 @@ header.header .header__heading-link {
   .customer.account .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.order .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.addresses .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.portal .content--wrapper .content--inner .content-main.portal-main h2.intro {
     width: 100%;
     margin-top: 3rem;
-  }
-  .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link {
-    width: 50%;
   }
 }
 @media (max-width: 990px) {

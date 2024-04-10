@@ -36,21 +36,19 @@
               {% endif %}
             </div>
 
-            {% comment %}
-              <div class="portal-item">
-                <h2>Handige Bestanden</h2>
-                {% if linklists.dropbox != empty %}
-                  <div class="dir-links">
-                    {% for item in linklists.dropbox.links %}
-                      <a target="_blank" class="dir--link" href="{{ item.url }}">
-                        {% render 'icon-file' %}
-                        <p>{{ item.title }}</p>
-                      </a>
-                    {% endfor %}
-                  </div>
-                {% endif %}
-              </div>
-            {% endcomment %}
+            <div class="portal-item">
+              <h2>Handige Bestanden</h2>
+              {% if linklists.dropbox != empty %}
+                <div class="dir-links">
+                  {% for item in linklists.dropbox.links %}
+                    <a target="_blank" class="dir--link" href="{{ item.url }}">
+                      {% render 'icon-file' %}
+                      <p>{{ item.title }}</p>
+                    </a>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            </div>
           </div>
         </div>
       </div>

@@ -754,7 +754,9 @@ header.header .header__heading-link {
 .customer.account .content--wrapper .content--inner, .customer.order .content--wrapper .content--inner, .customer.addresses .content--wrapper .content--inner {
   padding: 2rem;
   height: 100%;
-  border: 1px solid rgba(18, 18, 18, 0.0784313725);
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   overflow: hidden;
   padding-bottom: 5rem;
 }
@@ -827,9 +829,7 @@ header.header .header__heading-link {
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item {
   margin-top: 0;
   padding: 2rem;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 1px solid rgba(18, 18, 18, 0.0784313725);
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content {
   display: flex;

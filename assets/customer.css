@@ -801,23 +801,6 @@ header.header .header__heading-link {
 .customer.account .content--wrapper .content--inner .content-main .order-history tbody tr, .customer.order .content--wrapper .content--inner .content-main .order-history tbody tr, .customer.addresses .content--wrapper .content--inner .content-main .order-history tbody tr, .customer.portal .content--wrapper .content--inner .content-main .order-history tbody tr {
   padding: 1px;
 }
-.customer.account .content--wrapper .content--inner .content-main .order-info, .customer.order .content--wrapper .content--inner .content-main .order-info, .customer.addresses .content--wrapper .content--inner .content-main .order-info, .customer.portal .content--wrapper .content--inner .content-main .order-info {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  padding: 2rem;
-  width: max-content;
-}
-.customer.account .content--wrapper .content--inner .content-main .order-info p, .customer.order .content--wrapper .content--inner .content-main .order-info p, .customer.addresses .content--wrapper .content--inner .content-main .order-info p, .customer.portal .content--wrapper .content--inner .content-main .order-info p {
-  margin: 0;
-}
-.customer.account .content--wrapper .content--inner .content-main .order-details, .customer.order .content--wrapper .content--inner .content-main .order-details, .customer.addresses .content--wrapper .content--inner .content-main .order-details, .customer.portal .content--wrapper .content--inner .content-main .order-details {
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
 .customer.account .content--wrapper .content--inner .content-main .address-wrapper, .customer.order .content--wrapper .content--inner .content-main .address-wrapper, .customer.addresses .content--wrapper .content--inner .content-main .address-wrapper, .customer.portal .content--wrapper .content--inner .content-main .address-wrapper {
   gap: 2rem;
 }
@@ -828,11 +811,22 @@ header.header .header__heading-link {
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.customer.account .content--wrapper .content--inner .content-main .filler, .customer.order .content--wrapper .content--inner .content-main .filler, .customer.addresses .content--wrapper .content--inner .content-main .filler, .customer.portal .content--wrapper .content--inner .content-main .filler {
-  background-color: red;
-  width: 200px;
-  height: 1000px;
-  display: block;
+.customer.account .content--wrapper .content--inner .content-main.order-detail-main .order-info, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .order-info, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .order-info, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .order-info {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 2rem;
+  width: max-content;
+}
+.customer.account .content--wrapper .content--inner .content-main.order-detail-main .order-info p, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .order-info p, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .order-info p, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .order-info p {
+  margin: 0;
+}
+.customer.account .content--wrapper .content--inner .content-main.order-detail-main .order-details, .customer.order .content--wrapper .content--inner .content-main.order-detail-main .order-details, .customer.addresses .content--wrapper .content--inner .content-main.order-detail-main .order-details, .customer.portal .content--wrapper .content--inner .content-main.order-detail-main .order-details {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.order .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-new button, .customer.portal .content--wrapper .content--inner .content-main.address-main .address-new button {
   margin: 3rem 0;

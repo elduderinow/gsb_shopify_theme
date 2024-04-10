@@ -954,14 +954,30 @@ header.header .header__heading-link {
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro {
   padding: 1.5rem;
+  display: flex;
+  gap: 2rem;
+}
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro,
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro,
+.customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro,
+.customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro,
+.customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback {
   background-color: white;
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro h2, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro h2, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro h2, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro h2 {
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2,
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2,
+.customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2,
+.customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2,
+.customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2 {
   font-size: 1.6rem;
 }
-.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro h2 span, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro h2 span, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro h2 span, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro h2 span {
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2 span,
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2 span, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2 span,
+.customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2 span, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2 span,
+.customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2 span, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2 span,
+.customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2 span {
   font-weight: 800;
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item h2, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item h2, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item h2, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item h2 {

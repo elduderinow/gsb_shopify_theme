@@ -905,7 +905,7 @@ header.header .header__heading-link {
   border: 1px solid #dddddd;
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.order .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.addresses .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.portal .content--wrapper .content--inner .content-main.portal-main h2.intro {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 @media (max-width: 990px) {
   .customer.account .content--wrapper, .customer.order .content--wrapper, .customer.addresses .content--wrapper, .customer.portal .content--wrapper {

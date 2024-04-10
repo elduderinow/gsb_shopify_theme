@@ -26,9 +26,6 @@ body {
   padding-left: 0;
   color: rgb(0, 0, 0);
 }
-.account--sidebar .links-wrapper .list--item a svg {
-  fill: rgb(0, 0, 0);
-}
 .account--sidebar .links-wrapper .list--item.active a {
   color: #009e6d;
   font-weight: 500;
@@ -54,7 +51,7 @@ body {
 .account--sidebar .sidebar-top .list--item a svg {
   width: 15px;
   margin-right: 0;
-  fill: white;
+  fill: rgb(0, 0, 0);
 }
 .account--sidebar .sidebar-bottom {
   margin-top: 100px;

@@ -766,7 +766,7 @@ header.header .header__heading-link {
   background-color: pink;
 }
 .customer.account .content--wrapper .content--inner::-webkit-scrollbar, .customer.order .content--wrapper .content--inner::-webkit-scrollbar, .customer.addresses .content--wrapper .content--inner::-webkit-scrollbar, .customer.portal .content--wrapper .content--inner::-webkit-scrollbar {
-  background-color: red !important;
+  display: none !important;
 }
 .customer.account .content--wrapper .content--inner .content-header, .customer.order .content--wrapper .content--inner .content-header, .customer.addresses .content--wrapper .content--inner .content-header, .customer.portal .content--wrapper .content--inner .content-header {
   display: flex;

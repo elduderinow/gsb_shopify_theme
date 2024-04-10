@@ -739,7 +739,7 @@ header.header .header__heading-link {
   height: calc(100vh - 70px);
   overflow: hidden;
   max-width: 1540px !important;
-  background: green;
+  background: #ededed;
 }
 @media (max-width: 990px) {
   .customer.account, .customer.order, .customer.addresses, .customer.portal {

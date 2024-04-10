@@ -269,12 +269,75 @@ header.header {
 
                     &.portal-main {
                         display: flex;
-                        align-items: center;
+                        padding: 2rem 1rem;
 
-                        h2.intro {
-                            font-size: 1.6rem;
-                            width: 80%;
-                            margin-top: 3rem;
+                        .portal-intro {
+                            display: flex;
+                            gap: 2rem;
+
+                            .intro,
+                            .feedback {
+                                width: 100%;
+                                border: 1px solid #e6e6e6;
+                                background-color: #f3f3f3;
+                                border-radius: 10px;
+                                padding: 1.5rem;
+                                h2 {
+                                    font-size: 15px;
+                                    line-height: 19px;
+                                    span {
+                                        font-weight: 800;
+                                    }
+                                }
+                            }
+                        }
+
+                        .portal-item {
+                            h2 {
+                                font-weight: 400;
+                                font-size: 1.3rem;
+                                color: #8f8f8f;
+                                padding-bottom: 2rem;
+                            }
+                            .dir-links {
+                                width: 100%;
+                                display: flex;
+                                gap: 3rem;
+
+                                .dir--link {
+                                    width: calc(100% / 12);
+                                    display: flex;
+                                    align-items: center;
+                                    flex-direction: column;
+                                    text-decoration: none;
+                                    gap: 1rem;
+
+                                    svg {
+                                        fill: #56a4e5;
+                                        transition: fill 0.2s ease-in-out;
+                                        width: 60px;
+
+                                        &.icon-file {
+                                            width: 40px;
+                                            fill: #a4a4a4;
+                                        }
+                                    }
+
+                                    p {
+                                        font-weight: 400;
+                                    }
+
+                                    &:hover {
+                                        svg {
+                                            fill: darken(#56a4e5, 15%);
+
+                                            &.icon-file {
+                                                fill: darken(#a4a4a4, 15%);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
 
                         @media (max-width: $breakpoint-lg) {

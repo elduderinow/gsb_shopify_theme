@@ -950,12 +950,74 @@ header.header .header__heading-link {
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main, .customer.order .content--wrapper .content--inner .content-main.portal-main, .customer.addresses .content--wrapper .content--inner .content-main.portal-main, .customer.portal .content--wrapper .content--inner .content-main.portal-main {
   display: flex;
-  align-items: center;
+  padding: 2rem 1rem;
 }
-.customer.account .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.order .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.addresses .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.portal .content--wrapper .content--inner .content-main.portal-main h2.intro {
-  font-size: 1.6rem;
-  width: 80%;
-  margin-top: 3rem;
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro {
+  display: flex;
+  gap: 2rem;
+}
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro,
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro,
+.customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro,
+.customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro,
+.customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback {
+  width: 100%;
+  border: 1px solid #e6e6e6;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2,
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2,
+.customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2,
+.customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2,
+.customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2 {
+  font-size: 15px;
+  line-height: 19px;
+}
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2 span,
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2 span, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2 span,
+.customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2 span, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2 span,
+.customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2 span, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro .intro h2 span,
+.customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro .feedback h2 span {
+  font-weight: 800;
+}
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item h2, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item h2, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item h2, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item h2 {
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #8f8f8f;
+  padding-bottom: 2rem;
+}
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links {
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+}
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link {
+  width: 8.3333333333%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  gap: 1rem;
+}
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg {
+  fill: #56a4e5;
+  transition: fill 0.2s ease-in-out;
+  width: 60px;
+}
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg.icon-file, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg.icon-file, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg.icon-file, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg.icon-file {
+  width: 40px;
+  fill: #a4a4a4;
+}
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link p, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link p, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link p, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link p {
+  font-weight: 400;
+}
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link:hover svg, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link:hover svg, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link:hover svg, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link:hover svg {
+  fill: #207fcf;
+}
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link:hover svg.icon-file, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link:hover svg.icon-file, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link:hover svg.icon-file, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link:hover svg.icon-file {
+  fill: #7e7e7e;
 }
 @media (max-width: 990px) {
   .customer.account .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.order .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.addresses .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.portal .content--wrapper .content--inner .content-main.portal-main h2.intro {

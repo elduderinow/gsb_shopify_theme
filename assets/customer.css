@@ -890,7 +890,7 @@ header.header .header__heading-link {
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form {
   width: 100%;
-  background: #f6f6f6;
+  border: 1px solid rgba(18, 18, 18, 0.0784313725);
   padding: 2rem;
   border-radius: 10px;
 }

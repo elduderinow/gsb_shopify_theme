@@ -962,6 +962,9 @@ header.header .header__heading-link {
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro h2, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro h2, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro h2, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro h2 {
   font-size: 1.6rem;
 }
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro h2 span, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro h2 span, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro h2 span, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro h2 span {
+  font-weight: 800;
+}
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item h2, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item h2, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item h2, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item h2 {
   font-weight: 400;
   font-size: 1.3rem;

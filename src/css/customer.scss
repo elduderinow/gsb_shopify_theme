@@ -93,6 +93,10 @@ header.header {
                     flex-direction: column;
                     gap: 2rem;
 
+                    &::-webkit-scrollbar {
+                        display: none;
+                    }
+
                     @media (max-width: $breakpoint-lg) {
                         overflow: auto;
                     }
@@ -301,11 +305,11 @@ header.header {
                             }
                             .dir-links {
                                 width: 100%;
-                                display: flex;
-                                gap: 3rem;
+                                // display: flex;
+                                // gap: 3rem;
 
                                 .dir--link {
-                                    width: calc(100% / 12);
+                                    // width: calc(100% / 12);
                                     display: flex;
                                     align-items: center;
                                     flex-direction: column;
@@ -341,10 +345,24 @@ header.header {
                         }
 
                         @media (max-width: $breakpoint-lg) {
+                            padding: 2rem 0;
+
+                            .portal-intro {
+                                flex-direction: column;
+                            }
+
                             h2.intro {
                                 width: 100%;
                                 margin-top: 3rem;
                             }
+
+                            // .portal-item {
+                            //     .dir-links {
+                            //         .dir--link {
+                            //             width: 50%;
+                            //         }
+                            //     }
+                            // }
                         }
                     }
                 }

@@ -956,12 +956,15 @@ header.header .header__heading-link {
   width: 80%;
   margin-top: 3rem;
 }
-.customer.account .content--wrapper .content--inner .content-main.portal-main .dir-links, .customer.order .content--wrapper .content--inner .content-main.portal-main .dir-links, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .dir-links, .customer.portal .content--wrapper .content--inner .content-main.portal-main .dir-links {
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item h2, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item h2, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item h2, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item h2 {
+  font-weight: 400;
+}
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links {
   width: 100%;
   display: flex;
   gap: 3rem;
 }
-.customer.account .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link, .customer.order .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link, .customer.portal .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link {
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link {
   width: 8.3333333333%;
   display: flex;
   align-items: center;
@@ -969,21 +972,21 @@ header.header .header__heading-link {
   text-decoration: none;
   gap: 1rem;
 }
-.customer.account .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link svg, .customer.order .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link svg, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link svg, .customer.portal .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link svg {
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg {
   fill: #56a4e5;
   transition: fill 0.2s ease-in-out;
 }
-.customer.account .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link svg.icon-file, .customer.order .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link svg.icon-file, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link svg.icon-file, .customer.portal .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link svg.icon-file {
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg.icon-file, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg.icon-file, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg.icon-file, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link svg.icon-file {
   width: 60px;
   fill: #a4a4a4;
 }
-.customer.account .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link p, .customer.order .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link p, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link p, .customer.portal .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link p {
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link p, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link p, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link p, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link p {
   font-weight: 400;
 }
-.customer.account .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link:hover svg, .customer.order .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link:hover svg, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link:hover svg, .customer.portal .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link:hover svg {
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link:hover svg, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link:hover svg, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link:hover svg, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link:hover svg {
   fill: #207fcf;
 }
-.customer.account .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link:hover svg.icon-file, .customer.order .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link:hover svg.icon-file, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link:hover svg.icon-file, .customer.portal .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link:hover svg.icon-file {
+.customer.account .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link:hover svg.icon-file, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link:hover svg.icon-file, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link:hover svg.icon-file, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-item .dir-links .dir--link:hover svg.icon-file {
   fill: #7e7e7e;
 }
 @media (max-width: 990px) {

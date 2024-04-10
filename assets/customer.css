@@ -830,6 +830,7 @@ header.header .header__heading-link {
   margin-top: 0;
   padding: 2rem;
   border: 1px solid rgba(18, 18, 18, 0.0784313725);
+  border-radius: 10px;
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content {
   display: flex;

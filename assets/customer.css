@@ -788,6 +788,11 @@ header.header .header__heading-link {
   flex-direction: column;
   gap: 2rem;
 }
+@media (max-width: 990px) {
+  .customer.account .content--wrapper .content--inner .content-main, .customer.order .content--wrapper .content--inner .content-main, .customer.addresses .content--wrapper .content--inner .content-main {
+    overflow: auto;
+  }
+}
 .customer.account .content--wrapper .content--inner .content-main .order-info, .customer.order .content--wrapper .content--inner .content-main .order-info, .customer.addresses .content--wrapper .content--inner .content-main .order-info {
   display: flex;
   flex-direction: column;

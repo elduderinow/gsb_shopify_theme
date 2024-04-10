@@ -747,7 +747,6 @@ header.header .header__heading-link {
 }
 .customer.account, .customer.order, .customer.addresses {
   padding: 0;
-  height: calc(100vh - 70px);
   overflow: hidden;
 }
 .customer.account .content--wrapper, .customer.order .content--wrapper, .customer.addresses .content--wrapper {

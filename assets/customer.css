@@ -957,6 +957,13 @@ header.header .header__heading-link {
   width: 80%;
   margin-top: 3rem;
 }
+.customer.account .content--wrapper .content--inner .content-main.portal-main .dir-links, .customer.order .content--wrapper .content--inner .content-main.portal-main .dir-links, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .dir-links, .customer.portal .content--wrapper .content--inner .content-main.portal-main .dir-links {
+  width: 100%;
+  display: flex;
+}
+.customer.account .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link svg, .customer.order .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link svg, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link svg, .customer.portal .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link svg {
+  fill: blue;
+}
 @media (max-width: 990px) {
   .customer.account .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.order .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.addresses .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.portal .content--wrapper .content--inner .content-main.portal-main h2.intro {
     width: 100%;

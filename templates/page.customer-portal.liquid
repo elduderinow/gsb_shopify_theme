@@ -21,21 +21,16 @@
               <br>
               Bedankt voor je geduld en we kijken ernaar uit om je van dienst te zijn.
             </h2>
-            <div class="dir-links">
-              <div class="dir--link">
-                {% render 'icon-directory' %}
-                <p>Algemeen</p>
+            {% if linklists.dropbox != empty %}
+              <div class="dir-links">
+                {% for item in linklists.dropbox.links %}
+                  <a target="_blank" class="dir--link" href="{{ item.url }}">
+                    {% render 'icon-directory' %}
+                    <p>{{ item.title }}</p>
+                  </a>
+                {% endfor %}
               </div>
-              {% if linklists.dropbox != empty %}
-                <ul class="menu">
-                  {% for item in linklists.dropbox.links %}
-                    <li>
-                      <a target="_blank" href="{{ item.url }}">{{ item.title }}</a>
-                    </li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </div>
+            {% endif %}
           </div>
         </div>
       </div>

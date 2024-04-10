@@ -881,8 +881,8 @@ header.header .header__heading-link {
   font-weight: 400;
 }
 .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form .field:after, .customer.account .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form select:after, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form .field:after, .customer.order .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form select:after, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form .field:after, .customer.addresses .content--wrapper .content--inner .content-main.address-main .address-edit .list .address--item .address-content .address-form select:after {
-  box-shadow: none;
-  border: 1px solid #dddddd;
+  box-shadow: none !important;
+  border: 1px solid #dddddd !important;
 }
 @media (max-width: 990px) {
   .customer.account .content--wrapper, .customer.order .content--wrapper, .customer.addresses .content--wrapper {

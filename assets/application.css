@@ -839,4 +839,8 @@ video {
   .xl\:col-span-8 {
     grid-column: span 8 / span 8;
   }
+
+  .xl\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
 }

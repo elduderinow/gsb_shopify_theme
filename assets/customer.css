@@ -974,7 +974,7 @@ header.header .header__heading-link {
   transition: fill 0.2s ease-in-out;
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link:hover svg, .customer.order .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link:hover svg, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link:hover svg, .customer.portal .content--wrapper .content--inner .content-main.portal-main .dir-links .dir--link:hover svg {
-  fill: #2a8cde;
+  fill: #207fcf;
 }
 @media (max-width: 990px) {
   .customer.account .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.order .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.addresses .content--wrapper .content--inner .content-main.portal-main h2.intro, .customer.portal .content--wrapper .content--inner .content-main.portal-main h2.intro {

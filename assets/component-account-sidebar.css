@@ -64,10 +64,16 @@ body {
   margin-top: -3px;
 }
 @media (max-width: 990px) {
+  .account--sidebar .sidebar-top {
+    gap: 0;
+  }
   .account--sidebar .sidebar-top .list--item {
     border-bottom: 1px solid #d9d9d9;
   }
   .account--sidebar .sidebar-bottom {
     margin: 0;
+  }
+  .account--sidebar .sidebar-bottom .list--item {
+    border-bottom: 1px solid #d9d9d9;
   }
 }

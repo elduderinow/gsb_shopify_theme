@@ -740,6 +740,11 @@ header.header .header__heading-link {
   overflow: hidden;
   max-width: 1540px !important;
 }
+@media (max-width: 750px) {
+  .customer.account, .customer.order, .customer.addresses {
+    height: auto;
+  }
+}
 .customer.account, .customer.order, .customer.addresses {
   padding: 0;
   height: calc(100vh - 70px);

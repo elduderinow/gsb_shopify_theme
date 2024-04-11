@@ -120,8 +120,6 @@
       </facet-filters-form>
     {%- endif -%}
 
-    {{ collection.products|json }}
-
     <div class="{% if section.settings.filter_type == 'vertical' %} facets-vertical {% endif %}">
       {{ 'component-facets.css' | asset_url | stylesheet_tag }}
       <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>

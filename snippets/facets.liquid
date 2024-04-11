@@ -81,7 +81,7 @@
                       </a>
                     </facet-remove>
                   {%- endfor -%}
-                  {% if filter.type == 'price_range' %}
+                  {% if customer and customer.tags contains 'B2B' and filter.type == 'price_range' %}
                     {%- if filter.min_value.value != null or filter.max_value.value != null -%}
                       <facet-remove>
                         <a href="{{ filter.url_to_remove }}" class="active-facets__button active-facets__button--light">

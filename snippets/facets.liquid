@@ -206,7 +206,7 @@
                                     stroke-linejoin="round" />
                                 </svg>
 
-                                <span aria-hidden="true">{{ value.label | escape }} ({{ value.count }})</span>
+                                <span aria-hidden="true">{{ value.label | escape }} {% if customer and customer.tags contains 'B2B' %} %}({{ value.count }}) {% endif % %}}</span>
                                 <span class="visually-hidden">
                                   {{- value.label | escape }} (
                                   {%- if value.count == 1 -%}

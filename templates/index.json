@@ -25,7 +25,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Ontwerp_zonder_titel_1.jpg",
             "heading": "Limited Edition",
-            "heading_size": "h2",
+            "heading_size": "h0",
             "color_option_id": "#ffffff",
             "subheading": "",
             "subheading_size": "h5",
@@ -42,7 +42,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Copy_of_GSB-SolutionPrimerCollection-2-0923.jpg",
             "heading": "Solution Primers",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "color_option_id": "#ffffff",
             "subheading": "",
             "subheading_size": "h5",

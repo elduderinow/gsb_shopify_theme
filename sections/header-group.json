@@ -8,14 +8,23 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "zoek jouw glo Skin Beauty expert",
+            "text": "We zijn de webshop aan het updaten. Bestellen is terug mogelijk op 14 Juni 23:59",
+            "label": "",
+            "link": ""
+          }
+        },
+        "announcement_LAXmAh": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
             "label": "button",
-            "link": "shopify:\/\/pages\/store-locator"
+            "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_LAXmAh"
       ],
       "custom_css": [
         ".utility-bar {display: none;}"

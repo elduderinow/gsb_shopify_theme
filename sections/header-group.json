@@ -12,19 +12,10 @@
             "label": "",
             "link": ""
           }
-        },
-        "announcement_LAXmAh": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "label": "button",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_LAXmAh"
+        "announcement-bar-0"
       ],
       "custom_css": [
         ".utility-bar {display: none;}"

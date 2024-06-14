@@ -17,41 +17,6 @@
 {% assign easylockdownSchedulePeriodON = false %}
 {% if easylockdownNow > 1718265600 and easylockdownNow < 1718402340 %}{% assign easylockdownSchedulePeriodON = true %}{% endif %}
 {% if easylockdownSchedulePeriodON %}
-{% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' %}
-{% assign easylockdownLockedContent = false %}
-{% assign easylockdownHiddenContent = false %}
-{% assign easylockdownHiddenContent = true %}
-{% if easylockdownLockedContent %}
-{% unless customer %}
-{% assign easylockdownON = true %}
-{% capture easylockdownPage404Title %}Page not found{% endcapture %}
-{% capture easylockdownPage404Message %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
-{% capture easylockdownRedirectURL %}login{% endcapture %}
-{% else %}
-{% unless customer.total_spent > 1000000000000000 %}{% assign easylockdownON = true %}{% endunless %}
-{% if easylockdownON %}
-{% assign easylockdownON = true %}
-{% capture easylockdownPage404Title %}Page not found{% endcapture %}
-{% capture easylockdownPage404Message %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
-{% endif %}
-{% endunless %}
-{% else %}
-{% unless easylockdownHiddenPurchase %}
-{% if easylockdownHiddenContent %}
-{% unless customer %}
-{% assign easylockdownHiddenPurchase = true %}
-{% else %}
-{% unless customer.total_spent > 1000000000000000 %}{% assign easylockdownHiddenPurchase = true %}{% endunless %}
-{% endunless %}
-{% endif %}
-{% endunless %}
-{% endif %}
-{% endunless %}
-{% endif %}
-
-{% assign easylockdownSchedulePeriodON = false %}
-{% if easylockdownNow > 1718265600 and easylockdownNow < 1718402340 %}{% assign easylockdownSchedulePeriodON = true %}{% endif %}
-{% if easylockdownSchedulePeriodON %}
 {% unless customer %}
 {% assign easylockdownHidePrice = true %}
 {% else %}

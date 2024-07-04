@@ -73,7 +73,3 @@ input::-webkit-search-decoration {
 body {
   font-family: "Roboto", sans-serif !important;
 }
-
-.quick-add__submit {
-  outline: 1px solid red;
-}

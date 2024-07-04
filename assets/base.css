@@ -3333,6 +3333,7 @@ html {
 }
 .cart-notification-wrapper #cart-notification .cart-notification__links #cart-notification-form button:after, .cart-notification-wrapper #cart-notification .cart-notification__links #cart-notification-form button:before {
   content: "";
+  box-shadow: none;
 }
 .cart-notification-wrapper #cart-notification .cart-notification__links #cart-notification-form button:not([disabled]) {
   background-color: #009e6d;
@@ -3399,6 +3400,7 @@ html {
 .product-view--list .button.product-form__submit:after,
 .product-view--list .button.product-form__submit:before {
   content: "";
+  box-shadow: none;
 }
 .product-grid-container .button.quick-add__submit:not([disabled]), .product-grid-container .button.product-form__submit:not([disabled]),
 .product-view--grid .button.quick-add__submit:not([disabled]),

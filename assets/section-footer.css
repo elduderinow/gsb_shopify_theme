@@ -54,6 +54,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0;
+  margin-bottom: 1rem;
 }
 .footer .left .footer__menu .footer__links a,
 .footer .left .footer__menu .footer__collections a,
@@ -79,6 +80,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0;
+  margin-bottom: 1rem;
 }
 .footer .right {
   background-color: rgb(36, 36, 36);

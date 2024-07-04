@@ -14,7 +14,7 @@
 {% if tag == 'skincare professional' %}{% assign elpTag3 = true %}{% endif %}
 {% if tag == 'beauty professional' %}{% assign elpTag4 = true %}{% endif %}
 {% endfor %}
-{% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' or template contains 'page' and page.id == 26165674073 %}
+{% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' %}
 {% assign easylockdownLockedContent = false %}
 {% assign easylockdownHiddenContent = false %}
 {% if canonical_url contains 'https://gloskinbeauty.be/pages/klanten-portaal' %}{% assign easylockdownLockedContent = true %}{% endif %}
@@ -23,14 +23,13 @@
 {% assign easylockdownON = true %}
 {% capture easylockdownPage404Title %}Page not found{% endcapture %}
 {% capture easylockdownPage404Message %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
-{% capture easylockdownRedirectURL %}{{ easylockdownLocaleRootUrl }}/pages/dit-gedeelte-is-enkel-voor-gloskincare-klanten{% endcapture %}
+{% capture easylockdownRedirectURL %}login{% endcapture %}
 {% else %}
 {% unless elcTag1 %}{% assign easylockdownON = true %}{% endunless %}
 {% if easylockdownON %}
 {% assign easylockdownON = true %}
 {% capture easylockdownPage404Title %}Page not found{% endcapture %}
 {% capture easylockdownPage404Message %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
-{% capture easylockdownRedirectURL %}{{ easylockdownLocaleRootUrl }}/pages/dit-gedeelte-is-enkel-voor-gloskincare-klanten{% endcapture %}
 {% endif %}
 {% endunless %}
 {% endif %}

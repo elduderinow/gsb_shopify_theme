@@ -57,7 +57,7 @@
             <div class="footer__links">
               <h6 class="title">{{ block.settings.heading }}</h6>
               {%- for link in block.settings.menu.links -%}
-                <a href="{{ link.url }}">{{ link.title }}</a>
+                <a class="link" href="{{ link.url }}">{{ link.title }}</a>
               {% endfor %}
             </div>
           {% endif %}

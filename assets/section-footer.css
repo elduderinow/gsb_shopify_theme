@@ -43,10 +43,6 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-}
-.footer .left .footer__menu .footer__links .title,
-.footer .left .footer__menu .footer__collections .title,
-.footer .left .footer__menu .footer__about .title {
   font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
   color: rgb(84, 72, 67);
@@ -69,6 +65,12 @@ body {
 .footer .left .footer__extra {
   border-top: 1px solid rgb(186, 173, 168);
   padding-top: 8rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  color: rgb(84, 72, 67);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .footer .right {
   background-color: rgb(36, 36, 36);

@@ -75,7 +75,7 @@ body {
 }
 
 .quick-add__submit:after, .quick-add__submit:before {
-  content: "Toevoegen";
+  content: "";
 }
 .quick-add__submit:not([disabled]) {
   background-color: #009e6d;

@@ -1,1 +1,1 @@
-"use strict";var onInit=function(){console.log("main search init")};document.addEventListener("DOMContentLoaded",onInit);
+"use strict";var onInit=function(){console.log("main search init");var n=Array.from(document.querySelectorAll(".quick-add form"));console.log(n)};document.addEventListener("DOMContentLoaded",onInit);

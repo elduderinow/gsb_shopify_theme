@@ -192,7 +192,8 @@ html {
 @mixin ctaButton {
     &:after,
     &:before {
-        content: none;
+        content: "";
+        box-shadow: none;
     }
 
     &:not([disabled]) {
@@ -264,6 +265,7 @@ html {
         }
     }
 }
+.product-grid-container,
 .product-view--grid,
 .product-view--list {
     .button {

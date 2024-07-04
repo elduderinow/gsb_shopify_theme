@@ -1,5 +1,18 @@
 @import "../config//config.scss";
-$content-color: rgb(84, 72, 67);
+$content-color: rgb(86, 86, 86);
+
+@mixin title {
+    .title {
+        font-family: $body-font;
+        font-size: 1.4rem;
+        color: $content-color;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+}
 .footer {
     background-color: #d1d1d1;
 
@@ -25,6 +38,7 @@ $content-color: rgb(84, 72, 67);
         }
 
         .logo-wrapper {
+            margin-bottom: 4rem;
             img {
                 max-width: 280px;
             }
@@ -42,14 +56,7 @@ $content-color: rgb(84, 72, 67);
                 display: flex;
                 flex-direction: column;
 
-                .title {
-                    font-family: $body-font;
-                    font-size: 1.4rem;
-                    color: $content-color;
-                    font-weight: 400;
-                    text-transform: uppercase;
-                    letter-spacing: 1px;
-                }
+                @include title;
 
                 a {
                     display: inline-block;
@@ -63,34 +70,26 @@ $content-color: rgb(84, 72, 67);
             }
         }
 
-        .footer__social {
-            padding-top: 8rem;
-            display: flex;
-            border-top: 1px solid rgb(186, 173, 168);
-            justify-content: space-between;
-
-            h2 {
-                color: $content-color;
-                font-family: $font-primary;
-            }
-
-            .social-icons {
-                svg path {
-                    fill: $content-color;
-                }
-            }
-        }
-
         .footer__extra {
-            padding-bottom: 8rem;
-            display: flex;
-            gap: 0.5rem;
+            border-top: 1px solid rgb(186, 173, 168);
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+            @include title;
 
-            a {
-                text-decoration: underline;
+            .footer__social {
+                .list-social {
+                    justify-content: flex-start;
+                    gap: 2rem;
 
-                &:hover {
-                    text-decoration: none;
+                    .list-social__link {
+                        padding: 0;
+                    }
+                }
+
+                .social-icons {
+                    svg path {
+                        fill: $content-color;
+                    }
                 }
             }
         }

@@ -25,9 +25,12 @@ body {
   }
 }
 .footer .left h1 {
-  color: rgb(84, 72, 67);
+  color: rgb(86, 86, 86);
   font-size: 3rem;
   text-transform: uppercase;
+}
+.footer .left .logo-wrapper {
+  margin-bottom: 4rem;
 }
 .footer .left .logo-wrapper img {
   max-width: 280px;
@@ -49,46 +52,49 @@ body {
 .footer .left .footer__menu .footer__about .title {
   font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
-  color: rgb(84, 72, 67);
+  color: rgb(86, 86, 86);
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
+  margin: 0;
+  margin-bottom: 1rem;
 }
 .footer .left .footer__menu .footer__links a,
 .footer .left .footer__menu .footer__collections a,
 .footer .left .footer__menu .footer__about a {
   display: inline-block;
   margin-bottom: 1rem;
-  color: rgb(84, 72, 67);
+  color: rgb(86, 86, 86);
 }
 @media (min-width: 640px) {
   .footer .left .footer__menu {
     flex-direction: row;
   }
 }
-.footer .left .footer__social {
-  padding-top: 8rem;
-  display: flex;
-  border-top: 1px solid rgb(186, 173, 168);
-  justify-content: space-between;
-}
-.footer .left .footer__social h2 {
-  color: rgb(84, 72, 67);
-  font-family: "Roboto", sans-serif;
-}
-.footer .left .footer__social .social-icons svg path {
-  fill: rgb(84, 72, 67);
-}
 .footer .left .footer__extra {
-  padding-bottom: 8rem;
-  display: flex;
-  gap: 0.5rem;
+  border-top: 1px solid rgb(186, 173, 168);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
-.footer .left .footer__extra a {
-  text-decoration: underline;
+.footer .left .footer__extra .title {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  color: rgb(86, 86, 86);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+  margin-bottom: 1rem;
 }
-.footer .left .footer__extra a:hover {
-  text-decoration: none;
+.footer .left .footer__extra .footer__social .list-social {
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.footer .left .footer__extra .footer__social .list-social .list-social__link {
+  padding: 0;
+}
+.footer .left .footer__extra .footer__social .social-icons svg path {
+  fill: rgb(86, 86, 86);
 }
 .footer .right {
   background-color: rgb(36, 36, 36);

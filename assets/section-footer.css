@@ -29,6 +29,9 @@ body {
   font-size: 3rem;
   text-transform: uppercase;
 }
+.footer .left .logo-wrapper {
+  margin-bottom: 4rem;
+}
 .footer .left .logo-wrapper img {
   max-width: 280px;
 }

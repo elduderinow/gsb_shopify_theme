@@ -1,1 +1,1 @@
-"use strict";
+"use strict";var onInit=function(){console.log("main search init")};document.addEventListener("DOMContentLoaded",onInit);

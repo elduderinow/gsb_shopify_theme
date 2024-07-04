@@ -88,6 +88,10 @@ body {
 }
 .footer .left .footer__extra .footer__social .list-social {
   justify-content: flex-start;
+  gap: 0.5rem;
+}
+.footer .left .footer__extra .footer__social .list-social .list-social__link {
+  padding: 0;
 }
 .footer .left .footer__extra .footer__social .social-icons svg path {
   fill: rgb(86, 86, 86);

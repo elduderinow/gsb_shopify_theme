@@ -73,16 +73,3 @@ input::-webkit-search-decoration {
 body {
   font-family: "Roboto", sans-serif !important;
 }
-
-.quick-add__submit:after, .quick-add__submit:before {
-  content: "";
-}
-.quick-add__submit:not([disabled]) {
-  background-color: #009e6d;
-  color: white;
-  transition: background-color 0.3s ease-in-out;
-}
-.quick-add__submit:not([disabled]):hover {
-  background-color: #00855b;
-  cursor: pointer;
-}

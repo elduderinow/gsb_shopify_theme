@@ -86,16 +86,6 @@ body {
   margin: 0;
   margin-bottom: 1rem;
 }
-.footer .left .footer__extra .footer__social {
-  padding-top: 8rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.footer .left .footer__extra .footer__social h2 {
-  color: rgb(86, 86, 86);
-  font-family: "Roboto", sans-serif;
-}
 .footer .left .footer__extra .footer__social .social-icons svg path {
   fill: rgb(86, 86, 86);
 }

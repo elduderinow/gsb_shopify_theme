@@ -86,7 +86,7 @@ body {
   margin: 0;
   margin-bottom: 1rem;
 }
-.footer .left .footer__extra .footer__social {
+.footer .left .footer__extra .footer__social .list-social {
   justify-content: flex-start;
 }
 .footer .left .footer__extra .footer__social .social-icons svg path {

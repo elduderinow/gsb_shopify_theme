@@ -75,6 +75,5 @@ body {
 }
 
 .quick-add__submit {
-  outline: 1px solid red !important;
-  display: none;
+  outline: 1px solid red;
 }

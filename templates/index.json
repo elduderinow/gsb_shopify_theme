@@ -23,7 +23,7 @@
             "subheading_size": "h5",
             "button_label": "",
             "link": "shopify:\/\/pages\/store-locator",
-            "box_align": "top-left",
+            "box_align": "bottom-left",
             "text_alignment": "left",
             "image_overlay_opacity": 10,
             "text_alignment_mobile": "center"
@@ -32,8 +32,8 @@
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ontwerp_zonder_titel_1.jpg",
-            "heading": "Limited Edition",
+            "image": "shopify:\/\/shop_images\/Copy_of_GSB-AcneCollection-IntlCollection-0324.jpg",
+            "heading": "New",
             "heading_size": "h0",
             "color_option_id": "#ffffff",
             "subheading": "",
@@ -49,8 +49,8 @@
         "9eaf1a1a-60b6-45da-b983-20c7c7f5d573": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_GSB-SolutionPrimerCollection-2-0923.jpg",
-            "heading": "Solution Primers",
+            "image": "shopify:\/\/shop_images\/Ontwerp_zonder_titel_1.jpg",
+            "heading": "Limited Edition",
             "heading_size": "h0",
             "color_option_id": "#ffffff",
             "subheading": "",

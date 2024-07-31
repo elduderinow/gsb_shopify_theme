@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -50,10 +59,10 @@
         "0bf05740-800b-4b9b-894b-61d5ce06cc68": {
           "type": "highlight",
           "settings": {
-            "image": "shopify:\/\/shop_images\/unknown_344552512_1228537714456578_5851149202924115872_n_1.jpg",
-            "image_title": "Highlighters",
+            "image": "shopify:\/\/shop_images\/Copy_of_GSB-AcneCollection-IntlCollection-0324.jpg",
+            "image_title": "Acné collection",
             "image_subtitle": "Meer info",
-            "highlight_url": "shopify:\/\/collections\/highlighters"
+            "highlight_url": "shopify:\/\/collections\/clarify-balance"
           }
         }
       },

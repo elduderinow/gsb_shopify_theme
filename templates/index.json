@@ -15,9 +15,9 @@
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pdp_stylized_cream-blush-sticks_1000x1000_5ceeb245-b89e-463c-864d-7f758bf8e886.jpg",
+            "image": "shopify:\/\/shop_images\/Lip_launches_landscape.jpg",
             "heading": "Coming soon...",
-            "heading_size": "h0",
+            "heading_size": "h1",
             "color_option_id": "#ffffff",
             "subheading": "",
             "subheading_size": "h5",
@@ -29,29 +29,12 @@
             "text_alignment_mobile": "center"
           }
         },
-        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_GSB-AcneCollection-IntlCollection-0324.jpg",
-            "heading": "New",
-            "heading_size": "h0",
-            "color_option_id": "#ffffff",
-            "subheading": "",
-            "subheading_size": "h5",
-            "button_label": "Shop Now",
-            "link": "shopify:\/\/products\/0000-6-petal-pairings-kits-2x3-stuks",
-            "box_align": "bottom-left",
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "text_alignment_mobile": "center"
-          }
-        },
         "9eaf1a1a-60b6-45da-b983-20c7c7f5d573": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ontwerp_zonder_titel_1.jpg",
-            "heading": "Limited Edition",
-            "heading_size": "h0",
+            "image": "shopify:\/\/shop_images\/pdp_stylized_cream-blush-sticks_1000x1000_d550ad52-9f67-458d-b00c-61a95fcff842.jpg",
+            "heading": "New Cream Blush Sticks",
+            "heading_size": "h2",
             "color_option_id": "#ffffff",
             "subheading": "",
             "subheading_size": "h5",
@@ -62,12 +45,29 @@
             "image_overlay_opacity": 0,
             "text_alignment_mobile": "center"
           }
+        },
+        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Copy_of_GSB-AcneCollection-IntlCollection-0324.jpg",
+            "heading": "Acné Solutions",
+            "heading_size": "h2",
+            "color_option_id": "#ffffff",
+            "subheading": "",
+            "subheading_size": "h5",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/products\/0000-6-petal-pairings-kits-2x3-stuks",
+            "box_align": "bottom-left",
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0",
-        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1",
-        "9eaf1a1a-60b6-45da-b983-20c7c7f5d573"
+        "9eaf1a1a-60b6-45da-b983-20c7c7f5d573",
+        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1"
       ],
       "settings": {
         "layout": "full_bleed",

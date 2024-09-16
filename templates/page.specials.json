@@ -165,13 +165,12 @@
         },
         "2fc92817-1265-4478-8cf7-5f7170c36be2": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/20.png",
-            "title": "Holliday Kits 23",
+            "image": "shopify:\/\/shop_images\/GSB_Holiday2024-StoriesCrop-DailyAntioxidantPowerDuo-min.jpg",
+            "title": "Holliday Kits 24",
             "text": "",
             "link_label": "Meer info",
-            "link": "shopify:\/\/collections\/holiday-23",
+            "link": "shopify:\/\/collections\/holiday-24",
             "bg_color": "#000000",
             "bg_opacity": 30
           }

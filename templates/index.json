@@ -15,14 +15,14 @@
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Lip_launches_landscape.jpg",
-            "heading": "Coming soon...",
-            "heading_size": "h1",
+            "image": "shopify://shop_images/Lip_launches_landscape.jpg",
+            "heading": "New Satin Lipstick & Conditioning Lipgloss",
+            "heading_size": "h2",
             "color_option_id": "#ffffff",
             "subheading": "",
             "subheading_size": "h5",
-            "button_label": "",
-            "link": "shopify:\/\/pages\/store-locator",
+            "button_label": "Zoek een Professional",
+            "link": "shopify://pages/store-locator",
             "box_align": "bottom-left",
             "text_alignment": "left",
             "image_overlay_opacity": 10,
@@ -32,14 +32,14 @@
         "9eaf1a1a-60b6-45da-b983-20c7c7f5d573": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pdp_stylized_cream-blush-sticks_1000x1000_d550ad52-9f67-458d-b00c-61a95fcff842.jpg",
+            "image": "shopify://shop_images/pdp_stylized_cream-blush-sticks_1000x1000_d550ad52-9f67-458d-b00c-61a95fcff842.jpg",
             "heading": "New Cream Blush Sticks",
             "heading_size": "h2",
             "color_option_id": "#ffffff",
             "subheading": "",
             "subheading_size": "h5",
             "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/face-prime",
+            "link": "shopify://collections/face-prime",
             "box_align": "bottom-left",
             "text_alignment": "left",
             "image_overlay_opacity": 0,
@@ -49,14 +49,14 @@
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_GSB-AcneCollection-IntlCollection-0324.jpg",
+            "image": "shopify://shop_images/Copy_of_GSB-AcneCollection-IntlCollection-0324.jpg",
             "heading": "Acné Solutions",
             "heading_size": "h2",
             "color_option_id": "#ffffff",
             "subheading": "",
             "subheading_size": "h5",
             "button_label": "Shop Now",
-            "link": "shopify:\/\/products\/0000-6-petal-pairings-kits-2x3-stuks",
+            "link": "shopify://products/0000-6-petal-pairings-kits-2x3-stuks",
             "box_align": "bottom-left",
             "text_alignment": "left",
             "image_overlay_opacity": 0,
@@ -110,7 +110,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Bij glo Skin Beauty geloven we dat huidverzorging zelfzorg is en dat de producten die je dagelijks gebruikt een aanzienlijk verschil moeten maken voor je gezondheid en welzijn. glo Skin Beauty doet doorgedreven onderzoek naar formuleringen om bewust clean & klinisch bewezen huidverzorgingsproducten en cosmetica samen te stellen, aangedreven door next-generation werkzame stoffen, die échte verandering teweegbrengen aan je huid.<br\/><br\/>De professionele achtergrond en samenwerkingen met dermatologen betekenen dat glo Skin Beauty zich aan de hoogste normen houdt om baanbrekende producten te leveren met klinisch geteste, transformerende resultaten.<\/p>",
+            "text": "<p>Bij glo Skin Beauty geloven we dat huidverzorging zelfzorg is en dat de producten die je dagelijks gebruikt een aanzienlijk verschil moeten maken voor je gezondheid en welzijn. glo Skin Beauty doet doorgedreven onderzoek naar formuleringen om bewust clean & klinisch bewezen huidverzorgingsproducten en cosmetica samen te stellen, aangedreven door next-generation werkzame stoffen, die échte verandering teweegbrengen aan je huid.<br/><br/>De professionele achtergrond en samenwerkingen met dermatologen betekenen dat glo Skin Beauty zich aan de hoogste normen houdt om baanbrekende producten te leveren met klinisch geteste, transformerende resultaten.</p>",
             "link_label": "",
             "link": ""
           }
@@ -119,7 +119,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Als experts op het gebied van peelings biedt glo Skin Beauty de meest uitgebreide collectie medische en spa-kwaliteit exfolianten en de allereerste collectie professionele peelings die uitsluitend zijn ontworpen voor thuisgebruik.<br\/><br\/>Door hun huidverzorgingsrituelen opnieuw vorm te geven om aan de eisen van vandaag te voldoen, respecteren ze dat elke huid uniek is. Onze gezamenlijke missie is om jou zelfzeker te maken over jouw huid en je te leren hoe jij je gelaatsverzorging afstemt op de behoeften van jouw huid!  <br\/><\/p>",
+            "text": "<p>Als experts op het gebied van peelings biedt glo Skin Beauty de meest uitgebreide collectie medische en spa-kwaliteit exfolianten en de allereerste collectie professionele peelings die uitsluitend zijn ontworpen voor thuisgebruik.<br/><br/>Door hun huidverzorgingsrituelen opnieuw vorm te geven om aan de eisen van vandaag te voldoen, respecteren ze dat elke huid uniek is. Onze gezamenlijke missie is om jou zelfzeker te maken over jouw huid en je te leren hoe jij je gelaatsverzorging afstemt op de behoeften van jouw huid!  <br/></p>",
             "link_label": "",
             "link": ""
           }
@@ -155,37 +155,37 @@
         "template--19143340065115__d505918e-6980-4bce-bf30-44f0ad46b8c3-1687975731e5796a2d-0": {
           "type": "highlight",
           "settings": {
-            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_peels.jpg",
+            "image": "shopify://shop_images/featured_header_Desktop-_peels.jpg",
             "image_title": "At home peelings",
             "image_subtitle": "",
-            "highlight_url": "\/collections\/peelings"
+            "highlight_url": "/collections/peelings"
           }
         },
         "83e4fc1d-b68e-4194-9d39-fd375c930bf1": {
           "type": "highlight",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Serums_Desktop.webp",
+            "image": "shopify://shop_images/Serums_Desktop.webp",
             "image_title": "Drops & Serums",
             "image_subtitle": "",
-            "highlight_url": "shopify:\/\/collections\/serums"
+            "highlight_url": "shopify://collections/serums"
           }
         },
         "e09cb283-8830-4cf1-9a4d-cba67bbe3e28": {
           "type": "highlight",
           "settings": {
-            "image": "shopify:\/\/shop_images\/unknown_343674322_959189808598136_7871775187133967489_n.jpg",
+            "image": "shopify://shop_images/unknown_343674322_959189808598136_7871775187133967489_n.jpg",
             "image_title": "hybride producten",
             "image_subtitle": "",
-            "highlight_url": "shopify:\/\/collections\/hybride"
+            "highlight_url": "shopify://collections/hybride"
           }
         },
         "74907083-3b1c-49a3-9f95-8be170dcbe40": {
           "type": "highlight",
           "settings": {
-            "image": "shopify:\/\/shop_images\/GloSkinBeauty-24_2.jpg",
+            "image": "shopify://shop_images/GloSkinBeauty-24_2.jpg",
             "image_title": "Complexions",
             "image_subtitle": "",
-            "highlight_url": "shopify:\/\/collections\/complexion"
+            "highlight_url": "shopify://collections/complexion"
           }
         }
       },
@@ -218,7 +218,7 @@
         "template--19143340065115__36581f1d-ed42-44a4-ba6e-322786b4adbc-16882290004a28d1c4-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Bij glo Skin Beauty begrijpen we dat wat er niet in onze huidverzorgings- en make-upformules zit net zo belangrijk is als wat er wel in zit. Daarom zijn onze clean formules met zorg samengesteld om echte resultaten te leveren. We gebruiken alleen veilige, ethische en duurzaam gewonnen ingrediënten die vriendelijk zijn voor je huid en het milieu.<\/p>"
+            "text": "<p>Bij glo Skin Beauty begrijpen we dat wat er niet in onze huidverzorgings- en make-upformules zit net zo belangrijk is als wat er wel in zit. Daarom zijn onze clean formules met zorg samengesteld om echte resultaten te leveren. We gebruiken alleen veilige, ethische en duurzaam gewonnen ingrediënten die vriendelijk zijn voor je huid en het milieu.</p>"
           }
         },
         "template--19143340065115__36581f1d-ed42-44a4-ba6e-322786b4adbc-16882290004a28d1c4-2": {
@@ -254,8 +254,8 @@
         "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-cruelty-free_e646452e-75d8-49fb-9002-900b9ab4c00d.svg",
-            "title": "<strong>Dierenproef Vrij<\/strong>",
+            "image": "shopify://shop_images/hp-icon-cruelty-free_e646452e-75d8-49fb-9002-900b9ab4c00d.svg",
+            "title": "<strong>Dierenproef Vrij</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -264,8 +264,8 @@
         "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
-            "title": "<strong>Parabeenvrij<\/strong>",
+            "image": "shopify://shop_images/hp-icon-paraben-free_8b7b3e6b-b9c0-494b-bc08-a789eff449e4.svg",
+            "title": "<strong>Parabeenvrij</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -274,8 +274,8 @@
         "22505426-65eb-4e2b-bca7-5a01518024f0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-talc-free_8c4a49a2-a14a-4dd8-94cf-488fc551986c.svg",
-            "title": "<strong>Talkvrij<\/strong>",
+            "image": "shopify://shop_images/hp-icon-talc-free_8c4a49a2-a14a-4dd8-94cf-488fc551986c.svg",
+            "title": "<strong>Talkvrij</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -284,8 +284,8 @@
         "ed105618-3561-462f-9054-6edf1052805c": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-mineral-oil-free_0e85347b-9923-4aff-ac08-86df4214acde.svg",
-            "title": "<strong>Minerale olie vrij<\/strong>",
+            "image": "shopify://shop_images/hp-icon-mineral-oil-free_0e85347b-9923-4aff-ac08-86df4214acde.svg",
+            "title": "<strong>Minerale olie vrij</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -294,8 +294,8 @@
         "template--19143340065115__0544e851-a779-4248-a67e-cbec20d2a40e-1688218214ec65b072-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-sulfate-free_9cd09dc6-fa43-4303-9bcc-e35750b4830a.svg",
-            "title": "<strong>Sulfaatvrij<\/strong>",
+            "image": "shopify://shop_images/hp-icon-sulfate-free_9cd09dc6-fa43-4303-9bcc-e35750b4830a.svg",
+            "title": "<strong>Sulfaatvrij</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -304,8 +304,8 @@
         "f68a5006-641d-46e3-9651-98901efa5a52": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hp-icon-phthalate-free_9fbf6799-839f-4638-8db5-ede7e59036de.svg",
-            "title": "<strong>Ftalaat Vrij<\/strong>",
+            "image": "shopify://shop_images/hp-icon-phthalate-free_9fbf6799-839f-4638-8db5-ede7e59036de.svg",
+            "title": "<strong>Ftalaat Vrij</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -354,7 +354,7 @@
         "item_alignment": "center",
         "background_style": "none",
         "button_label": "Lees meer",
-        "button_link": "shopify:\/\/pages\/clean-zonder-compromissen",
+        "button_link": "shopify://pages/clean-zonder-compromissen",
         "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -369,7 +369,7 @@
         "template--19180119228763__a1b8a544-b5d6-4bca-b36c-d2b81eb792e5-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/official.svg",
+            "image": "shopify://shop_images/official.svg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -379,7 +379,7 @@
         "template--19180119228763__a1b8a544-b5d6-4bca-b36c-d2b81eb792e5-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mineral-oil.svg",
+            "image": "shopify://shop_images/mineral-oil.svg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -389,7 +389,7 @@
         "template--19180119228763__a1b8a544-b5d6-4bca-b36c-d2b81eb792e5-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/polyethyleen.svg",
+            "image": "shopify://shop_images/polyethyleen.svg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -399,7 +399,7 @@
         "d4d4f8aa-ad52-4b8c-af15-ffaa89945558": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/protection.svg",
+            "image": "shopify://shop_images/protection.svg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -409,7 +409,7 @@
         "c4ac4347-c32d-47f4-bd56-b043b9dcdbf7": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/balance.svg",
+            "image": "shopify://shop_images/balance.svg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -419,7 +419,7 @@
         "e904db06-7e8a-43cf-962e-d4421942d4ef": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hydration.svg",
+            "image": "shopify://shop_images/hydration.svg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -430,7 +430,7 @@
           "type": "column",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/parabens.svg",
+            "image": "shopify://shop_images/parabens.svg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -458,7 +458,7 @@
         "item_alignment": "center",
         "background_style": "none",
         "button_label": "Lees meer",
-        "button_link": "shopify:\/\/pages\/values",
+        "button_link": "shopify://pages/values",
         "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -494,7 +494,7 @@
         "template--19143340065115__b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721-1688229291c922cd03-0": {
           "type": "column",
           "settings": {
-            "title": "<strong>WHATS IN?<\/strong>",
+            "title": "<strong>WHATS IN?</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -504,7 +504,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<ul><li>NEXT-GENERATION ACTIVES<\/li><li>NATURAL NOURISHERS<\/li><li>LUXURIOUS HYDRATORS<\/li><li>ETHICALLY-SOURCED MINERALS<\/li><li>SOOTHING BOTANICALS<\/li><li>ANTIOXIDANTS<\/li><li>INNOVATIVE TECHNOLOGY<\/li><\/ul>",
+            "text": "<ul><li>NEXT-GENERATION ACTIVES</li><li>NATURAL NOURISHERS</li><li>LUXURIOUS HYDRATORS</li><li>ETHICALLY-SOURCED MINERALS</li><li>SOOTHING BOTANICALS</li><li>ANTIOXIDANTS</li><li>INNOVATIVE TECHNOLOGY</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -512,7 +512,7 @@
         "template--19143340065115__b8e0905e-5bcd-4d6f-9a9e-7aa34bb93721-1688229291c922cd03-2": {
           "type": "column",
           "settings": {
-            "title": "<strong>WHATS OUT?<\/strong>",
+            "title": "<strong>WHATS OUT?</strong>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -522,7 +522,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<ul><li>PARABENS<\/li><li>TALC<\/li><li>ARTIFICIAL FRAGRANCE<\/li><li>IRRITATING SULFATES<\/li><li>PHTHALATES<\/li><li>HARSH COLORANTS<\/li><li>POLYETHYLENE BEADS<\/li><li>MINERAL OIL<\/li><\/ul>",
+            "text": "<ul><li>PARABENS</li><li>TALC</li><li>ARTIFICIAL FRAGRANCE</li><li>IRRITATING SULFATES</li><li>PHTHALATES</li><li>HARSH COLORANTS</li><li>POLYETHYLENE BEADS</li><li>MINERAL OIL</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -532,7 +532,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -573,9 +573,9 @@
           "type": "infoblock",
           "disabled": true,
           "settings": {
-            "heading": "<strong>Title 1<\/strong>",
+            "heading": "<strong>Title 1</strong>",
             "heading_size": "h2",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -583,9 +583,9 @@
         "b69ad00d-7478-45b9-8869-c06c6974d85f": {
           "type": "infoblock",
           "settings": {
-            "heading": "<strong>Whats in? <\/strong>",
+            "heading": "<strong>Whats in? </strong>",
             "heading_size": "h2",
-            "text": "<ul><li>NEXT-GENERATION ACTIVES<\/li><li>NATURAL NOURISHERS<\/li><li>LUXURIOUS HYDRATORS<\/li><li>ETHICALLY-SOURCED MINERALS<\/li><li>SOOTHING BOTANICALS<\/li><li>ANTIOXIDANTS<\/li><li>INNOVATIVE TECHNOLOGY<\/li><\/ul>",
+            "text": "<ul><li>NEXT-GENERATION ACTIVES</li><li>NATURAL NOURISHERS</li><li>LUXURIOUS HYDRATORS</li><li>ETHICALLY-SOURCED MINERALS</li><li>SOOTHING BOTANICALS</li><li>ANTIOXIDANTS</li><li>INNOVATIVE TECHNOLOGY</li></ul>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -593,9 +593,9 @@
         "fc1a0376-ae40-44fb-836a-e08c17da5beb": {
           "type": "infoblock",
           "settings": {
-            "heading": "<strong>Whats out?<\/strong>",
+            "heading": "<strong>Whats out?</strong>",
             "heading_size": "h2",
-            "text": "<ul><li>PARABENS<\/li><li>TALC<\/li><li>ARTIFICIAL FRAGRANCE<\/li><li>IRRITATING SULFATES<\/li><li>PHTHALATES<\/li><li>HARSH COLORANTS<\/li><li>POLYETHYLENE BEADS<\/li><li>MINERAL OIL<\/li><\/ul>",
+            "text": "<ul><li>PARABENS</li><li>TALC</li><li>ARTIFICIAL FRAGRANCE</li><li>IRRITATING SULFATES</li><li>PHTHALATES</li><li>HARSH COLORANTS</li><li>POLYETHYLENE BEADS</li><li>MINERAL OIL</li></ul>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -608,7 +608,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Foundation_Desktop_1.jpg",
+        "image": "shopify://shop_images/Foundation_Desktop_1.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -643,7 +643,7 @@
         "template--19143340065115__e4c713b5-f3e0-4c55-a907-41e75876dd11-16882290004a28d1c4-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Glo Skin Beauty gebruikt alleen de veiligste, meest duurzame en doeltreffende ingrediënten in al hun formuleringen, bewust clean, veganistisch en zonder dierenleed. Lees hier alles over deze belofte voor de gezondheid en het welzijn van jouw huid en het milieu.<\/p>"
+            "text": "<p>Glo Skin Beauty gebruikt alleen de veiligste, meest duurzame en doeltreffende ingrediënten in al hun formuleringen, bewust clean, veganistisch en zonder dierenleed. Lees hier alles over deze belofte voor de gezondheid en het welzijn van jouw huid en het milieu.</p>"
           }
         },
         "template--19143340065115__e4c713b5-f3e0-4c55-a907-41e75876dd11-16882290004a28d1c4-2": {
@@ -701,11 +701,11 @@
           "type": "column",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/header-girls_2450x_5bcf0c0a-d5b1-4188-9d42-57f575b15fe2.webp",
+            "image": "shopify://shop_images/header-girls_2450x_5bcf0c0a-d5b1-4188-9d42-57f575b15fe2.webp",
             "title": "Gepersonaliseerde aanbevelingen to unlock your glow.",
             "text": "",
             "link_label": "Contacteer een professional",
-            "link": "shopify:\/\/pages\/contact",
+            "link": "shopify://pages/contact",
             "bg_color": "#391900",
             "bg_opacity": 70
           }
@@ -713,11 +713,11 @@
         "template--19180119228763__3a8bc5a3-eff6-4ced-b226-ee503a61991b-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_retinol.jpg",
+            "image": "shopify://shop_images/featured_header_Desktop-_retinol.jpg",
             "title": "Verminder roodheid en irritatie",
             "text": "",
             "link_label": "Ga naar onze calm + Soothe lijn",
-            "link": "shopify:\/\/collections\/calm-sooth",
+            "link": "shopify://collections/calm-sooth",
             "bg_color": "#6e1111",
             "bg_opacity": 70
           }
@@ -725,11 +725,11 @@
         "0b089f9b-894b-4769-a41f-8f98e485faa8": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/23Aug-HP-skin-powered-makeup-Block-2.jpg",
+            "image": "shopify://shop_images/23Aug-HP-skin-powered-makeup-Block-2.jpg",
             "title": "Huidverbeterende make-up",
             "text": "",
             "link_label": "Minimale inspanning – maximale glow!",
-            "link": "shopify:\/\/collections\/b2c-all-makeup",
+            "link": "shopify://collections/b2c-all-makeup",
             "bg_color": "#1a3148",
             "bg_opacity": 50
           }
@@ -783,31 +783,31 @@
         "7c26a8ab-86a2-4b21-9212-e09bd606fc42": {
           "type": "infoblock",
           "settings": {
-            "heading": "<strong>Wat is een primer + waarom heb je er een nodig?<\/strong>",
+            "heading": "<strong>Wat is een primer + waarom heb je er een nodig?</strong>",
             "heading_size": "h2",
-            "text": "<p>Vraag je je af wat een primer is en wat het doet? Het is een vaak overgeslagen stap in onze verzorging, terwijl primers eigenlijk veel voordelen hebben waar je mogelijks nog niet van op de hoogte bent. Als je te maken hebt met vegen, plekken, vouwen of het verdwijnen van je foundation gedurende de dag, voeg dan een gezichtsprimer toe aan je ochtendproducten en je merkt de voordelen meteen op.<\/p>",
+            "text": "<p>Vraag je je af wat een primer is en wat het doet? Het is een vaak overgeslagen stap in onze verzorging, terwijl primers eigenlijk veel voordelen hebben waar je mogelijks nog niet van op de hoogte bent. Als je te maken hebt met vegen, plekken, vouwen of het verdwijnen van je foundation gedurende de dag, voeg dan een gezichtsprimer toe aan je ochtendproducten en je merkt de voordelen meteen op.</p>",
             "button_label": "lees meer",
-            "button_link": "shopify:\/\/blogs\/values\/leer-onze-bestverkopende-5-sterren-huidverzorgingsfavorieten-kennen"
+            "button_link": "shopify://blogs/values/leer-onze-bestverkopende-5-sterren-huidverzorgingsfavorieten-kennen"
           }
         },
         "ca00d612-b33b-4e8b-8c66-3118d5bdddf5": {
           "type": "infoblock",
           "settings": {
-            "heading": "<strong>Voordelen van Aloë Vera voor de huid<\/strong>",
+            "heading": "<strong>Voordelen van Aloë Vera voor de huid</strong>",
             "heading_size": "h2",
-            "text": "<p>Aloë vera wordt al eeuwenlang gebruikt in huidverzorging vanwege zijn voedende en helende eigenschappen, om nog maar te zwijgen van zijn vermogen om zonnebrand te verzachten. Maar de voordelen van aloë vera voor de huid eindigen hier niet. Ontdek alles wat er te weten valt over dit huid-superfood.<\/p>",
+            "text": "<p>Aloë vera wordt al eeuwenlang gebruikt in huidverzorging vanwege zijn voedende en helende eigenschappen, om nog maar te zwijgen van zijn vermogen om zonnebrand te verzachten. Maar de voordelen van aloë vera voor de huid eindigen hier niet. Ontdek alles wat er te weten valt over dit huid-superfood.</p>",
             "button_label": "Lees meer",
-            "button_link": "shopify:\/\/blogs\/at-home-peelings\/peeling-finder-ontdek-de-soorten-chemische-peelings-voor-al-je-huidwensen"
+            "button_link": "shopify://blogs/at-home-peelings/peeling-finder-ontdek-de-soorten-chemische-peelings-voor-al-je-huidwensen"
           }
         },
         "efed1630-0912-4eb3-99c0-d324828cb7eb": {
           "type": "infoblock",
           "settings": {
-            "heading": "<strong>Waarom hybride verzorgingsproducten jouw beautyrituelen mooier maken<\/strong>",
+            "heading": "<strong>Waarom hybride verzorgingsproducten jouw beautyrituelen mooier maken</strong>",
             "heading_size": "h2",
-            "text": "<p>Met onze drukke levens zoeken we steeds vaker naar huidverzorging en make-up die meer kan doen, meer kan aanpakken en het aantal producten dat we in onze dagelijkse routine gebruiken kan verminderen. We willen dat onze producten slimmer werken en toch een stralend resultaat opleveren. Maak kennis met de \"hybride\" skincare producten van glo Skin Beauty, die én skincare én make-up zijn!<br\/><\/p>",
+            "text": "<p>Met onze drukke levens zoeken we steeds vaker naar huidverzorging en make-up die meer kan doen, meer kan aanpakken en het aantal producten dat we in onze dagelijkse routine gebruiken kan verminderen. We willen dat onze producten slimmer werken en toch een stralend resultaat opleveren. Maak kennis met de \"hybride\" skincare producten van glo Skin Beauty, die én skincare én make-up zijn!<br/></p>",
             "button_label": "Lees meer",
-            "button_link": "shopify:\/\/blogs\/at-home-peelings\/het-ontkrachten-van-mythen-over-peelings-alles-wat-je-moet-weten-over-chemische-peelings"
+            "button_link": "shopify://blogs/at-home-peelings/het-ontkrachten-van-mythen-over-peelings-alles-wat-je-moet-weten-over-chemische-peelings"
           }
         }
       },
@@ -817,7 +817,7 @@
         "efed1630-0912-4eb3-99c0-d324828cb7eb"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/23Aug-HP-Blog.jpg",
+        "image": "shopify://shop_images/23Aug-HP-Blog.jpg",
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -843,7 +843,7 @@
       "type": "apps",
       "blocks": {
         "62704630-e4fc-454a-b766-ff2c983c71dc": {
-          "type": "shopify:\/\/apps\/instafeed-story\/blocks\/app-block-feeds\/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
+          "type": "shopify://apps/instafeed-story/blocks/app-block-feeds/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
           "settings": {
           }
         }

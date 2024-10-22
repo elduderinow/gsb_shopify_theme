@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -22,7 +31,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Vul je collectie aan met alle professionele make-up tools die je nodig hebt voor een vlekkeloze look. <\/p>",
+            "text": "<p>Vul je collectie aan met alle professionele make-up tools die je nodig hebt voor een vlekkeloze look. </p>",
             "text_style": "body"
           }
         },
@@ -40,7 +49,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/featured_header_Desktop-_tools.jpg",
+        "image": "shopify://shop_images/featured_header_Desktop-_tools.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -60,7 +69,7 @@
       "settings": {
         "product_view": "grid",
         "section_width": "full_width",
-        "products_per_page": 20,
+        "products_per_page": 8,
         "columns_desktop": 4,
         "image_ratio": "portrait",
         "image_shape": "default",
@@ -79,7 +88,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"readmore\"\/>",
+        "custom_liquid": "<div id=\"readmore\"/>",
         "color_scheme": "background-1",
         "padding_top": 80,
         "padding_bottom": 0
@@ -99,7 +108,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.<\/p>"
+            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.</p>"
           }
         },
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1": {
@@ -137,7 +146,7 @@
           "disabled": true,
           "settings": {
             "title": "",
-            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
+            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!</p>",
             "link_label": "",
             "link": ""
           }
@@ -146,7 +155,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Niet zeker wanneer je een kwast of je vingers moet gebruiken? Of hoe vaak je je make-up kwasten best moet reinigen? Ontdek hier alle professionele make-up applicatie tips en tricks.<\/p>",
+            "text": "<p>Niet zeker wanneer je een kwast of je vingers moet gebruiken? Of hoe vaak je je make-up kwasten best moet reinigen? Ontdek hier alle professionele make-up applicatie tips en tricks.</p>",
             "link_label": "",
             "link": ""
           }
@@ -156,7 +165,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -193,7 +202,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/featured_header_Desktop-_tools.jpg",
+            "image": "shopify://shop_images/featured_header_Desktop-_tools.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -205,7 +214,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/finishing_sponge_6dff95b1-3082-4d1d-b467-2c19bf681385.jpg",
+            "image": "shopify://shop_images/finishing_sponge_6dff95b1-3082-4d1d-b467-2c19bf681385.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -256,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Gebruik je make-up als een professional met onze door artiesten goedgekeurde make-up tools. Zorg ervoor dat je een goede hygiëne toepast voor je kwasten. En voor het behouden van de precisie van je potloden, bekijk onze  puntenslijpers - onmisbaar voor je make-up set.<\/p>",
+            "text": "<p>Gebruik je make-up als een professional met onze door artiesten goedgekeurde make-up tools. Zorg ervoor dat je een goede hygiëne toepast voor je kwasten. En voor het behouden van de precisie van je potloden, bekijk onze  puntenslijpers - onmisbaar voor je make-up set.</p>",
             "link_label": "",
             "link": ""
           }

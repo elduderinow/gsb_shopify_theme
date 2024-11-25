@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -14,7 +23,7 @@
         "template--19143340360027__5d688b20-f395-42fc-9b72-c2701c406c1c-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/header-small.jpg",
+            "image": "shopify://shop_images/header-small.jpg",
             "heading": "",
             "heading_size": "h1",
             "color_option_id": "#ffffff",
@@ -49,9 +58,9 @@
         "template--19143340360027__6b66fa65-45ce-4fe8-bcbb-2d826436d3ea-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3674f8c5-76eb-4c6c-a374-2f3a0bd37a6c.jpg",
-            "title": "<strong>Chief Executive Officer<\/strong>",
-            "text": "<p>Tania De Voght<\/p><p><a href=\"mailto:tania@gloskinbeauty.be\" target=\"_blank\" title=\"mailto:tania@gloskinbeauty.be\">Tania@gloskinbeauty.be<\/a><\/p><p>+324 77 33 49 89<\/p>",
+            "image": "shopify://shop_images/3674f8c5-76eb-4c6c-a374-2f3a0bd37a6c.jpg",
+            "title": "<strong>Chief Executive Officer</strong>",
+            "text": "<p>Tania De Voght</p><p><a href=\"mailto:tania@gloskinbeauty.be\" target=\"_blank\" title=\"mailto:tania@gloskinbeauty.be\">Tania@gloskinbeauty.be</a></p><p>+324 77 33 49 89</p>",
             "link_label": "",
             "link": ""
           }
@@ -59,9 +68,9 @@
         "template--19143340360027__6b66fa65-45ce-4fe8-bcbb-2d826436d3ea-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/35206914-f82a-4de1-a72d-776568234ac9.jpg",
-            "title": "<strong>Educator manager<\/strong>",
-            "text": "<p>Reina Breugelmans<\/p><p><a href=\"mailto:Reina@gloskinbeauty.be\" target=\"_blank\" title=\"mailto:Reina@gloskinbeauty.be\">Reina@gloskinbeauty.be<\/a><\/p><p><\/p>",
+            "image": "shopify://shop_images/35206914-f82a-4de1-a72d-776568234ac9.jpg",
+            "title": "<strong>Educator manager</strong>",
+            "text": "<p>Reina Breugelmans</p><p><a href=\"mailto:Reina@gloskinbeauty.be\" target=\"_blank\" title=\"mailto:Reina@gloskinbeauty.be\">Reina@gloskinbeauty.be</a></p><p></p>",
             "link_label": "",
             "link": ""
           }
@@ -69,19 +78,20 @@
         "template--19143340360027__6b66fa65-45ce-4fe8-bcbb-2d826436d3ea-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/female_user.png",
-            "title": "<strong>Operational Support<\/strong>",
-            "text": "<p>Indra Franken<\/p><p>Indra@gloskinbeauty.be<\/p>",
+            "image": "shopify://shop_images/female_user.png",
+            "title": "<strong>Operational Support</strong>",
+            "text": "<p>Indra Franken</p><p>Indra@gloskinbeauty.be</p>",
             "link_label": "",
             "link": ""
           }
         },
         "b9730996-e123-4657-84d7-89b0398f008b": {
           "type": "column",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/female_user.png",
-            "title": "<strong>Communications, Content & Community manager<\/strong>",
-            "text": "<p>Sophie Blocken<\/p>",
+            "image": "shopify://shop_images/female_user.png",
+            "title": "<strong>Communications, Content & Community manager</strong>",
+            "text": "<p>Sophie Blocken</p>",
             "link_label": "",
             "link": ""
           }
@@ -116,7 +126,7 @@
     "custom_liquid_Ct6nrU": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"aanvraag\"\/>",
+        "custom_liquid": "<div id=\"aanvraag\"/>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -130,7 +140,7 @@
           "disabled": true,
           "settings": {
             "title": "",
-            "text": "<p>Welkom bij Glo Skin Beauty - jouw partner voor hoogwaardige make-up en professionele gelaatsverzorging, speciaal ontworpen voor schoonheidssalons en winkels. <br\/><br\/>Wij begrijpen de behoeften van jouw zaak en zijn er om jouw assortiment naar een hoger niveau te tillen met onze premium producten. <\/p>",
+            "text": "<p>Welkom bij Glo Skin Beauty - jouw partner voor hoogwaardige make-up en professionele gelaatsverzorging, speciaal ontworpen voor schoonheidssalons en winkels. <br/><br/>Wij begrijpen de behoeften van jouw zaak en zijn er om jouw assortiment naar een hoger niveau te tillen met onze premium producten. </p>",
             "link_label": "",
             "link": ""
           }
@@ -140,7 +150,7 @@
           "disabled": true,
           "settings": {
             "title": "",
-            "text": "<p>Wil je onze producten in jouw zaak aanbieden of heb je vragen over onze distributeursprogramma's? <br\/><br\/>Aarzel niet om contact met ons op te nemen. Samen kunnen we jouw zaak laten bloeien met Glo Skin Beauty. <br\/><br\/>Neem contact met ons op via onderstaande gegevens, en laten we samenwerken om de schoonheidservaring van jouw klanten te transformeren.<\/p>",
+            "text": "<p>Wil je onze producten in jouw zaak aanbieden of heb je vragen over onze distributeursprogramma's? <br/><br/>Aarzel niet om contact met ons op te nemen. Samen kunnen we jouw zaak laten bloeien met Glo Skin Beauty. <br/><br/>Neem contact met ons op via onderstaande gegevens, en laten we samenwerken om de schoonheidservaring van jouw klanten te transformeren.</p>",
             "link_label": "",
             "link": ""
           }
@@ -149,7 +159,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Op zoek naar een merk dat jou voorziet van een totaaloplossing vanaf de reiniging tot aan de lipstick? Ben je getriggerd door het krachtige peelingsysteem en de professionele at-home peelings? Op zoek naar huidverbeterende, clean & minerale make-up?<\/p>",
+            "text": "<p>Op zoek naar een merk dat jou voorziet van een totaaloplossing vanaf de reiniging tot aan de lipstick? Ben je getriggerd door het krachtige peelingsysteem en de professionele at-home peelings? Op zoek naar huidverbeterende, clean & minerale make-up?</p>",
             "link_label": "",
             "link": ""
           }
@@ -158,7 +168,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Neem contact op, vermeld waar je interesse in hebt en we nemen spoedig contact met je op om alle in- en outs van dit fantastische merk met je te delen!<br\/><br\/>Let’s g(l)o!<br\/>Tania<\/p>",
+            "text": "<p>Neem contact op, vermeld waar je interesse in hebt en we nemen spoedig contact met je op om alle in- en outs van dit fantastische merk met je te delen!<br/><br/>Let’s g(l)o!<br/>Tania</p>",
             "link_label": "",
             "link": ""
           }
@@ -206,9 +216,9 @@
         "template--19180119556443__4ae8b7f2-c654-4b86-811b-6b3c6278296c-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cropped-cropped-banner-website-1-2.png",
+            "image": "shopify://shop_images/cropped-cropped-banner-website-1-2.png",
             "title": "",
-            "text": "<p>Bij glo Skin Beauty Benelux omarmen we een unieke samenwerking met <strong>rebels in business<\/strong>, pioniers in strategische en operationele mentoring op maat voor ambitieuze saloneigenaars. <\/p>",
+            "text": "<p>Bij glo Skin Beauty Benelux omarmen we een unieke samenwerking met <strong>rebels in business</strong>, pioniers in strategische en operationele mentoring op maat voor ambitieuze saloneigenaars. </p>",
             "link_label": "",
             "link": ""
           }
@@ -216,10 +226,10 @@
         "template--19180119556443__4ae8b7f2-c654-4b86-811b-6b3c6278296c-column-3": {
           "type": "column",
           "settings": {
-            "title": "<strong>Rebels in Business<\/strong>",
-            "text": "<p>Rebels in business biedt een krachtige combinatie van expertise, hands-on ervaring en onuitputtelijke inspiratie, allemaal gericht op het verwezenlijken van jouw huidige en toekomstige doelen\/ideeën.<br\/><br\/>Centraal in hun aanpak staat <strong>JOUW KLANT<\/strong>, jouw bron van inkomsten! Zij staan ook klaar om jou efficiënt te helpen. Hun <strong>deep dive mentoringdag <\/strong>richt zich op het in kaart brengen van de knelpunten in je salon die aan de basis liggen van jouw vraag\/terugkerende uitdaging. <br\/><br\/>Onze samenwerking heeft geleid naar een volledige rebranding van glo Skin beauty Benelux om ons nog beter in de markt te plaatsen. Benieuwd naar het resultaat wanneer jij <strong>rebels in business<\/strong> toelaat in jouw skin business?<\/p>",
+            "title": "<strong>Rebels in Business</strong>",
+            "text": "<p>Rebels in business biedt een krachtige combinatie van expertise, hands-on ervaring en onuitputtelijke inspiratie, allemaal gericht op het verwezenlijken van jouw huidige en toekomstige doelen/ideeën.<br/><br/>Centraal in hun aanpak staat <strong>JOUW KLANT</strong>, jouw bron van inkomsten! Zij staan ook klaar om jou efficiënt te helpen. Hun <strong>deep dive mentoringdag </strong>richt zich op het in kaart brengen van de knelpunten in je salon die aan de basis liggen van jouw vraag/terugkerende uitdaging. <br/><br/>Onze samenwerking heeft geleid naar een volledige rebranding van glo Skin beauty Benelux om ons nog beter in de markt te plaatsen. Benieuwd naar het resultaat wanneer jij <strong>rebels in business</strong> toelaat in jouw skin business?</p>",
             "link_label": "Bezoek Rebels in Business",
-            "link": "https:\/\/rebels-in-business.be"
+            "link": "https://rebels-in-business.be"
           }
         }
       },

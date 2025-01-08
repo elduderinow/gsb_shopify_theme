@@ -15,8 +15,8 @@
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/GSB_Holiday2024-FullCollection_1.jpg",
-            "heading": "Holiday Kits 24'",
+            "image": "shopify://shop_images/Copy_of_GSB_EGFLaunch25-Bio-RenewEGFEyeCream_Bio-RenewEGFNeckCream_0924-min_1.jpg",
+            "heading": "Coming soon...",
             "heading_size": "h2",
             "color_option_id": "#ffffff",
             "subheading": "",
@@ -844,8 +844,7 @@
       "blocks": {
         "62704630-e4fc-454a-b766-ff2c983c71dc": {
           "type": "shopify://apps/instafeed-story/blocks/app-block-feeds/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [

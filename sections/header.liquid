@@ -311,21 +311,36 @@
       {%- endif -%}
 
       {%- if shop.customer_accounts_enabled -%}
-        {%- if customer and customer.tags contains 'B2B' -%}
-          <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
-            {% render 'icon-account' %}
-            <span class="visually-hidden">
-              {%- liquid
-                if customer
-                  echo 'customer.account_fallback' | t
-                else
-                  echo 'customer.log_in' | t
-                endif
-              -%}
-            </span>
-          </a>
+        {%- if customer -%}
+          {%- if customer.tags contains 'B2B' -%}
+            <a href="{{ routes.account_url }}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
+              {% render 'icon-account' %}
+              <span class="visually-hidden">
+                {%- liquid
+                  if customer
+                    echo 'customer.account_fallback' | t
+                  else
+                    echo 'customer.log_in' | t
+                  endif
+                -%}
+              </span>
+            </a>
+          {%- else -%} 
+            <a href="/pages/enroll" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
+              {% render 'icon-account' %}
+              <span class="visually-hidden">
+                {%- liquid
+                  if customer
+                    echo 'customer.account_fallback' | t
+                  else
+                    echo 'customer.log_in' | t
+                  endif
+                -%}
+              </span>
+            </a>
+          {%- endif -%} 
         {%- else -%} 
-          <a href="pages/enroll" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
+          <a href="{{ routes.account_login_url }}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
             {% render 'icon-account' %}
             <span class="visually-hidden">
               {%- liquid
@@ -337,7 +352,6 @@
               -%}
             </span>
           </a>
-        {%- endif -%} 
       {%- endif -%} 
 
       <a href="/pages/store-locator" class="header__icon link focus-inset">

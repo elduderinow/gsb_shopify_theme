@@ -1,7 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
-    {% include 'easylockdown_head' %}
+{% include 'easylockdown_head' %}
+    
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -276,8 +277,8 @@
     {% sections 'header-group' %}
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      {% comment %}{{ content_for_layout }}{% endcomment %}
-      {%- include 'easylockdown_body' %}
+      {% comment %}{{ content_for_layout }}{% endcomment %}{% include 'easylockdown_body' %}
+      
     </main>
 
     {% sections 'footer-group' %}

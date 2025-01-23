@@ -52,7 +52,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Vond je iets dat je leuk vindt? Gebruik dan de zoekfunctie om de dichtstbijzijnde schoonheidsspecialist te vinden.<br/><br/>Ben je een professional en wil je samenwerken met Glo? Neem contact op via <a><strong>tania@gloskinbeauty.be</strong></a> of vul het onderstaande formulier in.</p>",
+            "text": "<p>Vond je iets dat je leuk vindt? Gebruik dan de zoekfunctie om de dichtstbijzijnde schoonheidsspecialist te vinden.<br/><br/>Ben je een professional en wil je samenwerken met Glo? Neem contact op via <a href=\"mailto:tania@gloskinbeauty.be\" title=\"mailto:tania@gloskinbeauty.be\"><strong>tania@gloskinbeauty.be</strong></a> of vul het onderstaande formulier in.</p>",
             "link_label": "",
             "link": ""
           }

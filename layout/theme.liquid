@@ -1,13 +1,13 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
-{% include 'easylockdown_head' %}
-    
+    {% include 'easylockdown_head' %}
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
-    <meta name="google-site-verification" content="86qCqyBA_djbnIMysPLqu-GiBjfKgz5QrzowRtXO3KE" />
+    <meta name="google-site-verification" content="86qCqyBA_djbnIMysPLqu-GiBjfKgz5QrzowRtXO3KE">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 
@@ -18,6 +18,18 @@
     {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3RVP7D2XM2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-3RVP7D2XM2');
+    </script>
 
     <title>
       {{ page_title }}
@@ -264,8 +276,8 @@
     {% sections 'header-group' %}
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      {% comment %}{{ content_for_layout }}{% endcomment %}{% include 'easylockdown_body' %}
-      
+      {% comment %}{{ content_for_layout }}{% endcomment %}
+      {%- include 'easylockdown_body' %}
     </main>
 
     {% sections 'footer-group' %}
@@ -308,29 +320,30 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  <!-- WPD Start -->
-                {% if customer.tags.size > 0 and template != 'cart' %}
-                <script>
-                    document.addEventListener('DOMContentLoaded', function() {
-                      let checkoutbtninterval = setInterval(function(){
-                        var x=document.querySelectorAll("input[name='checkout'], button[name='checkout'], input[name='goto_pp'], button[name='goto_pp'], input[name='goto_gc'], button[name='goto_gc'], [href$='checkout']");
-                        var WPD_RedirectToCart = function(e) {
-                          	e.stopPropagation();
-                            e.preventDefault();
-                            window.location = '/cart';
-                            };
-                            for (var i = 0; i < x.length; i++) {
-                                x[i].addEventListener('click', WPD_RedirectToCart, false);
-                            }
-                        },500)
-                });
-              </script>
-               {% endif %}
-         
+    <!-- WPD Start -->
+    {% if customer.tags.size > 0 and template != 'cart' %}
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          let checkoutbtninterval = setInterval(function () {
+            var x = document.querySelectorAll(
+              "input[name='checkout'], button[name='checkout'], input[name='goto_pp'], button[name='goto_pp'], input[name='goto_gc'], button[name='goto_gc'], [href$='checkout']"
+            );
+            var WPD_RedirectToCart = function (e) {
+              e.stopPropagation();
+              e.preventDefault();
+              window.location = '/cart';
+            };
+            for (var i = 0; i < x.length; i++) {
+              x[i].addEventListener('click', WPD_RedirectToCart, false);
+            }
+          }, 500);
+        });
+      </script>
+    {% endif %}
 
-               {% if customer.tags.size > 0 and template == 'cart' %}
-                 {% include 'wcp_cart' %}
-               {% endif %}
-               <!-- WPD End -->
+    {% if customer.tags.size > 0 and template == 'cart' %}
+      {% include 'wcp_cart' %}
+    {% endif %}
+    <!-- WPD End -->
   </body>
 </html>

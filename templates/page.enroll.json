@@ -17,99 +17,69 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_8VYfMC": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_qMHLdL": {
-          "type": "heading",
-          "settings": {
-            "heading": "Opstartproces",
-            "heading_size": "h1"
-          }
-        },
-        "text_YYLEKC": {
-          "type": "text",
-          "settings": {
-            "text": "<p>glo is enkel voor professionals</p>"
-          }
-        },
-        "button_JyzHDe": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_qMHLdL",
-        "text_YYLEKC",
-        "button_JyzHDe"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "05495cf6-6b05-4043-9f7a-341ae95be296": {
       "type": "image-banner",
-      "blocks": {
-        "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Wat betekent Clean Beauty voor glo Skin Beauty?",
-            "heading_size": "h1"
-          }
-        },
-        "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-buttons-1": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-heading-1",
-        "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-text-1",
-        "template--19180119458139__05495cf6-6b05-4043-9f7a-341ae95be296-buttons-1"
-      ],
-      "disabled": true,
       "custom_css": [
         ".banner__heading {color: #c66300;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/23jul-hp-protect_prevent-slider-desktop.png",
-        "image_overlay_opacity": 0,
+        "image": "shopify://shop_images/header-girls_2450x_5bcf0c0a-d5b1-4188-9d42-57f575b15fe2.webp",
+        "image_overlay_opacity": 10,
         "image_height": "small",
-        "desktop_content_position": "top-right",
+        "desktop_content_position": "bottom-left",
         "show_text_box": false,
-        "desktop_content_alignment": "right",
+        "desktop_content_alignment": "left",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "multicolumn_6866W7": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_rLVBKn": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Deze webshop is exclusief toegankelijk voor aangesloten professionals. Neem gerust een kijkje op onze website om ons aanbod te ontdekken. </p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ngDfHF": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Vond je iets dat je leuk vindt? Gebruik dan de zoekfunctie om de dichtstbijzijnde schoonheidsspecialist te vinden.<br/><br/>Ben je een professional en wil je samenwerken met Glo? Neem contact op via <a><strong>tania@gloskinbeauty.be</strong></a> of vul het onderstaande formulier in.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_rLVBKn",
+        "column_ngDfHF"
+      ],
+      "settings": {
+        "title": "Stap voor stap",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "icon__grid": false,
+        "column_alignment": "left",
+        "item_alignment": "center",
+        "background_style": "none",
+        "button_label": "zoek een verkooppunt",
+        "button_link": "shopify://pages/store-locator",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
       }
     },
     "e03a7d26-1065-4812-8cb5-774b156b2488": {
@@ -171,8 +141,8 @@
   },
   "order": [
     "main",
-    "rich_text_8VYfMC",
     "05495cf6-6b05-4043-9f7a-341ae95be296",
+    "multicolumn_6866W7",
     "e03a7d26-1065-4812-8cb5-774b156b2488",
     "contact_form_CHCUUW"
   ]

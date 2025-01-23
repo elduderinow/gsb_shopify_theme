@@ -36,18 +36,6 @@
 {% endif %}
 {% endunless %}
 
-{% assign easylockdownSchedulePeriodON = false %}
-{% if easylockdownNow > 1718265600 and easylockdownNow < 1718402340 %}{% assign easylockdownSchedulePeriodON = true %}{% endif %}
-{% if easylockdownSchedulePeriodON %}
-{% unless customer %}
-{% assign easylockdownHidePrice = true %}
-{% else %}
-{% unless customer.total_spent > 100000000000000 %}
-{% assign easylockdownHidePrice = true %}
-{% endunless %}
-{% endunless %}
-{% endif %}
-
 {% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' %}
 {% assign easylockdownLockedContent = false %}
 {% assign easylockdownHiddenContent = false %}

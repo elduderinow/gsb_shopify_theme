@@ -1,15 +1,15 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/glo.svg",
+    "logo": "shopify://shop_images/glo.svg",
     "logo_width": 80,
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#727272",
@@ -117,8 +117,8 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
-    "social_facebook_link": "https:\/\/www.facebook.com\/gloskinbeautybenelux\/",
-    "social_instagram_link": "https:\/\/www.instagram.com\/gloskinbeauty_benelux\/",
+    "social_facebook_link": "https://www.facebook.com/gloskinbeautybenelux/",
+    "social_instagram_link": "https://www.instagram.com/gloskinbeauty_benelux/",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
@@ -148,9 +148,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": []
   },
   "presets": {
     "Default": {

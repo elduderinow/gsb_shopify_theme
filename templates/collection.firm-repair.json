@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -22,7 +31,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Om de huid te verstevigen en te liften stimuleert ons assortiment professionele anti-aging huidverzorgingsproducten de celvernieuwing, verbetert het hydratatieniveau en biedt het preventieve verouderingsoplossingen.<\/p>",
+            "text": "<p>Om de huid te verstevigen en te liften stimuleert ons assortiment professionele anti-aging huidverzorgingsproducten de celvernieuwing, verbetert het hydratatieniveau en biedt het preventieve verouderingsoplossingen.</p>",
             "text_style": "body"
           }
         },
@@ -40,7 +49,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/bio-renew-egf-cream-stylized.webp",
+        "image": "shopify://shop_images/WhatsApp_Image_2025-01-20_at_15.29.50_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -79,7 +88,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"readmore\"\/>",
+        "custom_liquid": "<div id=\"readmore\"/>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -99,7 +108,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.<\/p>"
+            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.</p>"
           }
         },
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1": {
@@ -137,7 +146,7 @@
           "disabled": true,
           "settings": {
             "title": "",
-            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
+            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!</p>",
             "link_label": "",
             "link": ""
           }
@@ -146,7 +155,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Fijne lijntjes en rimpels, weg ermee! Met de juiste antiverouderingsformule wordt deze droom werkelijkheid. Maak je klaar om de gevolgen van het ouder worden te bestrijden en geef je huid de verzorging die ze nodig heeft. De holistische antiverouderingsproducten van glo Skin Beauty zorgen ervoor dat je je op je best voelt en er op je best uitziet. Ontdek hoe ze werken, ontdek enkele van onze geheimen en meer in onze bronnen hieronder.<\/p>",
+            "text": "<p>Fijne lijntjes en rimpels, weg ermee! Met de juiste antiverouderingsformule wordt deze droom werkelijkheid. Maak je klaar om de gevolgen van het ouder worden te bestrijden en geef je huid de verzorging die ze nodig heeft. De holistische antiverouderingsproducten van glo Skin Beauty zorgen ervoor dat je je op je best voelt en er op je best uitziet. Ontdek hoe ze werken, ontdek enkele van onze geheimen en meer in onze bronnen hieronder.</p>",
             "link_label": "",
             "link": ""
           }
@@ -156,7 +165,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -213,7 +222,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Bij anti-aging huidverzorging draait alles om celvernieuwing, het stimuleren van de collageen- en elastineproductie, het gladstrijken van de huidtextuur en het verminderen van fijne lijntjes en rimpels. Het gaat ook om het verbeteren van de soepelheid, stevigheid, volheid en algehele vitaliteit met herstellende ingrediënten. Preventie is de beste antiverouderingsmethode, dus een goede, dagelijkse zonverzorging beschermt je huid tegen de schadelijke zonnestralen die vroegtijdige veroudering veroorzaken, zoals fijne lijntjes, hyperpigmentatie en andere schade door vrije radicalen die een blijvende impact kunnen hebben op de jeugdigheid van je huid. Andere preventieve anti-verouderingsoplossingen zijn vitamine C en andere antioxidanten die de huid beschermen tegen negatieve milieu-invloeden zoals vervuiling en schade door blauw licht. <\/p>",
+            "text": "<p>Bij anti-aging huidverzorging draait alles om celvernieuwing, het stimuleren van de collageen- en elastineproductie, het gladstrijken van de huidtextuur en het verminderen van fijne lijntjes en rimpels. Het gaat ook om het verbeteren van de soepelheid, stevigheid, volheid en algehele vitaliteit met herstellende ingrediënten. Preventie is de beste antiverouderingsmethode, dus een goede, dagelijkse zonverzorging beschermt je huid tegen de schadelijke zonnestralen die vroegtijdige veroudering veroorzaken, zoals fijne lijntjes, hyperpigmentatie en andere schade door vrije radicalen die een blijvende impact kunnen hebben op de jeugdigheid van je huid. Andere preventieve anti-verouderingsoplossingen zijn vitamine C en andere antioxidanten die de huid beschermen tegen negatieve milieu-invloeden zoals vervuiling en schade door blauw licht. </p>",
             "link_label": "",
             "link": ""
           }
@@ -222,7 +231,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Om je antiverouderingsbehandeling een boost te geven, wil je een antiverouderingsserum toevoegen dat regeneratieve en herstellende ingrediënten bevat zoals vegan epidermale groeifactor (EGF), waarvan klinisch is bewezen dat het de textuur van de huid herstelt en de gladheid verbetert, fijne lijntjes en rimpels vermindert en de collageenproductie stimuleert. oogserums zijn geweldige antiverouderingscrèmes voor de ogen, die helpen kraaienpootjes en fijne lijntjes rond de ogen te verminderen en donkere kringen te verdoezelen. Investeren in een goede vochtinbrengende crème tegen huidveroudering is ook belangrijk om de huid van vitale hydratatie te voorzien.<\/p>",
+            "text": "<p>Om je antiverouderingsbehandeling een boost te geven, wil je een antiverouderingsserum toevoegen dat regeneratieve en herstellende ingrediënten bevat zoals vegan epidermale groeifactor (EGF), waarvan klinisch is bewezen dat het de textuur van de huid herstelt en de gladheid verbetert, fijne lijntjes en rimpels vermindert en de collageenproductie stimuleert. oogserums zijn geweldige antiverouderingscrèmes voor de ogen, die helpen kraaienpootjes en fijne lijntjes rond de ogen te verminderen en donkere kringen te verdoezelen. Investeren in een goede vochtinbrengende crème tegen huidveroudering is ook belangrijk om de huid van vitale hydratatie te voorzien.</p>",
             "link_label": "",
             "link": ""
           }

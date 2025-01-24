@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -22,7 +31,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Heb je last van een vette huid, verstopte poriën, glans, mee-eters of puistjes? Breng balans, zuivering en verduidelijking met onze gerichte selectie van olievrije huidverzorgingsproducten voor een vette huid.<\/p>",
+            "text": "<p>Heb je last van een vette huid, verstopte poriën, glans, mee-eters of puistjes? Breng balans, zuivering en verduidelijking met onze gerichte selectie van olievrije huidverzorgingsproducten voor een vette huid.</p>",
             "text_style": "body"
           }
         },
@@ -40,7 +49,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/featured_header_Desktop-_oily-skin.webp",
+        "image": "shopify://shop_images/Copy_of_GSB-AcneCollection-IntlCollection-0324_4b5daf04-77a3-442b-a166-a4b592df042a.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -79,7 +88,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"readmore\"\/>",
+        "custom_liquid": "<div id=\"readmore\"/>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -99,7 +108,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.<\/p>"
+            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.</p>"
           }
         },
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1": {
@@ -137,7 +146,7 @@
           "disabled": true,
           "settings": {
             "title": "",
-            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
+            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!</p>",
             "link_label": "",
             "link": ""
           }
@@ -146,7 +155,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Op zoek naar tips en technieken om een vette huid te behandelen? Van overtollig talg tot vergrote poriën, mee-eters en puistjes, krijg deskundig advies over hoe je een vette huid in balans kunt brengen, welke ingrediënten je moet zoeken, huid-detoxes, wanneer je je producten moet gebruiken, en hoe je verdere onzuiverheden kunt voorkomen.<\/p>",
+            "text": "<p>Op zoek naar tips en technieken om een vette huid te behandelen? Van overtollig talg tot vergrote poriën, mee-eters en puistjes, krijg deskundig advies over hoe je een vette huid in balans kunt brengen, welke ingrediënten je moet zoeken, huid-detoxes, wanneer je je producten moet gebruiken, en hoe je verdere onzuiverheden kunt voorkomen.</p>",
             "link_label": "",
             "link": ""
           }
@@ -156,7 +165,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -193,7 +202,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/11912483-5585074456512585.webp",
+            "image": "shopify://shop_images/11912483-5585074456512585.webp",
             "title": "",
             "text": "",
             "link_label": "",
@@ -205,7 +214,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/12902500-4845077041524094.webp",
+            "image": "shopify://shop_images/12902500-4845077041524094.webp",
             "title": "",
             "text": "",
             "link_label": "",
@@ -256,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Huidverzorging voor een vette huid draait allemaal om balans, het zuiveren van gifstoffen en vuil, terwijl ook het verhelderen en ontgiften om puistjes, mee-eters, witte kopjes en andere acne of onzuiverheden te verminderen en te voorkomen. Salicylzuur, een BHA (beta hydroxy zuur), is het favoriete ingrediënt in de meeste huidverzorgingsproducten voor een vette huid vanwege de antibacteriële en acne-bestrijdende eigenschappen. Het kan een beetje uitdrogend zijn als het niet wordt gecombineerd met hydrators, dus hyaluronzuur is goed voor een vette huid, omdat het vochtverlies aanvult, de huidbarrière versterkt en zorgt voor een vollere huid. Voeg dit toe in een serum of moisturizer voor een kalmerend en hydraterend effect. Houtskool en kaolienklei zijn geweldig voor een detox van de huid, ze zuiveren en exfoliëren, terwijl niacinamide essentieel is om de poriën schoon te maken en hun uiterlijk te verkleinen, evenals fijne lijntjes en rimpels.<\/p>",
+            "text": "<p>Huidverzorging voor een vette huid draait allemaal om balans, het zuiveren van gifstoffen en vuil, terwijl ook het verhelderen en ontgiften om puistjes, mee-eters, witte kopjes en andere acne of onzuiverheden te verminderen en te voorkomen. Salicylzuur, een BHA (beta hydroxy zuur), is het favoriete ingrediënt in de meeste huidverzorgingsproducten voor een vette huid vanwege de antibacteriële en acne-bestrijdende eigenschappen. Het kan een beetje uitdrogend zijn als het niet wordt gecombineerd met hydrators, dus hyaluronzuur is goed voor een vette huid, omdat het vochtverlies aanvult, de huidbarrière versterkt en zorgt voor een vollere huid. Voeg dit toe in een serum of moisturizer voor een kalmerend en hydraterend effect. Houtskool en kaolienklei zijn geweldig voor een detox van de huid, ze zuiveren en exfoliëren, terwijl niacinamide essentieel is om de poriën schoon te maken en hun uiterlijk te verkleinen, evenals fijne lijntjes en rimpels.</p>",
             "link_label": "",
             "link": ""
           }
@@ -265,7 +274,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Voor je dagelijkse huidverzorgingsroutine voor een vette huid, is het essentieel om te beginnen en eindigen met een goede reiniging die overtollig vuil, toxines, vervuiling of vrije radicalen verwijdert die kunnen leiden tot acne. Gebruik vervolgens een gladmakend, balancerend serum en een olievrije moisturizer. Zonnebescherming is van vitaal belang voor elke huidtype en teint, dus kies voor olievrije, fysieke zonnefilters met zinkoxide of titaniumdioxide, omdat deze een krachtige bescherming tegen de zon bieden zonder de poriën te blokkeren of puistjes te veroorzaken.<\/p>",
+            "text": "<p>Voor je dagelijkse huidverzorgingsroutine voor een vette huid, is het essentieel om te beginnen en eindigen met een goede reiniging die overtollig vuil, toxines, vervuiling of vrije radicalen verwijdert die kunnen leiden tot acne. Gebruik vervolgens een gladmakend, balancerend serum en een olievrije moisturizer. Zonnebescherming is van vitaal belang voor elke huidtype en teint, dus kies voor olievrije, fysieke zonnefilters met zinkoxide of titaniumdioxide, omdat deze een krachtige bescherming tegen de zon bieden zonder de poriën te blokkeren of puistjes te veroorzaken.</p>",
             "link_label": "",
             "link": ""
           }
@@ -303,7 +312,7 @@
           "settings": {
             "heading": "WAT DOEN GEZICHTSREINIGERS?",
             "icon": "heart",
-            "row_content": "<p>\"Gezichtsreinigers verfrissen uw teint en spoelen vuil, make-up, dode huidcellen, overtollige olie en verontreinigende stoffen weg zonder uw huid uit te drogen. Gezichtsreinigers bieden een schone basis voor alle producten die daarna worden aangebracht, en ze moeten 's ochtends en 's avonds worden gebruikt,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
+            "row_content": "<p>\"Gezichtsreinigers verfrissen uw teint en spoelen vuil, make-up, dode huidcellen, overtollige olie en verontreinigende stoffen weg zonder uw huid uit te drogen. Gezichtsreinigers bieden een schone basis voor alle producten die daarna worden aangebracht, en ze moeten 's ochtends en 's avonds worden gebruikt,\" zegt Steph Scalet, Global Aesthetics Lead.</p>",
             "page": ""
           }
         },
@@ -312,7 +321,7 @@
           "settings": {
             "heading": "IS GEZICHTSWASSEN EEN REINIGER?",
             "icon": "check_mark",
-            "row_content": "<p>\"Ja, gezichtswassen is hetzelfde als een huidreiniger. Er zijn verschillende soorten huidreinigers, zoals: gel, melk, crème of poeder. Een evenwichtige reiniger of gezichtswas zal uw huid schoon en verfrist achterlaten zonder irritatie,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
+            "row_content": "<p>\"Ja, gezichtswassen is hetzelfde als een huidreiniger. Er zijn verschillende soorten huidreinigers, zoals: gel, melk, crème of poeder. Een evenwichtige reiniger of gezichtswas zal uw huid schoon en verfrist achterlaten zonder irritatie,\" zegt Steph Scalet, Global Aesthetics Lead.</p>",
             "page": ""
           }
         },
@@ -321,7 +330,7 @@
           "settings": {
             "heading": "HEB IK EEN REINIGER EN EEN GEZICHTSWAS NODIG?",
             "icon": "check_mark",
-            "row_content": "<p>\"Als u niet zeker weet wat een gezichtsreiniger is, denk er dan aan als een gezichtswas - het is in feite hetzelfde. Als u een favoriete reiniger of gezichtswas heeft, is dat alles wat u nodig heeft. Maar u kunt uw reiniging ook personaliseren, dus probeer bijvoorbeeld een gelreiniger in de ochtend en een crème reiniger 's nachts, of wissel reinigers af in de zomer en winter,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
+            "row_content": "<p>\"Als u niet zeker weet wat een gezichtsreiniger is, denk er dan aan als een gezichtswas - het is in feite hetzelfde. Als u een favoriete reiniger of gezichtswas heeft, is dat alles wat u nodig heeft. Maar u kunt uw reiniging ook personaliseren, dus probeer bijvoorbeeld een gelreiniger in de ochtend en een crème reiniger 's nachts, of wissel reinigers af in de zomer en winter,\" zegt Steph Scalet, Global Aesthetics Lead.</p>",
             "page": ""
           }
         },
@@ -330,7 +339,7 @@
           "settings": {
             "heading": "KAN IK EEN HYDRATERENDE REINIGER GEBRUIKEN VOOR EEN GECOMBINEERDE HUID?",
             "icon": "check_mark",
-            "row_content": "<p>\"Alle huidtypes kunnen baat hebben bij hydraterende reinigers. U kunt een gecombineerde huid hebben en toch gebrek hebben aan water of vocht, dus de beste reiniger voor een gecombineerde huid is een hydraterende reiniger die zachte exfoliatie biedt om overtollige olie in balans te brengen,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
+            "row_content": "<p>\"Alle huidtypes kunnen baat hebben bij hydraterende reinigers. U kunt een gecombineerde huid hebben en toch gebrek hebben aan water of vocht, dus de beste reiniger voor een gecombineerde huid is een hydraterende reiniger die zachte exfoliatie biedt om overtollige olie in balans te brengen,\" zegt Steph Scalet, Global Aesthetics Lead.</p>",
             "page": ""
           }
         },
@@ -339,7 +348,7 @@
           "settings": {
             "heading": "WELKE IS BETER, SCHUIM OF GEL REINIGER?",
             "icon": "check_mark",
-            "row_content": "<p>\"De beste huidreiniger voor de ene persoon kan verschillen van die voor een andere persoon. Als u wilt voeden en verzorgen tijdens het reinigen, zijn melk of crèmes een goede keuze. Gel- en schuimende reinigers kunnen een diepe reiniging bieden om de huid in balans te brengen en te revitaliseren,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
+            "row_content": "<p>\"De beste huidreiniger voor de ene persoon kan verschillen van die voor een andere persoon. Als u wilt voeden en verzorgen tijdens het reinigen, zijn melk of crèmes een goede keuze. Gel- en schuimende reinigers kunnen een diepe reiniging bieden om de huid in balans te brengen en te revitaliseren,\" zegt Steph Scalet, Global Aesthetics Lead.</p>",
             "page": ""
           }
         },
@@ -348,7 +357,7 @@
           "settings": {
             "heading": "WELK TYPE GEZICHTSREINIGER MOET IK GEBRUIKEN?",
             "icon": "check_mark",
-            "row_content": "<p>\"Het kiezen van een huidreiniger die bij u past, hangt af van wat u ermee wilt bereiken. Of het nu gaat om puistjes, het balanceren van olie, gevoeligheid, hydratatie, veroudering of hyperpigmentatie, kies een gerichte reiniger om uw huidproblemen te ondersteunen, en volg dit op met een vergelijkbaar huidverzorgingsritueel voor alle voordelen,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
+            "row_content": "<p>\"Het kiezen van een huidreiniger die bij u past, hangt af van wat u ermee wilt bereiken. Of het nu gaat om puistjes, het balanceren van olie, gevoeligheid, hydratatie, veroudering of hyperpigmentatie, kies een gerichte reiniger om uw huidproblemen te ondersteunen, en volg dit op met een vergelijkbaar huidverzorgingsritueel voor alle voordelen,\" zegt Steph Scalet, Global Aesthetics Lead.</p>",
             "page": ""
           }
         },
@@ -357,7 +366,7 @@
           "settings": {
             "heading": "WAARVOOR WORDT EEN GELREINIGER GEBRUIKT?",
             "icon": "check_mark",
-            "row_content": "<p>\"Gelgezichtsreinigers bieden een diepe reinigingswerking terwijl ze de huid verfrissen en in balans brengen. De meeste huidtypes kunnen baat hebben bij een gelreiniger, afhankelijk van het doel ervan. Sommige gel formules kunnen schuimen wanneer water wordt toegevoegd om de reiniging en balancerende ervaring te verbeteren,\" zegt Steph Scalet, Global Aesthetics Lead.<\/p>",
+            "row_content": "<p>\"Gelgezichtsreinigers bieden een diepe reinigingswerking terwijl ze de huid verfrissen en in balans brengen. De meeste huidtypes kunnen baat hebben bij een gelreiniger, afhankelijk van het doel ervan. Sommige gel formules kunnen schuimen wanneer water wordt toegevoegd om de reiniging en balancerende ervaring te verbeteren,\" zegt Steph Scalet, Global Aesthetics Lead.</p>",
             "page": ""
           }
         }

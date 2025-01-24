@@ -43,7 +43,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Deze webshop is exclusief toegankelijk voor aangesloten professionals. Neem gerust een kijkje op onze website om ons aanbod te ontdekken. </p>",
+            "text": "<p>Het aankopen van producten is uitsluitend mogelijk voor aangesloten professionals. Neem gerust een kijkje op onze website om ons aanbod te ontdekken.</p>",
             "link_label": "",
             "link": ""
           }
@@ -52,7 +52,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Vond je iets dat je leuk vindt? Gebruik dan de zoekfunctie om de dichtstbijzijnde schoonheidsspecialist te vinden.<br/><br/>Ben je een professional en wil je samenwerken met Glo? Neem contact op via <a href=\"mailto:tania@gloskinbeauty.be\" title=\"mailto:tania@gloskinbeauty.be\"><strong>tania@gloskinbeauty.be</strong></a> of vul het onderstaande formulier in.</p>",
+            "text": "<p>Vond je iets dat je leuk vindt? Gebruik dan de zoekfunctie om de dichtstbijzijnde professional te vinden.<br/><br/>Ben je een professional en wil je samenwerken met Glo? Neem contact op via <a href=\"mailto:tania@gloskinbeauty.be\" title=\"mailto:tania@gloskinbeauty.be\"><strong>tania@gloskinbeauty.be</strong></a> of vul het onderstaande formulier in.</p>",
             "link_label": "",
             "link": ""
           }
@@ -72,14 +72,69 @@
         "column_alignment": "left",
         "item_alignment": "center",
         "background_style": "none",
-        "button_label": "zoek een verkooppunt",
+        "button_label": "Zoek een verkooppunt",
         "button_link": "shopify://pages/store-locator",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_top": 80,
+        "padding_bottom": 80,
         "section_width": "boxed"
+      }
+    },
+    "rich_text_NdznhH": {
+      "type": "rich-text",
+      "blocks": {
+        "text_3XbXc6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ben je al aangesloten en heb je je ingelogd met een verkeerd account? <br/>Meld je dan af en log opnieuw in met het juiste account.</p>"
+          }
+        },
+        "button_34Mk3D": {
+          "type": "button",
+          "settings": {
+            "button_label": "Afmelden",
+            "button_link": "/customer_identity/logout",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_3XbXc6",
+        "button_34Mk3D"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "call_to_action_hdXfgc": {
+      "type": "call-to-action",
+      "blocks": {
+        "link_MpBcAT": {
+          "type": "link",
+          "settings": {
+            "linkurl": "/customer_identity/logout",
+            "linktext": "Logout"
+          }
+        }
+      },
+      "block_order": [
+        "link_MpBcAT"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "e03a7d26-1065-4812-8cb5-774b156b2488": {
@@ -164,32 +219,13 @@
         "padding_top": 36,
         "padding_bottom": 100
       }
-    },
-    "call_to_action_hdXfgc": {
-      "type": "call-to-action",
-      "blocks": {
-        "link_MpBcAT": {
-          "type": "link",
-          "settings": {
-            "linkurl": "/customer_identity/logout",
-            "linktext": "Logout"
-          }
-        }
-      },
-      "block_order": [
-        "link_MpBcAT"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
     "05495cf6-6b05-4043-9f7a-341ae95be296",
     "multicolumn_6866W7",
+    "rich_text_NdznhH",
     "call_to_action_hdXfgc",
     "e03a7d26-1065-4812-8cb5-774b156b2488",
     "contact_form_CHCUUW",

@@ -88,7 +88,7 @@ header.header {
                 .content-main {
                     overflow: scroll;
                     height: 100%;
-                    padding: 2rem 1rem;
+                    padding: 2rem 0;
                     display: flex;
                     flex-direction: column;
                     gap: 2rem;
@@ -273,7 +273,7 @@ header.header {
 
                     &.portal-main {
                         display: flex;
-                        padding: 2rem 1rem;
+                        padding: 2rem 0;
 
                         .portal-intro {
                             display: flex;

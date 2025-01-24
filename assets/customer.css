@@ -787,7 +787,7 @@ header.header .header__heading-link {
 .customer.account .content--wrapper .content--inner .content-main, .customer.order .content--wrapper .content--inner .content-main, .customer.addresses .content--wrapper .content--inner .content-main, .customer.portal .content--wrapper .content--inner .content-main {
   overflow: scroll;
   height: 100%;
-  padding: 2rem 1rem;
+  padding: 2rem 0;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -952,7 +952,7 @@ header.header .header__heading-link {
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main, .customer.order .content--wrapper .content--inner .content-main.portal-main, .customer.addresses .content--wrapper .content--inner .content-main.portal-main, .customer.portal .content--wrapper .content--inner .content-main.portal-main {
   display: flex;
-  padding: 2rem 1rem;
+  padding: 2rem 0;
 }
 .customer.account .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.order .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.addresses .content--wrapper .content--inner .content-main.portal-main .portal-intro, .customer.portal .content--wrapper .content--inner .content-main.portal-main .portal-intro {
   display: flex;

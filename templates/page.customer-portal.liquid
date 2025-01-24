@@ -4,37 +4,18 @@
 
 <div class="customer portal section-{{ section.id }}-padding">
   <div class="grid grid-cols-12 h-full gap-0">
-    <div class="col-span-12 lg:col-span-3 xl:col-span-2">
-      {% render 'account-sidebar', active: 'portal' %}
-    </div>
-    <div class="col-span-12 lg:col-span-9 xl:col-span-10">
+    {% comment %}
+      <div class="col-span-12 lg:col-span-3 xl:col-span-2">
+        {% render 'account-sidebar', active: 'portal' %}
+      </div>
+    {% endcomment %}
+    <div class="col-span-12">
       <div class="content--wrapper">
         <div data-address class="content--inner">
           <div class="content-header">
-            <h2 class="content--title">Klanten</h2>
+            <h2 class="content--title">Klanten Portaal</h2>
           </div>
           <div class="content-main portal-main space-y-14">
-            <div class="portal-intro">
-              <div class="intro">
-                <h2>
-                  <span>Welkom in jouw klantenzone!</span> <br>
-                  <br>
-                  We werken momenteel hard om deze zone te voorzien van handige links en bestanden, zodat jij
-                  gemakkelijker toegang hebt tot alle benodigde informatie.
-                </h2>
-              </div>
-              <div class="feedback">
-                <h2>
-                  <span>Heb je vragen, suggesties of feedback?</span><br>
-                  <br>
-                  We horen graag van je! Jouw input helpt ons om de klantenzone nog beter te maken. Aarzel niet om
-                  contact met ons op te nemen via
-                  <a href="mailto:tania@gloskinbeauty.be">tania@gloskinbeauty.be</a>.<br>
-                  <br>
-                  We staan klaar om je te ondersteunen en te luisteren naar wat jij te zeggen hebt.
-                </h2>
-              </div>
-            </div>
             <div class="portal-item">
               <h2>Belangrijke mappen</h2>
               {% if linklists.dropbox != empty %}
@@ -55,12 +36,16 @@
 
             {% comment %}
               <div class="portal-item">
-                <h2>Handige Bestanden</h2>
+                <h2>Belangrijke mappen</h2>
                 {% if linklists.dropbox != empty %}
-                  <div class="dir-links">
+                  <div class="dir-links grid grid-cols-12 gap-y-10">
                     {% for item in linklists.dropbox.links %}
-                      <a target="_blank" class="dir--link" href="{{ item.url }}">
-                        {% render 'icon-file' %}
+                      <a
+                        target="_blank"
+                        class="dir--link col-span-6 sm:col-span-4 md:col-span-2 xl:col-span-2"
+                        href="{{ item.url }}"
+                      >
+                        {% render 'icon-directory' %}
                         <p>{{ item.title }}</p>
                       </a>
                     {% endfor %}

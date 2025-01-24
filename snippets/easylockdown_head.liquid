@@ -17,7 +17,7 @@
 {% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' %}
 {% assign easylockdownLockedContent = false %}
 {% assign easylockdownHiddenContent = false %}
-{% if canonical_url contains 'https://gloskinbeauty.be/pages/klanten-portaal' %}{% assign easylockdownLockedContent = true %}{% endif %}
+{% if template contains "page" and page %}{% if page.id == 134382551387 %}{% assign easylockdownLockedContent = true %}{% endif %}{% endif %}
 {% if easylockdownLockedContent %}
 {% unless customer %}
 {% assign easylockdownON = true %}
@@ -36,11 +36,11 @@
 {% endif %}
 {% endunless %}
 {% unless customer %}
-<script type='text/javascript'>easylockdown.hideLinks.push('*[href*="https://gloskinbeauty.be/pages/klanten-portaal"],*[href*="https%3A%2F%2Fgloskinbeauty.be%2Fpages%2Fklanten-portaal"]');</script>
+<script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/pages/klanten-portaal"]');</script>
 {% else %}
 {% assign easylockdownHideLinks = false %}{% unless elcTag1 %}{% assign easylockdownHideLinks = true %}{% endunless %}
 {% if easylockdownHideLinks %}
-<script type='text/javascript'>easylockdown.hideLinks.push('*[href*="https://gloskinbeauty.be/pages/klanten-portaal"],*[href*="https%3A%2F%2Fgloskinbeauty.be%2Fpages%2Fklanten-portaal"]');</script>
+<script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/pages/klanten-portaal"]');</script>
 {% endif %}
 {% endunless %}
 

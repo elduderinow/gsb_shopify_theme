@@ -35,6 +35,15 @@
 {% endunless %}
 {% endif %}
 {% endunless %}
+{% unless customer %}
+<script type='text/javascript'>easylockdown.hideLinks.push('*[href*="https://gloskinbeauty.be/pages/klanten-portaal"],*[href*="https%3A%2F%2Fgloskinbeauty.be%2Fpages%2Fklanten-portaal"]');</script>
+{% else %}
+{% assign easylockdownHideLinks = false %}{% unless elcTag1 %}{% assign easylockdownHideLinks = true %}{% endunless %}
+{% if easylockdownHideLinks %}
+<script type='text/javascript'>easylockdown.hideLinks.push('*[href*="https://gloskinbeauty.be/pages/klanten-portaal"],*[href*="https%3A%2F%2Fgloskinbeauty.be%2Fpages%2Fklanten-portaal"]');</script>
+{% endif %}
+{% endunless %}
+
 
 {% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' %}
 {% assign easylockdownLockedContent = false %}

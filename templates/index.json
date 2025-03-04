@@ -12,6 +12,23 @@
     "a9132cbf-2ea9-4bb0-96e9-1e58e1371a27": {
       "type": "slideshow",
       "blocks": {
+        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Copy_of_GSB_LipRevival-2_1124-min.png",
+            "heading": "Coming soon...",
+            "heading_size": "h2",
+            "color_option_id": "#ffffff",
+            "subheading": "",
+            "subheading_size": "h5",
+            "button_label": "Zoek een Professional",
+            "link": "shopify://pages/store-locator",
+            "box_align": "bottom-left",
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "text_alignment_mobile": "center"
+          }
+        },
         "9eaf1a1a-60b6-45da-b983-20c7c7f5d573": {
           "type": "slide",
           "settings": {
@@ -33,7 +50,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Copy_of_GSB_EGFLaunch25-Bio-RenewEGFEyeCream_Bio-RenewEGFNeckCream_0924-min_1.jpg",
-            "heading": "New Bio-Renew EGF Eye Cream & Bio-Renew EGF Neck Cream",
+            "heading": "New! Bio-Renew EGF Eye & Neck Cream",
             "heading_size": "h2",
             "color_option_id": "#ffffff",
             "subheading": "",
@@ -45,29 +62,12 @@
             "image_overlay_opacity": 0,
             "text_alignment_mobile": "center"
           }
-        },
-        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Lip_launches_landscape.jpg",
-            "heading": "Satin Lipstick & Conditioning Lipgloss",
-            "heading_size": "h2",
-            "color_option_id": "#ffffff",
-            "subheading": "",
-            "subheading_size": "h5",
-            "button_label": "Zoek een Professional",
-            "link": "shopify://pages/store-locator",
-            "box_align": "bottom-left",
-            "text_alignment": "left",
-            "image_overlay_opacity": 10,
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0",
         "9eaf1a1a-60b6-45da-b983-20c7c7f5d573",
-        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1",
-        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0"
+        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1"
       ],
       "settings": {
         "layout": "full_bleed",

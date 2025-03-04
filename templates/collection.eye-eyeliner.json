@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -22,7 +31,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Geen kromme lijnen hier, alleen een strakke, gedefinieerde, precieze en langhoudende eyeliner. Van gedurfde vloeibare eyeliners tot potlood eyeliners, ontdek onze minerale eyeliners.<\/p>",
+            "text": "<p>Geen kromme lijnen hier, alleen een strakke, gedefinieerde, precieze en langhoudende eyeliner. Van gedurfde vloeibare eyeliners tot potlood eyeliners, ontdek onze minerale eyeliners.</p>",
             "text_style": "body"
           }
         },
@@ -40,7 +49,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Eyeliner_Desktop.jpg",
+        "image": "shopify://shop_images/GSB-PrecisionLiquidEyeliner-1124.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -79,7 +88,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"readmore\"\/>",
+        "custom_liquid": "<div id=\"readmore\"/>",
         "color_scheme": "background-1",
         "padding_top": 76,
         "padding_bottom": 0
@@ -99,7 +108,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.<\/p>"
+            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.</p>"
           }
         },
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1": {
@@ -137,7 +146,7 @@
           "disabled": true,
           "settings": {
             "title": "",
-            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
+            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!</p>",
             "link_label": "",
             "link": ""
           }
@@ -146,7 +155,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Of je nu op zoek bent naar de nieuwste oogmake-up trends, technieken wilt uitproberen of een ander effect wilt proberen, wat je doel ook is met eyeliner, onze professionals delen hun beste tips en technieken met potlood-, vloeibare en crème-eyeliner.<\/p>",
+            "text": "<p>Of je nu op zoek bent naar de nieuwste oogmake-up trends, technieken wilt uitproberen of een ander effect wilt proberen, wat je doel ook is met eyeliner, onze professionals delen hun beste tips en technieken met potlood-, vloeibare en crème-eyeliner.</p>",
             "link_label": "",
             "link": ""
           }
@@ -156,7 +165,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -193,7 +202,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Eyeliner_Desktop_552b3488-6f39-4ba4-8ca2-90951fa2bc99.jpg",
+            "image": "shopify://shop_images/Eyeliner_Desktop_552b3488-6f39-4ba4-8ca2-90951fa2bc99.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -205,7 +214,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/191306202_1465685043769588_1868010191300734217_n.jpg",
+            "image": "shopify://shop_images/191306202_1465685043769588_1868010191300734217_n.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -256,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Verbeter je eyeliner vaardigheden met onze selectie van hypoallergene minerale eyeliners om je look te accentueren, te versterken en te laten opvallen. <br\/><br\/>Of je nu gaat voor een cat-eye, winged-eye, smokey lined-eye of een natuurlijke eyeliner look, we hebben een langhoudende eyeliner die bij je past. <br\/><br\/>Voor het creëren van een super precieze lijn kun je het beste gebruik maken van vloeibare eyeliner. Het kan wat oefening vergen om alle verschillende effecten onder de knie te krijgen, dus speel met verschillende hoeken van lijnen. Probeer ook verschillende diktes van je eyeliner voor een statement of subtieler effect.<\/p>",
+            "text": "<p>Verbeter je eyeliner vaardigheden met onze selectie van hypoallergene minerale eyeliners om je look te accentueren, te versterken en te laten opvallen. <br/><br/>Of je nu gaat voor een cat-eye, winged-eye, smokey lined-eye of een natuurlijke eyeliner look, we hebben een langhoudende eyeliner die bij je past. <br/><br/>Voor het creëren van een super precieze lijn kun je het beste gebruik maken van vloeibare eyeliner. Het kan wat oefening vergen om alle verschillende effecten onder de knie te krijgen, dus speel met verschillende hoeken van lijnen. Probeer ook verschillende diktes van je eyeliner voor een statement of subtieler effect.</p>",
             "link_label": "",
             "link": ""
           }
@@ -265,7 +274,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Minerale eyeliner potloden bieden ook definitie, maar met een zachtere, blendbare optie dankzij hun textuur. Ze zijn verkrijgbaar in verschillende kleuren, zodat je kunt mixen en matchen om zoveel tinten of kleuraccenten te creëren als je wilt. <br\/><br\/>Ga voor een scherpe, precieze lijn met een puntig potlood, of ga voor een vervaagd en geblend effect met een botter potlood en een kwast. Met behulp van een kwast en een bijpassende oogschaduw kun je je eyeliner ook verlengen om een meer winged, gevormd oogschaduw liner effect te creëren. <br\/><br\/>En voor een meer veelzijdige look, probeer een oogschaduw liner te gebruiken om je eyeliner kleur naar buiten toe uit te vagen en te verlengen. Al onze minerale eyeliners zijn verrijkt met antioxidanten, schoon, talcavrij en geschikt voor de gevoelige huid.<\/p>",
+            "text": "<p>Minerale eyeliner potloden bieden ook definitie, maar met een zachtere, blendbare optie dankzij hun textuur. Ze zijn verkrijgbaar in verschillende kleuren, zodat je kunt mixen en matchen om zoveel tinten of kleuraccenten te creëren als je wilt. <br/><br/>Ga voor een scherpe, precieze lijn met een puntig potlood, of ga voor een vervaagd en geblend effect met een botter potlood en een kwast. Met behulp van een kwast en een bijpassende oogschaduw kun je je eyeliner ook verlengen om een meer winged, gevormd oogschaduw liner effect te creëren. <br/><br/>En voor een meer veelzijdige look, probeer een oogschaduw liner te gebruiken om je eyeliner kleur naar buiten toe uit te vagen en te verlengen. Al onze minerale eyeliners zijn verrijkt met antioxidanten, schoon, talcavrij en geschikt voor de gevoelige huid.</p>",
             "link_label": "",
             "link": ""
           }

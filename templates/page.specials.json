@@ -29,6 +29,24 @@
     "f6b56644-2574-4e00-8752-bd14ce7b7e25": {
       "type": "highlight",
       "blocks": {
+        "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify://shop_images/GSB-CreamStayShadowStick_LunaWickerCanvas_1124_2a18968f-27e3-4838-ba94-d97f8c8fd19d.jpg",
+            "image_title": "Nieuwe kleuren Cream Stay Shadow Sticks - Canvas, Luna & Wicker",
+            "image_subtitle": "Meer info",
+            "highlight_url": "shopify://collections/eye-eye-shadow"
+          }
+        },
+        "19d36a42-b3ad-400c-a700-19a089c1648f": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify://shop_images/Copy_of_GSB_LipRevival-2_1124-min.png",
+            "image_title": "Lip Revival",
+            "image_subtitle": "Meer info",
+            "highlight_url": "shopify://collections/hydrate-restore"
+          }
+        },
         "caafd9d2-7a97-44ba-bff8-b9e226b70128": {
           "type": "highlight",
           "settings": {
@@ -46,31 +64,13 @@
             "image_subtitle": "Meer info",
             "highlight_url": "shopify://collections/firm-repair"
           }
-        },
-        "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify://shop_images/Lip_Launches_portrait.jpg",
-            "image_title": "Conditioning Lipgloss",
-            "image_subtitle": "Meer info",
-            "highlight_url": "shopify://collections/gloss"
-          }
-        },
-        "19d36a42-b3ad-400c-a700-19a089c1648f": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify://shop_images/Lipstick_launch.jpg",
-            "image_title": "Satin Lipstick",
-            "image_subtitle": "Meer info",
-            "highlight_url": "shopify://collections/lip-lipstick"
-          }
         }
       },
       "block_order": [
-        "caafd9d2-7a97-44ba-bff8-b9e226b70128",
-        "0bf05740-800b-4b9b-894b-61d5ce06cc68",
         "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7",
-        "19d36a42-b3ad-400c-a700-19a089c1648f"
+        "19d36a42-b3ad-400c-a700-19a089c1648f",
+        "caafd9d2-7a97-44ba-bff8-b9e226b70128",
+        "0bf05740-800b-4b9b-894b-61d5ce06cc68"
       ],
       "settings": {
         "title": "Lanceringen",

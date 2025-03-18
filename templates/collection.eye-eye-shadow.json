@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -22,7 +31,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Kies je voor smokey eyes, een naturelle of meer intense look. Wat je ook wilt met je oogmake-up, onze minerale oogschaduwen zijn gemakkelijk en moeiteloos te blenden voor een stralende look.<\/p>",
+            "text": "<p>Kies je voor smokey eyes, een naturelle of meer intense look. Wat je ook wilt met je oogmake-up, onze minerale oogschaduwen zijn gemakkelijk en moeiteloos te blenden voor een stralende look.</p>",
             "text_style": "body"
           }
         },
@@ -40,7 +49,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/EyeShadow_Desktop_4e8b3ad7-5331-4ca1-9b60-24cee13ebb63.jpg",
+        "image": "shopify://shop_images/CreamStayShadowStick_FullShadeRange_1124.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -79,7 +88,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"readmore\"\/>",
+        "custom_liquid": "<div id=\"readmore\"/>",
         "color_scheme": "background-1",
         "padding_top": 80,
         "padding_bottom": 0
@@ -99,7 +108,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.<\/p>"
+            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.</p>"
           }
         },
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1": {
@@ -137,7 +146,7 @@
           "disabled": true,
           "settings": {
             "title": "",
-            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
+            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!</p>",
             "link_label": "",
             "link": ""
           }
@@ -146,7 +155,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Smoke eyes, nude tinten of een eerder een opvallende look,  wat je stemming ook is, onze reeks minerale oogschaduwen heeft verschillende  texturen en tinten die voor iedereen geschikt zijn. <\/p>",
+            "text": "<p>Smoke eyes, nude tinten of een eerder een opvallende look,  wat je stemming ook is, onze reeks minerale oogschaduwen heeft verschillende  texturen en tinten die voor iedereen geschikt zijn. </p>",
             "link_label": "",
             "link": ""
           }
@@ -156,7 +165,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -193,7 +202,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/gloskinbeauty_336258587_179041108225626_1069355747192509780_n.jpg",
+            "image": "shopify://shop_images/gloskinbeauty_336258587_179041108225626_1069355747192509780_n.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -205,7 +214,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/unknown_312977233_630088488859235_3588675091202595617_n.jpg",
+            "image": "shopify://shop_images/unknown_312977233_630088488859235_3588675091202595617_n.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -256,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Of je nu kiest voor natuurlijke en nude tinten oogschaduw of meer opvallende kleuren, onze talkvrije minerale oogschaduwen bieden rijke pigmenttinten, zodat je jouw perfecte look kunt opbouwen en blenden. <br\/><br\/>Al onze minerale oogschaduwen zijn verrijkt met huidverzorgende ingrediënten, waaronder vitamines A, C en E, om te helpen voeden terwijl ze kleur toevoegen. <br\/><br\/>Maak onze Cream Stay Oogschaduwsticks jouw favoriet, want ze zijn de ultieme multitaskers, ze bieden een basis, schaduw en eyeliner, allemaal in één romige, moeiteloze formule in een scala aan prachtige tinten.<br\/><br\/>Als je op zoek bent naar minerale poeder-oogschaduw, dan komen onze oogschaduw potjes, samengestelde sets en paletten in fluweelzachte naakttinten, glinsterende tinten, matte tinten en metallics. <br\/><br\/><\/p>",
+            "text": "<p>Of je nu kiest voor natuurlijke en nude tinten oogschaduw of meer opvallende kleuren, onze talkvrije minerale oogschaduwen bieden rijke pigmenttinten, zodat je jouw perfecte look kunt opbouwen en blenden. <br/><br/>Al onze minerale oogschaduwen zijn verrijkt met huidverzorgende ingrediënten, waaronder vitamines A, C en E, om te helpen voeden terwijl ze kleur toevoegen. <br/><br/>Maak onze Cream Stay Oogschaduwsticks jouw favoriet, want ze zijn de ultieme multitaskers, ze bieden een basis, schaduw en eyeliner, allemaal in één romige, moeiteloze formule in een scala aan prachtige tinten.<br/><br/>Als je op zoek bent naar minerale poeder-oogschaduw, dan komen onze oogschaduw potjes, samengestelde sets en paletten in fluweelzachte naakttinten, glinsterende tinten, matte tinten en metallics. <br/><br/></p>",
             "link_label": "",
             "link": ""
           }
@@ -265,7 +274,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Langhoudende, kreukvrije formules, gemakkelijk te vervagen, blenden en op te bouwen, je kunt eenvoudig tinten op elkaar leggen om eindeloze effecten te creëren en highlights en diepte toe te voegen. <br\/><br\/>Beheers de nieuwste oogmake-up trends en klassiekers zoals smokey eyes, winged eyeliner en ombre-effecten voor veelzijdig oogschaduwspel met meerdere dimensies. <br\/><br\/>En omdat we gericht zijn op het verbeteren van je natuurlijke kenmerken, bieden we een verhoogde mix van natuurlijke, neutrale en naakttinten oogschaduwen voor dat subtiele genuanceerde effect. Combineer je professionele oogschaduw ook met onze make-upkwasten van professioneel niveau om die precisie en applicatietechniek perfect onder de knie te krijgen.<\/p>",
+            "text": "<p>Langhoudende, kreukvrije formules, gemakkelijk te vervagen, blenden en op te bouwen, je kunt eenvoudig tinten op elkaar leggen om eindeloze effecten te creëren en highlights en diepte toe te voegen. <br/><br/>Beheers de nieuwste oogmake-up trends en klassiekers zoals smokey eyes, winged eyeliner en ombre-effecten voor veelzijdig oogschaduwspel met meerdere dimensies. <br/><br/>En omdat we gericht zijn op het verbeteren van je natuurlijke kenmerken, bieden we een verhoogde mix van natuurlijke, neutrale en naakttinten oogschaduwen voor dat subtiele genuanceerde effect. Combineer je professionele oogschaduw ook met onze make-upkwasten van professioneel niveau om die precisie en applicatietechniek perfect onder de knie te krijgen.</p>",
             "link_label": "",
             "link": ""
           }
@@ -303,7 +312,7 @@
           "settings": {
             "heading": "WAT BETEKENT NEUTRALE OOGSCHADUW?",
             "icon": "heart",
-            "row_content": "<p>\"Neutrale of nude tinten oogschaduwen hebben subtiele kleuren en zorgen voor een natuurlijke oogopslag. Ze kunnen ook aardse, organische tinten bevatten en zijn perfect om een subtieler effect te creëren,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
+            "row_content": "<p>\"Neutrale of nude tinten oogschaduwen hebben subtiele kleuren en zorgen voor een natuurlijke oogopslag. Ze kunnen ook aardse, organische tinten bevatten en zijn perfect om een subtieler effect te creëren,\" zegt Janeena Rumsey, Global Artistry Lead.</p>",
             "page": ""
           }
         },
@@ -312,7 +321,7 @@
           "settings": {
             "heading": "MOET DONKERE OF LICHTERE OOGSCHADUW EERST WORDEN AANGEBRACHT?",
             "icon": "check_mark",
-            "row_content": "<p>\"Als je een ooglook wilt opbouwen met een basis, overgang, plooi en highlight tinten, breng dan eerst de lichtere of nude tinten oogschaduw als basiskleur aan voordat je de donkerdere plooi tinten aanbrengt. Een highlight tint is over het algemeen de lichtste kleur en wordt meestal als laatste aangebracht voor dat opvallende effect,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
+            "row_content": "<p>\"Als je een ooglook wilt opbouwen met een basis, overgang, plooi en highlight tinten, breng dan eerst de lichtere of nude tinten oogschaduw als basiskleur aan voordat je de donkerdere plooi tinten aanbrengt. Een highlight tint is over het algemeen de lichtste kleur en wordt meestal als laatste aangebracht voor dat opvallende effect,\" zegt Janeena Rumsey, Global Artistry Lead.</p>",
             "page": ""
           }
         },
@@ -321,7 +330,7 @@
           "settings": {
             "heading": "WAT ZIJN GOEDE COMBINATIES VAN OOGSCHADUW?",
             "icon": "check_mark",
-            "row_content": "<p>\"Populaire oogschaduwcombinaties voor dagelijks gebruik zijn nude tinten, goud en bruin, crème en taupe, roze en champagne. Voor meer dramatische looks kun je navy en taupe, smaragd en warm bruin, of perzik en roségoud proberen,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
+            "row_content": "<p>\"Populaire oogschaduwcombinaties voor dagelijks gebruik zijn nude tinten, goud en bruin, crème en taupe, roze en champagne. Voor meer dramatische looks kun je navy en taupe, smaragd en warm bruin, of perzik en roségoud proberen,\" zegt Janeena Rumsey, Global Artistry Lead.</p>",
             "page": ""
           }
         },
@@ -330,7 +339,7 @@
           "settings": {
             "heading": "HOE KIES IK DE JUISTE KLEUR OOGSCHADUW?",
             "icon": "check_mark",
-            "row_content": "<p>\"Begin met basiskleuren die bij je oogkleur passen. Probeer oranje tinten, koper, warm bruin en grijs om blauwe ogen naar voren te brengen. Voor groene en hazelkleurige ogen: goud, brons en pruim. En voor bruine ogen: blauw, groen, paars, roze en goud,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
+            "row_content": "<p>\"Begin met basiskleuren die bij je oogkleur passen. Probeer oranje tinten, koper, warm bruin en grijs om blauwe ogen naar voren te brengen. Voor groene en hazelkleurige ogen: goud, brons en pruim. En voor bruine ogen: blauw, groen, paars, roze en goud,\" zegt Janeena Rumsey, Global Artistry Lead.</p>",
             "page": ""
           }
         },
@@ -339,7 +348,7 @@
           "settings": {
             "heading": "WAT IS POEDER-OOGSCHADUW?",
             "icon": "check_mark",
-            "row_content": "<p>\"Poeder-oogschaduw is een populaire keuze. Het is langhoudend en verkrijgbaar in verschillende kleuren, afwerkingen en tinten die gemakkelijk samen te blenden zijn. Het kan op zichzelf gedragen worden of bovenop crème- of vloeibare oogschaduw gebruikt worden,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
+            "row_content": "<p>\"Poeder-oogschaduw is een populaire keuze. Het is langhoudend en verkrijgbaar in verschillende kleuren, afwerkingen en tinten die gemakkelijk samen te blenden zijn. Het kan op zichzelf gedragen worden of bovenop crème- of vloeibare oogschaduw gebruikt worden,\" zegt Janeena Rumsey, Global Artistry Lead.</p>",
             "page": ""
           }
         },
@@ -348,7 +357,7 @@
           "settings": {
             "heading": "IS VLOEIBARE OF POEDER-OOGSCHADUW BETER?",
             "icon": "check_mark",
-            "row_content": "<p>\"Het hangt volledig af van persoonlijke voorkeur. Vloeibare oogschaduwen drogen snel en hebben laagjeskwaliteiten, waardoor je er supercreatief mee kunt werken. Poeder-oogschaduwen zijn verkrijgbaar in een breed scala aan kleuren en afwerkingen en worden aangebracht met je favoriete kwast,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
+            "row_content": "<p>\"Het hangt volledig af van persoonlijke voorkeur. Vloeibare oogschaduwen drogen snel en hebben laagjeskwaliteiten, waardoor je er supercreatief mee kunt werken. Poeder-oogschaduwen zijn verkrijgbaar in een breed scala aan kleuren en afwerkingen en worden aangebracht met je favoriete kwast,\" zegt Janeena Rumsey, Global Artistry Lead.</p>",
             "page": ""
           }
         },
@@ -357,7 +366,7 @@
           "settings": {
             "heading": "MOET OOGSCHADUW TOT AAN JE WENKBRAUW GAAN?",
             "icon": "check_mark",
-            "row_content": "<p>\"Als je een oogschaduwkit gebruikt, heb je basiskleuren, overgangskleuren, plooi-kleuren en highlight-tinten om mee te spelen. Je basiskleur en highlight zijn de meest voorkomende oogschaduwtinten die het wenkbrauwbot kunnen bereiken,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
+            "row_content": "<p>\"Als je een oogschaduwkit gebruikt, heb je basiskleuren, overgangskleuren, plooi-kleuren en highlight-tinten om mee te spelen. Je basiskleur en highlight zijn de meest voorkomende oogschaduwtinten die het wenkbrauwbot kunnen bereiken,\" zegt Janeena Rumsey, Global Artistry Lead.</p>",
             "page": ""
           }
         }

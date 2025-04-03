@@ -12,17 +12,17 @@
     "a9132cbf-2ea9-4bb0-96e9-1e58e1371a27": {
       "type": "slideshow",
       "blocks": {
-        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1": {
+        "9eaf1a1a-60b6-45da-b983-20c7c7f5d573": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/GSB-CreamStayShadowStick_LunaWickerCanvas_1124_2a18968f-27e3-4838-ba94-d97f8c8fd19d.jpg",
-            "heading": "Nieuwe tinten Cream Stay Shadow Sticks - Canvas, Luna & Wicker",
+            "image": "shopify://shop_images/Everyday_Effortless_Beauty_Kit_0125.jpg",
+            "heading": "Coming Soon...",
             "heading_size": "h2",
             "color_option_id": "#727272",
-            "subheading": "",
+            "subheading": "Limited Edition - Everyday Effortless Beauty Kit",
             "subheading_size": "h5",
             "button_label": "Zoek een Professional",
-            "link": "shopify://products/0000-6-petal-pairings-kits-2x3-stuks",
+            "link": "shopify://collections/face-prime",
             "box_align": "bottom-left",
             "text_alignment": "left",
             "image_overlay_opacity": 0,
@@ -33,10 +33,10 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Copy_of_GSB_LipRevival-2_1124-min.png",
-            "heading": "New - Lip Revival",
+            "heading": "Lip Revival",
             "heading_size": "h2",
             "color_option_id": "#f3f3f3",
-            "subheading": "",
+            "subheading": "New",
             "subheading_size": "h5",
             "button_label": "Zoek een Professional",
             "link": "shopify://pages/store-locator",
@@ -46,17 +46,17 @@
             "text_alignment_mobile": "center"
           }
         },
-        "9eaf1a1a-60b6-45da-b983-20c7c7f5d573": {
+        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/GSB-PrecisionLiquidEyeliner-1124.jpg",
-            "heading": "New - Precision Liquid Eyeliner Black & Dark Brown",
+            "image": "shopify://shop_images/GSB-CreamStayShadowStick_LunaWickerCanvas_1124_2a18968f-27e3-4838-ba94-d97f8c8fd19d.jpg",
+            "heading": "Cream Stay Shadow Sticks",
             "heading_size": "h2",
             "color_option_id": "#727272",
-            "subheading": "",
+            "subheading": "Nieuwe tinten - Canvas, Luna & Wicker",
             "subheading_size": "h5",
             "button_label": "Zoek een Professional",
-            "link": "shopify://collections/face-prime",
+            "link": "shopify://products/0000-6-petal-pairings-kits-2x3-stuks",
             "box_align": "bottom-left",
             "text_alignment": "left",
             "image_overlay_opacity": 0,
@@ -65,9 +65,9 @@
         }
       },
       "block_order": [
-        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1",
+        "9eaf1a1a-60b6-45da-b983-20c7c7f5d573",
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0",
-        "9eaf1a1a-60b6-45da-b983-20c7c7f5d573"
+        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1"
       ],
       "settings": {
         "layout": "full_bleed",

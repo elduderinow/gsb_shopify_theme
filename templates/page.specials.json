@@ -168,9 +168,9 @@
           "settings": {
             "image": "shopify://shop_images/EverydayEffortlessBeautyKit_noshadow.jpg",
             "title": "Everyday Effortless Beauty Kit",
-            "text": "<p>Coming soon..</p>",
+            "text": "<p>New</p>",
             "link_label": "Meer info",
-            "link": "shopify://collections/holiday-24",
+            "link": "shopify://collections/limited-edition-everyday-effortless-beauty-kit",
             "bg_color": "#000000",
             "bg_opacity": 30
           }

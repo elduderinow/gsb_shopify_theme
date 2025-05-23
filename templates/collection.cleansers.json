@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -22,7 +31,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Geef je reinigingsroutine een kick-start met ons assortiment reinigers, aangedreven door actieve plantaardige ingrediënten om te zuiveren, verfijnen, in balans te brengen, verhelderen en hydrateren.<\/p>",
+            "text": "<p>Geef je reinigingsroutine een kick-start met ons assortiment reinigers, aangedreven door actieve plantaardige ingrediënten om te zuiveren, verfijnen, in balans te brengen, verhelderen en hydrateren.</p>",
             "text_style": "body"
           }
         },
@@ -50,7 +59,7 @@
         "5874c7ee-9e1a-4cf8-bd89-5c11cb376c55"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/cleanser-guide-1.png",
+        "image": "shopify://shop_images/GloSkinBeauty_CleanserCollection_0223.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -89,7 +98,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"readmore\"\/>",
+        "custom_liquid": "<div id=\"readmore\"/>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -109,7 +118,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Wat voor huidprobleem je ook wilt<br\/>corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van<br\/>drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<br\/><\/p><p>Er is een reden waarom serums ons favoriete<br\/>huidverzorgingsproduct zijn! Lees in de onderstaande artikelen hoe onze drops<br\/>& serums een weldaad zijn voor jouw huid en jou die jeugdige gloed bezorgen.<\/p>"
+            "text": "<p>Wat voor huidprobleem je ook wilt<br/>corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van<br/>drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<br/></p><p>Er is een reden waarom serums ons favoriete<br/>huidverzorgingsproduct zijn! Lees in de onderstaande artikelen hoe onze drops<br/>& serums een weldaad zijn voor jouw huid en jou die jeugdige gloed bezorgen.</p>"
           }
         },
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1": {
@@ -147,7 +156,7 @@
           "disabled": true,
           "settings": {
             "title": "",
-            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
+            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!</p>",
             "link_label": "",
             "link": ""
           }
@@ -156,7 +165,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>De meest effectieve huidverzorgingsrituelen beginnen met een gerichte reiniger. Ontdek alle professionele tips en technieken over hoe jij het meeste uit jouw reiniger haalt, van het kiezen van een textuur die geschikt is voor jouw huidtype, tot de ingrediënten en actieve stoffen die het beste bij de behoeften van jouw huid passen.<\/p>",
+            "text": "<p>De meest effectieve huidverzorgingsrituelen beginnen met een gerichte reiniger. Ontdek alle professionele tips en technieken over hoe jij het meeste uit jouw reiniger haalt, van het kiezen van een textuur die geschikt is voor jouw huidtype, tot de ingrediënten en actieve stoffen die het beste bij de behoeften van jouw huid passen.</p>",
             "link_label": "",
             "link": ""
           }
@@ -166,7 +175,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -203,7 +212,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cleanser-guide-1.png",
+            "image": "shopify://shop_images/cleanser-guide-1.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -215,7 +224,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/11912476-3405077041869400.webp",
+            "image": "shopify://shop_images/11912476-3405077041869400.webp",
             "title": "",
             "text": "",
             "link_label": "",
@@ -266,7 +275,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Reinigen is de belangrijkste stap in je huidverzorgingsritueel, maar tegelijkertijd ook de meest vergeten stap. Je huid krijgt elke dag te maken met veel omgevingsstress, of het nu komt door make-up, vervuiling of algemene ophoping van vuil en gifstoffen. Je dagelijkse reiniger voor je gelaat reinigt en spoelt vuil, overtollige olie en dode huidcellen weg, waardoor je teint helderder en beter gehydrateerd oogt. <br\/><br\/>Voor de vette en gemengde huid helpen reinigers overtollig talg te verwijderen, zuiveren en balanceren ze en ondersteunen ze bij de behandeling van acne. Voor alle huidtypes, maar vooral voor de droge, vullen reinigers vitale hydratatie aan, reguleren ze de pH-waarde van de huid en versterken ze de huidbarrière om een gezond vochtniveau vast te houden.<\/p>",
+            "text": "<p>Reinigen is de belangrijkste stap in je huidverzorgingsritueel, maar tegelijkertijd ook de meest vergeten stap. Je huid krijgt elke dag te maken met veel omgevingsstress, of het nu komt door make-up, vervuiling of algemene ophoping van vuil en gifstoffen. Je dagelijkse reiniger voor je gelaat reinigt en spoelt vuil, overtollige olie en dode huidcellen weg, waardoor je teint helderder en beter gehydrateerd oogt. <br/><br/>Voor de vette en gemengde huid helpen reinigers overtollig talg te verwijderen, zuiveren en balanceren ze en ondersteunen ze bij de behandeling van acne. Voor alle huidtypes, maar vooral voor de droge, vullen reinigers vitale hydratatie aan, reguleren ze de pH-waarde van de huid en versterken ze de huidbarrière om een gezond vochtniveau vast te houden.</p>",
             "link_label": "",
             "link": ""
           }
@@ -275,7 +284,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Tweemaal daags reinigen is essentieel voor een optimale gezondheid van de huid. Je reiniging 's ochtends verwijdert alle productresten van je avondritueel, brengt overtollig talg in balans, revitaliseert je teint en bereidt haar voor op de producten voor overdag. Je gelaatsreiniging 's nachts is een van de beste handelingen die je kunt doen voor je huid, vooral voor anti-aging, omdat het alle vervuiling, make-up, restjes en vrije radicalen verwijdert die huidveroudering veroorzaken. <br\/><br\/>Het helpt je huid zich voor te bereiden op nachtelijk herstel met als resultaat een schone, heldere en verzorgde teint. Kies uit reinigingsproducten zoals schuimende, olie-, crème- of melkreinigers voor een perfect gezuiverde en voorbereidde huid, klaar voor je volgende huidverzorgingsstappen.<\/p>",
+            "text": "<p>Tweemaal daags reinigen is essentieel voor een optimale gezondheid van de huid. Je reiniging 's ochtends verwijdert alle productresten van je avondritueel, brengt overtollig talg in balans, revitaliseert je teint en bereidt haar voor op de producten voor overdag. Je gelaatsreiniging 's nachts is een van de beste handelingen die je kunt doen voor je huid, vooral voor anti-aging, omdat het alle vervuiling, make-up, restjes en vrije radicalen verwijdert die huidveroudering veroorzaken. <br/><br/>Het helpt je huid zich voor te bereiden op nachtelijk herstel met als resultaat een schone, heldere en verzorgde teint. Kies uit reinigingsproducten zoals schuimende, olie-, crème- of melkreinigers voor een perfect gezuiverde en voorbereidde huid, klaar voor je volgende huidverzorgingsstappen.</p>",
             "link_label": "",
             "link": ""
           }
@@ -313,7 +322,7 @@
           "settings": {
             "heading": "WAT DOEN REINIGERS?",
             "icon": "heart",
-            "row_content": "<p>Reinigers verfrissen jouw teint en spoelen vuil, make-up, dode huidcellen, overtollige olie en verontreinigende stoffen weg zonder de huid uit te drogen. Gelaatsreinigers bieden een schone basis voor alle producten die daarna worden aangebracht, bij voorkeur   's ochtends en 's avonds.<\/p>",
+            "row_content": "<p>Reinigers verfrissen jouw teint en spoelen vuil, make-up, dode huidcellen, overtollige olie en verontreinigende stoffen weg zonder de huid uit te drogen. Gelaatsreinigers bieden een schone basis voor alle producten die daarna worden aangebracht, bij voorkeur   's ochtends en 's avonds.</p>",
             "page": ""
           }
         },
@@ -322,7 +331,7 @@
           "settings": {
             "heading": "WELKE REINIGERS ZIJN ER?",
             "icon": "check_mark",
-            "row_content": "<p>Er zijn verschillende soorten huidreinigers, zoals: gel, melk, crème of poeder. Een evenwichtige reiniger maakt jouw huid schoon en verfrist  zonder irritatie.<\/p><p>TIP: Personaliseer je reiniging of face wash! Probeer 's ochtends een gelreiniger en 's avonds een crèmereiniger, of wissel de reinigers 's zomers en 's winters af,\"<\/p>",
+            "row_content": "<p>Er zijn verschillende soorten huidreinigers, zoals: gel, melk, crème of poeder. Een evenwichtige reiniger maakt jouw huid schoon en verfrist  zonder irritatie.</p><p>TIP: Personaliseer je reiniging of face wash! Probeer 's ochtends een gelreiniger en 's avonds een crèmereiniger, of wissel de reinigers 's zomers en 's winters af,\"</p>",
             "page": ""
           }
         },
@@ -331,7 +340,7 @@
           "settings": {
             "heading": "KAN IK EEN HYDRATERENDE REINIGER GEBRUIKEN VOOR EEN GECOMBINEERDE HUID?",
             "icon": "check_mark",
-            "row_content": "<p>Alle huidtypes kunnen baat hebben met een hydraterende reiniger. Een gecombineerde huid kan toch gebrek hebben aan water of vocht, dus de beste reiniger voor een gecombineerde huid is een hydraterende reiniger die zachte exfoliatie biedt om overtollige olie in balans te brengen.<\/p>",
+            "row_content": "<p>Alle huidtypes kunnen baat hebben met een hydraterende reiniger. Een gecombineerde huid kan toch gebrek hebben aan water of vocht, dus de beste reiniger voor een gecombineerde huid is een hydraterende reiniger die zachte exfoliatie biedt om overtollige olie in balans te brengen.</p>",
             "page": ""
           }
         },
@@ -340,7 +349,7 @@
           "settings": {
             "heading": "WAT IS BETER, EEN SCHUIM OF GEL ALS REINIGER?",
             "icon": "check_mark",
-            "row_content": "<p>De beste huidreiniger voor de ene persoon kan verschillen van die voor een andere persoon. Als je wilt voeden en verzorgen tijdens het reinigen, zijn melk of crèmes een goede keuze. Gel- en schuimende reinigers kunnen een diepe reiniging bieden om de huid in balans te brengen en te revitaliseren.<\/p><p>Het kiezen van een huidreiniger die bij jou past, hangt af van wat je ermee wilt bereiken. Of het nu gaat om puistjes, het balanceren van olie, gevoeligheid, hydratatie, veroudering of hyperpigmentatie, kies een gerichte reiniger om uw huidproblemen te ondersteunen, en volg dit op met een vergelijkbaar huidverzorgingsritueel voor alle voordelen.<\/p>",
+            "row_content": "<p>De beste huidreiniger voor de ene persoon kan verschillen van die voor een andere persoon. Als je wilt voeden en verzorgen tijdens het reinigen, zijn melk of crèmes een goede keuze. Gel- en schuimende reinigers kunnen een diepe reiniging bieden om de huid in balans te brengen en te revitaliseren.</p><p>Het kiezen van een huidreiniger die bij jou past, hangt af van wat je ermee wilt bereiken. Of het nu gaat om puistjes, het balanceren van olie, gevoeligheid, hydratatie, veroudering of hyperpigmentatie, kies een gerichte reiniger om uw huidproblemen te ondersteunen, en volg dit op met een vergelijkbaar huidverzorgingsritueel voor alle voordelen.</p>",
             "page": ""
           }
         },
@@ -349,7 +358,7 @@
           "settings": {
             "heading": "WAARVOOR WORDT EEN GELREINIGER GEBRUIKT?",
             "icon": "check_mark",
-            "row_content": "<p>Gelreinigers voor het gezicht bieden een diepe reinigingswerking terwijl ze de huid verfrissen en in balans brengen. De meeste huidtypes kunnen baat hebben bij een gelreiniger, afhankelijk van het doel ervan. Sommige gel formules kunnen schuimen wanneer water wordt toegevoegd om de reiniging en balancerende ervaring te verbeteren.<\/p>",
+            "row_content": "<p>Gelreinigers voor het gezicht bieden een diepe reinigingswerking terwijl ze de huid verfrissen en in balans brengen. De meeste huidtypes kunnen baat hebben bij een gelreiniger, afhankelijk van het doel ervan. Sommige gel formules kunnen schuimen wanneer water wordt toegevoegd om de reiniging en balancerende ervaring te verbeteren.</p>",
             "page": ""
           }
         }

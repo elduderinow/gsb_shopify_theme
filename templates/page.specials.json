@@ -29,6 +29,15 @@
     "f6b56644-2574-4e00-8752-bd14ce7b7e25": {
       "type": "highlight",
       "blocks": {
+        "0bf05740-800b-4b9b-894b-61d5ce06cc68": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify://shop_images/GSB-CreamBronzeStick-Collection-2-0125_71b996b7-73ab-4d32-8556-bb19527aa84b.jpg",
+            "image_title": "Cream Bronze Stick",
+            "image_subtitle": "Meer info",
+            "highlight_url": "shopify://collections/cheek-contour-bronzer"
+          }
+        },
         "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7": {
           "type": "highlight",
           "settings": {
@@ -55,22 +64,13 @@
             "image_subtitle": "Meer info",
             "highlight_url": "shopify://collections/eye-eyeliner"
           }
-        },
-        "0bf05740-800b-4b9b-894b-61d5ce06cc68": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify://shop_images/Copy_of_GSB_EGFLaunch25-Bio-RenewEGFEyeCream_Bio-RenewEGFNeckCream_0924-min_1_cb667404-3eb9-4134-87bf-a87116885288.jpg",
-            "image_title": "Bio-Renew EGF Neck & Eye Cream",
-            "image_subtitle": "Meer info",
-            "highlight_url": "shopify://collections/firm-repair"
-          }
         }
       },
       "block_order": [
+        "0bf05740-800b-4b9b-894b-61d5ce06cc68",
         "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7",
         "19d36a42-b3ad-400c-a700-19a089c1648f",
-        "caafd9d2-7a97-44ba-bff8-b9e226b70128",
-        "0bf05740-800b-4b9b-894b-61d5ce06cc68"
+        "caafd9d2-7a97-44ba-bff8-b9e226b70128"
       ],
       "settings": {
         "title": "Lanceringen",

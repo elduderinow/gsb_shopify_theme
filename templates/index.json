@@ -15,7 +15,7 @@
         "9eaf1a1a-60b6-45da-b983-20c7c7f5d573": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/GSB-CreamBronzeStick-Collection-2-0125.jpg",
+            "image": "shopify://shop_images/Cream_Bronze_Stick_Campaign_Imagery_2.png",
             "heading": "<strong>New</strong>",
             "heading_size": "h2",
             "color_option_id": "#727272",
@@ -843,7 +843,7 @@
       "type": "apps",
       "blocks": {
         "62704630-e4fc-454a-b766-ff2c983c71dc": {
-          "type": "shopify://apps/instafeed-story/blocks/app-block-feeds/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
+          "type": "shopify://apps/instafeed-story-instagram-feed/blocks/app-block-feeds/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
           "settings": {}
         }
       },

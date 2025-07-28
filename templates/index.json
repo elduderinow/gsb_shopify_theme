@@ -12,23 +12,6 @@
     "a9132cbf-2ea9-4bb0-96e9-1e58e1371a27": {
       "type": "slideshow",
       "blocks": {
-        "9eaf1a1a-60b6-45da-b983-20c7c7f5d573": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/GSB-CreamBronzeStick-Collection-2-0125_71b996b7-73ab-4d32-8556-bb19527aa84b.jpg",
-            "heading": "<strong>New</strong>",
-            "heading_size": "h2",
-            "color_option_id": "#727272",
-            "subheading": "<em>Cream Bronze Sticks </em>",
-            "subheading_size": "h5",
-            "button_label": "Zoek een Professional",
-            "link": "shopify://collections/face-prime",
-            "box_align": "bottom-left",
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "text_alignment_mobile": "center"
-          }
-        },
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1": {
           "type": "slide",
           "settings": {
@@ -40,6 +23,23 @@
             "subheading_size": "h5",
             "button_label": "Zoek een Professional",
             "link": "shopify://products/0000-6-petal-pairings-kits-2x3-stuks",
+            "box_align": "bottom-left",
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "text_alignment_mobile": "center"
+          }
+        },
+        "9eaf1a1a-60b6-45da-b983-20c7c7f5d573": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/GSB-CreamBronzeStick-Collection-2-0125_71b996b7-73ab-4d32-8556-bb19527aa84b.jpg",
+            "heading": "<strong>New</strong>",
+            "heading_size": "h2",
+            "color_option_id": "#727272",
+            "subheading": "<em>Cream Bronze Sticks </em>",
+            "subheading_size": "h5",
+            "button_label": "Zoek een Professional",
+            "link": "shopify://collections/face-prime",
             "box_align": "bottom-left",
             "text_alignment": "left",
             "image_overlay_opacity": 0,
@@ -65,8 +65,8 @@
         }
       },
       "block_order": [
-        "9eaf1a1a-60b6-45da-b983-20c7c7f5d573",
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1",
+        "9eaf1a1a-60b6-45da-b983-20c7c7f5d573",
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0"
       ],
       "settings": {

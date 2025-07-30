@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -15,14 +24,14 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Foundation borstels",
+            "heading": "Foundation Kwasten",
             "heading_size": "h1"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Op zoek naar de perfecte foundation kwast of concealer kwast? Jouw vlekkeloze look begint met onze professionele, door artiesten goedgekeurde basis kwasten.<\/p>",
+            "text": "<p>Op zoek naar de perfecte foundation kwast of concealer kwast? Jouw vlekkeloze look begint met onze professionele, door artiesten goedgekeurde basis kwasten.</p>",
             "text_style": "body"
           }
         },
@@ -40,7 +49,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/FaceBrushes_Desktop.jpg",
+        "image": "shopify://shop_images/FaceBrushes_Desktop.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -79,7 +88,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"readmore\"\/>",
+        "custom_liquid": "<div id=\"readmore\"/>",
         "color_scheme": "background-1",
         "padding_top": 80,
         "padding_bottom": 0
@@ -99,7 +108,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.<\/p>"
+            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.</p>"
           }
         },
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1": {
@@ -137,7 +146,7 @@
           "disabled": true,
           "settings": {
             "title": "",
-            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
+            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!</p>",
             "link_label": "",
             "link": ""
           }
@@ -146,7 +155,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Ken je de verschillende kwasten? Werk je make-up vaardigheden bij met ons advies om het beste resultaat te bekomen.<\/p>",
+            "text": "<p>Ken je de verschillende kwasten? Werk je make-up vaardigheden bij met ons advies om het beste resultaat te bekomen.</p>",
             "link_label": "",
             "link": ""
           }
@@ -156,7 +165,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -193,7 +202,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/holidaybrush6-480x480.png",
+            "image": "shopify://shop_images/holidaybrush6-480x480.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -205,7 +214,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FaceBrushes_Desktop.jpg",
+            "image": "shopify://shop_images/FaceBrushes_Desktop.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -256,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Of het nu gaat om vloeibare foundation kwasten, concealer kwasten, poeder kwasten of kabuki-kwasten, breng je basis perfect aan met onze selectie van door make-up artiesten goedgekeurde kwasten. <br\/><br\/>Het opbouwen en uitwerken van je basis met een goede kwaliteit foundation kwast zal het verschil maken om die cakey, streperige, ongelijkmatige foundation look te vermijden waar we allemaal een hekel aan hebben.<\/p>",
+            "text": "<p>Of het nu gaat om vloeibare foundation kwasten, concealer kwasten, poeder kwasten of kabuki-kwasten, breng je basis perfect aan met onze selectie van door make-up artiesten goedgekeurde kwasten. <br/><br/>Het opbouwen en uitwerken van je basis met een goede kwaliteit foundation kwast zal het verschil maken om die cakey, streperige, ongelijkmatige foundation look te vermijden waar we allemaal een hekel aan hebben.</p>",
             "link_label": "",
             "link": ""
           }
@@ -265,7 +274,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Kies in plaats daarvan voor een gebalanceerde, eenvoudige applicatie die gemakkelijk op te bouwen is, met grotere foundation kwasten zoals de kabuki of schuine complexion brush voor het aanbrengen van vloeibare of crème foundation, terwijl kleinere kwasten zoals een camouflage kwast precisie bieden voor het aanbrengen van concealer en het bijwerken van andere onvolkomenheden. <br\/><br\/>Je kunt het geheel ook nog uitblenden met een make-upspons voor een moeiteloze tweede huid-look.<\/p>",
+            "text": "<p>Kies in plaats daarvan voor een gebalanceerde, eenvoudige applicatie die gemakkelijk op te bouwen is, met grotere foundation kwasten zoals de kabuki of schuine complexion brush voor het aanbrengen van vloeibare of crème foundation, terwijl kleinere kwasten zoals een camouflage kwast precisie bieden voor het aanbrengen van concealer en het bijwerken van andere onvolkomenheden. <br/><br/>Je kunt het geheel ook nog uitblenden met een make-upspons voor een moeiteloze tweede huid-look.</p>",
             "link_label": "",
             "link": ""
           }

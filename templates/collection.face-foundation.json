@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -22,7 +31,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Ontdek jouw perfecte foundation met ons assortiment natuurlijke, transparante en matte foundations. Formuleringen en afwerkingen met de kracht van huidverzorging voor elk huidtype.<\/p>",
+            "text": "<p>Ontdek jouw perfecte foundation met ons assortiment natuurlijke, transparante en matte foundations. Formuleringen en afwerkingen met de kracht van huidverzorging voor elk huidtype.</p>",
             "text_style": "body"
           }
         },
@@ -40,7 +49,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Foundation_Desktop_1__1.jpg",
+        "image": "shopify://shop_images/Foundation_Desktop_1__1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -79,7 +88,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"readmore\"\/>",
+        "custom_liquid": "<div id=\"readmore\"/>",
         "color_scheme": "background-1",
         "padding_top": 80,
         "padding_bottom": 0
@@ -99,7 +108,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.<\/p>"
+            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.</p>"
           }
         },
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1": {
@@ -137,7 +146,7 @@
           "disabled": true,
           "settings": {
             "title": "",
-            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
+            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!</p>",
             "link_label": "",
             "link": ""
           }
@@ -146,7 +155,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Het vinden van de juiste huidverzorgende foundation is een essentieel onderdeel van  je beauty routine. Welke tint vormt de perfecte match met jouw huid? Welke applicatietechniek hanteer je om de beste resultaten te krijgen? Bij glo Skin Beauty geloven we dat het vinden van de antwoorden leuk en informatief moeten zijn. Lees meer in onze inspiratievolle en informatieve blogs!<\/p>",
+            "text": "<p>Het vinden van de juiste huidverzorgende foundation is een essentieel onderdeel van  je beauty routine. Welke tint vormt de perfecte match met jouw huid? Welke applicatietechniek hanteer je om de beste resultaten te krijgen? Bij glo Skin Beauty geloven we dat het vinden van de antwoorden leuk en informatief moeten zijn. Lees meer in onze inspiratievolle en informatieve blogs!</p>",
             "link_label": "",
             "link": ""
           }
@@ -156,7 +165,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -193,7 +202,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_19.jpg",
+            "image": "shopify://shop_images/GloSkinBeauty-25_1_e515e594-7332-40ee-84b5-3170907a71d3.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -205,7 +214,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/gloskinbeauty_355309656_559099659532340_3711388491485497986_n.jpg",
+            "image": "shopify://shop_images/1_19_1.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -256,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Ontmoet jouw perfecte foundationmatch met onze selectie van transparante, medium en volledige dekking minerale foundations in matte, glanzende of satijnen afwerkingen. <br\/><br\/>Bij glo Skin Beauty hanteren we een huidgerichte aanpak waarbij we jouw natuurlijke schoonheid accentueren en versterken. <br\/><br\/>Onze clean, natuurlijke foundations zijn verrijkt met huidverzorgende ingrediënten, waaronder beschermende antioxidanten, zonbescherming en hyaluronzuur om jouw huid te voeden, terwijl we de teint en textuur optimaliseren met minerale pigmenten. <br\/><br\/>Het kiezen van jouw perfecte foundation omvat meer dan het kiezen van de juiste tint (om de juiste tint te vinden voor jouw huid, bezoek een glo Skin Beauty expert- zie storelocator). De juiste dekking en finish zorgen er mee voor dat jij je favoriete glo(w) look creëert.<\/p>",
+            "text": "<p>Ontmoet jouw perfecte foundationmatch met onze selectie van transparante, medium en volledige dekking minerale foundations in matte, glanzende of satijnen afwerkingen. <br/><br/>Bij glo Skin Beauty hanteren we een huidgerichte aanpak waarbij we jouw natuurlijke schoonheid accentueren en versterken. <br/><br/>Onze clean, natuurlijke foundations zijn verrijkt met huidverzorgende ingrediënten, waaronder beschermende antioxidanten, zonbescherming en hyaluronzuur om jouw huid te voeden, terwijl we de teint en textuur optimaliseren met minerale pigmenten. <br/><br/>Het kiezen van jouw perfecte foundation omvat meer dan het kiezen van de juiste tint (om de juiste tint te vinden voor jouw huid, bezoek een glo Skin Beauty expert- zie storelocator). De juiste dekking en finish zorgen er mee voor dat jij je favoriete glo(w) look creëert.</p>",
             "link_label": "",
             "link": ""
           }
@@ -265,7 +274,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Voor een transparante en natuurlijke look gebruik je een primer of getinte moisturiser al dan niet afgewerkt met een transparant poeder. Ben je fan van een dewy look?  Probeer een multifunctionele foundation stick om jouw ideale dekking te verkrijgen en een shiny huid. <br\/><br\/>Een vloeibare foundation zorgt voor een glanzende afwerking met transparante tot medium dekking. Als je op zoek bent naar een semi-matte effect, een aanrader voor een vette huid, probeer dan een compact poeder foundation voor een opbouwbare, transparante tot volledige dekking. <br\/><br\/>Als je een medium tot volledige dekking wilt, kijk dan naar crème foundations met een satijnen afwerking. Al onze minerale foundations zijn clean, dierproefvrij, vrij van parabenen en talk en geschikt voor alle huidtypen, inclusief de gevoelige huid.<\/p>",
+            "text": "<p>Voor een transparante en natuurlijke look gebruik je een primer of getinte moisturiser al dan niet afgewerkt met een transparant poeder. Ben je fan van een dewy look?  Probeer een multifunctionele foundation stick om jouw ideale dekking te verkrijgen en een shiny huid. <br/><br/>Een vloeibare foundation zorgt voor een glanzende afwerking met transparante tot medium dekking. Als je op zoek bent naar een semi-matte effect, een aanrader voor een vette huid, probeer dan een compact poeder foundation voor een opbouwbare, transparante tot volledige dekking. <br/><br/>Als je een medium tot volledige dekking wilt, kijk dan naar crème foundations met een satijnen afwerking. Al onze minerale foundations zijn clean, dierproefvrij, vrij van parabenen en talk en geschikt voor alle huidtypen, inclusief de gevoelige huid.</p>",
             "link_label": "",
             "link": ""
           }
@@ -303,7 +312,7 @@
           "settings": {
             "heading": "HOE VOORKOM IK DAT MIJN FOUNDATION DROOG WORDT?",
             "icon": "heart",
-            "row_content": "<p>Kies voor een hydraterende liquid foundation of poeder. Bereid je huid eerst voor met een moisturizer en eventueel een primer. Breng vervolgens een  foundation aan afgestemd op jouw huidconditie. Om uitdroging te voorkomen, hydrateer gedurende de dag je huid met een hydraterende mist om vocht toe te voegen en vast te houden.<\/p>",
+            "row_content": "<p>Kies voor een hydraterende liquid foundation of poeder. Bereid je huid eerst voor met een moisturizer en eventueel een primer. Breng vervolgens een  foundation aan afgestemd op jouw huidconditie. Om uitdroging te voorkomen, hydrateer gedurende de dag je huid met een hydraterende mist om vocht toe te voegen en vast te houden.</p>",
             "page": ""
           }
         },
@@ -312,7 +321,7 @@
           "settings": {
             "heading": "HOE VOORKOM IK DAT MIJN FOUNDATION MIJN PORIËN TOONT?",
             "icon": "check_mark",
-            "row_content": "<p>Maak gebruik van een gezichtsprimer om poriën te verminderen, lijntjes te vervagen en op te vullen. Breng daarna je favoriete foundation aan om het uiterlijk van de poriën verder te verminderen en ongewenste textuur, zoals fijne lijntjes en rimpels, te egaliseren.<\/p>",
+            "row_content": "<p>Maak gebruik van een gezichtsprimer om poriën te verminderen, lijntjes te vervagen en op te vullen. Breng daarna je favoriete foundation aan om het uiterlijk van de poriën verder te verminderen en ongewenste textuur, zoals fijne lijntjes en rimpels, te egaliseren.</p>",
             "page": ""
           }
         },
@@ -321,7 +330,7 @@
           "settings": {
             "heading": "WAAR IS MINERALE FOUNDATION GOED VOOR?",
             "icon": "check_mark",
-            "row_content": "<p>\"Onze minerale foundations zijn voorzien van huidverzorgende ingrediënten om hydratatie en bescherming aan je teint toe te voegen, voor een gezond, gevoed tweede-huideffect. Ze werken voor alle huidtypes.<\/p>",
+            "row_content": "<p>\"Onze minerale foundations zijn voorzien van huidverzorgende ingrediënten om hydratatie en bescherming aan je teint toe te voegen, voor een gezond, gevoed tweede-huideffect. Ze werken voor alle huidtypes.</p>",
             "page": ""
           }
         },
@@ -330,7 +339,7 @@
           "settings": {
             "heading": "WAT IS EEN TRANSPARANTE DEKKING?",
             "icon": "check_mark",
-            "row_content": "<p>Een transparante foundation voelt en ziet eruit als je eigen huid, maar dan beter. Transparante dekking zorgt voor een no-make-up-make-up look en is het meest lichte dekkingsniveau. Het egaliseert een subtiele teint en textuur, terwijl de huid er fris en natuurlijk stralend uitziet.<\/p>",
+            "row_content": "<p>Een transparante foundation voelt en ziet eruit als je eigen huid, maar dan beter. Transparante dekking zorgt voor een no-make-up-make-up look en is het meest lichte dekkingsniveau. Het egaliseert een subtiele teint en textuur, terwijl de huid er fris en natuurlijk stralend uitziet.</p>",
             "page": ""
           }
         },
@@ -339,7 +348,7 @@
           "settings": {
             "heading": "WAT IS EEN MATTE FOUNDATION?",
             "icon": "check_mark",
-            "row_content": "<p>Een matte foundation helpt talg te absorberen en de huid matter te maken. Het is een uitstekende keuze voor een vette of gecombineerde huid, vooral als je op zoek bent om glans gedurende de dag te verminderen.<\/p>",
+            "row_content": "<p>Een matte foundation helpt talg te absorberen en de huid matter te maken. Het is een uitstekende keuze voor een vette of gecombineerde huid, vooral als je op zoek bent om glans gedurende de dag te verminderen.</p>",
             "page": ""
           }
         },
@@ -348,7 +357,7 @@
           "settings": {
             "heading": "WAAROM ZOU JE OVERSTAPPEN OP HUIDVERZORGENDE MAKE-UP?",
             "icon": "check_mark",
-            "row_content": "<p>Traditionele make-up kan irritatie en puistjes veroorzaken. Clean geformuleerde minerale make-up, bevat voedende, vegan ingrediënten die de gezondheid van de huid bevorderen. Onze huidgerichte beautyproducten zijn vrij van geur, parabenen en talk. Ze laten jouw huid ademen en het voelt aan als een tweede huid.<\/p>",
+            "row_content": "<p>Traditionele make-up kan irritatie en puistjes veroorzaken. Clean geformuleerde minerale make-up, bevat voedende, vegan ingrediënten die de gezondheid van de huid bevorderen. Onze huidgerichte beautyproducten zijn vrij van geur, parabenen en talk. Ze laten jouw huid ademen en het voelt aan als een tweede huid.</p>",
             "page": ""
           }
         },
@@ -357,7 +366,7 @@
           "settings": {
             "heading": "WAAROM IS TALK SLECHT VOOR JE GEZICHT?",
             "icon": "check_mark",
-            "row_content": "<p>Wij zijn geen fan van talk, daarom is al onze make-up talkvrij. Talk is een vulmiddel dat de huid kan uitdrogen en irriteren én het is niet gezond om in te ademen. Het blijft op de huid zitten en benadrukt fijne lijntjes, rimpels en poriën. We raden aan om over te stappen op onze talkvrije foundation en minerale make-up om je huid gezond en gelukkig te houden.<\/p>",
+            "row_content": "<p>Wij zijn geen fan van talk, daarom is al onze make-up talkvrij. Talk is een vulmiddel dat de huid kan uitdrogen en irriteren én het is niet gezond om in te ademen. Het blijft op de huid zitten en benadrukt fijne lijntjes, rimpels en poriën. We raden aan om over te stappen op onze talkvrije foundation en minerale make-up om je huid gezond en gelukkig te houden.</p>",
             "page": ""
           }
         }

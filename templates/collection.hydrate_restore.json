@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -22,7 +31,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Droge huid, kloofjes, ruwe plekjes, trekkerig gevoel, roodheid of dofheid? Hydrateer, en versterk met onze gerichte lijn huidverzorging voor de droge huid.<\/p>",
+            "text": "<p>Droge huid, kloofjes, ruwe plekjes, trekkerig gevoel, roodheid of dofheid? Hydrateer, en versterk met onze gerichte lijn huidverzorging voor de droge huid.</p>",
             "text_style": "body"
           }
         },
@@ -40,7 +49,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Cleanser_Desktop.jpg",
+        "image": "shopify://shop_images/featured_header_Desktop-_hydrate-restore_2.webp",
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -82,7 +91,7 @@
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Lees meer over onze drops & serums<\/strong>",
+            "heading": "<strong>Lees meer over onze drops & serums</strong>",
             "heading_size": "h1"
           }
         },
@@ -90,7 +99,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Wat voor huidprobleem je ook wilt<br\/>corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van<br\/>drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<br\/><\/p><p>Er is een reden waarom serums ons favoriete<br\/>huidverzorgingsproduct zijn! Lees in de onderstaande artikelen hoe onze drops<br\/>& serums een weldaad zijn voor jouw huid en jou die jeugdige gloed bezorgen.<\/p>"
+            "text": "<p>Wat voor huidprobleem je ook wilt<br/>corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van<br/>drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<br/></p><p>Er is een reden waarom serums ons favoriete<br/>huidverzorgingsproduct zijn! Lees in de onderstaande artikelen hoe onze drops<br/>& serums een weldaad zijn voor jouw huid en jou die jeugdige gloed bezorgen.</p>"
           }
         },
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1": {
@@ -127,7 +136,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
+            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!</p>",
             "link_label": "",
             "link": ""
           }
@@ -136,7 +145,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Er is een reden waarom serums ons favoriete huidverzorgingsproduct zijn! Lees in de onderstaande artikelen hoe onze drops & serums een weldaad zijn voor jouw huid en jou die jeugdige gloed bezorgen.<\/p>",
+            "text": "<p>Er is een reden waarom serums ons favoriete huidverzorgingsproduct zijn! Lees in de onderstaande artikelen hoe onze drops & serums een weldaad zijn voor jouw huid en jou die jeugdige gloed bezorgen.</p>",
             "link_label": "",
             "link": ""
           }
@@ -146,7 +155,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -22,7 +31,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Onze exfolianten revitaliseren verfijnen en egaliseren de huid voor een helderdere, fris ogende teint. Daarnaast versterken exfolianten de effectiviteit van jouw andere huidverzorgingsproducten.<\/p>",
+            "text": "<p>Onze exfolianten revitaliseren verfijnen en egaliseren de huid voor een helderdere, fris ogende teint. Daarnaast versterken exfolianten de effectiviteit van jouw andere huidverzorgingsproducten.</p>",
             "text_style": "body"
           }
         },
@@ -40,7 +49,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Toner_Desktop-_1__1_1.jpg",
+        "image": "shopify://shop_images/Toner_Desktop-_1__1_1.jpg",
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -79,7 +88,7 @@
     "79ca693d-f985-4489-ab0a-7bfd92189b7b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"readmore\"\/>",
+        "custom_liquid": "<div id=\"readmore\"/>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -99,7 +108,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Wat voor huidprobleem je ook wilt<br\/>corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van<br\/>drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<br\/><\/p><p>Er is een reden waarom serums ons favoriete<br\/>huidverzorgingsproduct zijn! Lees in de onderstaande artikelen hoe onze drops<br\/>& serums een weldaad zijn voor jouw huid en jou die jeugdige gloed bezorgen.<\/p>"
+            "text": "<p>Wat voor huidprobleem je ook wilt<br/>corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van<br/>drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<br/></p><p>Er is een reden waarom serums ons favoriete<br/>huidverzorgingsproduct zijn! Lees in de onderstaande artikelen hoe onze drops<br/>& serums een weldaad zijn voor jouw huid en jou die jeugdige gloed bezorgen.</p>"
           }
         },
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1": {
@@ -136,7 +145,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Maak komaf met dode huidcellen door de juiste exfoliant voor de behoeften van jouw huid in te zetten. Exfoliatie helpt jouw huid te egaliseren en onthult een stralende, gezonde huid. Lees onze blogs hieronder om meer te weten te komen over de fantastische voordelen van exfolianten.<\/p>",
+            "text": "<p>Maak komaf met dode huidcellen door de juiste exfoliant voor de behoeften van jouw huid in te zetten. Exfoliatie helpt jouw huid te egaliseren en onthult een stralende, gezonde huid. Lees onze blogs hieronder om meer te weten te komen over de fantastische voordelen van exfolianten.</p>",
             "link_label": "",
             "link": ""
           }
@@ -146,7 +155,7 @@
           "disabled": true,
           "settings": {
             "title": "",
-            "text": "<p>Er is een reden waarom serums ons favoriete huidverzorgingsproduct zijn! Lees in de onderstaande artikelen hoe onze drops & serums een weldaad zijn voor jouw huid en jou die jeugdige gloed bezorgen.<\/p>",
+            "text": "<p>Er is een reden waarom serums ons favoriete huidverzorgingsproduct zijn! Lees in de onderstaande artikelen hoe onze drops & serums een weldaad zijn voor jouw huid en jou die jeugdige gloed bezorgen.</p>",
             "link_label": "",
             "link": ""
           }
@@ -156,7 +165,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -193,7 +202,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pro-5-exfoliant.png",
+            "image": "shopify://shop_images/pro-5-exfoliant.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -205,7 +214,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/chemical-exfoliants-for-acne.jpg",
+            "image": "shopify://shop_images/11912460-1805074456356204_1_6dd54d39-5b34-47d6-9a40-ae567d1c079c.webp",
             "title": "",
             "text": "",
             "link_label": "",
@@ -256,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Huidvernieuwing is essentieel voor elk huidtype, zelfs voor de gevoelige huid. Huidvernieuwers werken door het verwijderen van overtollige ophoping van dode huidcellen, oliën en andere onzuiverheden die verstopping kunnen veroorzaken. <br\/><br\/>Voor een doffe, futloze, droge huid die een oppepper nodig heeft, bieden exfoliërende producten een eenvoudige en effectieve manier om uw stralende gloed terug te krijgen. Voor een vette en gecombineerde huid helpen acne exfolianten bij het balanceren en zuiveren, verwijderen ze onzuiverheden en reinigen ze de poriën voor een schonere, helderdere teint.<\/p>",
+            "text": "<p>Huidvernieuwing is essentieel voor elk huidtype, zelfs voor de gevoelige huid. Huidvernieuwers werken door het verwijderen van overtollige ophoping van dode huidcellen, oliën en andere onzuiverheden die verstopping kunnen veroorzaken. <br/><br/>Voor een doffe, futloze, droge huid die een oppepper nodig heeft, bieden exfoliërende producten een eenvoudige en effectieve manier om uw stralende gloed terug te krijgen. Voor een vette en gecombineerde huid helpen acne exfolianten bij het balanceren en zuiveren, verwijderen ze onzuiverheden en reinigen ze de poriën voor een schonere, helderdere teint.</p>",
             "link_label": "",
             "link": ""
           }
@@ -265,7 +274,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Chemische exfolianten zijn een uitstekende optie voor alle huidtypes, en ons bestverkopende Hydra-Bright Pro 5 Liquid Exfoliant, met zijn unieke mix van alfahydroxyzuren (AHAs), is de perfecte behandeling voor een stralende teint. <br\/><br\/>Voor fysieke exfoliërende producten kan je denken aan exfoliërende scrubs zoals onze Pumpkin Enzyme Scrub of Brightening Polish, die geweldig zijn om dode huidcellen die zich ophopen aan het oppervlak te verwijderen met milieuvriendelijke jojoba-korrels. Omdat er meer wrijving is tussen de scrubkorrels en jouw huid, kunnen fysieke exfolianten bij een gevoelige huid irritatie of roodheid veroorzaken, dus chemische exfolianten voor het gezicht zijn een zachtere optie. <br\/><br\/>En als je je gezichtsvernieuwing naar een meer gerichte behandeling wilt tillen, probeer dan een van onze maandelijkse peelkits voor thuisgebruik.<\/p>",
+            "text": "<p>Chemische exfolianten zijn een uitstekende optie voor alle huidtypes, en ons bestverkopende Hydra-Bright Pro 5 Liquid Exfoliant, met zijn unieke mix van alfahydroxyzuren (AHAs), is de perfecte behandeling voor een stralende teint. <br/><br/>Voor fysieke exfoliërende producten kan je denken aan exfoliërende scrubs zoals onze Pumpkin Enzyme Scrub of Brightening Polish, die geweldig zijn om dode huidcellen die zich ophopen aan het oppervlak te verwijderen met milieuvriendelijke jojoba-korrels. Omdat er meer wrijving is tussen de scrubkorrels en jouw huid, kunnen fysieke exfolianten bij een gevoelige huid irritatie of roodheid veroorzaken, dus chemische exfolianten voor het gezicht zijn een zachtere optie. <br/><br/>En als je je gezichtsvernieuwing naar een meer gerichte behandeling wilt tillen, probeer dan een van onze maandelijkse peelkits voor thuisgebruik.</p>",
             "link_label": "",
             "link": ""
           }
@@ -275,7 +284,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }

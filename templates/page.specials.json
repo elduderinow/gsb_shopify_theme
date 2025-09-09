@@ -59,10 +59,10 @@
         "caafd9d2-7a97-44ba-bff8-b9e226b70128": {
           "type": "highlight",
           "settings": {
-            "image": "shopify://shop_images/GSB-PrecisionLiquidEyeliner-1124.jpg",
-            "image_title": "Precision Liquid Eyeliner",
+            "image": "shopify://shop_images/LuminousSettingPowder_ShadeExpansion_Collection_1.png",
+            "image_title": "Luminous Setting Powder",
             "image_subtitle": "Meer info",
-            "highlight_url": "shopify://collections/eye-eyeliner"
+            "highlight_url": "shopify://collections/face-set"
           }
         }
       },
@@ -140,13 +140,12 @@
       "blocks": {
         "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-0": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/23Jul-HP-Meltproof-Block.jpg",
-            "title": "heading",
-            "text": "<p>Sample description text</p>",
-            "link_label": "Shop Now",
-            "link": "shopify://pages/blog",
+            "image": "shopify://shop_images/banner_holiday_kits.jpg",
+            "title": "Holiday Kits 2025",
+            "text": "<p>New</p>",
+            "link_label": "Meer Info",
+            "link": "shopify://collections/holiday-2025",
             "bg_color": "#000000",
             "bg_opacity": 30
           }

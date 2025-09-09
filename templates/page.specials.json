@@ -29,6 +29,15 @@
     "f6b56644-2574-4e00-8752-bd14ce7b7e25": {
       "type": "highlight",
       "blocks": {
+        "caafd9d2-7a97-44ba-bff8-b9e226b70128": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify://shop_images/LuminousSettingPowder_ShadeExpansion_Collection_1.png",
+            "image_title": "Luminous Setting Powder",
+            "image_subtitle": "Meer info",
+            "highlight_url": "shopify://collections/face-set"
+          }
+        },
         "0bf05740-800b-4b9b-894b-61d5ce06cc68": {
           "type": "highlight",
           "settings": {
@@ -55,22 +64,13 @@
             "image_subtitle": "Meer info",
             "highlight_url": "shopify://collections/hydrate-restore"
           }
-        },
-        "caafd9d2-7a97-44ba-bff8-b9e226b70128": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify://shop_images/LuminousSettingPowder_ShadeExpansion_Collection_1.png",
-            "image_title": "Luminous Setting Powder",
-            "image_subtitle": "Meer info",
-            "highlight_url": "shopify://collections/face-set"
-          }
         }
       },
       "block_order": [
+        "caafd9d2-7a97-44ba-bff8-b9e226b70128",
         "0bf05740-800b-4b9b-894b-61d5ce06cc68",
         "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7",
-        "19d36a42-b3ad-400c-a700-19a089c1648f",
-        "caafd9d2-7a97-44ba-bff8-b9e226b70128"
+        "19d36a42-b3ad-400c-a700-19a089c1648f"
       ],
       "settings": {
         "title": "Lanceringen",

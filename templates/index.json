@@ -32,11 +32,11 @@
         "9eaf1a1a-60b6-45da-b983-20c7c7f5d573": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/GSB-CreamBronzeStick-Collection-2-0125_71b996b7-73ab-4d32-8556-bb19527aa84b.jpg",
-            "heading": "<strong>New</strong>",
+            "image": "shopify://shop_images/GSB-SpotTreatConcealer-Collection-0225.jpg",
+            "heading": "<strong>Nieuw in ons assortiment!</strong>",
             "heading_size": "h2",
             "color_option_id": "#727272",
-            "subheading": "<em>Cream Bronze Sticks </em>",
+            "subheading": "<em>Spot Treatment Concealer</em>",
             "subheading_size": "h5",
             "button_label": "Zoek een Professional",
             "link": "shopify://collections/face-prime",
@@ -843,7 +843,7 @@
       "type": "apps",
       "blocks": {
         "62704630-e4fc-454a-b766-ff2c983c71dc": {
-          "type": "shopify://apps/instafeed-story-instagram-feed/blocks/app-block-feeds/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
+          "type": "shopify://apps/instafeed-story/blocks/app-block-feeds/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
           "settings": {}
         }
       },

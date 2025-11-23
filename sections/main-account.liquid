@@ -24,7 +24,6 @@
         <div class="content--inner">
           <div class="content-header">
             <h2 class="content--title">{{ 'customer.orders.title' | t }}</h2>
-            {% comment %} {{ routes.account_addresses_url | json }} {% endcomment %}
           </div>
           <div class="content-main">
             {% paginate customer.orders by 20 %}

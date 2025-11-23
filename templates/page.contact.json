@@ -237,6 +237,7 @@
         "template--19180119556443__4ae8b7f2-c654-4b86-811b-6b3c6278296c-column-1",
         "template--19180119556443__4ae8b7f2-c654-4b86-811b-6b3c6278296c-column-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Onze partners",
         "heading_size": "h2",

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -22,7 +31,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Ongelijkmatige huidtextuur? Of een doffe, droge huid? Gebruik producten die de huidtextuur egaliseren met exfoliërende, verfijnende en herstellende ingrediënten voor een zachtere, soepele teint.<\/p>",
+            "text": "<p>Ongelijkmatige huidtextuur? Of een doffe, droge huid? Gebruik producten die de huidtextuur egaliseren met exfoliërende, verfijnende en herstellende ingrediënten voor een zachtere, soepele teint.</p>",
             "text_style": "body"
           }
         },
@@ -40,7 +49,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/13697741-4985074460039619.webp",
+        "image": "shopify://shop_images/13697741-4985074460039619.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -79,7 +88,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"readmore\"\/>",
+        "custom_liquid": "<div id=\"readmore\"/>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -99,7 +108,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.<\/p>"
+            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.</p>"
           }
         },
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1": {
@@ -137,7 +146,7 @@
           "disabled": true,
           "settings": {
             "title": "",
-            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
+            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!</p>",
             "link_label": "",
             "link": ""
           }
@@ -146,7 +155,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Als je last hebt van een oneffen huid, maak je dan geen zorgen, je bent niet de enige. Veel mensen hebben hun hele leven last van een ruwe of oneffen huidstructuur, maar de oplossing kan eenvoudig zijn met huidverzorging van professionele kwaliteit. Leer hoe je je oneffen huidtextuur kunt egaliseren en ruwe plekjes kunt voorkomen met deze informatieve beautyartikelen.<\/p>",
+            "text": "<p>Als je last hebt van een oneffen huid, maak je dan geen zorgen, je bent niet de enige. Veel mensen hebben hun hele leven last van een ruwe of oneffen huidstructuur, maar de oplossing kan eenvoudig zijn met huidverzorging van professionele kwaliteit. Leer hoe je je oneffen huidtextuur kunt egaliseren en ruwe plekjes kunt voorkomen met deze informatieve beautyartikelen.</p>",
             "link_label": "",
             "link": ""
           }
@@ -156,7 +165,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -192,8 +201,8 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "blog": "at-home-peelings",
-        "post_limit": 3,
+        "blog": "herfst-swaps",
+        "post_limit": 2,
         "columns_desktop": 3,
         "color_scheme": "background-1",
         "show_image": true,
@@ -213,7 +222,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Oneven huidtextuur kan worden veroorzaakt door een combinatie van factoren, zoals schade door de zon, vervuiling, te weinig scrubben, blootstelling aan agressieve ingrediënten, een ongebalanceerde pH-waarde van de huid of ernstigere huidaandoeningen. Een ongelijkmatige textuur kan ook het gevolg zijn van de natuurlijke verouderingsprocessen van de huid, waarbij de celvernieuwing na verloop van tijd vertraagt en dode huidcellen zich ophopen, waardoor de huid ruw en dof aanvoelt.<\/p><p>Dit is waar producten om de huidtextuur gladder te maken, te verfijnen en te vernieuwen echt om de hoek komen kijken. <\/p>",
+            "text": "<p>Oneven huidtextuur kan worden veroorzaakt door een combinatie van factoren, zoals schade door de zon, vervuiling, te weinig scrubben, blootstelling aan agressieve ingrediënten, een ongebalanceerde pH-waarde van de huid of ernstigere huidaandoeningen. Een ongelijkmatige textuur kan ook het gevolg zijn van de natuurlijke verouderingsprocessen van de huid, waarbij de celvernieuwing na verloop van tijd vertraagt en dode huidcellen zich ophopen, waardoor de huid ruw en dof aanvoelt.</p><p>Dit is waar producten om de huidtextuur gladder te maken, te verfijnen en te vernieuwen echt om de hoek komen kijken. </p>",
             "link_label": "",
             "link": ""
           }
@@ -222,7 +231,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Om je te helpen een gladdere, soepele en stralende huid te krijgen, heeft Glo een uitstekend assortiment producten voor een ongelijkmatige huidtextuur, met alfahydroxyzuren (AHA's), retinol en milieuvriendelijke scrubbende parels om de huid vanaf de oppervlakte te verzachten, glad te strijken en te versterken en om actieve stoffen dieper van binnenuit af te geven. Met onze beste producten om de huidtextuur te egaliseren, van reinigers en toners tot vochtinbrengende crèmes, serums en oliën, kun je je egaliserende strategie op punt zetten met onze essentiële producten.<\/p>",
+            "text": "<p>Om je te helpen een gladdere, soepele en stralende huid te krijgen, heeft Glo een uitstekend assortiment producten voor een ongelijkmatige huidtextuur, met alfahydroxyzuren (AHA's), retinol en milieuvriendelijke scrubbende parels om de huid vanaf de oppervlakte te verzachten, glad te strijken en te versterken en om actieve stoffen dieper van binnenuit af te geven. Met onze beste producten om de huidtextuur te egaliseren, van reinigers en toners tot vochtinbrengende crèmes, serums en oliën, kun je je egaliserende strategie op punt zetten met onze essentiële producten.</p>",
             "link_label": "",
             "link": ""
           }

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -22,7 +31,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Corrigeer je wenkbrauwen met onze professionele minerale wenkbrauwpotloden, eyeliners, gels en poeders voor een moeiteloze correctie of kleur ze bij voor een voller effect. <\/p>",
+            "text": "<p>Corrigeer je wenkbrauwen met onze professionele minerale wenkbrauwpotloden, eyeliners, gels en poeders voor een moeiteloze correctie of kleur ze bij voor een voller effect. </p>",
             "text_style": "body"
           }
         },
@@ -40,7 +49,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Eyebrow_Desktop.jpg",
+        "image": "shopify://shop_images/GSB_BrowCollection_0324.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -79,7 +88,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"readmore\"\/>",
+        "custom_liquid": "<div id=\"readmore\"/>",
         "color_scheme": "background-1",
         "padding_top": 80,
         "padding_bottom": 0
@@ -99,7 +108,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.<\/p>"
+            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.</p>"
           }
         },
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1": {
@@ -137,7 +146,7 @@
           "disabled": true,
           "settings": {
             "title": "",
-            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
+            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!</p>",
             "link_label": "",
             "link": ""
           }
@@ -146,7 +155,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>De juiste wenkbrauwmake-up helpt je gezicht te omlijsten en je wenkbrauwen te laten opvallen. Leer hoe je wenkbrauwmake-up kunt kiezen en gebruiken met behulp van onze bronnen hieronder.<\/p>",
+            "text": "<p>De juiste wenkbrauwmake-up helpt je gezicht te omlijsten en je wenkbrauwen te laten opvallen. Leer hoe je wenkbrauwmake-up kunt kiezen en gebruiken met behulp van onze bronnen hieronder.</p>",
             "link_label": "",
             "link": ""
           }
@@ -156,7 +165,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -193,7 +202,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BrowFullCollection_Stylized.jpg",
+            "image": "shopify://shop_images/GSB_BrowCollection_0324.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -205,7 +214,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Browliner-Social.jpg",
+            "image": "shopify://shop_images/Browliner-Social.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -256,7 +265,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Krijg perfecte wenkbrauwen met ons assortiment van door artiesten goedgekeurde wenkbrauwpotloden, eyeliners, poeders en gels. Wenkbrauwen zijn essentieel om vorm en structuur aan je look toe te voegen. <br\/><br\/>En geen twee wenkbrauwen zijn ooit hetzelfde, dus of je nu tweelingen of zussen hebt, je wenkbrauwen hebben zeker wat liefde nodig om ze te laten matchen en er evenwichtig uit te laten zien.<br\/><br\/>De beste manier om je droomwenkbrauwen te krijgen, is door je doelen te definiëren. Als je wat schaarse plekken wilt opvullen en wat definitie wilt toevoegen, dan zit je goed met een wenkbrauwpotlood voor precisie en wat poeder voor definitie. <br\/><br\/><\/p>",
+            "text": "<p>Krijg perfecte wenkbrauwen met ons assortiment van door artiesten goedgekeurde wenkbrauwpotloden, eyeliners, poeders en gels. Wenkbrauwen zijn essentieel om vorm en structuur aan je look toe te voegen. <br/><br/>En geen twee wenkbrauwen zijn ooit hetzelfde, dus of je nu tweelingen of zussen hebt, je wenkbrauwen hebben zeker wat liefde nodig om ze te laten matchen en er evenwichtig uit te laten zien.<br/><br/>De beste manier om je droomwenkbrauwen te krijgen, is door je doelen te definiëren. Als je wat schaarse plekken wilt opvullen en wat definitie wilt toevoegen, dan zit je goed met een wenkbrauwpotlood voor precisie en wat poeder voor definitie. <br/><br/></p>",
             "link_label": "",
             "link": ""
           }
@@ -265,7 +274,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Voor lichte vormgeving en kammen, is wenkbrauwgel je go-to. Wil je iets dramatischer? Ga dan voor gedurfde, nauwkeurige wenkbrauwen door je vorm te definiëren met de Precise Micro Browliner, vul voorzichtig schaarse gebieden in en werk af met wenkbrauwpoeder uit het Brow Quad-palet. <br\/><br\/>Vergeet niet om wat highlighter aan te brengen onder de wenkbrauwboog voor extra definitie. Voor fluffy, omhoog gekamde wenkbrauwen gebruik je de wenkbrauwgel om omhoog te borstelen en schets je haarachtige streken met een wenkbrauwpotlood, en zet het geheel op zijn plaats met nog een laag wenkbrauwgel. <br\/><br\/>Weet je niet zeker welke look je wilt? Probeer te mixen en matchen met alle wenkbrauwpotloden, gel en poeder tot je een look vindt die je bevalt.<\/p>",
+            "text": "<p>Voor lichte vormgeving en kammen, is wenkbrauwgel je go-to. Wil je iets dramatischer? Ga dan voor gedurfde, nauwkeurige wenkbrauwen door je vorm te definiëren met de Precise Micro Browliner, vul voorzichtig schaarse gebieden in en werk af met wenkbrauwpoeder uit het Brow Quad-palet. <br/><br/>Vergeet niet om wat highlighter aan te brengen onder de wenkbrauwboog voor extra definitie. Voor fluffy, omhoog gekamde wenkbrauwen gebruik je de wenkbrauwgel om omhoog te borstelen en schets je haarachtige streken met een wenkbrauwpotlood, en zet het geheel op zijn plaats met nog een laag wenkbrauwgel. <br/><br/>Weet je niet zeker welke look je wilt? Probeer te mixen en matchen met alle wenkbrauwpotloden, gel en poeder tot je een look vindt die je bevalt.</p>",
             "link_label": "",
             "link": ""
           }
@@ -303,7 +312,7 @@
           "settings": {
             "heading": "KAN IK VITAMINE C 'S NACHTS OP MIJN GEZICHT LATEN ZITTEN?",
             "icon": "heart",
-            "row_content": "<p>\"Bij het aanbrengen van vitamine C voor het gezicht zijn de meeste serums ontworpen voor gebruik overdag, ze bieden antioxidante bescherming en verdedigen tegen verouderende milieustressoren zoals blauw licht en vervuiling,\" zegt Anna De La Cruz, VP of Product Development.<\/p>",
+            "row_content": "<p>\"Bij het aanbrengen van vitamine C voor het gezicht zijn de meeste serums ontworpen voor gebruik overdag, ze bieden antioxidante bescherming en verdedigen tegen verouderende milieustressoren zoals blauw licht en vervuiling,\" zegt Anna De La Cruz, VP of Product Development.</p>",
             "page": ""
           }
         },
@@ -312,7 +321,7 @@
           "settings": {
             "heading": "KAN IK DE MOISTURIZER OVERSLAAN NA HET VITAMINE C SERUM?",
             "icon": "check_mark",
-            "row_content": "<p>\"Je moet nog steeds een moisturizer gebruiken nadat je een vitamine C-serum op je gezicht hebt aangebracht. Serums zijn geconcentreerde formules die actieve ingrediënten dieper in de huid afleveren. Door een moisturizer te gebruiken na je vitamine C-serum voeg je vocht toe en sluit je de voordelen van het serum af,\" zegt Anna De La Cruz, VP of Product Development.<\/p>",
+            "row_content": "<p>\"Je moet nog steeds een moisturizer gebruiken nadat je een vitamine C-serum op je gezicht hebt aangebracht. Serums zijn geconcentreerde formules die actieve ingrediënten dieper in de huid afleveren. Door een moisturizer te gebruiken na je vitamine C-serum voeg je vocht toe en sluit je de voordelen van het serum af,\" zegt Anna De La Cruz, VP of Product Development.</p>",
             "page": ""
           }
         },
@@ -321,7 +330,7 @@
           "settings": {
             "heading": "BRENG IK VITAMINE C AAN OP NATTE OF DROGE HUID?",
             "icon": "check_mark",
-            "row_content": "<p>\"Je kunt vitamine C-serums aanbrengen op droge of vochtige huid na het reinigen + tonifiëren, maar vermijd het aanbrengen van vitamine C op natte huid. Dit kan de zure formule zwakker maken door verdunning,\" zegt Anna De La Cruz, VP of Product Development.<\/p>",
+            "row_content": "<p>\"Je kunt vitamine C-serums aanbrengen op droge of vochtige huid na het reinigen + tonifiëren, maar vermijd het aanbrengen van vitamine C op natte huid. Dit kan de zure formule zwakker maken door verdunning,\" zegt Anna De La Cruz, VP of Product Development.</p>",
             "page": ""
           }
         },
@@ -330,7 +339,7 @@
           "settings": {
             "heading": "WAT KOMT EERST, VITAMINE C OF HYALURONZUUR?",
             "icon": "check_mark",
-            "row_content": "<p>\"Als je vitamine C-serums + hyaluronzuur apart aanbrengt, breng dan eerst het vitamine C-serum aan en voeg daarna hyaluronzuur toe om de barrière van je huid te versterken en vocht vast te houden,\" zegt Anna De La Cruz, VP of Product Development.<\/p>",
+            "row_content": "<p>\"Als je vitamine C-serums + hyaluronzuur apart aanbrengt, breng dan eerst het vitamine C-serum aan en voeg daarna hyaluronzuur toe om de barrière van je huid te versterken en vocht vast te houden,\" zegt Anna De La Cruz, VP of Product Development.</p>",
             "page": ""
           }
         },
@@ -339,7 +348,7 @@
           "settings": {
             "heading": "VERWIJDERT VITAMINE C SERUM DONKERE VLEKKEN?",
             "icon": "check_mark",
-            "row_content": "<p>\"Vitamine C-serums hebben veel voordelen, waaronder het verhelderen en verminderen van donkere vlekken + hyperpigmentatie. Bij regelmatig gebruik kan je vitamine C-serum helpen bij het verlichten van gebieden met hyperpigmentatie op de huid, voor een egalere, stralende teint,\" zegt Anna De La Cruz, VP of Product Development.<\/p>",
+            "row_content": "<p>\"Vitamine C-serums hebben veel voordelen, waaronder het verhelderen en verminderen van donkere vlekken + hyperpigmentatie. Bij regelmatig gebruik kan je vitamine C-serum helpen bij het verlichten van gebieden met hyperpigmentatie op de huid, voor een egalere, stralende teint,\" zegt Anna De La Cruz, VP of Product Development.</p>",
             "page": ""
           }
         },
@@ -348,7 +357,7 @@
           "settings": {
             "heading": "VERANDERT VITAMINE C DE KLEUR VAN DE HUID?",
             "icon": "check_mark",
-            "row_content": "<p>\"Sommige vitamine C-serums kunnen oxideren op de huid, wat kan leiden tot een mogelijke oranje kleur. Om dit te voorkomen, gebruik het serum binnen 3 maanden na opening, of kies voor een stabielere vitamine C-formule zoals onze C-Shield Anti-Pollution Drops,\" zegt Anna De La Cruz, VP of Product Development.<\/p>",
+            "row_content": "<p>\"Sommige vitamine C-serums kunnen oxideren op de huid, wat kan leiden tot een mogelijke oranje kleur. Om dit te voorkomen, gebruik het serum binnen 3 maanden na opening, of kies voor een stabielere vitamine C-formule zoals onze C-Shield Anti-Pollution Drops,\" zegt Anna De La Cruz, VP of Product Development.</p>",
             "page": ""
           }
         },
@@ -357,7 +366,7 @@
           "settings": {
             "heading": "KUN JE DAGELIJKS VITAMINE C HUIDVERZORGING GEBRUIKEN?",
             "icon": "check_mark",
-            "row_content": "<p>\"Ja, neem vitamine C dagelijks op in je huidverzorgingsroutine voor de beste resultaten. Het biedt antioxidante bescherming en verdedigt tegen verouderende milieustressoren, terwijl het de huid verheldert en verstevigt,\" zegt Anna De La Cruz, VP of Product Development.<\/p>",
+            "row_content": "<p>\"Ja, neem vitamine C dagelijks op in je huidverzorgingsroutine voor de beste resultaten. Het biedt antioxidante bescherming en verdedigt tegen verouderende milieustressoren, terwijl het de huid verheldert en verstevigt,\" zegt Anna De La Cruz, VP of Product Development.</p>",
             "page": ""
           }
         },
@@ -366,7 +375,7 @@
           "settings": {
             "heading": "WAT IS HET BESTE MOMENT OM EEN VITAMINE C SERUM TE GEBRUIKEN?",
             "icon": "check_mark",
-            "row_content": "<p>\"Breng elke ochtend vitamine C druppels of serum aan op je gezicht als onderdeel van je dagelijkse huidverzorgingsritueel. Vitamine C biedt dagelijkse antioxidante bescherming en verdedigt tegen verouderende milieustressoren en schade door vrije radicalen,\" zegt Anna De La Cruz, VP of Product Development.<\/p>",
+            "row_content": "<p>\"Breng elke ochtend vitamine C druppels of serum aan op je gezicht als onderdeel van je dagelijkse huidverzorgingsritueel. Vitamine C biedt dagelijkse antioxidante bescherming en verdedigt tegen verouderende milieustressoren en schade door vrije radicalen,\" zegt Anna De La Cruz, VP of Product Development.</p>",
             "page": ""
           }
         }

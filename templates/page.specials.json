@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -20,7 +20,7 @@
     "28b40d9a-d7b8-4bc8-8b74-79aa66beb64d": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"lanceringen\"\/>",
+        "custom_liquid": "<div id=\"lanceringen\"/>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -29,48 +29,48 @@
     "f6b56644-2574-4e00-8752-bd14ce7b7e25": {
       "type": "highlight",
       "blocks": {
-        "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7": {
+        "0bf05740-800b-4b9b-894b-61d5ce06cc68": {
           "type": "highlight",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Lip_Launches_portrait.jpg",
-            "image_title": "Conditioning Lipgloss",
+            "image": "shopify://shop_images/GSB-SpotTreatConcealer-Collection-2-0225.jpg",
+            "image_title": "Spot Treatment Concealer",
             "image_subtitle": "Meer info",
-            "highlight_url": "shopify:\/\/collections\/gloss"
-          }
-        },
-        "19d36a42-b3ad-400c-a700-19a089c1648f": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Lipstick_launch.jpg",
-            "image_title": "Satin Lipstick",
-            "image_subtitle": "Meer info",
-            "highlight_url": "shopify:\/\/collections\/lip-lipstick"
+            "highlight_url": "shopify://collections/face-conceal"
           }
         },
         "caafd9d2-7a97-44ba-bff8-b9e226b70128": {
           "type": "highlight",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pdp_stylized_cream-blush-sticks_1000x1000_5ceeb245-b89e-463c-864d-7f758bf8e886.jpg",
-            "image_title": "Cream Blush Sticks",
+            "image": "shopify://shop_images/LuminousSettingPowder_ShadeExpansion_Collection_1.png",
+            "image_title": "Luminous Setting Powder",
             "image_subtitle": "Meer info",
-            "highlight_url": "shopify:\/\/collections\/cream-blush-stick"
+            "highlight_url": "shopify://collections/face-set"
           }
         },
-        "0bf05740-800b-4b9b-894b-61d5ce06cc68": {
+        "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7": {
           "type": "highlight",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_GSB-AcneCollection-IntlCollection-0324.jpg",
-            "image_title": "Acné collection",
+            "image": "shopify://shop_images/GSB-CreamStayShadowStick_LunaWickerCanvas_1124_2a18968f-27e3-4838-ba94-d97f8c8fd19d.jpg",
+            "image_title": "Nieuwe kleuren Cream Stay Shadow Sticks - Canvas, Luna & Wicker",
             "image_subtitle": "Meer info",
-            "highlight_url": "shopify:\/\/collections\/clarify-balance"
+            "highlight_url": "shopify://collections/eye-eye-shadow"
+          }
+        },
+        "19d36a42-b3ad-400c-a700-19a089c1648f": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify://shop_images/Copy_of_GSB_LipRevival-2_1124-min.png",
+            "image_title": "Lip Revival",
+            "image_subtitle": "Meer info",
+            "highlight_url": "shopify://collections/hydrate-restore"
           }
         }
       },
       "block_order": [
-        "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7",
-        "19d36a42-b3ad-400c-a700-19a089c1648f",
+        "0bf05740-800b-4b9b-894b-61d5ce06cc68",
         "caafd9d2-7a97-44ba-bff8-b9e226b70128",
-        "0bf05740-800b-4b9b-894b-61d5ce06cc68"
+        "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7",
+        "19d36a42-b3ad-400c-a700-19a089c1648f"
       ],
       "settings": {
         "title": "Lanceringen",
@@ -85,7 +85,7 @@
     "dfe4c76b-96ef-49eb-a482-b9fe39ba9659": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"limited-editions\"\/>",
+        "custom_liquid": "<div id=\"limited-editions\"/>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -105,7 +105,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
         "template--19294323310939__fc6a038b-7432-4952-80f1-067d9e34c140-168960152308ac3ee0-2": {
@@ -140,13 +140,12 @@
       "blocks": {
         "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-0": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/23Jul-HP-Meltproof-Block.jpg",
-            "title": "heading",
-            "text": "<p>Sample description text<\/p>",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/pages\/blog",
+            "image": "shopify://shop_images/GSB_Holiday2025-FullCollection.jpg",
+            "title": "Holiday Kits 2025",
+            "text": "<p>New</p>",
+            "link_label": "Meer Info",
+            "link": "shopify://collections/holiday-2025",
             "bg_color": "#000000",
             "bg_opacity": 30
           }
@@ -154,11 +153,11 @@
         "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bio_Renew-EGF-Cell-Repairing-Facial5.png",
+            "image": "shopify://shop_images/Bio_Renew-EGF-Cell-Repairing-Facial5.png",
             "title": "Bio Renew EGF Cell Repairing Box",
             "text": "",
             "link_label": "Meer info",
-            "link": "shopify:\/\/products\/888-10-bio-renew-egf-cell-repairing-facial-limited-edition",
+            "link": "shopify://products/888-10-bio-renew-egf-cell-repairing-facial-limited-edition",
             "bg_color": "#000000",
             "bg_opacity": 30
           }
@@ -166,11 +165,11 @@
         "2fc92817-1265-4478-8cf7-5f7170c36be2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/GSB_Holiday2024-StoriesCrop-DailyAntioxidantPowerDuo-min.jpg",
-            "title": "Holliday Kits 24",
-            "text": "",
+            "image": "shopify://shop_images/EverydayEffortlessBeautyKit_noshadow.jpg",
+            "title": "Everyday Effortless Beauty Kit",
+            "text": "<p>New</p>",
             "link_label": "Meer info",
-            "link": "shopify:\/\/collections\/holiday-24",
+            "link": "shopify://collections/limited-edition-everyday-effortless-beauty-kit",
             "bg_color": "#000000",
             "bg_opacity": 30
           }
@@ -194,7 +193,7 @@
     "fe0ab6ac-31d7-4360-813c-b9e11d1aa500": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"bestsellers\"\/>",
+        "custom_liquid": "<div id=\"bestsellers\"/>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -263,7 +262,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/22Jul-HP-luminous-collection-opt2-Block.jpg",
+        "image": "shopify://shop_images/22Jul-HP-luminous-collection-opt2-Block.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",

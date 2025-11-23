@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -22,7 +31,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Make-up kwasten zijn essentieel om een perfecte look te creëren. <\/p>",
+            "text": "<p>Make-up kwasten zijn essentieel om een perfecte look te creëren. </p>",
             "text_style": "body"
           }
         },
@@ -40,7 +49,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/holidaybrush6-480x480.png",
+        "image": "shopify://shop_images/holidaybrush6-480x480.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -79,7 +88,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"readmore\"\/>",
+        "custom_liquid": "<div id=\"readmore\"/>",
         "color_scheme": "background-1",
         "padding_top": 80,
         "padding_bottom": 0
@@ -99,7 +108,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.<\/p>"
+            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.</p>"
           }
         },
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1": {
@@ -137,7 +146,7 @@
           "disabled": true,
           "settings": {
             "title": "",
-            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
+            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!</p>",
             "link_label": "",
             "link": ""
           }
@@ -146,7 +155,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Het vinden van de juiste make-upkwast is cruciaal voor je make-up routine. Ontdek tips voor het kiezen van de juiste make-up kwast en het gebruik ervan.<\/p>",
+            "text": "<p>Het vinden van de juiste make-upkwast is cruciaal voor je make-up routine. Ontdek tips voor het kiezen van de juiste make-up kwast en het gebruik ervan.</p>",
             "link_label": "",
             "link": ""
           }
@@ -156,7 +165,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -193,7 +202,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/holidaybrush6-480x480.png",
+            "image": "shopify://shop_images/holidaybrush6-480x480.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -205,7 +214,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ontwerp_zonder_titel_79.png",
+            "image": "shopify://shop_images/1_2_de4b8731-743b-4e25-b24d-cd3e1c2b87a2.webp",
             "title": "",
             "text": "",
             "link_label": "",
@@ -231,11 +240,10 @@
     },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
-      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "blog": "at-home-peelings",
+        "blog": "news",
         "post_limit": 3,
         "columns_desktop": 3,
         "color_scheme": "background-1",
@@ -256,7 +264,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Ontdek onze professionele kwasten en hulpmiddelen die je nodig hebt om je make-up aan te brengen, op te bouwen, te mengen en te blenden . <br\/><br\/>Hoewel vingers en make-up sponzen geweldig kunnen zijn voor sommige effecten, heb je voor een echt precieze applicatie en nog meer artistieke flair de juiste make-  nodig. <br\/><br\/>Van smokey eyes of winged oogschaduw tot een perfecte basis en natuurlijke contouring, wees creatief met onze verfijnde, veganistische en diervriendelijke make-up .<\/p>",
+            "text": "<p>Ontdek onze professionele kwasten en hulpmiddelen die je nodig hebt om je make-up aan te brengen, op te bouwen, te mengen en te blenden . <br/><br/>Hoewel vingers en make-up sponzen geweldig kunnen zijn voor sommige effecten, heb je voor een echt precieze applicatie en nog meer artistieke flair de juiste make-  nodig. <br/><br/>Van smokey eyes of winged oogschaduw tot een perfecte basis en natuurlijke contouring, wees creatief met onze verfijnde, veganistische en diervriendelijke make-up .</p>",
             "link_label": "",
             "link": ""
           }
@@ -265,7 +273,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Voor je dagelijkse basis bevelen we je de  Dual Fiber Face Brush aan voor een transparante applicatie, de Flat Top Kabuki Brush en Dual Fiber Cheek Brush voor een medium dekking, en voor een volledige dekking mag de Pro Kabuki Brush niet ontbreken. <br\/><br\/>Een alles-in-één optie voor het aanbrengen van concealer en andere perfecties is de Dual Foundation\/Camouflage Brush, terwijl de Tapered Setting Powder Brush ideaal is om je make-up te fixeren. Afhankelijk van de ooglook die je wilt creëren, is de Eye Base Brush een goede allrounder, terwijl de Detail Shader Brush precisie biedt. <br\/><br\/>Mix en match om je ideale kit samen te stellen, of ga voor de volledige collectie. En vergeet niet om je kwasten regelmatig schoon te maken. <\/p>",
+            "text": "<p>Voor je dagelijkse basis bevelen we je de  Dual Fiber Face Brush aan voor een transparante applicatie, de Flat Top Kabuki Brush en Dual Fiber Cheek Brush voor een medium dekking, en voor een volledige dekking mag de Pro Kabuki Brush niet ontbreken. <br/><br/>Een alles-in-één optie voor het aanbrengen van concealer en andere perfecties is de Dual Foundation/Camouflage Brush, terwijl de Tapered Setting Powder Brush ideaal is om je make-up te fixeren. Afhankelijk van de ooglook die je wilt creëren, is de Eye Base Brush een goede allrounder, terwijl de Detail Shader Brush precisie biedt. <br/><br/>Mix en match om je ideale kit samen te stellen, of ga voor de volledige collectie. En vergeet niet om je kwasten regelmatig schoon te maken. </p>",
             "link_label": "",
             "link": ""
           }

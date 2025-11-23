@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -22,7 +31,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Concealers zijn onze go-to producten om onvolkomenheden zoals acne, puistjes, roodheid of donkere kringen te corrigeren voor een egalere teint. Of het nu vloeibaar of crème is, ontdek onze minerale make-up concealers.<\/p>",
+            "text": "<p>Concealers zijn onze go-to producten om onvolkomenheden zoals acne, puistjes, roodheid of donkere kringen te corrigeren voor een egalere teint. Of het nu vloeibaar of crème is, ontdek onze minerale make-up concealers.</p>",
             "text_style": "body"
           }
         },
@@ -40,7 +49,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Concealer_Desktop_1.jpg",
+        "image": "shopify://shop_images/Concealer_Desktop_1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -79,7 +88,7 @@
     "3d8284ff-0eae-4d7a-a133-fe6b433aba4b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"readmore\"\/>",
+        "custom_liquid": "<div id=\"readmore\"/>",
         "color_scheme": "background-1",
         "padding_top": 80,
         "padding_bottom": 0
@@ -99,7 +108,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.<\/p>"
+            "text": "<p>Verbeter de algehele helderheid van je huid wanneer je onze tips voor hyperpigmentatiebehandeling volgt. Vind de juiste producten om te helpen bij jouw zorgen over donkere vlekken. Leer hieronder hoe je de beste producten voor hyperpigmentatiebehandeling kunt vinden.</p>"
           }
         },
         "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1": {
@@ -137,7 +146,7 @@
           "disabled": true,
           "settings": {
             "title": "",
-            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!<\/p>",
+            "text": "<p>Wat voor huidprobleem je ook wilt corrigeren, glo Skin Beauty heeft verschillende oplossingen in de vorm van drops & serums om jouw huid te ondersteunen waar deze het meest nodig heeft!</p>",
             "link_label": "",
             "link": ""
           }
@@ -146,7 +155,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Verberg moeiteloos ongewenste probleemgebieden met een minerale make-up concealer. Zeg vaarwel tegen donkere vlekken en puistjes met concealers van glo Skin Beauty. Leer hoe je een concealer aanbrengt om eventuele onvolkomenheden te verbergen met behulp van de producten hieronder<\/p>",
+            "text": "<p>Verberg moeiteloos ongewenste probleemgebieden met een minerale make-up concealer. Zeg vaarwel tegen donkere vlekken en puistjes met concealers van glo Skin Beauty. Leer hoe je een concealer aanbrengt om eventuele onvolkomenheden te verbergen met behulp van de producten hieronder</p>",
             "link_label": "",
             "link": ""
           }
@@ -156,7 +165,7 @@
           "disabled": true,
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -193,7 +202,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Concealer_Desktop_1_1_1.jpg",
+            "image": "shopify://shop_images/GloSkinBeauty-LuminousBrighteningConcealers-0622.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -205,7 +214,7 @@
         "template--19336998977883__c9055c65-600f-45a6-ac53-403f9f1e9f1f-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/71k-6H61F-L._SS400__1.jpg",
+            "image": "shopify://shop_images/GloSkinBeauty-LuminousBrighteningConcealers-Swatches-0622.jpg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -231,12 +240,11 @@
     },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
       "type": "featured-blog",
-      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "blog": "at-home-peelings",
-        "post_limit": 3,
+        "blog": "spot-treatment-concealer",
+        "post_limit": 2,
         "columns_desktop": 3,
         "color_scheme": "background-1",
         "show_image": true,
@@ -256,7 +264,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Concealers vormen de ruggengraat van de meeste make-up rituelen. Zelfs als je geen volledige foundation gebruikt, kan slechts een vleugje concealer op die onvolkomenheden een wereld van verschil maken. <br\/><br\/>Van een volledige dekking tot een meer natuurlijke transparante concealer, wat de behoeften van jouw huid ook zijn, ons assortiment concealers biedt een dekkende textuur en tint voor iedereen.<\/p>",
+            "text": "<p>Concealers vormen de ruggengraat van de meeste make-up rituelen. Zelfs als je geen volledige foundation gebruikt, kan slechts een vleugje concealer op die onvolkomenheden een wereld van verschil maken. <br/><br/>Van een volledige dekking tot een meer natuurlijke transparante concealer, wat de behoeften van jouw huid ook zijn, ons assortiment concealers biedt een dekkende textuur en tint voor iedereen.</p>",
             "link_label": "",
             "link": ""
           }
@@ -265,7 +273,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Al onze concealers zijn minerale make-up, dus ze zijn geschikt voor de gevoelige huid, en ze zijn verrijkt met huidverzorgende ingrediënten zoals vitamine C en E om de teint te verzorgen terwijl ze camoufleren. <br\/><br\/>Perfect om de teint te egaliseren en eventuele oneffenheden te verbergen, maskeren concealers verschillende problemen zoals, puistjes, roodheid, donkere kringen, donkere vlekken of andere ongewenste kleur of pigmentatie. <br\/><br\/>Door het verzachten van de verschijning van fijne lijntjes verbeteren onze concealers de algehele uitstraling van de huid en voegen ze ook een subtiele highlight toe.<br\/>Onze concealers zijn zo veelzijdig dat je, afhankelijk van de look die je wilt creëren, ze op zichzelf kunt dragen als basis, in combinatie met een primer, met een vochtinbrengende zonbeschermende tint, of met een volledige dekkende foundation.<\/p>",
+            "text": "<p>Al onze concealers zijn minerale make-up, dus ze zijn geschikt voor de gevoelige huid, en ze zijn verrijkt met huidverzorgende ingrediënten zoals vitamine C en E om de teint te verzorgen terwijl ze camoufleren. <br/><br/>Perfect om de teint te egaliseren en eventuele oneffenheden te verbergen, maskeren concealers verschillende problemen zoals, puistjes, roodheid, donkere kringen, donkere vlekken of andere ongewenste kleur of pigmentatie. <br/><br/>Door het verzachten van de verschijning van fijne lijntjes verbeteren onze concealers de algehele uitstraling van de huid en voegen ze ook een subtiele highlight toe.<br/>Onze concealers zijn zo veelzijdig dat je, afhankelijk van de look die je wilt creëren, ze op zichzelf kunt dragen als basis, in combinatie met een primer, met een vochtinbrengende zonbeschermende tint, of met een volledige dekkende foundation.</p>",
             "link_label": "",
             "link": ""
           }
@@ -303,7 +311,7 @@
           "settings": {
             "heading": "WAARVOOR GEBRUIK JE GELE CONCEALER?",
             "icon": "heart",
-            "row_content": "<p>\"Een gele concealer helpt om ongewenste roze of rode tinten op de huid te corrigeren en te neutraliseren. Gele tinten zijn ideaal als concealer voor acne,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
+            "row_content": "<p>\"Een gele concealer helpt om ongewenste roze of rode tinten op de huid te corrigeren en te neutraliseren. Gele tinten zijn ideaal als concealer voor acne,\" zegt Janeena Rumsey, Global Artistry Lead.</p>",
             "page": ""
           }
         },
@@ -312,7 +320,7 @@
           "settings": {
             "heading": "WAT MOET EERST WORDEN AANGEBRACHT, CONCEALER OF FOUNDATION?",
             "icon": "check_mark",
-            "row_content": "<p>\"Color correcting concealers moeten onder de foundation worden aangebracht. Een volledig dekkende concealer die overeenkomt met de teint kan onder of boven de foundation worden aangebracht. Een concealer die wordt gebruikt om op te lichten of te highlighten, kan bovenop de foundation worden aangebracht,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
+            "row_content": "<p>\"Color correcting concealers moeten onder de foundation worden aangebracht. Een volledig dekkende concealer die overeenkomt met de teint kan onder of boven de foundation worden aangebracht. Een concealer die wordt gebruikt om op te lichten of te highlighten, kan bovenop de foundation worden aangebracht,\" zegt Janeena Rumsey, Global Artistry Lead.</p>",
             "page": ""
           }
         },
@@ -321,7 +329,7 @@
           "settings": {
             "heading": "WELKE CONCEALER IS HET BESTE VOOR ALLE HUIDTYPES?",
             "icon": "check_mark",
-            "row_content": "<p>\"Een lichtgewicht, romige, opbouwbare, natuurlijke minerale concealer is geschikt voor alle huidtypes, zelfs de gevoelige huid,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
+            "row_content": "<p>\"Een lichtgewicht, romige, opbouwbare, natuurlijke minerale concealer is geschikt voor alle huidtypes, zelfs de gevoelige huid,\" zegt Janeena Rumsey, Global Artistry Lead.</p>",
             "page": ""
           }
         },
@@ -330,7 +338,7 @@
           "settings": {
             "heading": "WAT IS DE GEZONDSTE CONCEALER?",
             "icon": "check_mark",
-            "row_content": "<p>\"De gezondste vormen van concealer zijn geformuleerd met ingrediënten die goed zijn voor de huid, zoals vitamines, antioxidanten en extra hydratatie. Je vindt al die ingrediënten terug in onze minerale concealers,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
+            "row_content": "<p>\"De gezondste vormen van concealer zijn geformuleerd met ingrediënten die goed zijn voor de huid, zoals vitamines, antioxidanten en extra hydratatie. Je vindt al die ingrediënten terug in onze minerale concealers,\" zegt Janeena Rumsey, Global Artistry Lead.</p>",
             "page": ""
           }
         },
@@ -339,7 +347,7 @@
           "settings": {
             "heading": "WAAROM LIJKT MIJN CONCEALER ONDER DE OGEN DROOG?",
             "icon": "check_mark",
-            "row_content": "<p>\"De delicate huid rond de ogen kan tekenen van uitdroging en fijne lijntjes vertonen. Om er fris uit te zien, hydrateer je de huid met een oogcrème of serum en breng je vervolgens een concealer onder de ogen aan. Wat is concealer make-up? Concealers kunnen vloeibaar of crème zijn en bieden een scala aan opbouwbare dekking, en ze kunnen ook oplichten en highlighten,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
+            "row_content": "<p>\"De delicate huid rond de ogen kan tekenen van uitdroging en fijne lijntjes vertonen. Om er fris uit te zien, hydrateer je de huid met een oogcrème of serum en breng je vervolgens een concealer onder de ogen aan. Wat is concealer make-up? Concealers kunnen vloeibaar of crème zijn en bieden een scala aan opbouwbare dekking, en ze kunnen ook oplichten en highlighten,\" zegt Janeena Rumsey, Global Artistry Lead.</p>",
             "page": ""
           }
         },
@@ -348,7 +356,7 @@
           "settings": {
             "heading": "WAT KAN IK GEBRUIKEN OM CONCEALER TE BLENDEN?",
             "icon": "check_mark",
-            "row_content": "<p>\"Voor grotere delen van het gezicht blend je concealer met een spons of een foundationkwast. Voor kleinere gebieden of om plaatselijk te camoufleren, gebruik je een kleine, ronde of platte concealerkwast. Als je je afvraagt wat concealer make-up is, het kan vloeibaar of crème zijn en kan worden gebruikt om donkere schaduwen of onvolkomenheden te verbergen, voor een egalere huidskleur,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
+            "row_content": "<p>\"Voor grotere delen van het gezicht blend je concealer met een spons of een foundationkwast. Voor kleinere gebieden of om plaatselijk te camoufleren, gebruik je een kleine, ronde of platte concealerkwast. Als je je afvraagt wat concealer make-up is, het kan vloeibaar of crème zijn en kan worden gebruikt om donkere schaduwen of onvolkomenheden te verbergen, voor een egalere huidskleur,\" zegt Janeena Rumsey, Global Artistry Lead.</p>",
             "page": ""
           }
         },
@@ -357,7 +365,7 @@
           "settings": {
             "heading": "WAAROM BLIJFT MIJN CONCEALER NIET ZITTEN?",
             "icon": "check_mark",
-            "row_content": "<p>\"Om de concealer soepel en langdurig aan te brengen, helpt het om de concealer te fixeren met een setting powder en setting spray om de draagtijd van de concealer gedurende de dag te verlengen,\" zegt Janeena Rumsey, Global Artistry Lead.<\/p>",
+            "row_content": "<p>\"Om de concealer soepel en langdurig aan te brengen, helpt het om de concealer te fixeren met een setting powder en setting spray om de draagtijd van de concealer gedurende de dag te verlengen,\" zegt Janeena Rumsey, Global Artistry Lead.</p>",
             "page": ""
           }
         }

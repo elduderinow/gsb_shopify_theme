@@ -12,31 +12,14 @@
     "a9132cbf-2ea9-4bb0-96e9-1e58e1371a27": {
       "type": "slideshow",
       "blocks": {
-        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Copy_of_GSB_EGFLaunch25-Bio-RenewEGFEyeCream_Bio-RenewEGFNeckCream_0924-min_1.jpg",
-            "heading": "Coming soon...",
-            "heading_size": "h2",
-            "color_option_id": "#ffffff",
-            "subheading": "",
-            "subheading_size": "h5",
-            "button_label": "Shop Now",
-            "link": "shopify://products/0000-6-petal-pairings-kits-2x3-stuks",
-            "box_align": "bottom-left",
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "text_alignment_mobile": "center"
-          }
-        },
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Lip_launches_landscape.jpg",
-            "heading": "New Satin Lipstick & Conditioning Lipgloss",
+            "image": "shopify://shop_images/GSB_Holiday2025-FullCollection.jpg",
+            "heading": "<strong>Limited Edition</strong>",
             "heading_size": "h2",
-            "color_option_id": "#ffffff",
-            "subheading": "",
+            "color_option_id": "#727272",
+            "subheading": "<em>Holiday Kits 25'</em>",
             "subheading_size": "h5",
             "button_label": "Zoek een Professional",
             "link": "shopify://pages/store-locator",
@@ -49,14 +32,31 @@
         "9eaf1a1a-60b6-45da-b983-20c7c7f5d573": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/pdp_stylized_cream-blush-sticks_1000x1000_d550ad52-9f67-458d-b00c-61a95fcff842.jpg",
-            "heading": "New Cream Blush Sticks",
+            "image": "shopify://shop_images/GSB-SpotTreatConcealer-Collection-0225.jpg",
+            "heading": "<strong>Nieuw in ons assortiment!</strong>",
             "heading_size": "h2",
-            "color_option_id": "#ffffff",
-            "subheading": "",
+            "color_option_id": "#727272",
+            "subheading": "<em>Spot Treatment Concealer </em>",
             "subheading_size": "h5",
-            "button_label": "Shop Now",
+            "button_label": "Zoek een Professional",
             "link": "shopify://collections/face-prime",
+            "box_align": "bottom-left",
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/LuminousSettingPowder_ShadeExpansion_Collection_1.png",
+            "heading": "<strong>Nieuw in ons assortiment!</strong>",
+            "heading_size": "h2",
+            "color_option_id": "#727272",
+            "subheading": "<em>Luminous Setting Powder </em>",
+            "subheading_size": "h5",
+            "button_label": "Zoek een Professional",
+            "link": "shopify://products/0000-6-petal-pairings-kits-2x3-stuks",
             "box_align": "bottom-left",
             "text_alignment": "left",
             "image_overlay_opacity": 0,
@@ -65,9 +65,9 @@
         }
       },
       "block_order": [
-        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1",
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0",
-        "9eaf1a1a-60b6-45da-b983-20c7c7f5d573"
+        "9eaf1a1a-60b6-45da-b983-20c7c7f5d573",
+        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -75,7 +75,7 @@
         "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
@@ -164,7 +164,7 @@
         "83e4fc1d-b68e-4194-9d39-fd375c930bf1": {
           "type": "highlight",
           "settings": {
-            "image": "shopify://shop_images/Serums_Desktop.webp",
+            "image": "shopify://shop_images/GSB_SerumCollection_1223-colorbg.jpg",
             "image_title": "Drops & Serums",
             "image_subtitle": "",
             "highlight_url": "shopify://collections/serums"

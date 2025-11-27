@@ -130,13 +130,14 @@
           "type": "heading",
           "settings": {
             "heading": "Ons verhaal",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
         "heading_tbgtCn"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -175,7 +176,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "",
+        "title": "Ons verhaal",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",

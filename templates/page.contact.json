@@ -123,6 +123,77 @@
         "section_width": "full_width"
       }
     },
+    "rich_text_EkHbTb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tbgtCn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ons verhaal",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tbgtCn"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_R7wMPr": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FCq944": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Bij glo Skin Beauty geloven we dat huidverzorging zelfzorg is en dat de producten die je dagelijks gebruikt een aanzienlijk verschil moeten maken voor je gezondheid en welzijn. glo Skin Beauty doet doorgedreven onderzoek naar formuleringen om bewust clean & klinisch bewezen huidverzorgingsproducten en cosmetica samen te stellen, aangedreven door next-generation werkzame stoffen, die échte verandering teweegbrengen aan je huid.<br/><br/>De professionele achtergrond en samenwerkingen met dermatologen betekenen dat glo Skin Beauty zich aan de hoogste normen houdt om baanbrekende producten te leveren met klinisch geteste, transformerende resultaten.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zFnLpU": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_FCq944",
+        "column_zFnLpU"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "icon__grid": false,
+        "column_alignment": "left",
+        "item_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "custom_liquid_Ct6nrU": {
       "type": "custom-liquid",
       "settings": {
@@ -257,49 +328,6 @@
         "padding_bottom": 36,
         "section_width": "boxed"
       }
-    },
-    "rich_text_EkHbTb": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_tbgtCn": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text_9zkDfN": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_jbYYaA": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_tbgtCn",
-        "text_9zkDfN",
-        "button_jbYYaA"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -307,6 +335,7 @@
     "5d688b20-f395-42fc-9b72-c2701c406c1c",
     "6b66fa65-45ce-4fe8-bcbb-2d826436d3ea",
     "rich_text_EkHbTb",
+    "multicolumn_R7wMPr",
     "custom_liquid_Ct6nrU",
     "76e018a9-a272-4cf6-95ae-b681d737749c",
     "form",

@@ -1,5 +1,5 @@
 {% if shop.metafields.wcp_status.wcp_status != 'disabled' and cart.item_count > 0 and customer.tags.size > 0 %}
-<style>  #wcp-discount-code{  margin-right: 10px;  }  .DiscointCodeSuccess{  	color:#006400;  }  .DiscointCodeInvalid{  color:#8b0000;  }</style>
+<style>  #wcp-discount-code{  margin-right: 10px;  }  .DiscointCodeSuccess{  	color:#006400;  }  .DiscointCodeInvalid{  color:#8b0000;  } .vd-success{color:#006400;margin: 10px 0 0px 0;display: block;} .vd-next-tier-message{color: maroon;display: block;margin: 10px 0 -20px 0;}</style>
 
 <script>
  //var domain = "https://wholesalehelper.io/wpd/root.php?f=";
@@ -202,6 +202,7 @@ reqJquery(function($){
       localStorage.setItem('wpd_integration_fbt_bundle','');
       console.log(window.wcp_data);     
       window.wcp_data.market_country = window.Shopify.country;
+      window.wcp_data.channel = "storefront";
       $.ajax({
         contentType: "application/json; charset=utf-8", 
         dataType: "json",
@@ -242,7 +243,7 @@ reqJquery(function($){
               }
               setTimeout(function(){
                 wcpClearCart();
-                checkInvoiceAvailability(orderRedirectUrl,1);                    
+                window.location.href = orderRedirectUrl;
               },window.wpd_checkout_redirect_delay);
             } else {
               wcpClearCart();
@@ -268,7 +269,7 @@ reqJquery(function($){
           method: "GET",
           credentials: "same-origin",
       }).then((response) => {
-          if(response.status != 200 && tryCount < 15){
+          if(response.status != 200 && tryCount < 5){
               setTimeout(function(){tryCount++; checkInvoiceAvailability(url,tryCount)},1000);
           }else{
               draftAPIRequestProcessing = false;
@@ -498,6 +499,36 @@ reqJquery(function($){
       }
       $("#wcp-wcpModal-container #net-30-summary").html(data.net_30_html);
       window.net_30_data = data;
+
+      if(wpdNetVersion == 2){
+        document.getElementById("wpdCartBasedVDWrapper").style.display = "none";
+      }
+      $(".vd-success").remove();
+      $(".vd-next-tier-message").remove();
+      if (data.cbvd_discount_message != undefined) {
+        let messageHTML = "<span class='vd-success'>" + data.cbvd_discount_message;
+        if (data.cbvd_next_tier_message != undefined) {
+          messageHTML += " " + data.cbvd_next_tier_message;
+        }
+        messageHTML += "</span>";
+        $(".additional-notes").prepend(messageHTML);
+        if(wpdNetVersion == 2){
+          document.getElementById("wpdCartBasedVDMessage").innerHTML = messageHTML;
+          document.getElementById("wpdCartBasedVDMessage").classList.add("success");        
+          document.getElementById("wpdCartBasedVDValue").innerHTML = "-" + data.cbvd_discount_amount;
+          document.getElementById("wpdCartBasedVDWrapper").style.display = "flex";
+        }
+      } else {
+        if (data.cbvd_next_tier_message != undefined) {
+          let messageHTML = "<span class='vd-next-tier-message'>" + data.cbvd_next_tier_message+ "</span>";
+          $(".additional-notes").prepend(messageHTML);   
+          if(wpdNetVersion == 2){
+            document.getElementById("wpdCartBasedVDMessage").innerHTML = messageHTML;
+            document.getElementById("wpdCartBasedVDMessage").classList.add("info");          
+          }
+        }
+      }
+
     });
   }
 
@@ -584,7 +615,7 @@ var fnCalled = false;
    	  {% include 'wcp_vd_discount' with item %}
         window.wcp_data.wcp_cart.active_tags.push("{{p_discount_tag}}")
                                                   
-       {% unless p_discount_tag == blank  %}                                                        
+       {% if p_discount_tag != blank or v_discount_tag != blank %}                                                        
          if(!isWPDTagValueAvailableInArray(window.wcp_data.wcp_cart.ApplyDiscountDetails,"{{p_discount_tag}}","{{p_discount_value}}","{{v_discount_tag}}")){         
          window.wcp_data.wcp_cart.ApplyDiscountDetails.push({
             "value":"{% if v_discount_tag %}{{ wcp_v_price | divided_by: 100.0 }}{% else %}{{p_discount_value}}{% endif %}",
@@ -592,7 +623,7 @@ var fnCalled = false;
             "is_individual_price":"{% if v_discount_tag %}true{% else %}false{% endif %}",                        
          });       
        }
-      {% endunless %}
+      {% endif %}
       {% if set_price or wcp_discount_value < 1 or p_discount_value == 0 %}		
 
         {% if wcp_v_price > item.final_price %}
@@ -731,6 +762,7 @@ var fnCalled = false;
       }
 	 localStorage.setItem('wpd_integration_fbt_bundle','');
     //change button to loading or spinner
+    wcp_data.channel = "storefront";
     $.ajax({
       contentType: "application/json; charset=utf-8",
       
@@ -885,7 +917,7 @@ var fnCalled = false;
       var note='';
       var note_data={};
       if($(".net-notes").val() !=''){
-        note="\\r\\n\\r\\n Notes: "+ $(".net-notes").val();
+        note="Notes: "+ $(".net-notes").val();
         note_data['Notes']=$('.net-notes').val();
       }
       var wcp_required=false;
@@ -906,7 +938,7 @@ var fnCalled = false;
                
     	    }
           if(window.wpdNetremoveAttributes == undefined || !window.wpdNetremoveAttributes.includes('Billing_Email')){
-            note=note+ '\\r\\n\\r\\n Billing Email:  '+wcpbillingEmail.val();
+            note=note+ '\nBilling Email:  '+wcpbillingEmail.val();
             note_data['Billing_Email']=wcpbillingEmail.val();
           }
         }else{
@@ -929,7 +961,7 @@ var fnCalled = false;
       	  wcp_required=true;        
       }else{
         if(window.wpdNetremoveAttributes == undefined || !window.wpdNetremoveAttributes.includes('delivery_date')){
-           note=note +'\\r\\n\\r\\n Delivery Date: '+datepicker.val();
+           note=note +'\nDelivery Date: '+datepicker.val();
            note_data['delivery_date']=datepicker.val();
         }
       }
@@ -946,7 +978,7 @@ var fnCalled = false;
          payment.css("border-color","red");
       }else{        
         if(window.wpdNetremoveAttributes == undefined || !window.wpdNetremoveAttributes.includes('Payment_Option')){
-          note=note +'\\r\\n\\r\\n Payment Option: '+payment.val();
+          note=note +'\nPayment Option: '+payment.val();
           note_data['Payment_Option']=payment.val();
         }
       }
@@ -960,7 +992,7 @@ var fnCalled = false;
         }
         if(wcpPONo.val()!=''){
           if(window.wpdNetremoveAttributes == undefined || !window.wpdNetremoveAttributes.includes('Purchase_Order_Number')){
-           note=note+ '\\r\\n\\r\\n Purchase Order Number: '+wcpPONo.val();
+           note=note+ '\nPurchase Order Number: '+wcpPONo.val();
            note_data['Purchase_Order_Number']=wcpPONo.val();
           }
         }
@@ -973,7 +1005,7 @@ var fnCalled = false;
         }
         if(wcpUPSNo.val()!=''){
          if(window.wpdNetremoveAttributes == undefined || !window.wpdNetremoveAttributes.includes('UPS_Shipping_Account_Number')){
-          note=note+ '\\r\\n\\r\\n UPS Shipping Account Number: '+wcpUPSNo.val();
+          note=note+ '\nUPS Shipping Account Number: '+wcpUPSNo.val();
           note_data['UPS_Shipping_Account_Number']=wcpUPSNo.val();
          }
         }
@@ -986,7 +1018,7 @@ var fnCalled = false;
         }
         if(wcpShippingInst.val()!=''){
          if(window.wpdNetremoveAttributes == undefined || !window.wpdNetremoveAttributes.includes('Shipping_Instructions')){
-          note=note+ '\\r\\n\\r\\n Shipping Instructions:  '+wcpShippingInst.val();
+          note=note+ '\nShipping Instructions:  '+wcpShippingInst.val();
           note_data['Shipping_Instructions']=wcpShippingInst.val();
          }
         }

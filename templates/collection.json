@@ -205,32 +205,20 @@
         "heading_cj99dB": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading": "Bij de Glo Pro Academy investeren we doelgericht in kennis, ontwikkeling en professioneel succes — zodat jij met vertrouwen kan blijven groeien en jouw expertise zichtbaar kan versterken.",
+            "heading_size": "h2"
           }
         },
         "text_6WztyC": {
           "type": "text",
           "settings": {
-            "text": "<p>Bij de xxx Academy investeren we doelgericht in kennis, ontwikkeling en professioneel succes — zodat jij met vertrouwen kan blijven groeien en jouw expertise zichtbaar kan versterken.</p>"
-          }
-        },
-        "button_jWgicx": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": ""
           }
         }
       },
       "block_order": [
         "heading_cj99dB",
-        "text_6WztyC",
-        "button_jWgicx"
+        "text_6WztyC"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -246,11 +234,11 @@
   "order": [
     "banner",
     "92602d36-7d25-4028-b9d9-a36860448447",
+    "rich_text_NLh4Vn",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "product-grid",
     "358af34e-a004-4152-8299-a8caacd66f78",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
-    "8435cf60-b8fb-4075-a821-d7d78554ac50",
-    "rich_text_NLh4Vn"
+    "8435cf60-b8fb-4075-a821-d7d78554ac50"
   ]
 }

@@ -123,6 +123,78 @@
         "section_width": "full_width"
       }
     },
+    "rich_text_EkHbTb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tbgtCn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ons verhaal",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tbgtCn"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_R7wMPr": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_FCq944": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Bij glo Skin Beauty geloven we dat huidverzorging zelfzorg is en dat de producten die je dagelijks gebruikt een aanzienlijk verschil moeten maken voor je gezondheid en welzijn. glo Skin Beauty doet doorgedreven onderzoek naar formuleringen om bewust clean & klinisch bewezen huidverzorgingsproducten en cosmetica samen te stellen, aangedreven door next-generation werkzame stoffen, die échte verandering teweegbrengen aan je huid.<br/><br/>De professionele achtergrond en samenwerkingen met dermatologen betekenen dat glo Skin Beauty zich aan de hoogste normen houdt om baanbrekende producten te leveren met klinisch geteste, transformerende resultaten.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zFnLpU": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Als experts op het gebied van peelings biedt glo Skin Beauty de meest uitgebreide collectie medische en spa-kwaliteit exfolianten en de allereerste collectie professionele peelings die uitsluitend zijn ontworpen voor thuisgebruik.<br/><br/>Door hun huidverzorgingsrituelen opnieuw vorm te geven om aan de eisen van vandaag te voldoen, respecteren ze dat elke huid uniek is. Onze gezamenlijke missie is om jou zelfzeker te maken over jouw huid en je te leren hoe jij je gelaatsverzorging afstemt op de behoeften van jouw huid!  <br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_FCq944",
+        "column_zFnLpU"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Ons verhaal",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "icon__grid": false,
+        "column_alignment": "left",
+        "item_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "custom_liquid_Ct6nrU": {
       "type": "custom-liquid",
       "settings": {
@@ -263,6 +335,8 @@
     "main",
     "5d688b20-f395-42fc-9b72-c2701c406c1c",
     "6b66fa65-45ce-4fe8-bcbb-2d826436d3ea",
+    "rich_text_EkHbTb",
+    "multicolumn_R7wMPr",
     "custom_liquid_Ct6nrU",
     "76e018a9-a272-4cf6-95ae-b681d737749c",
     "form",

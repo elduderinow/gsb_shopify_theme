@@ -31,17 +31,25 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Welkom bij de Glo Pro Academy: het kenniscentrum waar huidverbetering, schoonheid en ondernemerschap samenkomen. </p><p>Met hoogwaardige opleidingen en praktijkgerichte trainingen ondersteunen we beautyprofessionals in elke fase van hun groei.</p><p></p>",
+            "text": "<p>Welkom bij de <strong>Glo Pro Academy</strong>: het kenniscentrum waar huidverbetering, schoonheid en ondernemerschap samenkomen. </p><p>Met hoogwaardige opleidingen en praktijkgerichte trainingen ondersteunen we beautyprofessionals in elke fase van hun groei.</p><p></p>",
             "text_style": "body"
+          }
+        },
+        "button_eR9B4x": {
+          "type": "button",
+          "settings": {
+            "button_label": "Inschrijven",
+            "button_link": "#readmore"
           }
         }
       },
       "block_order": [
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1",
-        "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1"
+        "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1",
+        "button_eR9B4x"
       ],
       "settings": {
-        "image": "shopify://shop_images/22Jul-HP-luminous-collection-opt2-Block.jpg",
+        "image": "shopify://shop_images/3_3.png",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -54,6 +62,58 @@
         "padding_top": 36,
         "padding_bottom": 36,
         "section_width": "boxed"
+      }
+    },
+    "rich_text_NLh4Vn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cj99dB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bij de Glo Pro Academy investeren we doelgericht in kennis, ontwikkeling en professioneel succes — zodat jij met vertrouwen kan blijven groeien en jouw expertise zichtbaar kan versterken.",
+            "heading_size": "h2"
+          }
+        },
+        "text_6WztyC": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_cj99dB",
+        "text_6WztyC"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "product_view": "grid",
+        "section_width": "full_width",
+        "products_per_page": 24,
+        "columns_desktop": 5,
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_filtering": false,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30": {
@@ -102,27 +162,6 @@
         "section_width": "boxed"
       }
     },
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "settings": {
-        "product_view": "grid",
-        "section_width": "full_width",
-        "products_per_page": 24,
-        "columns_desktop": 5,
-        "image_ratio": "portrait",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "enable_filtering": false,
-        "filter_type": "vertical",
-        "enable_sorting": true,
-        "columns_mobile": "2",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "358af34e-a004-4152-8299-a8caacd66f78": {
       "type": "custom-liquid",
       "settings": {
@@ -130,6 +169,17 @@
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "contact_form_NMTLCz": {
+      "type": "contact-form",
+      "name": "t:sections.contact-form.presets.name",
+      "settings": {
+        "heading": "Aanvraagformulier",
+        "heading_size": "h2",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
@@ -198,46 +248,16 @@
         "padding_bottom": 80,
         "section_width": "boxed"
       }
-    },
-    "rich_text_NLh4Vn": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_cj99dB": {
-          "type": "heading",
-          "settings": {
-            "heading": "Bij de Glo Pro Academy investeren we doelgericht in kennis, ontwikkeling en professioneel succes — zodat jij met vertrouwen kan blijven groeien en jouw expertise zichtbaar kan versterken.",
-            "heading_size": "h2"
-          }
-        },
-        "text_6WztyC": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_cj99dB",
-        "text_6WztyC"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "banner",
     "92602d36-7d25-4028-b9d9-a36860448447",
     "rich_text_NLh4Vn",
-    "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "product-grid",
+    "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "358af34e-a004-4152-8299-a8caacd66f78",
+    "contact_form_NMTLCz",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
     "8435cf60-b8fb-4075-a821-d7d78554ac50"
   ]

@@ -4,6 +4,7 @@
 {% for t in customer.tags %}
 {% assign tag = t | downcase %}
 {% if tag == 'b2b' %}{% assign elcTag1 = true %}{% endif %}
+{% if tag == 'prospect' %}{% assign elcTag2 = true %}{% endif %}
 {% endfor %}
 {% for t in easylockdown_filter_collections.tags %}
 {% assign tag = t | downcase %}

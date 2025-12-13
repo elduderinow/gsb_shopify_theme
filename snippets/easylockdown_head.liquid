@@ -6,8 +6,8 @@
 {% assign easylockdownNow = 'now' | date:'%s' | times: 1 %}{% assign easylockdownNowWeekDay = easylockdownNow | date:'%u' %}{% assign easylockdownNowMonthDay = easylockdownNow | date:'%d' %}{% assign easylockdownNowHM = easylockdownNow | date:'%H%M' | times: 1 %}{% if customer %}{% assign easylockdownPlacedOrder = customer.orders.first.created_at | date:'%s' %}{% assign easylockdownOldestPlacedOrder = customer.orders.last.created_at | date:'%s' %}{% assign easylockdownDateDifference = easylockdownNow | minus: easylockdownPlacedOrder %}{% endif %}
 {% for t in customer.tags %}
 {% assign tag = t | downcase %}
-{% if tag == 'prospect' %}{% assign elcTag1 = true %}{% endif %}
-{% if tag == 'b2b' %}{% assign elcTag2 = true %}{% endif %}
+{% if tag == 'b2b' %}{% assign elcTag1 = true %}{% endif %}
+{% if tag == 'prospect' %}{% assign elcTag2 = true %}{% endif %}
 {% endfor %}
 {% for t in product.tags %}
 {% assign tag = t | downcase %}
@@ -16,14 +16,6 @@
 {% if tag == 'skincare professional' %}{% assign elpTag3 = true %}{% endif %}
 {% if tag == 'beauty professional' %}{% assign elpTag4 = true %}{% endif %}
 {% endfor %}
-{% unless customer %}
-{% assign easylockdownHidePrice = true %}
-{% else %}
-{% unless elcTag1 %}
-{% assign easylockdownHidePrice = true %}
-{% endunless %}
-{% endunless %}
-
 {% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' %}
 {% assign easylockdownLockedContent = false %}
 {% assign easylockdownHiddenContent = false %}
@@ -35,7 +27,7 @@
 {% capture easylockdownPage404Message %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
 {% capture easylockdownRedirectURL %}https://gloskinbeauty.be/account/login{% endcapture %}
 {% else %}
-{% unless elcTag2 %}{% assign easylockdownON = true %}{% endunless %}
+{% unless elcTag1 %}{% assign easylockdownON = true %}{% endunless %}
 {% if easylockdownON %}
 {% assign easylockdownON = true %}
 {% capture easylockdownPage404Title %}Page not found{% endcapture %}
@@ -48,7 +40,7 @@
 {% unless customer %}
 <script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/pages/klanten-portaal"]');</script>
 {% else %}
-{% assign easylockdownHideLinks = false %}{% unless elcTag2 %}{% assign easylockdownHideLinks = true %}{% endunless %}
+{% assign easylockdownHideLinks = false %}{% unless elcTag1 %}{% assign easylockdownHideLinks = true %}{% endunless %}
 {% if easylockdownHideLinks %}
 <script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/pages/klanten-portaal"]');</script>
 {% endif %}
@@ -67,7 +59,7 @@
 {% capture easylockdownPage404Message %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
 {% capture easylockdownRedirectURL %}login{% endcapture %}
 {% else %}
-{% unless elcTag2 %}{% assign easylockdownON = true %}{% endunless %}
+{% unless elcTag1 %}{% assign easylockdownON = true %}{% endunless %}
 {% if easylockdownON %}
 {% assign easylockdownON = true %}
 {% capture easylockdownPage404Title %}Page not found{% endcapture %}
@@ -79,7 +71,7 @@
 {% unless customer %}
 <script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/pages/displays"]');</script>
 {% else %}
-{% assign easylockdownHideLinks = false %}{% unless elcTag2 %}{% assign easylockdownHideLinks = true %}{% endunless %}
+{% assign easylockdownHideLinks = false %}{% unless elcTag1 %}{% assign easylockdownHideLinks = true %}{% endunless %}
 {% if easylockdownHideLinks %}
 <script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/pages/displays"]');</script>
 {% endif %}
@@ -115,7 +107,7 @@
 {% capture easylockdownPage404Message %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
 {% capture easylockdownRedirectURL %}login{% endcapture %}
 {% else %}
-{% unless elcTag2 %}{% assign easylockdownON = true %}{% endunless %}
+{% unless elcTag1 %}{% assign easylockdownON = true %}{% endunless %}
 {% if easylockdownON %}
 {% assign easylockdownON = true %}
 {% capture easylockdownPage404Title %}Page not found{% endcapture %}
@@ -138,7 +130,7 @@
 {% capture easylockdownPage404Message %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
 {% capture easylockdownRedirectURL %}login{% endcapture %}
 {% else %}
-{% unless elcTag2 %}{% assign easylockdownON = true %}{% endunless %}
+{% unless elcTag1 %}{% assign easylockdownON = true %}{% endunless %}
 {% if easylockdownON %}
 {% assign easylockdownON = true %}
 {% capture easylockdownPage404Title %}Page not found{% endcapture %}
@@ -150,7 +142,7 @@
 {% unless customer %}
 <script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/collections/b2b-all-makeup-2023"],*[data-eld-collection-handle="b2b-all-makeup-2023"],*[href$="/collections/b2b-all-skincare"],*[data-eld-collection-handle="b2b-all-skincare"]');</script>
 {% else %}
-{% assign easylockdownHideLinks = false %}{% unless elcTag2 %}{% assign easylockdownHideLinks = true %}{% endunless %}
+{% assign easylockdownHideLinks = false %}{% unless elcTag1 %}{% assign easylockdownHideLinks = true %}{% endunless %}
 {% if easylockdownHideLinks %}
 <script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/collections/b2b-all-makeup-2023"],*[data-eld-collection-handle="b2b-all-makeup-2023"],*[href$="/collections/b2b-all-skincare"],*[data-eld-collection-handle="b2b-all-skincare"]');</script>
 {% endif %}
@@ -168,7 +160,7 @@
 {% capture easylockdownPage404Message %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
 {% capture easylockdownRedirectURL %}{{ easylockdownLocaleRootUrl }}/pages/dit-gedeelte-is-enkel-voor-gloskincare-klanten{% endcapture %}
 {% else %}
-{% unless elcTag2 %}{% assign easylockdownON = true %}{% endunless %}
+{% unless elcTag1 %}{% assign easylockdownON = true %}{% endunless %}
 {% if easylockdownON %}
 {% assign easylockdownON = true %}
 {% capture easylockdownPage404Title %}Page not found{% endcapture %}
@@ -190,7 +182,7 @@
 {% capture easylockdownPage404Message %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
 {% capture easylockdownRedirectURL %}login{% endcapture %}
 {% else %}
-{% unless elcTag2 %}{% assign easylockdownON = true %}{% endunless %}
+{% unless elcTag1 %}{% assign easylockdownON = true %}{% endunless %}
 {% if easylockdownON %}
 {% assign easylockdownON = true %}
 {% capture easylockdownPage404Title %}Page not found{% endcapture %}
@@ -202,7 +194,7 @@
 {% unless customer %}
 <script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/pages/workshops"]');</script>
 {% else %}
-{% assign easylockdownHideLinks = false %}{% unless elcTag2 %}{% assign easylockdownHideLinks = true %}{% endunless %}
+{% assign easylockdownHideLinks = false %}{% unless elcTag1 %}{% assign easylockdownHideLinks = true %}{% endunless %}
 {% if easylockdownHideLinks %}
 <script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/pages/workshops"]');</script>
 {% endif %}
@@ -237,7 +229,7 @@
 {% capture easylockdownPage404Message %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
 {% capture easylockdownRedirectURL %}login{% endcapture %}
 {% else %}
-{% unless elcTag2 or elcTag1 %}{% assign easylockdownON = true %}{% endunless %}
+{% unless elcTag1 or elcTag2 %}{% assign easylockdownON = true %}{% endunless %}
 {% if easylockdownON %}
 {% assign easylockdownON = true %}
 {% capture easylockdownPage404Title %}Page not found{% endcapture %}
@@ -250,7 +242,7 @@
 {% unless customer %}
 {% assign easylockdownHiddenPurchase = true %}
 {% else %}
-{% unless elcTag2 or elcTag1 %}{% assign easylockdownHiddenPurchase = true %}{% endunless %}
+{% unless elcTag1 or elcTag2 %}{% assign easylockdownHiddenPurchase = true %}{% endunless %}
 {% endunless %}
 {% endif %}
 {% endunless %}
@@ -261,7 +253,7 @@
 {% unless customer %}
 {% assign easylockdownHidePrice = true %}
 {% else %}
-{% unless elcTag2 or elcTag1 %}
+{% unless elcTag1 or elcTag2 %}
 {% assign easylockdownHidePrice = true %}
 {% endunless %}
 {% endunless %}

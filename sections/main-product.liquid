@@ -109,7 +109,12 @@
           {% endunless %}
         </div>
                 {%- render 'price-prospect', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
-
+ <div class="price__regular">
+      <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
+      <span class="price-item price-item--regular">
+        {{ money_price }}
+      </span>
+    </div>
         <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
           {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
         </div>

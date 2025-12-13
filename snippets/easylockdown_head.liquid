@@ -7,6 +7,7 @@
 {% for t in customer.tags %}
 {% assign tag = t | downcase %}
 {% if tag == 'b2b' %}{% assign elcTag1 = true %}{% endif %}
+{% if tag == 'prospect' %}{% assign elcTag2 = true %}{% endif %}
 {% endfor %}
 {% for t in product.tags %}
 {% assign tag = t | downcase %}
@@ -14,6 +15,7 @@
 {% if tag == 'stockverkoop' %}{% assign elpTag2 = true %}{% endif %}
 {% if tag == 'skincare professional' %}{% assign elpTag3 = true %}{% endif %}
 {% if tag == 'beauty professional' %}{% assign elpTag4 = true %}{% endif %}
+{% if tag == 'glo academy' %}{% assign elpTag5 = true %}{% endif %}
 {% endfor %}
 {% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' %}
 {% assign easylockdownLockedContent = false %}
@@ -250,12 +252,22 @@
 {% endunless %}
 
 {% unless customer %}
-{% assign easylockdownHidePrice = true %}
-{% else %}
-{% unless elcTag1 %}
-{% assign easylockdownHidePrice = true %}
-{% endunless %}
-{% endunless %}
+  {% assign easylockdownHidePrice = true %}
+  {% else %}
+  {% if elcTag1 %}
+    {% comment %} B2B customers see all prices {% endcomment %}
+    {% assign easylockdownHidePrice = false %}
+  {% elsif elcTag2 %}
+    {% comment %} PROSPECT customers: hide prices unless product has 'glo academy' tag {% endcomment %}
+    {% if template contains 'product' and product and elpTag5 %}
+      {% assign easylockdownHidePrice = false %}
+    {% else %}
+      {% assign easylockdownHidePrice = true %}
+    {% endif %}
+  {% else %}
+    {% assign easylockdownHidePrice = true %}
+  {% endif %}
+  {% endunless %}
 
 {% unless easylockdownON or easylockdownSuperPage %}
 {% assign easylockdownLockedContent = false %}
@@ -269,14 +281,63 @@
 
 {% if easylockdownON or easylockdownPasswordProtectedContent %}<meta name="robots" content="noindex,nofollow">{% endif %}
 
-<script type='text/javascript'>
+  <script type='text/javascript'>
   if( typeof easylockdown == 'object' ) {
     easylockdown.localeRootUrl = '{{ easylockdownLocaleRootUrl }}';
     {% if easylockdownON %}easylockdown.router('{{ easylockdownRedirectURL }}'); {% else %}easylockdown.routerByLocation(); {% endif %}
 
     easylockdown.onReady(function(e){
       easylockdown.priceBlocks = '{{ easylockdownPriceSelectors }}';
-      {% if easylockdownHidePrice %}easylockdown.hidePrice('{{ easylockdownHidePriceLinkText }}', '{{ easylockdownHidePriceLinkUrl }}'); {% else %}easylockdown.hidePriceByLocation();{% endif %}
+      {% if easylockdownHidePrice %}
+        {% if elcTag2 %}
+          {% comment %} PROSPECT: Hide prices, then show for 'glo academy' products {% endcomment %}
+          easylockdown.hidePrice('{{ easylockdownHidePriceLinkText }}', '{{ easylockdownHidePriceLinkUrl }}');
+          
+          // Show prices for products with 'glo academy' tag on collection/search pages
+          {% unless template contains 'product' %}
+          (function() {
+            var showGloAcademyPrices = function() {
+              var productCards = document.querySelectorAll('[data-product-handle], .product-card, [class*="product-card"], [data-product-id]');
+              productCards.forEach(function(card) {
+                var productHandle = card.getAttribute('data-product-handle') || 
+                                   card.getAttribute('data-product-id') ||
+                                   (card.querySelector('a[href*="/products/"]') ? 
+                                    card.querySelector('a[href*="/products/"]').href.match(/\/products\/([^\/\?]+)/)?.[1] : null);
+                
+                if (productHandle) {
+                  // Check if this product has 'glo academy' tag via data attribute or fetch
+                  var productTags = card.getAttribute('data-product-tags') || '';
+                  if (productTags.toLowerCase().includes('glo academy')) {
+                    var priceSelectors = '{{ easylockdownPriceSelectors }}'.split(',');
+                    priceSelectors.forEach(function(selector) {
+                      var prices = card.querySelectorAll(selector.trim());
+                      prices.forEach(function(price) {
+                        price.style.display = '';
+                        price.style.visibility = '';
+                        price.removeAttribute('style');
+                      });
+                    });
+                  }
+                }
+              });
+            };
+            
+            // Run on load and after dynamic updates
+            setTimeout(showGloAcademyPrices, 100);
+            if (typeof MutationObserver !== 'undefined') {
+              var observer = new MutationObserver(function() {
+                setTimeout(showGloAcademyPrices, 50);
+              });
+              observer.observe(document.body, { childList: true, subtree: true });
+            }
+          })();
+          {% endunless %}
+        {% else %}
+          easylockdown.hidePrice('{{ easylockdownHidePriceLinkText }}', '{{ easylockdownHidePriceLinkUrl }}');
+        {% endif %}
+      {% else %}
+        easylockdown.hidePriceByLocation();
+      {% endif %}
       easylockdown.hideAllLinks();
     });
   }

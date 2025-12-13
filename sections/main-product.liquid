@@ -130,7 +130,7 @@
           {%- endform -%}
         </div>
         {% if customer %}
-          {% if customer.tags contains 'B2B' %}
+          {% if customer.tags contains 'B2B' or customer.tags contains 'PROSPECT' %}
             <div
               id="Quantity-Form-{{ section.id }}"
               class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}"

@@ -11,52 +11,16 @@
 {% endfor %}
 {% for t in product.tags %}
 {% assign tag = t | downcase %}
-{% if tag == 'pro academy' %}{% assign elpTag1 = true %}{% endif %}
-{% if tag == 'displays' %}{% assign elpTag2 = true %}{% endif %}
-{% if tag == 'stockverkoop' %}{% assign elpTag3 = true %}{% endif %}
-{% if tag == 'skincare professional' %}{% assign elpTag4 = true %}{% endif %}
-{% if tag == 'beauty professional' %}{% assign elpTag5 = true %}{% endif %}
+{% if tag == 'displays' %}{% assign elpTag1 = true %}{% endif %}
+{% if tag == 'stockverkoop' %}{% assign elpTag2 = true %}{% endif %}
+{% if tag == 'skincare professional' %}{% assign elpTag3 = true %}{% endif %}
+{% if tag == 'beauty professional' %}{% assign elpTag4 = true %}{% endif %}
 {% endfor %}
 {% unless customer %}
 {% assign easylockdownHidePrice = true %}
 {% else %}
 {% unless elcTag1 %}
 {% assign easylockdownHidePrice = true %}
-{% endunless %}
-{% endunless %}
-
-{% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' %}
-{% assign easylockdownException = false %}
-{% if template contains "product" and product %}{% if elpTag1 %}{% assign easylockdownException = true %}{% endif %}{% endif %}
-{% unless easylockdownException %}
-{% assign easylockdownLockedContent = false %}
-{% assign easylockdownHiddenContent = false %}
-{% assign easylockdownHiddenContent = true %}
-{% if easylockdownLockedContent %}
-{% unless customer %}
-{% assign easylockdownON = true %}
-{% capture easylockdownPage404Title %}Page not found{% endcapture %}
-{% capture easylockdownPage404Message %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
-{% capture easylockdownRedirectURL %}login{% endcapture %}
-{% else %}
-{% unless elcTag1 %}{% assign easylockdownON = true %}{% endunless %}
-{% if easylockdownON %}
-{% assign easylockdownON = true %}
-{% capture easylockdownPage404Title %}Page not found{% endcapture %}
-{% capture easylockdownPage404Message %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
-{% endif %}
-{% endunless %}
-{% else %}
-{% unless easylockdownHiddenPurchase %}
-{% if easylockdownHiddenContent %}
-{% unless customer %}
-{% assign easylockdownHiddenPurchase = true %}
-{% else %}
-{% unless elcTag1 %}{% assign easylockdownHiddenPurchase = true %}{% endunless %}
-{% endunless %}
-{% endif %}
-{% endunless %}
-{% endif %}
 {% endunless %}
 {% endunless %}
 
@@ -94,7 +58,7 @@
 {% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' %}
 {% assign easylockdownLockedContent = false %}
 {% assign easylockdownHiddenContent = false %}
-{% if template contains "product" and product %}{% if elpTag2 %}{% assign easylockdownLockedContent = true %}{% endif %}{% endif %}
+{% if template contains "product" and product %}{% if elpTag1 %}{% assign easylockdownLockedContent = true %}{% endif %}{% endif %}
 {% if template contains "page" and page %}{% if page.id == 120570347867 %}{% assign easylockdownLockedContent = true %}{% endif %}{% endif %}
 {% if easylockdownLockedContent %}
 {% unless customer %}
@@ -143,7 +107,7 @@
 {% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' %}
 {% assign easylockdownLockedContent = false %}
 {% assign easylockdownHiddenContent = false %}
-{% if template contains "product" and product %}{% if elpTag3 %}{% assign easylockdownLockedContent = true %}{% endif %}{% endif %}
+{% if template contains "product" and product %}{% if elpTag2 %}{% assign easylockdownLockedContent = true %}{% endif %}{% endif %}
 {% if easylockdownLockedContent %}
 {% unless customer %}
 {% assign easylockdownON = true %}
@@ -196,7 +160,7 @@
 {% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' or template contains 'page' and page.id == 26165674073 %}
 {% assign easylockdownLockedContent = false %}
 {% assign easylockdownHiddenContent = false %}
-{% if template contains "product" and product %}{% if elpTag4 or elpTag5 %}{% assign easylockdownLockedContent = true %}{% endif %}{% endif %}
+{% if template contains "product" and product %}{% if elpTag3 or elpTag4 %}{% assign easylockdownLockedContent = true %}{% endif %}{% endif %}
 {% if easylockdownLockedContent %}
 {% unless customer %}
 {% assign easylockdownON = true %}

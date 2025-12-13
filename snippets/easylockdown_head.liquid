@@ -17,6 +17,14 @@
 {% if tag == 'skincare professional' %}{% assign elpTag4 = true %}{% endif %}
 {% if tag == 'beauty professional' %}{% assign elpTag5 = true %}{% endif %}
 {% endfor %}
+{% unless customer %}
+{% assign easylockdownHidePrice = true %}
+{% else %}
+{% unless elcTag1 %}
+{% assign easylockdownHidePrice = true %}
+{% endunless %}
+{% endunless %}
+
 {% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' %}
 {% assign easylockdownException = false %}
 {% if template contains "product" and product %}{% if elpTag1 %}{% assign easylockdownException = true %}{% endif %}{% endif %}

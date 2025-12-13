@@ -81,15 +81,6 @@
 {% endunless %}
 {% endif %}
 {% endunless %}
-{% unless customer %}
-<script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/pages/klanten-portaal"]');</script>
-{% else %}
-{% assign easylockdownHideLinks = false %}{% unless elcTag2 %}{% assign easylockdownHideLinks = true %}{% endunless %}
-{% if easylockdownHideLinks %}
-<script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/pages/klanten-portaal"]');</script>
-{% endif %}
-{% endunless %}
-
 
 {% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' %}
 {% assign easylockdownLockedContent = false %}
@@ -112,15 +103,6 @@
 {% endunless %}
 {% endif %}
 {% endunless %}
-{% unless customer %}
-<script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/pages/displays"]');</script>
-{% else %}
-{% assign easylockdownHideLinks = false %}{% unless elcTag2 %}{% assign easylockdownHideLinks = true %}{% endunless %}
-{% if easylockdownHideLinks %}
-<script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/pages/displays"]');</script>
-{% endif %}
-{% endunless %}
-
 
 {% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' %}
 {% assign easylockdownLockedContent = false %}
@@ -135,10 +117,6 @@
 {% endunless %}
 {% endif %}
 {% endunless %}
-{% unless customer %}
-<script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/pages/terms-conditions"]');</script>
-{% endunless %}
-
 
 {% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' %}
 {% assign easylockdownLockedContent = false %}
@@ -235,15 +213,6 @@
 {% endunless %}
 {% endif %}
 {% endunless %}
-{% unless customer %}
-<script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/pages/workshops"]');</script>
-{% else %}
-{% assign easylockdownHideLinks = false %}{% unless elcTag2 %}{% assign easylockdownHideLinks = true %}{% endunless %}
-{% if easylockdownHideLinks %}
-<script type='text/javascript'>easylockdown.hideLinks.push('*[href$="/pages/workshops"]');</script>
-{% endif %}
-{% endunless %}
-
 
 {% unless easylockdownON or easylockdownSuperPage or template == 'customers/register' %}
 {% assign easylockdownLockedContent = false %}

@@ -28,10 +28,16 @@
   if target == product and product.price_varies
     assign money_price = 'products.product.price.from_price_html' | t: price: money_price
   endif
+
+  if customer.tags contains 'PROSPECT' and product.tags contains 'Pro Academy'
+    assign show_price = true
+  else
+    assign show_price = false
+  endif
 -%}
 
 <div class="
-    price
+    {%- if show_price %} price_prospect {% else %} price {% endif -%}
     {%- if price_class %} {{ price_class }}{% endif -%}
     {%- if available == false %} price--sold-out {% endif -%}
     {%- if compare_at_price > price %} price--on-sale {% endif -%}

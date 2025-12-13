@@ -31,7 +31,7 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Welkom bij de Glo Pro Academy: het kenniscentrum voor huidverbetering, schoonheid en ondernemerschap. </p><p>Met praktijkgerichte trainingen, diepgaande opleidingen en inspirerende masterclasses helpen we professionals hun expertise te verdiepen en zich te onderscheiden in de beautysector. </p><p><strong>Ontdek, leer en groei in elke fase van jouw traject.</strong></p>",
+            "text": "<p>Welkom bij de Glo Pro Academy: het kenniscentrum waar huidverbetering, schoonheid en ondernemerschap samenkomen. </p><p>Met hoogwaardige opleidingen en praktijkgerichte trainingen ondersteunen we beautyprofessionals in elke fase van hun groei.</p><p></p>",
             "text_style": "body"
           }
         }
@@ -42,7 +42,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/22Jul-HP-luminous-collection-opt2-Block.jpg",
-        "height": "large",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -51,6 +51,52 @@
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
+    "ecac0f0b-d040-4882-ba6d-5c01a131bf30": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Glo Pro Academy? </strong>",
+            "text": "<p>De Glo Pro Academy is ontwikkeld voor professionals die hun kennis willen verdiepen, hun vaardigheden willen verfijnen en zich willen onderscheiden in een snel evoluerende beautysector. Vanuit een sterke visie op kwaliteit en resultaat bieden we een zorgvuldig opgebouwd opleidingsaanbod, afgestemd op zowel starters als ervaren specialisten en ondernemers.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Onze opleidingen variëren van diepgaande, huidgerichte trainingen en hands-on workshops tot inspirerende masterclasses met experten uit het vak. Daarbij combineren we wetenschappelijke onderbouwing met moderne technieken en directe toepasbaarheid in de praktijk.<br/><br/>Daarnaast werken we samen met geselecteerde externe partners om exclusieve bijscholingen aan te bieden die inspelen op actuele trends en innovaties. Bij de xxx Academy investeren we doelgericht in kennis, ontwikkeling en professioneel succes — zodat jij met vertrouwen kan blijven groeien en jouw expertise zichtbaar kan versterken.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-1",
+        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "icon__grid": false,
+        "column_alignment": "left",
+        "item_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36,
         "section_width": "boxed"
@@ -84,98 +130,6 @@
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "276980df-6134-4fa4-8d48-9d8a646adda5": {
-      "type": "rich-text",
-      "blocks": {
-        "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Meer informatie over Hybride",
-            "heading_size": "h1"
-          }
-        },
-        "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Nu onze belangstelling voor make-up is verschoven naar de<br/>meer natuurlijke, \"jouw huid maar dan beter\" vibe, met als doel een<br/>stralende, stralende huid, is dit waar make-upformules met veel huidverzorging<br/>om de hoek komen kijken. We willen niet alleen dat onze make-up een natuurlijk<br/>ogende kleur geeft, zodat we er op ons best uitzien en ons goed voelen, maar we<br/>willen ook dat het onze huid verzorgt en verzorgt. \"Er zijn op dit moment<br/>zoveel spannende innovaties in schoonheid, van make-up met hyaluronzuur, antioxidanten<br/>of conditioners zoals sheaboter, tot huidverzorgingsproducten met minerale<br/>tinten en glansversterkers zoals ethisch gewonnen mica voor een natuurlijke<br/>gloed,\" legt Janeena Rumsey, Glo's Artistry Lead, uit.</p><p></p>"
-          }
-        },
-        "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-heading-1",
-        "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-text-1",
-        "template--19180119687515__276980df-6134-4fa4-8d48-9d8a646adda5-button-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 80,
-        "padding_bottom": 0
-      }
-    },
-    "ecac0f0b-d040-4882-ba6d-5c01a131bf30": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-1": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>Heb je last van droge huid, gebarsten ruwe plekken, een gespannen gevoel, roodheid of een doffe teint? Hydrateer, verzorg en versterk je huid met onze doelgerichte selectie van huidverzorgingsproducten voor droge huid.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-3": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-1",
-        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "icon__grid": false,
-        "column_alignment": "center",
-        "item_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section_width": "boxed"
       }
     },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
@@ -249,10 +203,9 @@
   "order": [
     "banner",
     "92602d36-7d25-4028-b9d9-a36860448447",
+    "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "product-grid",
     "358af34e-a004-4152-8299-a8caacd66f78",
-    "276980df-6134-4fa4-8d48-9d8a646adda5",
-    "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "60dc76e2-2d04-464c-a9e0-5d186807e785",
     "8435cf60-b8fb-4075-a821-d7d78554ac50"
   ]

@@ -143,9 +143,61 @@
         "section_width": "boxed"
       }
     },
+    "image_image_AGVdd9": {
+      "type": "image-image",
+      "blocks": {
+        "column_Yj77fV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/US_DailyAntioxidantPowderDuo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        },
+        "column_eg9GQh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/GSB_Protect_Prevent_0424.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "column_Yj77fV",
+        "column_eg9GQh"
+      ],
+      "name": "image repeater",
+      "settings": {
+        "image_grid": "grid",
+        "image_ratio": "landscape",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "collapsible_content_FkmUJX": {
       "type": "collapsible-content",
       "blocks": {
+        "collapsible_row_w3QMTT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Voor wie?",
+            "icon": "check_mark",
+            "row_content": "<ul><li>Bestaande Glo Skin Beauty partners</li><li>Professionals nieuw bij Glo skin beauty</li><li>Schoonheidssalons</li><li>Make-up artists</li><li>Skin professionals</li></ul>",
+            "page": ""
+          }
+        },
         "collapsible_row_tD8CWX": {
           "type": "collapsible_row",
           "settings": {
@@ -193,6 +245,7 @@
         }
       },
       "block_order": [
+        "collapsible_row_w3QMTT",
         "collapsible_row_tD8CWX",
         "collapsible_row_Maad4c",
         "collapsible_row_RwNcyj",
@@ -211,49 +264,6 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section_width": "boxed"
-      }
-    },
-    "image_image_AGVdd9": {
-      "type": "image-image",
-      "blocks": {
-        "column_Yj77fV": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/US_DailyAntioxidantPowderDuo.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "bg_color": "#000000",
-            "bg_opacity": 30
-          }
-        },
-        "column_eg9GQh": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/GSB_Protect_Prevent_0424.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "bg_color": "#000000",
-            "bg_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "column_Yj77fV",
-        "column_eg9GQh"
-      ],
-      "name": "image repeater",
-      "settings": {
-        "image_grid": "grid",
-        "image_ratio": "landscape",
-        "background_style": "primary",
-        "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36,
         "section_width": "boxed"
@@ -407,7 +417,7 @@
         "heading_size": "h2",
         "color_scheme": "background-1",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 100
       }
     },
     "60dc76e2-2d04-464c-a9e0-5d186807e785": {
@@ -436,8 +446,8 @@
     "92602d36-7d25-4028-b9d9-a36860448447",
     "rich_text_NLh4Vn",
     "8435cf60-b8fb-4075-a821-d7d78554ac50",
-    "collapsible_content_FkmUJX",
     "image_image_AGVdd9",
+    "collapsible_content_FkmUJX",
     "collapsible_content_nQxEEd",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "product-grid",

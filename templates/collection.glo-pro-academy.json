@@ -97,6 +97,235 @@
         "padding_bottom": 52
       }
     },
+    "8435cf60-b8fb-4075-a821-d7d78554ac50": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19180119687515__8435cf60-b8fb-4075-a821-d7d78554ac50-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Elke opleiding binnen de Glo Pro Academy vertrekt vanuit dezelfde filosofie:</p><ul><li>Een make-up is maar zo sterk als de huid eronder</li><li>Resultaten vragen kennis, niet trucjes</li><li>Groei ontstaat wanneer techniek, inzicht en strategie samenkomen</li></ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19180119687515__8435cf60-b8fb-4075-a821-d7d78554ac50-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Geen overload aan theorie, wel <strong>relevante kennis die je meteen kan toepassen</strong>. <br/><br/>Daarom combineren we:</p><ul><li>Skincare & make-up expertise</li><li>Praktische toepassingen</li><li>Commerciële vertaling naar jouw salon of praktijk</li></ul>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19180119687515__8435cf60-b8fb-4075-a821-d7d78554ac50-column-1",
+        "template--19180119687515__8435cf60-b8fb-4075-a821-d7d78554ac50-column-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "icon__grid": false,
+        "column_alignment": "left",
+        "item_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "section_width": "boxed"
+      }
+    },
+    "collapsible_content_FkmUJX": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_tD8CWX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Coaching & Business Support",
+            "icon": "star",
+            "row_content": "<p><strong>Doel:</strong> Glo positioneren als groeipartner, niet enkel merk</p><p><strong>Aanbod:</strong></p><ul><li>1-op-1 coachingsessies</li><li>Salon- & retailcoaching</li><li>Make-up coaching (technisch & commercieel)</li><li>Strategische groeisessies</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Maad4c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Wat maakt de Glo Pro Academy uniek?",
+            "icon": "heart",
+            "row_content": "<ul><li>Opleidingen exclusief voor professionals</li><li>Onderbouwd door huidkennis & praktijkervaring</li><li>Focus op resultaat, niet op trends alleen</li><li>Kleine groepen, hoge kwaliteit</li><li>Brug tussen skincare, make-up én business</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_RwNcyj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Voor wie is de Glo Pro Academy?",
+            "icon": "silhouette",
+            "row_content": "<ul><li>Schoonheidssalons en huidklinieken</li><li>Make-up artists</li><li>Skincare professionals</li><li>Glo Skin Beauty partners</li><li>Professionals die met huidondersteunende make-up willen werken</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_DQw4jW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Werk je al met Glo Skin Beauty?",
+            "icon": "return",
+            "row_content": "<p>Dan is de Academy jouw volgende stap.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CVacNw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Werk je nog niet met Glo, maar wil je dat wel?",
+            "icon": "chat_bubble",
+            "row_content": "<p>Dan is dit jouw <strong>instap naar skincare make-up op professioneel niveau</strong>.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_tD8CWX",
+        "collapsible_row_Maad4c",
+        "collapsible_row_RwNcyj",
+        "collapsible_row_DQw4jW",
+        "collapsible_row_CVacNw"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
+    "collapsible_content_nQxEEd": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_DYdPMX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Make-up opleidingen",
+            "icon": "eye",
+            "row_content": "<ul><li>Bridal Training (flagship)</li><li>Advanced Make-up Skills </li><li>Hoe organiseer ik een workshop?</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4PPVjh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Skincare deepdive",
+            "icon": "check_mark",
+            "row_content": "<ul><li>Ingrediëntenkennis</li><li>Peel pro training</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Di8qf4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kick-off trainingen – maak kennis met Glo skin beauty ",
+            "icon": "check_mark",
+            "row_content": "<ul><li>Beauty Kick-off</li><li>Retail Kick-off</li><li>Professional Treatment Kick-off</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NQWbnE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Permanente educatie",
+            "icon": "check_mark",
+            "row_content": "<ul><li>Trends & updates</li><li>Product deep dives</li><li>Seizoensgebonden masterclasses </li><li>Gastsprekers</li></ul>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_DYdPMX",
+        "collapsible_row_4PPVjh",
+        "collapsible_row_Di8qf4",
+        "collapsible_row_NQWbnE"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Opleidingen",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
+    "ecac0f0b-d040-4882-ba6d-5c01a131bf30": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Wat maakt de Glo Pro Academy uniek?</strong>",
+            "text": "<ul><li>Opleidingen exclusief voor professionals</li><li>Onderbouwd door huidkennis & praktijkervaring</li><li>Focus op resultaat, niet op trends alleen</li><li>Kleine groepen, hoge kwaliteit</li><li>Brug tussen skincare, make-up én business</li></ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Voor wie is de Glo Pro Academy?</strong>",
+            "text": "<ul><li>Schoonheidssalons en huidklinieken</li><li>Make-up artists</li><li>Skincare professionals</li><li>Glo Skin Beauty partners</li><li>Professionals die met huidondersteunende make-up willen werken</li></ul>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-1",
+        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "icon__grid": false,
+        "column_alignment": "left",
+        "item_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -116,52 +345,6 @@
         "columns_mobile": "2",
         "padding_top": 40,
         "padding_bottom": 40
-      }
-    },
-    "ecac0f0b-d040-4882-ba6d-5c01a131bf30": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-1": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Glo Pro Academy? </strong>",
-            "text": "<p>De Glo Pro Academy is ontwikkeld voor professionals die hun kennis willen verdiepen, hun vaardigheden willen verfijnen en zich willen onderscheiden in een snel evoluerende beautysector. Vanuit een sterke visie op kwaliteit en resultaat bieden we een zorgvuldig opgebouwd opleidingsaanbod, afgestemd op zowel starters als ervaren specialisten en ondernemers.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-3": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>Onze opleidingen variëren van diepgaande, huidgerichte trainingen en hands-on workshops tot inspirerende masterclasses met experten uit het vak. Daarbij combineren we wetenschappelijke onderbouwing met moderne technieken en directe toepasbaarheid in de praktijk.<br/><br/>Daarnaast werken we samen met geselecteerde externe partners om exclusieve bijscholingen aan te bieden die inspelen op actuele trends en innovaties. </p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-1",
-        "template--19180119687515__ecac0f0b-d040-4882-ba6d-5c01a131bf30-column-3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "icon__grid": false,
-        "column_alignment": "left",
-        "item_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "section_width": "boxed"
       }
     },
     "358af34e-a004-4152-8299-a8caacd66f78": {
@@ -203,64 +386,19 @@
         "padding_bottom": 36,
         "section_width": "boxed"
       }
-    },
-    "8435cf60-b8fb-4075-a821-d7d78554ac50": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--19180119687515__8435cf60-b8fb-4075-a821-d7d78554ac50-column-1": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p></p><p></p><p> </p><p></p><p> </p><p></p><p></p><p></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--19180119687515__8435cf60-b8fb-4075-a821-d7d78554ac50-column-2": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>Vertrouw op speciaal geformuleerde producten voor droge huid. Begin met een doelgerichte gezichtsreiniger voor droge huid en kies voor romige formules met aanvullende ingrediënten. Voeg een hydraterend en versterkend serum toe, verrijkt met hyaluronzuur dat watermoleculen aantrekt en aan de huid bindt, en de vochtbarrière herstelt. En, je moet nog steeds exfoliëren om dode huidcellen te verwijderen en je andere producten beter te laten doordringen. Chemische exfolianten zoals AHAs zijn beter voor droge huid dan fysieke scrubs, omdat deze laatste irritatie kunnen veroorzaken. Een rijke, voedende moisturizer zal je dagelijkse essentiële verzorgingsproduct zijn.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19180119687515__8435cf60-b8fb-4075-a821-d7d78554ac50-column-1",
-        "template--19180119687515__8435cf60-b8fb-4075-a821-d7d78554ac50-column-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "icon__grid": false,
-        "column_alignment": "left",
-        "item_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "section_width": "boxed"
-      }
     }
   },
   "order": [
     "banner",
     "92602d36-7d25-4028-b9d9-a36860448447",
     "rich_text_NLh4Vn",
-    "product-grid",
+    "8435cf60-b8fb-4075-a821-d7d78554ac50",
+    "collapsible_content_FkmUJX",
+    "collapsible_content_nQxEEd",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
+    "product-grid",
     "358af34e-a004-4152-8299-a8caacd66f78",
     "contact_form_NMTLCz",
-    "60dc76e2-2d04-464c-a9e0-5d186807e785",
-    "8435cf60-b8fb-4075-a821-d7d78554ac50"
+    "60dc76e2-2d04-464c-a9e0-5d186807e785"
   ]
 }

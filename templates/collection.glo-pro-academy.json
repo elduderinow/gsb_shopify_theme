@@ -216,6 +216,49 @@
         "section_width": "boxed"
       }
     },
+    "image_image_AGVdd9": {
+      "type": "image-image",
+      "blocks": {
+        "column_Yj77fV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/US_DailyAntioxidantPowderDuo.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        },
+        "column_eg9GQh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/GSB_Protect_Prevent_0424.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "column_Yj77fV",
+        "column_eg9GQh"
+      ],
+      "name": "image repeater",
+      "settings": {
+        "image_grid": "grid",
+        "image_ratio": "landscape",
+        "background_style": "primary",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "section_width": "boxed"
+      }
+    },
     "collapsible_content_nQxEEd": {
       "type": "collapsible-content",
       "blocks": {
@@ -394,6 +437,7 @@
     "rich_text_NLh4Vn",
     "8435cf60-b8fb-4075-a821-d7d78554ac50",
     "collapsible_content_FkmUJX",
+    "image_image_AGVdd9",
     "collapsible_content_nQxEEd",
     "ecac0f0b-d040-4882-ba6d-5c01a131bf30",
     "product-grid",

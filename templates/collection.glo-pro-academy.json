@@ -61,29 +61,31 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36,
-        "section_width": "boxed"
+        "section_width": "full_width"
       }
     },
     "rich_text_NLh4Vn": {
       "type": "rich-text",
       "blocks": {
+        "caption_XdVXcp": {
+          "type": "caption",
+          "settings": {
+            "caption": "Visie & filosofie",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_cj99dB": {
           "type": "heading",
           "settings": {
             "heading": "<strong>Skin first. Strategy second. Excellence always.</strong>",
             "heading_size": "h1"
           }
-        },
-        "text_6WztyC": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
         }
       },
       "block_order": [
-        "heading_cj99dB",
-        "text_6WztyC"
+        "caption_XdVXcp",
+        "heading_cj99dB"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -15,14 +24,14 @@
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Groei in je vak. Straal in je succes.",
+            "heading": "Glo Pro Academy",
             "heading_size": "h1"
           }
         },
         "template--19180119687515__92602d36-7d25-4028-b9d9-a36860448447-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Welkom bij de <strong>Glo Pro Academy</strong>: het kenniscentrum waar huidverbetering, schoonheid en ondernemerschap samenkomen. </p><p>Met hoogwaardige opleidingen en praktijkgerichte trainingen ondersteunen we beautyprofessionals in elke fase van hun groei.</p><p></p>",
+            "text": "<p>De Glo Pro Academy is het opleidingsplatform van Glo Skin Beauty, speciaal ontwikkeld voor professionele partners die hun expertise willen verdiepen en hun zaak naar een hoger niveau willen tillen.</p><p>Vanaf januari 2026 bundelen we binnen de Academy alles wat jou als beauty professional sterker maakt: van high-level make-up trainingen en skincare kick-offs, tot gerichte coachingsessies rond retail, behandelingen en businessgroei.</p><p>Bij Glo geloven we niet in losse trainingen zonder context.<br/><br/>Wij geloven in kennis die rendeert — op de huid van je klant én in je onderneming.</p>",
             "text_style": "body"
           }
         },

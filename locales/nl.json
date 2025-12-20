@@ -303,7 +303,11 @@
       "login": {
         "title": "Heb je een account?",
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in<\/a> om sneller af te rekenen."
-      }
+      },
+      "vat_number": "BTW-nummer (verplicht)",
+      "vat_number_placeholder": "NL123456789B01",
+      "vat_number_format": "Formaat: Landcode + BTW-nummer (bijv. NL123456789B01, DE123456789)",
+      "vat_number_help": "Voer uw BTW-nummer in met landcode (bijv. NL123456789B01)"
     },
     "footer": {
       "payment": "Betaalmethoden"

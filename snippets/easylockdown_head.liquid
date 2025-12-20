@@ -7,6 +7,7 @@
 {% for t in customer.tags %}
 {% assign tag = t | downcase %}
 {% if tag == 'b2b' %}{% assign elcTag1 = true %}{% endif %}
+{% if tag == 'prospect' %}{% assign elcTag2 = true %}{% endif %}
 {% endfor %}
 {% for t in product.tags %}
 {% assign tag = t | downcase %}
@@ -229,6 +230,7 @@
 {% capture easylockdownRedirectURL %}login{% endcapture %}
 {% else %}
 {% unless elcTag1 %}{% assign easylockdownON = true %}{% endunless %}
+{% unless elcTag2 %}{% assign easylockdownON = true %}{% endunless %}
 {% if easylockdownON %}
 {% assign easylockdownON = true %}
 {% capture easylockdownPage404Title %}Page not found{% endcapture %}
@@ -242,6 +244,7 @@
 {% assign easylockdownHiddenPurchase = true %}
 {% else %}
 {% unless elcTag1 %}{% assign easylockdownHiddenPurchase = true %}{% endunless %}
+{% unless elcTag2 %}{% assign easylockdownHiddenPurchase = true %}{% endunless %}
 {% endunless %}
 {% endif %}
 {% endunless %}

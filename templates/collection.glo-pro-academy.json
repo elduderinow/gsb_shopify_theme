@@ -408,7 +408,7 @@
         "intro_text": "",
         "intro_text_size": "medium",
         "company_mode": true,
-        "color_scheme": "background-2",
+        "color_scheme": "accent-1",
         "padding_top": 100,
         "padding_bottom": 100
       }

@@ -113,7 +113,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Geen overload aan theorie, wel <strong>relevante kennis die je meteen kan toepassen</strong>. <br/><br/>Daarom combineren we:</p><ul><li>Skincare & make-up expertise</li><li>Praktische toepassingen</li><li>Commerciële vertaling naar jouw salon of praktijk</li></ul>",
+            "text": "<p>Geen overload aan theorie, wel <strong>relevante kennis die je meteen kan toepassen</strong>. Daarom combineren we:</p><ul><li>Skincare & make-up expertise</li><li>Praktische toepassingen</li><li>Commerciële vertaling naar jouw salon of praktijk</li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -405,6 +405,9 @@
       "settings": {
         "heading": "Aanvraagformulier",
         "heading_size": "h2",
+        "intro_text": "",
+        "intro_text_size": "medium",
+        "company_mode": true,
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 100

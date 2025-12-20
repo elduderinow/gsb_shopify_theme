@@ -19,6 +19,37 @@
         </cart-note>
       {%- endif -%}
 
+      <!-- POP Electronic Invoicing Fields (B2B) -->
+      <div class="cart__pop-fields field">
+        <input
+          type="hidden"
+          name="attributes[pop_customer_type]"
+          value="business"
+          form="cart"
+        >
+        <div class="field">
+          <label for="Cart-POP-VAT" class="field__label">
+            {{ 'sections.cart.vat_number' | t | default: 'VAT Number (required)' }}
+            <span aria-hidden="true">*</span>
+          </label>
+          <input
+            type="text"
+            id="Cart-POP-VAT"
+            class="field__input"
+            name="attributes[pop_vat]"
+            form="cart"
+            placeholder="{{ 'sections.cart.vat_number_placeholder' | t | default: 'IT12345678901' }}"
+            required
+            pattern="^[A-Z]{2}[0-9A-Z]{2,12}$"
+            title="{{ 'sections.cart.vat_number_format' | t | default: 'Format: Country code + VAT number (e.g., IT12345678901, DE123456789)' }}"
+            value="{{ cart.attributes.pop_vat }}"
+          >
+          <small class="field__description">
+            {{ 'sections.cart.vat_number_help' | t | default: 'Enter your VAT number with country prefix (e.g., IT12345678901)' }}
+          </small>
+        </div>
+      </div>
+
       <div class="cart__blocks">
         {% for block in section.blocks %}
           {%- case block.type -%}
@@ -112,6 +143,81 @@
       document.querySelector('#cart').submit();
     });
   });
+
+  // POP Electronic Invoicing - VAT Validation and Cart Attributes
+  (function() {
+    'use strict';
+
+    // EU country codes for VAT validation
+    const EU_COUNTRIES = ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE'];
+
+    function validateVATNumber(vat) {
+      if (!vat || vat.length < 3) return false;
+      
+      const countryCode = vat.substring(0, 2).toUpperCase();
+      const vatNumber = vat.substring(2);
+      
+      // Check if country code is valid EU country
+      if (!EU_COUNTRIES.includes(countryCode)) return false;
+      
+      // Check if VAT number part is alphanumeric and has valid length
+      if (!/^[0-9A-Z]{2,12}$/i.test(vatNumber)) return false;
+      
+      return true;
+    }
+
+    // Cart attributes will be submitted automatically with the form
+    // No need for separate API call - form submission handles it
+
+    function initPOPFields() {
+      const vatInput = document.getElementById('Cart-POP-VAT');
+      if (!vatInput) return;
+
+      // Auto-set customer type to business
+      const customerTypeInput = document.querySelector('input[name="attributes[pop_customer_type]"]');
+      if (customerTypeInput) {
+        customerTypeInput.value = 'business';
+      }
+
+      // Validate VAT on input
+      vatInput.addEventListener('input', function(e) {
+        const value = e.target.value.trim().toUpperCase();
+        e.target.value = value;
+        
+        if (value && !validateVATNumber(value)) {
+          e.target.setCustomValidity('Please enter a valid EU VAT number (e.g., IT12345678901)');
+        } else {
+          e.target.setCustomValidity('');
+        }
+      });
+
+      // Cart attributes are submitted automatically with form
+
+      // Validate before form submission
+      const form = document.getElementById('cart');
+      if (form) {
+        form.addEventListener('submit', function(e) {
+          const vatValue = vatInput.value.trim();
+          if (!vatValue || !validateVATNumber(vatValue)) {
+            e.preventDefault();
+            vatInput.focus();
+            vatInput.reportValidity();
+            return false;
+          }
+        });
+      }
+    }
+
+    // Initialize when DOM is ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initPOPFields);
+    } else {
+      initPOPFields();
+    }
+
+    // Re-initialize when cart is updated
+    document.addEventListener('cart:updated', initPOPFields);
+  })();
 </script>
 
 {% schema %}

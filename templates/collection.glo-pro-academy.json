@@ -311,7 +311,7 @@
         "heading": "Opleidingen",
         "heading_size": "h1",
         "heading_alignment": "center",
-        "layout": "section",
+        "layout": "row",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
@@ -373,7 +373,7 @@
       "type": "main-collection-product-grid",
       "settings": {
         "product_view": "grid",
-        "section_width": "boxed",
+        "section_width": "full_width",
         "products_per_page": 24,
         "columns_desktop": 5,
         "image_ratio": "portrait",

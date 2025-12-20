@@ -275,7 +275,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Skincare deepdive",
-            "icon": "check_mark",
+            "icon": "bottle",
             "row_content": "<ul><li>Ingrediëntenkennis</li><li>Peel pro training</li></ul>",
             "page": ""
           }
@@ -284,7 +284,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Kick-off trainingen – maak kennis met Glo skin beauty ",
-            "icon": "check_mark",
+            "icon": "lightning_bolt",
             "row_content": "<ul><li>Beauty Kick-off</li><li>Retail Kick-off</li><li>Professional Treatment Kick-off</li></ul>",
             "page": ""
           }
@@ -293,7 +293,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Permanente educatie",
-            "icon": "check_mark",
+            "icon": "chat_bubble",
             "row_content": "<ul><li>Trends & updates</li><li>Product deep dives</li><li>Seizoensgebonden masterclasses </li><li>Gastsprekers</li></ul>",
             "page": ""
           }

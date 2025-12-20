@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tailwindcss build src/css/application.css -o assets/application.css",
-    "tailwind": "npx tailwindcss -i src/css/application.css -o assets/application.css --watch"
+    "tailwind": "npx tailwindcss -i src/css/application.css -o assets/application.css --watch",
+    "dev": "concurrently \"npm run tailwind\" \"npx gulp\""
   },
   "repository": {
     "type": "git",
@@ -48,6 +49,7 @@
     "@babel/core": "^7.20.5",
     "@babel/preset-env": "^7.20.2",
     "@babel/register": "^7.18.9",
+    "concurrently": "^8.2.2",
     "gulp": "^4.0.2",
     "gulp-purgecss": "^5.0.0",
     "gulp-sass": "^5.1.0",

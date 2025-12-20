@@ -23,6 +23,11 @@
     {%- else -%}
       <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
     {%- endif -%}
+    {%- if section.settings.intro_text != blank -%}
+      <div class="contact__intro text-{{ section.settings.intro_text_size }}">
+        {{ section.settings.intro_text }}
+      </div>
+    {%- endif -%}
     {%- liquid
       assign contact_form_class = 'isolate'
       if settings.animations_reveal_on_scroll
@@ -51,21 +56,46 @@
           </li>
         </ul>
       {%- endif -%}
+      <div class="contact__fields__wrapper">
       <div class="contact__fields">
         <div class="field">
           <input
+            required
             class="field__input"
-            autocomplete="name"
+            autocomplete="given-name"
             type="text"
-            id="ContactForm-name"
-            name="contact[{{ 'templates.contact.form.name' | t }}]"
-            value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
-            placeholder="{{ 'templates.contact.form.name' | t }}"
+            id="ContactForm-first-name"
+            name="contact[{{ 'templates.contact.form.first_name' | t }}]"
+            value="{% if form.first_name %}{{ form.first_name }}{% elsif customer %}{{ customer.first_name }}{% endif %}"
+            placeholder="{{ 'templates.contact.form.first_name' | t }}"
           >
-          <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
+          <label class="field__label" for="ContactForm-first-name">
+            {{- 'templates.contact.form.first_name' | t }}
+            <span aria-hidden="true">*</span></label
+          >
         </div>
+        {%- if section.settings.company_mode -%}
+        <div class="field">
+          <input
+            required
+            class="field__input"
+            autocomplete="family-name"
+            aria-required="true"
+            type="text"
+            id="ContactForm-last-name"
+            name="contact[{{ 'templates.contact.form.last_name' | t }}]"
+            value="{% if form.last_name %}{{ form.last_name }}{% elsif customer %}{{ customer.last_name }}{% endif %}"
+            placeholder="{{ 'templates.contact.form.last_name' | t }}"
+          >
+          <label class="field__label" for="ContactForm-last-name">
+            {{- 'templates.contact.form.last_name' | t }}
+            <span aria-hidden="true">*</span></label
+          >
+        </div>
+        {%- endif -%}
         <div class="field field--with-error">
           <input
+            required
             autocomplete="email"
             type="email"
             id="ContactForm-email"
@@ -96,22 +126,136 @@
             </small>
           {%- endif -%}
         </div>
+        {%- if section.settings.company_mode -%}
+        <div class="field">
+          <input
+            required
+            type="tel"
+            id="ContactForm-phone"
+            class="field__input"
+            autocomplete="tel"
+            name="contact[{{ 'templates.contact.form.phone' | t }}]"
+            pattern="[0-9\-]*"
+            value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+            placeholder="{{ 'templates.contact.form.phone' | t }}"
+          >
+          <label class="field__label" for="ContactForm-phone">
+            {{- 'templates.contact.form.phone' | t }}
+            <span aria-hidden="true">*</span></label
+          >
+        </div>
+        {%- endif -%}
       </div>
-      <div class="field">
-        <input
-          type="tel"
-          id="ContactForm-phone"
-          class="field__input"
-          autocomplete="tel"
-          name="contact[{{ 'templates.contact.form.phone' | t }}]"
-          pattern="[0-9\-]*"
-          value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
-          placeholder="{{ 'templates.contact.form.phone' | t }}"
-        >
-        <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
+      {%- if section.settings.company_mode -%}
+      <div class="contact__fields">
+        <div class="field">
+          <input
+            required
+            class="field__input"
+            type="text"
+            id="ContactForm-vat-number"
+            name="contact[{{ 'templates.contact.form.vat_number' | t }}]"
+            value="{% if form.vat_number %}{{ form.vat_number }}{% endif %}"
+            placeholder="{{ 'templates.contact.form.vat_number' | t }}"
+          >
+          <label class="field__label" for="ContactForm-vat-number">
+            {{- 'templates.contact.form.vat_number' | t }}
+            <span aria-hidden="true">*</span></label
+          >
+        </div>
+        <div class="field">
+          <input
+            required
+            class="field__input"
+            autocomplete="organization"
+            type="text"
+            id="ContactForm-company"
+            name="contact[{{ 'templates.contact.form.company' | t }}]"
+            value="{% if form.company %}{{ form.company }}{% elsif customer.default_address.company %}{{ customer.default_address.company }}{% endif %}"
+            placeholder="{{ 'templates.contact.form.company' | t }}"
+          >
+          <label class="field__label" for="ContactForm-company">
+            {{- 'templates.contact.form.company' | t }}
+            <span aria-hidden="true">*</span></label
+          >
+        </div>
       </div>
+      {%- endif -%}
+      {%- if section.settings.company_mode -%}
+      <div class="contact__fields">
+        <div class="field">
+          <input
+            required
+            class="field__input"
+            autocomplete="street-address"
+            type="text"
+            id="ContactForm-street-address"
+            name="contact[{{ 'templates.contact.form.street_address' | t }}]"
+            value="{% if form.street_address %}{{ form.street_address }}{% elsif customer.default_address.address1 %}{{ customer.default_address.address1 }}{% endif %}"
+            placeholder="{{ 'templates.contact.form.street_address' | t }}"
+          >
+          <label class="field__label" for="ContactForm-street-address">
+            {{- 'templates.contact.form.street_address' | t }}
+            <span aria-hidden="true">*</span></label
+          >
+        </div>
+        <div class="field">
+          <input
+            required
+            class="field__input"
+            autocomplete="postal-code"
+            type="text"
+            id="ContactForm-postal-code"
+            name="contact[{{ 'templates.contact.form.postal_code' | t }}]"
+            value="{% if form.postal_code %}{{ form.postal_code }}{% elsif customer.default_address.zip %}{{ customer.default_address.zip }}{% endif %}"
+            placeholder="{{ 'templates.contact.form.postal_code' | t }}"
+          >
+          <label class="field__label" for="ContactForm-postal-code">
+            {{- 'templates.contact.form.postal_code' | t }}
+            <span aria-hidden="true">*</span></label
+          >
+        </div>
+      </div>
+      {%- endif -%}
+      {%- if section.settings.company_mode -%}
+      <div class="contact__fields">
+        <div class="field">
+          <input
+            required
+            class="field__input"
+            autocomplete="address-level2"
+            type="text"
+            id="ContactForm-city"
+            name="contact[{{ 'templates.contact.form.city' | t }}]"
+            value="{% if form.city %}{{ form.city }}{% elsif customer.default_address.city %}{{ customer.default_address.city }}{% endif %}"
+            placeholder="{{ 'templates.contact.form.city' | t }}"
+          >
+          <label class="field__label" for="ContactForm-city">
+            {{- 'templates.contact.form.city' | t }}
+            <span aria-hidden="true">*</span></label
+          >
+        </div>
+        <div class="field">
+          <input
+            required
+            class="field__input"
+            autocomplete="country"
+            type="text"
+            id="ContactForm-country"
+            name="contact[{{ 'templates.contact.form.country' | t }}]"
+            value="{% if form.country %}{{ form.country }}{% elsif customer.default_address.country %}{{ customer.default_address.country }}{% endif %}"
+            placeholder="{{ 'templates.contact.form.country' | t }}"
+          >
+          <label class="field__label" for="ContactForm-country">
+            {{- 'templates.contact.form.country' | t }}
+            <span aria-hidden="true">*</span></label
+          >
+        </div>
+      </div>
+      {%- endif -%}
       <div class="field">
         <textarea
+          required
           rows="10"
           id="ContactForm-body"
           class="text-area field__input"
@@ -121,8 +265,10 @@
           {{- form.body -}}
         </textarea>
         <label class="form__label field__label" for="ContactForm-body">
-           Waar kunnen wij jou mee van dienst zijn?
-        </label>
+          Waar kunnen wij jou mee van dienst zijn?
+          <span aria-hidden="true">*</span></label
+        >
+      </div>
       </div>
       <div class="contact__button">
         <button type="submit" class="button">
@@ -170,6 +316,39 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "textarea",
+      "id": "intro_text",
+      "label": "Intro text",
+      "default": "Intro text"
+    },
+    {
+      "type": "select",
+      "id": "intro_text_size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "medium",
+      "label": "Intro text size"
+    },
+    {
+      "type": "checkbox",
+      "id": "company_mode",
+      "default": false,
+      "label": "Company mode",
+      "info": "Enable to show company fields and make all fields required"
     },
     {
       "type": "select",

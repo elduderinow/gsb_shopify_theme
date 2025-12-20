@@ -237,8 +237,16 @@
     "contact": {
       "form": {
         "name": "Naam",
+        "first_name": "Voornaam",
+        "last_name": "Naam",
         "email": "E‑mail",
         "phone": "Telefoonnummer",
+        "company": "Bedrijf",
+        "vat_number": "BTW-nummer",
+        "street_address": "Straat + nummer",
+        "postal_code": "Postcode",
+        "city": "Plaats",
+        "country": "Land/regio",
         "comment": "Reactie",
         "send": "Sturen",
         "post_success": "Bedankt dat je contact met ons hebt opgenomen. Je hoort zo snel mogelijk van ons.",

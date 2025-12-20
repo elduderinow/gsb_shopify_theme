@@ -192,54 +192,45 @@
         "collapsible_row_w3QMTT": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Voor wie?",
+            "heading": "Voor wie is de Glo Pro Academy?",
             "icon": "check_mark",
-            "row_content": "<ul><li>Bestaande Glo Skin Beauty partners</li><li>Professionals nieuw bij Glo skin beauty</li><li>Schoonheidssalons</li><li>Make-up artists</li><li>Skin professionals</li></ul>",
+            "row_content": "<p>De Academy is er voor professionals die willen werken met huidondersteunende make-up op hoog niveau:</p><ul><li>Schoonheidssalons en huidklinieken</li><li>Make-up artists</li><li>Skincare professionals</li><li>Glo Skin Beauty partners</li><li>Professionals die met huidondersteunende make-up willen werken</li></ul>",
             "page": ""
           }
         },
         "collapsible_row_tD8CWX": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Coaching & Business Support",
+            "heading": "Werk je al met Glo Skin Beauty?",
             "icon": "star",
-            "row_content": "<p><strong>Doel:</strong> Glo positioneren als groeipartner, niet enkel merk</p><p><strong>Aanbod:</strong></p><ul><li>1-op-1 coachingsessies</li><li>Salon- & retailcoaching</li><li>Make-up coaching (technisch & commercieel)</li><li>Strategische groeisessies</li></ul>",
+            "row_content": "<ul><li>Dan is de Academy jouw volgende stap</li><li>Verdiep je productkennis, technieken en huidexpertise</li><li>Vertaal make-up en skincare naar zichtbaar resultaat voor je klant</li></ul>",
             "page": ""
           }
         },
         "collapsible_row_Maad4c": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Wat maakt de Glo Pro Academy uniek?",
+            "heading": "Werk je nog niet met Glo Skin Beauty, maar wil je wel?",
             "icon": "heart",
-            "row_content": "<ul><li>Opleidingen exclusief voor professionals</li><li>Onderbouwd door huidkennis & praktijkervaring</li><li>Focus op resultaat, niet op trends alleen</li><li>Kleine groepen, hoge kwaliteit</li><li>Brug tussen skincare, make-up én business</li></ul>",
+            "row_content": "<ul><li>Dan is de Academy jouw instap naar Glo Skin Beauty</li><li>Leer werken met skincare make-up op professioneel niveau</li><li>Bouw een sterke basis in huidkennis, toepassing en resultaatgericht werken</li></ul>",
             "page": ""
           }
         },
         "collapsible_row_RwNcyj": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Voor wie is de Glo Pro Academy?",
-            "icon": "silhouette",
-            "row_content": "<ul><li>Schoonheidssalons en huidklinieken</li><li>Make-up artists</li><li>Skincare professionals</li><li>Glo Skin Beauty partners</li><li>Professionals die met huidondersteunende make-up willen werken</li></ul>",
-            "page": ""
-          }
-        },
-        "collapsible_row_DQw4jW": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Werk je al met Glo Skin Beauty?",
-            "icon": "return",
-            "row_content": "<p>Dan is de Academy jouw volgende stap.</p>",
+            "heading": "Wat maakt de Glo Pro Academy uniek?",
+            "icon": "lightning_bolt",
+            "row_content": "<ul><li>Opleidingen exclusief voor professionals</li><li>Onderbouwd door huidkennis én praktijkervaring</li><li>Focus op resultaat, niet enkel op trends</li><li>Kleine groepen, hoge kwaliteit</li><li>Brug tussen skincare, make-up en business</li></ul>",
             "page": ""
           }
         },
         "collapsible_row_CVacNw": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Werk je nog niet met Glo, maar wil je dat wel?",
+            "heading": "Coaching & Business Support",
             "icon": "chat_bubble",
-            "row_content": "<p>Dan is dit jouw <strong>instap naar skincare make-up op professioneel niveau</strong>.</p>",
+            "row_content": "<p>Doel: Glo positioneren als groeipartner, niet enkel als merk.</p><ul><li>1-op-1 coachingsessies</li><li>Salon- & retailcoaching</li><li>Make-up coaching (technisch én commercieel)</li><li>Strategische groeisessies</li></ul>",
             "page": ""
           }
         }
@@ -249,7 +240,6 @@
         "collapsible_row_tD8CWX",
         "collapsible_row_Maad4c",
         "collapsible_row_RwNcyj",
-        "collapsible_row_DQw4jW",
         "collapsible_row_CVacNw"
       ],
       "name": "t:sections.collapsible_content.presets.name",

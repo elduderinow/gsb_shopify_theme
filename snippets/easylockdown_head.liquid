@@ -229,8 +229,7 @@
 {% capture easylockdownPage404Message %}<p>Sorry, we couldn't find this page.</p>{% endcapture %}
 {% capture easylockdownRedirectURL %}login{% endcapture %}
 {% else %}
-{% unless elcTag1 %}{% assign easylockdownON = true %}{% endunless %}
-{% unless elcTag2 %}{% assign easylockdownON = true %}{% endunless %}
+{% unless elcTag1 or elcTag2 %}{% assign easylockdownON = true %}{% endunless %}
 {% if easylockdownON %}
 {% assign easylockdownON = true %}
 {% capture easylockdownPage404Title %}Page not found{% endcapture %}
@@ -243,8 +242,7 @@
 {% unless customer %}
 {% assign easylockdownHiddenPurchase = true %}
 {% else %}
-{% unless elcTag1 %}{% assign easylockdownHiddenPurchase = true %}{% endunless %}
-{% unless elcTag2 %}{% assign easylockdownHiddenPurchase = true %}{% endunless %}
+{% unless elcTag1 or elcTag2 %}{% assign easylockdownHiddenPurchase = true %}{% endunless %}
 {% endunless %}
 {% endif %}
 {% endunless %}

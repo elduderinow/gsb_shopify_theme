@@ -101,9 +101,10 @@
               </svg>
             </div>
           </button>
-          {%- if show_dynamic_checkout -%}
+          {%comment%} Disable dynamic checkout for now, this sends the user to the checkout page instead of the cart page {% endcomment %}
+          {% comment %} {%- if show_dynamic_checkout -%}
             {{ form | payment_button }}
-          {%- endif -%}
+          {%- endif -%} {% endcomment %}
         </div>
       {%- endform -%}
     </product-form>

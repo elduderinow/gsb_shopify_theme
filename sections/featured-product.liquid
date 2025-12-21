@@ -276,6 +276,13 @@
                 </div>
               </div>
             {%- endif -%}
+            {% elsif product.tags contains 'Pro Academy' %}
+              <a
+                href="{{ routes.collections_url }}/glo-pro-academie#readmore"
+                class="button button--primary"
+              >
+                Schrijf je in voor de Glo Pro Academy
+              </a>
           {%- else -%}
             <a
               href="/pages/store-locator"

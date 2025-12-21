@@ -136,7 +136,7 @@
               {{ block.shopify_attributes }}
             >
               {% comment %} TODO: enable theme-check once `item_count_for_variant` is accepted as valid filter {% endcomment %}
-              {% # theme-check-disable %}
+              {% # theme-check-disable %} 
               {%- assign cart_qty = cart | item_count_for_variant: product.selected_or_first_available_variant.id -%}
               {% # theme-check-enable %}
               <label class="quantity__label form__label" for="Quantity-{{ section.id }}">
@@ -229,6 +229,13 @@
               show_pickup_availability: true
             -%}
           {%- endif -%}
+        {% elsif product.tags contains 'Pro Academy' %}
+            <a
+              href="{{ routes.collections_url }}/glo-pro-academie#readmore"
+              class="button button--primary"
+            >
+              Schrijf je in voor de Glo Pro Academy
+            </a>
         {%- else -%}
           <a
             href="/pages/store-locator"

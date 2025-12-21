@@ -366,7 +366,7 @@
         {%- endcase -%}
       {%- endfor -%}
       {% if customer %}
-        {% if customer.tags contains 'B2B' %}
+        {% if customer.tags contains 'B2B' or customer.tags contains 'PROSPECT' %}
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {%- liquid
           if cart == empty

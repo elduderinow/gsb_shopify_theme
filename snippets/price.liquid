@@ -29,7 +29,7 @@
     assign money_price = 'products.product.price.from_price_html' | t: price: money_price
   endif
 
-  if customer.tags contains 'PROSPECT' and product.tags contains 'Pro Academy'
+  if product.tags contains 'Pro Academy'
     assign show_price = true
     assign show_badges = false
   else

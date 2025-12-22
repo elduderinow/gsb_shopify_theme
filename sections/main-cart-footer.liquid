@@ -27,6 +27,7 @@
           value="business"
           form="cart"
         >
+          {{ customer.metafields.app.pop_vat|json }}
         <div class="field">
           <label for="Cart-POP-VAT" class="field__label">
             {{ 'sections.cart.vat_number' | t | default: 'VAT Number (required)' }}

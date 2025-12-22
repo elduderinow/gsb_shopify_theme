@@ -233,6 +233,7 @@
         },
         "column_eg9GQh": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/GloSkinBeauty-HA-ReviveHyaluronicMist_0823.jpg",
             "title": "",

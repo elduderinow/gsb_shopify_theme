@@ -43,7 +43,7 @@
               required
               pattern="^[A-Z]{2}[0-9A-Z]{2,12}$"
               title="{{ 'sections.cart.vat_number_format' | t | default: 'Format: Country code + VAT number (e.g., IT12345678901, DE123456789)' }}"
-              value="{% if customer and customer.metafields.app.pop_vat %} {{ customer.metafields.app.pop_vat }}  {% else %}{{ cart.attributes.pop_vat }} {% endif %}"
+              value="{% if customer and customer.metafields.app.pop_vat %}{{ customer.metafields.app.pop_vat }}{% else %}{{ cart.attributes.pop_vat }} {% endif %}"
             >
           </div>
         </div>

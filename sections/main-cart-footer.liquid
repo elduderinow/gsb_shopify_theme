@@ -44,10 +44,10 @@
             title="{{ 'sections.cart.vat_number_format' | t | default: 'Format: Country code + VAT number (e.g., IT12345678901, DE123456789)' }}"
             value="{% if customer and customer.metafields.app.pop_vat %} {{ customer.metafields.app.pop_vat }}  {% else %}{{ cart.attributes.pop_vat }} {% endif %}"
           >
-          <small class="field__description">
+        </div>
+        <small class="field__description">
             {{ 'sections.cart.vat_number_help' | t | default: 'Enter your VAT number with country prefix (e.g., IT12345678901)' }}
           </small>
-        </div>
       </div>
 
       <div class="cart__blocks">

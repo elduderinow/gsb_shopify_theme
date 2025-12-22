@@ -15,15 +15,15 @@
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/GSB_Holiday2025-FullCollection.jpg",
+            "image": "shopify://shop_images/LIVS5081-Edit.jpg",
             "heading": "<strong>Limited Edition</strong>",
             "heading_size": "h2",
-            "color_option_id": "#ffffff",
+            "color_option_id": "#727272",
             "subheading": "<em>Holiday Kits 25'</em>",
             "subheading_size": "h5",
             "button_label": "Zoek een Professional",
             "link": "shopify://pages/store-locator",
-            "box_align": "bottom-left",
+            "box_align": "top-left",
             "text_alignment": "left",
             "image_overlay_opacity": 10,
             "text_alignment_mobile": "center"

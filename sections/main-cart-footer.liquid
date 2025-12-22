@@ -42,7 +42,7 @@
             required
             pattern="^[A-Z]{2}[0-9A-Z]{2,12}$"
             title="{{ 'sections.cart.vat_number_format' | t | default: 'Format: Country code + VAT number (e.g., IT12345678901, DE123456789)' }}"
-            value="{{ cart.attributes.pop_vat }}"
+            value="test"
           >
           <small class="field__description">
             {{ 'sections.cart.vat_number_help' | t | default: 'Enter your VAT number with country prefix (e.g., IT12345678901)' }}

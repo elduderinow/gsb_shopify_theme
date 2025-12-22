@@ -20,6 +20,7 @@
       {%- endif -%}
 
       <!-- POP Electronic Invoicing Fields (B2B) -->
+      <div class="cart_pop-fields__wrapper">
       <div class="cart__pop-fields field">
         <input
           type="hidden"
@@ -49,6 +50,8 @@
             {{ 'sections.cart.vat_number_help' | t | default: 'Enter your VAT number with country prefix (e.g., IT12345678901)' }}
           </small>
       </div>
+       </div>
+
 
       <div class="cart__blocks">
         {% for block in section.blocks %}

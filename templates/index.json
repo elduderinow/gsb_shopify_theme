@@ -15,15 +15,15 @@
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/LIVS5081-Edit.jpg",
-            "heading": "<strong>Limited Edition</strong>",
+            "image": "shopify://shop_images/GloSkinBeauty-TopRated_0124.jpg",
+            "heading": "",
             "heading_size": "h2",
             "color_option_id": "#ffffff",
-            "subheading": "<em>Holiday Kits 25'</em>",
+            "subheading": "",
             "subheading_size": "h5",
             "button_label": "Zoek een Professional",
             "link": "shopify://pages/store-locator",
-            "box_align": "top-left",
+            "box_align": "bottom-left",
             "text_alignment": "left",
             "image_overlay_opacity": 10,
             "text_alignment_mobile": "center"
@@ -845,7 +845,7 @@
       "type": "apps",
       "blocks": {
         "62704630-e4fc-454a-b766-ff2c983c71dc": {
-          "type": "shopify://apps/instafeed-story/blocks/app-block-feeds/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
+          "type": "shopify://apps/instafeed/blocks/app-block-feeds/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
           "settings": {}
         }
       },

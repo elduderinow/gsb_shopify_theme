@@ -30,18 +30,31 @@
   endif
 
   comment
-    No customer = guest: never show price. Check first so we never fall through to fallbacks.
+    Can see price: guest never; B2B always; PROSPECT only when product has Pro Academy and not Professional.
+    Inline logic (no include) so snippet works when rendered.
   endcomment
+  assign show_price = false
   if customer == blank
     assign show_price = false
-  elsif customer_can_see_price
+  elsif customer.tags contains 'B2B'
     assign show_price = true
     assign show_badges = false
-  elsif product.tags contains 'Pro Academy'
-    assign show_price = true
-    assign show_badges = false
-  else
-    assign show_price = false
+  elsif customer.tags contains 'PROSPECT'
+    assign p_has_pro_academy = false
+    assign p_has_professional = false
+    if product.tags contains 'Pro Academy'
+      assign p_has_pro_academy = true
+    endif
+    if product.tags contains 'Professional'
+      assign p_has_professional = true
+    endif
+    if product.tags contains 'professional'
+      assign p_has_professional = true
+    endif
+    if p_has_pro_academy and p_has_professional == false
+      assign show_price = true
+      assign show_badges = false
+    endif
   endif
 -%}
 

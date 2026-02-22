@@ -1,3 +1,4 @@
+{% include 'customer-tiers' %}
 <link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-search.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-menu-drawer.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -169,9 +170,9 @@
   -%}
   <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}{% if social_links %} header--has-social{% endif %}{% if shop.customer_accounts_enabled %} header--has-account{% endif %}{% if localization_forms %} header--has-localizations{% endif %}">
     {%- comment -%} TEMP: customer tags debug - remove when done {%- endcomment -%}
-    <div style="font-size: 0.75rem; padding: 0.25rem 0.5rem; background: #f0f0f0; color: #333; margin: 0 auto; text-align: center;">
+    {% comment %} <div style="font-size: 0.75rem; padding: 0.25rem 0.5rem; background: #f0f0f0; color: #333; margin: 0 auto; text-align: center;">
       {% if customer %}Tags: {{ customer.tags | join: ', ' }}{% else %}(no customer){% endif %}
-    </div>
+    </div> {% endcomment %}
     {%- liquid
       if section.settings.menu != blank
         render 'header-drawer'

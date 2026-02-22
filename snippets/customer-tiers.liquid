@@ -25,13 +25,14 @@
     assign customer_can_see_price = false
     assign customer_can_add_to_cart = false
     assign customer_can_checkout = false
-  elsif tier_product
+  elsif customer_tier == 'b2b'
+    assign customer_can_see_price = true
+    assign customer_can_add_to_cart = true
+    assign customer_can_checkout = true
+  endif
+
+  if tier_product and customer_tier == 'prospect'
     assign p = tier_product
-    if customer_tier == 'b2b'
-      assign customer_can_see_price = true
-      assign customer_can_add_to_cart = true
-      assign customer_can_checkout = true
-    elsif customer_tier == 'prospect'
       assign product_has_pro_academy = false
       assign product_has_professional = false
       if p.tags contains 'Pro Academy'
@@ -47,6 +48,5 @@
         assign customer_can_add_to_cart = true
         assign customer_can_checkout = true
       endif
-    endif
   endif
 -%}

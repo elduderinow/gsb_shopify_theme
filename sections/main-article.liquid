@@ -107,7 +107,6 @@
           aria-label="{{ 'general.slider.name' | t }}"
         >
           {%- for product in featured_products limit: 10 -%}
-            {% include 'easylockdown_filter_collection' with product %}
             <li
               id="Slide-{{ section.id }}-{{ forloop.index }}"
               class="grid__item slider__slide scroll-trigger animate--slide-in"

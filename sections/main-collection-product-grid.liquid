@@ -174,7 +174,6 @@
               "
             >
               {%- for product in collection.products -%}
-                {% render 'easylockdown_filter_collection' with product %}
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
                   {%- assign lazy_load = true -%}

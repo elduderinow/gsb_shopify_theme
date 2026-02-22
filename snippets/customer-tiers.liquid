@@ -1,0 +1,52 @@
+{% comment %}
+  Centralized customer tier logic (B2B / PROSPECT / guest).
+  Use {% include 'customer-tiers' %} so variables are set in parent scope.
+  Optionally set tier_product (product or card_product) before include to get
+  product-specific customer_can_see_price and customer_can_add_to_cart.
+{% endcomment %}
+{%- liquid
+  assign customer_tier = 'guest'
+  assign customer_has_store_access = false
+  assign customer_can_see_price = false
+  assign customer_can_add_to_cart = false
+  assign customer_can_checkout = false
+
+  if customer
+    if customer.tags contains 'B2B'
+      assign customer_tier = 'b2b'
+      assign customer_has_store_access = true
+    elsif customer.tags contains 'PROSPECT'
+      assign customer_tier = 'prospect'
+      assign customer_has_store_access = true
+    endif
+  endif
+
+  if customer_has_store_access == false
+    assign customer_can_see_price = false
+    assign customer_can_add_to_cart = false
+    assign customer_can_checkout = false
+  elsif tier_product
+    assign p = tier_product
+    if customer_tier == 'b2b'
+      assign customer_can_see_price = true
+      assign customer_can_add_to_cart = true
+      assign customer_can_checkout = true
+    elsif customer_tier == 'prospect'
+      assign product_has_pro_academy = false
+      assign product_has_professional = false
+      if p.tags contains 'Pro Academy'
+        assign product_has_pro_academy = true
+      endif
+      if p.tags contains 'Professional' or p.tags contains 'professional'
+        assign product_has_professional = true
+      endif
+      if product_has_pro_academy and product_has_professional == false
+        assign customer_can_see_price = true
+      endif
+      if product_has_pro_academy
+        assign customer_can_add_to_cart = true
+        assign customer_can_checkout = true
+      endif
+    endif
+  endif
+-%}

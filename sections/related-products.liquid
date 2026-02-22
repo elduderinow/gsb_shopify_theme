@@ -34,6 +34,8 @@
         role="list"
       >
         {% for recommendation in recommendations.products %}
+          {% assign tier_product = recommendation %}
+          {% include 'customer-tiers' %}
           <li class="grid__item">
             {% render 'card-product',
               card_product: recommendation,

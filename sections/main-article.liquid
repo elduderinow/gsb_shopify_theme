@@ -107,6 +107,8 @@
           aria-label="{{ 'general.slider.name' | t }}"
         >
           {%- for product in featured_products limit: 10 -%}
+            {% assign tier_product = product %}
+            {% include 'customer-tiers' %}
             <li
               id="Slide-{{ section.id }}-{{ forloop.index }}"
               class="grid__item slider__slide scroll-trigger animate--slide-in"

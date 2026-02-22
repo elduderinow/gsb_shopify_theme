@@ -168,6 +168,10 @@
     endif
   -%}
   <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}{% if social_links %} header--has-social{% endif %}{% if shop.customer_accounts_enabled %} header--has-account{% endif %}{% if localization_forms %} header--has-localizations{% endif %}">
+    {%- comment -%} TEMP: customer tags debug - remove when done {%- endcomment -%}
+    <div style="font-size: 0.75rem; padding: 0.25rem 0.5rem; background: #f0f0f0; color: #333; margin: 0 auto; text-align: center;">
+      {% if customer %}Tags: {{ customer.tags | join: ', ' }}{% else %}(no customer){% endif %}
+    </div>
     {%- liquid
       if section.settings.menu != blank
         render 'header-drawer'
@@ -306,13 +310,13 @@
           </localization-form>
         {%- endif -%}
       </div>
-        {%- if customer.tags contains 'B2B' or customer.tags contains 'PROSPECT' -%}
+        {%- if customer_has_store_access -%}
       {% render 'header-search', input_id: 'Search-In-Modal' %}
            {%- endif -%}
 
       {%- if shop.customer_accounts_enabled -%}
         {%- if customer -%}
-          {%- if customer.tags contains 'B2B' or customer.tags contains 'PROSPECT' -%}
+          {%- if customer_has_store_access -%}
             <a href="{{ routes.account_url }}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
               {% render 'icon-account' %}
               <span class="visually-hidden">
@@ -365,8 +369,7 @@
             {% render block %}
         {%- endcase -%}
       {%- endfor -%}
-      {% if customer %}
-        {% if customer.tags contains 'B2B' or customer.tags contains 'PROSPECT' %}
+      {% if customer_has_store_access %}
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {%- liquid
           if cart == empty
@@ -385,8 +388,7 @@
           </div>
         {%- endif -%}
       </a>
-    {%- endif -%}
-  {%- endif -%}
+      {%- endif -%}
     </div>
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>

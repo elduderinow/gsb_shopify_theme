@@ -108,6 +108,8 @@
             <p>{{ product.metafields.custom.weight }}</p>
           {% endunless %}
         </div>
+        {% assign tier_product = product %}
+        {% include 'customer-tiers' %}
         <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
           {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
         </div>
@@ -128,8 +130,7 @@
             {{ form | payment_terms }}
           {%- endform -%}
         </div>
-        {% if customer %}
-          {% if customer.tags contains 'B2B' or customer.tags contains 'PROSPECT' and product.tags contains 'Pro Academy' %}
+        {% if customer_can_add_to_cart %}
             <div
               id="Quantity-Form-{{ section.id }}"
               class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}"
@@ -228,7 +229,6 @@
               section_id: section.id,
               show_pickup_availability: true
             -%}
-          {%- endif -%}
         {% elsif product.tags contains 'Pro Academy' %}
             <a
               href="{{ routes.collections_url }}/glo-pro-academie#readmore"
@@ -616,6 +616,8 @@
                               <div id="Slide-{{ block.id }}-{{ forloop.index }}" class="complementary-slide complementary-slide--{{ settings.card_style }} grid__item slider__slide slideshow__slide" tabindex="-1" role="group"{% if number_of_slides > 1 %} aria-roledescription="{{ 'sections.slideshow.slide' | t }}" aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"{% endif %}>
                                 <ul class="list-unstyled" role="list">
                                   {%- for product in recommendations.products limit: block.settings.products_per_page offset: continue -%}
+                                    {% assign tier_product = product %}
+                                    {% include 'customer-tiers' %}
                                     <li>
                                       {% render 'card-product',
                                         card_product: product,

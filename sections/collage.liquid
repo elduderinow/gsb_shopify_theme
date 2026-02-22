@@ -89,6 +89,8 @@
                 </div>
               </div>
             {%- when 'product' -%}
+              {% assign tier_product = block.settings.product %}
+              {% include 'customer-tiers' %}
               {% render 'card-product',
                 card_product: block.settings.product,
                 media_aspect_ratio: 'adapt',

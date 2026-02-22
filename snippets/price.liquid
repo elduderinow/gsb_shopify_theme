@@ -29,7 +29,15 @@
     assign money_price = 'products.product.price.from_price_html' | t: price: money_price
   endif
 
-  if product.tags contains 'Pro Academy'
+  comment
+    No customer = guest: never show price. Check first so we never fall through to fallbacks.
+  endcomment
+  if customer == blank
+    assign show_price = false
+  elsif customer_can_see_price
+    assign show_price = true
+    assign show_badges = false
+  elsif product.tags contains 'Pro Academy'
     assign show_price = true
     assign show_badges = false
   else
@@ -37,8 +45,9 @@
   endif
 -%}
 
+{%- if show_price -%}
 <div class="
-    {%- if show_price %} price_prospect {% else %} price {% endif -%}
+    price_prospect
     {%- if price_class %} {{ price_class }}{% endif -%}
     {%- if available == false %} price--sold-out {% endif -%}
     {%- if compare_at_price > price %} price--on-sale {% endif -%}
@@ -100,3 +109,4 @@
     </span>
   {%- endif -%}
 </div>
+{%- endif -%}

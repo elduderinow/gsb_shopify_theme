@@ -200,7 +200,7 @@
             {% render 'price', product: card_product, price_class: '' %}
           </div>
         </div>
-        {%- if customer.tags contains 'B2B' -%}
+        {%- if customer_can_add_to_cart -%}
           {%- if show_quick_add -%}
             <div class="quick-add no-js-hidden">
               {%- liquid

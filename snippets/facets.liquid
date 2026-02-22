@@ -81,7 +81,7 @@
                       </a>
                     </facet-remove>
                   {%- endfor -%}
-                  {% if customer and customer.tags contains 'B2B' and filter.type == 'price_range' %}
+                  {% if customer_tier == 'b2b' and filter.type == 'price_range' %}
                     {%- if filter.min_value.value != null or filter.max_value.value != null -%}
                       <facet-remove>
                         <a href="{{ filter.url_to_remove }}" class="active-facets__button active-facets__button--light">
@@ -206,7 +206,7 @@
                                     stroke-linejoin="round" />
                                 </svg>
 
-                                <span aria-hidden="true">{{ value.label | escape }} {% if customer and customer.tags contains 'B2B' %}({{ value.count }}) {% endif % %}</span>
+                                <span aria-hidden="true">{{ value.label | escape }} {% if customer_tier == 'b2b' %}({{ value.count }}) {% endif %}</span>
                                 <span class="visually-hidden">
                                   {{- value.label | escape }} (
                                   {%- if value.count == 1 -%}
@@ -304,7 +304,7 @@
                     </div>
                   </details>
                 {% when 'price_range' %}
-                  {% if customer and customer.tags contains 'B2B' %}
+                  {% if customer_tier == 'b2b' %}
                   {% liquid
                     assign currencies_using_comma_decimals = 'ANG,ARS,BRL,BYN,BYR,CLF,CLP,COP,CRC,CZK,DKK,EUR,HRK,HUF,IDR,ISK,MZN,NOK,PLN,RON,RUB,SEK,TRY,UYU,VES,VND' | split: ','
                     assign uses_comma_decimals = false

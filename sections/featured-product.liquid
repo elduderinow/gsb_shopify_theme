@@ -151,6 +151,8 @@
             {%- endif -%}
           </h2>
 
+          {% assign tier_product = product %}
+          {% include 'customer-tiers' %}
           <div class="no-js-hidden" id="price-{{ section.id }}" role="status">
             {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
           </div>
@@ -172,8 +174,7 @@
               {%- endform -%}
             </div>
           {%- endif -%}
-          {% if customer %}
-            {% if customer.tags contains 'B2B' or customer.tags contains 'PROSPECT' and product.tags contains 'Pro Academy' %}
+          {% if customer_can_add_to_cart %}
               <div
                 id="Quantity-Form-{{ section.id }}"
                 class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}"
@@ -275,7 +276,6 @@
                   -%}
                 </div>
               </div>
-            {%- endif -%}
             {% elsif product.tags contains 'Pro Academy' %}
               <a
                 href="{{ routes.collections_url }}/glo-pro-academie#readmore"

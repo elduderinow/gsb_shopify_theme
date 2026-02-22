@@ -15,11 +15,11 @@
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/GSB_Holiday2025-FullCollection.jpg",
-            "heading": "<strong>Limited Edition</strong>",
+            "image": "shopify://shop_images/GSB_ModernMatteFoundation_Group2.jpg",
+            "heading": "<strong>Modern Matte Foundation </strong>",
             "heading_size": "h2",
-            "color_option_id": "#ffffff",
-            "subheading": "<em>Holiday Kits 25'</em>",
+            "color_option_id": "#727272",
+            "subheading": "<em>Coming Soon...</em>",
             "subheading_size": "h5",
             "button_label": "Zoek een Professional",
             "link": "shopify://pages/store-locator",
@@ -845,7 +845,7 @@
       "type": "apps",
       "blocks": {
         "62704630-e4fc-454a-b766-ff2c983c71dc": {
-          "type": "shopify://apps/instafeed-story/blocks/app-block-feeds/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
+          "type": "shopify://apps/instafeed/blocks/app-block-feeds/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
           "settings": {}
         }
       },

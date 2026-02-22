@@ -310,7 +310,11 @@
       "login": {
         "title": "Have an account?",
         "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in<\/a> to check out faster."
-      }
+      },
+      "vat_number": "VAT Number (required)",
+      "vat_number_placeholder": "IT12345678901",
+      "vat_number_format": "Format: Country code + VAT number (e.g., IT12345678901, DE123456789)",
+      "vat_number_help": "Enter your VAT number with country prefix (e.g., IT12345678901)"
     },
     "footer": {
       "payment": "Payment methods"

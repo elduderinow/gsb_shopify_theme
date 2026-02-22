@@ -20,35 +20,38 @@
       {%- endif -%}
 
       <!-- POP Electronic Invoicing Fields (B2B) -->
-      <div class="cart__pop-fields field">
-        <input
-          type="hidden"
-          name="attributes[pop_customer_type]"
-          value="business"
-          form="cart"
-        >
-        <div class="field">
-          <label for="Cart-POP-VAT" class="field__label">
-            {{ 'sections.cart.vat_number' | t | default: 'VAT Number (required)' }}
-            <span aria-hidden="true">*</span>
-          </label>
+      <div class="cart_pop-fields__wrapper">
+        <div class="cart__pop-fields field">
           <input
-            type="text"
-            id="Cart-POP-VAT"
-            class="field__input"
-            name="attributes[pop_vat]"
+            type="hidden"
+            name="attributes[pop_customer_type]"
+            value="business"
             form="cart"
-            placeholder="{{ 'sections.cart.vat_number_placeholder' | t | default: 'IT12345678901' }}"
-            required
-            pattern="^[A-Z]{2}[0-9A-Z]{2,12}$"
-            title="{{ 'sections.cart.vat_number_format' | t | default: 'Format: Country code + VAT number (e.g., IT12345678901, DE123456789)' }}"
-            value="{{ cart.attributes.pop_vat }}"
           >
-          <small class="field__description">
-            {{ 'sections.cart.vat_number_help' | t | default: 'Enter your VAT number with country prefix (e.g., IT12345678901)' }}
-          </small>
+          <div class="field">
+            <label for="Cart-POP-VAT" class="field__label">
+              {{ 'sections.cart.vat_number' | t | default: 'VAT Number (required)' }}
+              <span aria-hidden="true">*</span>
+            </label>
+            <input
+              type="text"
+              id="Cart-POP-VAT"
+              class="field__input"
+              name="attributes[pop_vat]"
+              form="cart"
+              placeholder="{{ 'sections.cart.vat_number_placeholder' | t | default: 'IT12345678901' }}"
+              required
+              pattern="^[A-Z]{2}[0-9A-Z]{2,12}$"
+              title="{{ 'sections.cart.vat_number_format' | t | default: 'Format: Country code + VAT number (e.g., IT12345678901, DE123456789)' }}"
+              value="{% if customer and customer.metafields.app.pop_vat %}{{ customer.metafields.app.pop_vat }}{% else %}{{ cart.attributes.pop_vat }} {% endif %}"
+            >
+          </div>
         </div>
-      </div>
+         <small class="field__description">
+              {{ 'sections.cart.vat_number_help' | t | default: 'Enter your VAT number with country prefix (e.g., IT12345678901)' }}
+            </small>
+       </div>
+
 
       <div class="cart__blocks">
         {% for block in section.blocks %}

@@ -268,6 +268,11 @@
 
   <body class="gradient">
     {% include 'customer-tiers' %}
+    {% if collection_access_blocked or page_access_blocked %}
+      <script>window.location.replace('{{ routes.root_url }}');</script>
+      <noscript><meta http-equiv="refresh" content="0;url={{ routes.root_url }}"></noscript>
+      <p>Redirecting...</p>
+    {% else %}
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
@@ -348,5 +353,6 @@
       {% include 'wcp_cart' %}
     {% endif %}
     <!-- WPD End -->
+    {% endif %}
   </body>
 </html>

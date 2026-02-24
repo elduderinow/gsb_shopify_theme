@@ -30,12 +30,15 @@
   endif
 
   comment
-    Can see price: guest never; B2B always; PROSPECT only when product has Pro Academy and not Professional.
+    Can see price: guest only for Pro Academy; B2B always; PROSPECT only when product has Pro Academy and not Professional.
     Inline logic (no include) so snippet works when rendered.
   endcomment
   assign show_price = false
   if customer == blank
-    assign show_price = false
+    if product.tags contains 'Pro Academy'
+      assign show_price = true
+      assign show_badges = false
+    endif
   elsif customer.tags contains 'B2B'
     assign show_price = true
     assign show_badges = false

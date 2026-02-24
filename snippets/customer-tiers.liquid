@@ -33,20 +33,68 @@
 
   if tier_product and customer_tier == 'prospect'
     assign p = tier_product
-      assign product_has_pro_academy = false
-      assign product_has_professional = false
-      if p.tags contains 'Pro Academy'
-        assign product_has_pro_academy = true
+    assign product_has_pro_academy = false
+    assign product_has_professional = false
+    if p.tags contains 'Pro Academy'
+      assign product_has_pro_academy = true
+    endif
+    if p.tags contains 'Professional' or p.tags contains 'professional'
+      assign product_has_professional = true
+    endif
+    if product_has_pro_academy and product_has_professional == false
+      assign customer_can_see_price = true
+    endif
+    if product_has_pro_academy
+      assign customer_can_add_to_cart = true
+      assign customer_can_checkout = true
+    endif
+  endif
+
+  if tier_product and customer_tier == 'guest'
+    assign p = tier_product
+    if p.tags contains 'Pro Academy'
+      assign customer_can_see_price = true
+    endif
+  endif
+
+  comment
+    Pipe-delimited list of nav child link titles to hide in mega menu (only when not B2B).
+  endcomment
+  if customer_tier == 'b2b'
+    assign hidden_child_titles = ''
+  else
+    assign hidden_child_titles = '|Presentaties||Klanten Portaal||Snelle toegang|'
+  endif
+
+  comment
+    Block collection paths (redirect to homepage) only when customer is not B2B.
+  endcomment
+  assign collection_access_blocked = false
+  if customer_tier != 'b2b'
+    assign blocked_collection_paths = '|/collections/b2b-all-skincare||/collections/b2b-all-makeup-2023|'
+    assign path_segments = blocked_collection_paths | split: '|'
+    for path_segment in path_segments
+      if path_segment != blank
+        if request.path contains path_segment
+          assign collection_access_blocked = true
+        endif
       endif
-      if p.tags contains 'Professional' or p.tags contains 'professional'
-        assign product_has_professional = true
+    endfor
+  endif
+
+  comment
+    Block page paths (redirect to homepage) only when customer is not B2B.
+  endcomment
+  assign page_access_blocked = false
+  if customer_tier != 'b2b'
+    assign blocked_pages_paths = '|/pages/displays||/pages/klanten-portaal|'
+    assign page_segments = blocked_pages_paths | split: '|'
+    for path_segment in page_segments
+      if path_segment != blank
+        if request.path contains path_segment
+          assign page_access_blocked = true
+        endif
       endif
-      if product_has_pro_academy and product_has_professional == false
-        assign customer_can_see_price = true
-      endif
-      if product_has_pro_academy
-        assign customer_can_add_to_cart = true
-        assign customer_can_checkout = true
-      endif
+    endfor
   endif
 -%}

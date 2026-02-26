@@ -141,11 +141,11 @@
         "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-0": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/GSB_Holiday2025-FullCollection.jpg",
-            "title": "Holiday Kits 2025",
-            "text": "<p>New</p>",
+            "image": "shopify://shop_images/US_DailyAntioxidantPowderDuo_134d8b98-edf0-4b31-914c-285a931ad4cb.png",
+            "title": "Daily Antioxidant Power Duo",
+            "text": "",
             "link_label": "Meer Info",
-            "link": "shopify://collections/holiday-2025",
+            "link": "shopify://products/daily-antioxidant-power-duo-1",
             "bg_color": "#000000",
             "bg_opacity": 30
           }
@@ -165,11 +165,23 @@
         "2fc92817-1265-4478-8cf7-5f7170c36be2": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/EverydayEffortlessBeautyKit_noshadow.jpg",
-            "title": "Everyday Effortless Beauty Kit",
-            "text": "<p>New</p>",
+            "image": "shopify://shop_images/EGF_Age-Defying_Collection_1_88a91826-fbba-41f3-82ef-9b2d6819fa7c.jpg",
+            "title": "EGF Age Defying Collection",
+            "text": "",
             "link_label": "Meer info",
-            "link": "shopify://collections/limited-edition-everyday-effortless-beauty-kit",
+            "link": "shopify://products/egf-age-defying-collection-limited-edition-nieuw",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        },
+        "column_88Fam6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CopyofBio-RenewEGFRepairMiniSet_613085f9-37ca-4713-b621-ed05c8c260c5.jpg",
+            "title": "Bio-Renew EGF Repair Mini Set",
+            "text": "",
+            "link_label": "Meer Info",
+            "link": "shopify://products/bio-renew-egf-repair-mini-set",
             "bg_color": "#000000",
             "bg_opacity": 30
           }
@@ -178,7 +190,8 @@
       "block_order": [
         "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-0",
         "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-1",
-        "2fc92817-1265-4478-8cf7-5f7170c36be2"
+        "2fc92817-1265-4478-8cf7-5f7170c36be2",
+        "column_88Fam6"
       ],
       "settings": {
         "image_grid": "grid",

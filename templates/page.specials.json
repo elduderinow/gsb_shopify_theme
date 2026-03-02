@@ -29,6 +29,15 @@
     "f6b56644-2574-4e00-8752-bd14ce7b7e25": {
       "type": "highlight",
       "blocks": {
+        "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7": {
+          "type": "highlight",
+          "settings": {
+            "image": "shopify://shop_images/GSB_ModernMatteFoundation_Group2.jpg",
+            "image_title": "Modern Matte Foundation",
+            "image_subtitle": "Meer info",
+            "highlight_url": "shopify://collections/face-foundation"
+          }
+        },
         "0bf05740-800b-4b9b-894b-61d5ce06cc68": {
           "type": "highlight",
           "settings": {
@@ -47,15 +56,6 @@
             "highlight_url": "shopify://collections/face-set"
           }
         },
-        "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7": {
-          "type": "highlight",
-          "settings": {
-            "image": "shopify://shop_images/GSB_ModernMatteFoundation_Group2.jpg",
-            "image_title": "Modern Matte Foundation",
-            "image_subtitle": "Meer info",
-            "highlight_url": "shopify://collections/face-foundation"
-          }
-        },
         "19d36a42-b3ad-400c-a700-19a089c1648f": {
           "type": "highlight",
           "settings": {
@@ -67,9 +67,9 @@
         }
       },
       "block_order": [
+        "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7",
         "0bf05740-800b-4b9b-894b-61d5ce06cc68",
         "caafd9d2-7a97-44ba-bff8-b9e226b70128",
-        "35d6ab70-0b6b-4646-b35b-b5ed1a2ef5a7",
         "19d36a42-b3ad-400c-a700-19a089c1648f"
       ],
       "settings": {

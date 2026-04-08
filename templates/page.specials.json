@@ -138,6 +138,18 @@
     "876ee66f-439e-4c6b-8c88-9f3c2de14e44": {
       "type": "image-image",
       "blocks": {
+        "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PDP_Hero_gray_mesh_makeup-bag.jpg",
+            "title": "Mini Etui - Leeg",
+            "text": "",
+            "link_label": "Meer info",
+            "link": "shopify://products/smokey-eye-kit-bag-empty",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        },
         "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-0": {
           "type": "column",
           "settings": {
@@ -146,18 +158,6 @@
             "text": "",
             "link_label": "Meer Info",
             "link": "shopify://products/daily-antioxidant-power-duo-1",
-            "bg_color": "#000000",
-            "bg_opacity": 30
-          }
-        },
-        "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Bio_Renew-EGF-Cell-Repairing-Facial5.png",
-            "title": "Bio Renew EGF Cell Repairing Box",
-            "text": "",
-            "link_label": "Meer info",
-            "link": "shopify://products/888-10-bio-renew-egf-cell-repairing-facial-limited-edition",
             "bg_color": "#000000",
             "bg_opacity": 30
           }
@@ -188,8 +188,8 @@
         }
       },
       "block_order": [
-        "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-0",
         "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-1",
+        "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-0",
         "2fc92817-1265-4478-8cf7-5f7170c36be2",
         "column_88Fam6"
       ],

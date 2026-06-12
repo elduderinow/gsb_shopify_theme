@@ -138,6 +138,18 @@
     "876ee66f-439e-4c6b-8c88-9f3c2de14e44": {
       "type": "image-image",
       "blocks": {
+        "2fc92817-1265-4478-8cf7-5f7170c36be2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PDP_Hero_204_angled_multitasker_brush.jpg",
+            "title": "204 Angled Multitasker Brush",
+            "text": "",
+            "link_label": "Meer info",
+            "link": "shopify://products/204-angled-multitasker-brush",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
+        },
         "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-1": {
           "type": "column",
           "settings": {
@@ -146,30 +158,6 @@
             "text": "",
             "link_label": "Meer info",
             "link": "shopify://products/smokey-eye-kit-bag-empty",
-            "bg_color": "#000000",
-            "bg_opacity": 30
-          }
-        },
-        "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/US_DailyAntioxidantPowderDuo_134d8b98-edf0-4b31-914c-285a931ad4cb.png",
-            "title": "Daily Antioxidant Power Duo",
-            "text": "",
-            "link_label": "Meer Info",
-            "link": "shopify://products/daily-antioxidant-power-duo-1",
-            "bg_color": "#000000",
-            "bg_opacity": 30
-          }
-        },
-        "2fc92817-1265-4478-8cf7-5f7170c36be2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/EGF_Age-Defying_Collection_1_88a91826-fbba-41f3-82ef-9b2d6819fa7c.jpg",
-            "title": "EGF Age Defying Collection",
-            "text": "",
-            "link_label": "Meer info",
-            "link": "shopify://products/egf-age-defying-collection-limited-edition-nieuw",
             "bg_color": "#000000",
             "bg_opacity": 30
           }
@@ -185,13 +173,25 @@
             "bg_color": "#000000",
             "bg_opacity": 30
           }
+        },
+        "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/US_DailyAntioxidantPowderDuo_134d8b98-edf0-4b31-914c-285a931ad4cb.png",
+            "title": "Daily Antioxidant Power Duo",
+            "text": "",
+            "link_label": "Meer Info",
+            "link": "shopify://products/daily-antioxidant-power-duo-1",
+            "bg_color": "#000000",
+            "bg_opacity": 30
+          }
         }
       },
       "block_order": [
-        "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-1",
-        "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-0",
         "2fc92817-1265-4478-8cf7-5f7170c36be2",
-        "column_88Fam6"
+        "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-1",
+        "column_88Fam6",
+        "template--19294323310939__876ee66f-439e-4c6b-8c88-9f3c2de14e44-16896013249b59a7eb-0"
       ],
       "settings": {
         "image_grid": "grid",

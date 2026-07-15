@@ -29,6 +29,23 @@
             "text_alignment_mobile": "center"
           }
         },
+        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/GSB_ModernMatteFoundation_Group2.jpg",
+            "heading": "<strong>Modern Matte Foundation</strong>",
+            "heading_size": "h2",
+            "color_option_id": "#727272",
+            "subheading": "<em>Nieuw in ons assortiment</em>",
+            "subheading_size": "h5",
+            "button_label": "Zoek een Professional",
+            "link": "shopify://products/0000-6-petal-pairings-kits-2x3-stuks",
+            "box_align": "bottom-left",
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "text_alignment_mobile": "center"
+          }
+        },
         "9eaf1a1a-60b6-45da-b983-20c7c7f5d573": {
           "type": "slide",
           "settings": {
@@ -45,29 +62,12 @@
             "image_overlay_opacity": 0,
             "text_alignment_mobile": "center"
           }
-        },
-        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/LuminousSettingPowder_ShadeExpansion_Collection_1.png",
-            "heading": "<strong>Liminous Setting Powder</strong>",
-            "heading_size": "h2",
-            "color_option_id": "#727272",
-            "subheading": "<em>Nieuw in ons assortiment</em>",
-            "subheading_size": "h5",
-            "button_label": "Zoek een Professional",
-            "link": "shopify://products/0000-6-petal-pairings-kits-2x3-stuks",
-            "box_align": "bottom-left",
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-0",
-        "9eaf1a1a-60b6-45da-b983-20c7c7f5d573",
-        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1"
+        "template--19143340065115__a9132cbf-2ea9-4bb0-96e9-1e58e1371a27-16872043996c4bbfe0-1",
+        "9eaf1a1a-60b6-45da-b983-20c7c7f5d573"
       ],
       "settings": {
         "layout": "full_bleed",
